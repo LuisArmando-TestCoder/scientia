@@ -43,7 +43,7 @@ En la tabla de verdad resultante, todas las representaciones de estado incierto 
 Si te atascas en un bucle paradójico, usa la regla de: "los casos múltiples causan implicaciones múltiples? Se tiene agencia sobre las acciones a partir de las implicaciones de algunos de los casos? Si se tiene, se hace algo al respecto o no, si no, pasa de largo de la superposición de estados" (aunque se puede cuestionar el control cuestionando la agencia propia, se da por hecho una agencia virtual como ancla axiomática).
 Notas extra (entre la estrutura recursiva):
 Los absolutismos (todo, nada, nunca siempre) se intentan refutar con contraejemplos.
-Los parcialismos se intentan reafirmar con casos positivos.
+Los algunismos se intentan reafirmar con casos positivos.
 Las indefiniciones o imparcialidades autoreferenciales deben ser etiquetadas como bucles infinitos.
 Las afirmaciones que necesitan decisiones axiomáticas o emergen dependencias sin resolver debe ser etiquetadas como incompletas.
 Si se necesita prever todos los estados posibles de cualquier sistemas caóticos indefinidos, se deben etiquetar con "irreducibilidad computacional".
@@ -228,7 +228,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
   ],
 
   "evaluacion_global": {
-    "estado": "verdadero | falso | indefinido", // Juicio lógico global del nodo tras el análisis recursivo.
+    "estado": "verdadero | falso | indefinido | autoreferencial", // Juicio lógico global del nodo tras el análisis recursivo.
     "criterio": "", // Justificación breve del estado elegido (ej. “paradoja no resuelta”, “coherencia formal alcanzada”, etc.)
   }
 }

@@ -3,7 +3,8 @@ import { callGPT4 } from './helper/callChatGPT4.ts';
 
 const callChatGPT4 = await callGPT4();
 
-const response = await callChatGPT4`
+export async function getClaimAnalysis(claim: string): Promise<string> {
+    const response = await callChatGPT4`
 [EXPLICACIÓN DEL MÉTODO]:
 Método recursivo de reducción epistemológica generador de analogías para zero shot reasoning (Oriens Omni)
 Decodificando el espectro de la creatividad para retroalimentar a los LLMs o a los humanos que usen este marco de pensamiento, haciendo que emerjan una meta-intelectualidad (la capacidad de comprender, observar y dirigir el funcionamiento del propio intelecto y de los procesos de generación de conocimiento) causal.
@@ -186,7 +187,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     {
       "afirmacion_refutada": "", // Afirmación cuestionada.
       "descripcion": "", // Situación, experimento, ejemplo o paradoja que la refuta.
-      "grado_de_refutacion": "parcial | total", // Qué tan fuerte es el contraejemplo.
+      "grado_de_refutacion": "parcial | total", // Qué tan fuerte es el contraejemplo. Si el grado de refutación es parcial, se debe indicar en la tabla de verdad que la aformación es falsa.
       "notas": "" // Observaciones, límites o sesgos del contraejemplo.
     }
     // ... agregar uno por cada afirmación potencialmente falsa o ambigua.
@@ -232,7 +233,21 @@ Cada iteración debería generar una versión más refinada de conciencia episte
   }
 }
 
-Ahora, analiza esta preposición: ${"Si queremos recibir lo que se recibe al dar, entonces debemos dar."}
+Ahora, analiza esta preposición: ${claim}
 `;
 
-console.log("response", JSON.parse(response))
+    try {
+        if (!response || typeof response !== 'string') {
+            throw new Error("Invalid response from the AI model.");
+        }
+        // Parse the response as JSON         
+        if (!response.startsWith('{') || !response.endsWith('}')) {
+            throw new Error("Response is not in valid JSON format.");
+        }
+        // Attempt to parse the response
+        return JSON.parse(response);
+    } catch (error) {
+        console.error("Error processing the claim analysis:", error);
+        throw new Error("Failed to analyze the claim due to an error in processing.");  
+    }
+}

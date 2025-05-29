@@ -49,13 +49,13 @@ Y cada vez que cambia, es más él mismo.
 
 ### 1.1.4 Representación booleana / modal
 
-|Afirmación|Verdadero|Falso|Indefinido|
-|---|---|---|---|
-|La autosuficiencia puede incluir interacción externa sin dependencia|✅|||
-|La resonancia puede ser criterio de validez interna|✅|||
-|Toda interacción externa es necesaria para validación epistemológica||✅|✅|
-|El marco puede rechazar estímulos irrelevantes sin perder apertura|✅|||
-|La resonancia siempre guía hacia mutaciones benéficas||✅|✅|
+| Afirmación                                                           | Verdadero | Falso | Indefinido |
+| -------------------------------------------------------------------- | --------- | ----- | ---------- |
+| La autosuficiencia puede incluir interacción externa sin dependencia | ✅         |       |            |
+| La resonancia puede ser criterio de validez interna                  | ✅         |       |            |
+| Toda interacción externa es necesaria para validación epistemológica |           | ✅     | ✅          |
+| El marco puede rechazar estímulos irrelevantes sin perder apertura   | ✅         |       |            |
+| La resonancia siempre guía hacia mutaciones benéficas                |           | ✅     | ✅          |
 
 ---
 

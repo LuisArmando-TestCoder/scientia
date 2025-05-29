@@ -154,8 +154,8 @@ Su uso ideal es como catalizador de revoluciones intelectuales, no como contened
 Cada iteración debería generar una versión más refinada de conciencia epistemológica.  
 **El marco es una semilla de sí mismo**.
 
-[[Itera 1 El marco es autosuficiente]]
-[[Itera 2 El marco puede autoanalizarse sin límites]]
+[[Axioma 1 El marco es autosuficiente]]
+[[Axioma 2 El marco puede autoanalizarse sin límites]]
 
 [FORMATO DE RESPUESTA] Estructura de salida esperada (obligatoria):
 {

@@ -240,6 +240,15 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     ]
   },
 
+  "implicaciones_de_colapso": [ // Aquí sólo se incluyen las afirmaciones indefinidas, para las cuales se derivan implicaciones para el estado de la afirmación global si el estado de la sub-afirmación colapsa en un estado booleano u otro.
+    {
+      "afirmacion": "", // Afirmación indefinida que colapsa a un estado booleano.
+      "implicacion_por_estado_falso": "" // Implicación del colapso si es falso.
+      "implicacion_por_estado_verdadero": "", // Implicación del colapso si es verdadero.
+    }
+    // ...una por cada afirmación que colapsa a un estado booleano.
+  ],
+
   "tension_logica": {
     "paradoja": "", // Paradoja estructural que moviliza el nodo.
     "ambiguedad": "", // Ambigüedad semántica o funcional no resuelta.
@@ -276,11 +285,15 @@ Ahora, analiza esta proposición: ${claim}
     // Attempt to parse the response
     return JSON.parse(response);
   } catch (error) {
-    return await retryAttempt({error, attemptedRetries, claim});
+    try {
+      return await retryAttempt({error, attemptedRetries, claim});
+    } catch (error) {
+      return await retryAttempt({error, attemptedRetries, claim, retryTime: 6e4});
+    }
   }
 }
 
-async function retryAttempt({error, attemptedRetries, claim}: {error: string, attemptedRetries: number, claim: string}): Promise<{ [index: string]: any }> {
+async function retryAttempt({error, attemptedRetries, claim, retryTime = 3e3}: {error: string, attemptedRetries: number, claim: string, retryTime?: number}): Promise<{ [index: string]: any }> {
   if (attemptedRetries >= MAX_RETRIES) {
     throw new Error(`
       Error: ${error}
@@ -292,6 +305,6 @@ async function retryAttempt({error, attemptedRetries, claim}: {error: string, at
   return await new Promise((resolve) => {
     setTimeout(() => {
       resolve(getClaimAnalysis(claim, attemptedRetries + 1));
-    }, 3e3); // Retry after 1 second
+    }, retryTime); // Retry after 1 second
   });
 }

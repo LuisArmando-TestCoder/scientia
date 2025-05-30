@@ -147,7 +147,7 @@ async function recursiveClaimAnalysis(
     childIndex++;
 
     if (uncertainty === 1 && !isIdentifierOnly(subClaim)) {
-      subtasks.push(recursiveClaimAnalysis(subClaim, nextPrefix, baseDir));
+      subtasks.push(recursiveClaimAnalysis(`${subClaim} (contexto: ${claim})`, nextPrefix, baseDir));
     }
   }
 

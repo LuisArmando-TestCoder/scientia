@@ -34,4 +34,8 @@ async function recursiveClaimAnalysis(claim: string) {
     await promisedClaim;
   }
 }
-const analysis = await recursiveClaimAnalysis(claim);
+
+await recursiveClaimAnalysis(claim);
+
+// TODO: Back propagate last non-self-referencing collapsed claims to the parent claims all the way up to the root claim
+console.log("Claim analysis completed.");

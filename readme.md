@@ -1,0 +1,1 @@
+Reasoning is not just a semantic emergent phenomena, is an algebraically boolean recursive operation applied (a thinking framework).

@@ -18,6 +18,9 @@ async function recursiveClaimAnalysis(claim: string) {
   for (const [
     claim, truth, contradiction, uncertainty,
   ] of analysis.tabla_verdad.filas) {
+    console.log(`sub claim (${
+        truth ? "truth" : contradiction ? "false" : uncertainty === 1 ? "uncertain" : "self-referential"
+    }): `, claim);
     if (uncertainty === 1) {
         // on purpose the await is synchronous to avoid too many cuncurrent requests
         await recursiveClaimAnalysis(claim);

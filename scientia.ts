@@ -233,6 +233,8 @@ Cada iteración debería generar una versión más refinada de conciencia episte
   }
 }
 
+Notas: Recuerda sólo devolver el JSON, sin ningún otro texto adicional, sin wrapping.
+
 Ahora, analiza esta proposición: ${claim}
 `;
 

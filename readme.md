@@ -1,4 +1,4 @@
-Reasoning is not just a semantic emergent phenomena, is an algebraically boolean recursive operation applied (a thinking framework).
+Reasoning is not just an iterativelly retrofeeding semantic emergent phenomena, is an algebraically boolean recursive operation applied (a thinking framework).
 
 ## Last stable version output
 

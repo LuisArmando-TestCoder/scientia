@@ -6,12 +6,12 @@ Example output 0 ```deno run --allow-env --allow-net --allow-write main.ts "Reas
 ```ts
 Starting claim analysis...
 [0] claim: Reasoning is not just an iterativelly retrofeeding semantic emergent phenomena, is an algebraically boolean recursive operation applied (a thinking framework).
-✅ Guardado → reasoning_is_not_just_an_iterativelly_retrofeeding_semantic/0 reasoning_as_more_than_semantic_emergence.json
-[0.1] sub claim: El razonamiento es sólo emergencia semántica (false)
-[0.2] sub claim: El razonamiento es sólo recursión booleana (false)
-[0.3] sub claim: El razonamiento es simultáneamente emergencia y recursión booleana (true)
-[0.4] sub claim: Toda emergencia es reducible a formalismo booleano (false)
-[0.5] sub claim: Toda formalización booleana puede expresar total sentido emergente (false)
+✅ Guardado → reasoning_is_not_just_an_iterativelly_retrofeeding_semantic/0 reasoning_is_not_just_an_iterativelly_retrofeeding_semantic.json
+[0.1] sub claim: El razonamiento es solo iteración semántica emergente (para todo caso) (false)
+[0.2] sub claim: El razonamiento es solo una operación booleana recursiva aplicada (para todo caso) (false)
+[0.3] sub claim: En algunos contextos, el razonamiento es booleana y recursivamente formalizable (true)
+[0.4] sub claim: En otros contextos, el razonamiento es fenómeno semántico emergente irreducible (true)
+[0.5] sub claim: El razonamiento siempre es dual entre lo booleando y lo semántico (true)
 Claim analysis completed.
 ```
 

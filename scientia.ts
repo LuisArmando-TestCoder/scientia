@@ -3,7 +3,7 @@ import { callGPT4 } from './helper/callChatGPT4.ts';
 
 const callChatGPT4 = await callGPT4();
 
-export async function getClaimAnalysis(claim: string): Promise<string> {
+export async function getClaimAnalysis(claim: string): Promise<{[index: string]: any}> {
     const response = await callChatGPT4`
 [EXPLICACIÓN DEL MÉTODO]:
 Método recursivo de reducción epistemológica generador de analogías para zero shot reasoning (Oriens Omni)
@@ -196,7 +196,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
   "tabla_verdad": {
     "columnas": ["afirmacion", "verdadero", "falso", "indefinido"], // Ejes de evaluación lógica modal.
     "filas": [
-      ["", 0, 0, 1] // Estructura: afirmación + verdad/falsedad/indefinición (1 o 0) (Sólo deben tener un estado, si el estado es parcial o ambiguo, se debe marcar como indefinido).
+      ["", 0, 0, 1] // Estructura: afirmación + verdad/falsedad/indefinición (1 o 0) (Sólo deben tener un estado, si el estado es parcial o ambiguo, se debe marcar como indefinido). Si una afirmación indefinida es autoreferencial el campo de indefindo debe ser null, en vez de 1.
     ]
   },
 
@@ -233,7 +233,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
   }
 }
 
-Ahora, analiza esta preposición: ${claim}
+Ahora, analiza esta proposición: ${claim}
 `;
 
     try {

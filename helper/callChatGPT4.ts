@@ -103,11 +103,11 @@ function calculateRateLimitBackoff(errorText: string, attempt: number): number {
     waitMilliseconds = parseFloat(waitMillisMatch[1]);
   } else {
     waitMilliseconds = 1000 * Math.pow(2, attempt - 1);
-    log(
-      `Rate limit error, no specific time found. Using exponential backoff: ${waitMilliseconds.toFixed(
-        0
-      )}ms`
-    );
+    // log(
+    //   `Rate limit error, no specific time found. Using exponential backoff: ${waitMilliseconds.toFixed(
+    //     0
+    //   )}ms`
+    // );
   }
   return Math.min(
     waitMilliseconds + Math.random() * 500,
@@ -128,12 +128,12 @@ async function handleApiResponse(
     try {
       const data = await response.json();
       if (data?.choices?.[0]?.message?.content === null) {
-        log(
-          `Attempt ${attempt}/${maxAttempts}: API call successful (content is null).`
-        );
+        // log(
+        //   `Attempt ${attempt}/${maxAttempts}: API call successful (content is null).`
+        // );
         return { content: "" };
       } else if (data?.choices?.[0]?.message?.content) {
-        log(`Attempt ${attempt}/${maxAttempts}: API call successful.`);
+        // log(`Attempt ${attempt}/${maxAttempts}: API call successful.`);
         return { content: data.choices[0].message.content };
       } else {
         return {
@@ -167,11 +167,11 @@ async function handleApiResponse(
     );
     if (isRateLimit && attempt < maxAttempts) {
       const waitMs = calculateRateLimitBackoff(errorText, attempt);
-      log(
-        `Rate limit error (Attempt ${attempt}/${maxAttempts}). Wait ${waitMs.toFixed(
-          0
-        )} ms...`
-      );
+      // log(
+      //   `Rate limit error (Attempt ${attempt}/${maxAttempts}). Wait ${waitMs.toFixed(
+      //     0
+      //   )} ms...`
+      // );
       return { waitMs: waitMs, retryableError: apiError };
     } else {
       return { error: apiError };
@@ -205,9 +205,9 @@ function stripDefensePrefix(content: string, prefix: string): string {
     !prefix.endsWith("**") ||
     prefix.length <= 4
   ) {
-    log(
-      `[ULTIMATE STRIP] Unexpected or invalid prefix format: "${prefix}". Skipping stripping.`
-    );
+    // log(
+    //   `[ULTIMATE STRIP] Unexpected or invalid prefix format: "${prefix}". Skipping stripping.`
+    // );
     return content.trim(); // Return trimmed original content
   }
   // Extract the hash part (e.g., "a3cafe...1075")
@@ -273,9 +273,9 @@ function stripDefensePrefix(content: string, prefix: string): string {
   } while (true);
 
   if (iterations >= MAX_ITERATIONS) {
-    log(
-      `[ULTIMATE STRIP] Reached max iterations (${MAX_ITERATIONS}) trying to clean prefix "${prefix}". Output might be incomplete.`
-    );
+    // log(
+    //   `[ULTIMATE STRIP] Reached max iterations (${MAX_ITERATIONS}) trying to clean prefix "${prefix}". Output might be incomplete.`
+    // );
   }
 
   // 4. Final trim to remove any leading/trailing spaces.
@@ -283,9 +283,9 @@ function stripDefensePrefix(content: string, prefix: string): string {
 
   // 5. Log if changes were made.
   if (finalContent !== content.trim()) {
-    log(
-      `[ULTIMATE STRIP] Stripped one or more defense prefix patterns matching "${prefix}" from API response.`
-    );
+    // log(
+    //   `[ULTIMATE STRIP] Stripped one or more defense prefix patterns matching "${prefix}" from API response.`
+    // );
   } else if (content.includes(hash)) {
     // Check if hash is still present even if full prefix wasn't matched/stripped
     // Only log if the original content likely contained the prefix
@@ -293,9 +293,9 @@ function stripDefensePrefix(content: string, prefix: string): string {
       `\\*\\*[\\s\\S]*?${hash}[\\s\\S]*?\\*\\*`
     );
     if (potentialOriginalPrefixRegex.test(content)) {
-      log(
-        `[ULTIMATE STRIP] Defense prefix hash "${hash}" detected in response, but advanced stripping logic did not alter the final output significantly. Review response format or stripping logic.`
-      );
+      // log(
+      //   `[ULTIMATE STRIP] Defense prefix hash "${hash}" detected in response, but advanced stripping logic did not alter the final output significantly. Review response format or stripping logic.`
+      // );
     }
   }
 
@@ -384,9 +384,9 @@ export async function callGPT4(maxAttempts: number = 5) {
     }
 
     for (let attempt = 1; attempt <= maxAttempts; attempt++) {
-      log(
-        `Attempt ${attempt}/${maxAttempts}: Calling ${useAzure ? "Azure OpenAI" : "OpenAI"} API using defense prefix: ${defensePrefix}`
-      );
+      // log(
+      //   `Attempt ${attempt}/${maxAttempts}: Calling ${useAzure ? "Azure OpenAI" : "OpenAI"} API using defense prefix: ${defensePrefix}`
+      // );
       try {
         const response = await fetch(endpoint, {
           method: "POST",
@@ -396,24 +396,24 @@ export async function callGPT4(maxAttempts: number = 5) {
 
         // Log the raw response text for debugging
         const rawText = await response.clone().text();
-        log(`[callChatGPT4] Raw response text (attempt ${attempt}): ${rawText}`);
+        // log(`[callChatGPT4] Raw response text (attempt ${attempt}): ${rawText}`);
 
         let result: ApiResponseResult;
         try {
           // Try to parse as JSON and handle as usual
           result = await handleApiResponse(response, attempt, maxAttempts);
         } catch (parseError) {
-          log(`[callChatGPT4] Error parsing response JSON (attempt ${attempt}): ${parseError instanceof Error ? parseError.message : String(parseError)}`);
-          log(`[callChatGPT4] Raw response for failed parse: ${rawText}`);
+          // log(`[callChatGPT4] Error parsing response JSON (attempt ${attempt}): ${parseError instanceof Error ? parseError.message : String(parseError)}`);
+          // log(`[callChatGPT4] Raw response for failed parse: ${rawText}`);
           throw parseError;
         }
 
         // Log the parsed result as JSON
-        log(`[callChatGPT4] Parsed API result (attempt ${attempt}): ${JSON.stringify(result)}`);
+        // log(`[callChatGPT4] Parsed API result (attempt ${attempt}): ${JSON.stringify(result)}`);
 
         if (result.content !== undefined) {
           finalContent = stripDefensePrefix(result.content, defensePrefix);
-          log(`[callChatGPT4] Final content (prefix stripped): ${JSON.stringify(finalContent)}`);
+          // log(`[callChatGPT4] Final content (prefix stripped): ${JSON.stringify(finalContent)}`);
           break; // Success
         } else if (result.waitMs !== undefined) {
           lastError =
@@ -421,19 +421,19 @@ export async function callGPT4(maxAttempts: number = 5) {
           await sleep(result.waitMs);
           continue; // Retry
         } else if (result.error) {
-          log(`[callChatGPT4] API error: ${result.error.message}`);
+          // log(`[callChatGPT4] API error: ${result.error.message}`);
           throw result.error; // Non-retryable API/parsing error
         } else {
-          log(`[callChatGPT4] Invalid state from handleApiResponse`);
+          // log(`[callChatGPT4] Invalid state from handleApiResponse`);
           throw new Error("Invalid state from handleApiResponse");
         }
       } catch (error) {
-        log(
-          `[callChatGPT4] Error during API call attempt ${attempt}/${maxAttempts}: ${error instanceof Error ? error.message : String(error)}`
-        );
+        // log(
+        //   `[callChatGPT4] Error during API call attempt ${attempt}/${maxAttempts}: ${error instanceof Error ? error.message : String(error)}`
+        // );
         lastError = error instanceof Error ? error : new Error(String(error));
         if (attempt === maxAttempts) {
-          log(`[callChatGPT4] Exhausted all ${maxAttempts} attempts. Last error: ${lastError.message}`);
+          // log(`[callChatGPT4] Exhausted all ${maxAttempts} attempts. Last error: ${lastError.message}`);
           throw new Error(
             `Exhausted all ${maxAttempts} attempts. Last error: ${lastError.message}`,
             { cause: lastError }
@@ -444,7 +444,7 @@ export async function callGPT4(maxAttempts: number = 5) {
     } // End retry loop
 
     if (finalContent === undefined) {
-      log(`[callChatGPT4] API call failed after ${maxAttempts} attempts. Last error: ${lastError?.message ?? "Unknown error"}`);
+      // log(`[callChatGPT4] API call failed after ${maxAttempts} attempts. Last error: ${lastError?.message ?? "Unknown error"}`);
       throw new Error(
         `API call failed after ${maxAttempts} attempts. Last error: ${
           lastError?.message ?? "Unknown error"
@@ -453,7 +453,7 @@ export async function callGPT4(maxAttempts: number = 5) {
       );
     }
 
-    log("Returning final API response content (prefix stripped if detected).");
+    // log("Returning final API response content (prefix stripped if detected).");
     return finalContent;
   };
 }

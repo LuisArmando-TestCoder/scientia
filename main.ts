@@ -9,6 +9,19 @@ if (args.length === 0) {
   Deno.exit(1);
 }
 const claim = args.join(" ");
-const analysis = await getClaimAnalysis(claim)
 
-console.log("Claim Analysis:", analysis);
+// Recursive function to analyze the claim
+async function recursiveClaimAnalysis(claim: string) {
+  console.log("claim: ", claim);
+  const analysis = await getClaimAnalysis(claim);
+
+  for (const [
+    claim, truth, contradiction, uncertainty,
+  ] of analysis.tabla_verdad.filas) {
+    if (uncertainty === 1) {
+        // on purpose the await is synchronous to avoid too many cuncurrent requests
+        await recursiveClaimAnalysis(claim);
+    }
+  }
+}
+const analysis = await recursiveClaimAnalysis(claim);

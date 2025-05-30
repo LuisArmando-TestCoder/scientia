@@ -1,0 +1,125 @@
+{
+  "nodo_semantico_de_entrada": "No puede haber experiencia sin mínima estructura narrativa (definición laxa)",
+  "nodo_semantico_central": "Relación entre experiencia y estructura narrativa mínima",
+  "firma_ontologica": {
+    "naturaleza": "relación de necesidad conceptual",
+    "funcion": "postular una condición estructural para que algo sea considerado experiencia",
+    "dominio": "fenomenología, teoría de la narrativa, cognición",
+    "forma": "condicional universal (si-no)",
+    "tension": "¿Es la estructura narrativa una condición indispensable, o emergente, o sólo interpretativa?",
+    "limite": "depende de la definición operativa tanto de 'experiencia' como de 'estructura narrativa mínima'"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "experiencia",
+      "definicion": "cualquier vivencia o contenido consciente percibido interna o externamente."
+    },
+    {
+      "termino": "estructura narrativa mínima",
+      "definicion": "la organización básica de elementos en relación temporal y causal que permita distinguir una secuencia de hechos o estados, por simple que sea."
+    },
+    {
+      "termino": "condición de posibilidad",
+      "definicion": "criterio esencial sin el cual no se da el fenómeno considerado."
+    },
+    {
+      "termino": "definición laxa",
+      "definicion": "uso flexible, no estricto, aceptando bordes difusos del concepto."
+    }
+  ],
+  "transduccion_preconceptual": "Toda vez que algo pasa, aunque sea solo sentir frío, nuestro cerebro pone ese 'algo' en un pequeño orden, como si contara una mini-historia de lo que pasó, primero tenías frío, después te tapas, y luego ya no. Si no hay una pequeña historia, parece que nada pasó.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "No puede haber experiencia sin mínima estructura narrativa (definición laxa)",
+      "subnodo": "experiencias sin narratividad detectable",
+      "contexto": "¿Existen experiencias absolutamente atemporales, inmediatas o carentes de todo encadenamiento interno, como estados puros de consciencia?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "estructura narrativa mínima (definición laxa)",
+      "subnodo": "límite inferior de lo narrativo",
+      "contexto": "¿Qué tan mínima puede ser la organización antes de que desaparezca la experiencia como tal? Micro-secuencias, cambios, relaciones internas."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación enfrenta ambigüedad definicional límite: 'estructura narrativa mínima' en sentido laxo puede abarcar casi toda forma de experiencia, pero existen propuestas filosóficas sobre la experiencia pura no narrativa (ej. ciertos estados meditativos)."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "estructura mínima = organización temporal-causal",
+      "conclusion": "Toda experiencia con un antes y un después puede mapearse como una micro-narrativa.",
+      "notas": "Solo colapsa a verdadero si aceptamos la identidad entre secuencialidad consciente y narratividad mínima."
+    },
+    {
+      "origen": "'No puede haber experiencia sin X' implica condición necesaria fuerte",
+      "conclusion": "Un solo contraejemplo debilita (o falsifica) la afirmación bajo lectura estricta.",
+      "notas": "Si se permiten excepciones, la afirmación se vuelve algúnica."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "No puede haber experiencia sin estructura narrativa mínima",
+      "descripcion": "Experiencias súbitas atemporales, como percepciones estáticas puras (ejemplo clásico: 'ahora' puro en ciertos estados meditativos), o sensaciones instantáneas no encadenadas.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La refutación depende de si se interpreta que hay una mínima secuencia interna (pre-textura previa y posterior), o si el instante puro es real y carente de narratividad."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En historias orales, recuerdos, reportes perceptivos y auto-observaciones, toda experiencia relatada se estructura secuencialmente, aunque sea en micro-narrativas.",
+      "inferencia": "El hábito cognitivo induce organización narrativa incluso en experiencias simples.",
+      "grado_de_confianza": "medio",
+      "notas": "Poca evidencia sobre experiencias no-narrativizadas; los lenguajes tienden a convertir todo en relato."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Toda experiencia que puede ser recordada, comunicada o pensada retrospectivamente implica una mínima estructura narrativa, pero pueden haber formas límite de experiencia (el 'instante puro', la 'conciencia sin contenido') que desafían la condición necesaria.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Todo flujo de experiencia requiere mínima estructura narrativa",
+        0,
+        0,
+        1
+      ],
+      [
+        "Existen experiencias absolutamente no narrativas",
+        0,
+        0,
+        1
+      ],
+      [
+        "Toda experiencia narrable implica estructura narrativa mínima",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La exigencia de mínima narrativa como condición de posibilidad se topa con la posibilidad de 'experiencia pura' a-narrativa.",
+    "ambiguedad": "'Estructura narrativa mínima' puede expandirse hasta abarcar todo flujo experiencial, pero también colapsar si se reduce a lo narrable externamente.",
+    "contradiccion_util": "El intento de trazar bordes conceptuales entre experiencia y narratividad revela que donde la narrativa parece desaparecer, renace como organización mínima (simple cambio de estado)."
+  },
+  "reorganizacion_analoga": [
+    "Como el fotón: es partícula (experiencia indivisa) y onda (recorrido narrativo) a la vez.",
+    "Como un número: su mera existencia implica una secuencia de conteo, aunque sea de un solo elemento.",
+    "Como un punto matemático: sin dimensión, pero ubicable solo si hay contexto."
+  ],
+  "implicacion_transformadora": [
+    "En la práctica, para comunicar o reflexionar sobre la experiencia, se requiere algún grado de organización narrativa.",
+    "Cualquier terapia, arte o análisis de la experiencia presupone (aunque mínimamente) tal estructura.",
+    "Invita a investigar los límites experienciales (meditación, estados alterados) para mapear donde colapsa la narrativa."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El análisis revela zonas donde la afirmación se sostiene (experiencia relatada) y zonas límite (la inmediatez no-narrativa) donde permanece ambigua. No se colapsa ni a verdadero ni a falso sin reduccionismo conceptual forzado."
+  }
+}

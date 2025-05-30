@@ -1,0 +1,128 @@
+{
+  "nodo_semantico_de_entrada": "Es demostrable la existencia de lo no-narrativo",
+  "nodo_semantico_central": "Demostrabilidad de lo no-narrativo",
+  "firma_ontologica": {
+    "naturaleza": "afirmación analítica",
+    "funcion": "cuestionar la posibilidad de comprobar la existencia de realidades sin estructura narrativa",
+    "dominio": "epistemología / metafísica / semiótica",
+    "forma": "bifurcación lógica / distinción semántica",
+    "tension": "La demostración requiere estructura-lenguaje, pero lo no-narrativo, en definición, sería lo que resiste tales estructuras.",
+    "limite": "Toda demostración es acto narrativo, sugiriendo un círculo lógico potencialmente autoreferencial"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "demostrable",
+      "definicion": "Capaz de ser validado o probado dentro de un sistema formal de evidencia o inferencia"
+    },
+    {
+      "termino": "existencia",
+      "definicion": "Condición ontológica de presencia, ser o manifestación"
+    },
+    {
+      "termino": "no-narrativo",
+      "definicion": "Lo que carece de narración, estructura temporal-discursiva, o secuenciación; aquello que no se ordena en relatos"
+    }
+  ],
+  "transduccion_preconceptual": "Intentar demostrar que algo no-narrativo existe es como tratar de dibujar con un lápiz invisible: usas herramientas diseñadas para mostrar, pero lo que quieres mostrar es lo que justamente no se puede poner en una historia, dibujo o palabra.",
+  "iteraciones": [
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "Es posible construir una prueba sobre lo que no tiene estructura narrativa.",
+      "subnodo": "Prueba sin relato",
+      "contexto": "Evaluar si la demostración -que es acto narrativo/formal- puede aplicarse a objetos/conceptos que por definición se resisten a toda narrativa."
+    },
+    {
+      "id": "1.1.2",
+      "afirmacion_base": "La existencia de lo no-narrativo puede ser constatada fuera de sistemas simbólicos.",
+      "subnodo": "Existencia extrasimbólica",
+      "contexto": "Analizar si puede validarse algo sin que medie intermediación narrativa o simbólica alguna."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El nodo colapsa en ambigüedad circular: demostrar algo fuera de narrativa implica inevitablemente narrar. El acto de demostrar presupone relato, pero la hipótesis busca lo opuesto."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición lógica de demostrabilidad",
+      "conclusion": "Toda demostración se efectúa mediante un lenguaje o sistema; todo sistema se narra por relaciones.",
+      "notas": "Si toda expresión es narrativa, lo no-narrativo sólo es postulable como frontera, no objeto demostrable."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Es imposibe toda existencia no-narrativa",
+      "descripcion": "Experiencias místicas, estados de conciencia pura, fenómenos cuánticos no observados pueden describirse como no-narrativos o pretéritos a la narración.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Todo intento de comunicar la experiencia la transforma en relato, pero el fenómeno se postula como pre-relato."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Hay múltiples registros humanos de lo inexpresable o innarrable (experiencias extáticas, eventos no observados en física, intuiciones prelingüísticas).",
+      "inferencia": "Hay recurrencias empíricas que sugieren la postulación de lo no-narrativo como posible, aunque inaccesible al sistema demostrativo estándar.",
+      "grado_de_confianza": "medio",
+      "notas": "Estas inferencias dependen de relatos; no se da acceso directo a lo no-narrativo."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La demostrabilidad de lo no-narrativo sólo puede ocurrir como límite negativo de los sistemas de relato: sólo se demuestra su existencia al hallar el borde donde la narración fracasa o debe ser suspendida.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Es demostrable la existencia de lo no-narrativo ante símbolos",
+        0,
+        0,
+        1
+      ],
+      [
+        "La existencia de lo no-narrativo puede postularse",
+        1,
+        0,
+        0
+      ],
+      [
+        "Una demostración sin relato es posible",
+        0,
+        1,
+        0
+      ],
+      [
+        "Toda demostración es acto narrativo",
+        1,
+        0,
+        0
+      ],
+      [
+        "Lo no-narrativo no puede manifestarse en sistemas de prueba",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Se requiere un relato para mostrar lo que, por definición, no es narrativo.",
+    "ambiguedad": "El límite semántico entre lo demostrable y lo narrable es movedizo.",
+    "contradiccion_util": "El intento de afirmar lo no-narrativo fuerza el sistema a delimitar su propia frontera, fertilizando nociones de lo inefable."
+  },
+  "reorganizacion_analoga": [
+    "Como tratar de probar la existencia del silencio absoluto usando sólo sonidos.",
+    "Como querer pintar el color transparente con pintura opaca.",
+    "Como buscar definir el 'vacío' usando palabras que lo llenan."
+  ],
+  "implicacion_transformadora": [
+    "El acto de investigar lo no-narrativo obliga a revisar los límites de toda demostración: reconocer lo irreductible puede expandir el campo de lo cognoscible.",
+    "Las teorías del conocimiento y los sistemas formales deben admitir regiones límite donde la demostración deviene imposible y sólo queda la alusión, el rodeo pre-narrativo o el gesto hacia el vacío del significado.",
+    "El reconocimiento operante de lo no-narrativo puede guiar heurísticas creativas para pensar lo indeducible y para distinguir entre lo narrable y lo meramente postulable."
+  ],
+  "reevaluacion_global": {
+    "estado": "autorreferencial",
+    "criterio": "El análisis muestra que la afirmación colapsa en bucle semántico: demostrar lo no-narrativo es performarlo como narrativo-ausente, no como demostración positiva. El nodo sólo puede estabilizarse negativamente, como límite de la epistemología."
+  }
+}

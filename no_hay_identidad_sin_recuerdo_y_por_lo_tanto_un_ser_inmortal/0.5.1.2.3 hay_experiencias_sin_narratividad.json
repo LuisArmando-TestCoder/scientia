@@ -1,0 +1,122 @@
+{
+  "nodo_semantico_de_entrada": "Hay experiencias sin narratividad",
+  "nodo_semantico_central": "Experiencia no-narratizable",
+  "firma_ontologica": {
+    "naturaleza": "afirmación existencial",
+    "funcion": "postular la presencia de datos subjetivos no integrados en estructuras narrativas",
+    "dominio": "fenomenología, filosofía de la mente",
+    "forma": "distinción entre estado puro y relato",
+    "tension": "¿Toda experiencia exige algún grado mínimo de estructura narrativa?",
+    "limite": "la definición límite entre narratividad y pre-narratividad, así como el acceso subjetivo directo a la experiencia"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "experiencia",
+      "definicion": "Cualquier vivencia interna sentida o percibida; contenido inmediato de conciencia"
+    },
+    {
+      "termino": "narratividad",
+      "definicion": "Estructuración de hechos, sensaciones o eventos en secuencias ordenadas con sentido y relaciones, explícitas o implícitas"
+    },
+    {
+      "termino": "sin",
+      "definicion": "Negación de la presencia de una propiedad o característica (ausencia de narratividad en la experiencia)"
+    }
+  ],
+  "transduccion_preconceptual": "A veces, cuando sientes algo muy rápido o confuso, es como si fuera solo un color o una chispa. No hay historia, solo un '¡está ahí!' y luego se va. Como ver un relámpago antes de comprender si fue peligroso o bonito.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Toda experiencia es narratizable",
+      "subnodo": "Absolutismo narrativo",
+      "contexto": "Explorar si la narratividad es una condición necesaria para llamar experiencia a algo"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Algunas experiencias son pre-narrativas",
+      "subnodo": "Experiencia cruda",
+      "contexto": "Considerar la posibilidad de vivencias no traducidas en relatos, ni siquiera internamente"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación desafía con contraejemplos el absolutismo narrativo, pero el límite entre estructuración mínima e inexistencia de narratividad es ambiguo; depende de la concepción operativa de narratividad."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de narratividad como secuencia ordenada de sentido",
+      "conclusion": "Sin secuencia ni relación, hay mero dato perceptual o sensación",
+      "notas": "Esto implica una región liminal: experiencias apenas registradas"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda experiencia es narratizable",
+      "descripcion": "Estados súbitos de shock, el 'raw feel' antes del pensamiento, percepciones subliminales y dolor instantáneo pre-reflexivo",
+      "grado_de_refutacion": "parcial",
+      "notas": "En muchos casos, posteriormente se narra el hecho, pero el instante primero parece no-narrativo"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En la vida cotidiana, muchos estímulos aparecen y desaparecen antes de poder articularse",
+      "inferencia": "No toda experiencia requiere traducción en una narrativa ni sucede como tal",
+      "grado_de_confianza": "medio",
+      "notas": "Posible sesgo: lo que no se recuerda, tampoco se narra"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Existe un umbral fenomenológico donde algunos contenidos de conciencia caen fuera de la narración, existiendo como eventos instantáneos o pre-verbales; la narratividad emerge como proceso, no condición absoluta.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda experiencia es narratizable",
+        0,
+        1,
+        0
+      ],
+      [
+        "Hay experiencias sin narratividad",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda experiencia sin narratividad es inconsciente",
+        0,
+        0,
+        1
+      ],
+      [
+        "Se puede demostrar la existencia de lo no-narrativo",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Definir experiencia sin referencia a cualquier orden o relación temporal la vuelve conceptualmente inasible",
+    "ambiguedad": "El límite entre el sentido mínimo (proto-narrativo) y la ausencia total de narratividad",
+    "contradiccion_util": "La aseveración de lo no-narrativo fuerza a examinar cómo emerge el sentido — desde lo caótico a lo articulado"
+  },
+  "reorganizacion_analoga": [
+    "Percepción de un fogonazo en la oscuridad: instante sin antes ni después",
+    "Proceso de boot de una computadora antes del sistema operativo: estado sensorial sin interpretación ni registro",
+    "Un relámpago, sentido pero no 'contado'"
+  ],
+  "implicacion_transformadora": [
+    "La disciplina fenomenológica debe atender el surgimiento de la narratividad y sus umbrales",
+    "Reconocer el límite de lo articulado fuerza a refinar metodologías para captar lo pre-narrativo",
+    "En neurología y psicología, implica explorar mecanismos de transición entre percepción cruda y relato consciente"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El análisis muestra bases para afirmar la posibilidad de experiencias sin narratividad, pero el umbral semántico y operativo de la narratividad permanece inespecífico; requiere operacionalización empírica."
+  }
+}

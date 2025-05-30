@@ -1,0 +1,149 @@
+{
+  "nodo_semantico_de_entrada": "Toda experiencia sin narratividad es inconsciente",
+  "nodo_semantico_central": "Relación experiencia-narratividad-consciencia",
+  "firma_ontologica": {
+    "naturaleza": "proposición universal sobre la consciencia",
+    "funcion": "delinear el vínculo necesario entre experiencia, narratividad y consciencia",
+    "dominio": "filosofía de la mente / fenomenología",
+    "forma": "implicación lógica universal",
+    "tension": "absolutismo; definición de límites entre experiencia y consciencia; rol esencialista de la narratividad",
+    "limite": "depende de definiciones de 'experiencia', 'narratividad' y 'consciencia'"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "experiencia",
+      "definicion": "Cualquier evento interno/sentido vivido por un sujeto, independientemente de su articulación discursiva"
+    },
+    {
+      "termino": "narratividad",
+      "definicion": "Capacidad de organizar, estructurar o relatar elementos de una experiencia en secuencia significativa"
+    },
+    {
+      "termino": "consciente",
+      "definicion": "Lo que un ser puede observar, identificar y diferenciar como vivido"
+    },
+    {
+      "termino": "sin narratividad",
+      "definicion": "Una vivencia no organizada ni articulada en un relato, explícito o implícito"
+    },
+    {
+      "termino": "inconsciente",
+      "definicion": "Experiencia no puesta a disposición de la observación o interpretación por el sujeto"
+    }
+  ],
+  "transduccion_preconceptual": "Imagínate que tienes emociones y recuerdos dentro de una caja. Si puedes contar una historia sobre algo en la caja, lo conoces y puedes verlo. Pero si no puedes contar nada, es como si la caja estuviera cerrada en ese punto: sí hay algo adentro, pero no logras saber qué es, ni te das cuenta de que existe, aunque afecte tu mundo.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Toda experiencia sin narratividad es inconsciente",
+      "subnodo": "Experiencia no narrada = inconsciencia",
+      "contexto": "¿Puede haber experiencia sentida, pero no narrada, que siga siendo consciente?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Toda experiencia sin narratividad es inconsciente",
+      "subnodo": "Implicación de lo no-narrado",
+      "contexto": "Experiencias animales, emociones preverbales, sensaciones vagas; ¿estas pueden ser conscientes aunque no se narren?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Dependencia de definiciones precisas y contraejemplos posibles; la afirmación es demasiado absoluta, abierta a refutación"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "afirmación universal",
+      "conclusion": "Si una experiencia no se narra, no puede ser reconocida conscientemente",
+      "notas": "Supone que la consciencia requiere auto-relato; excluye lo irracional/intuitivo"
+    },
+    {
+      "origen": "definición de consciencia",
+      "conclusion": "La narratividad sería condición suficiente y necesaria para consciencia",
+      "notas": "Limita la consciencia a lo discursivo; problemático para fenómenos acategoriales"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda experiencia sin narratividad es inconsciente",
+      "descripcion": "Emociones intensas momentáneas (dolor físico, susto) que se sienten claramente antes de poder narrarlas",
+      "grado_de_refutacion": "parcial",
+      "notas": "Sugiere que la consciencia puede preceder a la narratividad o ser paralela a ella"
+    },
+    {
+      "afirmacion_refutada": "Toda experiencia sin narratividad es inconsciente",
+      "descripcion": "Experiencias meditativas o contemplativas sin relato interno, pero con presencia atencional",
+      "grado_de_refutacion": "parcial",
+      "notas": "Implica modos de consciencia pre-narrativos o no discursivos"
+    },
+    {
+      "afirmacion_refutada": "Toda experiencia sin narratividad es inconsciente",
+      "descripcion": "Animales pueden responder a estímulos y mostrar comportamientos adaptativos ante sensaciones no narradas",
+      "grado_de_refutacion": "parcial",
+      "notas": "Dificulta afirmar conexión necesaria entre narratividad y consciencia"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Personas recuerdan sensaciones vagas o estados confusos previos a narrar lo que sienten",
+      "inferencia": "La consciencia puede existir antes o fuera de la organización narrativa plena",
+      "grado_de_confianza": "alto",
+      "notas": "Patrón común en introspección y psicología"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La narratividad puede profundizar la consciencia, clarificándola y permitiendo su integración, pero hay registros conscientes no-narrativos, como afectos, intuiciones, y estados animales. La frase es útil como límite maximalista, pero no como verdad estructural universal.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda experiencia sin narratividad es inconsciente",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunas experiencias sin narratividad son conscientes",
+        1,
+        0,
+        0
+      ],
+      [
+        "Narratividad es condición necesaria para consciencia",
+        0,
+        1,
+        0
+      ],
+      [
+        "Consciencia puede ser previa o paralela a la narratividad",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "¿Cómo acceder a la consciencia sin mediación simbólica, si al acceder ya estamos simbolizando?",
+    "ambiguedad": "Ambigüedad entre experiencia consciente y su narración (qué ocurre primero, o si son mutuamente constitutivas)",
+    "contradiccion_util": "La consciencia no-narrativa desafía los límites del lenguaje, permitiendo explorar nuevos modos de autoconocimiento"
+  },
+  "reorganizacion_analoga": [
+    "El recuerdo borroso de un sueño: sabes que soñaste, pero no tienes relato de lo soñado",
+    "El animal que siente calor y se mueve, sin contar su sensación a sí mismo",
+    "La emoción musical: sentir sin palabras",
+    "Un espejo que sólo refleja cuando lo miras"
+  ],
+  "implicacion_transformadora": [
+    "La investigación de la consciencia debe considerar lo pre-narrativo, lo afectivo y lo puramente sensorial",
+    "La educación sobre consciencia puede beneficiarse incluyendo prácticas que no requieren relato, como la meditación o la atención plena",
+    "Las teorías de la mente necesitan abrirse a formas de experiencia conscientes no articuladas lingüísticamente",
+    "Validar la existencia de consciencia sin narratividad amplía el campo epistemológico hacia dimensiones preverbales y animales"
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "El absolutismo de la afirmación es refutado por contraejemplos robustos y la complejidad del fenómeno consciente; la pregunta sigue fértilmente abierta, pero no se sostiene la universalidad de la declaración"
+  }
+}

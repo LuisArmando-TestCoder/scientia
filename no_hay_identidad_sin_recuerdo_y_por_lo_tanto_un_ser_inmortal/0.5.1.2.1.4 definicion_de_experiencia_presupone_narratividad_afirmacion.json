@@ -1,0 +1,117 @@
+{
+  "nodo_semantico_de_entrada": "Definición de experiencia presupone narratividad: afirmación tautológica",
+  "nodo_semantico_central": "Experiencia como narratividad tautológica",
+  "firma_ontologica": {
+    "naturaleza": "Relación definicional",
+    "funcion": "Detectar circularidad semántica entre experiencia y narratividad",
+    "dominio": "Epistemología; semántica filosófica",
+    "forma": "Bucle/tautología conceptual",
+    "tension": "Subsumir definición en el propio predicado (circularidad)",
+    "limite": "No permite análisis fuera del marco de la definición adoptada"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "experiencia",
+      "definicion": "Aquello que un sujeto vive o percibe, internamente o externamente"
+    },
+    {
+      "termino": "narratividad",
+      "definicion": "Cualidad de estructurar hechos o vivencias en secuencias con sentido relacional"
+    },
+    {
+      "termino": "presuponer",
+      "definicion": "Aceptar como requisito previo para que algo tenga sentido"
+    },
+    {
+      "termino": "tautología",
+      "definicion": "Afirmación verdadera por su forma, pero sin información nueva"
+    }
+  ],
+  "transduccion_preconceptual": "Es como decir que un cuento sólo es un cuento si ya tiene historia dentro. Si sólo puedes llamar experiencia a un cuento con historia, entonces sólo ves cuentos donde ya hay historias; nunca ves lo que no es cuento.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La experiencia presupone narratividad",
+      "subnodo": "Circularidad definicional",
+      "contexto": "¿Puede haber experiencia sin narratividad, o la definición la excluye por construcción?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "Si se define experiencia como necesariamente narrativa, la afirmación se convierte en tautología lógica: es verdadera por elección definicional, no por descubrimiento empírico o lógico externo."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición: experiencia = narratividad",
+      "conclusion": "Toda experiencia es narrativa por construcción definicional",
+      "notas": "No se admite experiencia sin narratividad bajo este postulado"
+    },
+    {
+      "origen": "Tautología formal",
+      "conclusion": "La afirmación carece de contenido empírico adicional",
+      "notas": "Válido sólo dentro del marco definicional adoptado"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda experiencia presupone narratividad",
+      "descripcion": "Estados de flujo, sensaciones inmediatas (como dolor súbito o reflexos condicionados) pueden experimentarse sin articulación narrativa hasta después del hecho.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Implica que la definición de experiencia puede ser más amplia en otras ontologías"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Algunos relatos filosóficos y psicológicos describen experiencias puramente sensoriales o pre-narrativas",
+      "inferencia": "La equivalencia entre experiencia y narratividad no es universalmente aceptada",
+      "grado_de_confianza": "medio",
+      "notas": "Depende del marco teórico-cultural; no es absoluto"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Definir la experiencia como inherentemente narrativa restringe el campo semántico y metodológico, orientando la epistemología hacia autovalidaciones circulares. Sin embargo, considerar experiencias no narrativas abre la epistemología a categorías fenomenológicas más primigenias.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Si la experiencia se define como narrativa, entonces la afirmación es tautológica",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda experiencia requiere narratividad",
+        0,
+        0,
+        1
+      ],
+      [
+        "Existen experiencias no narrativas",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Una experiencia que aún no es narrada, ¿es experiencia?",
+    "ambiguedad": "¿Narratividad como estructura intrínseca o como interpretación posterior?",
+    "contradiccion_util": "Si todo es narrativo por definición, ningún caso marginado puede emerger como experiencia válida; esto limita la creatividad ontológica"
+  },
+  "reorganizacion_analoga": [
+    "Como un diccionario que sólo incluye palabras que puede definir usando otras palabras del propio diccionario",
+    "Como un juego donde sólo se puede jugar si ya tienes las reglas memorizadas desde antes"
+  ],
+  "implicacion_transformadora": [
+    "Tener cuidado con las definiciones que encierran la epistemología en círculos tautológicos: bloquean tanto la generación de nueva información como la posibilidad de sorpresa ontológica.",
+    "Operacionalizar la apertura a lo no narrativo puede ser catalizador de revolución en teoría de la mente, fenomenología o inteligencia artificial"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Bajo el marco definicional dado, la afirmación es tautológica y por tanto verdadera; sin embargo, la existencia de posibles experiencias sin narratividad vuelve la afirmación indefinida epistemológicamente al extender el campo. El análisis expone el límite de la tautología: describe sólo su propio marco, no la naturaleza última de la experiencia."
+  }
+}

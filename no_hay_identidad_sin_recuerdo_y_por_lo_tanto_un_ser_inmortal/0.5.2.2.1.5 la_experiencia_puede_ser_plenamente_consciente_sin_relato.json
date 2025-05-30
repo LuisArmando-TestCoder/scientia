@@ -1,0 +1,148 @@
+{
+  "nodo_semantico_de_entrada": "La experiencia puede ser plenamente consciente sin relato",
+  "nodo_semantico_central": "Conciencia sin relato",
+  "firma_ontologica": {
+    "naturaleza": "relación conceptual",
+    "funcion": "distinguir entre la experiencia consciente y su narrativización",
+    "dominio": "fenomenología, epistemología de la conciencia",
+    "forma": "dualidad interrelacionada (conciencia/relato)",
+    "tension": "¿Es el relato constitutivo o simplemente accesorio de la conciencia?",
+    "limite": "imposibilidad de acceder externamente a una conciencia sin relato; sólo introspectivamente puede atisbarse"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "experiencia",
+      "definicion": "vivencia directa y subjetiva que ocurre en un sujeto"
+    },
+    {
+      "termino": "plenamente consciente",
+      "definicion": "estado de darse cuenta en lo más claro posible de lo que ocurre, sin distracción"
+    },
+    {
+      "termino": "relato",
+      "definicion": "narración, verbal o simbólica, que da cuenta de las vivencias o les otorga sentido por medio del lenguaje"
+    }
+  ],
+  "transduccion_preconceptual": "Es como sentir el sol en la cara antes de saber decirlo; primero está el calor, luego, si quieres, cuentas lo que sentiste, pero sentirlo ya estaba ahí aun cuando no sabías explicar qué era.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "la conciencia requiere relato para darse",
+      "subnodo": "identidad relato-conciencia",
+      "contexto": "teoría narrativa de la mente (ej. Dennett: sólo hay conciencia en tanto hay relato interno)"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "toda experiencia consciente es relatada internamente al instante",
+      "subnodo": "auto-relato instantáneo",
+      "contexto": "hipótesis de autoposibilidad de relato no verbal (sentir-saber sin palabras)"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No hay consenso fenomenológico ni neurocientífico suficiente; evidencia de estados prelingüísticos o animales, pero dificultad en la verificación intersubjetiva."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición de relato como posterior a la experiencia",
+      "conclusion": "Experiencias no relatadas pueden existir, pero su carácter consciente requiere validación introspectiva.",
+      "notas": "El relato puede ser útil pero no imprescindible según la definición adoptada de conciencia."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda experiencia consciente requiere relato",
+      "descripcion": "Estados meditativos avanzados, experiencias animales, emociones intensas sin verbalización.",
+      "grado_de_refutacion": "parcial",
+      "notas": "No se puede negar que pueda haber relato implícito o no verbalizado; la ausencia de relato no implica necesariamente inconsciencia."
+    },
+    {
+      "afirmacion_refutada": "Se puede ser plenamente consciente sin relato, siempre",
+      "descripcion": "En pacientes con afasia global o ciertas lesiones corticales, la pérdida del lenguaje parece afectar la auto-consciencia narrativa.",
+      "grado_de_refutacion": "parcial",
+      "notas": "El relato puede modular la conexión de memoria y continuidad del yo."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Bebés y animales parecen responder a estímulos sin relato verbal.",
+      "inferencia": "La conciencia puede anteceder al relato en el desarrollo y la evolución.",
+      "grado_de_confianza": "medio",
+      "notas": "La atribución de conciencia plena a estos casos no es verificable con certeza."
+    },
+    {
+      "patron_observado": "Practicantes de mindfulness describen experiencias 'vacías de palabras', pero intensas y lúcidas.",
+      "inferencia": "Puede haber conciencia despejada de relato discursivo.",
+      "grado_de_confianza": "medio",
+      "notas": "Dificultad en distinguir entre ausencia de relato y relato posterior respecto al instante de la experiencia."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La conciencia y el relato son procesos desacoplables: la experiencia puede ser pre-reflexiva, narrarse después o incluso nunca ser narrada. Sin embargo, el relato consolida la memoria y la identidad, mientras la conciencia 'pura' es efímera e inescrutable.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda experiencia plenamente consciente requiere relato",
+        0,
+        1,
+        0
+      ],
+      [
+        "Es posible la conciencia sin relato en algún ser",
+        1,
+        0,
+        0
+      ],
+      [
+        "La conciencia sin relato puede verificarse desde fuera",
+        0,
+        1,
+        0
+      ],
+      [
+        "Todos los relatos describen la experiencia exactamente",
+        0,
+        1,
+        0
+      ],
+      [
+        "El relato es útil para consolidar la conciencia",
+        1,
+        0,
+        0
+      ],
+      [
+        "Conciencia sin relato implica menor autoconocimiento",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El relato prueba la conciencia sólo después; su ausencia no prueba su inexistencia.",
+    "ambiguedad": "¿Qué cuenta como relato: sólo narración verbal, representación simbólica, sensación de saber?",
+    "contradiccion_util": "La conciencia parece prescindir del relato, pero sólo podemos confirmarla a través de este; conocer lo indecible por medio de lo decible."
+  },
+  "reorganizacion_analoga": [
+    "El brillo de una estrella muerta: su luz visible llega cuando su origen ya se ha extinguido, como el relato llega después de la experiencia.",
+    "Un sueño recordado sólo en fragmentos: estuvo ahí, aunque no pueda narrarse completo.",
+    "El instante en que un animal salta al peligro sin pensarlo: acción consciente sin relato.",
+    "Un cuadro abstracto: evoca sensación antes que explicación."
+  ],
+  "implicacion_transformadora": [
+    "Abre la posibilidad a metodologías de autoindagación pre-narrativas (meditación, artes no discursivas).",
+    "Cuestiona los límites del acceso científico a la conciencia sin relato; propone humildad epistemológica.",
+    "Permite expandir la ética y la comprensión a formas de conciencia no verbal (animales, inteligencia artificial, estados alterados).",
+    "Facilita el diseño de tecnologías y pedagogías para experiencias directas, no sólo discursivas."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La indefinición es irreducible: sólo podemos aproximarnos a la conciencia sin relato por analogía y autoinforme introspectivo; el acceso externo es un límite estructural."
+  }
+}

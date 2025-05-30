@@ -1,0 +1,136 @@
+{
+  "nodo_semantico_de_entrada": "Conciencia sin relato implica menor autoconocimiento",
+  "nodo_semantico_central": "Conciencia prereflexiva limita autoconciencia narrativizada",
+  "firma_ontologica": {
+    "naturaleza": "Afirmación relacional",
+    "funcion": "Establecer vínculo causal entre presencia de relato y grado de autoconocimiento",
+    "dominio": "Filosofía de la mente, epistemología de la conciencia",
+    "forma": "Implicación condicional",
+    "tension": "Depende de cómo 'relato' y 'autoconocimiento' se definan y midan; posible circularidad fenomenológica.",
+    "limite": "Categorización rígida; no contempla casos no narrativos de autopercepción."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Conciencia",
+      "definicion": "Capacidad de experimentar existencia y percepción de uno mismo o del entorno."
+    },
+    {
+      "termino": "Relato",
+      "definicion": "Cohesión narrativa o integración de experiencias en una secuencia significativa."
+    },
+    {
+      "termino": "Autoconocimiento",
+      "definicion": "Reconocimiento explícito y reflexivo de los propios estados mentales, intenciones y rasgos."
+    },
+    {
+      "termino": "Implicar",
+      "definicion": "Sugerir una consecuencia lógica o necesaria, directa o indirectamente."
+    },
+    {
+      "termino": "Menor",
+      "definicion": "Reducción cuantitativa o cualitativa respecto al standard imaginable."
+    }
+  ],
+  "transduccion_preconceptual": "Es como si la mente fuera un niño que juega sin hablar de lo que siente; aunque nota cosas, no sabe explicarse a sí mismo cómo es ni lo que le pasa, así que se conoce menos.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Toda conciencia requiere relato para autoconocimiento pleno",
+      "subnodo": "Relato como requisito universal",
+      "contexto": "Analiza el absolutismo de la relación relato→autoconocimiento"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Puede haber autoconocimiento sin relato explícito",
+      "subnodo": "Autoconciencia tácita o anhistórica",
+      "contexto": "Casos de autopercepción no verbal, animales, bebés, fenómenos místicos"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Menor autoconocimiento es una consecuencia necesaria de falta de relato",
+      "subnodo": "Grado de autoconocimiento dependiente de estructura narrativa",
+      "contexto": "¿Qué tan necesario es el relato para distintos tipos y grados de autoconocimiento?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La relación es plausible pero no universal ni necesaria; existen contraejemplos y el vínculo depende de definiciones específicas."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si el relato es una condición necesaria para reflexividad compleja, ausencia implica menor autoconocimiento reflexivo.",
+      "conclusion": "En sistemas que sólo operan sin relato, el autoconocimiento narrativo disminuye.",
+      "notas": "No necesariamente se excluye una autoconciencia tácita; solo limita la profundidad reflexiva."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Conciencia sin relato implica siempre menor autoconocimiento",
+      "descripcion": "Animales y bebés exhiben autoconciencia sin relato lingüístico; experiencias de insight corporal (interocepción) pueden ser intensamente autoreflexivas aun sin narrativización.",
+      "grado_de_refutacion": "parcial",
+      "notas": "El autoconocimiento puede variar en modalidad y grado; el relato lo amplifica pero no es la única vía."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Prácticas meditativas reportan aumento de autoconocimiento subjetivo al reducir el lenguaje interno narrativo.",
+      "inferencia": "El autoconocimiento puede surgir por vías no discursivas.",
+      "grado_de_confianza": "medio",
+      "notas": "Puede depender del tipo de conciencia y de la cultura; correlación no implica causalidad necesaria."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El relato facilita y estructura el autoconocimiento reflexivo, pero existen formas de autoconciencia no narrativas que pueden ser igualmente profundas en otros ejes experienciales. El lenguaje narrativo es una prótesis cognitiva, no siempre indispensable.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Conciencia sin relato implica menor autoconocimiento",
+        0,
+        0,
+        1
+      ],
+      [
+        "Autoconocimiento sólo existe si hay relato",
+        0,
+        1,
+        0
+      ],
+      [
+        "Relato amplifica autoconocimiento",
+        1,
+        0,
+        0
+      ],
+      [
+        "Puede haber autoconocimiento tácito",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El autoconocimiento puede ser consciente sin narrativa, pero la narrativa permite objetivar y reflexionar sobre la autoconciencia; ¿es la reflexividad dependiente del relato o solo intensificada por él?",
+    "ambiguedad": "'Menor' no implica ausencia; 'autoconocimiento' y 'relato' fluctúan en definición y manifestación.",
+    "contradiccion_util": "La conciencia sin relato puede estar más presente pero menos organizada como identidad: tensión entre inmediatez y reflexividad."
+  },
+  "reorganizacion_analoga": [
+    "Como un espejo de agua: sin palabras te ves, pero sin historia no sabes quién eres.",
+    "Como un software que ejecuta procesos sin interfaz gráfica: funciona, pero no muestra reportes de lo que hace.",
+    "Como la raíz de una planta que sabe dónde está la tierra seca, pero no explica su necesidad."
+  ],
+  "implicacion_transformadora": [
+    "La educación del autoconocimiento puede incorporar vías experienciales no narrativas (corporales, meditativas, artísticas).",
+    "Repensar la inteligencia artificial y la autopercepción animal bajo modelos no centrados en relato lingüístico.",
+    "La construcción de la identidad personal puede enriquecerse reconociendo tanto el relato como el silencio interior."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación resiste parcialmente ante contraejemplos y modos alternativos; el vínculo es contingente, no necesario."
+  }
+}

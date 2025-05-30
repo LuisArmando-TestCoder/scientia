@@ -1,0 +1,145 @@
+{
+  "nodo_semantico_de_entrada": "No hay identidad sin recuerdo (modelo de identidad narrativa)",
+  "nodo_semantico_central": "Identidad narrativa dependiente de la memoria",
+  "firma_ontologica": {
+    "naturaleza": "relación conceptual",
+    "funcion": "vincular identidad al recuerdo en el marco narrativo",
+    "dominio": "psicología, filosofía de la mente, narratología",
+    "forma": "bucle causal, enunciado condicional",
+    "tension": "si la memoria falla: ¿se pierde la identidad?",
+    "limite": "sólo es válido para modelos de identidad basados en narrativas; no cubre otros modelos (biológico, funcional, etc.)"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "identidad",
+      "definicion": "Sentido de ser uno mismo a través del tiempo; continuidad del yo."
+    },
+    {
+      "termino": "recuerdo",
+      "definicion": "Capacidad de acceder a memorias del pasado; reconstrucción consciente de experiencias."
+    },
+    {
+      "termino": "modelo narrativo",
+      "definicion": "Perspectiva donde la identidad se construye y mantiene mediante relatos personales consecutivos."
+    }
+  ],
+  "transduccion_preconceptual": "Es como un libro de cuentos donde cada historia sobre ti la recuerdas para saber quién eres. Si las páginas se borran, puede que ya no sepas qué personaje eres.",
+  "iteraciones": [
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "El marco sólo es verdadero en el modelo narrativo, pero la identidad puede tener aspectos biológicos.",
+      "subnodo": "Identidad como multidimensional",
+      "contexto": "¿Es el recuerdo la única base de la identidad?"
+    },
+    {
+      "id": "1.1.2",
+      "afirmacion_base": "¿Qué ocurre en casos de amnesia?: la persona sigue teniendo identidad legal o relacional.",
+      "subnodo": "Identidad residual sin memoria",
+      "contexto": "Contraejemplo empírico: amnesia profunda, identidad funcional persiste para otros."
+    },
+    {
+      "id": "1.1.3",
+      "afirmacion_base": "¿Puede haber recuerdos falsos asociados a la identidad?",
+      "subnodo": "Reconstrucción identitaria a partir de información falsa",
+      "contexto": "La identidad narrativa puede ser mantenida sobre recuerdos imprecisos."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación es válida sólamente bajo la acepción narrativa, pero puede ser refutada o matizada por otros modelos o contraejemplos empíricos."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición modelo narrativo",
+      "conclusion": "Sin recuerdos, no hay continuidad narrativa personal.",
+      "notas": "Esto no implica la anulación de toda identidad bajo otros marcos."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "No hay identidad sin recuerdo (absoluto)",
+      "descripcion": "Individuos con amnesia severa pierden el acceso a recuerdos, pero mantienen otros aspectos identitarios: nombre, relaciones sociales, reconocimientos legales.",
+      "grado_de_refutacion": "parcial",
+      "notas": "El modelo requiere una visión multidimensional de identidad para captar el fenómeno."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Personas suelen redefinir quiénes son tras cambios trascendentales que afectan su memoria (traumas, Alzheimer, etc.)",
+      "inferencia": "La experiencia de identidad está altamente mediada por la memoria, pero puede ser sostenida por comunidad, contexto o corporalidad.",
+      "grado_de_confianza": "alto",
+      "notas": "Generalizable en contextos sociales; menos en contextos puramente internos."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La identidad narrativa es un proceso dinámico de reescritura, donde la memoria actúa como hilo conductor, pero otras dimensiones pueden funcionar como líneas de continuidad en ausencia de dicho hilo.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "No hay identidad sin recuerdo (modelo narrativa pura)",
+        1,
+        0,
+        0
+      ],
+      [
+        "No hay identidad sin recuerdo (modelo multidimensional)",
+        0,
+        1,
+        0
+      ],
+      [
+        "La memoria es condición nec. y suficiente para la identidad",
+        0,
+        1,
+        0
+      ],
+      [
+        "La identidad se puede sostener sólo con reconocimiento externo",
+        1,
+        0,
+        0
+      ],
+      [
+        "La anulación total de recuerdos elimina la autopercepción como sujeto",
+        1,
+        0,
+        0
+      ],
+      [
+        "La identidad persiste legalmente tras pérdida de memoria",
+        1,
+        0,
+        0
+      ],
+      [
+        "En amnesia total se pierde la identidad subjetiva",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La identidad narrativa exige memoria, pero la identidad social/legal puede persistir aun sin memoria.",
+    "ambiguedad": "¿Qué peso tiene la autopercepción frente al reconocimiento externo?",
+    "contradiccion_util": "El olvido puede generar una identidad nueva, distinta a la historia previa del yo."
+  },
+  "reorganizacion_analoga": [
+    "Como una serie de televisión: si se pierden episodios clave, la trama pierde continuidad, pero los personajes siguen existiendo en el universo de la serie.",
+    "Un árbol trasplantado sin raíces viejas: puede crecer diferente, pero sigue siendo árbol desde afuera."
+  ],
+  "implicacion_transformadora": [
+    "En intervención terapéutica o legal, la narrativa identitaria puede ser reforzada o restaurada aun con lagunas mnésicas.",
+    "El diseño de sistemas de IA o archivos puede separar memoria funcional y memoria narrativa para ajustarse a cambios identitarios.",
+    "La pedagogía debe incluir reconstrucciones identitarias que vayan más allá del recuerdo, integrando reconocimiento colectivo, corporalidad y contexto."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación es condicional: válida sólo en la narrativa identitaria. Bajo modelos pluridimensionales, es falsa o parcial. La tensión entre memoria y reconocimiento externo permanece como punto generativo."
+  }
+}

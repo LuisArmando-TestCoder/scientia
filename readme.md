@@ -2,7 +2,20 @@ Reasoning is not just an iterativelly retrofeeding semantic emergent phenomena, 
 
 ## Last stable version output
 
-Example output 0 ```deno run --allow-env --allow-net --allow-write main.ts "Toda trascendencia implica separación"```
+Example output 0 ```deno run --allow-env --allow-net --allow-write main.ts "Reasoning is not just an iterativelly retrofeeding semantic emergent phenomena, is an algebraically boolean recursive operation applied (a thinking framework)."```
+```ts
+Starting claim analysis...
+[0] claim: Reasoning is not just an iterativelly retrofeeding semantic emergent phenomena, is an algebraically boolean recursive operation applied (a thinking framework).
+✅ Guardado → reasoning_is_not_just_an_iterativelly_retrofeeding_semantic/0 reasoning_as_more_than_semantic_emergence.json
+[0.1] sub claim: El razonamiento es sólo emergencia semántica (false)
+[0.2] sub claim: El razonamiento es sólo recursión booleana (false)
+[0.3] sub claim: El razonamiento es simultáneamente emergencia y recursión booleana (true)
+[0.4] sub claim: Toda emergencia es reducible a formalismo booleano (false)
+[0.5] sub claim: Toda formalización booleana puede expresar total sentido emergente (false)
+Claim analysis completed.
+```
+
+Example output 1 ```deno run --allow-env --allow-net --allow-write main.ts "Toda trascendencia implica separación"```
 ```ts
 Starting claim analysis...
 [0] claim: Toda trascendencia implica separación

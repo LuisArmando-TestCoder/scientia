@@ -3,46 +3,68 @@ Reasoning is not just a semantic emergent phenomena, is an algebraically boolean
 ```deno run --allow-env --allow-net main.ts si se da lo que recibe cuando se da, entonces se recibe```
 
 Example output main.ts
-``` bash
+```ts
 Starting claim analysis...
 claim:  si se da lo que recibe cuando se da, entonces se recibe
-sub claim:  Si se da lo que recibe cuando se da, entonces se recibe  (uncertain)
-claim:  Si se da lo que recibe cuando se da, entonces se recibe
-sub claim:  Dar implica necesariamente recibir  (false)
-sub claim:  Recibir puede suceder sin dar  (true)
-sub claim:  La reciprocidad es automática  (false)
+Recursion level:  0
 evaluacion_global:  {
   estado: "indefinido",
-  criterio: "La afirmación central depende de condiciones contextuales no explícitas; su valor lógico es indeterminado salvo mediación de una estructura de reciprocidad explícita."
+  criterio: "la afirmación es un bucle condicional autoreferencial: requiere que la acción de dar esté simultáneamente vinculada a recibir, lo cual es circular sin agencia o temporalidad explícita; no puede resolverse sin especificar un agente que inicie el intercambio"
 }
-sub claim:  Dar lo que se recibe causa recibir  (true)
-sub claim:  Siempre que das, recibes  (false)
-sub claim:  Es posible dar sin recibir nunca  (false)
-sub claim:  La acción de dar implica haber recibido antes  (false)
-sub claim:  Toda reciprocidad es simétrica  (false)
-sub claim:  La recursividad causal puede no cerrar  (uncertain)
-claim:  La recursividad causal puede no cerrar
+sub claim:  si se da lo que recibe cuando se da, entonces se recibe  (uncertain)
+claim:  si se da lo que recibe cuando se da, entonces se recibe
+sub claim:  siempre que se da, se recibe  (false)
+sub claim:  se puede recibir sin dar  (true)
+sub claim:  dar y recibir siempre ocurren juntos  (false)
+Recursion level:  1
 evaluacion_global:  {
   estado: "indefinido",
-  criterio: "El análisis revela que la afirmación sólo es verdadera bajo ciertas simetrías o contextos. La posibilidad de dar sin recibir, o de circuitos causales no cerrados, suspende un juicio universal. Paradoja recursiva activa y tensiones no resueltas."
+  criterio: "La afirmación está sujeta a interpretación: en algunos sistemas (matemáticos, eticista puro), el acto cumple, pero si hay desacople temporal, emocional o contextual, puede fallar. La autoreferencia permite bucle infinito si no se especifican límites."
 }
-sub claim:  Toda recursividad causal necesariamente cierra  (false)
-sub claim:  Ninguna recursividad causal puede cerrar  (false)
-sub claim:  Existen recursividades causales abiertas  (true)
-sub claim:  El cierre de la recursividad causal es predecible  (uncertain)
-claim:  El cierre de la recursividad causal es predecible
-evaluacion_global:  {
-  estado: "indefinido",
-  criterio: "El fenómeno depende del sistema específico; existen contraejemplos y paradojas que impiden afirmar universalidad. Paradoja no resuelta y apertura formal constitutiva."
-}
-sub claim:  La recursividad causal siempre cierra en un estado definido  (false)
-sub claim:  Todos los cierres recursivos causales son predecibles  (false)
-sub claim:  Algunos cierres recursivos causales son predecibles  (true)
-sub claim:  Existe al menos un caso donde el cierre es impredecible  (true)
-sub claim:  El cierre de la recursividad causal es universalmente predecible  (false)
-sub claim:  La predecibilidad depende del dominio o sistema  (true)
+sub claim:  si se da lo que recibe cuando se da, entonces se recibe  (uncertain)
+claim:  si se da lo que recibe cuando se da, entonces se recibe
+sub claim:  dar implica recibir siempre  (false)
+sub claim:  reciprocidad es simétrica  (uncertain)
+claim:  reciprocidad es simétrica
+sub claim:  al dar, se garantiza recibir  (uncertain)
+claim:  al dar, se garantiza recibir
+sub claim:  es posible dar sin recibir  (true)
+Recursion level:  2
 evaluacion_global:  {
   estado: "falso",
-  criterio: "Existe evidencia conceptual y empírica de que no todos los cierres de recursividad causal son predecibles; sólo en dominios restringidos, bajo condiciones controladas o con información completa, se puede anticipar el resultado."
+  criterio: "Contraejemplos empíricos y lógicos refutan la garantía universal; sólo se verifica en algunos contextos, pero no siempre"
 }
+sub claim:  al dar, se garantiza recibir  (false)
+sub claim:  al dar, se puede recibir  (true)
+sub claim:  algunos que dan reciben  (true)
+sub claim:  todos los que dan reciben  (false)
+Recursion level:  2
+evaluacion_global:  {
+  estado: "indefinido",
+  criterio: "El nodo muestra tensiones estructurales entre la definición ideal/matemática de simetría y la variabilidad empírica/social de la reciprocidad; algunos tipos de reciprocidad pueden ser asimétricos por diseño (e.g. gratitud, favores)"
+}
+sub claim:  reciprocidad es simétrica  (uncertain)
+claim:  reciprocidad es simétrica
+sub claim:  puede haber reciprocidad sin simetría perfecta  (true)
+sub claim:  toda simetría es necesariamente recíproca  (false)
+sub claim:  la percepción de simetría sostiene la reciprocidad  (true)
+Recursion level:  2
+evaluacion_global:  {
+  estado: "indefinido",
+  criterio: "La afirmación puede ser verdadera, falsa o vacía según el marco (dar sin receptor definido, dar sin que el objeto físico/abstracto pueda ser recibido, dar cuyo recibir está mediado por factores contextuales: intención, identidad, reversibilidad). Solo se resuelve bajo definición explícita o axioma tautológico."
+}
+sub claim:  Dar implica recibir  (uncertain)
+claim:  Dar implica recibir
+sub claim:  Dar sin receptor es posible  (false)
+sub claim:  Recibir sólo si algo es dado  (true)
+sub claim:  Reciprocidad es simétrica  (uncertain)
+claim:  Reciprocidad es simétrica
+Recursion level:  3
+evaluacion_global:  {
+  estado: "indefinido",
+  criterio: "El carácter simétrico de la reciprocidad es frecuentemente una idealización; existen formas de reciprocidad asimétrica (por ejemplo, responder con gratitud a una acción material), por lo que la afirmación generalmente no es universal."
+}
+sub claim:  La reciprocidad es siempre simétrica  (uncertain)
+claim:  La reciprocidad es siempre simétrica
+...
 ```

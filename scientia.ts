@@ -183,6 +183,22 @@ Cada iteración debería generar una versión más refinada de conciencia episte
 
   "transduccion_preconceptual": "", // Metáfora o narración accesible a una conciencia infantil preabstracta.
 
+  "iteraciones": [
+    {
+      "id": "", // Identificador jerárquico del subnodo (ej. "1.1.1").
+      "afirmacion_base": "", // Afirmación original desde la tabla que contiene un valor "indefinido".
+      "subnodo": "", // Nombre conceptual emergente que encapsula el nuevo análisis.
+      "contexto": "" // Contexto, pregunta o marco de referencia desde el cual se abre esta rama.
+      // NOTA: Los subnodos deben ser generados a partir de afirmaciones con valor "indefinido" o de campos null no definidos aún.
+    }
+    // ...más iteraciones si corresponde
+  ],
+
+  "evaluacion_global": {
+    "estado": "verdadero | falso | indefinido | autoreferencial", // Juicio lógico global del nodo tras el análisis recursivo.
+    "criterio": "", // Justificación breve del estado elegido (ej. “paradoja no resuelta”, “coherencia formal alcanzada”, etc.)
+  }
+
   "contraejemplos": [
     {
       "afirmacion_refutada": "", // Afirmación cuestionada.
@@ -192,6 +208,8 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     }
     // ... agregar uno por cada afirmación potencialmente falsa o ambigua.
   ],
+  
+  "teoria_o_intuicion_emergente": "", // Insight derivado, afirmación teórica, intuición heurística o principio estructural.
 
   "tabla_verdad": {
     "columnas": ["afirmacion", "verdadero", "falso", "indefinido"], // Ejes de evaluación lógica modal.
@@ -210,27 +228,9 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     "" // Ejemplos estructuralmente análogos al nodo analizado. Se permite uso metafórico o técnico.
   ],
 
-  "teoria_o_intuicion_emergente": "", // Insight derivado, afirmación teórica, intuición heurística o principio estructural.
-
   "implicacion_transformadora": [
     "" // Consecuencias epistemológicas, éticas, cognitivas o metodológicas. Operacionalización de la teoría.
   ],
-
-  "iteraciones": [
-    {
-      "id": "", // Identificador jerárquico del subnodo (ej. "1.1.1").
-      "afirmacion_base": "", // Afirmación original desde la tabla que contiene un valor "indefinido".
-      "subnodo": "", // Nombre conceptual emergente que encapsula el nuevo análisis.
-      "contexto": "" // Contexto, pregunta o marco de referencia desde el cual se abre esta rama.
-      // NOTA: Los subnodos deben ser generados a partir de afirmaciones con valor "indefinido" o de campos null no definidos aún.
-    }
-    // ...más iteraciones si corresponde
-  ],
-
-  "evaluacion_global": {
-    "estado": "verdadero | falso | indefinido | autoreferencial", // Juicio lógico global del nodo tras el análisis recursivo.
-    "criterio": "", // Justificación breve del estado elegido (ej. “paradoja no resuelta”, “coherencia formal alcanzada”, etc.)
-  }
 }
 
 Notas: Recuerda sólo devolver el JSON, sin ningún otro texto adicional, sin wrapping.

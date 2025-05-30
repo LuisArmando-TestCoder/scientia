@@ -28,6 +28,8 @@ async function recursiveClaimAnalysis(claim: string) {
     }
   }
 
+  console.log("evaluacion_global: ", analysis.evaluacion_global);
+
   for (const promisedClaim of promisedClaims) {
     await promisedClaim;
   }

@@ -3,8 +3,8 @@ import { callGPT4 } from './helper/callChatGPT4.ts';
 
 const callChatGPT4 = await callGPT4();
 
-export async function getClaimAnalysis(claim: string): Promise<{[index: string]: any}> {
-    const response = await callChatGPT4`
+export async function getClaimAnalysis(claim: string, attemptedRetries = 0): Promise<{ [index: string]: any }> {
+  const response = await callChatGPT4`
 [EXPLICACIÓN DEL MÉTODO]:
 Método recursivo de reducción epistemológica generador de analogías para zero shot reasoning (Oriens Omni)
 Decodificando el espectro de la creatividad para retroalimentar a los LLMs o a los humanos que usen este marco de pensamiento, haciendo que emerjan una meta-intelectualidad (la capacidad de comprender, observar y dirigir el funcionamiento del propio intelecto y de los procesos de generación de conocimiento) causal.
@@ -264,18 +264,23 @@ Notas: Recuerda sólo devolver el JSON, sin ningún otro texto adicional, sin wr
 Ahora, analiza esta proposición: ${claim}
 `;
 
-    try {
-        if (!response || typeof response !== 'string') {
-            throw new Error("Invalid response from the AI model.");
-        }
-        // Parse the response as JSON         
-        if (!response.startsWith('{') || !response.endsWith('}')) {
-            throw new Error("Response is not in valid JSON format.");
-        }
-        // Attempt to parse the response
-        return JSON.parse(response);
-    } catch (error) {
-        console.error("Error processing the claim analysis:", error);
-        throw new Error("Failed to analyze the claim due to an error in processing.");  
+  try {
+    if (!response || typeof response !== 'string') {
+      throw new Error("Invalid response from the AI model.");
     }
+    // Parse the response as JSON         
+    if (!response.startsWith('{') || !response.endsWith('}')) {
+      throw new Error("Response is not in valid JSON format.");
+    }
+    // Attempt to parse the response
+    return JSON.parse(response);
+  } catch (error) {
+    console.error("Error processing the claim analysis:", error);
+
+    if (attemptedRetries >= 5) {
+      throw new Error("Failed to analyze the claim due to an error in processing.");
+    }
+
+    return await getClaimAnalysis(claim, attemptedRetries + 1); // Retry the analysis recursively
+  }
 }

@@ -1,0 +1,137 @@
+{
+  "nodo_semantico_de_entrada": "Toda descripción formal consistente corresponde a una posibilidad real",
+  "nodo_semantico_central": "Correspondencia entre consistencia formal y posibilidad real",
+  "firma_ontologica": {
+    "naturaleza": "proposición epistemológica",
+    "funcion": "vincular sistemas lógicos consistentes con dominios ontológicos posibles",
+    "dominio": "epistemología, lógica modal, metafísica",
+    "forma": "inferencia universal (absolutismo)",
+    "tension": "relación absoluta entre semántica formal y ontología; potencial desbordamiento por modelos no realizables",
+    "limite": "depende de la definición de 'realidad' y de la exhaustividad de la formalización"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "descripción formal",
+      "definicion": "Sistema de símbolos, reglas y relaciones que generan estructuras coherentes"
+    },
+    {
+      "termino": "consistente",
+      "definicion": "No genera contradicciones internas bajo sus propias reglas"
+    },
+    {
+      "termino": "posibilidad real",
+      "definicion": "Estado, situación o entidad que puede manifestarse en algún dominio ontológico"
+    },
+    {
+      "termino": "corresponde",
+      "definicion": "Existe una relación de existencia o mapeo entre el sistema formal y la realidad"
+    }
+  ],
+  "transduccion_preconceptual": "Si puedes inventar un juego con reglas que no se rompen, alguien, en algún lugar, podría jugarlo de verdad, aunque solo sea en su imaginación.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El marco es autosuficiente",
+      "subnodo": "Autosuficiencia formal",
+      "contexto": "¿La autosuficiencia sintáctica garantiza relevancia pragmática?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Toda descripción formal consistente corresponde a una posibilidad real",
+      "subnodo": "Principio de plenitud modal",
+      "contexto": "¿Existen 'realidades' coherentes sólo por ser descriptibles lógicamente?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición generaliza la correspondencia sin pruebas empíricas universales; casos conocidos de formalismos consistentes no realizables en nuestro universo sugieren límites."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición de posibilidad real",
+      "conclusion": "No toda coherencia formal expresa manifestación fáctica, pero puede postular existencia en un dominio modal.",
+      "notas": "Válido dentro de marcos modales, pero no necesariamente en física o ontología estricta."
+    },
+    {
+      "origen": "relación entre consistencia y existencia matemática",
+      "conclusion": "La existencia en matemática se define por consistencia, pero la existencia física demanda causas adicionales.",
+      "notas": "Formalismo ≠ facticidad física."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda descripción formal consistente corresponde a una posibilidad real",
+      "descripcion": "Sistemas formales como los espacios vectoriales sobre cuerpos finitos de gran orden no existen físicamente pero sí formalmente.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Refutación empírica: solo son posibilidades lógicas, no físicas."
+    },
+    {
+      "afirmacion_refutada": "Toda descripción formal consistente corresponde a una posibilidad real",
+      "descripcion": "Mundos posibles de lógicas paraconsistentes que no tienen correlato en ninguna realidad accesible.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La posibilidad semántica no garantiza la posibilidad ontológica."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Muchos sistemas matemáticos coherentes no tienen realización conocida en el universo físico.",
+      "inferencia": "La correspondencia propuesta solo es válida en algunos marcos (como matemáticas puras o lógica modal).",
+      "grado_de_confianza": "alto",
+      "notas": "No comprobado en dominios ontológicos fuertes."
+    },
+    {
+      "patron_observado": "Algunas ficciones lógicas se vuelven realizables con tecnologías nuevas (ej. agujeros negros antes solo formales).",
+      "inferencia": "La frontera de la correspondencia puede no ser fija.",
+      "grado_de_confianza": "medio",
+      "notas": "Depende de los avances en la definición de 'realidad'."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La posibilidad real es sensible al dominio y a la interpretación del término 'real': en ontologías modales es más plausible; en ontologías físicas es restringida.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda descripción formal consistente corresponde a una posibilidad real (ontología física estricta)",
+        0,
+        1,
+        0
+      ],
+      [
+        "Toda descripción formal consistente corresponde a una posibilidad real (ontología modal)",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda descripción formal consistente corresponde a una posibilidad real (sin dominio especificado)",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "No toda coherencia interna implica existencia ontológica: los universales platonistas existen solo como formas.",
+    "ambiguedad": "El término 'posibilidad real' se dobla entre lo físico, lo mental, lo matemático, lo modal.",
+    "contradiccion_util": "La abundancia de sistemas formales fertiliza la exploración de los límites de la realidad, independientemente de su realización empírica."
+  },
+  "reorganizacion_analoga": [
+    "Como un mapa de un territorio que aún no existe, pero que guía exploradores a crear tierras nuevas.",
+    "Como el código fuente de un software jamás compilado pero concebible potencialmente.",
+    "Como palabras de un idioma inventado que puede ser hablado si alguien decide adoptarlo."
+  ],
+  "implicacion_transformadora": [
+    "Las fronteras entre posibilidad formal y posibilidad real motivan investigación filosófica, matemática y científica.",
+    "Promueve la construcción de nuevos modelos conceptuales y la búsqueda de su realización o fundamentación fáctica.",
+    "Advierte contra el absolutismo: no toda idea coherente es manifestable, pero toda manifestación requería una coherencia previa."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El estatus permanece abierto: la correspondencia depende críticamente del marco adoptado ('realidad' física, modal o matemática), y evidencia empírica limita la universalidad de la afirmación."
+  }
+}

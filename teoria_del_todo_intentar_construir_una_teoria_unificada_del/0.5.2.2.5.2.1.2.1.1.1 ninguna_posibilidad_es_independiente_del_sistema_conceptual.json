@@ -1,0 +1,112 @@
+{
+  "nodo_semantico_de_entrada": "Ninguna posibilidad es independiente del sistema conceptual",
+  "nodo_semantico_central": "Dependencia lógica entre posibilidad y sistema conceptual",
+  "firma_ontologica": {
+    "naturaleza": "relación estructural",
+    "funcion": "Examinar la dependencia de las posibilidades en la red conceptual que las define",
+    "dominio": "lógica, epistemología, teoría de sistemas",
+    "forma": "bucle de dependencia",
+    "tension": "absolutismo de la dependencia, posible auto-referencia",
+    "limite": "imposibilidad de posibilidades fuera de todo marco conceptual"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "posibilidad",
+      "definicion": "Opción o alternativa que puede ocurrir si las reglas del contexto la permiten"
+    },
+    {
+      "termino": "independencia",
+      "definicion": "Capacidad de existir o darse sin estar ligada a otra cosa"
+    },
+    {
+      "termino": "sistema conceptual",
+      "definicion": "Conjunto de ideas, reglas y relaciones que permiten entender, clasificar o definir realidades"
+    },
+    {
+      "termino": "dependencia estructural",
+      "definicion": "Relación en la que una parte no puede determinarse sin la otra"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes una caja de colores y solo puedes dibujar con los colores que hay en la caja. No puedes usar un color que no esté ahí; aunque pienses en un nuevo color, sin la caja no hay ningún lugar donde ponerlo ni usarlo.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "¿Existen posibilidades fuera de cualquier sistema de ideas?",
+      "subnodo": "Posibilidades extraconceptuales",
+      "contexto": "Si una posibilidad no puede ser pensada o nombrada, ¿puede ser considerada posibilidad?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El absolutismo de la afirmación choca con paradojas de la referencia y con la emergencia de nuevas posibilidades en sistemas cambiantes; posible bucle autoreferencial."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si toda posibilidad requiere ser conceptualizada para identificarse",
+      "conclusion": "Ninguna posibilidad reconocible es totalmente independiente del sistema conceptual",
+      "notas": "Aplica sólo a lo reconocible, ignora lo incognoscible por definición"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Ninguna posibilidad es independiente del sistema conceptual",
+      "descripcion": "El surgimiento de eventos o propiedades imprevistas (cisnes negros, fenómenos emergentes no predichos por esquemas previos)",
+      "grado_de_refutacion": "parcial",
+      "notas": "La posibilidad existía antes de ser conceptualizada, pero solo es conocida tras su emergencia; refutación aplica solo a la dimensión epistémica, no ontológica"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En la historia de la ciencia, muchas posibilidades emergen solo al expandir o cambiar el sistema conceptual (ej. física cuántica, biología evolutiva)",
+      "inferencia": "La mayor parte de las posibilidades útiles o significativas aparecen ligadas a sistemas conceptuales",
+      "grado_de_confianza": "alto",
+      "notas": "Sin embargo, siempre puede haber márgenes para lo conceptualizable"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Toda posibilidad reconocida depende de algún sistema conceptual, pero pueden existir potenciales no reconocidos fuera de los marcos actuales, volviéndose conceptuales al integrarse en un nuevo sistema.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda posibilidad depende de un sistema conceptual",
+        0,
+        0,
+        1
+      ],
+      [
+        "Algunas posibilidades pueden surgir fuera del sistema conceptual y luego integrarse",
+        1,
+        0,
+        0
+      ],
+      [
+        "No existen posibilidades fuera de cualquier sistema conceptual",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Para pensar una posibilidad 'fuera' del sistema conceptual, dicha posibilidad debe entrar en el sistema para ser reconocida",
+    "ambiguedad": "El límite entre lo conceptualizable y lo no conceptualizable es difuso y dependiente del observador",
+    "contradiccion_util": "La afirmación absoluta niega su propia negación; su utilidad está en forzar la expansión/fractura del marco conceptual"
+  },
+  "reorganizacion_analoga": [
+    "Como un idioma que solo permite expresar ideas que sus palabras soportan, pero donde nuevas palabras aparecen cuando hay nuevas necesidades o descubrimientos",
+    "Como un juego donde las reglas determinan las jugadas, pero es posible inventar nuevas reglas para permitir nuevas jugadas"
+  ],
+  "implicacion_transformadora": [
+    "La conceptualización de posibilidades depende siempre de los límites del propio lenguaje y los modelos mentales; expandir intencionalmente un marco conceptual permite revelar posibilidades antes impensables.",
+    "Ningún sistema conceptual puede considerarse absoluto respecto a lo posible; todo esquema debe estar abierto a la integración de posibilidades emergentes."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación, en su formulación absoluta, es insostenible ante contraejemplos y requisitos de apertura epistémica; sólo puede sostenerse en la esfera de lo reconocible, no de lo potencial puro."
+  }
+}

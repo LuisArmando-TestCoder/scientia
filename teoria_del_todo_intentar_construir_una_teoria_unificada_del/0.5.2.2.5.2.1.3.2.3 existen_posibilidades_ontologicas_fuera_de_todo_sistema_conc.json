@@ -1,0 +1,146 @@
+{
+  "nodo_semantico_de_entrada": "Existen posibilidades ontológicas fuera de todo sistema conceptual",
+  "nodo_semantico_central": "Posibilidades ontológicas extraconceptuales",
+  "firma_ontologica": {
+    "naturaleza": "Proposición metafísica",
+    "funcion": "Explorar los límites del ser respecto a los marcos conceptuales",
+    "dominio": "ontología, epistemología, metafísica de los límites",
+    "forma": "liminal, frontera, fuera/dentro",
+    "tension": "El ‘afuera’ de todo sistema conceptual es inarticulable desde adentro; la afirmación se autonega al representarse",
+    "limite": "No puede ser verificada ni falsada desde ningún sistema conceptual, ya que describir su existencia obliga a incluirla dentro de un sistema"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "posibilidades ontológicas",
+      "definicion": "Formas potenciales de ser, existencia o manifestación; lo que puede existir independientemente de su representación conceptual"
+    },
+    {
+      "termino": "sistema conceptual",
+      "definicion": "Conjunto organizado de conceptos, definiciones y relaciones que estructuran un dominio cognitivo"
+    },
+    {
+      "termino": "fuera de",
+      "definicion": "Excediendo los límites internos y externos definidos por el sistema al que se refiere"
+    }
+  ],
+  "transduccion_preconceptual": "Es como tratar de imaginar lo que un pez podría pensar que hay fuera del agua, sin nunca salir del agua ni poder describir lo que hay allí. Si puede imaginarlo, ya no está realmente ‘fuera’ de su mundo.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Existen posibilidades de ser que no pueden ser pensadas o nombradas",
+      "subnodo": "ser_impronunciable",
+      "contexto": "¿Puede existir algo que nunca pueda ser captado más allá de todo pensamiento?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Todo sistema conceptual tiene límites; fuera de esos límites, ¿hay ‘algo’?",
+      "subnodo": "limite_ontognostico",
+      "contexto": "Relación entre lo pensable y lo real: ¿el lenguaje determina lo que puede ser?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Nombrar lo que está fuera del sistema lo incorpora en el sistema",
+      "subnodo": "paradoja_de_inclusion",
+      "contexto": "Paradoja de describir lo indescribible"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "autoreferencial",
+    "criterio": "La afirmación colapsa en bucle lógico: al intentar afirmar su verdad, se autoincluye y se autonega"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de sistema conceptual como todo lo que puede ser pensado",
+      "conclusion": "Si una posibilidad es pensada como existente, está en el sistema; si no puede ser pensada, no puede ser afirmada",
+      "notas": "La proposición es inverificable dentro de cualquier esquema formal"
+    },
+    {
+      "origen": "Limites de Gödel en sistemas formales",
+      "conclusion": "Siempre hay proposiciones verdaderas no demostrables dentro del propio sistema, pero siguen siendo describibles en metalinguaje",
+      "notas": "La imposibilidad se amplía: el absoluto afuera no es capturable ni siquiera metaconceptualmente"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Nada existe fuera de los sistemas conceptuales",
+      "descripcion": "Fenómenos físicos pre-lingüísticos o animales experimentando el mundo sin conceptualizarlo",
+      "grado_de_refutacion": "parcial",
+      "notas": "Incluso estas experiencias sólo pueden ser articuladas a posteriori desde un sistema conceptual"
+    },
+    {
+      "afirmacion_refutada": "Todo lo que existe es necesariamente conceptualizable",
+      "descripcion": "‘Lo inefable’ en diversas tradiciones místicas se postula como existencia positiva fuera del discurso",
+      "grado_de_refutacion": "parcial",
+      "notas": "Estos postulados siguen siendo hipótesis teóricas ya que no pueden verificarse"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En la historia del conocimiento, cada límite del pensamiento genera su propio ‘más allá’ conceptual (e.g., inconsciente, singularidad, infinito)",
+      "inferencia": "La mente tiende a postular extraconceptos frente a sus propias fronteras",
+      "grado_de_confianza": "alto",
+      "notas": "No prueba su existencia, pero muestra un patrón recurrente"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Lo extraconceptual es un horizonte de significación que sólo puede inferirse por ausencia: no puede ser explicitado, sólo evocado como límite o vacío fértil en el pensamiento.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Existen posibilidades ontológicas fuera de todo sistema conceptual",
+        0,
+        0,
+        1
+      ],
+      [
+        "Todo lo existente es necesariamente conceptualizable",
+        0,
+        1,
+        0
+      ],
+      [
+        "Puede hablarse de lo indecible sin incorporarlo en el sistema",
+        0,
+        1,
+        0
+      ],
+      [
+        "Nombrar el 'afuera' lo convierte en 'adentro'",
+        1,
+        0,
+        0
+      ],
+      [
+        "Si no es conceptualizable, no puedo hacer ninguna afirmación sobre ello",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Afirmar ‘fuera de todo sistema’ desde dentro de un sistema obliga a colapsar el afuera en el adentro (paradoja de autorreferencia)",
+    "ambiguedad": "¿El ‘afuera’ es una metáfora de desconocimiento o un postulado positivo ontológico?",
+    "contradiccion_util": "Lo que no puede ser pensado estructura el límite de lo que puede ser pensado; así, el vacío fuera del sistema fertiliza la expansión del sistema"
+  },
+  "reorganizacion_analoga": [
+    "El borde del universo observable (más allá del cual no podemos ni medir ni teorizar, pero cuyo límite define lo observable)",
+    "El inconsciente psicoanalítico (postulado como lo no-conceptualizable que condiciona lo pensable)",
+    "El conjunto complementario en teoría de conjuntos (lo indefinido fuera de un conjunto definido, que sólo existe por contraposición relacional)",
+    "Un lenguaje formal incapaz de reclamar todas las verdades de su propio dominio (teoremas de incompletitud de Gödel)"
+  ],
+  "implicacion_transformadora": [
+    "Aceptar el límite de los sistemas conceptuales como motor interno creativo; toda expansión del conocer se funda en el roce con lo indecible",
+    "Las epistemologías radicales deben asumir su propio bucle autorreferencial y tratar el ‘afuera’ como límite móvil, no como territorio real",
+    "Nueva teoría: la potencia heurística del pensamiento está en su frontera; lo extraconceptual es la fuente dialéctica de innovación"
+  ],
+  "reevaluacion_global": {
+    "estado": "autoreferencial",
+    "criterio": "Coherencia alcanzada solo como límite reflexivo: el nodo existe como pregunta abierta, no como afirmación resoluble"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "nodo_semantico_de_entrada": "Alguna posibilidad real no se actualiza en ningún universo posible",
+  "nodo_semantico_central": "Inactualizabilidad ontológica de una posibilidad real",
+  "firma_ontologica": {
+    "naturaleza": "proposición modal existencial",
+    "funcion": "Plantear la existencia de realidades potenciales inactualizables",
+    "dominio": "ontología modal, lógica, metafísica de la posibilidad",
+    "forma": "condicional existencial-negativa",
+    "tension": "Confronta el alcance del principio de plenitud modal (todo lo posible es realizado en algún universo) con la existencia de posibilidades ontológicamente verdaderas pero universalmente no realizadas",
+    "limite": "Depende de la definición de 'posibilidad real' y 'universo posible'; es vulnerable a circularidad semántica o redefinición axiológica"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "alguna",
+      "definicion": "Al menos una entre muchas; existencia parcial, no universal"
+    },
+    {
+      "termino": "posibilidad real",
+      "definicion": "Estado concebible internamente coherente y no contradictorio, cuya existencia no está prohibida por las leyes del ser o del pensamiento"
+    },
+    {
+      "termino": "actualización",
+      "definicion": "Transición de potencialidad a realización de un estado, propiedad o suceso"
+    },
+    {
+      "termino": "universo posible",
+      "definicion": "Un marco teórico que incluye todas las realidades lógicamente consistentes; conjunto integrante del multiverso modal"
+    }
+  ],
+  "transduccion_preconceptual": "Imagínate que tienes una caja mágica con piezas para hacer cualquier juguete que puedas imaginar. Pero aunque tienes la instrucción para uno especial, en ningún juego, en ninguna caja del mundo, logras que ese juguete tome forma. Aunque sabes que podría existir, en ningún rincón del universo lo armas.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La posibilidad real necesariamente debe actualizarse en alguna parte si es realmente posible",
+      "subnodo": "Principio de plenitud modal",
+      "contexto": "Explorar si toda posibilidad real es necesariamente realizada bajo los supuestos de la lógica modal"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Hay una diferencia entre posibilidad lógica y posibilidad metafísica/de hecho",
+      "subnodo": "Diferenciación de modalidades",
+      "contexto": "Distinguir entre posibilidad lógica, física, metafísica o epistémica y su relación con la actualización"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "La actualización depende de criterios axiológicos o de selección de universos posibles",
+      "subnodo": "Contingencia de actualización",
+      "contexto": "Examinar si hay restricciones meta-axiomáticas o físicas que impidan ciertas actualizaciones aunque sean formalmente posibles"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No se puede resolver la proposición sin definir ontológicamente 'posibilidad real' y el alcance de 'actualización' y 'universo posible'; existen dependencias semánticas e indeterminación axiológica"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición estándar de posibilidad lógica",
+      "conclusion": "No toda posibilidad concebible es necesariamente actualizada, salvo que se postule un principio de plenitud absoluta",
+      "notas": "Depende de la aceptación de la plenitud de Leibniz o la interpretación de David Lewis sobre mundos posibles"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda posibilidad real se actualiza en algún universo posible",
+      "descripcion": "La paradoja del 'cabrio que nunca existe': Si lo posible incluye todo lo no contradictorio, pero existen posibilidades simétricas (dos universos que se excluyen mutuamente: uno donde existe y otro donde no), entonces al menos una posibilidad no se realiza en ningún universo",
+      "grado_de_refutacion": "parcial",
+      "notas": "Sólo refuta la versión absolutista del principio de plenitud modal; las posibilidades pueden estar limitadas por dependencias lógicas globales"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En física, algunos estados cuánticos son posibles pero nunca se materializan en nuestro universo por restricciones de condiciones iniciales",
+      "inferencia": "El conjunto de posibilidades realizables puede ser más pequeño que el conjunto de posibilidades concebibles",
+      "grado_de_confianza": "medio",
+      "notas": "La extrapolación de este patrón a universos posibles no es deductivamente concluyente"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El conjunto de posibilidades reales y el conjunto de actualizaciones en todos los universos posibles no son necesariamente idénticos; puede haber posibilidades ontológicamente coherentes que permanezcan eternamente inactualizadas.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Alguna posibilidad real no se actualiza en ningún universo posible",
+        0,
+        0,
+        1
+      ],
+      [
+        "Toda posibilidad real se actualiza en algún universo posible",
+        0,
+        1,
+        0
+      ],
+      [
+        "Puede haber posibilidades inactualizadas",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "¿Puede algo ser 'realmente posible' y a la vez irrealizado en toda la extensión de la realidad posible?",
+    "ambiguedad": "No está claro si 'posibilidad real' implica necesidad de actualización, o es sólo consistencia formal",
+    "contradiccion_util": "Afirmar la existencia de posibilidades inactualizables desafía la linealidad entre posibilidad y realidad; fertiliza la apertura ontológica y semántica del propio concepto de mundo posible"
+  },
+  "reorganizacion_analoga": [
+    "Como semillas en cajas cerradas que nunca germinan pero que podrían haberlo hecho",
+    "Como líneas de código en un programa no ejecutado: están listas, pero jamás corren",
+    "Como notas no tocadas en una partitura nunca interpretada"
+  ],
+  "implicacion_transformadora": [
+    "La conceptualización de posibilidades inactualizables expande la ontología de los sistemas de mundos posibles, desafiando el principio de plenitud modal y abriendo el espacio para el pensamiento creativo sobre lo que podría ser, sin demandar su realización",
+    "Permite articular límites al alcance de la realización, importante en ética, cosmología y teoría de la información"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El principio de posibilidad inactualizada es meta-axiomático; la falta de consenso sobre la relación entre posibilidad real y actualización impide absolución o refutación plena. Mantener el nodo como generador de indagación abierta."
+  }
+}

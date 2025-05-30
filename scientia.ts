@@ -2,6 +2,7 @@ import "https://deno.land/std@0.224.0/dotenv/load.ts"; // Loads .env file
 import { callGPT4 } from './helper/callChatGPT4.ts';
 
 const callChatGPT4 = await callGPT4();
+const MAX_RETRIES = 5;
 
 export async function getClaimAnalysis(claim: string, attemptedRetries = 0): Promise<{ [index: string]: any }> {
   const response = await callChatGPT4`
@@ -270,17 +271,27 @@ Ahora, analiza esta proposición: ${claim}
     }
     // Parse the response as JSON         
     if (!response.startsWith('{') || !response.endsWith('}')) {
-      throw new Error("Response is not in valid JSON format.");
+      return await retryAttempt({error: "Response is not in valid JSON format.", attemptedRetries, claim});
     }
     // Attempt to parse the response
     return JSON.parse(response);
   } catch (error) {
-    console.error("Error processing the claim analysis:", error);
-
-    if (attemptedRetries >= 5) {
-      throw new Error("Failed to analyze the claim due to an error in processing.");
-    }
-
-    return await getClaimAnalysis(claim, attemptedRetries + 1); // Retry the analysis recursively
+    return await retryAttempt({error, attemptedRetries, claim});
   }
+}
+
+async function retryAttempt({error, attemptedRetries, claim}: {error: string, attemptedRetries: number, claim: string}): Promise<{ [index: string]: any }> {
+  if (attemptedRetries >= MAX_RETRIES) {
+    throw new Error(`
+      Error: ${error}
+      Exceeded maximum retry attempts for claim analysis.
+      Claim: ${claim}
+    `);
+  }
+
+  return await new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(getClaimAnalysis(claim, attemptedRetries + 1));
+    }, 3e3); // Retry after 1 second
+  });
 }

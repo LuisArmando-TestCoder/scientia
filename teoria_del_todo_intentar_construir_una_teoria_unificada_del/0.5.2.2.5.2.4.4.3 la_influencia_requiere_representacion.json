@@ -1,0 +1,127 @@
+{
+  "nodo_semantico_de_entrada": "La influencia requiere representación",
+  "nodo_semantico_central": "Relación entre influencia y representación",
+  "firma_ontologica": {
+    "naturaleza": "relacional",
+    "funcion": "Vincular agencia (influencia) con su manifestación mediadora (representación)",
+    "dominio": "epistemología/social",
+    "forma": "encadenamiento causal/simbólico",
+    "tension": "¿Puede haber influencia sin representación? ¿Toda representación implica influencia?",
+    "limite": "Ambigüedad de los términos 'influencia' y 'representación' según contexto"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "influencia",
+      "definicion": "El efecto que una entidad, idea o agente produce sobre otra mediante cambio, presión o modificación de estado"
+    },
+    {
+      "termino": "representación",
+      "definicion": "Un medio, símbolo o proceso que hace presente una entidad o una relación ausente o abstracta"
+    },
+    {
+      "termino": "requiere",
+      "definicion": "Supone dependencia necesaria: sin presencia de lo requerido, lo primero no se cumple"
+    }
+  ],
+  "transduccion_preconceptual": "Para que algo pueda cambiar otra cosa, normalmente tiene que haber una forma de mostrar o señalar ese cambio. Como si para que alguien pueda guiar a un amigo por un camino, tuviera que señalarlo con el dedo, con palabras, o con huellas en el camino.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La influencia sólo ocurre si hay representación",
+      "subnodo": "Dependencia ontológica",
+      "contexto": "¿Puede existir un cambio sin registro, señal, o mediación simbólica/mecánica?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Hay representación sin influencia",
+      "subnodo": "Representación neutra",
+      "contexto": "¿Existen formas de representar sin modificar, alterar ni inducir cambios?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La implicación puede ser cierta bajo definiciones fuertes de influencia y representación, pero hay contextos donde el vínculo se disuelve (ejemplo: efecto indirecto, representación abstracta sin acción perceptible)"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si influencia es cambio activo y representación es manifestación mediadora",
+      "conclusion": "Sin representación observable, la influencia no es detectable",
+      "notas": "Perspectiva empirista; problema: influencia subyacente no mediada"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda influencia requiere representación",
+      "descripcion": "Influencia gravitacional en el vacío sin observador ni descripción simbólica (interacción física real, sin representación)",
+      "grado_de_refutacion": "parcial",
+      "notas": "Depende del marco: en epistemología fuerte, sólo lo representado existe; en física, la relación ocurre aunque nadie la traduzca"
+    },
+    {
+      "afirmacion_refutada": "Toda representación implica influencia",
+      "descripcion": "Una pintura accidentalmente ignorada (representa, pero no produce cambio en el entorno o sujeto)",
+      "grado_de_refutacion": "parcial",
+      "notas": "La influencia puede ser potencial, no efectiva"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En sistemas complejos (sociales, naturales), los efectos suelen requerir mediaciones—lenguaje, señal, forma material",
+      "inferencia": "En la mayoría de los dominios pragmáticos, la representación es necesaria para catalizar influencia con efectos acumulativos",
+      "grado_de_confianza": "alto",
+      "notas": "La mayoría de la influencia comunicativa se apoya en representación"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La influencia tiende a estabilizarse y amplificarse cuando es representada, pero pueden existir influjos sin mediación simbólica ni representación directa, especialmente en sistemas físicos o inconscientes.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda influencia requiere representación",
+        0,
+        1,
+        0
+      ],
+      [
+        "Toda representación ejerce influencia",
+        0,
+        1,
+        0
+      ],
+      [
+        "En sistemas humanos, la influencia normalmente requiere representación",
+        1,
+        0,
+        0
+      ],
+      [
+        "Puede haber influencia sin representación consciente",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Influencia no detectada (lo que cambia sin que ningún sistema lo represente)",
+    "ambiguedad": "¿Qué es 'representación'? ¿Es sólo simbólica o abarca cualquier manifestación?",
+    "contradiccion_util": "Algunos cambios significativos (influencias) sólo emergen o se mantienen si son representados, pero el origen de la influencia puede ser no representado"
+  },
+  "reorganizacion_analoga": [
+    "Como una onda en el agua: a veces la marea sube sin que nadie lo vea, pero si tiramos una piedra, la vemos expandirse (representación)",
+    "Como un mensaje cifrado: la influencia potencial existe, pero sólo se activa si alguien lo descifra (representación como catalizador)"
+  ],
+  "implicacion_transformadora": [
+    "No todo poder de cambiar algo necesita ser nombrado, pero para comunicar, acumular o dirigir cambios, siempre se requiere algún tipo de representación.",
+    "Cuestione lo invisible: busque las influencias que no han sido representadas y, al hacerlo, cree nuevas posibilidades de acción.",
+    "Al construir sistemas (sociales, tecnológicos, epistemológicos), asegúrese de que la representación facilita y no falsea la influencia real."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición se sostiene parcial o condicionalmente, pero se rompe ante contraejemplos empíricos no simbólicos; la relación es fuerte en humanos, limitada en física"
+  }
+}

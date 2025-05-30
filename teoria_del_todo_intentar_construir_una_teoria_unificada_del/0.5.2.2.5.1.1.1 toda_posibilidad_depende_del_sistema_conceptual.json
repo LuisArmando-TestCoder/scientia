@@ -1,0 +1,115 @@
+{
+  "nodo_semantico_de_entrada": "Toda posibilidad depende del sistema conceptual",
+  "nodo_semantico_central": "Contingencia de lo posible al marco conceptual",
+  "firma_ontologica": {
+    "naturaleza": "Dependencia funcional",
+    "funcion": "Relacionar el rango de posibilidades con el sistema de conceptos adoptado",
+    "dominio": "epistemología de los sistemas; teoría de los marcos",
+    "forma": "relación de subordinación (posible→sistema)",
+    "tension": "¿La posibilidad existe independientemente del sistema conceptual o sólo es reconocible dentro de él?",
+    "limite": "Depende de la definición de 'posibilidad' y de los límites del sistema conceptual en cuestión"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "posibilidad",
+      "definicion": "Todo aquello que puede ser considerado realizable o pensable desde cierto marco"
+    },
+    {
+      "termino": "sistema conceptual",
+      "definicion": "Colección estructurada de ideas, reglas y distinciones que operan como filtro de lo pensable"
+    },
+    {
+      "termino": "dependencia",
+      "definicion": "Relación de restricción o habilitación (una cosa sólo existe si la base lo permite)"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que el mundo es un cuarto oscuro. El sistema conceptual es la linterna que tienes: sólo puedes ver (y pensar) las cosas hacia donde la apuntas. Si tu linterna es pequeña, ves poco. Si es grande y cambia de forma, puedes ver más posibilidades. Sin linterna, el cuarto está vacío aunque tenga cosas.",
+  "iteraciones": [
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "La posibilidad puede existir fuera de cualquier sistema conceptual.",
+      "subnodo": "Posibilidad trascendente",
+      "contexto": "¿Existen posibilidades independientes de cualquier marco conceptual posible?"
+    },
+    {
+      "id": "1.1.2",
+      "afirmacion_base": "Todo reconocimiento de posibilidad ocurre dentro de un sistema conceptual.",
+      "subnodo": "Posibilidad inmanente",
+      "contexto": "¿Toda posibilidad necesita ser conceptualizada para existir como tal?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No resoluble sin posición metafísica sobre la existencia de posibilidades fuera del sistema conceptual (metadependencia autoreferencial)"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición de posibilidad como función de reconocimiento",
+      "conclusion": "Cualquier posibilidad operativa depende de su identificabilidad conceptual",
+      "notas": "Si no hay sistema conceptual, no hay mapeo reconocido — pero podría haber posibilidades ontológicas no reconocidas"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda posibilidad depende del sistema conceptual",
+      "descripcion": "Posibles mundos cuyo contenido no es pensable desde ningún sistema conceptual humano (posibilidad ignorada o irreconocible)",
+      "grado_de_refutacion": "parcial",
+      "notas": "La dependencia total es refutada si se postula ontología externa a la concepción; sin embargo, cognitivamente no hay acceso sin sistema"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En experiencias históricas, la invención de nuevos conceptos permitió reconocer nuevas posibilidades (ejemplo: números negativos, dimensiones espaciales adicionales)",
+      "inferencia": "Lo que es posible para una mente suele depender de sus marcos conceptuales",
+      "grado_de_confianza": "alto",
+      "notas": "La regularidad empírica sugiere fuerte dependencia; sin embargo, no se prueba imposibilidad absoluta fuera del marco conceptual"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Las posibilidades efectivas de un agente cognitivo están siempre limitadas —y expandidas— por el sistema conceptual bajo el cual opera. Lo posible-realizable es función del marco mental, aunque pueda existir una posibilidad ontológica irreconocida.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda posibilidad depende del sistema conceptual (en sentido cognitivo)",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda posibilidad depende del sistema conceptual (en sentido ontológico absoluto)",
+        0,
+        1,
+        0
+      ],
+      [
+        "Es posible que existan posibilidades no reconocibles desde ningún sistema conceptual conocido",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Reconocer posibilidad sólo desde lo conceptual impide afirmar o negar posibilidades absolutamente externas al sistema conceptual",
+    "ambiguedad": "Confusión semántica entre posibilidad pensada (‘epistemológica’) y posibilidad en sí (‘ontológica’)",
+    "contradiccion_util": "Lo posible es ilimitado desde fuera pero estrictamente acotado desde dentro; el límite se vuelve fértil para innovación conceptual"
+  },
+  "reorganizacion_analoga": [
+    "Como un idioma: sólo puedes decir lo que tus palabras permiten nombrar; lo innombrable existe, pero no puede ser comunicado ni pensado en ese idioma.",
+    "Como la percepción a través de un filtro de colores: lo que está fuera del espectro visible del filtro existe físicamente, pero no para el observador."
+  ],
+  "implicacion_transformadora": [
+    "Expansión del sistema conceptual aumenta la gama de posibilidades reconocibles y accionables.",
+    "Todo avance cognitivo requiere nuevos marcos para que surjan nuevas posibilidades.",
+    "Las limitaciones conceptuales no son sólo defectos, sino motores de creatividad: explorar el borde del marco para redefinir lo posible."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Persistencia de indecidibilidad entre posibilidad cognitiva y posibilidad absoluta; la afirmación sólo es verdadera dentro del marco epistemológico pero no ontológicamente universal."
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "nodo_semantico_de_entrada": "Algunas posibilidades son independientes del sistema conceptual",
+  "nodo_semantico_central": "Independencia parcial de posibilidades respecto a marcos conceptuales",
+  "firma_ontologica": {
+    "naturaleza": "proposición relacional",
+    "funcion": "mapear la dependencia/independencia de la posibilidad frente a los límites de los sistemas simbólicos",
+    "dominio": "metafísica, epistemología, lógica modal",
+    "forma": "dualidad (dependencia/independencia), subconjunto dentro de un sistema mayor",
+    "tension": "entre la universalidad ontológica y la limitación contextual de los marcos",
+    "limite": "no todas las posibilidades pueden comprobarse fuera de todo marco conceptual; la independencia absoluta es problemática"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "posibilidad",
+      "definicion": "Todo aquello que puede ser, ocurrir o pensarse, aunque aún no haya sucedido"
+    },
+    {
+      "termino": "independencia",
+      "definicion": "Carácter de no estar determinado o restringido por otro elemento o conjunto"
+    },
+    {
+      "termino": "sistema conceptual",
+      "definicion": "Conjunto de ideas, reglas y símbolos que estructuran cómo interpretamos, organizamos y explicamos la realidad"
+    },
+    {
+      "termino": "algunas",
+      "definicion": "No todas; implica la existencia de casos particulares que cumplen una condición, sin que ésta sea general"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes una caja de juguetes, y en la caja puedes pensar en mil juegos nuevos. Pero, de repente, te das cuenta que habrá algunos juegos que puedes imaginar aunque no los conozcas ni estén en tu caja, como cuando sueñas algo raro que nunca habías visto.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Algunas posibilidades son independientes del sistema conceptual",
+      "subnodo": "Existencia de posibilidades extra-sistémicas",
+      "contexto": "¿Es posible que haya realidades que un marco conceptual no pueda prever ni contener?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Algunas posibilidades son independientes del sistema conceptual",
+      "subnodo": "Límites epistemológicos de los sistemas simbólicos",
+      "contexto": "¿Qué sucede cuando una posibilidad sólo se percibe fuera del alcance del sistema conceptual vigente?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación es parcialmente sustentable en algunos contextos (matemática, física, filosofía) pero requiere criterios formales de 'independencia'; la independencia absoluta es cuestionable"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de sistema conceptual como límite semántico",
+      "conclusion": "Toda posibilidad reconocida debe ser representable dentro de algún sistema conceptual; la independencia total implica paradoja o inefabilidad",
+      "notas": "Si se puede hablar de una posibilidad, de algún modo ya entra en el ámbito conceptual"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Algunas posibilidades son independientes del sistema conceptual",
+      "descripcion": "Paradoja de lo indecible: Si una posibilidad no es conceptualizable, no es posible ni siquiera nombrarla o demostrar su existencia desde dentro de cualquier sistema",
+      "grado_de_refutacion": "parcial",
+      "notas": "El contraejemplo no impide que, en teoría, existan posibilidades extra-sistémicas, pero sí problematiza su 'independencia' efectiva"
+    },
+    {
+      "afirmacion_refutada": "Algunas posibilidades son independientes del sistema conceptual",
+      "descripcion": "Teorema de la incompletitud de Gödel: Existen verdades en ciertos sistemas formales para las que no hay prueba dentro de ese sistema, sólo desde sistemas externos o ampliados",
+      "grado_de_refutacion": "parcial",
+      "notas": "Refuta que la totalidad de posibilidades pueda agotarse en un solo sistema conceptual, pero no la existencia concreta de posibilidades absolutamente independientes"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En varias disciplinas, la ampliación del marco descriptivo genera nuevas posibilidades antes insospechadas",
+      "inferencia": "La independencia de muchas posibilidades es contextual y relativa; pueden salirse del marco sólo hasta que el marco crece o se transforma",
+      "grado_de_confianza": "medio",
+      "notas": "Se observa empíricamente, pero no garantiza independencia absoluta"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La independencia de ciertas posibilidades respecto a sistemas conceptuales es relativa: existen potencialidades que un marco dado no prevé, pero la manifestación y aprehensión de la posibilidad requiere eventualmente un sistema conceptual extendido o alternativo. La independencia absoluta queda fuera del alcance teórico de todo marco simbólico, pero la emergencia de novedades epistémicas demuestra que los conceptos siempre podrían ser rebasados.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Todas las posibilidades son independientes del sistema conceptual",
+        0,
+        1,
+        0
+      ],
+      [
+        "Ninguna posibilidad es independiente del sistema conceptual",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunas posibilidades son independientes del sistema conceptual",
+        0,
+        0,
+        1
+      ],
+      [
+        "La independencia absoluta de las posibilidades puede ser demostrada",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Si una posibilidad es completamente independiente de todo sistema conceptual, no puede ser siquiera postulada ni detectada; pero si se la postula, ya opera dentro de algún marco.",
+    "ambiguedad": "'Algunas' carece de cuantificación formal y el criterio de independencia queda vago sin meta-reglas sobre sistemas conceptuales.",
+    "contradiccion_util": "El acto de buscar posibilidades fuera del marco conceptual fuerza la evolución del marco y genera nuevas estructuras."
+  },
+  "reorganizacion_analoga": [
+    "Como los números irracionales antes de su identificación formal: existían en potencialidad, pero no en el sistema matemático de los pitagóricos.",
+    "Como tierras desconocidas en mapas antiguos que sólo se reconocen al redibujar los bordes del mapa.",
+    "Como el espectro electromagnético ignorado antes de los instrumentos adecuados: estaba ahí, pero no en el sistema conceptual humano."
+  ],
+  "implicacion_transformadora": [
+    "Todo marco conceptual conlleva la potencialidad de su propia superación: la búsqueda de posibilidades 'independientes' es una heurística para expandir la mente y el conocimiento.",
+    "El reconocimiento de la posible existencia de realidades extra-sistémicas aconseja humildad epistémica y apertura teórica, promoviendo metacognición activa y revisión mutua de los marcos.",
+    "Las posibilidades verdaderamente independientes juegan el papel de motores evolutivos en la dinámica intelectual, disparando la emergencia de nuevos lenguajes y sistemas formales."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición no puede reducirse a verdadero/falso desde dentro de un marco fijo: su verdad es autoreferencial respecto al crecimiento de los sistemas conceptuales. Paradoja y ambigüedad estructural no eliminables."
+  }
+}

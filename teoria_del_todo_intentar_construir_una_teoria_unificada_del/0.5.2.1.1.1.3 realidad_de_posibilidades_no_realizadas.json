@@ -1,0 +1,135 @@
+{
+  "nodo_semantico_de_entrada": "Realidad de posibilidades no realizadas",
+  "nodo_semantico_central": "Posibilidades reales no actualizadas",
+  "firma_ontologica": {
+    "naturaleza": "proposición metafísica",
+    "funcion": "establecer el estatus ontológico de las posibilidades no realizadas",
+    "dominio": "metafísica modal",
+    "forma": "disyunción conceptual irreducible",
+    "tension": "¿Pueden las posibilidades ser reales si jamás se actualizan?",
+    "limite": "depende de la definición de 'realidad' y del alcance de los universos posibles"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "posibilidad",
+      "definicion": "Algo que podría pasar aunque quizá nunca pase."
+    },
+    {
+      "termino": "realidad",
+      "definicion": "Lo que existe de alguna manera, aunque no sea visible ni actual."
+    },
+    {
+      "termino": "actualización",
+      "definicion": "El evento donde una posibilidad se convierte en algo que sucede."
+    },
+    {
+      "termino": "universo posible",
+      "definicion": "Mundo completo en donde suceden ciertas cosas, diferentes a otros mundos."
+    }
+  ],
+  "transduccion_preconceptual": "Imagina una caja de crayones donde hay colores secretos, pero nadie, en ningún dibujo, usa esos colores. ¿Siguen siendo colores, aunque nadie jamás los vea en el papel?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Posibilidades reales pueden existir sin realizarse en ningún universo posible",
+      "subnodo": "realidad potencial pura",
+      "contexto": "¿La posibilidad existe sin actualización cuando ningún universo la encarna?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La existencia requiere actualización en al menos un universo posible",
+      "subnodo": "realidad actuada vs no actuada",
+      "contexto": "Tensión entre existencia modal y existencia fáctica"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No hay acuerdo universal sobre si lo posible no actuado es real; depende de axiomas metafísicos adoptados"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición de posibilidad modal",
+      "conclusion": "Si toda posibilidad es definida por su potencial de actualización, las posibilidades nunca actualizadas son ficciones lógicas.",
+      "notas": "Pero si la realidad incluye entidades puramente posibles (como en la modalización fuerte), estas 'existen' aunque no se realizan."
+    },
+    {
+      "origen": "axioma del realismo modal de Lewis",
+      "conclusion": "Sólo las posibilidades realizadas en algún universo son reales; las restantes no tienen estatus ontológico.",
+      "notas": "El marco depende del modelo modal adoptado (multiverso vs posibilidad abstracta)."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todas las posibilidades reales se actualizan en algún universo posible",
+      "descripcion": "Una posibilidad lógicamente coherente (un círculo cuadrado en geometría no euclidiana) puede ser concebida pero jamás realizada en ningún mundo consistente.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Demuestra que la posibilidad lógica y la actualización pueden disentir."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En la experiencia cotidiana, lo posible pero nunca realizado es tratado como ficción.",
+      "inferencia": "La intuición ordinaria niega la realidad de lo nunca realizado fuera del pensamiento.",
+      "grado_de_confianza": "alto",
+      "notas": "Se basa en prácticas lingüísticas y cognitivas humanas"
+    },
+    {
+      "patron_observado": "Modelos de multiverso postulan realización de toda posibilidad compatible con las leyes.",
+      "inferencia": "En algunos marcos, no existiría posibilidad real no realizada.",
+      "grado_de_confianza": "medio",
+      "notas": "Depende de la interpretación de la física o la lógica modal"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El estatus ontológico de las posibilidades nunca actualizadas es esencialmente dependiente del marco metafísico: para algunos, son reales como formas puras; para otros, inexistentes fuera de toda actualización.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Existen posibilidades reales que no se actualizan en ningún universo posible",
+        0,
+        0,
+        1
+      ],
+      [
+        "Toda posibilidad real se actualiza en algún universo posible",
+        0,
+        1,
+        0
+      ],
+      [
+        "La realidad puede incluir entidades puramente posibles (no realizadas)",
+        1,
+        0,
+        0
+      ],
+      [
+        "Si una posibilidad nunca ocurre, sigue siendo una posibilidad",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Si llamamos real a lo no realizado, ¿qué impide que toda concepción sea real por default?",
+    "ambiguedad": "La definición de 'realidad' fluctúa entre lo potencial y lo actual.",
+    "contradiccion_util": "El pensamiento necesita posibilidades no realizadas para funcionar, pero su ontología es borrosa."
+  },
+  "reorganizacion_analoga": [
+    "Como números irracionales que nunca se expresan completamente, pero estructuran el sistema numérico.",
+    "Como piezas de ajedrez nunca movidas en una partida, pero existentes como potencial estratégico."
+  ],
+  "implicacion_transformadora": [
+    "La ontologización de lo posible puede reestructurar cómo modelamos el futuro, la innovación o la creatividad.",
+    "Definir posibilidades reales no actualizadas influye en la construcción de narrativas, teorías y multiversos mentales."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El nodo remite a fundamentos metafísicos contingentes al marco lógico o a la acepción operativa de realidad."
+  }
+}

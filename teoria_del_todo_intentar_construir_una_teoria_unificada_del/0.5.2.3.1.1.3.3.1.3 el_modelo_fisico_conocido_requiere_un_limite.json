@@ -1,0 +1,139 @@
+{
+  "nodo_semantico_de_entrada": "El modelo físico conocido requiere un límite",
+  "nodo_semantico_central": "Límites en modelos físicos",
+  "firma_ontologica": {
+    "naturaleza": "principio epistémico-lógico",
+    "funcion": "Delimitar la extensión válida o aplicable de la descripción formal de la realidad",
+    "dominio": "física teórica, epistemología de la ciencia",
+    "forma": "frontera formal, discontinuidad conceptual",
+    "tension": "Entre la completitud deseada y la autocontención que impide la sobreextensión explicativa",
+    "limite": "El límite solo puede ser designado extrínsecamente (condición inicial / axioma externo); puede ser rebasado, redefinido o desdibujado por nuevos marcos"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "modelo físico",
+      "definicion": "Descripción matemática y conceptual de los fenómenos naturales que intenta predecir y explicar observaciones"
+    },
+    {
+      "termino": "límite",
+      "definicion": "Condición, frontera o restricción que marca hasta dónde es válido o aplicable un modelo"
+    },
+    {
+      "termino": "requerir",
+      "definicion": "Que es necesario para operar coherentemente"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes un mapa para explorar tu parque. El mapa muestra los juegos y las fuentes, pero solo hasta donde tu parque llega. Si quieres seguir, necesitas un borde en el mapa para saber dónde acaba el parque y empieza la ciudad. Sin ese borde, podrías terminar dibujando caminos que ya no existen.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El modelo físico es autosuficiente y completo sin límites",
+      "subnodo": "completitud axiomática",
+      "contexto": "Paradojas de la completitud: el teorema de incompletitud de Gödel sugiere que sistemas suficientemente ricos requieren fronteras o axiomas externos"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Algún modelo físico puede prescindir de límites",
+      "subnodo": "modelos transfinito-irrestrictos",
+      "contexto": "Consideración de universos matemáticos sin restricciones explícitas"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El requerimiento de límite depende del marco adoptado y del nivel de descripción (fenomenológico, fundamental, matemático)."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Necesidad de consistencia en sistemas formales (axiomatización)",
+      "conclusion": "Todo modelo que formaliza la naturaleza debe especificar su dominio de validez para evitar contradicciones",
+      "notas": "Tuvo que ser delimitado para evitar extrapolaciones disfuncionales (p.ej.: física clásica vs física cuántica)"
+    },
+    {
+      "origen": "Teorema de incompletitud/indecibilidad (Gödel, Turing)",
+      "conclusion": "Ciertos aspectos de lo real implican la existencia de verdades indecidibles sin referencia externa",
+      "notas": "Requerir un límite es equivalente a requerir condiciones iniciales o axiomas adicionales"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todos los modelos físicos requieren un límite explícito",
+      "descripcion": "Las teorías del todo buscan una descripción global sin límites observacionales autoimpuestos.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Incluso las teorías del todo descansan en axiomas o convenciones, pero la motivación es la ausencia de límites externos."
+    },
+    {
+      "afirmacion_refutada": "Ningún modelo físico puede carecer de límites",
+      "descripcion": "La teoría del multiverso permite marcos sin frontera interna fija.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Aún así, la definición de 'multiverso' supone un contexto o fondo"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "A lo largo de la historia de la física, cada nuevo paradigma impone límites a la aplicabilidad del anterior (de la mecánica clásica a la cuántica, relatividad, etc.)",
+      "inferencia": "La existencia de límites parece patrón recurrente, aunque estos se redefinen progresivamente",
+      "grado_de_confianza": "alto",
+      "notas": "El ciclo límite-superación-límite parece inherente al progreso científico"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Los modelos físicos solo operan como tales al definir su frontera de aplicabilidad; un modelo sin límite explícito se transforma en metamodelo o especulación, requiriendo nuevas reglas de validación.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Todo modelo físico requiere un límite explícito para ser coherente",
+        1,
+        0,
+        0
+      ],
+      [
+        "Existen modelos físicos sin límite definido",
+        0,
+        1,
+        0
+      ],
+      [
+        "El límite puede cambiar según el marco",
+        1,
+        0,
+        0
+      ],
+      [
+        "Un modelo físico puede autoexplicarse completamente sin referencia externa",
+        0,
+        1,
+        0
+      ],
+      [
+        "Identificar el límite de un modelo físico es imprescindible para evitar contradicciones",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Un modelo completo de la realidad no puede postular límites absolutos sin autorreferirse y restringirse; pero modelos sin frontera son metafísicos, no empíricamente comprobables.",
+    "ambiguedad": "¿El límite es epistemológico (lo que podemos conocer) o ontológico (lo que es)?",
+    "contradiccion_util": "Los límites definidos nutren paradójicamente el avance: al hallarse el borde, se fomenta la ampliación del modelo."
+  },
+  "reorganizacion_analoga": [
+    "Como el borde de una hoja en blanco: necesario para dibujar, pero lo que queda fuera impulsa a buscar otra hoja.",
+    "Como la piel en biología: define al organismo, pero su ruptura marca la transición a otro sistema.",
+    "Como los axiomas en matemáticas: delimitan el sistema dentro del cual se razona, pero invitan a inventar nuevos sistemas si los límites resultan insuficientes."
+  ],
+  "implicacion_transformadora": [
+    "Todo avance en física implica redefinir límites previamente aceptados.",
+    "Reconocer el carácter provisional de los límites es clave para la creatividad y la revisión crítica.",
+    "El método científico se basa en tensionar y colapsar fronteras: cada límite es potencial inicio de una nueva teoría."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El análisis muestra que el concepto de límite es instrumental y mutable: necesario localmente, pero no absoluto globalmente."
+  }
+}

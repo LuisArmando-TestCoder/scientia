@@ -1,0 +1,149 @@
+{
+  "nodo_semantico_de_entrada": "Todo lo real es formalizable",
+  "nodo_semantico_central": "Formalización universal de lo real",
+  "firma_ontologica": {
+    "naturaleza": "Principio epistemológico",
+    "funcion": "Definir la relación entre realidad y sistemas formales",
+    "dominio": "ontología, lógica, teoría de la información",
+    "forma": "afirmación universal",
+    "tension": "Absolutismo conceptual vs. límites formales",
+    "limite": "Dependencia de definiciones de 'real' y 'formalizable'"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "realidad",
+      "definicion": "Todo lo que existe, independientemente de su observación o descripción"
+    },
+    {
+      "termino": "formalización",
+      "definicion": "Proceso de traducir algo a un sistema formal de símbolos, reglas y relaciones explícitas"
+    },
+    {
+      "termino": "universalidad",
+      "definicion": "Atributo de que lo dicho abarca sin excepciones a todos los casos posibles"
+    },
+    {
+      "termino": "formalizable",
+      "definicion": "Capaz de ser descrito o modelado mediante un sistema formal (matemático, lógico o simbólico)"
+    }
+  ],
+  "transduccion_preconceptual": "Es como si dijéramos que todo lo que puedes imaginar o encontrar en el mundo se puede poner en una caja con instrucciones claras y reglas para jugar; nada se queda fuera de la caja o sin instrucciones.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Todo lo real es formalizable",
+      "subnodo": "Límites de la formalización",
+      "contexto": "¿Existen elementos de la realidad que no pueden ser capturados por ningún sistema formal?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Lo real es igual a lo formalizable",
+      "subnodo": "Identidad epistemológica",
+      "contexto": "¿La formalización agota lo real o quedan residuos de lo no formalizable?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Formalizar implica describir sin pérdida",
+      "subnodo": "Reducción y pérdida semántica",
+      "contexto": "¿Toda formalización preserva completamente lo real o existe irreductibilidad entre niveles?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Surgen límites epistemológicos y contraejemplos (inefabilidad, caos, irreductibilidad, paradojas formales) que impiden afirmar la universalidad sin reservas."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si lo real es formalizable, todo fenómeno observado puede tener un modelo formal.",
+      "conclusion": "La ciencia y la matemática serían, en principio, capaces de agotar la descripción de la realidad.",
+      "notas": "Condicionado a la posibilidad estructural de formalización total."
+    },
+    {
+      "origen": "Definiciones de real y formalizable",
+      "conclusion": "La afirmación es circular si ambos términos se definen mutuamente.",
+      "notas": "Requiere ruptura de la tautología o nuevo metalenguaje."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todo lo real es formalizable",
+      "descripcion": "Fenómenos de irreductibilidad computacional (como sistemas caóticos), experiencias subjetivas inefables (qualia), o paradojas lógico-matemáticas (incompletitud de Gödel).",
+      "grado_de_refutacion": "parcial",
+      "notas": "El grado de formalización puede ser limitado por la estructura misma del sistema formal empleado."
+    },
+    {
+      "afirmacion_refutada": "Todo absoluto no admite excepciones",
+      "descripcion": "Contraejemplo general: existen contraejemplos en cualquier sistema suficientemente complejo (teoremas de incompletitud, paradojas semánticas, problemas indecidibles).",
+      "grado_de_refutacion": "total",
+      "notas": "El absolutismo implica, en la práctica, falsabilidad por sólo un caso límite."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "No todo fenómeno ha podido ser formalizado hasta ahora",
+      "inferencia": "Es probable que existan límites prácticos o teóricos a la formalización universal.",
+      "grado_de_confianza": "alto",
+      "notas": "La historia de la ciencia e informática lo sugiere."
+    },
+    {
+      "patron_observado": "Profundos avances vienen de nuevas formalizaciones",
+      "inferencia": "La tendencia a formalizar lo real es fuente de nuevos descubrimientos aun cuando no todo sea formalizable.",
+      "grado_de_confianza": "medio",
+      "notas": "El impulso formalizador es productivo, no necesariamente totalizante."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La frontera entre lo real y lo formalizable es móvil, pero nunca colapsa completamente: toda formalización es una cartografía parcial, jamás el territorio completo.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Todo lo real es formalizable",
+        0,
+        1,
+        0
+      ],
+      [
+        "Existen realidades no formalizables",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda formalización es totalmente exhaustiva",
+        0,
+        1,
+        0
+      ],
+      [
+        "La formalización universal es posible",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Cuanto más se intenta formalizar lo real, más aparecen horizontes de irreductibilidad y nuevos límites formales.",
+    "ambiguedad": "'Real' y 'formalizable' no son conceptos fijos; su significado evoluciona conforme se intentan conectar.",
+    "contradiccion_util": "Intentar formalizar lo formalizable revela tanto nuevos saberes como nuevas inefabilidades."
+  },
+  "reorganizacion_analoga": [
+    "El mapa nunca es el territorio.",
+    "La mente tratando de definirse a sí misma en el acto de pensar.",
+    "Intentar atrapar el agua con una red muy fina: algo siempre se escapa."
+  ],
+  "implicacion_transformadora": [
+    "La epistemología debe incluir tanto la práctica formalizadora como el reconocimiento de los límites y residuos de lo no formalizable.",
+    "Afrontar la inefabilidad como motor de nuevas formalizaciones.",
+    "Todo sistema de conocimiento debe ser flexible ante lo irreductible y tolerar la incertidumbre como fuente creativa."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición es refutada como absoluto, sostenida sólo como tendencia; la tensión inagotable entre formalización y realidad es fuente de avance epistemológico."
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "nodo_semantico_de_entrada": "Existen realidades no formalizables",
+  "nodo_semantico_central": "Realidad-no-formalizable",
+  "firma_ontologica": {
+    "naturaleza": "proposición existencial negativa",
+    "funcion": "Cuestionar límites de la formalización",
+    "dominio": "ontología, lógica, epistemología",
+    "forma": "limite/frontera entre lo formal y lo informal",
+    "tension": "Afirmación de existencia de entidades fuera de todo sistema formal",
+    "limite": "No comprobable dentro de sistemas exclusivamente formales; apoyado solo por intuición o por recurrencia a paradojas"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "realidad",
+      "definicion": "Todo lo que es o acontece, independientemente de su representación simbólica"
+    },
+    {
+      "termino": "formalizable",
+      "definicion": "Que puede ser descrito, modelado o capturado plenamente en un sistema lógico, simbólico o matemático"
+    },
+    {
+      "termino": "no formalizable",
+      "definicion": "Que escapa a la descripción o captura completa por sistemas formales; rebasa lo expresable en lenguajes lógicos"
+    }
+  ],
+  "transduccion_preconceptual": "Hay cosas que no caben en ninguna caja que puedas inventar. Son como animales imaginarios que nunca los puedes atrapar ni dibujar, pero sabes que podrían existir, aunque nadie los ha visto ni los puede contar.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Existen realidades no formalizables",
+      "subnodo": "indetectabilidad-ontológica",
+      "contexto": "¿Puede un sistema formal detectar lo que no es formalizable?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Existen realidades no formalizables",
+      "subnodo": "paradoja de la completitud",
+      "contexto": "¿Resolvería un sistema completo enunciando todo lo real? Teoremas de incompletitud de Gödel y argumentaciones afines sugieren límites concretos."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No refutable ni confirmable dentro del formalismo; indefinido por depender de la definición de 'realidad' y del alcance de la formalización"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición de realidad/no formalizable",
+      "conclusion": "Si algo no es formalizable, ningún sistema formal podrá capturarlo plenamente.",
+      "notas": "Esto es tautológico si se acepta la definición, pero no prueba existencia, solo la posibilidad conceptual."
+    },
+    {
+      "origen": "teoremas de incompletitud",
+      "conclusion": "Hay sistemas formales con proposiciones verdaderas no formalizables dentro de sí.",
+      "notas": "Esto aplica a sistemas de autorreferencia lógica, pero no traslada automáticamente al campo ontológico."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todo lo real es formalizable",
+      "descripcion": "El problema de la conciencia, cualia, caos puro, paradojas semánticas, experiencias místicas (reclamaciones históricas de acceso a realidades 'inefables'). También, problemas matemáticos indecidibles.",
+      "grado_de_refutacion": "parcial",
+      "notas": "No implica que existan realidades no formalizables, solo que algunos aspectos de la realidad escapan actualmente a algunos formalismos."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "A lo largo de la historia, ciertos fenómenos escapan a descripción formal clara.",
+      "inferencia": "Podría haber dominios de realidad fuera del alcance formal actual o intrínsecamente no formalizables.",
+      "grado_de_confianza": "medio",
+      "notas": "El patrón puede deberse a límites temporales, instrumentales o intrínsecos. No demuestra existencia ontológica, solo insuficiencia formal momentánea."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Toda formalización está limitada por su propio lenguaje: el espacio de lo real podría desbordar cualquier codificación, pero afirmar existencia (no formalizable) es indemostrable desde adentro de cualquier sistema formal.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Existen realidades no formalizables",
+        0,
+        0,
+        1
+      ],
+      [
+        "Todo lo real es formalizable",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunas realidades son formalizables",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Para afirmar una realidad no formalizable se la conceptualiza, aunque conceptualizar es un acto formalizante; si se nombra, ¿se formaliza lo no formalizable?",
+    "ambiguedad": "\"Realidad\" y \"formalizable\" son términos ambiguos en su límite; ambigüedad de escala y acceso.",
+    "contradiccion_util": "La búsqueda de lo no formalizable fuerza la expansión de los lenguajes formales y desborda fronteras semánticas."
+  },
+  "reorganizacion_analoga": [
+    "Como intentar contar todos los granos de arena en la playa usando solo números pequeños.",
+    "Como un mapa que siempre es más pequeño que el territorio: el territorio siempre tiene detalles que el mapa no puede incluir.",
+    "Como intentar señalar el borde del universo usando una regla.",
+    "Como el número pi: se puede escribir con aproximaciones, pero nunca completamente."
+  ],
+  "implicacion_transformadora": [
+    "El reconocimiento de la posible existencia de realidades no formalizables invita a la humildad epistemológica.",
+    "Obliga a revisar y expandir periódicamente los lenguajes y sistemas de modelado.",
+    "Facilita la creatividad al aceptar y convivir con lo inefable, lo caótico, lo incompleto.",
+    "Justifica la búsqueda constante de nuevos marcos y la pluralidad de aproximaciones al conocimiento."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición queda en estado indefinido: depende de definiciones no unívocas y de la imposibilidad lógica de probar afirmaciones negativas absolutas en este contexto."
+  }
+}

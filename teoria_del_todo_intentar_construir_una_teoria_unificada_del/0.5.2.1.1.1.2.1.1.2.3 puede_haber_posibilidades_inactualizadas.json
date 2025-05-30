@@ -1,0 +1,112 @@
+{
+  "nodo_semantico_de_entrada": "Puede haber posibilidades inactualizadas",
+  "nodo_semantico_central": "Posibilidad no realizada",
+  "firma_ontologica": {
+    "naturaleza": "estado potencial",
+    "funcion": "postular la existencia de opciones no convertidas en hechos",
+    "dominio": "modalidad, ontología, metafísica",
+    "forma": "espacio de estados potenciales no colapsados",
+    "tension": "diferencia entre lo potencial y lo real",
+    "limite": "no observable directamente (epistémico); depende de la definición de posibilidad"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "posibilidad",
+      "definicion": "algo que puede llegar a ser o suceder (opción no descartada por las reglas del sistema)"
+    },
+    {
+      "termino": "inactualizado",
+      "definicion": "que no se ha convertido en real, actual, experimentado o manifestado"
+    }
+  ],
+  "transduccion_preconceptual": "En un salón hay muchas puertas cerradas. Algunas personas abren una puerta y entran a un lugar nuevo, pero hay puertas que nadie ha abierto. Esas puertas podrían esconder algo, pero no lo sabemos porque nadie las abrió. Las cosas detrás de esas puertas son como secretos que a lo mejor pueden ser, pero todavía no son.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Las posibilidades inactualizadas pueden influir en lo actual",
+      "subnodo": "Influencia potencial de lo no realizado",
+      "contexto": "¿Puede algo que no sucede tener efectos en lo que sí sucede? (Ejemplo: mecánica cuántica, decisiones éticas no tomadas, mundos posibles en lógica modal)"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Toda posibilidad inactualizada existe de algún modo",
+      "subnodo": "Existencia ontológica de lo posible",
+      "contexto": "¿Existe la posibilidad no realizada como entidad, solo como abstracción, o no existe en absoluto?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No es formalmente resoluble sin precisar axiomas de existencia modal; depende del marco metafísico adoptado."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición modal de posibilidad",
+      "conclusion": "Si el sistema permite libertad modal, la posibilidad inactualizada puede ser modelada formalmente.",
+      "notas": "Sólo es deducible dentro de marcos que admiten mundos posibles o lógica modal."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda posibilidad inactualizada existe objetivamente",
+      "descripcion": "Según materialismo estricto o realismo actualista, sólo lo que ocurre o puede medirse existe; lo demás no.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Marcos físicos con colapso objetivo niegan existencia de posibilidad no realizada tras la actualización."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En toma de decisiones humanas y física cuántica, lo posible parece tener efectos reales (ansiedad ante futuros posibles, interferencia cuántica de historias no realizadas)",
+      "inferencia": "Las posibilidades inactualizadas pueden tener una existencia operacional, al menos como estructuras de información (potencial epistemológico o psicológico)",
+      "grado_de_confianza": "medio",
+      "notas": "La presencia de efectos indirectos sugiere una relevancia, aunque no necesariamente existencia ontológica fuerte."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Lo no realizado coexiste como recurso estructural de sistemas complejos: la potencialidad no desaparece, funciona como campo de posibilidades que constriñe, informa o limita lo actual.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Existen posibilidades inactualizadas",
+        0,
+        0,
+        1
+      ],
+      [
+        "Las posibilidades inactualizadas pueden influir en lo actual",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda posibilidad inactualizada existe objetivamente",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La existencia de algo que no existe (en sentido actualista) pero que estructura el espacio de lo real",
+    "ambiguedad": "¿Posibilidad como propiedad del sistema/mente o como entidad objetiva?",
+    "contradiccion_util": "Las posibilidades inactualizadas son inobservables, pero su conceptualización es necesaria para explicar cambio, contingencia y libertad."
+  },
+  "reorganizacion_analoga": [
+    "Como ramas de un árbol genealógico que nunca generaron frutos pero cambian el crecimiento del resto del árbol.",
+    "Como líneas del tiempo alternativas en ciencia ficción: no ocurrieron, pero su narrativa afecta cómo entendemos lo que sí ocurrió.",
+    "Como caminos en un laberinto: solo se vive uno, pero todos forman la estructura."
+  ],
+  "implicacion_transformadora": [
+    "Admitir la importancia lógica y metodológica de lo inactualizado puede transformar modelos de predicción, ética y explicación científica.",
+    "Permite diseñar sistemas que consideren la contrafactualidad como recurso (ej. en IA, ingeniería, teoría de juegos).",
+    "Abre espacio a interpretaciones más ricas de agencia y responsabilidad."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación no puede resolverse plenamente sin definir un marco ontológico concreto; productiva para modelado, no completamente accesible a la verificación empírica estratificada."
+  }
+}

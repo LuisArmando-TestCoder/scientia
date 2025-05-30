@@ -1,0 +1,125 @@
+{
+  "nodo_semantico_de_entrada": "Algunas posibilidades son independientes del sistema conceptual",
+  "nodo_semantico_central": "Independencia parcial de posibilidades respecto a sistemas conceptuales",
+  "firma_ontologica": {
+    "naturaleza": "relación modal",
+    "funcion": "explorar la autonomía de lo posible ante marcos conceptuales",
+    "dominio": "epistemología, ontología modal",
+    "forma": "ramificación de casos",
+    "tension": "indeterminación por ambigüedad de 'algunas' y 'posibilidades'",
+    "limite": "dependencia del lenguaje para expresar independencia ontológica"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "posibilidades",
+      "definicion": "aquello que puede ocurrir o existir, aunque no esté dado todavía"
+    },
+    {
+      "termino": "sistema conceptual",
+      "definicion": "conjunto de ideas y reglas que usamos para organizar el conocimiento"
+    },
+    {
+      "termino": "independiente",
+      "definicion": "que no necesita o no depende del marco que lo intenta definir"
+    },
+    {
+      "termino": "algunas",
+      "definicion": "no todas, sólo un subconjunto, sin precisar cuántas"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes una caja de crayones. Hay colores que puedes ver y dibujar. Pero hay colores que nadie ha puesto en la caja aún. Tal vez existen en otro lugar, aunque tú nunca los puedas usar. Esos colores serían posibilidades independientes de tu caja de colores.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "algunas posibilidades son independientes del sistema conceptual",
+      "subnodo": "existencia de posibilidades extraconceptuales",
+      "contexto": "¿Puede haber algo que sea posible fuera de cualquier sistema de ideas conocido?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "el sistema conceptual delimita todas las posibilidades",
+      "subnodo": "absolutismo conceptual",
+      "contexto": "Refutando el absolutismo con el enfoque 'algunista' de la afirmación original"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación depende de cómo definamos 'posibilidad' y del alcance del 'sistema conceptual'; ambiguo y abierto a contraejemplos y refuerzos"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de sistema conceptual como limitante de lo posible expresable",
+      "conclusion": "Todo lo que se pueda afirmar dentro de un sistema conceptual depende, en algún grado, de dicho sistema",
+      "notas": "Deja abierto el caso de posibilidades inafirmables o desconocidas"
+    },
+    {
+      "origen": "'Algunismo' de la afirmación",
+      "conclusion": "Basta un solo caso positivo para declarar verdadero el enunciado",
+      "notas": "Pero la realidad de esos casos es difícil (o imposible) de probar desde dentro del sistema"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "todas las posibilidades son dependientes del sistema conceptual",
+      "descripcion": "La posibilidad de que existan parámetros físicos aún inimaginables ('cisnes negros epistemológicos') apunta a la existencia de posibilidades que trascienden cualquier marco conceptual actual",
+      "grado_de_refutacion": "total",
+      "notas": "La historia de la ciencia muestra múltiples instancias de descubrimientos fuera de paradigmas previos"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Surgen posibilidades no anticipadas al expandirse los lenguajes o paradigmas (por ejemplo, la computación cuántica antes de la mecánica cuántica)",
+      "inferencia": "Los sistemas conceptuales no capturan la totalidad de lo posible",
+      "grado_de_confianza": "medio",
+      "notas": "Patrón empírico pero dependiente de la muestra histórica"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La frontera de lo posible no está fija en los límites de los sistemas conceptuales formales; existen espacios de posibilidad que sólo emergen, o permanecen ocultos, respecto a cualquier marco conceptual dado.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "algunas posibilidades son independientes del sistema conceptual",
+        0,
+        0,
+        1
+      ],
+      [
+        "todas las posibilidades son dependientes del sistema conceptual (negación)",
+        0,
+        1,
+        0
+      ],
+      [
+        "hay por lo menos una posibilidad extraconceptual",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Para afirmar la independencia de lo conceptual, usamos conceptos—¿el lenguaje puede expresar lo inabarcable por el lenguaje?",
+    "ambiguedad": "'Algunas posibilidades' es impreciso y permite interpretación múltiple",
+    "contradiccion_util": "El intento de mapear lo extraconceptual desde lo conceptual fertiliza meta-marcos más incluyentes"
+  },
+  "reorganizacion_analoga": [
+    "Como el borde de un mapa antiguo, donde pone 'aquí hay dragones': sabemos que existe un 'fuera', pero desconocemos su contenido",
+    "Como una computadora clásica que no puede predecir los estados de una computadora cuántica hasta que cambia de paradigma",
+    "Como el niño que imagina un color que nunca ha visto"
+  ],
+  "implicacion_transformadora": [
+    "La exploración intelectual constante requiere aceptar la existencia de posibilidades actualmente inalcanzables a nuestro pensamiento",
+    "Las innovaciones radicales pueden surgir sólo si se reconoce la existencia (aunque sea potencial) de regiones extraconceptuales del saber",
+    "Todo sistema de conocimiento debe incluir una heurística de humildad ante lo no abarcable"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación no puede refutarse ni confirmarse dentro de los marcos conceptuales existentes: condición esencialmente autoreferencial y abierta"
+  }
+}

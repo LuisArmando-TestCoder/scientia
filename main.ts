@@ -17,7 +17,7 @@ async function recursiveClaimAnalysis(claim: string, recursionLevel: number = 0)
   const promisedClaims: Promise<void>[] = []
 
   console.log("Recursion level: ", recursionLevel);
-  console.log("evaluacion_global: ", analysis.evaluacion_global);
+  console.log("evaluacion_global: ", analysis.reevaluacion_global);
 
   for (const [
     claim, truth, contradiction, uncertainty,

@@ -234,6 +234,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     "columnas": ["afirmacion", "verdadero", "falso", "indefinido"], // Ejes de evaluación lógica modal.
     "filas": [
       ["", 0, 0, 1] // Estructura: afirmación + verdad/falsedad/indefinición (1 o 0) (Sólo deben tener un estado, si el estado es parcial o ambiguo, se debe marcar como indefinido). Si una afirmación indefinida es autoreferencial el campo de indefindo debe ser null, en vez de 1.
+      // Si una afirmación es ambigua se puede absolutizar o algunizar y luego refutar por contraejemplo o reafirmar por caso positivo.
     ]
   },
 
@@ -250,6 +251,11 @@ Cada iteración debería generar una versión más refinada de conciencia episte
   "implicacion_transformadora": [
     "" // Consecuencias epistemológicas, éticas, cognitivas o metodológicas. Operacionalización de la teoría.
   ],
+
+  "reevaluacion_global": {
+    "estado": "verdadero | falso | indefinido | autoreferencial", // Refinación del juicio lógico refinado global del nodo tras el análisis recursivo tomando en cuenta los juicios lógicos que surjen del nodo de la teoria_o_intuicion_emergente.
+    "criterio": "", // Reevaluación del estado elegido (ej. “paradoja no resuelta”, “coherencia formal alcanzada”, etc.)
+  }
 }
 
 Notas: Recuerda sólo devolver el JSON, sin ningún otro texto adicional, sin wrapping.

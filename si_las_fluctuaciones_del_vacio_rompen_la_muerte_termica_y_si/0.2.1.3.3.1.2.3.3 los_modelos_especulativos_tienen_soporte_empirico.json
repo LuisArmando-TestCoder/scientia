@@ -1,0 +1,121 @@
+{
+  "nodo_semantico_de_entrada": "Los modelos especulativos tienen soporte empírico",
+  "nodo_semantico_central": "Evaluación de la relación entre especulación y evidencia empírica",
+  "firma_ontologica": {
+    "naturaleza": "Afirmación relacional",
+    "funcion": "Vincular el carácter hipotético de un modelo con su validación por observación",
+    "dominio": "Epistemología científica",
+    "forma": "Bipolaridad especulativo/empírico",
+    "tension": "Compatibilidad y/o exclusión entre invención conceptual y fundamentación experimental",
+    "limite": "El termino 'especulativo' puede implicar ausencia o presencia futura de soporte empírico"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "modelo especulativo",
+      "definicion": "Propuesta teórica que no ha sido confirmada ni refutada experimentalmente"
+    },
+    {
+      "termino": "soporte empírico",
+      "definicion": "Validación basada en evidencia observable, repetible o mesurable"
+    },
+    {
+      "termino": "tienen",
+      "definicion": "Se asume una relación de existencia o posesión del soporte respecto al modelo"
+    }
+  ],
+  "transduccion_preconceptual": "Es como imaginar un juguete nuevo y luego buscar en todos tus cajones para ver si de verdad tienes las piezas para construirlo.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Todos los modelos especulativos tienen soporte empírico",
+      "subnodo": "Universalidad del soporte empírico",
+      "contexto": "Evaluación booleana por refutación con contraejemplo histórico"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Algunos modelos especulativos tienen soporte empírico",
+      "subnodo": "Existencialidad parcial del soporte empírico",
+      "contexto": "Afirmación probabilista con ejemplos positivos del pasado"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La universalidad es refutada, la particularidad se sostiene sólo por ejemplos; el valor de verdad depende de la interpretación de 'modelo especulativo'"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de modelo especulativo y naturaleza de la evidencia",
+      "conclusion": "Un modelo sigue siendo especulativo hasta que recibe soporte empírico; cuando lo obtiene, puede dejar de ser considerado especulativo",
+      "notas": "El estatus puede cambiar con el tiempo conforme surge nueva evidencia"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todos los modelos especulativos tienen soporte empírico",
+      "descripcion": "La teoría de los universos paralelos en física cuántica es especulativa y carece de soporte empírico directo",
+      "grado_de_refutacion": "total",
+      "notas": "Hay muchos modelos especulativos sin evidencia experimental"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En la historia de la ciencia, varios modelos especulativos eventualmente recibieron soporte empírico, pero muchos otros no",
+      "inferencia": "La relación es contingente y transitoria, no necesaria",
+      "grado_de_confianza": "alto",
+      "notas": "La conversión de especulación a evidencia ocurre a veces, pero no siempre"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El estatus de especulación es dinámico; el soporte empírico convierte modelos especulativos en modelos fundados, pero coexistirán siempre propuestas especulativas sin evidencia.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Todos los modelos especulativos tienen soporte empírico",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunos modelos especulativos tienen soporte empírico",
+        1,
+        0,
+        0
+      ],
+      [
+        "Los modelos especulativos tienen por definición soporte empírico",
+        0,
+        1,
+        0
+      ],
+      [
+        "La existencia del soporte empírico determina el estatus de especulación",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Un modelo especulativo con soporte empírico deja de ser plenamente especulativo, entrando en transición lógica",
+    "ambiguedad": "La definición de 'especulativo' varía según el campo y el momento histórico",
+    "contradiccion_util": "Se necesita especular para generar modelos que eventualmente puedan probarse empíricamente"
+  },
+  "reorganizacion_analoga": [
+    "Como una semilla (modelo especulativo) que sólo es árbol (modelo fundado) si germina y es observada",
+    "Como un mapa del tesoro dibujado antes de inspeccionar el terreno; algunos conducen a oro, otros a arena",
+    "Como un prototipo: una idea en el laboratorio hasta ser probada en el mundo real"
+  ],
+  "implicacion_transformadora": [
+    "La especulación informada es indispensable en ciencia y filosofía, pero distinguir entre especulación fértil y vacía requiere criterios para buscar soporte empírico",
+    "No todo lo que se imagina se demuestra; pero lo demostrado, alguna vez fue solo imaginación"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación generalizada es falsa, la particular es verdadera; la relación es contingente y requiere análisis de contexto y definiciones operativas"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "nodo_semantico_de_entrada": "Toda ley es vulnerable a excepción absoluta (axiología moral)",
+  "nodo_semantico_central": "Vulnerabilidad universal de las leyes morales",
+  "firma_ontologica": {
+    "naturaleza": "principio universal",
+    "funcion": "testear generalidad y límites de las leyes morales",
+    "dominio": "axiología, ética, lógica modal",
+    "forma": "paradoja universalista",
+    "tension": "universalidad vs excepción absoluta",
+    "limite": "presupone totalidad y admite negación singular que anula la regla"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "ley",
+      "definicion": "Regla general que prescribe o prohíbe acciones en un sistema moral."
+    },
+    {
+      "termino": "vulnerabilidad",
+      "definicion": "Posibilidad de ser anulada, modificada o contradicha."
+    },
+    {
+      "termino": "excepción absoluta",
+      "definicion": "Caso específico que invalida la aplicación de una ley, sin permitir subreglas."
+    },
+    {
+      "termino": "axiología",
+      "definicion": "Estudio filosófico de los valores y su jerarquía."
+    },
+    {
+      "termino": "universalidad",
+      "definicion": "Extensión de validez a todos los casos imaginables dentro del dominio."
+    }
+  ],
+  "transduccion_preconceptual": "Si hay una regla que dice que todos deben compartir sus juguetes, ¿puede existir alguna situación tan especial que alguien no deba compartir, aunque la regla diga siempre? Si puedes imaginar un caso donde sería mejor no compartir, la regla no es perfecta para siempre, porque hay una excepción que la vence.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Toda ley es vulnerable a excepción absoluta",
+      "subnodo": "Existencia de contraejemplos universales",
+      "contexto": "Analiza si cualquier regla moral imaginable puede encontrar por lo menos un caso en el cual deba ser rota."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "¿Es posible una ley sin excepción alguna?",
+      "subnodo": "Ley perfectamente robusta",
+      "contexto": "¿Existen leyes cuya estructura lógica niegue toda excepción? (ej. tautologías morales, imperativos categóricos)"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No es posible establecer universalidad total sin considerar la posibilidad lógica de excepciones definidas por contextos imprevisibles o extremos; paradójica por su generalidad autonegada."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si toda ley admite excepción absoluta, entonces no puede haber ley absoluta.",
+      "conclusion": "La pretensión de universalidad de cualquier ley moral se ve restringida por la mera posibilidad lógica de un contraejemplo.",
+      "notas": "Aplica a axiomas morales y no necesariamente a axiomas lógicos-autodefinidos."
+    },
+    {
+      "origen": "Definición de ley como regla general con posibles excepciones.",
+      "conclusion": "La existencia de una excepción absoluta convierte a la ley en un caso parcial.",
+      "notas": "No toda ley necesariamente permite formalmente una excepción; pero su universalidad práctica es cuestionable."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todas las leyes son vulnerables a excepción absoluta",
+      "descripcion": "Leyes lógicas puras, como 'A es A', que no admiten excepciones dentro de su propio marco semántico.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Aunque no son leyes morales, su existencia demuestra que no toda estructura normativa es vulnerable."
+    },
+    {
+      "afirmacion_refutada": "No existe ley moral sin excepción",
+      "descripcion": "Imperativo categórico kantiano: 'Actúa sólo según aquella máxima que puedas querer como ley universal', planteado como irrefutable.",
+      "grado_de_refutacion": "parcial",
+      "notas": "El imperativo puede verse como vulnerable frente a dilemas donde sus resultados contradicen intuiciones morales básicas."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En la historia, casi toda regla moral encuentra situaciones límite que la desafían.",
+      "inferencia": "La experiencia empírica sugiere que la mayoría de las leyes morales han sido o pueden ser objeto de excepciones absolutas.",
+      "grado_de_confianza": "alto",
+      "notas": "Las normativas morales muestran adaptabilidad ante circunstancias imprevistas."
+    },
+    {
+      "patron_observado": "Algunas reglas son mantenidas a pesar de consecuencias negativas.",
+      "inferencia": "Pueden existir sistemas cerrados que sostienen leyes incondicionales.",
+      "grado_de_confianza": "medio",
+      "notas": "Esto depende de la rigidez o apertura del sistema axiológico en cuestión."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Toda ley moral, cuando se asume como absoluta, debe enfrentarse a la posibilidad de su excepción—sea real, conceptual o imaginada. La excepción no necesariamente refuta la ley, pero sí limita su pretensión de universalidad y la obliga a una reformulación contextual o axiológica.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda ley es vulnerable a excepción absoluta (en moral)",
+        0,
+        0,
+        1
+      ],
+      [
+        "Existen leyes morales sin excepción absoluta",
+        0,
+        0,
+        1
+      ],
+      [
+        "Excepción absoluta refuta la ley",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda ley que admite excepción pierde universalidad",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Si toda ley admite excepción absoluta, entonces no puede haber ley absoluta (autorrefutación del enunciado por extensión).",
+    "ambiguedad": "¿Ley moral como regla prescriptiva o como ideal regulativo?",
+    "contradiccion_util": "El enunciado, aunque se autoniega, revela la necesidad de contextualizar todas las pretensiones de universalidad normativa."
+  },
+  "reorganizacion_analoga": [
+    "Como la geometría euclidiana que parece absoluta pero se descubre falible en otros espacios (no euclidianos).",
+    "Como los códigos éticos médicos que requieren flexibilización ante dilemas vitales.",
+    "Como un muro de piedra con pequeñas grietas por donde puede colarse el agua de la vida real."
+  ],
+  "implicacion_transformadora": [
+    "Ninguna ley moral debe asumirse como absolutamente invulnerable; el espacio de las excepciones debe ser reconocido explícitamente en toda teoría normativa.",
+    "Los sistemas éticos requieren mecanismos para integrar, evaluar y, si corresponde, honrar las excepciones sin destruir el sentido general de sus reglas.",
+    "El reconocimiento de la excepción absoluta puede servir como ancla para la innovación ética o como señal de que la ley necesita reescritura."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El análisis recursivo revela que la afirmación es universalmente ambigua: existe como horizonte crítico, no como verdad operacional cerrada."
+  }
+}

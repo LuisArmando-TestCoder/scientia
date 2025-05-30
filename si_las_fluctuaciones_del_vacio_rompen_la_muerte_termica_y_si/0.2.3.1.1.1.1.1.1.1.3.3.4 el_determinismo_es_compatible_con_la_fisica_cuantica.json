@@ -1,0 +1,156 @@
+{
+  "nodo_semantico_de_entrada": "El determinismo es compatible con la física cuántica",
+  "nodo_semantico_central": "Compatibilidad del determinismo con la física cuántica",
+  "firma_ontologica": {
+    "naturaleza": "proposición sobre compatibilidad conceptual",
+    "funcion": "explorar la coherencia entre un principio filosófico (determinismo) y un marco físico (mecánica cuántica)",
+    "dominio": "filosofía de la ciencia; fundamentos de la física",
+    "forma": "tensión dialéctica entre marcos causales y probabilísticos",
+    "tension": "superposición entre causalidad absoluta y no-determinismo probabilístico",
+    "limite": "depende de la interpretación específica de la mecánica cuántica; indeterminación experimental"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "determinismo",
+      "definicion": "Idea de que todo estado del sistema se sigue necesariamente de un estado anterior a través de leyes fijas"
+    },
+    {
+      "termino": "física cuántica",
+      "definicion": "Marco científico que describe el comportamiento de la materia y la energía a escalas microscópicas, caracterizado por incertidumbre, superposición y colapso de la función de onda"
+    },
+    {
+      "termino": "compatibilidad",
+      "definicion": "Posibilidad de que dos marcos puedan coexistir o integrarse sin contradecirse esencialmente"
+    }
+  ],
+  "transduccion_preconceptual": "Es como tener dos juegos diferentes: uno donde todo sigue reglas que nunca cambian y otro donde hay suerte en los dados. Preguntar si pueden ser el mismo juego es como intentar jugar ambos a la vez con las mismas fichas.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El determinismo es una característica fundamental de la realidad en todos los niveles",
+      "subnodo": "Universalidad determinista",
+      "contexto": "¿El determinismo abarca todos los fenómenos conocidos o hay excepciones como las descritas por la física cuántica?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La física cuántica describe un universo esencialmente no determinista",
+      "subnodo": "Indeterminismo cuántico",
+      "contexto": "La interpretación de Copenhague y la teoría estándar conllevan incertidumbre inherente"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Existen interpretaciones deterministas de la física cuántica (como la de De Broglie-Bohm)",
+      "subnodo": "Determinismo ontológico cuántico",
+      "contexto": "Algunas formulaciones conservan el determinismo a nivel subyacente, pero es oculto"
+    },
+    {
+      "id": "1.4",
+      "afirmacion_base": "No se puede probar experimentalmente la interpretación determinista vs indeterminista (hasta ahora)",
+      "subnodo": "Equivalencia empírica",
+      "contexto": "La indecidibilidad experimental actual produce una coexistencia axiomática provisional"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La compatibilidad no puede decidirse universalmente: depende de la interpretación ontológica escogida y carece de diferenciación empírica definitiva"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de determinismo",
+      "conclusion": "Un sistema determinista no permite bifurcaciones aleatorias irreducibles en su evolución",
+      "notas": "Las herramientas matemáticas cuánticas incluyen variables aleatorias y amplitudes"
+    },
+    {
+      "origen": "Existencia de interpretaciones deterministas cuánticas",
+      "conclusion": "Es posible formular la física cuántica de manera consistente con principios deterministas en algunos marcos",
+      "notas": "La argumentación recae en axiomas no observados directamente"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La física cuántica es necesariamente indeterminista",
+      "descripcion": "Teoría de variables ocultas (Bohm, teorema de Bell bajo ciertas suposiciones)",
+      "grado_de_refutacion": "parcial",
+      "notas": "Existen restricciones experimentales y de no-localidad"
+    },
+    {
+      "afirmacion_refutada": "El determinismo es aplicable empíricamente a nivel cuántico",
+      "descripcion": "Resultados aleatorios en experimentos de fisión nuclear y doble rendija sin aparente causa suficiente",
+      "grado_de_refutacion": "parcial",
+      "notas": "Depende de interpretación; implicaciones filosóficas abiertas"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Predicciones cuánticas requieren funciones de probabilidad, no valores definitivos",
+      "inferencia": "El azar está integrado en la estructura predictiva, sugiriendo indeterminismo operativo",
+      "grado_de_confianza": "alto",
+      "notas": "Los experimentos repetidos muestran distribución estadística, no trayectorias definidas"
+    },
+    {
+      "patron_observado": "Persistencia de debates interpretativos durante un siglo",
+      "inferencia": "La comunidad no converge hacia un marco único de compatibilidad en la actualidad",
+      "grado_de_confianza": "medio",
+      "notas": "Puede cambiar con nuevos descubrimientos"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La compatibilidad entre determinismo y física cuántica es formalmente posible bajo ciertos marcos interpretativos, pero no está decidida empíricamente y depende de la postura filosófica respecto a la ontología subyacente de la realidad física.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La física cuántica requiere indeterminismo",
+        0,
+        0,
+        1
+      ],
+      [
+        "El determinismo es compatible con la física cuántica bajo todas las interpretaciones",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunas interpretaciones de la física cuántica son deterministas",
+        1,
+        0,
+        0
+      ],
+      [
+        "La evidencia experimental distingue el determinismo cuántico del indeterminismo",
+        0,
+        1,
+        0
+      ],
+      [
+        "La compatibilidad entre determinismo y física cuántica está decidida",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La física cuántica puede ser formulada de manera determinista o indeterminista según la interpretación adoptada, pero ambas formulaciones son empíricamente equivalentes hasta el momento.",
+    "ambiguedad": "¿El azar cuántico es ontológico (real) o epistémico (por ignorancia)?",
+    "contradiccion_util": "El mismo formalismo matemático permite lecturas opuestas respecto al determinismo"
+  },
+  "reorganizacion_analoga": [
+    "Como lanzar una moneda trucada en una habitación oscura: el resultado parece aleatorio, pero podría estar oculto bajo una capa que aún no vemos.",
+    "Como escribir el mismo cuento con finales alternativos y solo conocer el final al abrir el libro."
+  ],
+  "implicacion_transformadora": [
+    "Invita a una revisión crítica de los fundamentos filosóficos de la ciencia y la separación entre lo medible y lo pensable.",
+    "Abre espacio para interpretar fenómenos desde pluralidad ontológica provisional, evitando absolutismos interpretativos.",
+    "Ofrece una base para la epistemología abierta, donde las teorías pueden co-evolucionar con la interpretación y la tecnología experimental."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La falta de criterios experimentales actuales y la coexistencia de interpretaciones aceptadas impide una decisión lógica absoluta; la estructura permanece abierta y fértil a nuevas interpretaciones"
+  }
+}

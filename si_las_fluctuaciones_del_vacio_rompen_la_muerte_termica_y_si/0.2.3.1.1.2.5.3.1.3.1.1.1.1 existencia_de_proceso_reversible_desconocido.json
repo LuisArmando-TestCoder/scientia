@@ -1,0 +1,116 @@
+{
+  "nodo_semantico_de_entrada": "Existencia de proceso reversible desconocido",
+  "nodo_semantico_central": "Procesos reversibles por mecanismos ignorados",
+  "firma_ontologica": {
+    "naturaleza": "proposición existencial de segundo orden",
+    "funcion": "Apertura de hipótesis sobre la reversibilidad en sistemas con causas no identificadas",
+    "dominio": "epistemología, física, metafísica",
+    "forma": "afirmación algunista con apertura a lo desconocido",
+    "tension": "Indefinición fundamental por desconocimiento; paradoja entre ignorancia y posibilidad",
+    "limite": "Ligado a la frontera del conocimiento, sólo se estabiliza desde la ignorancia provisional"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "proceso reversible",
+      "definicion": "Evento o sistema en el que las condiciones iniciales pueden restaurarse a partir del estado final"
+    },
+    {
+      "termino": "mecanismos no conocidos",
+      "definicion": "Causalidad o dinámica explicativa que actualmente escapa a la comprensión o modelación científica"
+    },
+    {
+      "termino": "existencia",
+      "definicion": "Al menos un caso concreto o potencial que permanece abierto a la comprobabilidad futura"
+    }
+  ],
+  "transduccion_preconceptual": "Puede haber un truco mágico en la naturaleza que todavía nadie ha descubierto, y que permite que algo que fue hecho, pueda deshacerse perfectamente, pero nadie sabe aún cómo funciona ese truco.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El proceso reversible no es explicable (por ahora)",
+      "subnodo": "irreducibilidad epistemológica temporal",
+      "contexto": "Frente a límites contemporáneos del modelo científico, se asume ignorancia activa"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No se puede aseverar ni refutar la existencia sin un mecanismo evidencial, pero la afirmación permanece viable sobre bases de apertura epistemológica."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Lógica existencial",
+      "conclusion": "Si se descubre un mecanismo, la proposición pasa a estado verdadero; si se demuestran imposibilidades universales, pasa a falso.",
+      "notas": "La carga de la prueba recae en la observación o formalización futura."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "No existe ningún proceso reversible desconocido",
+      "descripcion": "El hallazgo histórico de procesos antes misteriosos (p.ej. superconductividad antes de su explicación teórica) refuta el absolutismo negativo.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La refutación sólo es parcial: siempre puede haber nuevos desconocimientos."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "La historia de la ciencia revela mecanismos antes insospechados (electricidad, radiactividad...)",
+      "inferencia": "Es razonable sostener la posibilidad de procesos reversibles aún no comprendidos.",
+      "grado_de_confianza": "medio",
+      "notas": "Condicionado a la no cierre epistemológico del paradigma presente."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La reversibilidad no es propiedad absoluta ni impensable: depende del marco conceptual, y toda ignorancia deja abierta la posibilidad de innovaciones causales no previstas.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Existe al menos un proceso reversible desconocido",
+        0,
+        0,
+        1
+      ],
+      [
+        "Todos los procesos reversibles son conocidos",
+        0,
+        1,
+        0
+      ],
+      [
+        "Ningún proceso reversible desconocido existe jamás",
+        0,
+        1,
+        0
+      ],
+      [
+        "Es imposible descubrir futuros procesos reversibles",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La afirmación se sostiene sobre la posibilidad de lo incognoscible, que paradójicamente nunca puede comprobarse mientras siga siendo desconocido.",
+    "ambiguedad": "No define los criterios que harían un proceso 'conocido', dejando la frontera epistémica borrosa.",
+    "contradiccion_util": "Permite que la duda metódica impulse la investigación hacia lo inexplorado, fertilizando el avance científico."
+  },
+  "reorganizacion_analoga": [
+    "Como buscar peces abisales en un océano aún sin explorar: su existencia no se puede negar ni afirmar, pero impulsa la exploración.",
+    "Similar a la conjetura de Goldbach: la ausencia de contraejemplo no es prueba de inexistencia.",
+    "Como imaginar colores que ningún humano ha visto: su posibilidad no niega su realidad."
+  ],
+  "implicacion_transformadora": [
+    "Evita el absolutismo negativo en ciencia y filosofía: todo cierre es preliminar.",
+    "Establece una postura epistémica abierta a lo desconocido y favorece la investigación de lo extra-empírico.",
+    "Funciona como recordatorio ético de humildad intelectual: toda negación de posibilidad absoluta puede inhibir futuros descubrimientos."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No hay contradicción directa, pero permanece en la frontera entre lo postulado y lo comprobable; su posición es generadora de nuevas preguntas, no clausuradora de sentido."
+  }
+}

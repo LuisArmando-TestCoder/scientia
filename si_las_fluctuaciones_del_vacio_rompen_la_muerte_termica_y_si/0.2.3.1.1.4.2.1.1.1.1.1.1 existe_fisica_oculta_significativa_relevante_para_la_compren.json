@@ -1,0 +1,156 @@
+{
+  "nodo_semantico_de_entrada": "Existe física oculta significativa relevante para la comprensión física",
+  "nodo_semantico_central": "Hipótesis de física oculta",
+  "firma_ontologica": {
+    "naturaleza": "Afirmación epistémica",
+    "funcion": "Proponer la existencia de capas no reveladas o no comprendidas dentro del marco físico",
+    "dominio": "Epistemología/física/fenomenología",
+    "forma": "Dualidad manifiesto-oculto; red de conocimiento incompleto",
+    "tension": "Entre lo conocido y lo potencialmente desconocido; disputa sobre lo verificable",
+    "limite": "Irreducibilidad computacional sobre totalidades; límite experimental y cognitivo"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "física",
+      "definicion": "El conjunto de teorías, leyes y modelos que intentan describir, predecir y explicar el comportamiento del mundo físico"
+    },
+    {
+      "termino": "oculta",
+      "definicion": "Lo no revelado, no observable, no formulado o no integrado en la física aceptada; potencial rezago ontológico o epistémico"
+    },
+    {
+      "termino": "significativa",
+      "definicion": "Que podría cambiar la estructura, límites o interpretación de la física conocida"
+    },
+    {
+      "termino": "relevante",
+      "definicion": "Que tiene impacto directo o indirecto en la capacidad explicativa y predictiva de la física"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que la ciencia es un enorme libro, pero algunas páginas están pegadas. Hay historias y reglas ya leídas, pero puede haber secretos muy importantes escritos en páginas que no vemos. Entender el libro completo podría cambiar las historias que ya conocemos.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Existe física oculta significativa relevante para la comprensión física",
+      "subnodo": "indefinición de lo oculto",
+      "contexto": "La afirmación depende del grado en que 'oculto' signifique simplemente aún no descubierto, por principio irreducible, o tautología de ignorancia temporal. Subnodo explora si lo oculto es genuinamente inaccesible o meramente no observado hasta ahora."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La física oculta es significativa",
+      "subnodo": "criterio de significatividad",
+      "contexto": "¿Cómo se define 'significativo'? Depende de si la física oculta tiene potencial de transformar paradigmas o sólo añade detalles menores."
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "La física oculta es relevante para la física actual",
+      "subnodo": "umbral de relevancia empírica",
+      "contexto": "¿La 'física oculta' puede impactar predicciones, experimentos o aplicaciones? Si no, podría ser formalmente 'irrelevante' en práctica aunque exista en teoría."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición depende de la delimitación de 'oculto', de criterios de relevancia y del estado de observabilidad; indefinición estructural y apertura paradigmática, sujeto a actualización empírica"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si el conocimiento físico es incompleto (axioma de incompletitud epistémica)",
+      "conclusion": "Debiera existir 'física oculta'",
+      "notas": "Sólo si aceptamos la incompletitud radical; la negación habría de demostrarse con cierre lógico o experimental, cosa que no ocurre"
+    },
+    {
+      "origen": "La física ‘oficial’ se modifica por sorpresas empíricas",
+      "conclusion": "Lo ahora conocido puede ser trascendido = principio de falibilidad científica",
+      "notas": "Válido empíricamente pero no implica que lo 'oculto' sea obligatoriamente significativo"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda física oculta es significativa",
+      "descripcion": "Fenómenos aún no descritos pueden no afectar la estructura ni interpretación global (por ejemplo, sub-sutis detalles cuánticos que no modifican leyes grandes)",
+      "grado_de_refutacion": "parcial",
+      "notas": "El contraejemplo demuestra que no todo lo oculto tiene necesariamente impacto 'significativo'"
+    },
+    {
+      "afirmacion_refutada": "No existe física oculta relevante",
+      "descripcion": "Descubrimientos como la materia oscura o la energía oscura se postulan precisamente porque faltan piezas en el modelo vigente",
+      "grado_de_refutacion": "total",
+      "notas": "La observación de fenómenos no explicables con la física actual reafirma la posible existencia de una física oculta relevante"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Históricamente, avances en física abrieron nuevas ramas al descubrir fenómenos anómalos",
+      "inferencia": "Es plausible inferir que hoy existen fenómenos aún no integrados en los modelos",
+      "grado_de_confianza": "alto",
+      "notas": "La recurrencia histórica da una fuerte base inductiva, pero no garantiza magnitud de relevancia"
+    },
+    {
+      "patron_observado": "Algunas predicciones teóricas nunca se han confirmado empíricamente",
+      "inferencia": "No todo lo que la teoría postula necesariamente emerge como revelación significativa",
+      "grado_de_confianza": "medio",
+      "notas": "El exceso de hipótesis puede saturar el marco sin aumentar comprensión"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Toda teoría física debe ser considerada provisional; la frontera entre lo conocido y lo 'oculto' es móvil e históricamente dialéctica. La existencia de física oculta significativa es altamente probable como asunción metodológica, pero su relevancia se actualiza al ritmo de la observación y la reinterpretación.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Existe física oculta relevante",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda física oculta es significativa",
+        0,
+        1,
+        0
+      ],
+      [
+        "Toda física oculta es irrelevante",
+        0,
+        1,
+        0
+      ],
+      [
+        "La física actualmente conocida es completa",
+        0,
+        1,
+        0
+      ],
+      [
+        "Puede comprobarse toda la física oculta",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Solo podemos hablar de lo oculto por lo conocido; cualquier definición de física oculta depende de su manifestación, pero manifestada deja de ser oculta",
+    "ambiguedad": "El umbral entre lo 'oculto' y lo 'conocido' es relativo a la perspectiva y a los instrumentos; se redefine históricamente",
+    "contradiccion_util": "El marco epistémico es alimentado por contradicciones no resueltas: la búsqueda de lo oculto es generadora de expansión conceptual"
+  },
+  "reorganizacion_analoga": [
+    "Como una biblioteca en la que constantemente aparecen nuevos libros en estanterías que creíamos vacías",
+    "Como la materia oscura: invisible, pero su huella altera el movimiento de lo observable",
+    "Como los parches de conocimiento en un mapa que se rellena con cada exploración, sabiendo que el borde del mapa nunca es definitivo"
+  ],
+  "implicacion_transformadora": [
+    "La ciencia debe mantener abiertos múltiples planos de explicabilidad, actualizando permanentemente el marco",
+    "La humildad epistémica es un principio operativo: siempre pueden existir capas, leyes o entidades no aprehensibles en el estado actual",
+    "Los métodos de investigación y educación científica óptimos enfatizan la provisionalidad y búsqueda activa de fisuras en el conocimiento",
+    "El dogma es una señal de estancamiento epistémico; toda física cerrada deviene potencial oculta"
+  ],
+  "reevaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "La proposición se mantiene como necesaria en su núcleo: siempre existe (o puede existir) física oculta relevante para expandir/completar la comprensión física; esta verdad es modal y provisional, estructural a la epistemología científica"
+  }
+}

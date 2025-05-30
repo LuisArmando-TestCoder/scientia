@@ -1,0 +1,125 @@
+{
+  "nodo_semantico_de_entrada": "¿Puede haber algo fuera del universo?",
+  "nodo_semantico_central": "Exterioridad al universo",
+  "firma_ontologica": {
+    "naturaleza": "posibilidad metafísica",
+    "funcion": "explorar la frontera conceptual del universo",
+    "dominio": "cosmología, ontología",
+    "forma": "frontera paradójica / conjunto abierto o autocontenido",
+    "tension": "Definir 'fuera' cuando todo lo existente es el universo",
+    "limite": "Lenguaje y categorías nacen dentro del propio universo analizado"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "universo",
+      "definicion": "Totalidad de todo lo que existe o puede existir bajo las leyes o marcos perceptibles o teorizables"
+    },
+    {
+      "termino": "fuera",
+      "definicion": "Situado más allá de un límite definido; requiere un exterior respecto a un interior identificado"
+    },
+    {
+      "termino": "algo",
+      "definicion": "Cualquier entidad, evento, información, posibilidad o estado imaginable"
+    },
+    {
+      "termino": "posibilidad",
+      "definicion": "Estado lógico o metafísico no necesariamente actual, pero concebible"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina una caja gigante donde está todo lo que existe. Preguntamos si puede haber algo fuera de esa caja. Pero si hay algo fuera, entonces la caja no tenía todo; la caja debe crecer o el 'afuera' se convierte en otra caja más grande.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El universo es todo lo que existe.",
+      "subnodo": "Definicion Absoluta de Universo",
+      "contexto": "Si 'universo' incluye todo, la idea de 'fuera' se vuelve auto-contradictoria"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Puede concebirse un universo mayor englobando el anterior.",
+      "subnodo": "Metauniverso o Multiverso",
+      "contexto": "Lenguaje permite escalonamiento de cajas: universo local vs absoluto"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El valor depende de cómo definamos 'universo'. Si es absoluto, 'fuera' es contradictorio; si es relativo, se abre la posibilidad de múltiples niveles. Sin embargo, toda definición recae en el lenguaje intra-universal."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "'Universo' incluye todo lo existente por definición.",
+      "conclusion": "No puede haber nada fuera en sentido absoluto.",
+      "notas": "Limita la afirmación a un plano lógico por definición"
+    },
+    {
+      "origen": "Lenguaje permite considerar conjuntos anidados.",
+      "conclusion": "Siempre puede expandirse el marco del universo si se cambia la definición.",
+      "notas": "Las definiciones relacionales rehacen las fronteras conceptuales"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "'Nada puede estar fuera del universo.'",
+      "descripcion": "Modelos multiverso postulando universos desconectados; la paradoja del conjunto de todos los conjuntos; en matemáticas, existen sistemas donde se puede postular un exterior a un conjunto dado.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Sólo refuta cuando universo se define como relativo o local, no absoluto"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En física teórica, se proponen 'multiversos' o 'espacios' adicionales a nuestro universo observable.",
+      "inferencia": "El uso cotidiano y científico del término 'universo' suele ser flexible y escalable según los límites del modelo.",
+      "grado_de_confianza": "medio",
+      "notas": "Confianza limitada por falta de evidencia empírica; inductivo más que deductivo"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Toda frontera en el concepto de 'universo' revela un doble movimiento: cualquier 'afuera' planteado reinventa el 'universo' como algo más grande. La existencia de un 'fuera' expresa la potencial infinitud de la recursión conceptual más que un estado empírico comprobable.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Puede haber algo fuera del universo (si universo = todo lo que existe)",
+        0,
+        1,
+        0
+      ],
+      [
+        "Puede haber algo fuera del universo (si 'universo' es local o relativo)",
+        0,
+        0,
+        1
+      ],
+      [
+        "La pregunta depende de la definición de 'universo'",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Para imaginar un 'fuera', hay que expandir la definición de 'universo', colapsando la frontera propuesta.",
+    "ambiguedad": "'Universo' fluctúa entre significado absoluto y relativo según el contexto filosófico, matemático o físico.",
+    "contradiccion_util": "El propio acto de preguntar crea el 'afuera' al mismo tiempo que lo niega: la frontera es semántica, no ontológica."
+  },
+  "reorganizacion_analoga": [
+    "El juego de cajas chinas donde cada caja puede estar dentro de otra más grande.",
+    "La teoría de conjuntos: el conjunto universal en matemáticas puede llevar a paradojas similares.",
+    "Burbujas en un multiverso: cada burbuja-universo podría tener exterioridad sólo si redefinimos lo que cuenta como universo."
+  ],
+  "implicacion_transformadora": [
+    "Preguntar por el 'afuera' del universo es una herramienta para revelar y expandir los límites cognitivos de los modelos que usamos.",
+    "La indagación motiva nuevas teorías (multiverso, metarrealidad, etc.) pero colapsa en autoreferencia si se busca una respuesta definitiva.",
+    "El ejercicio muestra que los límites del conocimiento se corresponden con los límites de la definición; la exploración de fronteras es inherente a la cognición."
+  ],
+  "reevaluacion_global": {
+    "estado": "autoreferencial",
+    "criterio": "Toda afirmación sobre exterioridad absoluta al universo depende del marco; se estabiliza solo dentro de su propio sistema de referencia."
+  }
+}

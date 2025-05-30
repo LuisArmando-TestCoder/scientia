@@ -1,0 +1,128 @@
+{
+  "nodo_semantico_de_entrada": "El universo es comprobablemente aislado",
+  "nodo_semantico_central": "Universalidad y aislamiento comprobable",
+  "firma_ontologica": {
+    "naturaleza": "afirmación sobre la totalidad física",
+    "funcion": "delimitar los límites ontológicos del cosmos",
+    "dominio": "cosmología, filosofía de la ciencia, epistemología",
+    "forma": "propuesta límite global",
+    "tension": "indecidibilidad por acceso empírico a lo extra-universal; autolimitación del marco de referencia",
+    "limite": "imposibilidad epistémica de acceder a lo exterior del universo o al concepto mismo de exterioridad"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Universo",
+      "definicion": "Todo lo que existe física o energéticamente; la totalidad accesible a la observación directa o indirecta"
+    },
+    {
+      "termino": "Aislado",
+      "definicion": "Que no intercambia información, energía o materia con algo exterior a sí mismo"
+    },
+    {
+      "termino": "Comprobable",
+      "definicion": "Demostrable mediante observación, experimento o inferencia que cumpla criterios de validación epistemológica"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina una caja que lo contiene todo: juguetes, luz, aire, incluso todos los niños jugando y pensando que están dentro. Si nadie puede ver fuera de esa caja, ¿cómo podrían saber si está verdaderamente sola en el cuarto de juegos o si hay otra caja afuera?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Aislado implica ausencia total de interacción",
+      "subnodo": "inaccesibilidad-extrínseca",
+      "contexto": "La definición empírica de aislamiento absoluto requiere demostración de que nunca ocurre interacción con lo 'externo'; implica que lo externo es incognoscible por definición."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Comprobable requiere evidencia o experimentación",
+      "subnodo": "requisito-epistemológico",
+      "contexto": "La comprobabilidad exige acceso a pruebas o datos; pero si el universo es aislado, toda comprobación sólo puede ocurrir desde dentro, nunca desde un punto externo."
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "El universo es todo lo que hay",
+      "subnodo": "definición autoreferencial",
+      "contexto": "Si algo existe fuera del universo, el universo se redefiniría para incluirlo; aislamiento absoluto sería tautológico."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación depende de una comprobabilidad epistemológicamente inalcanzable dada la imposibilidad lógica de evidenciar lo exterior al conjunto absoluto."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de universo y aislamiento",
+      "conclusion": "Si el universo es aislado, no se pueden detectar efectos externos; si se detectaran, se ampliaría el universo para incluirlos.",
+      "notas": "Lo absoluto se redefine ante cualquier evidencia de interacción."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El universo es comprobablemente aislado",
+      "descripcion": "No existe ningún experimento posible que pueda constatar la ausencia eterna de interacción externa: cualquier entidad exterior es incognoscible - argumento de la botella cerrada.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La refutación es parcial porque la comprobabilidad sólo puede ser negativa ('no se detecta interacción'), nunca absoluta ('nunca existió, ni existirá')."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "No se han detectado interacciones extra-universales",
+      "inferencia": "Hasta ahora, el universo se comporta como un sistema cerrado a la observación física",
+      "grado_de_confianza": "medio",
+      "notas": "Ausencia de evidencia no es evidencia de ausencia; la inferencia es la mejor aproximación pragmática."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Cualquier afirmación absoluta sobre el aislamiento comprobable del universo es, por su naturaleza, epistémicamente indecidible y/o tautológica: sólo podemos operar bajo el supuesto provisional de aislamiento pragmático.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El universo es comprobablemente aislado",
+        0,
+        0,
+        1
+      ],
+      [
+        "El universo es provisionalmente aislado (a falta de evidencia contraria)",
+        1,
+        0,
+        0
+      ],
+      [
+        "El universo podría no estar aislado (teóricamente)",
+        0,
+        0,
+        1
+      ],
+      [
+        "Afirmaciones absolutas sobre el exterior del universo son indecidibles",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Sólo un observador externo al universo podría comprobar el aislamiento absoluto, pero todo posible observador estaría contenido en la definición ampliada de universo.",
+    "ambiguedad": "El límite entre universo y no-universo es conceptualmente móvil según la definición operativa de 'universo'.",
+    "contradiccion_util": "La necesidad de comprobabilidad absoluta choca con la definición autoreferencial de universo, fertilizando nuevas definiciones prácticas."
+  },
+  "reorganizacion_analoga": [
+    "Como intentar probar que una habitación cerrada nunca ha sido visitada por nadie si solo tienes acceso desde adentro.",
+    "Como definir una matriz infinita de cajas donde cada intento de 'ver por fuera' vuelve a incluir lo externo dentro de lo conocido.",
+    "Como un sistema operativo sin acceso a hardware externo: puede testear sus propios límites, pero no lo que ocurriría si surgiera fuera del sistema."
+  ],
+  "implicacion_transformadora": [
+    "La epistemología operativa debe distinguir entre aislamiento absoluto (ideal metafísico) e aislamiento provisional (basado en la mejor observación posible).",
+    "La imposibilidad de comprobación invita a teorías pragmáticas y una vigilancia ontológica sobre definiciones límite.",
+    "Invita a desarrollar nuevos marcos donde la indecidibilidad se trate como categoría teórica útil, no como defecto."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación central permanece como indecidible bajo empirismo fuerte y lógica de conjuntos absoluta; sólo es operativamente cierta hasta refutación, pero no comprobable en sentido estricto."
+  }
+}

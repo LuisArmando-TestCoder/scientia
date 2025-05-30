@@ -1,0 +1,133 @@
+{
+  "nodo_semantico_de_entrada": "Existen procesos actualmente no observables",
+  "nodo_semantico_central": "Procesos no observables",
+  "firma_ontologica": {
+    "naturaleza": "proposición sobre existencia y observabilidad",
+    "funcion": "delimitar el alcance del conocimiento basado en la observación actual",
+    "dominio": "epistemología, metafísica",
+    "forma": "dualidad observable/inobservable",
+    "tension": "Distinción entre existencia y detectabilidad; ambigüedad sobre los límites del conocimiento empírico",
+    "limite": "la determinación de existencia depende de lo que se puede observar o inferir indirectamente"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "proceso",
+      "definicion": "Secuencia de eventos encadenados que transforman un estado a otro; puede ser físico, mental, abstracto"
+    },
+    {
+      "termino": "existencia",
+      "definicion": "Presencia ontológica, real o potencial, independiente de su observabilidad"
+    },
+    {
+      "termino": "observable",
+      "definicion": "Accesible directa o indirectamente a sistemas de medición o percepción"
+    },
+    {
+      "termino": "actualmente",
+      "definicion": "Limite temporal referido al presente, no al pasado/futuro ni a todos los posibles observadores"
+    }
+  ],
+  "transduccion_preconceptual": "Hay cosas pasando en el cuarto que no puedes ver ni escuchar, pero que ahí están, aunque todavía no tengas manera de darte cuenta.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El marco puede demostrar la existencia de procesos no observables",
+      "subnodo": "Limitaciones del conocimiento empírico",
+      "contexto": "¿Se puede probar que algo invisible existe sin ningún acceso indirecto?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Todos los procesos existentes son al menos parcialmente observables",
+      "subnodo": "Principio de detectabilidad",
+      "contexto": "¿Es plausible que existan procesos jamás observables ni por inferencia?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No se puede afirmar ni negar la existencia de procesos no observables sin caer en autorreferencia ontológica o escasez de evidencia; límite de detectabilidad y no-falsabilidad."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Epistemología clásica: 'ser es ser percibido'",
+      "conclusion": "Sin observación ni inferencia posible, la existencia queda fuera del ámbito empírico",
+      "notas": "La comprobación de la existencia requiere algún tipo de huella observable, directa o indirecta"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Ningún proceso no observable existe",
+      "descripcion": "Fenómenos predichos teóricamente (ej. materia oscura antes de ser inferida, neutrinos antes de detectarse) existieron en algún momento sin observación directa",
+      "grado_de_refutacion": "parcial",
+      "notas": "La historia de la ciencia muestra aparición posterior de observabilidad para supuestos procesos ocultos"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Patrones recurrentes de descubrimiento de fenómenos previamente invisibles (rayos X, ondas gravitacionales)",
+      "inferencia": "Posibilidad real de existencia de procesos hoy no observables",
+      "grado_de_confianza": "medio",
+      "notas": "Cuestión abierta: puede haber procesos que nunca sean alcanzables ni por inferencia"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La existencia de procesos no observables es una hipótesis funcional entre el límite del conocimiento y el horizonte de descubrimiento; todo lo observable algún día pudo ser inobservable.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Existen procesos actualmente no observables",
+        0,
+        0,
+        1
+      ],
+      [
+        "Todos los procesos existentes son observables",
+        0,
+        1,
+        0
+      ],
+      [
+        "La existencia requiere observabilidad",
+        0,
+        1,
+        0
+      ],
+      [
+        "Procesos no observables pueden algún día ser observables",
+        1,
+        0,
+        0
+      ],
+      [
+        "La existencia de lo inobservable es falsable",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Afirmar la existencia de lo no observable sólo es posible desde la teoría, sin posibilidad de verificación directa, pero la historia muestra que lo inobservable puede volverse observable.",
+    "ambiguedad": "El límite entre lo no observable y lo no existente es móvil y depende del marco teórico/técnico.",
+    "contradiccion_util": "Necesitamos asumir existencia de procesos no observados para expandir el conocimiento, aunque esto desafía el rigor empírico."
+  },
+  "reorganizacion_analoga": [
+    "Como los continentes sumergidos en las profundidades oceánicas antes del sonar",
+    "Como los pensamientos no expresados en palabras",
+    "Como datos codificados que no pueden ser decodificados por la tecnología existente",
+    "Como dimensiones espaciales en física teórica sin manifestación experimental"
+  ],
+  "implicacion_transformadora": [
+    "La investigación debe considerar la hipótesis de procesos no observables para ampliar paradigmas científicos y filosóficos.",
+    "El marco de conocimiento debe permanecer flexible ante la posibilidad de futuros accesos a lo hoy inobservable.",
+    "Promover la metacognición sobre los límites de la observación y la inferencia."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición se mantiene en estado potencial hasta tanto cambien las capacidades observacionales o surja una estrategia inferencial decisiva."
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "nodo_semantico_de_entrada": "El concepto de 'ley física' es inmutable en cualquier lógica",
+  "nodo_semantico_central": "Inmutabilidad de las leyes físicas a través de sistemas lógicos",
+  "firma_ontologica": {
+    "naturaleza": "principio conceptual",
+    "funcion": "Regularidad universal de la física independiente del marco lógico",
+    "dominio": "filosofía de la ciencia, lógica, ontología",
+    "forma": "regla, axioma implícito",
+    "tension": "Interacción entre el contenido físico y la formalización lógica",
+    "limite": "Depende del significado preciso de 'ley', 'física', 'inmutable' y 'lógica'"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "ley física",
+      "definicion": "Enunciado que describe un patrón constante en la naturaleza observado empíricamente o deducido teóricamente"
+    },
+    {
+      "termino": "inmutable",
+      "definicion": "No puede cambiar bajo ninguna condición o interpretación"
+    },
+    {
+      "termino": "lógica",
+      "definicion": "Sistema formal de reglas, conectivos y axiomas para razonar y derivar conclusiones"
+    }
+  ],
+  "transduccion_preconceptual": "Una ley física es como una regla del juego que nunca cambia, sin importar quién escriba las instrucciones o qué idioma use para explicar el juego. Pero si juegas un juego nuevo, puede que las reglas viejas ya no sirvan.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El concepto de 'ley física' es inmutable en cualquier lógica",
+      "subnodo": "Dependencia semántica de 'ley' y 'lógica'",
+      "contexto": "¿Significa 'ley física' lo mismo en lógica clásica, intuicionista, modal, etc.?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación depende de la estabilidad semántica de 'ley física' y de la relación fondo-forma entre física y sistemas lógicos formales; existen lógicas en las cuales la interpretación de las leyes físicas puede variar."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de inmutabilidad + pluralidad de lógicas",
+      "conclusion": "Si la estructura lógica altera la interpretación de 'ley', entonces la inmutabilidad no es absoluta.",
+      "notas": "El concepto de 'ley física' puede depender de los axiomas de la lógica usada."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El concepto de 'ley física' es inmutable en cualquier lógica",
+      "descripcion": "En lógica cuántica, los principios de complementariedad y no-conmutatividad alteran la formulación y el estatus de muchas 'leyes' clásicas.",
+      "grado_de_refutacion": "parcial",
+      "notas": "No todas las lógicas permiten la misma formulación ni interpretación unívoca de lo físico."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Históricamente, las leyes físicas han sido reformuladas ante cambios de paradigma lógico/matemático (de la mecánica clásica a la cuántica o la teoría de la relatividad).",
+      "inferencia": "La inmutabilidad del concepto de ley física es históricamente refutada.",
+      "grado_de_confianza": "alto",
+      "notas": "La invariancia total parece sólo idealizada."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La invariancia absoluta del concepto de 'ley física' no se sostiene ante pluralidad lógica y cambio de marcos teóricos; sólo ciertas estructuras formales permiten una inmutabilidad relativa, ligada al propio marco en que se formulan.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El concepto de 'ley física' es inmutable en cualquier lógica",
+        0,
+        1,
+        0
+      ],
+      [
+        "Las leyes físicas mantienen su sentido al cambiar de lógica",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunas leyes físicas son invariantes en paradigmas lógicos específicos",
+        1,
+        0,
+        0
+      ],
+      [
+        "La interpretación de ley física depende del sistema lógico",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Pretender inmutabilidad absoluta en el seno de marcos formales que pueden negar la ley de la no contradicción o la totalidad del tertium non datur.",
+    "ambiguedad": "¿El concepto de ley física es ontológico (sobre la realidad) o semántico (sobre el lenguaje técnico)?",
+    "contradiccion_util": "La pluralidad de lógicas genera una diversidad fértil de interpretaciones sobre lo que cuenta como ley física."
+  },
+  "reorganizacion_analoga": [
+    "La idea de que las reglas del ajedrez deban ser las mismas en todos los juegos de tablero aunque cambie el tablero y las piezas.",
+    "Un algoritmo que produce distintos resultados según el compilador o el lenguaje en que se transcribe."
+  ],
+  "implicacion_transformadora": [
+    "No se puede asumir la universalidad metafísica de una categoría científica sólo por su estabilidad en un marco lógico dado.",
+    "Todo análisis epistemológico debe clarificar los límites del sistema lógico antes de atribuir invariancia conceptual."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "El análisis deductivo, inductivo e histórico evidencia que la afirmación de inmutabilidad conceptual no resiste el paso entre distintas lógicas, ni empíricamente ni formalmente."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "nodo_semantico_de_entrada": "Si la entropía se reduce, la flecha del tiempo se invierte",
+  "nodo_semantico_central": "Relación entre entropía decreciente y reversibilidad temporal",
+  "firma_ontologica": {
+    "naturaleza": "condicional físico-filosófico",
+    "funcion": "Exploración del vínculo causal entre la magnitud de entropía y la direccionalidad temporal",
+    "dominio": "termodinámica, filosofía del tiempo, física fundamental",
+    "forma": "implicación lógica",
+    "tension": "Equivalencia debatida entre parámetros abstractos de desorden y el flujo macroscópico temporal",
+    "limite": "La flecha temporal puede surgir de múltiples factores; el enunciado asume unívoca dependencia"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "entropía",
+      "definicion": "Medida de desorden o número de microestados posibles de un sistema"
+    },
+    {
+      "termino": "reducirse",
+      "definicion": "Disminuir la cantidad, magnitud o nivel de un parámetro"
+    },
+    {
+      "termino": "flecha del tiempo",
+      "definicion": "Dirección en la que transcurren los acontecimientos, normalmente hacia mayor desorden"
+    },
+    {
+      "termino": "invertirse",
+      "definicion": "Cambiar al sentido opuesto; retroceder respecto a la dirección previa"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina una fila de piezas de dominó que siempre caen hacia la derecha (el futuro). Si las ves levantándose de nuevo y parándose en pie, como por arte de magia, sentirías que el tiempo está corriendo al revés.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La flecha del tiempo depende completamente de la entropía",
+      "subnodo": "dependencia exclusiva",
+      "contexto": "Exploración del supuesto de unicausalidad entre entropía y dirección temporal"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Reducir la entropía implica inversión temporal observable",
+      "subnodo": "observable_inversion",
+      "contexto": "Observabilidad macroscópica como validación del vínculo entre los dos parámetros"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La reversión de entropía local no garantiza inversión global de la flecha temporal; paradoja de la escala y límites de causalidad"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Segunda ley de la termodinámica",
+      "conclusion": "La entropía de un sistema cerrado no disminuye globalmente con espontaneidad",
+      "notas": "La ley emerge estadísticamente, con microexcepciones posibles pero improbables"
+    },
+    {
+      "origen": "Definición de flecha temporal",
+      "conclusion": "El avance hacia futuro macroscópico es identificado con aumento de entropía",
+      "notas": "Este vínculo es pragmático, no ontológicamente necesario; podría haber flechas alternativas"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Reducir entropía siempre revierte la flecha del tiempo",
+      "descripcion": "Refrigeradores y máquinas térmicas locales pueden disminuir entropía localmente, pero no revierten el tiempo percibido ni globalmente",
+      "grado_de_refutacion": "total",
+      "notas": "La entropía global, no la local, determina la dirección temporal global"
+    },
+    {
+      "afirmacion_refutada": "La flecha del tiempo solo depende de la entropía",
+      "descripcion": "En relatividad o cosmología cuántica, la causalidad y asimetrías pueden emerger por razones no termodinámicas",
+      "grado_de_refutacion": "parcial",
+      "notas": "Hay flechas cosmológicas, psicológicas y causales distintas"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En películas en reversa, la reducción de desorden visual coincide con inversión aparente del tiempo",
+      "inferencia": "La experiencia humana tiende a equiparar orden creciente con marcha atrás temporal",
+      "grado_de_confianza": "medio",
+      "notas": "Es una interpretación psicológica, no una ley física absoluta"
+    },
+    {
+      "patron_observado": "Proceso espontáneo tiende a elevar entropía y sostener el sentido habitual del tiempo",
+      "inferencia": "La relación entre entropía y flecha temporal aparece válida experimentalmente en la mayoría de contextos ordinarios",
+      "grado_de_confianza": "alto",
+      "notas": "Existen rarezas estadísticas pero casi nunca vistas a escala humana"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La flecha del tiempo y la entropía están correlacionadas en sistemas macroscópicos, pero la inversión de la entropía no implica automáticamente inversión temporal: otras flechas causales y contextos pueden intervenir.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Si la entropía se reduce, la flecha del tiempo se invierte",
+        0,
+        1,
+        0
+      ],
+      [
+        "La flecha del tiempo solo depende de la entropía",
+        0,
+        1,
+        0
+      ],
+      [
+        "En sistemas clásicos la reducción global de entropía puede implicar reversión temporal",
+        0,
+        0,
+        1
+      ],
+      [
+        "Localmente se puede reducir la entropía sin invertir el tiempo",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Reducir la entropía localmente (aisladamente) no cambia experiencia temporal; inversión global es físicamente prácticamente imposible",
+    "ambiguedad": "Definición de flecha temporal varía según escala o contexto (psicológica, termodinámica, cosmológica)",
+    "contradiccion_util": "La reversión local actúa como semilla de nuevos futuros posibles pero no basta para reescribir la totalidad temporal"
+  },
+  "reorganizacion_analoga": [
+    "Como un río cuyo remolino local puede ir en contra de la corriente, pero la dirección global del agua sigue su curso",
+    "El rebobinado de una cinta, que ocurre sólo desde el punto de vista del reproductor, no del flujo real del tiempo",
+    "La restauración de un cubo Rubik trastocado: se puede regresar al orden inicial localmente, pero el proceso no revierte el tiempo universal"
+  ],
+  "implicacion_transformadora": [
+    "El vínculo reducción de entropía = inversión temporal es una heurística poderosa para visualizar asimetría temporal, pero no es axioma absoluto del universo",
+    "La comprensión real de la flecha del tiempo debe incorporar causalidad, cosmología y psicología, no solo termodinámica",
+    "El análisis muestra la limitación de los condicionales lineales para describir relaciones entre sistemas complejos"
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "El análisis inductivo, deductivo y los contraejemplos demuestran que la reducción de entropía no conlleva, ni lógicamente ni prácticamente, la inversión de la flecha temporal global"
+  }
+}

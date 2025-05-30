@@ -1,0 +1,126 @@
+{
+  "nodo_semantico_de_entrada": "Segunda ley termodinámica sin excepciones en sistemas microscópicos",
+  "nodo_semantico_central": "Universalidad de la irreversibilidad en lo microscópico",
+  "firma_ontologica": {
+    "naturaleza": "ley física (proposición universal)",
+    "funcion": "establecer la dirección irreversible del cambio en sistemas fijos",
+    "dominio": "física estadística, termodinámica, teoría de la probabilidad",
+    "forma": "principio probabilístico, no-determinista a escala individual",
+    "tension": "Universalidad estadística vs. comportamiento individual cuántico/aleatorio",
+    "limite": "Válida solo en promedios estadísticos; puede fallar episódicamente a microescala"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Segunda ley de la termodinámica",
+      "definicion": "Principio que dice que en cualquier sistema cerrado, en promedio, la entropía nunca disminuye"
+    },
+    {
+      "termino": "Nunca",
+      "definicion": "Afirmación absoluta sin excepciones posibles en ningún caso"
+    },
+    {
+      "termino": "Excepción",
+      "definicion": "Caso observable donde no se cumple la regla general"
+    },
+    {
+      "termino": "Sistemas microscópicos",
+      "definicion": "Conjuntos físicos tan pequeños que las fluctuaciones aleatorias pueden dominar el comportamiento"
+    }
+  ],
+  "transduccion_preconceptual": "Como decir que si arrojas mil daditos a la vez, siempre saldrán números mezclados y nunca todos iguales. Pero si lanzas un solo dado a veces puedes ver que, por suerte, sale seis varias veces seguidas, aunque normalmente no debería.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La segunda ley de la termodinámica nunca puede romperse, ni siquiera en sistemas pequeños",
+      "subnodo": "Fluctuaciones de entropía en lo micro",
+      "contexto": "Experimentalmente, se han observado casos de reducción temporal de entropía en partículas o moléculas; la ley se refiere a promedios estadísticos, no a casos específicos."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "falso",
+    "criterio": "La afirmación absoluta se refuta por contraejemplos experimentales de fluctuaciones temporales negativas de entropía en lo micro."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición formal de segunda ley (estadística, no determinista)",
+      "conclusion": "En sistemas pequeños, la dirección neta de entropía está sujeta a fluctuaciones significativas.",
+      "notas": "La irreversibilidad plena emerge sólo al promediar muchas iteraciones/muchos sistemas."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La segunda ley de la termodinámica nunca tiene excepciones en sistemas microscópicos",
+      "descripcion": "Experimentos como el de Wang et al. (2002, Nature) muestran partículas individuales de látex experimentando disminución temporal de entropía.",
+      "grado_de_refutacion": "total",
+      "notas": "Las excepciones son raras y de corta duración, pero ocurren, lo que niega la universalidad fuerte."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Eventos raros de decrecimiento de entropía en moléculas individuales se han detectado repetidamente en laboratorio",
+      "inferencia": "La ley solo es universal estadísticamente, no exactamente en lo microscópico",
+      "grado_de_confianza": "alto",
+      "notas": "Generalizar a sistemas grandes es válido, pero los sistemas pequeños requieren manejo probabilístico."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La segunda ley de la termodinámica es un principio emergente: describe tendencias promediadas de conjuntos enormes, no trayectorias individuales, en los que las fluctuaciones son inherentemente posibles y medibles.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La segunda ley nunca tiene excepciones microscópicas",
+        0,
+        1,
+        0
+      ],
+      [
+        "La segunda ley describe tendencias estadísticas",
+        1,
+        0,
+        0
+      ],
+      [
+        "En sistemas microscópicos las fluctuaciones de entropía ocurren",
+        1,
+        0,
+        0
+      ],
+      [
+        "Las excepciones son posibles pero inusuales",
+        1,
+        0,
+        0
+      ],
+      [
+        "La ley se mantiene exactamente en lo microscópico en todos los casos",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La ley es cierta como tendencia global pero puede fallar momentáneamente a pequeña escala.",
+    "ambiguedad": "¿A qué nivel se debe aplicar el término 'nunca': a cada microevento o solo al promedio de muchos?",
+    "contradiccion_util": "Las excepciones microscópicas revelan la naturaleza estadística fundamental de las leyes físicas y distinguen entre determinismo macroscópico y libertad microestructural."
+  },
+  "reorganizacion_analoga": [
+    "El clima siempre es más frío en la noche, pero a veces en una noche puede amentarse la temperatura localmente por corrientes inesperadas.",
+    "Lanzar 100 monedas suele dar mitad y mitad, pero lanzar una moneda puede dar muchas caras seguidas.",
+    "Un río fluye hacia abajo, pero una gota puede ser llevada por el viento en sentido contrario antes de caer al agua."
+  ],
+  "implicacion_transformadora": [
+    "Las leyes universales deben entenderse como aproximaciones estadísticas y no dogmas deterministas.",
+    "Aceptar que la excepción micro revela la base probabilística de la realidad, invitando a modelos híbridos entre determinismo y azar.",
+    "Esto abre caminos a la ingeniería de sistemas nanoscópicos donde explotar o controlar estas excepciones momentáneas pueda tener sentido práctico."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "La universalidad fuerte de la segunda ley queda negada por evidencia empírico-experimental y teoría estadística."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "nodo_semantico_de_entrada": "Reversión de entropía solo en modelos teóricos (todas las escalas)",
+  "nodo_semantico_central": "Imposibilidad física de la reversión de entropía universal",
+  "firma_ontologica": {
+    "naturaleza": "principio límite",
+    "funcion": "delimitar la reversibilidad de estados en procesos físicos",
+    "dominio": "termodinámica, filosofía de la ciencia, epistemología física",
+    "forma": "axioma restrictivo, frontera conceptual",
+    "tension": "diferencia entre posibilidad matemática y realidad física",
+    "limite": "dependencia total en la verificación empírica; irreducibilidad para ciertos sistemas"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "reversión de entropía",
+      "definicion": "proceso hipotético en el que el desorden de un sistema disminuye espontáneamente"
+    },
+    {
+      "termino": "modelo teórico",
+      "definicion": "representación matemática o conceptual no siempre realizable en la naturaleza"
+    },
+    {
+      "termino": "ocurre solo",
+      "definicion": "limitación de la posibilidad a un dominio específico (aquí, la teoría)"
+    },
+    {
+      "termino": "todas las escalas",
+      "definicion": "afirmación universal que incluye tanto micro como macroprocesos"
+    }
+  ],
+  "transduccion_preconceptual": "Como tratar de ordenar una caja de piezas Lego agitándola y esperar que se armen solitas: en papel puedes imaginarlo, pero en la vida nunca sucede solo por azar, sin que nadie ayude.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El modelo teórico permite revertir la entropía",
+      "subnodo": "Licitud matemática vs. restricción empírica",
+      "contexto": "Las ecuaciones de la mecánica clásica y cuántica pueden describir procesos reversibles; la flecha del tiempo emerge estadísticamente."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Nunca se observa reversión total de la entropía en la práctica",
+      "subnodo": "Observabilidad de la irreversibilidad",
+      "contexto": "En experimentos y naturaleza, la entropía siempre tiende a aumentar o mantenerse."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "No existe evidencia de reversión espontánea de entropía fuera de casos idealizados; las simulaciones o modelos no equivalen a realización física."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Segunda Ley de la Termodinámica",
+      "conclusion": "En sistemas cerrados, la entropía nunca disminuye espontáneamente",
+      "notas": "Incluso fluctuaciones estadísticas extremas no revierten toda la entropía a escala macroscópica"
+    },
+    {
+      "origen": "Modelo teórico",
+      "conclusion": "Las matemáticas permiten descripciones reversibles, pero no garantizan realización física",
+      "notas": "El espacio de fase admite soluciones reversas por simetría, pero rara vez se materializan"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "NUNCA ocurre reversión local de entropía",
+      "descripcion": "Fluctuaciones en sistemas microscópicos pueden reducir temporalmente la entropía local (ej. demonio de Maxwell, fluctuaciones de Onsager)",
+      "grado_de_refutacion": "parcial",
+      "notas": "No viola la Segunda Ley globalmente; efectos locales y transitorios"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Ningún experimento físico ha evidenciado reversión completa y espontánea de la entropía",
+      "inferencia": "La reversión total es inalcanzable en la práctica",
+      "grado_de_confianza": "alto",
+      "notas": "Contrastado a través de cientos de años de pruebas experimentales"
+    },
+    {
+      "patron_observado": "Pequeñas reducciones locales de entropía sí ocurren",
+      "inferencia": "La afirmación requiere precisar el alcance: local vs global",
+      "grado_de_confianza": "medio",
+      "notas": "Corregido por el alcance original: 'todas las escalas'"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La irreversibilidad termodinámica es una propiedad emergente de sistemas con grandes grados de libertad; los modelos teóricos que permiten reversión matemática describen trayectorias posibles pero no realizables dadas las condiciones iniciales, probabilidad y restricciones físicas del universo.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La reversión de entropía sólo ocurre en modelos teóricos",
+        1,
+        0,
+        0
+      ],
+      [
+        "En la naturaleza se observa reversión espontánea total de la entropía (todas las escalas)",
+        0,
+        1,
+        0
+      ],
+      [
+        "En ámbitos microscópicos pueden ocurrir fluctuaciones que reducen momentáneamente la entropía",
+        1,
+        0,
+        0
+      ],
+      [
+        "El modelo teórico predice posibilidades no empíricamente verificables",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda reversión local implica una violación de la Segunda Ley",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El formalismo matemático admite reversibilidad total, pero la experiencia y ley estadística del universo no lo permiten.",
+    "ambiguedad": "¿Hasta qué punto lo local puede contradecir a lo global sin invalidar la regla universal?",
+    "contradiccion_util": "Los modelos reversibles ayudan a explorar el límite y el significado de las leyes físicas, permitiendo imaginar otras realidades posibles."
+  },
+  "reorganizacion_analoga": [
+    "Como en ajedrez puedes imaginar una jugada retrocediendo las piezas, pero en un juego real, una vez movidas, no puedes volver exactamente al estado anterior.",
+    "Como una película que puede correrse hacia atrás digitalmente, pero la vida no puede desandar sus propios pasos espontáneamente.",
+    "Como una simulación de caída de bolas de billar que muestra el video en reversa: posible en la pantalla, inalcanzable en una mesa real por la fricción y la difusión."
+  ],
+  "implicacion_transformadora": [
+    "Los límites entre modelos teóricos y la experiencia física son fuentes fértiles de comprensión: así emergen nuevos principios y tecnología.",
+    "Reconocer la irreducibilidad de la flecha del tiempo ayuda a abandonar búsquedas infructuosas de perpetuum mobile y enfocar la creatividad hacia procesos factibles.",
+    "La distinción práctico-teórica es vital para la epistemología: recuerda no extrapolar licencias de la simulación a decisiones en el mundo natural."
+  ],
+  "reevaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "Coherencia empírica con las leyes físicas actuales; los contraejemplos solo refutan casos absolutos no globales."
+  }
+}

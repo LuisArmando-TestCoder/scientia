@@ -1,0 +1,132 @@
+{
+  "nodo_semantico_de_entrada": "La física actual ya cubre todo lo relevante",
+  "nodo_semantico_central": "Suficiencia hermética de la física contemporánea",
+  "firma_ontologica": {
+    "naturaleza": "Afirmación de suficiencia disciplinar",
+    "funcion": "Establecer una frontera entre lo cubierto y lo pendiente en ciencia",
+    "dominio": "Epistemología de las ciencias naturales",
+    "forma": "Límite categórico, pretensión de totalidad",
+    "tension": "Absolutismo vs. apertura paradigmática",
+    "limite": "Depende del criterio de relevancia, y de la definición mutable de 'todo'"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "física actual",
+      "definicion": "Conjunto de teorías aceptadas y validadas en la física a fecha presente"
+    },
+    {
+      "termino": "todo",
+      "definicion": "Universalidad: la totalidad de lo que puede ser considerado relevante"
+    },
+    {
+      "termino": "relevante",
+      "definicion": "Aquello que se considera importante o significativo en un contexto, subjetivo y dependiente de metas y paradigmas"
+    },
+    {
+      "termino": "cubre",
+      "definicion": "Explica, modela, predice o describe con suficiencia los fenómenos bajo estudio"
+    }
+  ],
+  "transduccion_preconceptual": "Imagínate que tienes una caja de herramientas llena y crees que ya tienes todo lo que podrías necesitar para cualquier arreglo. Pero alguien te pregunta: ¿y si algún día hay un tornillo raro que no conoces? ¿Realmente tienes todas las herramientas?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La física actual es autosuficiente para explicar todos los fenómenos relevantes",
+      "subnodo": "Autosuficiencia epistémica",
+      "contexto": "Surgimiento de nuevos fenómenos o anomalías observacionales"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Lo relevante ya está definido y es inmutable",
+      "subnodo": "Estatus de la relevancia",
+      "contexto": "Cambios en el criterio científico y filosófico sobre lo que importa"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "falso",
+    "criterio": "Existen fenómenos observados y posibles que la física actual no cubre (matéria oscura, consciencia, procesos irreducibles, etc.); paradigma cerrado refutado por la historicidad del avance científico"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de ciencia como sistema abierto",
+      "conclusion": "Toda afirmación de completitud disciplinar es provisional",
+      "notas": "La experiencia histórica contradice toda pretensión de cierre absoluto"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La física actual ya cubre todo lo relevante",
+      "descripcion": "La existencia de energía oscura y materia oscura, reconocidas pero no explicadas por la física estándar; la emergencia de la mecánica cuántica sobre la física clásica; los problemas de la integración de gravedad cuántica.",
+      "grado_de_refutacion": "total",
+      "notas": "Los propios físicos consideran incompleta la teoría actual del todo"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Cada siglo surgen fenómenos fuera de los marcos teóricos vigentes (radiación de cuerpo negro, superconductividad, etc.)",
+      "inferencia": "La completitud de un paradigma es históricamente efímera",
+      "grado_de_confianza": "alto",
+      "notas": "La evolución del conocimiento científico es abierta e impredecible"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Todo sistema de conocimiento es una aproximación adaptable e históricamente situada. El cierre epistémico sólo es aparente y funcional, nunca absoluto.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La física actual ya cubre todo lo relevante",
+        0,
+        1,
+        0
+      ],
+      [
+        "La física actual cubre la mayoría de lo relevante conocido hasta ahora",
+        1,
+        0,
+        0
+      ],
+      [
+        "Lo relevante es un conjunto fijo",
+        0,
+        1,
+        0
+      ],
+      [
+        "Siempre surgen fenómenos no explicados",
+        1,
+        0,
+        0
+      ],
+      [
+        "Un paradigma puede ser finalmente completo",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Pretender un sistema explicativo total implica cerrar la puerta al descubrimiento, contradiciendo la esencia abierta de la ciencia",
+    "ambiguedad": "El término 'relevante' es intrinsécamente dependiente de agentes y contextos",
+    "contradiccion_util": "El afán de totalidad obliga a redefinir constantemente los límites de lo conocido y relevante"
+  },
+  "reorganizacion_analoga": [
+    "El mapa que nunca es el territorio completo",
+    "Las matemáticas axiomáticas que generan paradojas al aspirar a la completitud (Gödel)",
+    "La biblioteca infinita de Borges, nunca abarcable por una sola lógica de catalogación"
+  ],
+  "implicacion_transformadora": [
+    "Promueve humildad epistémica y apertura a nuevas anomalías",
+    "Impulsa la cognición divergente y la vigilancia paradigmática",
+    "Obliga a mantener viva la pregunta: ¿qué es relevante y quién lo define en cada época?"
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "El análisis deductivo, inductivo y los contraejemplos muestran que toda pretensión de cierre epistémico es sólo provisional. La tesis es refutada."
+  }
+}

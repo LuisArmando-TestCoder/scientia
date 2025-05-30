@@ -1,0 +1,132 @@
+{
+  "nodo_semantico_de_entrada": "El aumento global de entropía es inexorable",
+  "nodo_semantico_central": "Inexorabilidad de la entropía global",
+  "firma_ontologica": {
+    "naturaleza": "principio termodinámico",
+    "funcion": "describir la tendencia universal de los sistemas hacia el desorden",
+    "dominio": "física, termodinámica, cosmología, epistemología",
+    "forma": "ley universal, tendencia estadística",
+    "tension": "absolutismo vs. excepción local",
+    "limite": "dependencia de escala, marco teórico de la termodinámica clásica"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "entropía",
+      "definicion": "medida del desorden o la aleatoriedad en un sistema físico"
+    },
+    {
+      "termino": "aumento global",
+      "definicion": "tendencia de la suma total de la entropía en todo el universo a incrementarse"
+    },
+    {
+      "termino": "inexorable",
+      "definicion": "que no se puede detener, evitar o revertir por ningún medio"
+    }
+  ],
+  "transduccion_preconceptual": "Es como si tuvieras una caja muy grande con muchas piezas de Lego ordenadas. Si la sacudes una y otra vez, las piezas siempre terminan más revueltas, nunca se ordenan solas, no importa cuántas veces agites la caja.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El aumento global de entropía es inexorable",
+      "subnodo": "Irreversibilidad estadística",
+      "contexto": "¿Puede haber situaciones o escalas donde la entropía global disminuye o se estabiliza?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "El aumento global de entropía es inexorable",
+      "subnodo": "Excepciones locales",
+      "contexto": "Sistemas abiertos y autoorganizativos forman orden local disminuyendo su entropía interna"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "El aumento global de entropía es inexorable",
+      "subnodo": "Dependencia de frontera",
+      "contexto": "Definir 'global' requiere especificar si se trata del universo completo, un sistema aislado, o la suma de subsistemas"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El postulado es generalmente sostenido en la física clásica, pero se encuentra limitado por sus presuposiciones cosmológicas, posibilidad de fluctuaciones y marcos no clásicos"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Segunda ley de la termodinámica (marco clásico)",
+      "conclusion": "En un sistema cerrado, la entropía total no disminuye",
+      "notas": "Sólo aplica a sistemas cerrados; en sistemas abiertos puede decrecer localmente"
+    },
+    {
+      "origen": "Postulados de mecánica estadística",
+      "conclusion": "La probabilidad de que el desorden disminuya es casi nula en grandes escalas",
+      "notas": "No hay imposibilidad teórica total, solo alta improbabilidad estadística"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El aumento global de entropía es inexorable",
+      "descripcion": "Fluctuaciones de entropía a escalas microscópicas; universos en ciclo; hipótesis del Big Bounce o modelos donde la flecha del tiempo puede invertirse localmente",
+      "grado_de_refutacion": "parcial",
+      "notas": "Contraejemplo relevante solo en escalas no clásicas o cosmologías alternativas"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En todos los experimentos macroscópicos, la entropía aumenta salvo intervención externa",
+      "inferencia": "La tendencia del desorden a crecer es robusta, pero no universalmente absoluta",
+      "grado_de_confianza": "alto",
+      "notas": "Se basa en la observación empírica cotidiana y laboratorio"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La inexorabilidad de la entropía es un principio estadístico, no una necesidad metafísica inviolable. La irreversibilidad emerge de la improbabilidad, no de la imposibilidad total.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "En sistemas aislados suficientemente grandes, la entropía total no disminuye",
+        1,
+        0,
+        0
+      ],
+      [
+        "En el universo como conjunto, la entropía aumenta inexorablemente",
+        0,
+        0,
+        1
+      ],
+      [
+        "En escalas microscópicas, la entropía global puede disminuir",
+        0,
+        1,
+        0
+      ],
+      [
+        "Toda excepción es imposible dentro del principio",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El universo observable parece tender al desorden, pero exhibe emergencias locales de orden (vida, estructuras cósmicas)",
+    "ambiguedad": "¿A qué escala y con qué definición de 'global' se aplica la inexorabilidad?",
+    "contradiccion_util": "El caos permitido localmente permite la aparición de sistemas ordenados complejos (vida, inteligencia)"
+  },
+  "reorganizacion_analoga": [
+    "Como una playa donde la marea siempre lava los castillos de arena, pero los niños siguen construyendo nuevos castillos todo el tiempo (orden local y entropía global)",
+    "Como la memoria de una computadora que, sin energía, va borrándose, pero mientras se le conecta energía, puede reescribir patrones en sus bits"
+  ],
+  "implicacion_transformadora": [
+    "La tendencia general al desorden habilita pero no cancela la emergencia de estructuras complejas y sentido local",
+    "Aceptar la inexorabilidad estadística permite diseñar estrategias para crear orden y vida localmente, sin negar la condición de fondo",
+    "En epistemología, el aumento de entropía puede verse como incentivo de creatividad: lo improbable es posible, siempre que se reconozcan los límites"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La inexorabilidad es una ley estadística altamente robusta, pero su absolutismo se erosiona por límites teóricos y escala cosmológica; sólo es universal dentro de un marco idealizado."
+  }
+}

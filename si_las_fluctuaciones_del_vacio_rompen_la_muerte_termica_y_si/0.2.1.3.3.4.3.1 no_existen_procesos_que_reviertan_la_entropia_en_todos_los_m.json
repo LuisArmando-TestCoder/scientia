@@ -1,0 +1,147 @@
+{
+  "nodo_semantico_de_entrada": "No existen procesos que reviertan la entropía en todos los modelos cosmológicos posibles",
+  "nodo_semantico_central": "Irreversibilidad y límites de la reducción entrópica universal",
+  "firma_ontologica": {
+    "naturaleza": "afirmación universal negativa",
+    "funcion": "acotar el alcance de la reversibilidad entrópica",
+    "dominio": "termodinámica, cosmología, lógica modal",
+    "forma": "negación absoluta sobre clases de procesos en sistemas posibles",
+    "tension": "colisión entre irreversibilidad estadística y escenarios excepcionales",
+    "limite": "quedará indeterminada en presencia de universos no observados o modelos no explorados"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Proceso",
+      "definicion": "Transformación o evento que cambia el estado de un sistema físico"
+    },
+    {
+      "termino": "Entropía",
+      "definicion": "Medida del desorden o número de microestados posibles de un sistema"
+    },
+    {
+      "termino": "Reversión de entropía",
+      "definicion": "Disminución del desorden, contraria a la tendencia natural en sistemas cerrados"
+    },
+    {
+      "termino": "Modelos cosmológicos",
+      "definicion": "Descripciones teóricas de la estructura, evolución y leyes del universo"
+    },
+    {
+      "termino": "Negación universal",
+      "definicion": "Afirmación de que ninguna instancia cumple cierta propiedad en todo el conjunto"
+    }
+  ],
+  "transduccion_preconceptual": "Imaginar que tienes una caja muy grande llena de piezas mezcladas. Por lo general, cada vez que la agitas, las piezas se mezclan más. Decir que ‘nadie puede volver a ponerlas todas ordenadas’ es la idea. Pero quizás en otras cajas distintas o bajo reglas muy raras, sí se podría. ¿Seguro que en todas las cajas y bajo cualquier regla jamás se podría?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El enunciado es válido en todos los modelos cosmológicos posibles",
+      "subnodo": "Validez universal",
+      "contexto": "¿Hay modelos cosmológicos plausibles donde se revierta la entropía sistemáticamente?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "No existe ninguna excepción al crecimiento de la entropía",
+      "subnodo": "Excepciones al incremento entrópico",
+      "contexto": "¿Pueden mecanismos locales, fluctuaciones u otros universos contradecir la afirmación principal?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Existen modelos hipotéticos o excepcionales (ej. fluctuaciones de Boltzmann, multiversos, ciclos cosmológicos) que cuestionan la universalidad de la afirmación"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Segunda Ley de la Termodinámica",
+      "conclusion": "En sistemas cerrados, la entropía tiende a incrementarse globalmente",
+      "notas": "Siempre válida bajo condiciones ideales y sin intervención externa"
+    },
+    {
+      "origen": "Definición de modelo cosmológico",
+      "conclusion": "Existen modelos (cíclicos, multiverso, fluctuaciones extremas) con reglas distintas respecto a la entropía",
+      "notas": "Algunos escenarios permiten excepciones locales o temporales"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "No existen procesos que reviertan la entropía en todos los modelos cosmológicos posibles",
+      "descripcion": "La hipótesis de fluctuaciones de Boltzmann permite, aunque extremadamente improbablemente, que la entropía disminuya localmente en ciertos modelos de universo",
+      "grado_de_refutacion": "parcial",
+      "notas": "La probabilidad es virtualmente nula, pero lógicamente no es imposible en esos marcos"
+    },
+    {
+      "afirmacion_refutada": "No existen procesos que reviertan la entropía en todos los modelos cosmológicos posibles",
+      "descripcion": "Modelos cosmológicos cíclicos (universos oscilantes) pueden contemplar fases de decrecimiento entrópico bajo ciertas interpretaciones",
+      "grado_de_refutacion": "parcial",
+      "notas": "Cuestión abierta y dependiente de la validez física de esos modelos"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En la experiencia observada del universo, la entropía nunca ha disminuido globalmente",
+      "inferencia": "La irreversibilidad es un patrón empíricamente robusto en nuestro universo",
+      "grado_de_confianza": "alto",
+      "notas": "Extenderlo a todo los modelos es una generalización filosófica, no empírica"
+    },
+    {
+      "patron_observado": "Teorías y simulaciones muestran posibilidades periféricas de reducción entrópica bajo condiciones exóticas",
+      "inferencia": "No puede absolutizarse la negación en todos los casos concebibles",
+      "grado_de_confianza": "medio",
+      "notas": "Permanece abierto a posibles excepciones teóricas no observadas"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El ascenso global de la entropía es una regularidad estadística en sistemas cerrados, pero la extrapolación a la totalidad de los modelos cosmológicos posibles no es demostrable. Toda afirmación universal negativa sobre la reversibilidad entrópica necesita matizarse ante posibles excepciones en el espacio lógico de modelos",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "No existen procesos que reviertan la entropía en todos los modelos cosmológicos posibles",
+        0,
+        0,
+        1
+      ],
+      [
+        "En todos los modelos cosmológicos observables, no se revierte la entropía",
+        1,
+        0,
+        0
+      ],
+      [
+        "Existen modelos teóricos con reversión entrópica local o temporal",
+        1,
+        0,
+        0
+      ],
+      [
+        "La negación absoluta es universalmente válida",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La Ley de la Irreversibilidad, al intentar universalizarse, encuentra escenarios marginales lógicamente posibles donde falla o necesita redefinirse",
+    "ambiguedad": "¿Qué incluye exactamente ‘todos los modelos cosmológicos posibles’? ¿Implica sólo lo físicamente realizable o todo lo matemáticamente concebible?",
+    "contradiccion_util": "Los modelos extremos, inexpresables empíricamente, generan fertilidad teórica sobre los límites del conocimiento físico y la definición de ley natural"
+  },
+  "reorganizacion_analoga": [
+    "La entropía como un río: generalmente fluye hacia el mar, pero en ciertos meandros o accidentes geográficos puede retroceder momentáneamente",
+    "Un lenguaje en el que casi todas las palabras tienden a desordenarse, pero en poemas ocasionales recuperan un orden improbable",
+    "Como un cubo de Rubik lanzado al azar: casi siempre más mezclado, pero, por azar, alguna vez todo puede ordenarse"
+  ],
+  "implicacion_transformadora": [
+    "Las leyes físicas deben entenderse como regularidades estadísticas o reglas contextuales, no como dictados absolutos en todos los marcos posibles",
+    "Las excepciones lógicas, aunque improbables físicamente, son necesarias para expandir la frontera epistemológica",
+    "El pensamiento crítico debe indagar los límites ontológicos de las leyes y evitar absolutizarlas sin preguntarse por su dominio de validez"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación generalizada no puede colapsarse completamente porque depende del alcance (ontológico) asignado a ‘todos los modelos cosmológicos posibles’, y siempre existen excepciones lógicamente concebibles"
+  }
+}

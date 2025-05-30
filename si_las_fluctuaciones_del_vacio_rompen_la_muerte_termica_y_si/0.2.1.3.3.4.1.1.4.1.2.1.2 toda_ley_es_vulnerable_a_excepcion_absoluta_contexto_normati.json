@@ -1,0 +1,122 @@
+{
+  "nodo_semantico_de_entrada": "Toda ley es vulnerable a excepción absoluta (contexto normativo social)",
+  "nodo_semantico_central": "Vulnerabilidad absoluta de las leyes sociales",
+  "firma_ontologica": {
+    "naturaleza": "Principio de indeterminación normativa",
+    "funcion": "Cuestionar la universalidad normativa",
+    "dominio": "filosofía del derecho, epistemología jurídica",
+    "forma": "paradoja, bucle de excepción",
+    "tension": "Busca negar la posibilidad de universalidad normativa absoluta; tensa la definición misma de 'ley'.",
+    "limite": "Axioma refutable por contraejemplo; depende de la existencia o no de leyes verdaderamente incondicionales o invulnerables."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "ley",
+      "definicion": "Regla social o jurídica que busca regular la conducta dentro de un grupo."
+    },
+    {
+      "termino": "excepción absoluta",
+      "definicion": "Situación, entidad o acción donde la ley no tiene efecto alguno; una ruptura total de la aplicación."
+    },
+    {
+      "termino": "vulnerabilidad",
+      "definicion": "La posibilidad real de que la ley no se cumpla o sea rota en algún caso."
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que hay una regla en la escuela que dice que nadie puede correr en el pasillo. Pero siempre hay una razón muy especial, como que hay fuego, y entonces alguien corre. Esto hace que ninguna regla sea tan fuerte que no pueda romperse si algo realmente raro pasa.",
+  "iteraciones": [
+    {
+      "id": "1",
+      "afirmacion_base": "Toda ley es vulnerable a excepción absoluta",
+      "subnodo": "Excepción universalizante",
+      "contexto": "¿Puede existir una ley tan general que nunca admita excepción bajo ninguna circunstancia social?"
+    },
+    {
+      "id": "2",
+      "afirmacion_base": "Existen leyes sociales sin excepción absoluta",
+      "subnodo": "Ley invulnerable",
+      "contexto": "Si proponemos una ley así, ¿puede mantenerse frente a todos los contextos posibles o emergen contraejemplos extremos?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación es indefinida: depende de la existencia de leyes invulnerables, pero la generalización admite ambigüedad y la posibilidad de contraejemplos."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si toda ley puede ser exceptuada absolutamente, no existen leyes verdaderamente universales.",
+      "conclusion": "La universalidad legal es un límite ideal que nunca se alcanza completamente en el contexto social.",
+      "notas": "Solo válida si es imposible construir una ley invulnerable a la excepción."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda ley es vulnerable a excepción absoluta",
+      "descripcion": "Principio de no contradicción lógico: 'Nada puede ser y no ser al mismo tiempo en el mismo sentido'. Al menos en lógica formal o leyes matemáticas, no se aceptan excepciones.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Sin embargo, en el contexto social, las leyes lógicas pueden no ser normas sociales, manteniendo el cuestionamiento abierto."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En sistemas legales históricos, aún las prohibiciones más severas ('no matarás') han encontrado casos de excepción (defensa propia, guerra, etc).",
+      "inferencia": "La tendencia empírica en normas sociales es hacia la vulnerabilidad por excepción.",
+      "grado_de_confianza": "alto",
+      "notas": "No obstante, generalizar a todas las leyes requiere cautela filosófica."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La ley, en contexto social, es un dispositivo condicionante que no puede despojarse de la posibilidad de excepción; esto sugiere que la robustez normativa máxima es siempre provisional y dependiente del contexto.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda ley es vulnerable a excepción absoluta (contexto normativo social)",
+        0,
+        0,
+        1
+      ],
+      [
+        "Existen leyes sociales sin excepción absoluta",
+        0,
+        0,
+        1
+      ],
+      [
+        "Siempre existe posibilidad de ruptura legal por causas extremas",
+        1,
+        0,
+        0
+      ],
+      [
+        "Existen contextos sociales absolutamente homogéneos",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Si toda ley admite excepción absoluta, la idea de ley como universalidad queda vacía; pero si existe una sola ley invulnerable, el principio general se refuta.",
+    "ambiguedad": "'Excepción absoluta' puede interpretarse como excepción real o como posibilidad teórica imaginaria.",
+    "contradiccion_util": "La dialéctica entre universalidad moral/normativa y contingencia social; produce análisis más agudo sobre cómo emerger normas robustas."
+  },
+  "reorganizacion_analoga": [
+    "El principio de incertidumbre en física: ninguna medición es completamente exacta para todos los observadores.",
+    "Una red de caminos donde siempre puede aparecer un desvío inesperado que la modifica.",
+    "Lenguajes naturales: cada regla gramatical tiene excepciones en el uso real."
+  ],
+  "implicacion_transformadora": [
+    "Las políticas o doctrinas no deben absolutizarse; todo diseño normativo debe incluir mecanismos explícitos de revisión, excepción y adaptación.",
+    "La pedagogía social puede beneficiarse de enseñar que las leyes son principios orientadores, no verdades inamovibles.",
+    "El pensamiento ético-moral debe basarse en la adaptabilidad y no en el dogma."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación se mantiene indefinida; si bien la inducción empírica es fuerte, la posibilidad conceptual de excepción absoluta queda abierta y la paradoja activada no se resuelve plenamente."
+  }
+}

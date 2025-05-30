@@ -1,0 +1,121 @@
+{
+  "nodo_semantico_de_entrada": "La muerte térmica es totalmente inevitable bajo la física conocida",
+  "nodo_semantico_central": "Inevitabilidad de la muerte térmica",
+  "firma_ontologica": {
+    "naturaleza": "proposición físico-cosmológica",
+    "funcion": "afirmar destino universal bajo ciertas leyes",
+    "dominio": "termodinámica, cosmología",
+    "forma": "progresión asintótica hacia equilibrio máximo",
+    "tension": "absolutismo vs límites epistémicos",
+    "limite": "aplicación de leyes físicas actuales y universalidad"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "muerte térmica",
+      "definicion": "estado en el que un sistema (universo) alcanza el máximo desorden y no puede sustentar procesos termodinámicos útiles (entropía máxima)"
+    },
+    {
+      "termino": "totalmente inevitable",
+      "definicion": "no hay posibilidad alternativa bajo los supuestos actuales"
+    },
+    {
+      "termino": "física conocida",
+      "definicion": "conjunto limitado de leyes aceptadas al presente: fundamentalmente, las leyes de la termodinámica y la expansión cósmica según el modelo estándar"
+    }
+  ],
+  "transduccion_preconceptual": "Como si todo el universo fuera un gran cuarto que se va calentando y enfriando por todas partes, hasta que cada rincón es igual de templado. Cuando eso pasa, ya nadie puede mover nada porque todo está igual de quieto y no hay más sorpresas.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Es absolutamente inevitable, sin excepción",
+      "subnodo": "absolutismos físico-cosmológicos",
+      "contexto": "¿Existen escenarios que la física actual aún no considera o que invalidan la inevitabilidad absoluta?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Bajo la física conocida",
+      "subnodo": "corte epistemológico",
+      "contexto": "¿A qué nivel de actualización de la física se restringe? ¿Quedan fenómenos desconocidos fuera del análisis?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El absolutismo es refutable por desconocimiento epistemológico; aunque bajo los modelos actuales la tendencia es hacia muerte térmica, no es lógicamente ineludible si surgen nuevas leyes o excepciones cósmicas."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Segunda ley de la termodinámica",
+      "conclusion": "La entropía total del universo no decrece, favoreciendo un estado final de equilibrio",
+      "notas": "Suponiendo sistema cerrado/isla y sin fenómenos no contemplados"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La muerte térmica es totalmente inevitable",
+      "descripcion": "Modelos teóricos con fluctuaciones cuánticas masivas, ciclos cosmológicos, o emergencia de nueva física (como creación de universos hijos, universo cíclico, regiones no alcanzando equilibrio)",
+      "grado_de_refutacion": "parcial",
+      "notas": "La proposición es, como máximo, contingente y no absolutamente necesaria."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Galaxias se alejan y materia se enfría irreversiblemente",
+      "inferencia": "La muerte térmica aparece consistente con observaciones actuales",
+      "grado_de_confianza": "medio",
+      "notas": "Depende de extrapolación de leyes actuales a escalas extremas y tiempos inmensos"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Los límites de la inevitabilidad están dictados por la frontera siempre móvil de la comprensión física: ningún destino universal es absolutamente cierto mientras el conocimiento sea incompleto.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La muerte térmica es totalmente inevitable bajo la física conocida",
+        0,
+        0,
+        1
+      ],
+      [
+        "El aumento de entropía conduce a un equilibrio térmico absoluto",
+        1,
+        0,
+        0
+      ],
+      [
+        "No existen excepciones cosmológicas desconocidas",
+        0,
+        0,
+        1
+      ],
+      [
+        "La física conocida es la descripción final de la realidad",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Sólo podemos afirmar inevitabilidad bajo una física que —por su naturaleza— podría volverse obsoleta.",
+    "ambiguedad": "‘Bajo la física conocida’ no clarifica cuán provisional es la predicción.",
+    "contradiccion_util": "El absolutismo del destino futuro depende de la no-absolutidad del estado actual del conocimiento."
+  },
+  "reorganizacion_analoga": [
+    "Como predecir que ningún niño nunca aprenderá a volar porque jamás ha ocurrido... hasta que alguien inventa nuevas alas.",
+    "Como afirmar que un programa corre para siempre según el manual, aunque el hardware pueda cambiar."
+  ],
+  "implicacion_transformadora": [
+    "Las afirmaciones absolutas sobre destinos cósmicos deben presentarse sólo con reservas epistemológicas.",
+    "La muerte térmica es una predicción condicionada, no un dogma ontológico.",
+    "Explorar los límites del conocimiento físico puede abrir escenarios insospechados sobre el futuro del universo."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación es preciosamente modelada bajo el estado actual del conocimiento, pero la inevitabilidad absoluta es, en sí, epistemológicamente indefinida."
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "nodo_semantico_de_entrada": "Puede ‘haber’ ausencia fuera de todo registro",
+  "nodo_semantico_central": "Posibilidad de ausencia extrarregistral",
+  "firma_ontologica": {
+    "naturaleza": "afirmación modal ontológica",
+    "funcion": "Explorar la existencia o posibilidad de lo ausente más allá de cualquier forma de registro, observación o memoria.",
+    "dominio": "metafísica, lógica modal, epistemología",
+    "forma": "interrogación liminar / frontera del lenguaje",
+    "tension": "Si ‘ausencia’ puede ser postulado ontológicamente, su existencia fuera del registro desafía el principio mismo de lo cognoscible.",
+    "limite": "Afirmación referencialmente autorestrictiva, no verificable desde dentro del sistema de registros."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "ausencia",
+      "definicion": "Situación o estado donde algo no está o no existe en un determinado marco de referencia."
+    },
+    {
+      "termino": "registro",
+      "definicion": "Cualquier forma de marcar, testimoniar, recordar o percibir la presencia o ausencia de algo."
+    },
+    {
+      "termino": "haber",
+      "definicion": "Que pueda existir, ocurrir o manifestarse (incluso si sólo potencialmente)."
+    },
+    {
+      "termino": "fuera",
+      "definicion": "Más allá de los límites de un marco dado (en este caso, el registro)."
+    }
+  ],
+  "transduccion_preconceptual": "¿Puede haber un juego donde no hay nadie que lo juegue ni lo piense? ¿Existe una huella invisible en un suelo donde jamás nadie pisó ni miró?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El ‘haber’ sólo puede conocerse si hay registro.",
+      "subnodo": "relación ser-registro",
+      "contexto": "Todo lo que es, es porque puede ser registrado por algún sistema de referencia, conciencia o memoria."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Lo ausente puede ser ‘algo’ aunque nadie tenga constancia de ello.",
+      "subnodo": "ausencia no referencial",
+      "contexto": "Posibilidad conceptual de aquello que nunca es percibido o registrado."
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "El concepto de ausencia depende del concepto de presencia.",
+      "subnodo": "metadefinición de ausencia",
+      "contexto": "¿Se sostiene la ausencia si nunca hay comparación con ninguna presencia?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación es imposible de verificar dentro de cualquier marco epistemológico; sólo puede plantearse como posibilidad modal."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si todo ‘haber’ requiere registro",
+      "conclusion": "No puede haber ausencia fuera de todo registro — la ausencia sólo se define ante la presencia o su referencia.",
+      "notas": "Depende del axioma de epistemología fuerte."
+    },
+    {
+      "origen": "Si el registro es sólo una instancia de presencia",
+      "conclusion": "Podría haber ausencia presemiótica — pero sería incognoscible.",
+      "notas": "La afirmación se vuelve autoreferencialmente vacía."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "No puede haber ausencia fuera de todo registro",
+      "descripcion": "El universo antes de cualquier observador, según algunos relatos cosmológicos, es ausencia no registrada.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La refutación depende de la definición de ‘registro’ (¿requiere observador?, ¿requiere relación causal?)."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Un objeto no observado sigue teniendo atributos modelados (física cuántica: decoherencia y función de onda)",
+      "inferencia": "La ausencia podría ser postulada como posibilidad física o matemática incluso sin registro directo.",
+      "grado_de_confianza": "medio",
+      "notas": "Sólo tenemos modelos — nunca verificación total de lo no registrado."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La existencia o posibilidad de la ausencia extrarregistral es un límite del discurso: solo puede pensarse en negativo, nunca afirmarse o negarse absolutamente.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Puede ‘haber’ ausencia fuera de todo registro",
+        0,
+        0,
+        1
+      ],
+      [
+        "Toda ausencia requiere referencia a un registro",
+        0,
+        0,
+        1
+      ],
+      [
+        "Es posible hablar coherentemente de la ausencia extrarregistral",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Para afirmar la existencia de la ausencia fuera de registro, debemos registrarla conceptualmente, lo que la vuelve presente.",
+    "ambiguedad": "¿Basta la posibilidad para constituir un ‘haber’? ¿Debe la ausencia ser algo para poder ser ‘fuera’ de registro?",
+    "contradiccion_util": "El pensamiento de la ausencia fuera de registro expande los límites epistemológicos, pero requiere de la propia actividad de registro conceptual para enunciarse."
+  },
+  "reorganizacion_analoga": [
+    "Como la habitación vacía que nadie vio: su vacío sólo es narrable post facto.",
+    "Como el cero matemático — negar lo contado para poder contar la nada.",
+    "Como el estado cuántico no medido: la ausencia es sólo posibilidad, colapsada en presencia al intentar saber."
+  ],
+  "implicacion_transformadora": [
+    "La pregunta por lo que puede ser fuera de todo registro revela los límites simbólicos del saber: promueve humildad ontológica y cautela epistemológica ante lo incognoscible.",
+    "Despliega la necesidad de distinguir entre posibilidad lógica, posibilidad semántica y posibilidad existencial."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La cuestión es indecidible por requerir de un agente de registro para cualquier afirmación de ‘haber’; permanece como límite lógico y semántico."
+  }
+}

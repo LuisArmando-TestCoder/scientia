@@ -1,0 +1,121 @@
+{
+  "nodo_semantico_de_entrada": "La extrapolación universal es confiable",
+  "nodo_semantico_central": "Confiabilidad de extrapolación universal",
+  "firma_ontologica": {
+    "naturaleza": "afirmación epistémica",
+    "funcion": "establecer si el acto de generalizar sin límites es una base fiable de conocimiento",
+    "dominio": "epistemología, lógica, inferencia científica",
+    "forma": "regla general, proposición universal",
+    "tension": "colisión entre lo universal (absoluto) y lo confiable (consistencia validada)",
+    "limite": "irreducibilidad computacional, casos contraejemplo, dependencia de validez local"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "extrapolación",
+      "definicion": "proceso de ir más allá de los datos conocidos para hacer afirmaciones sobre lo desconocido"
+    },
+    {
+      "termino": "universal",
+      "definicion": "pretende que la regla funcione siempre, en todo contexto"
+    },
+    {
+      "termino": "confiabilidad",
+      "definicion": "capacidad de una acción o inferencia para tener resultados correctos consistentes"
+    }
+  ],
+  "transduccion_preconceptual": "Es como creer que si dos fichas de dominó caen siempre igual, ahora todos los dominós del mundo caerán igual, aunque nunca los hayas visto. Algunas piezas pueden ser diferentes y no lo sabes.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La extrapolación universal es confiable",
+      "subnodo": "Dependencia de contexto y límite de datos",
+      "contexto": "¿Qué pasa si el entorno cambia o hay reglas que no se han visto?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La extrapolación universal es confiable",
+      "subnodo": "Sensibilidad a contraejemplos",
+      "contexto": "La aparición de un solo caso que contradice la regla universal invalida la confiabilidad universal"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "falso",
+    "criterio": "Contraejemplos conocidos y límites de inferencia hacen que la confiabilidad universal sea insostenible"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Principio lógico de falsificación popperiano",
+      "conclusion": "Para que una afirmación universal sea confiable, no debe haber contraejemplos; la aparición de uno la refuta",
+      "notas": "Concordancia con teoría científica clásica"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La extrapolación universal es confiable",
+      "descripcion": "El cisne negro — la extrapolación de que todos los cisnes son blancos fue refutada por la aparición de un cisne negro",
+      "grado_de_refutacion": "total",
+      "notas": "Ejemplo clásico; otros abundan en historia de la ciencia"
+    },
+    {
+      "afirmacion_refutada": "La extrapolación universal es confiable",
+      "descripcion": "Ley de la gravedad newtoniana extrapolada universalmente dejó de ser confiable en el dominio relativista o cuántico",
+      "grado_de_refutacion": "parcial",
+      "notas": "La confiabilidad depende del ámbito"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Extrapolaciones universales pierden confiabilidad ante la aparición de anomalías empíricas",
+      "inferencia": "Las reglas generales tienden a funcionar en lo local/contextual, pero no resisten lo universal",
+      "grado_de_confianza": "alto",
+      "notas": "Patrón repetido en historia de la ciencia y lógica"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Toda extrapolación confiable es local o contextual; el salto a lo universal está siempre sometido a refutación potencial por excepciones desconocidas.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La extrapolación universal es confiable",
+        0,
+        1,
+        0
+      ],
+      [
+        "La extrapolación local puede ser confiable",
+        1,
+        0,
+        0
+      ],
+      [
+        "La extrapolación necesita validación constante para sostenerse",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Si toda extrapolación fuese confiable universalmente, los descubrimientos disruptivos no serían posibles, pero la historia y la naturaleza prueban lo contrario.",
+    "ambiguedad": "El término 'confiable' necesita siempre especificar contexto y escala para no volverse vacío",
+    "contradiccion_util": "El impulso a extrapolar universalmente genera progreso hasta toparse con el límite y forzar revisión conceptual — ruina creativa"
+  },
+  "reorganizacion_analoga": [
+    "El mapa siempre será diferente del territorio cuando se expanden sus fronteras",
+    "Un árbol que crece demasiado alto sin raíces nuevas colapsa por su propio peso"
+  ],
+  "implicacion_transformadora": [
+    "Cualquier modelo, hipótesis o dogma debe aceptar su provisionalidad y prepararse para ser revisado",
+    "El pensamiento crítico se ancla en la duda metódica ante lo absoluto",
+    "La creatividad surge al buscar los límites de nuestras extrapolaciones confiables"
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "El análisis deductivo e inductivo converge en la imposibilidad lógica de una extrapolación universal confiable; la confiabilidad se construye sobre la falibilidad."
+  }
+}

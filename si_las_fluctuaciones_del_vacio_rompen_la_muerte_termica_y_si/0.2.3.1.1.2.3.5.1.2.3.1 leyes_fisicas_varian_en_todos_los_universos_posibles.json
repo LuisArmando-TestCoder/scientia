@@ -1,0 +1,135 @@
+{
+  "nodo_semantico_de_entrada": "Leyes físicas varían en todos los universos posibles",
+  "nodo_semantico_central": "Variabilidad total de las leyes físicas en el multiverso",
+  "firma_ontologica": {
+    "naturaleza": "Afirmación universal sobre regularidades de la realidad",
+    "funcion": "Postular la cambiante naturaleza de las reglas fundamentales en todas las realidades posibles",
+    "dominio": "Metafísica, física teórica, lógica modal",
+    "forma": "Afirmación absoluta aplicada a un conjunto infinito/metaconjunto",
+    "tension": "Colisión entre universalidad (absolutismo) y necesidad lógica/empírica",
+    "limite": "Presupone conocimiento total sobre todos los universos posibles; imposible verificabilidad desde un solo marco"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "leyes físicas",
+      "definicion": "Reglas matemáticas o principios que determinan el comportamiento del universo"
+    },
+    {
+      "termino": "cambio",
+      "definicion": "Que algo es diferente en cada caso o contexto"
+    },
+    {
+      "termino": "universos posibles",
+      "definicion": "Todas las realidades lógicamente concebibles, sean o no realizadas"
+    },
+    {
+      "termino": "todos",
+      "definicion": "Sin excepción, absolutismo cuantitativo"
+    }
+  ],
+  "transduccion_preconceptual": "Como imaginar que en cada historia que inventas, las reglas del juego son distintas: tal vez en una, las piedras flotan y en otra, la luz va más despacio que un caracol. Y eso, para todas las historias posibles, por locas que sean.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Las leyes físicas cambian en todos los universos posibles",
+      "subnodo": "Universalidad sin excepción",
+      "contexto": "¿Es lógicamente posible que no haya ningún universo donde las leyes sean iguales? ¿Hay algún contraejemplo?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "universos posibles",
+      "subnodo": "Definición y límite del conjunto",
+      "contexto": "¿Incluye universos lógicamente inconsistentes o sólo los coherentes?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "leyes físicas",
+      "subnodo": "Identidad versus diferencia contextual",
+      "contexto": "¿Qué tanto puede cambiar una ley para que siga siendo reconocible como 'ley física'?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Imposibilidad lógica/empírica de comprobar que no existe ningún universo posible con leyes físicas idénticas; la afirmación padece del problema del absolutismo-negación de excepción"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de 'todos'",
+      "conclusion": "Una sola excepción (un universo con leyes idénticas) refuta la afirmación",
+      "notas": "Debe encontrarse al menos un caso para falsar la universalidad absoluta"
+    },
+    {
+      "origen": "Definición de 'universos posibles'",
+      "conclusion": "La variedad o invariancia depende del marco modal adoptado (lógica modal, física multiverso, teología)",
+      "notas": "Depende de la delimitación de 'posible'"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Las leyes físicas cambian en todos los universos posibles",
+      "descripcion": "Un universo posible idéntico al nuestro –por definición de 'posible', cualquier universo en el espacio modal puede ser una réplica exacta de otro",
+      "grado_de_refutacion": "total",
+      "notas": "La lógica modal permite universos duplicados, anulando el absolutismo"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En teorías de multiverso, algunas leyes pueden variar (constantes, interacciones), pero suponer cambio absoluto es especulativo",
+      "inferencia": "La diversidad de leyes es plausible, pero la variación total sin repetición carece de evidencia y es probablemente falsa",
+      "grado_de_confianza": "medio",
+      "notas": "Basado en analogía con espacio de posibilidades matemáticas y físicas"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Las afirmaciones absolutas sobre la variabilidad de leyes en el espacio de todos los universos posibles son lógicamente insostenibles: siempre se puede concebir una excepción, lo cual las vuelve falsables o indefinidas.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Las leyes físicas cambian en todos los universos posibles",
+        0,
+        1,
+        0
+      ],
+      [
+        "Existe al menos un universo donde las leyes físicas no cambian respecto a otro",
+        1,
+        0,
+        0
+      ],
+      [
+        "Es posible que las leyes físicas varíen en algunos universos",
+        1,
+        0,
+        0
+      ],
+      [
+        "El conjunto de todos los universos posibles puede contener duplicados",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Postular el cambio absoluto conduce a la autoanulación: si todo puede cambiar, también puede no cambiar nada o cambiar a un duplicado",
+    "ambiguedad": "'Leyes físicas' puede colapsar en criterio de identidad o diferencia arbitrario; 'universos posibles' depende de la definición de posibilidad",
+    "contradiccion_util": "La tensión entre diversidad y repetición permite explorar cómo la identidad se preserva o fractura en espacios infinitos"
+  },
+  "reorganizacion_analoga": [
+    "Como afirmar que en todas las novelas posibles los finales son distintos: basta que un libro repita el final de otro para violar la universalidad.",
+    "Como lanzar dados infinitas veces y exigir que nunca caigan igual: la estructura de posibilidades admite inevitables repeticiones."
+  ],
+  "implicacion_transformadora": [
+    "Evitar absolutismo en hipótesis cosmológicas; reemplazar 'todos' por 'algunos' o adoptar lenguaje probabilístico.",
+    "La exploración de espacios de posibilidades debe considerar la lógica del isomorfismo, la duplicidad y la emergencia de patrones repetidos incluso en lo infinitamente diverso."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "Absolutismo refutado por lógica modal: la posibilidad de duplicidad y de invariancia parcial es irreductible; afirmar cambio en 'todos' los universos es lógicamente insostenible."
+  }
+}

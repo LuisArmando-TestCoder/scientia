@@ -1,0 +1,136 @@
+{
+  "nodo_semantico_de_entrada": "Toda intervención cancela el vacío",
+  "nodo_semantico_central": "Relación intervención-vacío",
+  "firma_ontologica": {
+    "naturaleza": "Afirmación universal relacional",
+    "funcion": "Establecer vínculo causal absoluto entre acción (intervención) y estado basal (vacío)",
+    "dominio": "Ontología, metafísica de la acción",
+    "forma": "implicación lineal (si A, entonces no B)",
+    "tension": "Asume exclusión de opuestos; universaliza la acción",
+    "limite": "Susceptible a refutación por contraejemplo y excepción fenomenológica"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "intervención",
+      "definicion": "Acción o evento que altera una condición previa"
+    },
+    {
+      "termino": "vacío",
+      "definicion": "Estado de ausencia total o relativa de entidad, influencia o fenómeno"
+    },
+    {
+      "termino": "cancela",
+      "definicion": "Elimina, sustituye o impide la existencia de un estado previo"
+    },
+    {
+      "termino": "toda",
+      "definicion": "Cuantificador universal; sin excepción alguna"
+    }
+  ],
+  "transduccion_preconceptual": "Si tienes una caja vacía y metes la mano (haces algo), ya no está vacía. Hacer algo convierte la nada en algo.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Toda intervención cancela el vacío",
+      "subnodo": "Naturaleza del vacío después de la acción",
+      "contexto": "¿Es posible que el vacío persista después de realizar una intervención?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Toda intervención cancela el vacío",
+      "subnodo": "Intervención sin efecto medible",
+      "contexto": "¿Se puede intervenir sin alterar el estado perceptible del vacío?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación general no es universalmente sostenible; requiere matización por contraejemplo"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de cancelación y vacío",
+      "conclusion": "Si una intervención introduce alteración fáctica, el vacío como ausencia ideal se pierde",
+      "notas": "La validez depende de cómo se define 'vacío' en cada contexto"
+    },
+    {
+      "origen": "Cuantificador universal ('toda')",
+      "conclusion": "Basta un solo contraejemplo para falsar la afirmación",
+      "notas": "Buscar contextos donde la intervención sea sin efecto"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda intervención cancela el vacío",
+      "descripcion": "Intervención cuántica: la medición puede no colapsar todos los estados del vacío debido al principio de incertidumbre; o intervención que no deja huella observable (acción reversible, efecto nulo).",
+      "grado_de_refutacion": "parcial",
+      "notas": "Depende de la escala y de la definición funcional de vacío e intervención"
+    },
+    {
+      "afirmacion_refutada": "Toda intervención cancela el vacío",
+      "descripcion": "En filosofía budista, actuar en la vacuidad puede no suponer la desaparición del vacío, sino su reconfiguración (vacío funcional tras la acción).",
+      "grado_de_refutacion": "parcial",
+      "notas": "Revela la relatividad semántica del vacío según marcos culturales"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En sistemas cerrados, toda acción tiende a alterar el estado previo",
+      "inferencia": "En la mayoría de los contextos físicos, la intervención sí altera el vacío inicial",
+      "grado_de_confianza": "alto",
+      "notas": "No implica eliminación total del vacío en conceptos extendidos"
+    },
+    {
+      "patron_observado": "Hay acciones cuya influencia es neutralizada o irrelevante para el sistema",
+      "inferencia": "No todas las intervenciones tienen un resultado observable sobre el vacío",
+      "grado_de_confianza": "medio",
+      "notas": "Requiere experimentación o redefinición contextual"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El vacío y la intervención coexisten en tensión dinámica. Intervenir revela, reconfigura o colapsa el vacío, pero no necesariamente lo aniquila: puede transformar su modo de presencia. Universalizar la cancelación es ignorar los grados de intervención y las redefiniciones posibles del vacío.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda intervención cancela el vacío",
+        0,
+        1,
+        0
+      ],
+      [
+        "Existen intervenciones que no alteran el vacío perceptible",
+        1,
+        0,
+        0
+      ],
+      [
+        "Una intervención siempre deja rastro en cualquier sistema",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "¿Puede la intervención crear vacío, o solo transformarlo?",
+    "ambiguedad": "Naturaleza plural de 'vacío' (físico, conceptual, fenomenológico, matemático)",
+    "contradiccion_util": "La intervención puede ser la creadora de nuevos tipos de vacío, no solo su negación"
+  },
+  "reorganizacion_analoga": [
+    "Como la onda que entra en un estanque y reorganiza, pero no elimina, el agua quieta",
+    "Como una función matemática aplicada al cero: puede devolver cero (vacío estable)",
+    "Como un silencio interrumpido por un eco que luego regresa al silencio"
+  ],
+  "implicacion_transformadora": [
+    "No debe asumirse que la acción elimina necesariamente la ausencia; quizás la redefine o redistribuye",
+    "Modelar el vacío como un continuum, no como binario absoluto, permite nuevas epistemologías de la intervención"
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "La proposición no es universalmente sostenible ante la observación y la deducción; requiere redefinición o contextualización"
+  }
+}

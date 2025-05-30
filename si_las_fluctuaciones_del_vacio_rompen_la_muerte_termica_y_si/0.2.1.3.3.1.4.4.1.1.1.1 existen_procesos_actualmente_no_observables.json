@@ -1,0 +1,156 @@
+{
+  "nodo_semantico_de_entrada": "Existen procesos actualmente no observables",
+  "nodo_semantico_central": "Procesos-no-observables",
+  "firma_ontologica": {
+    "naturaleza": "proposición existencial",
+    "funcion": "afirmar la existencia de entidades o dinámicas fuera del alcance perceptivo o instrumental actual",
+    "dominio": "metafísica, epistemología, teoría de la observación",
+    "forma": "dualidad visible/invisible; campo abierto de potencialidad",
+    "tension": "limite gnoseológico entre lo conocido y lo incognoscible",
+    "limite": "la validación empírica ausente, dependen del cambio de condiciones observacionales"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "proceso",
+      "definicion": "algo que sucede con una secuencia de pasos o transformaciones"
+    },
+    {
+      "termino": "existencia",
+      "definicion": "afirmar que hay algo, aunque no podamos acceder a ello directamente"
+    },
+    {
+      "termino": "no observable",
+      "definicion": "fuera del alcance de la observación directa o indirecta, dado el conocimiento o medios actuales"
+    },
+    {
+      "termino": "actualmente",
+      "definicion": "referido a este momento, no necesariamente será así siempre"
+    }
+  ],
+  "transduccion_preconceptual": "Algunas cosas pueden estar pasando detrás de una puerta cerrada. No podemos verlas, pero eso no quita que sucedan. El 'ahora' es el candado: no hay llave, pero tal vez algún día la haya.",
+  "iteraciones": [
+    {
+      "id": "1",
+      "afirmacion_base": "El proceso es actualmente no observable",
+      "subnodo": "Potencial-observabilidad-futura",
+      "contexto": "¿Implica que eventualmente podrá observarse, si cambian las capacidades?"
+    },
+    {
+      "id": "2",
+      "afirmacion_base": "Existen procesos no observables en ningún contexto",
+      "subnodo": "Procesos-intrínsecamente-incognoscibles",
+      "contexto": "¿Se puede afirmar que algo es no observable de modo absoluto, o es imposibilidad relativa?"
+    },
+    {
+      "id": "3",
+      "afirmacion_base": "Aquello que no se puede observar no puede tener impacto causal",
+      "subnodo": "Observabilidad-vs-causalidad",
+      "contexto": "¿Implica su falta de eficacia o solo de accesibilidad?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación no puede validarse o refutarse empíricamente en su estado actual, depende del marco observacional y los desarrollos futuros"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de proceso y no observabilidad en contexto actual",
+      "conclusion": "La existencia planteada es una cuestión abierta respecto al alcance y límites de nuestras herramientas cognitivas/experimentales",
+      "notas": "Siempre ligada al desarrollo de nuevos métodos de observación o inferencia indirecta"
+    },
+    {
+      "origen": "Diferenciación entre no observado y no observable",
+      "conclusion": "El no observado puede llegar a ser observable; el estrictamente no observable requiere justificación ontológica o axiológica específica",
+      "notas": "La frontera puede moverse con el progreso epistemológico"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Ningún proceso no observable puede ser inferido",
+      "descripcion": "En física, la materia oscura o energía oscura: no se observan directamente, pero se infieren a partir de sus efectos. También, mecanismos evolutivos pasados no presenciados pueden dejar rastros identificables.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La inferencia indirecta amplía el espectro de lo observable"
+    },
+    {
+      "afirmacion_refutada": "Todos los procesos no observables dejarán de serlo en el futuro",
+      "descripcion": "Fenómenos detrás del horizonte de eventos de un agujero negro, que según la relatividad general, podrían ser siempre incognoscibles por definición",
+      "grado_de_refutacion": "parcial",
+      "notas": "Depende del modelo físico y la evolución teórica"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "La historia de la ciencia muestra que sistemas antes no observables luego han sido detectados indirectamente (microbios, elementos químicos, fuerzas subatómicas)",
+      "inferencia": "Muchos procesos no observables podrían serlo si se amplían los métodos o tecnologías de observación",
+      "grado_de_confianza": "alto",
+      "notas": "Recursividad en el avance epistémico"
+    },
+    {
+      "patron_observado": "Algunos fenómenos pueden ser fundamentalmente inaccesibles por límites teóricos (principio de indeterminación de Heisenberg, teorema de incompletitud de Gödel, horizonte de eventos)",
+      "inferencia": "Puede haber un subconjunto irreducible de procesos no observables en principio",
+      "grado_de_confianza": "medio",
+      "notas": "Depende de la validez perdurable de los límites actuales"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La frontera entre lo observable y lo no observable es dinámica, transicional, y parcialmente dependiente de los marcos teóricos y tecnológicos; siempre puede haber dominios ocultos mientras existan restricciones informacionales fundamentales o límites gnoseológicos estructurales.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Existen procesos actualmente no observables",
+        1,
+        0,
+        0
+      ],
+      [
+        "Ningún proceso no observable podrá ser inferido",
+        0,
+        1,
+        0
+      ],
+      [
+        "Todos los procesos no observables llegarán a ser observables",
+        0,
+        0,
+        1
+      ],
+      [
+        "Existen procesos absolutamente no observables",
+        0,
+        0,
+        1
+      ],
+      [
+        "La no observabilidad indica inexistencia causal",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "¿Es coherente hablar de existencia donde no hay posibilidad de evidencia? El marco epistemológico intenta cerrar con creencia lo que la observación no abarca.",
+    "ambiguedad": "No hay distinción rígida entre 'no observado aún' y 'no observable por principio'.",
+    "contradiccion_util": "Se necesita postular lo invisible para avanzar, aunque al hacerlo se desestabiliza el criterio de existencialidad observacional."
+  },
+  "reorganizacion_analoga": [
+    "Como la cara oculta de la luna antes de la era espacial: su existencia era cierta pero inaccesible; cambiar el contexto la vuelve observable.",
+    "Como el código fuente encriptado: la función existe y opera, pero sus mecanismos internos son opacos.",
+    "Como las dimensiones compactas de la teoría de cuerdas: postuladas por coherencia teórica, no por observabilidad directa."
+  ],
+  "implicacion_transformadora": [
+    "La ciencia debe diferenciar entre lo 'no observado', lo 'no observable actual', y lo 'no observable absoluto', para no confundir límites metodológicos temporales con imposibilidades teóricas.",
+    "El reconocimiento de procesos no observables invita a un escepticismo operativo, pero no implica negación ontológica, solo suspensión de juicio.",
+    "Las estrategias de inferencia indirecta y simulación adquieren valor epistémico para explorar lo inaccesible de manera provisional.",
+    "Adoptar marcos flexibles de observabilidad puede acelerar el progreso científico, pero obliga a criterios de autocrítica y revisión permanente."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición se mantiene como posibilidad abierta, validada por la heurística de la historia científica, pero indeterminada respecto a la completitud de la observabilidad futura y la definición de límites absolutos."
+  }
+}

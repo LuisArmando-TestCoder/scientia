@@ -1,0 +1,126 @@
+{
+  "nodo_semantico_de_entrada": "La extrapolación de las leyes físicas es válida más allá de lo observable",
+  "nodo_semantico_central": "Validez extrapolada de leyes físicas fuera de lo observable",
+  "firma_ontologica": {
+    "naturaleza": "Supuesto epistémico",
+    "funcion": "Justificar predicción y modelado en ausencia de observación directa",
+    "dominio": "Epistemología científica, filosofía de la ciencia",
+    "forma": "Extensión inferencial, límite asintótico",
+    "tension": "Persisten incertidumbre y riesgo de error al generalizar fuera del rango empírico",
+    "limite": "No falsabilidad empírica inmediata; depende de consistencia interna y ausencia de contradicción observada"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Extrapolación",
+      "definicion": "Prolongar una ley o patrón más allá del intervalo validado empíricamente"
+    },
+    {
+      "termino": "Leyes físicas",
+      "definicion": "Descripciones matemáticas formuladas a partir de datos observados para describir regularidades de la naturaleza"
+    },
+    {
+      "termino": "Válida",
+      "definicion": "Aceptada como confiable o justificable para hacer predicciones o construir modelos"
+    },
+    {
+      "termino": "Más allá de lo observable",
+      "definicion": "Fuera del alcance de la medición o experimentación directa"
+    }
+  ],
+  "transduccion_preconceptual": "Es como pensar que una regla para hacer castillos de arena en la playa funcionará igual si nunca antes has ido a ninguna otra playa: ¿puedes estar seguro, aunque nunca lo hayas visto, si la regla funciona en todos lados?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El patrón conocido se mantiene inalterado fuera de lo observado",
+      "subnodo": "Uniformidad extendida",
+      "contexto": "Analizar si los patrones observados se aplican universalmente sin excepción"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "No hay evidencia empírica disponible fuera de lo observable",
+      "subnodo": "Vacío epistémico",
+      "contexto": "Distinguir entre ausencia de evidencia y evidencia de ausencia"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición involucra inferencia necesaria pero carece de confirmación directa; el estatus de validez depende del contexto y el dominio de extrapolación"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si una ley física es universal por definición",
+      "conclusion": "Debe ocurrir fuera de lo observable también",
+      "notas": "Sólo válido si el concepto de 'universalidad' no se ve afectado por nuevas observaciones contradictorias"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Las leyes físicas actuales son siempre válidas fuera de lo observable",
+      "descripcion": "La física clásica falla al describir la gravedad a nivel cuántico; la extrapolación general de las leyes de Newton no es válida en todas las escalas",
+      "grado_de_refutacion": "parcial",
+      "notas": "El conocimiento actual muestra excepciones, demostrando el peligro del absolutismo extrapolativo"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Las leyes se han ajustado históricamente al explorar dominios no observados anteriormente (ejemplo: relatividad, mecánica cuántica)",
+      "inferencia": "Las extrapolaciones pueden guiar hipótesis pero son estructuralmente revisables",
+      "grado_de_confianza": "medio",
+      "notas": "La validez de la extrapolación depende de la similitud del nuevo dominio con los dominios previamente observados"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La extrapolación más allá de lo observable es un método heurístico provisional cuya validez es revisable experimentalmente y que debe siempre ser acompañado por mecanismos de falsación o revisión adaptativa",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Las leyes físicas son válidas en lo no observable",
+        0,
+        0,
+        1
+      ],
+      [
+        "Extrapolar es aceptable provisionalmente",
+        1,
+        0,
+        0
+      ],
+      [
+        "Extrapolaciones absolutas siempre se cumplen",
+        0,
+        1,
+        0
+      ],
+      [
+        "Cada extrapolación requiere validación futura",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Para avanzar en el conocimiento es necesario extrapolar, pero la extrapolación puede guiar al error y a la falsación de las mismas leyes",
+    "ambiguedad": "¿Hasta qué punto se puede confiar en reglas derivadas de observaciones limitadas?",
+    "contradiccion_util": "El acto de extrapolar es condición de posibilidad para el avance, aunque acarrea su propio límite epistemológico"
+  },
+  "reorganizacion_analoga": [
+    "Como intentar predecir el clima del otro lado del planeta usando sólo los datos del propio jardín.",
+    "Como aplicar reglas de un juego aprendido en la infancia a nuevas situaciones jamás experimentadas.",
+    "Como suponer que todos los cisnes son blancos porque nunca se ha visto uno negro (problema inductivo clásico)."
+  ],
+  "implicacion_transformadora": [
+    "Cualquier teoría científica debe mantener abierta su capacidad de revisión cuando se traspasan los límites de la observación.",
+    "La confianza en la extrapolación debe ser directamente proporcional a la robustez de las validaciones previas y a la similitud del nuevo dominio con el conocido.",
+    "El pensamiento científico madura al institucionalizar la duda estructural cuando se sale de lo conocido."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La extrapolación es útil y provisionalmente necesaria, pero de validez condicional; sólo la experimentación futura puede refrendar o refutar su valor."
+  }
+}

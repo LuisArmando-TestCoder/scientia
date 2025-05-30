@@ -1,0 +1,127 @@
+{
+  "nodo_semantico_de_entrada": "Toda definición autoreferencial es universalmente irrefutable",
+  "nodo_semantico_central": "Irrefutabilidad de definiciones autoreferenciales",
+  "firma_ontologica": {
+    "naturaleza": "afirmación lógica autoreferencial",
+    "funcion": "establecer el estatus de refutabilidad de enunciados autoreferenciales",
+    "dominio": "lógica formal, epistemología, semántica autorreferencial",
+    "forma": "bucle lógico, universalidad explícita",
+    "tension": "confronta la universalidad con límites pragmáticos y lógicos",
+    "limite": "Se enfrenta con paradojas (ej: paradoja del mentiroso) y la posibilidad de contraejemplos"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "definición autoreferencial",
+      "definicion": "enunciado cuyo contenido hace referencia a sí mismo"
+    },
+    {
+      "termino": "universalmente",
+      "definicion": "sin excepción, en todos los casos posibles"
+    },
+    {
+      "termino": "irrefutable",
+      "definicion": "no se puede demostrar falso, rebatir ni contradecir"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina una regla que dice: 'nadie puede negarme porque yo digo que nadie puede negarme'. Es como un niño asegurando que siempre tiene la razón porque él mismo lo dice, sin escuchar a nadie más.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Toda definición autoreferencial es universalmente irrefutable",
+      "subnodo": "autoafirmación absoluta",
+      "contexto": "¿Las afirmaciones sobre sí mismas no pueden rebatirse por definición?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Existe al menos una definición autoreferencial que puede ser refutada",
+      "subnodo": "autoreferencia refutable",
+      "contexto": "Contraejemplo: paradoja del mentiroso - 'esta afirmación es falsa'"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "falso",
+    "criterio": "Contraejemplos y paradojas evidencian la refutabilidad de declaraciones autoreferenciales"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición universal enunciada",
+      "conclusion": "Si existe una sola definición autoreferencial refutable, la universalidad colapsa",
+      "notas": "Basta un solo caso contrario para invalidar el absolutismo"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda definición autoreferencial es universalmente irrefutable",
+      "descripcion": "La paradoja del mentiroso ('esta afirmación es falsa') es autoreferencial y se refuta a sí misma",
+      "grado_de_refutacion": "total",
+      "notas": "Las paradojas autoreferenciales muestran que hay definiciones autoreferenciales que sí pueden ser refutadas"
+    },
+    {
+      "afirmacion_refutada": "Toda definición autoreferencial es universalmente irrefutable",
+      "descripcion": "Afirmaciones circulares pueden ser desmontadas mostrando inconsistencia interna",
+      "grado_de_refutacion": "parcial",
+      "notas": "No toda autoreferencia es estable ni exenta de crítica lógica"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Hay muchas afirmaciones autoreferenciales que colapsan en paradoja o inconsistencia",
+      "inferencia": "El absolutismo de irrefutabilidad no se sostiene empíricamente",
+      "grado_de_confianza": "alto",
+      "notas": "Observado en lógica matemática y filosofía del lenguaje"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La autoreferencia no concede inmunidad lógica universal; el estatus de irrefutabilidad requiere evaluarse caso por caso. El bucle autoreferencial puede tanto blindar como destruir la validez de una afirmación.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda definición autoreferencial es universalmente irrefutable (en lógica formal)",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunas definiciones autoreferenciales son irrefutables (casos particulares)",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda definición autoreferencial es irrefutable en lenguaje natural",
+        0,
+        1,
+        0
+      ],
+      [
+        "Si existe un contraejemplo, la universalidad se pierde",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La autoreferencia puede crear afirmaciones que se autoanulan",
+    "ambiguedad": "No todas las autoreferencias tienen la misma fuerza lógica; algunas son triviales, otras colapsan en confusión semántica",
+    "contradiccion_util": "Explorar los límites de la autoreferencia revela tanto la potencia como la fragilidad de los sistemas lógicos"
+  },
+  "reorganizacion_analoga": [
+    "Como un espejo frente a otro espejo: puede dar infinitos reflejos o incluir una distorsión que rompa la imagen",
+    "Como un nudo hecho con una cuerda atada a sí misma: puede ser fuerte o puede desatarse por su propia tensión"
+  ],
+  "implicacion_transformadora": [
+    "No se puede sostener la irrefutabilidad universal de las definiciones autoreferenciales; el pensamiento crítico debe identificar y señalar casos limitantes o contradictorios",
+    "En sistemas de pensamiento, la autoreferencia requiere mecanismos de control o meta-análisis para evitar paradojas destructivas",
+    "Aplicable en IA, matemáticas y retórica: la autoreferencia demanda prueba, no asunción"
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "Se identificaron contraejemplos y paradojas que contradicen la afirmación universal"
+  }
+}

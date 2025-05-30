@@ -1,0 +1,116 @@
+{
+  "nodo_semantico_de_entrada": "La proposición es decidible con información actual",
+  "nodo_semantico_central": "decidibilidad proposicional bajo acceso a información",
+  "firma_ontologica": {
+    "naturaleza": "propiedad relacional",
+    "funcion": "determinar si una afirmación puede ser resuelta como verdadera o falsa con los datos disponibles",
+    "dominio": "lógica, teoría de la decisión, epistemología",
+    "forma": "binarismo contextualizado",
+    "tension": "la decidibilidad depende del contexto informacional y puede ser ambigua en condiciones de información incompleta",
+    "limite": "indecidibilidad inherente a proposiciones para las cuales la información presente es insuficiente, o cuya estructura es irresoluble bajo la lógica actual"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "proposición",
+      "definicion": "Afirmación que puede ser considerada verdadera o falsa bajo ciertas condiciones."
+    },
+    {
+      "termino": "decidibilidad",
+      "definicion": "Capacidad lógica para determinar un valor de verdad definido para una afirmación."
+    },
+    {
+      "termino": "información actual",
+      "definicion": "Cantidad y calidad de datos accesibles en un momento determinado para validar la afirmación."
+    }
+  ],
+  "transduccion_preconceptual": "Como cuando tienes una pregunta y sólo mirando lo que tienes ahora, puedes decir sí o no, pero si no tienes todas las piezas o las reglas cambian, a veces no puedes decidirte todavía.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La proposición es decidible con información actual",
+      "subnodo": "decidibilidad dependiente de información",
+      "contexto": "¿Se puede decidir verdad o falsedad sólo con lo que se puede saber ahora? Si no, ¿qué falta?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La decidibilidad está condicionada a cada caso; la información puede ser suficiente o no, y algunos problemas son indecidibles incluso con toda la información disponible según los límites de la lógica formal."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de decidibilidad y proposición",
+      "conclusion": "Si la información presente elimina la ambigüedad, la proposición es decidible; si no, permanece indefinida.",
+      "notas": "El caso de los problemas indecidibles (ej: Gödel/Turing) muestra que hay límites estructurales que no dependen solo de la cantidad de información sino de la forma lógica."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda proposición es decidible con información actual",
+      "descripcion": "Problemas como la conjetura de Goldbach, antes de ser probados o refutados, presentan proposiciones con información insuficiente para decidir su verdad.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La refutación depende de si hay conocimiento suficiente del problema; algunos problemas son irresolubles aún hipotéticamente."
+    },
+    {
+      "afirmacion_refutada": "Ninguna proposición es decidible con información actual",
+      "descripcion": "Afirmaciones triviales como '2+2=4' sí son decidibles en el marco informacional usual.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Existen proposiciones simplificadas completamente decidibles en el contexto dado."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Algunas proposiciones lógicas simples son siempre decidibles con información básica, mientras que otras requieren contexto avanzado o permanecen abiertas.",
+      "inferencia": "La decidibilidad es función tanto del objeto de la proposición como del contexto informacional y la estructura lógica subyacente.",
+      "grado_de_confianza": "alto",
+      "notas": "Aplicable con alta generalidad, salvo excepciones extremas."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La decidibilidad no es absoluta, sino propiedad contextual y dinámica de la relación entre proposición y sistema de información; evoluciona con el flujo epistemológico y los límites de la formalización.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La proposición es decidible con información actual",
+        0,
+        0,
+        1
+      ],
+      [
+        "Existen proposiciones indecidibles aunque se disponga de toda la información disponible",
+        1,
+        0,
+        0
+      ],
+      [
+        "Algunas proposiciones son decidibles con información actual",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La pretensión de decidibilidad absoluta colapsa cuando la proposición depende de sistemas autoreferenciales o información incompleta.",
+    "ambiguedad": "La línea entre decidible e indecidible es móvil y contingente; cambia con la expansión del conocimiento.",
+    "contradiccion_util": "Lo indecidible estructura el espacio del pensamiento creativo al forzar el despliegue de nuevas lógicas o la búsqueda de más información."
+  },
+  "reorganizacion_analoga": [
+    "Como un juego donde sólo puedes ganar o perder si entiendes todas las reglas, pero a veces las reglas están ocultas.",
+    "Como un sistema computacional que arroja error cuando un algoritmo no termina, mientras que otros cálculos entregan un resultado directo.",
+    "Como explorar una cueva a oscuras: algunas rutas se ven claras (decidibles), otras quedan veladas hasta tener más luz (más datos o mejores métodos)."
+  ],
+  "implicacion_transformadora": [
+    "Reconocer el carácter relativo y contextual de la decidibilidad ayuda a delimitar el alcance de la lógica y la ciencia.",
+    "Empuja a los sistemas de pensamiento a inventar nuevas categorías o procedimientos para abordar lo indecidible.",
+    "Fomenta ética de humildad epistemológica: la ignorancia temporal puede ser fértil para la creatividad teórica."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación no puede universalizarse sin caer en contradicción o en exceso de generalización; debe analizarse caso por caso."
+  }
+}

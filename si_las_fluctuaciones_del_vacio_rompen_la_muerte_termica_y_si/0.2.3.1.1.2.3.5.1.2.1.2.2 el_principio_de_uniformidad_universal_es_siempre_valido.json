@@ -1,0 +1,130 @@
+{
+  "nodo_semantico_de_entrada": "El principio de uniformidad universal es siempre válido",
+  "nodo_semantico_central": "Uniformidad universal: invarianza de leyes/propiedades en todo contexto espacial y temporal",
+  "firma_ontologica": {
+    "naturaleza": "principio epistemológico universalista",
+    "funcion": "Postular la constancia de leyes o regularidades del universo en todos los espacio-tiempos",
+    "dominio": "filosofía de la ciencia, metafísica, lógica",
+    "forma": "axioma, invariancia, ley general",
+    "tension": "Riesgo de absolutización; vulnerabilidad ante contraejemplos o anomalías empíricas; posible irreducibilidad computacional en sistemas caóticos",
+    "limite": "No falsabilidad empírica en su versión absoluta; cuestionamiento ante la emergencia de singularidades o excepciones observadas"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Principio",
+      "definicion": "Punto de partida fundamental que guía razonamientos o investigaciones"
+    },
+    {
+      "termino": "Uniformidad",
+      "definicion": "Cualidad de permanecer igual o constante sin variación significativa"
+    },
+    {
+      "termino": "Universal",
+      "definicion": "Aplicable sin excepción a todos los ejemplos o regiones bajo consideración"
+    },
+    {
+      "termino": "Validez",
+      "definicion": "Estado de ser aceptado como verdadero, aplicable o legítimo dentro de un marco lógico o empírico"
+    },
+    {
+      "termino": "Siempre",
+      "definicion": "Incondicionalmente en todos los tiempos y circunstancias posibles"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que todo lo que construyas con tus bloques va a funcionar igual sin importar en qué lugar estés o cuándo lo armes. Como si todas las reglas del juego no cambiaran nunca, no importa nada más. Pero a veces, encuentras un bloque raro que no encaja y dudas si la regla vale para todos.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El principio de uniformidad universal es siempre válido",
+      "subnodo": "Uniformidad empírica absoluta",
+      "contexto": "Cuestión sobre si las leyes de la naturaleza no cambian nunca en ningún lugar ni momento"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Singularidades, anomalías o experimentos que muestran rupturas locales de uniformidad",
+      "subnodo": "Contraejemplo local o excepción empírica",
+      "contexto": "Posibilidad de eventos o regiones donde la ley se rompe inesperadamente"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "falso",
+    "criterio": "El absolutismo de 'siempre' es refutable por la posibilidad lógica, empírica y formal de contraejemplos en contextos caóticos, cuánticos o cosmológicos, o escenarios desconocidos"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definicion lógica de universalidad y validez",
+      "conclusion": "Una sola excepción refuta la validez absoluta del principio",
+      "notas": "El principio se sostendría sólo como generalización contingente, no axioma inviolable"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El principio de uniformidad universal es siempre válido",
+      "descripcion": "Evidencia observacional de fluctuaciones en constantes físicas (fuerza electromagnética, tasa de desintegración radioactiva) en distintas regiones del universo, o las leyes que no aplican uniformemente en sistemas cuánticos; aparición de singularidades como el Big Bang o agujeros negros.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La existencia de excepciones aún debatidas resta fuerza a la afirmación absoluta, aunque la utilidad del principio se preserva para la mayoría de la experiencia científica"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "La mayoría de experimentos y observaciones apoyan la constancia de leyes físicas en escalas relevantes a la experiencia humana y científica",
+      "inferencia": "El principio tiene altísima utilidad práctica y confiabilidad en contextos limitados",
+      "grado_de_confianza": "alto",
+      "notas": "El aumento del conocimiento empírico puede revelar nuevas excepciones"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Los principios de uniformidad deben considerarse como aproximaciones robustas pero revisables, y no como dogmas intocables. Su fuerza es heurística y pragmática, no absoluta: cada anomalía observada debería integrarse como potencial fuente de nuevos paradigmas científicos.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El principio de uniformidad es aplicable a toda situación",
+        0,
+        1,
+        0
+      ],
+      [
+        "El principio de uniformidad es aplicable a casi todas las situaciones conocidas",
+        1,
+        0,
+        0
+      ],
+      [
+        "Pueden existir excepciones en singularidades o fenómenos extremos",
+        1,
+        0,
+        0
+      ],
+      [
+        "Es posible que haya leyes o patrones diferentes fuera de nuestra región observacional",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La aceptación incondicional del principio impide reconocer nuevas realidades observadas; negarlo completamente imposibilita la construcción de ciencia generalizable.",
+    "ambiguedad": "¿Uniformidad se refiere sólo a las leyes fundamentales, o también a las condiciones iniciales, constantes o a los resultados observables?",
+    "contradiccion_util": "La tensión entre uniformidad absoluta y anomalía local impulsa la evolución del conocimiento."
+  },
+  "reorganizacion_analoga": [
+    "El puente de una ciudad que usualmente es seguro y siempre ha resistido tormentas, pero una vez colapsa por condiciones nunca antes vistas.",
+    "El software que funciona en casi todos los ordenadores, excepto en configuraciones nuevas no anticipadas.",
+    "La simetría rota en física de partículas: una regla que en casi todas partes es válida, pero puede violarse en circunstancias específicas."
+  ],
+  "implicacion_transformadora": [
+    "La confianza en la uniformidad debe ser metodológica, pero siempre interrogada ante la aparición de evidencia anómala.",
+    "La investigación científica requiere apertura a excepciones: las anomalías pueden ser semillas de revoluciones paradigmáticas.",
+    "Todo principio universal debe estar sujeto al crisol de la contradicción fértil y la recursión epistémica."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "El análisis recursivo y los contraejemplos muestran que la validez absoluta de la uniformidad es insostenible lógicamente y empíricamente; es un valor heurístico, no un hecho necesario."
+  }
+}

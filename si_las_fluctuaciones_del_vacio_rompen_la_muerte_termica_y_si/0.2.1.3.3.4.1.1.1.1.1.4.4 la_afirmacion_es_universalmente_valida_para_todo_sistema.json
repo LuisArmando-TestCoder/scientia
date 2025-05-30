@@ -1,0 +1,114 @@
+{
+  "nodo_semantico_de_entrada": "La afirmación es universalmente válida para todo sistema",
+  "nodo_semantico_central": "Validez universal en sistemas",
+  "firma_ontologica": {
+    "naturaleza": "atributo lógico universalista",
+    "funcion": "afirmar la aplicabilidad irrestricta de una proposición en cualquier sistema conceptual",
+    "dominio": "lógica, filosofía de sistemas, metodología científica",
+    "forma": "absolutismo lógico",
+    "tension": "la universalidad choca con la diversidad e idiosincrasia de los sistemas; potencial colisión con contraejemplos",
+    "limite": "depende de definiciones axiomáticas y de la posibilidad de contraejemplos relevantes"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "afirmación",
+      "definicion": "enunciado que declara o niega algo sobre un objeto, fenómeno o sistema"
+    },
+    {
+      "termino": "validez",
+      "definicion": "condición de ser verdadero, aplicable o consistente según reglas lógicas o empíricas"
+    },
+    {
+      "termino": "universalidad",
+      "definicion": "aplicabilidad irrestricta; sin excepción para ningún caso dentro de un dominio"
+    },
+    {
+      "termino": "sistema",
+      "definicion": "conjunto de elementos relacionados por reglas, que constituyen una totalidad funcional o conceptual"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes una regla mágica que dice cómo funcionan todos los juegos, desde jugar a la pelota hasta armar un rompecabezas. Pero si aparece un juego que nadie conoce y funciona diferente, la regla ya no sirve para todos.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La afirmación es universalmente válida para todo sistema",
+      "subnodo": "Posibilidad de contraejemplo",
+      "contexto": "¿Existe algún sistema concebible donde la afirmación no se cumpla? Si lo hay, el universalismo colapsa."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Paradoja de los universales y límite del absolutismo: las afirmaciones universalistas sólo sobrevivirán mientras no existan contraejemplos; epistemológicamente frágil."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de universalidad",
+      "conclusion": "Si existe un solo sistema fuera del alcance de la afirmación, esta ya no es universal.",
+      "notas": "La existencia potencial de sistemas no observados o no definidos pone en jaque cualquier absolutismo."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La afirmación es universalmente válida para todo sistema",
+      "descripcion": "En lógica paraconsistente, puede haber sistemas donde una afirmación y su negación puedan coexistir. En sistemas cuánticos, la superposición puede desafiar la validez binaria de una afirmación clásica.",
+      "grado_de_refutacion": "parcial",
+      "notas": "El contraejemplo no implica que ninguna afirmación pueda ser universal, sino que la universalidad demanda especificar el tipo de sistema."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "A lo largo de la historia, muchas afirmaciones 'absolutas' han sido refutadas por sistemas emergentes con reglas distintas (Euclides y geometrías no euclidianas, física clásica y mecánica cuántica).",
+      "inferencia": "La universalidad de una afirmación tiende a desmoronarse con la emergencia de nuevos marcos teóricos.",
+      "grado_de_confianza": "alto",
+      "notas": "La inducción es fuerte pero no demuestra la ineficacia total del universalismo; sugiere precaución."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La validez universal es una aspiración regulativa, no una propiedad de hecho. La universalidad debe entenderse como horizonte axiomático y debe someterse perpetuamente a revisión frente a la pluralidad de sistemas.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La afirmación es universalmente válida para todo sistema",
+        0,
+        0,
+        1
+      ],
+      [
+        "Existen sistemas donde la afirmación falla",
+        0,
+        1,
+        0
+      ],
+      [
+        "Toda afirmación universal es refutable por diseño de un sistema alternativo",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El intento de abarcar todos los sistemas implica la posibilidad de que exista al menos un sistema no abarcado, lo que autoinvalida el esfuerzo universalista.",
+    "ambiguedad": "El significado de 'sistema' no está acotado, permitiendo interpretaciones divergentes.",
+    "contradiccion_util": "El choque entre universalidad y pluralidad impulsa la génesis de sistemas alternativos, forzando la evolución del conocimiento."
+  },
+  "reorganizacion_analoga": [
+    "La Ley de Murphy: 'Si algo puede salir mal, saldrá mal' – sólo es universal hasta que surge una excepción, momento en que se reescribe la ley.",
+    "Matemáticas: El quinto postulado de Euclides fue considerado universal, hasta que se desarrollaron geometrías no euclidianas.",
+    "Código genético: reglas universales en la biología terrestre; excepciones en codones raros."
+  ],
+  "implicacion_transformadora": [
+    "La epistemología debe practicar el escepticismo ante las afirmaciones universalistas.",
+    "Las reglas o proposiciones deben acotarse explícitamente a tipos de sistemas definidos.",
+    "Universales sirven mejor como brújulas heurísticas que como dogmas infalibles."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El análisis revela que la universalidad depende de la invariancia de los sistemas y los marcos conceptuales empleados; el criterio global queda indeterminado pero la sospecha sobre el absolutismo es reforzada."
+  }
+}

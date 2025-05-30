@@ -1,0 +1,143 @@
+{
+  "nodo_semantico_de_entrada": "Modelos coherentes con inversión temporal",
+  "nodo_semantico_central": "Invertibilidad temporal de modelos coherentes",
+  "firma_ontologica": {
+    "naturaleza": "Principio formal hipotético",
+    "funcion": "Establecer si la coherencia lógica implica reversibilidad temporal",
+    "dominio": "Epistemología, lógica, metafísica del tiempo",
+    "forma": "Regla universal (absolutismo) aplicada sobre sistemas modelados",
+    "tension": "Universalidad de la afirmación vs. existencia de contraejemplos",
+    "limite": "No contempla clases de modelos intrínsecamente irreversibles; asume definición uniforme de 'coherencia' y 'inversión temporal'"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Modelo",
+      "definicion": "Estructura formal o conceptual que representa un sistema o proceso"
+    },
+    {
+      "termino": "Coherencia",
+      "definicion": "Consistencia interna lógica o ausencia de contradicción dentro del modelo"
+    },
+    {
+      "termino": "Inversión temporal",
+      "definicion": "Capacidad del modelo de describirse de manera válida al invertir la dirección del tiempo (simetría temporal o reversibilidad de dinámicas)"
+    },
+    {
+      "termino": "Todos",
+      "definicion": "Cuantificador universal, sin excepciones"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes una película de cualquier cosa bien hecha, y te dicen que si todo lo que pasa en esa película tiene sentido, entonces siempre puedes verla al revés y también encontrarle sentido.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El modelo es autosuficiente bajo inversión temporal",
+      "subnodo": "Autosuficiencia reversible",
+      "contexto": "¿Toda coherencia implica posibilidad de revertir el flujo causal sin pérdida de sentido?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Existen modelos coherentes no reversibles",
+      "subnodo": "Coherencia irrestricta",
+      "contexto": "¿Puede haber coherencia sin simetría temporal?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Coherencia lógica equivale a reversibilidad física",
+      "subnodo": "Isomorfismo lógica-física",
+      "contexto": "¿Los modelos coherentes representan necesariamente dinámicas del mundo físicamente reversibles?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "falso",
+    "criterio": "Hay contraejemplos conocidos (procesos termodinámicos, modelos con flecha del tiempo, estructuras lógicas sin simetría temporal); el cuantificador universal no se sostiene."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de coherencia como consistencia lógica",
+      "conclusion": "La coherencia interna no garantiza simetría temporal en la estructura modelada.",
+      "notas": "Un modelo consistente puede describir procesos irreversibles (por ejemplo, degradación entrópica)"
+    },
+    {
+      "origen": "Existencia de leyes físicas irreversibles",
+      "conclusion": "Incluso modelos formalmente coherentes pueden describir sistemas que sólo evolucionan hacia adelante (irreversibilidad fundamental).",
+      "notas": "Ejemplo: Ecuaciones que representan aumento de entropía, muerte térmica, etc."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todos los modelos coherentes pueden tener inversión temporal",
+      "descripcion": "La ecuación del calor (difusión térmica) es coherente y bien definida, pero su inversión temporal no produce soluciones físicamente válidas.",
+      "grado_de_refutacion": "total",
+      "notas": "El proceso de difusión es matemáticamente irreversible; inversión temporal genera soluciones no físicas."
+    },
+    {
+      "afirmacion_refutada": "Todos los modelos coherentes pueden tener inversión temporal",
+      "descripcion": "Procesos marcados por la Segunda Ley de la Termodinámica (entropía creciente) son coherentes pero no reversibles.",
+      "grado_de_refutacion": "total",
+      "notas": "La flecha del tiempo termodinámica indica asimetría fundamental."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En física y matemáticas, algunos sistemas coherentes admiten reversibilidad temporal, otros no.",
+      "inferencia": "La coherencia no es suficiente condición para la inversión temporal.",
+      "grado_de_confianza": "alto",
+      "notas": "La mayoría de leyes microscópicas (como la mecánica clásica o cuántica) son reversibles, pero procesos macroscópicos pueden no serlo."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La coherencia lógica y la reversibilidad temporal son condiciones independientes; la primera no implica la segunda.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Todos los modelos coherentes pueden tener inversión temporal",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunos modelos coherentes pueden tener inversión temporal",
+        1,
+        0,
+        0
+      ],
+      [
+        "Coherencia implica simetría temporal",
+        0,
+        1,
+        0
+      ],
+      [
+        "Modelos irreversibles pueden ser coherentes",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Algunos modelos cosmológicos o físicos son reversibles en ecuaciones pero no en la práctica, generando la paradoja del tiempo emergente.",
+    "ambiguedad": "'Coherencia' puede significar únicamente consistencia formal, sin garantías de simetría dinámica.",
+    "contradiccion_util": "El intento de ligar coherencia a simetría temporal revela límites precisos de ambos conceptos y obliga a separar niveles de modelización."
+  },
+  "reorganizacion_analoga": [
+    "La cinta de una película: algunas se pueden ver al revés y aún contar una historia con sentido (bailarines), otras no (romper un huevo).",
+    "El ADN: Su doble hélice implica simetría, pero la expresión genética (lectura) tiene direccionalidad.",
+    "Funciones matemáticas par vs. impares: algunas son simétricas respecto al eje vertical (reversibilidad), otras no."
+  ],
+  "implicacion_transformadora": [
+    "La coherencia lógica de un modelo no debe confundirse con la simetría temporal de las dinámicas descritas.",
+    "Abre frontera para crear metodologías que distingan los niveles de simetría (lógica/formal vs. dinámica/física).",
+    "Enseñar a identificar y formalizar irreversibilidad incluso en sistemas perfectamente coherentes."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "Los contraejemplos empíricos y lógicos exhiben la falsedad del absolutismo: la afirmación no resiste el escrutinio lógico ni experimental universal."
+  }
+}

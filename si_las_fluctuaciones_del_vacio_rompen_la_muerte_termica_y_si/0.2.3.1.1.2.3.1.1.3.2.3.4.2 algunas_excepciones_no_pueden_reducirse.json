@@ -1,0 +1,149 @@
+{
+  "nodo_semantico_de_entrada": "Algunas excepciones no pueden reducirse",
+  "nodo_semantico_central": "Irreductibilidad de ciertas excepciones",
+  "firma_ontologica": {
+    "naturaleza": "proposición lógica parcial",
+    "funcion": "explorar los límites de reducción en sistemas conceptuales mediante la existencia de excepciones irreductibles",
+    "dominio": "teoría de la reducción, filosofía de la ciencia, epistemología",
+    "forma": "conjunto de casos dispersos; islas en el espacio semántico",
+    "tension": "Indeterminación entre totalidad reductible e irreductibilidad; frontera entre lo generalizable y lo singular",
+    "limite": "No todas las excepciones son reducibles; aparece irreductibilidad computacional o axiológica"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Excepción",
+      "definicion": "Caso particular que no sigue la regla general del sistema"
+    },
+    {
+      "termino": "Reducción",
+      "definicion": "Proceso de explicar, simplificar o derivar algo complejo a partir de elementos más simples o fundamentales"
+    },
+    {
+      "termino": "Irreductibilidad",
+      "definicion": "Imposibilidad o improcedencia de descomponer un caso hasta sus supuestos más básicos sin perder propiedades esenciales"
+    },
+    {
+      "termino": "Algunas",
+      "definicion": "Existencia de al menos un subconjunto pero no totalidad (modificador cuantificacional)"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes muchas cajas con juguetes. A veces, algunas cajas tienen adentro algo tan raro que, cuando quieres desarmarlo para ver cómo funciona, se rompe o desaparece la magia; no puedes convertirlo en piezas más chicas ni entenderlo así nomás. Pero eso hace que sea especial.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "No todas las excepciones pueden reducirse",
+      "subnodo": "Indeterminación de reducibilidad universal",
+      "contexto": "¿Es posible reducir absolutamente todo caso excepcional en un sistema dado?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Algunas excepciones sí pueden reducirse",
+      "subnodo": "Reducción parcial válida",
+      "contexto": "Cuando aparecen excepciones, algunas pueden ser explicadas por reglas más básicas"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Existen excepciones genuinamente irreductibles",
+      "subnodo": "Islas de irreductibilidad",
+      "contexto": "Excepciones que no se dejan analizar ni reducir sin perder lo que las hace únicas"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación puede ser cierta en algunos sistemas, pero en otros la reducibilidad es total o la irreductibilidad no es demostrable; depende del contexto y del sistema formal elegido"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de excepción e irreductibilidad",
+      "conclusion": "Si una excepción es irreductible, entonces su explicación requiere axiomas adicionales o permanece inexplicable",
+      "notas": "Válido si los axiomas del sistema no alcanzan; depende de la completitud del marco"
+    },
+    {
+      "origen": "Cuantificador 'algunas'",
+      "conclusion": "La proposición sólo requiere un único caso genuinamente irreductible para ser verdadera",
+      "notas": "No absolutiza la irreductibilidad, la restringe a la existencia"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todas las excepciones no pueden reducirse",
+      "descripcion": "En matemáticas, muchas excepciones aparentes logran ser reducidas en sistemas formales ampliados o bajo axiomas más potentes (ej. números trascendentales tienen estructuras clasificables en teoría de la medida)",
+      "grado_de_refutacion": "parcial",
+      "notas": "Refuta la absolutización, pero no la existencia de algunos casos problemáticos o abiertos"
+    },
+    {
+      "afirmacion_refutada": "Ninguna excepción puede reducirse",
+      "descripcion": "En casos donde 'excepción' sólo significa no común pero no imposible de analizar, muchas pueden ser comprendidas tras análisis profundo",
+      "grado_de_refutacion": "total",
+      "notas": "La mayoría de excepciones en sistemas simples son reducibles"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Aparecen problemas irresolubles en lógica matemática y física fundamental (problemas indecidibles, irreductibilidad computacional, singularidades físicas)",
+      "inferencia": "Sugiere que existen dominios donde algunas excepciones permanecen irreductibles a priori",
+      "grado_de_confianza": "medio",
+      "notas": "Específicamente en sistemas suficientemente complejos, conforme las limitaciones de Gödel y Turing"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "En todo sistema suficientemente complejo, aparecerán excepciones cuya reducibilidad depende del marco axiomático y la potencia explicativa de las reglas; siempre quedará un margen para la irreductibilidad, lo cual impulsa nuevas extensiones o revoluciones en el conocimiento.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Algunas excepciones no pueden reducirse (en sistemas complejos o abiertos)",
+        1,
+        0,
+        0
+      ],
+      [
+        "Todas las excepciones no pueden reducirse",
+        0,
+        1,
+        0
+      ],
+      [
+        "Ninguna excepción puede reducirse",
+        0,
+        1,
+        0
+      ],
+      [
+        "Toda excepción es reducible (en sistemas cerrados, axiomáticamente completos)",
+        0,
+        0,
+        1
+      ],
+      [
+        "Es posible demostrar universalmente la irreductibilidad de toda excepción",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Cuando intentamos reducir todas las excepciones, el acto de reducir puede crear nuevas excepciones irreductibles (efecto 'hidra de Lerna' conceptual)",
+    "ambiguedad": "Depende de la definición y el alcance de 'reducción' y 'excepción' en cada sistema",
+    "contradiccion_util": "La búsqueda de reducción genera una dialéctica interminable entre lo normativo y lo singular"
+  },
+  "reorganizacion_analoga": [
+    "Los números primos como excepciones irreducibles en la factorización estándar",
+    "Los problemas indecidibles en computabilidad como casos imposibles de reducir a algoritmos",
+    "Las singularidades cosmológicas donde la física clásica deja de tener sentido"
+  ],
+  "implicacion_transformadora": [
+    "Invita a sospechar de cualquier teoría totalizante: el margen de excepciones no reducibles impulsa la innovación y la extensión del conocimiento",
+    "El reconocimiento de la irreductibilidad funda la humildad epistémica y el progreso científico",
+    "Los sistemas pedagógicos y de investigación deberían dejar espacio para el estudio de las excepciones no reducibles, pues son fuentes primordiales de creatividad y ruptura de paradigmas"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El juicio global depende de si el contexto del sistema es cerrado (completo, axiomático) o abierto (incompleto, evolutivo); hay argumentos inductivos y deductivos para ambos, y la paradoja persiste como motor de avance"
+  }
+}

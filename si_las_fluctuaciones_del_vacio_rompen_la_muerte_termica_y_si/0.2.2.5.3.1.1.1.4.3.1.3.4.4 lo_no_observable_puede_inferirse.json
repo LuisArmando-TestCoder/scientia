@@ -1,0 +1,137 @@
+{
+  "nodo_semantico_de_entrada": "Lo no observable puede inferirse",
+  "nodo_semantico_central": "Inferencia de lo inobservable",
+  "firma_ontologica": {
+    "naturaleza": "Principio epistemológico",
+    "funcion": "Extender el alcance del conocimiento a través de la inferencia más allá de la experiencia directa",
+    "dominio": "epistemología, lógica de la ciencia",
+    "forma": "proposición condicional entre la observación y la deducción",
+    "tension": "Estira el límite entre experiencia directa y justificación racional, interfase entre empirismo y racionalismo",
+    "limite": "Apoyado en la validez inductiva y en confianza estructural de marcos teóricos"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "no observable",
+      "definicion": "Aquello imposible o inaccesible a la percepción directa por medios humanos o instrumentales"
+    },
+    {
+      "termino": "inferencia",
+      "definicion": "Proceso lógico o heurístico mediante el cual se establece una conclusión sobre lo desconocido a partir de lo conocido"
+    },
+    {
+      "termino": "puede inferirse",
+      "definicion": "Existe la posibilidad teórica o práctica de deducir la existencia, propiedades o comportamiento de algo a partir de datos indirectos"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que quieres saber qué hay adentro de una caja cerrada sin abrirla. Puedes sacudir la caja, escuchar el sonido, o pesarla para adivinar si tiene algo dentro, aunque nunca puedas ver lo que realmente está ahí.",
+  "iteraciones": [
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "El no observable puede inferirse en todos los contextos",
+      "subnodo": "Universalización del principio de inferencia",
+      "contexto": "Absolutización de la proposición (‘todo’ lo no observable es inferible)."
+    },
+    {
+      "id": "1.1.2",
+      "afirmacion_base": "Solo algunos no observables pueden inferirse",
+      "subnodo": "Inferibilidad parcial",
+      "contexto": "Trayendo la posibilidad a un dominio restringido (no universalista)."
+    },
+    {
+      "id": "1.1.3",
+      "afirmacion_base": "Todo lo inferido sobre lo no observable puede comprobarse",
+      "subnodo": "Verificabilidad de las inferencias",
+      "contexto": "Relacionando inferencia con falsabilidad o comprobación empírica."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El principio se cumple en ciertas circunstancias dependiendo del marco teórico, nivel de abstracción y capacidades experimentales. Pero existen dominios (como eventos sin huella causal) donde lo no observable permanece irreductible a inferencia racional."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de inferencia + nociόn de lo no observable",
+      "conclusion": "Toda inferencia de lo no observable requiere anclaje indirecto en datos observados o en estructuras lógicas.",
+      "notas": "Inferir implica límites metodológicos; extrapolación pura puede caer en especulación."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El no observable puede inferirse en todos los contextos",
+      "descripcion": "Fenómenos cuánticos individuales (ej., ‘la posición exacta y momento exacto de una partícula’ según el principio de indeterminación de Heisenberg) no pueden inferirse simultáneamente y de forma completa a partir de ningún marco observable.",
+      "grado_de_refutacion": "total",
+      "notas": "La mecánica cuántica presenta límites fundamentales a la inferencia ontológica de lo no observable."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En astrofísica se infieren agujeros negros, materia oscura, o exoplanetas a partir de efectos observables (trayectorias, lentes gravitacionales, etc.)",
+      "inferencia": "Muchos aspectos fundamentales de la realidad sólo han sido accedidos vía inferencia desde datos indirectos.",
+      "grado_de_confianza": "alto",
+      "notas": "La historia de la ciencia valida empíricamente el poder inferencial en muchos casos, aunque no universalmente."
+    },
+    {
+      "patron_observado": "En psicología, inferimos estados mentales ajenos a partir de comportamiento observable.",
+      "inferencia": "La inferencia de lo no observable es práctica común, pero su confiabilidad fluctúa según el dominio.",
+      "grado_de_confianza": "medio",
+      "notas": "La inferencia no siempre es concluyente ni exenta de sesgo interpretativo."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La inferencia de lo no observable es efectiva en la medida en que existe una red de relaciones causales accesible indirectamente. Cuando no existen mediaciones observables, la inferencia se vuelve indeterminada o especulativa. El poder de inferir depende tanto de modelos teóricos sólidos como de la existencia de efectos colaterales detectables.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Lo no observable puede inferirse en todos los casos",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunos no observables pueden inferirse",
+        1,
+        0,
+        0
+      ],
+      [
+        "Lo no observable puede ser inferido sólo si hay datos indirectos",
+        1,
+        0,
+        0
+      ],
+      [
+        "Todo inferido acerca de lo no observable es comprobable",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Cuanto más se aleja un fenómeno de la observabilidad, más dependemos de inferencias fundadas en marcos previos y menos de experiencia directa, incrementando el riesgo de error circular (inferencia basada en modelos que asumen ya la realidad de lo inferido).",
+    "ambiguedad": "¿Qué cuenta como ‘observable’: lo que percibimos, lo que medimos instrumentalmente, o todo lo que pueda dejar rastro causal?",
+    "contradiccion_util": "Declarar inferible ‘lo no observable’ estimula la búsqueda de indicios indirectos y teorías más robustas por tensión creativa, pero puede entorpecer el reconocimiento de límites intrínsecos."
+  },
+  "reorganizacion_analoga": [
+    "Resolver un crimen sin testigos, sólo con huellas y pistas indirectas.",
+    "Deduzco la existencia de viento por el movimiento de las hojas, aunque no veo el aire.",
+    "En matemáticas, la existencia de ciertas soluciones se prueba por contradicción, aunque no se construyan explícitamente.",
+    "La genética infiere la existencia de genes saltadores antes de identificarlos molecularmente.",
+    "Las ondas gravitacionales fueron inferidas antes de medirse experimentalmente."
+  ],
+  "implicacion_transformadora": [
+    "La epistemología debe reconocer el rango, poder y límites de la inferencia, evitando convertir la especulación en certeza.",
+    "Las ciencias avanzadas deberían construir mecanismos explícitos de validación cruzada para inferencias sobre lo inobservable.",
+    "Educar en el pensamiento crítico: toda inferencia sobre lo no observable necesita un continuo escrutinio y provisión de contraejemplos.",
+    "El avance del conocimiento depende, en gran parte, de la osadía controlada para inferir lo invisible, junto con la humildad para admitir lo irreductiblemente desconocido."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición es potente y fértil, pero limitada: inferir lo no observable es posible bajo condiciones (relaciones causales indirectas, modelos válidos, hipótesis comprobables), mas no es generalizable a todos los ámbitos (existen irreductibilidades y límites teóricos)."
+  }
+}

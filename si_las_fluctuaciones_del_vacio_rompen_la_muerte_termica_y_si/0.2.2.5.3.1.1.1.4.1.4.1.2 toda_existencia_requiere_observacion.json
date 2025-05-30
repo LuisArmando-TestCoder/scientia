@@ -1,0 +1,144 @@
+{
+  "nodo_semantico_de_entrada": "Toda existencia requiere observación",
+  "nodo_semantico_central": "dependencia ontológica entre existencia y observación",
+  "firma_ontologica": {
+    "naturaleza": "proposición universal",
+    "funcion": "establecer la necesidad de la observación como condición de la existencia",
+    "dominio": "ontología, epistemología",
+    "forma": "implicación lógica universal (∀x: existir(x) → observar(x))",
+    "tension": "relación entre ser y ser conocido; reversibilidad; independencia ontológica vs. epistemológica",
+    "limite": "depende del marco conceptual adoptado para 'existencia' y 'observación'"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "existencia",
+      "definicion": "El hecho de que algo sea, esté o ocurra, independientemente o no de ser percibido."
+    },
+    {
+      "termino": "observación",
+      "definicion": "Acto de percibir, registrar o tomar conciencia de algo, ya sea por un sujeto, sistema o instancia."
+    },
+    {
+      "termino": "requerir",
+      "definicion": "Relación de necesidad o dependencia lógica entre dos entidades o procesos."
+    },
+    {
+      "termino": "toda",
+      "definicion": "Cuantificador universal que abarca la totalidad de un dominio de entidades."
+    }
+  ],
+  "transduccion_preconceptual": "Es como si dijeras que un dibujo solo existe cuando alguien lo ve; si nadie lo mira, es como si no estuviera ahí.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Toda existencia requiere observación",
+      "subnodo": "existencia-no-observada",
+      "contexto": "¿Puede haber cosas que existan sin ser observadas por nadie, ni siquiera por sí mismas?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Toda existencia requiere observación",
+      "subnodo": "observador-implicado",
+      "contexto": "¿La existencia del observador depende de su propia observación?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición enfrenta contraejemplos en filosofía y ciencia (cosas existentes no observadas); sin embargo, en ciertos marcos cuánticos o fenomenológicos, la observación parece imprescindible. Paradoja abierta."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "lógica formal (∀x: E(x) → O(x))",
+      "conclusion": "Si algo existe pero no es observado, la proposición se vuelve falsa.",
+      "notas": "Requiere operacionalidad clara de los términos ‘existencia’ y ‘observación’."
+    },
+    {
+      "origen": "definición de observación como consciencia",
+      "conclusion": "Si la observación es condición de existencia, nada puede existir si no es observado, lo cual es indemostrable.",
+      "notas": "Autoreferencialidad potencial si sólo el propio observador puede confirmar existencia."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda existencia requiere observación",
+      "descripcion": "Una roca en una galaxia lejana que nunca ha sido vista por ningún ser capaz de observar.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Muestra que la existencia lógica o física no depende necesariamente de observadores conscientes."
+    },
+    {
+      "afirmacion_refutada": "Toda existencia requiere observación",
+      "descripcion": "Sistema físico antes de la formación de observadores en el universo (pre-vida).",
+      "grado_de_refutacion": "total",
+      "notas": "La física presupone existencia de materia-energía antes de cualquier forma de observación consciente."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En física clásica, los objetos existen independiente de su observación.",
+      "inferencia": "La mayoría de los marcos científicos suponen existencia objetiva.",
+      "grado_de_confianza": "alto",
+      "notas": "Excepciones en mecánica cuántica, pero aún así debatidas."
+    },
+    {
+      "patron_observado": "En mecánica cuántica, el estado de un sistema se ‘colapsa’ al observarse.",
+      "inferencia": "La observación puede ser constructora de realidad en determinadas escalas.",
+      "grado_de_confianza": "medio",
+      "notas": "El concepto de observador puede ser extendido a interacción física, no necesariamente a la conciencia."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La existencia y la observación están relacionadas, pero no necesariamente en una relación de necesidad; en ciertos marcos, la observación es condición suficiente para la actualización de estados, pero no para la ontología misma.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "En todo marco, existencia implica observación",
+        0,
+        1,
+        0
+      ],
+      [
+        "En mecánica cuántica, la observación afecta la existencia fenoménica",
+        1,
+        0,
+        0
+      ],
+      [
+        "La existencia independiente de observación es posible",
+        1,
+        0,
+        0
+      ],
+      [
+        "Es imposible afirmar existencia sin observación",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La existencia de cosas nunca observadas es indemostrable pero necesaria para la integridad del universo físico.",
+    "ambiguedad": "‘Observación’ puede ser física, psicológica o metafísica; su definición altera la validez del enunciado.",
+    "contradiccion_util": "El enunciado fuerza a examinar límites entre realidad objetiva y subjetiva, sirviendo de puente entre física y fenomenología."
+  },
+  "reorganizacion_analoga": [
+    "Como un archivo digital que existe en una computadora aun si nadie lo abre.",
+    "Como una semilla bajo tierra antes de que alguien sepa que fue plantada.",
+    "Como una partícula cuántica cuyo estado precisa de interacción para definirse.",
+    "Como una historia escrita y no leída aún."
+  ],
+  "implicacion_transformadora": [
+    "Invita a cuestionar el rol del observador en la construcción de realidad; sugiere que la epistemología siempre implica una metafísica implícita.",
+    "Impulsa la conciencia de los límites entre lo conocido, lo cognoscible y lo ontológicamente independiente.",
+    "Propone zonas de frontera entre ciencias cognitivas, física, y filosofía."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El análisis multimarco no permite un cierre lógico: depende radicalmente de las definiciones elegidas para ‘existencia’ y ‘observación’. Ejecutivo como meta-paradoja sobre la relación ser-saber."
+  }
+}

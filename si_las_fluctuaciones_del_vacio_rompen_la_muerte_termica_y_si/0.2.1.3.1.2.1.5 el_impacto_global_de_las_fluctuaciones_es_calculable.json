@@ -1,0 +1,134 @@
+{
+  "nodo_semantico_de_entrada": "El impacto global de las fluctuaciones es calculable",
+  "nodo_semantico_central": "Calculabilidad de impactos globales de fluctuaciones",
+  "firma_ontologica": {
+    "naturaleza": "proposición evaluativa",
+    "funcion": "Sopesar la posibilidad de medir o predecir efectos a escala global de cambios aleatorios/variables",
+    "dominio": "epistemología de sistemas, teoría del caos, matemáticas aplicadas",
+    "forma": "relación de dependencia causal entre fluctuación e impacto",
+    "tension": "entre previsibilidad y naturaleza caótica/aleatoria",
+    "limite": "depende de la reducción del sistema a variables observables, presupone ausencia de irreducibilidad computacional"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "impacto global",
+      "definicion": "conjunto de efectos o consecuencias acumulados a escala planetaria o sistémica"
+    },
+    {
+      "termino": "fluctuaciones",
+      "definicion": "variaciones aparentemente aleatorias en el valor, comportamiento o estado de un sistema"
+    },
+    {
+      "termino": "calculabilidad",
+      "definicion": "posibilidad de ser representado mediante operaciones matemáticas, modelización o predicción con algún nivel de certeza"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina tirar muchas piedritas en un lago muy grande; quieres saber a dónde van todas las olas que crean. ¿Se puede contar adónde van todas las olas y cuándo paran?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El impacto global de las fluctuaciones es calculable",
+      "subnodo": "Grado de caos e irreducibilidad en fluctuaciones",
+      "contexto": "Teoría del caos: fluctuaciones en sistemas no lineales pueden producir efectos no predecibles ni calculables ('efecto mariposa')"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "El impacto global de las fluctuaciones es calculable",
+      "subnodo": "Modelización con información incompleta",
+      "contexto": "Modelos predictivos basados en simulación pueden estimar tendencias pero muestran márgenes de error insalvables en sistemas abiertos"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación enfrenta límites fundamentales en presencia de sistemas caóticos, irreductibles o que superan la capacidad de computación/modelización humana/IA."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición matemática de computabilidad y teoría del caos",
+      "conclusion": "Sólo si las fluctuaciones obedecen a dinámicas completamente observables, el impacto total es efectivamente calculable",
+      "notas": "En la práctica, la mayoría de sistemas complejos presentan componentes irreductibles"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El impacto global de las fluctuaciones es calculable",
+      "descripcion": "Sistema climático terrestre: Pequeñas variaciones iniciales llevan a resultados divergentes que no pueden predecirse más allá de cierto horizonte ('sensibilidad a condiciones iniciales')",
+      "grado_de_refutacion": "parcial",
+      "notas": "Modelos de predicción climática mejoran pero nunca alcanzan certidumbre total; impactos inesperados siguen ocurriendo"
+    },
+    {
+      "afirmacion_refutada": "El impacto global de las fluctuaciones es calculable",
+      "descripcion": "Mercados financieros: 'cisnes negros' muestran efectos globales no calculados a partir de variaciones locales o mínimas",
+      "grado_de_refutacion": "parcial",
+      "notas": "La imposibilidad de calcular la totalidad de impactos se fundamenta en la incompletitud de modelos y datos"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Predicciones exitosas en sistemas reducidos y cerrados (simulaciones de laboratorio, lanzamientos balísticos)",
+      "inferencia": "La calculabilidad es contextual y depende de restricciones del sistema",
+      "grado_de_confianza": "alto",
+      "notas": "En sistemas cerrados la predicción es alcanzable, en sistemas abiertos no"
+    },
+    {
+      "patron_observado": "Fallas recurrentes en previsión de terremotos, pandemias, eventos macroeconómicos",
+      "inferencia": "La predicción de impactos globales totales es inherentemente limitada en sistemas complejos reales",
+      "grado_de_confianza": "medio",
+      "notas": "Hay avances locales, pero la incertidumbre nunca desaparece del todo"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La calculabilidad del impacto global de las fluctuaciones está limitada por la irreducibilidad computacional y la inobservabilidad inherente de sistemas complejos abiertos: sólo es alcanzable en aproximaciones o bajo condiciones altamente restringidas.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "En sistemas acotados y observables, el impacto global de las fluctuaciones es calculable",
+        1,
+        0,
+        0
+      ],
+      [
+        "En sistemas complejos, abiertos y caóticos, el impacto global de las fluctuaciones es calculable",
+        0,
+        0,
+        1
+      ],
+      [
+        "El impacto global de las fluctuaciones es calculable siempre",
+        0,
+        1,
+        0
+      ],
+      [
+        "El impacto global de las fluctuaciones es nunca calculable",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Necesitamos simplificar o cerrar sistemas caóticos para calcularlos, pero al hacerlo eliminamos justamente lo que hace impredecible su impacto global.",
+    "ambiguedad": "El término 'calculable' varía según el nivel tolerado de incertidumbre y la escala temporal considerada.",
+    "contradiccion_util": "La ciencia avanza al reducir la irreducibilidad—pero dicha reducción nunca es final, sólo provisional."
+  },
+  "reorganizacion_analoga": [
+    "Intentar predecir el efecto de cada gota en el océano (micro-causalidad global en sistemas abiertos)",
+    "Intentar comprender el resultado final de un partido de fútbol sólo conociendo la presión atmosférica",
+    "Simular millones de piezas de dominó ignorando eventos aleatorios externos"
+  ],
+  "implicacion_transformadora": [
+    "Aceptación de la incertidumbre estructural como parte fundamental al abordar sistemas de gran escala",
+    "La modelización predictiva debe asumir y comunicar sus límites intrínsecos, no sólo sus probabilidades",
+    "La epistemología aplicada necesita estrategias híbridas: predicción, adaptación, respuesta contingente"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición sólo puede afirmarse condicionalmente; la afirmación absoluta ha sido desacreditada por contraejemplo y análisis deductivo/inductivo. Persiste como pregunta abierta vinculada a los límites ontológicos y computacionales del conocimiento."
+  }
+}

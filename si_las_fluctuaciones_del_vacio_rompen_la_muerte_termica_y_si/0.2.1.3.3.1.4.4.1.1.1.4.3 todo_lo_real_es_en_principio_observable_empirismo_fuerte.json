@@ -1,0 +1,143 @@
+{
+  "nodo_semantico_de_entrada": "Todo lo real es en principio observable (empirismo fuerte)",
+  "nodo_semantico_central": "Observabilidad de la realidad",
+  "firma_ontologica": {
+    "naturaleza": "proposición universal",
+    "funcion": "delimitar lo real por su acceso empírico",
+    "dominio": "epistemología / empirismo",
+    "forma": "axioma absoluto",
+    "tension": "criterio de realidad vinculado a la percepción; posible exclusión de entidades 'no observables'",
+    "limite": "vulnerabilidad ante contraejemplos metafísicos, matemáticos y cuánticos"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "real",
+      "definicion": "todo aquello que existe independientemente del pensamiento o imaginación"
+    },
+    {
+      "termino": "observable",
+      "definicion": "accesible a los sentidos humanos o instrumentos ampliados"
+    },
+    {
+      "termino": "en principio",
+      "definicion": "posibilidad lógica y no meramente tecnológica, de percepción o registro"
+    },
+    {
+      "termino": "empirismo fuerte",
+      "definicion": "doctrina que estipula que solo lo perceptible tiene estatuto de realidad"
+    }
+  ],
+  "transduccion_preconceptual": "La realidad es como una gran caja de juguetes. Sólo existen realmente los juguetes que puedes ver, tocar o sacar de la caja, aunque tu mano tenga que crecer para alcanzarlos.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "En principio todo lo real puede llegar a ser observado",
+      "subnodo": "Realidad inaccesible vs. realidad potencialmente medible",
+      "contexto": "¿Puede ser real algo que nunca podrá ser detectado, ni siquiera con medios infinitamente avanzados?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Lo real es igual a lo observable",
+      "subnodo": "Limitaciones cognitivas y tecnológicas",
+      "contexto": "¿La tecnología o la mente establecen el límite de lo observable, o existen realidad más allá de estos límites?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Todo lo observable es real",
+      "subnodo": "Alucinación, ilusión y error de observación",
+      "contexto": "¿Puede algo no real parecer observable por error de percepción?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición colapsa ante los contraejemplos y ambigüedades sobre lo no observable en principio y la falibilidad de la observación"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición de empirismo fuerte",
+      "conclusion": "Niega existencia de entidades no observables, incluso si son postuladas por teoría matemática",
+      "notas": "Excluye universos paralelos, entidades matemáticas abstractas, etc."
+    },
+    {
+      "origen": "observabilidad como criterio de realidad",
+      "conclusion": "Lo que nunca podrá ser observado (ni directa ni indirectamente) no puede considerarse real según este marco",
+      "notas": "Depende de definición operativa de 'en principio'"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todo lo real es en principio observable",
+      "descripcion": "Variables ocultas no observables (e.g. constantes cosmológicas, dimensiones adicionales, universos paralelos, fenómenos fuera de cualquier alcance causal o instrumentos cognoscibles)",
+      "grado_de_refutacion": "parcial",
+      "notas": "Es posible que existan factores fuera de todo horizonte de observación, pero la ausencia de evidencia no implica irrealidad."
+    },
+    {
+      "afirmacion_refutada": "Lo observable es necesariamente real",
+      "descripcion": "Fenómenos como ilusiones ópticas, errores de medición, y simulaciones pueden ser observados sin tener realidad objetiva.",
+      "grado_de_refutacion": "total",
+      "notas": "La observabilidad no garantiza ontología autónoma."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "A lo largo de la historia, lo considerado 'inobservable' (e.g. átomos, exoplanetas, ondas gravitacionales) ha llegado a ser observable con nueva tecnología",
+      "inferencia": "El set de lo observable es expandible, pero no necesariamente abarca la totalidad de lo real",
+      "grado_de_confianza": "medio",
+      "notas": "Sólo aplica a entidades cuyo efecto causal puede, en teoría, ampliarse empíricamente."
+    },
+    {
+      "patron_observado": "Muchos conceptos matemáticos y entidades teóricas son considerados reales en ciertos marcos, sin ser observables",
+      "inferencia": "La realidad podría contener entidades inobservables y sin efecto causal",
+      "grado_de_confianza": "bajo",
+      "notas": "Afirmaciones emergen más desde marcos platónicos o formalistas."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La observabilidad es un criterio operativo útil para demarcar lo real en ciencia empírica, pero no necesariamente exhaustivo ontológicamente; lo real podría exceder el horizonte de observabilidad, dependiendo de la concepción de realidad adoptada.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Todo lo real es en principio observable",
+        0,
+        0,
+        1
+      ],
+      [
+        "Todo lo observable es real",
+        0,
+        1,
+        0
+      ],
+      [
+        "Lo inobservable puede ser real",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Si sólo existe lo observable, ¿cómo distinguir realidad de ilusión si ambos son observables?",
+    "ambiguedad": "'En principio' es vago: ¿cuáles son los límites de posibilidad? ¿Tecnológicos, lógicos, metafísicos?",
+    "contradiccion_util": "El empirismo fuerte cataliza el progreso científico al negar lo inaccesible, pero ese mismo límite puede marginalizar realidades teóricas fértiles"
+  },
+  "reorganizacion_analoga": [
+    "La realidad como un océano y la observación como una red: sólo pesco lo que cabe en mi red, pero el mar sigue existiendo más allá",
+    "La sombra de un objeto en la niebla: sólo se percibe una parte, pero la existencia no se agota en lo visible",
+    "El software informático: existen procesos y estados de memoria jamás volcados en pantallas, pero que sustentan funciones que sí percibimos"
+  ],
+  "implicacion_transformadora": [
+    "El empirismo como principio operativo debe verse no como totalidad sino como guía pragmática: investigar y expandir límites de lo observable, sin decretar inexistencia del resto",
+    "La ciencia se fortalece si reconoce su límite operativo y no confunde correlato empírico con la totalidad de lo real",
+    "Debemos distinguir entre ‘realidad operacional’ (lo que podemos observar y modelar) y ‘realidad ontológica’ (la totalidad potencial, incluya lo inobservable)"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Persisten contraejemplos posibles y ambigüedad definitoria; utilidad práctica alta, pero insuficiente como ontología universal"
+  }
+}

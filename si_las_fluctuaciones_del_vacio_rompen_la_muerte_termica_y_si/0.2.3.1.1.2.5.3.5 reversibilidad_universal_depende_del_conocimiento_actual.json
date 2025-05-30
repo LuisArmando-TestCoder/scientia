@@ -1,0 +1,122 @@
+{
+  "nodo_semantico_de_entrada": "Reversibilidad universal depende del conocimiento actual",
+  "nodo_semantico_central": "Dependencia epistémica de la reversibilidad universal",
+  "firma_ontologica": {
+    "naturaleza": "principio condicional",
+    "funcion": "explorar la relación causal entre el estado del conocimiento y la posibilidad de reversión universal",
+    "dominio": "epistemología, física teórica",
+    "forma": "bucle dependiente, condicional ramificado",
+    "tension": "la reversibilidad se convierte en resultado colateral de un observador cognitivo, no en ley absoluta",
+    "limite": "la dependencia del conocimiento puede ser autoreferencial si el conocimiento mismo es construido dinámicamente"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "reversibilidad universal",
+      "definicion": "posibilidad de invertir cualquier proceso en toda la realidad"
+    },
+    {
+      "termino": "conocimiento actual",
+      "definicion": "capacidad presente de descripción o comprensión de un sistema por un agente cognoscente"
+    },
+    {
+      "termino": "dependencia",
+      "definicion": "relación funcional donde un estado o propiedad sólo se sostiene al ser condicionado por otro"
+    }
+  ],
+  "transduccion_preconceptual": "Si puedes desarmar y volver a armar un juguete, pero eso sólo es posible porque sabes cómo está hecho el juguete, entonces todos los juegos que puedes revertir dependen de cuánto entiendes los juguetes que tienes. Si encuentras un juguete muy raro, tal vez nunca puedas regresarlo a como estaba antes.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La reversibilidad universal existe sólo si todo es conocido.",
+      "subnodo": "Reversibilidad como función de la omnisciencia",
+      "contexto": "¿Puede revertirse lo que no se conoce?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "El conocimiento actual determina los límites de lo reversible.",
+      "subnodo": "Límites epistémicos operativos de la reversibilidad",
+      "contexto": "¿Hasta dónde llegan las fronteras prácticas de lo reversible?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación depende de supuestos sobre la estructura del conocimiento y la naturaleza ontológica de la reversibilidad. Si lo reversible es absoluto, el conocimiento no es limitante; si lo reversible es sólo operativo, sí depende del conocimiento."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de reversibilidad universal + conocimiento actual",
+      "conclusion": "Si algún aspecto de la realidad es fundamentalmente incognoscible, entonces la reversibilidad universal se limita.",
+      "notas": "El principio de incertidumbre cuántica sugeriría inherentemente límites epistemológicos."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La reversibilidad universal depende únicamente del conocimiento actual",
+      "descripcion": "En mecánica clásica, muchos procesos son reversibles por principio, independientemente de cualquier conocimiento humano.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Lo reversible y lo irreversible pueden coexistir en distintos niveles de descripción."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En la computación y la física, la reversibilidad de ciertos sistemas sólo se logra con información total del sistema",
+      "inferencia": "El conocimiento práctico influye decisivamente en la recuperación de estados pasados",
+      "grado_de_confianza": "alto",
+      "notas": "Los sistemas caóticos dependen de la precisión de los datos iniciales; un poco de ignorancia hace la reversión imposible."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La reversibilidad es entrelazada con la accesibilidad y completitud del conocimiento sobre el sistema: epistemología y física se entrelazan. La reversibilidad absoluta es una noción límite, mientras que toda reversibilidad efectiva es epistémicamente filtrada.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La reversibilidad universal depende del conocimiento actual",
+        0,
+        0,
+        1
+      ],
+      [
+        "Hay sistemas cuya reversibilidad no requiere conocimiento",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda reversibilidad efectiva requiere conocimiento total",
+        0,
+        1,
+        0
+      ],
+      [
+        "Lo irreversible puede surgir de ignorancia parcial",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Si todo es reversible sólo en tanto es conocido, y parte del todo nunca puede ser conocido en principio, ¿la reversibilidad universal es siempre inalcanzable?",
+    "ambiguedad": "¿La reversibilidad es una propiedad real del universo o una construcción dependiente de lo cognoscible?",
+    "contradiccion_util": "La reversibilidad universal es aspiración teórica; pragmáticamente, sólo accedemos a reversibilidad fragmentada por nuestro conocimiento."
+  },
+  "reorganizacion_analoga": [
+    "La diferencia entre poder revertir un rompecabezas perfectamente conocido y nunca poder hacerlo si falta una pieza.",
+    "El experimento de Laplace: el demonio de Laplace sólo puede predecir (revertir) si conoce todo.",
+    "En criptografía, descifrar sin clave es prácticamente irreversible; con la clave, la reversión es trivial."
+  ],
+  "implicacion_transformadora": [
+    "La reversibilidad como principio operativo impulsa el avance del conocimiento y define los límites de la agencia.",
+    "En toda ciencia, la frontera entre reversible e irreversible es zona fértil de desarrollo teórico y metodológico.",
+    "Abre una ética de humildad epistémica: lo que no comprendemos puede ser permanentemente perdido para nuestras capacidades."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación opera en el umbral entre los límites epistemológicos humanos y las posibilidades ontológicas universales. El análisis muestra irreducibilidad computacional y dependencia de axiomas sobre la naturaleza del conocimiento."
+  }
+}

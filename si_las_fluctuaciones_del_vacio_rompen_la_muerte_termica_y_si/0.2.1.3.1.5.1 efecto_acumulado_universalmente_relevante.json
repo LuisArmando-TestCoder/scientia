@@ -1,0 +1,137 @@
+{
+  "nodo_semantico_de_entrada": "Efecto acumulado universalmente relevante",
+  "nodo_semantico_central": "Relevancia del efecto acumulado en lo universal",
+  "firma_ontologica": {
+    "naturaleza": "principio regulador",
+    "funcion": "legitimar la importancia de los efectos sumados a gran escala",
+    "dominio": "epistemología de sistemas complejos, cosmología, lógica de la causalidad",
+    "forma": "sumatoria global, bucle acumulativo, red de incidencias",
+    "tension": "El todo importa más/menos que las partes, duda sobre la linealidad de la acumulación",
+    "limite": "asume homogeneidad o medibilidad universal; restringido por irreductibilidad y caos"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "efecto",
+      "definicion": "consecuencia surgida de una o muchas causas previas"
+    },
+    {
+      "termino": "acumulado",
+      "definicion": "suma progresiva de efectos individuales que, al juntarse, adquieren una magnitud propia"
+    },
+    {
+      "termino": "nivel universal",
+      "definicion": "escala máxima de análisis, englobando la totalidad del sistema considerado"
+    },
+    {
+      "termino": "relevante",
+      "definicion": "que tiene importancia notable o causa un impacto reconocible en el sistema global"
+    }
+  ],
+  "transduccion_preconceptual": "Si tiras muchas piedritas al lago, con el tiempo el lago ya no es igual que si no tiras nada, aunque cada piedrita sola parezca pequeña e inofensiva.",
+  "iteraciones": [
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "El efecto acumulado siempre es relevante a nivel universal",
+      "subnodo": "absolutismo relevancia acumulada",
+      "contexto": "¿Existen sistemas donde los efectos individuales, al sumarse, no logran relevancia observable en el todo?"
+    },
+    {
+      "id": "1.1.2",
+      "afirmacion_base": "En algunos contextos, el efecto acumulado puede ser irrelevante",
+      "subnodo": "algunismo irrelevancia acumulada",
+      "contexto": "¿Puede un sistema masivo absorber, diluir o enmascarar efectos sin manifestar cambios relevantes?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Generalización dependiente de contexto; no todo efecto acumulado es universalmente relevante, pero existen casos donde lo es, y otros donde el sistema lo absorbe y la relevancia desaparece."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si los efectos individuales son nulos, la acumulación no genera cambio.",
+      "conclusion": "No todo efecto acumulado tiene relevancia necesariamente.",
+      "notas": "El tamaño y naturaleza de los efectos individuales influyen en el resultado global."
+    },
+    {
+      "origen": "El todo puede superar la suma de las partes por sinergia o perderse por cancelación.",
+      "conclusion": "La acumulación puede ser relevante, irrelevante o paradójica (emergencia contra-intuitiva).",
+      "notas": ""
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "A nivel universal, el efecto acumulado es siempre relevante",
+      "descripcion": "El principio de fluctuaciones microscópicas en termodinámica: innumerables microeventos se anulan estadísticamente hasta volverse irrelevantes a escala macroscópica.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La irrelevancia emerge por ley de números grandes."
+    },
+    {
+      "afirmacion_refutada": "El efecto acumulado es irrelevante en contextos universales",
+      "descripcion": "La erosión de una montaña por diminutos granos de arena demuestra que millones de eventos mínimos pueden transformar paisajes globales.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La relevancia requiere densidad temporal y espacial suficiente."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Cadenas de acciones pequeñas han producido grandes transiciones históricas y naturales.",
+      "inferencia": "El efecto acumulado puede ganar relevancia exponencial bajo condiciones de sensibilidad sistémica.",
+      "grado_de_confianza": "medio",
+      "notas": "No siempre ocurre; es función de umbrales, no de mera suma."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La relevancia del efecto acumulado es una función contingente: depende de la estructura del sistema, el tamaño y orientación de los efectos y los límites de absorción o amplificación. No es ley universal, sino regularidad condicionada.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El efecto acumulado es relevante universalmente",
+        0,
+        0,
+        1
+      ],
+      [
+        "En algunos sistemas, el efecto acumulado es irrelevante",
+        1,
+        0,
+        0
+      ],
+      [
+        "Siempre que hay acumulación, emerge relevancia",
+        0,
+        1,
+        0
+      ],
+      [
+        "Hay casos donde relevancia y no-relevancia coexisten",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Paradigma del umbral: la suma de irrelevancias puede saltar súbitamente a la relevancia o diluirse en irrelevancia total.",
+    "ambiguedad": "¿Quién decide el umbral de relevancia a escala universal? ¿Qué es 'universal' para sistemas abiertos?",
+    "contradiccion_util": "La irrelevancia individual puede generar relevancia colectiva sin que el proceso sea predecible a partir de las partes (emergencia)."
+  },
+  "reorganizacion_analoga": [
+    "Cambios de fase en física: la acumulación de energía provoca un cambio cualitativo repentino (ej. agua hirviendo).",
+    "Sinapsis neuronales: miles de señales diminutas alcanzan un umbral y disparan una acción.",
+    "Goteo constante que eventualmente agujerea la piedra."
+  ],
+  "implicacion_transformadora": [
+    "En modelos de predicción, la atención no debe enfocarse solo en la magnitud de impactos individuales, sino en sus patrones de acumulación y posibilidades de emergencia.",
+    "A nivel ético y social, pequeños actos pueden sumar relevancia sólo bajo ciertas estructuras colectivas.",
+    "El análisis de sistemas debe incluir el estudio de umbrales, sinergias y mecanismos de cancelación."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición carece de universalidad por contraejemplo, pero tampoco puede ser totalmente descartada; requiere especificación de sistemas y contextos para colapsar su estado lógico."
+  }
+}

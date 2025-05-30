@@ -1,0 +1,135 @@
+{
+  "nodo_semantico_de_entrada": "Algunos dominios no observados pueden tener leyes distintas",
+  "nodo_semantico_central": "Diversidad potencial de leyes en dominios no observados",
+  "firma_ontologica": {
+    "naturaleza": "proposición epistémica",
+    "funcion": "explorar la posibilidad de diversidad normativa en espacios desconocidos",
+    "dominio": "epistemología, filosofía de la ciencia, lógica modal",
+    "forma": "disyunción abierta (algunismo), posibilidad semántica",
+    "tension": "indefinición empírica vs. necesidad lógica",
+    "limite": "No puede verificarse empíricamente de manera directa; sólo se establece como posibilidad modal"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "dominio",
+      "definicion": "Un espacio, conjunto o contexto conceptual que puede tener reglas propias"
+    },
+    {
+      "termino": "no observado",
+      "definicion": "Que no ha sido registrado, medido o examinado bajo las actuales capacidades"
+    },
+    {
+      "termino": "leyes distintas",
+      "definicion": "Reglas operativas que difieren de las conocidas en otros contextos"
+    },
+    {
+      "termino": "algunos",
+      "definicion": "No todos; una cantidad indefinida pero no nula"
+    },
+    {
+      "termino": "pueden",
+      "definicion": "posibilidad; no certeza ni imposibilidad"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes una caja cerrada y muchas pelotas dentro de otras cajas que sí conoces. Puede que la pelota de la caja cerrada rebote distinto a las otras, aunque nunca lo has visto.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "No puede verificarse empíricamente de manera directa",
+      "subnodo": "Problema de observabilidad",
+      "contexto": "¿Es posible conocer las leyes de un dominio sin observarlo?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "sólo se establece como posibilidad modal",
+      "subnodo": "Posibilidad frente a realidad",
+      "contexto": "Diferenciar entre lo posible lógicamente y lo existente realmente"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No hay forma de refutar ni confirmar empíricamente la diversidad en lo no observado; sólo se sostiene bajo razonamiento modal"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de 'algunos' y 'pueden'",
+      "conclusion": "No se afirma que existan tales dominios, sólo que no puede descartarse la posibilidad",
+      "notas": "No implica pluralidad real, sólo posibilidad teórica"
+    },
+    {
+      "origen": "Principio de uniformidad de la naturaleza",
+      "conclusion": "Si asumo que todas las leyes en todos los dominios son iguales sin observar, estoy haciendo una extrapolación sin garantía lógica necesaria",
+      "notas": "La extrapolación totaliza lo observable sin prueba de exhaustividad"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Si algo no ha sido observado, sus reglas deben ser las mismas que lo observado",
+      "descripcion": "El teorema de incompletitud de Gödel, mecánica cuántica vs. relatividad general, hipótesis del multiverso con constantes físicas distintas",
+      "grado_de_refutacion": "parcial",
+      "notas": "La ciencia misma mantiene abierta la posibilidad de excepciones fuera del alcance experimental actual"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Descubrimiento de nuevos fenómenos con nuevas reglas (ejemplo: superconductividad, materia oscura)",
+      "inferencia": "La experiencia sugiere que la naturaleza puede revelar leyes inesperadas en regiones no exploradas o extremos de escala",
+      "grado_de_confianza": "medio",
+      "notas": "El hecho de que algunos nuevos dominios hayan mostrado leyes nuevas apoya sólo parcialmente la proposición, pues aún no es mayoría ni universalidad"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Todo conocimiento sobre lo no observado es tributario de la lógica modal, no de la lógica empírica estricta. La postura predeterminada es la de apertura, no la de cierre, ante la diversidad de leyes en espacios aún no explorados.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Algunos dominios no observados pueden tener leyes distintas",
+        0,
+        0,
+        1
+      ],
+      [
+        "Si no se ha observado un dominio, sus leyes son necesariamente iguales a las conocidas",
+        0,
+        1,
+        0
+      ],
+      [
+        "Siempre que se observa un dominio nuevo, aparece una ley nueva",
+        0,
+        1,
+        0
+      ],
+      [
+        "Es posible que ningún dominio no observado tenga leyes distintas",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "No se puede asegurar la diferencia ni la identidad en ausencia de evidencia; la proposición oscila entre posibilidad y ausencia ontológica",
+    "ambiguedad": "¿Qué cuenta como 'ley distinta'? ¿Hasta qué punto dos leyes suficientemente similares son distintas?",
+    "contradiccion_util": "La proposición se sostiene en la fertilidad de la ignorancia: no saber es lo que permite imaginar la diferencia"
+  },
+  "reorganizacion_analoga": [
+    "Como en la hipótesis de multiversos donde cada universo puede tener constantes físicas distintas",
+    "Como los lenguajes no documentados: podrían tener reglas gramaticales nunca vistas",
+    "La biología de formas de vida no detectadas, que podrían basarse en química diferente"
+  ],
+  "implicacion_transformadora": [
+    "Invita a la cautela epistemológica frente a extrapolaciones universales",
+    "Sugiere valorar la diversidad y la apertura mental en la construcción de teorías y modelos científicos",
+    "Refuerza una postura heurística de pluralismo metodológico y la exploración activa de lo desconocido"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición es irrefutable en ausencia de observación, quedando en el dominio de lo posible pero no comprobable"
+  }
+}

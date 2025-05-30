@@ -1,0 +1,127 @@
+{
+  "nodo_semantico_de_entrada": "El universo podría operar bajo marcos adicionales no conocidos",
+  "nodo_semantico_central": "Posibilidad de marcos extra-descriptivos en el universo",
+  "firma_ontologica": {
+    "naturaleza": "posibilidad ontológica",
+    "funcion": "explorar límites del conocimiento y la descripción",
+    "dominio": "epistemología, metafísica de la ciencia, teoría de sistemas",
+    "forma": "hipótesis abierta, viga flotante en el espacio epistemológico",
+    "tension": "convivencia entre lo conocido, lo desconocido y lo incognoscible",
+    "limite": "inamovilidad empírica: lo no conocido no es fácilmente comprobable ni falsable"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "universo",
+      "definicion": "conjunto de todo lo que existe, incluidos sus sistemas y reglas"
+    },
+    {
+      "termino": "marco",
+      "definicion": "conjunto estructurado de reglas, leyes o descripciones que explican el funcionamiento de algo"
+    },
+    {
+      "termino": "marco adicional",
+      "definicion": "estructura explicativa aún no considerada en los sistemas formales existentes"
+    },
+    {
+      "termino": "no conocido",
+      "definicion": "lo que aún no ha sido identificado, conceptualizado o entendido"
+    }
+  ],
+  "transduccion_preconceptual": "Es como si jugáramos en una casa grande creyendo que conocemos todas las habitaciones, pero podría haber puertas escondidas detrás de las paredes que no podemos ver ni abrir todavía. Tal vez la casa tiene más secretos de los que pensamos.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El universo opera únicamente bajo los marcos conocidos",
+      "subnodo": "arqueología de marcos",
+      "contexto": "¿Hay evidencia de reglas desconocidas que ocasionalmente interfieren con las conocidas?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Un marco adicional puede coexistir sin ser detectado",
+      "subnodo": "transparencia causal",
+      "contexto": "¿Es posible que un sistema rija sin dejar huella observable?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No hay herramienta formal para refutar la posibilidad de marcos adicionales; epistemológicamente es abierto"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "principio de incompletitud (Gödel)",
+      "conclusion": "Es imposible demostrar que nuestro catálogo de marcos descriptivos es exhaustivo",
+      "notas": "Se apoya en límites formales de la autodescripción"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El universo sólo opera bajo marcos ya conocidos",
+      "descripcion": "Descubrimiento histórico de paradigmas no previstos (ej: relatividad, mecánica cuántica)",
+      "grado_de_refutacion": "parcial",
+      "notas": "El pasado muestra límites superados, pero no prueba que aún haya más"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Nuevas teorías sustituyen o amplían a las antiguas cuando aparecen anomalías",
+      "inferencia": "Siempre puede haber espacio para nuevos marcos no anticipados",
+      "grado_de_confianza": "alto",
+      "notas": "Patrón robusto en historia de la ciencia"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El universo puede contener niveles estructurales no captados aún por ninguna formalización existente: todo marco conocido puede ser subcaso de otro desconocido.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El universo opera solo bajo marcos conocidos",
+        0,
+        1,
+        0
+      ],
+      [
+        "Puede haber marcos adicionales no identificados",
+        1,
+        0,
+        0
+      ],
+      [
+        "La existencia de marcos adicionales es comprobable hoy",
+        0,
+        0,
+        1
+      ],
+      [
+        "El universo debe ser completamente describible",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Lo no conocido podría influir en lo conocido sin poder aislar su influencia",
+    "ambiguedad": "¿Cómo definir el límite entre 'marco' y simple expansión del marco previo?",
+    "contradiccion_util": "La búsqueda de marcos nuevos es infinita; su imposibilidad de agotamiento fertiliza teorías"
+  },
+  "reorganizacion_analoga": [
+    "La percepción humana de color: existen colores fuera del espectro visible pero presentes en la realidad física.",
+    "Lenguajes formales: siempre puede existir un metalenguaje donde el lenguaje previo es sólo caso particular.",
+    "Exploración planetaria: creíamos conocer todos los planetas hasta descubrir otros cuerpos con nuevas reglas."
+  ],
+  "implicacion_transformadora": [
+    "La humildad epistemológica debe guiar la exploración científica.",
+    "Ningún sistema de conocimiento debe asumirse como cerrado o absoluto.",
+    "Abrir líneas de investigación para anomalías podría dar nuevas revoluciones teóricas.",
+    "El desarrollo de observación y modelado debe buscar patrones fuera del canon establecido."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación es plausible y útil, pero carece de comprobabilidad inmediata; su valor es heurístico y aperturista"
+  }
+}

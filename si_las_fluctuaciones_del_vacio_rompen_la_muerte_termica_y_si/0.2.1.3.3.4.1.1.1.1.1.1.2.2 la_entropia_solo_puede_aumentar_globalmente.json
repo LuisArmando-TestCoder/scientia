@@ -1,0 +1,139 @@
+{
+  "nodo_semantico_de_entrada": "La entropía solo puede aumentar globalmente",
+  "nodo_semantico_central": "Aumento global irreversible de la entropía",
+  "firma_ontologica": {
+    "naturaleza": "principio físico",
+    "funcion": "Regular la dirección temporal y los cambios posibles en sistemas cerrados",
+    "dominio": "termodinámica, cosmología, lógica de sistemas, epistemología",
+    "forma": "ley probabilística",
+    "tension": "Absolutismo teórico vs. contraejemplos locales, excepción versus regla general",
+    "limite": "Se restringe a sistemas verdaderamente cerrados y depende de la definición operacional de ‘global’"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "entropía",
+      "definicion": "Medida del desorden, probabilidad o número de estados posibles de un sistema físico"
+    },
+    {
+      "termino": "globalmente",
+      "definicion": "Abarcando todo el universo observable, o incluso conjuntos mayores (multiversos)"
+    },
+    {
+      "termino": "aumentar",
+      "definicion": "Tendencia estadística hacia estados más desordenados y probables con el tiempo"
+    },
+    {
+      "termino": "solo puede",
+      "definicion": "Afirmación de imposibilidad de disminución total sin excepciones"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina una caja llena de bloques de colores. Si la sacudes mucho, los bloques se mezclan cada vez más. Es muy raro, aunque no imposible, que los bloques vuelvan a ordenarse solos sin ayuda. Si tienes miles de cajas conectadas, casi todas terminarán revueltas, aunque en una raro momento alguna se ordene. Pero mirar todas juntas: casi siempre más desorden.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El universo es un sistema cerrado y la entropía debe aumentar",
+      "subnodo": "Cierre del sistema universal",
+      "contexto": "¿Es válida la condición de sistema cerrado a escala ‘global’ cuando existen posibles multiversos, intercambio de información o fluctuaciones cuánticas?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Siempre hay aumento global de entropía (sin excepciones)",
+      "subnodo": "Absolutismo termodinámico",
+      "contexto": "¿Pueden existir procesos físicamente permitidos, fluctuaciones o condiciones iniciales capaces de revertir localmente el aumento de entropía a escala total?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Procesos excepcionales (fluctuaciones de Poincaré, agujeros blancos, etc.) pueden violar la tendencia",
+      "subnodo": "Excepcionalidad estadística",
+      "contexto": "¿Tiene sentido asignar veracidad absoluta si hay una probabilidad finita, aunque ínfima, de disminuciones globales temporales o excepcionales?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación absolutiza un proceso estadístico; los modelos actuales sostienen el aumento, pero existen contraejemplos hipotéticos y la irreducibilidad de sistemas caóticos globales."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Segunda ley de la termodinámica",
+      "conclusion": "En cualquier sistema cerrado, la entropía total no disminuye con el tiempo",
+      "notas": "Depende de la definición estricta de sistema cerrado; desafíos a escalas cosmológicas"
+    },
+    {
+      "origen": "Postulado de las condiciones iniciales y fluctuaciones cuánticas",
+      "conclusion": "Existen procesos de fluctuaciones que, con probabilidad ínfima, revierten localmente la entropía",
+      "notas": "No hay observación empírica actual de reversión global; el universo observable podría no ser completamente cerrado"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La entropía siempre aumenta globalmente sin excepción",
+      "descripcion": "Fluctuaciones de Poincaré en espacios de fase finitos, propuestas cosmológicas de ciclos (universos cíclicos, ‘big bounce’), posibilidad de multiversos con intercambios de información o energía.",
+      "grado_de_refutacion": "parcial",
+      "notas": "No es observacionalmente refutado, pero permite teóricamente disminuciones excepcionales"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En todos los experimentos físicos conocidos, la entropía global parece aumentar; nunca se ha observado lo contrario a gran escala",
+      "inferencia": "Es muy confiable asumir el aumento, pero no es lógicamente obligatorio para toda la realidad posible",
+      "grado_de_confianza": "alto",
+      "notas": "La confiabilidad depende del nivel de generalización y de la aceptación de procesos excepcionales estadísticamente insignificantes"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El principio de aumento de entropía es una ley estadística extremadamente robusta, no absoluta. Su excepción es estadísticamente despreciable pero ontológicamente importante: la imposibilidad no es total, sólo prácticamente cierta. El absolutismo es heurístico, no axiomático.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La entropía solo puede aumentar globalmente",
+        0,
+        0,
+        1
+      ],
+      [
+        "Existen excepciones teóricas al aumento global de entropía",
+        1,
+        0,
+        0
+      ],
+      [
+        "La entropía siempre aumenta en sistemas cerrados convencionales observados",
+        1,
+        0,
+        0
+      ],
+      [
+        "Procesos observados pueden disminuir la entropía global",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El aumento global es estadísticamente inevitable pero lógicamente no absoluto: una microprobabilidad de reversión pone en tensión la ley como axioma universal.",
+    "ambiguedad": "Definición de ‘global’ (universo observable, multiverso, espacio de Hilbert total), y de ‘siempre’ (absoluto vs. estadístico).",
+    "contradiccion_util": "La estabilidad de las leyes físicas proviene de la casi imposibilidad de sus excepciones: la excepción es el generador del sentido de la regularidad."
+  },
+  "reorganizacion_analoga": [
+    "Como dados tirados en un cuarto cerrado: casi siempre terminan desordenados, pero nada prohíbe por completo que huelvan a su estado inicial.",
+    "Como un idioma: las reglas se cumplen, pero pueden ‘romperse’ raramente por creatividad o excepción.",
+    "Como los fractales caóticos: la regla estadística domina, pero en escalas muy amplias aparecen auto-semejanzas inesperadas.",
+    "Como un río que siempre va hacia abajo, pero podría subir si el terreno se levanta por terremoto (evento excepcional, pero no imposible en principio)."
+  ],
+  "implicacion_transformadora": [
+    "Las leyes aparentemente absolutas pueden ser solo reglas estadísticas de altísima confiabilidad, no dictámenes inquebrantables.",
+    "En procesos de innovación, creatividad o cosmología, nunca se debe asumir cerrazón total: las excepciones improbables pueden tener impacto ontológico.",
+    "Permitir la existencia teórica de excepciones fertiliza nuevas preguntas sobre los límites de la física y del conocimiento mismo.",
+    "En epistemología, asumir lo improbable como imposible limita el campo de lo pensable; la excepción es el motor de toda revolución conceptual."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación no puede catalogarse como absolutamente verdadera según la definición estricta de ‘solo’ y ‘global’; el análisis recursivo la estabiliza como ley heurística, no axiomática."
+  }
+}

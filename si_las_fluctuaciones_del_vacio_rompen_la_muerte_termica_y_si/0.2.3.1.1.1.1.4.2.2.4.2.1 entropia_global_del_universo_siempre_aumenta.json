@@ -1,0 +1,135 @@
+{
+  "nodo_semantico_de_entrada": "entropía global del universo siempre aumenta",
+  "nodo_semantico_central": "Segunda ley de la termodinámica global",
+  "firma_ontologica": {
+    "naturaleza": "principio físico universal",
+    "funcion": "afirmar dirección temporal asociada al desorden o probabilidad de estados macros",
+    "dominio": "termodinámica, cosmología, física fundamental",
+    "forma": "ley estadística asimétrica (flecha del tiempo)",
+    "tension": "universalidad vs. particularidad local, determinismo estadístico vs. recurrencias improbables",
+    "limite": "aplica en sistemas macroscópicos cerrados; microfluctuaciones y excepciones locales posibles"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "entropía",
+      "definicion": "medida de desorden, número de formas en que un sistema puede organizarse microscópicamente para un mismo estado macro (probabilidad de configuración)"
+    },
+    {
+      "termino": "global",
+      "definicion": "referido al universo considerado como conjunto cerrado"
+    },
+    {
+      "termino": "universo",
+      "definicion": "sistema total, espacio-tiempo-materia definido como cerrado o sin exterior"
+    },
+    {
+      "termino": "siempre",
+      "definicion": "en todos los casos, sin excepción temporal o espacial"
+    },
+    {
+      "termino": "aumenta",
+      "definicion": "crece, incrementa, no disminuye"
+    }
+  ],
+  "transduccion_preconceptual": "Imagínate que tienes una caja llena de bloques de colores que empiezas acomodados. Si agitas la caja, los bloques se mezclarán y será casi imposible que vuelvan a ordenarse solos. Cada vez que agitas, el desorden crece. Es muy raro que por sacudir la caja los bloques vuelvan a quedar ordenados.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La entropía del universo siempre aumenta",
+      "subnodo": "irreducibilidad computacional de sistema total",
+      "contexto": "¿Es posible saber el estado total del universo en todo momento y verificar la ley sin excepción?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Siempre",
+      "subnodo": "absolutismo vs. fluctuaciones estadísticas",
+      "contexto": "¿Puede haber, siquiera raramente, una disminución espontánea de entropía en una región cósmica o en toda la realidad?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación se sostiene estadísticamente, pero no está matemáticamente excluida la posibilidad de fluctuaciones globales extremadamente improbables (recurrencia de Poincaré, fluctuaciones del vacío, estados reversibles); el ‘siempre’ absoluto refutado por la posibilidad teórica, aunque prácticamente improbable."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición estadística de entropía",
+      "conclusion": "La tendencia global es al aumento en sistemas cerrados",
+      "notas": "Microestados pueden violar la tendencia localmente; tendencia sólo es absoluta en escala idealizada."
+    },
+    {
+      "origen": "Segunda Ley",
+      "conclusion": "La dirección temporal del universo está asociada con el incremento de desorden",
+      "notas": "Justificado sólo en contextos donde las condiciones iniciales definen un gradiente de entropía hacia el futuro."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La entropía global del universo SIEMPRE aumenta",
+      "descripcion": "Recurrencia de Poincaré: en escalas temporales suficientemente grandes, un sistema cerrado finito podría, en principio, regresar a un estado inicial improbable (descenso de entropía). Fluctuaciones cuánticas del vacío: pueden provocar una disminución local temporal de entropía.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La probabilidad es tan baja que no es relevante en tiempos o escalas reales, pero niega la universalidad absoluta del ‘siempre’."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En todos los experimentos macroscópicos conocidos la entropía global de sistemas cerrados aumenta",
+      "inferencia": "La segunda ley describe correctamente la tendencia observable del universo",
+      "grado_de_confianza": "alto",
+      "notas": "No se han observado violaciones observables en laboratorio o cosmos"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El crecimiento de la entropía es una tendencia estadística emergente en sistemas complejos, representando la pérdida de información sobre microestados. El ‘siempre’ es un límite ideal, no observado en eventos cósmicos o lógicos extremos.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La entropía global del universo siempre aumenta, sin excepción",
+        0,
+        0,
+        1
+      ],
+      [
+        "La entropía global del universo tiende a aumentar estadísticamente",
+        1,
+        0,
+        0
+      ],
+      [
+        "Es posible una disminución total de entropía en el universo alguna vez",
+        0,
+        1,
+        0
+      ],
+      [
+        "Pueden darse excepciones locales a la tendencia de aumento de entropía",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La reversibilidad microscópica de las leyes físicas frente a la irreversibilidad macroscópica aparente",
+    "ambiguedad": "¿‘Siempre’ significa matemáticamente universal o ‘en todos los casos prácticos observados’?",
+    "contradiccion_util": "La imposibilidad práctica de verificar la totalidad del universo permite usar la ley como heurística, no como dogma absoluto"
+  },
+  "reorganizacion_analoga": [
+    "Como barajar una baraja: es teóricamente posible que se ordene ‘sola’, pero la posibilidad es negligible",
+    "Como el tiempo que solo avanza en nuestra experiencia, aunque las ecuaciones físicas permiten simetría",
+    "Como remover tinta de agua: el proceso inverso es posible pero tan improbable que se descarta"
+  ],
+  "implicacion_transformadora": [
+    "Las leyes globales en sistemas complejos pueden ser verdaderas sólo estadísticamente, no de modo absoluto.",
+    "La epistemología debe distinguir entre imposibilidad práctica y lógica, usando la excepción no sólo como límite de teoría sino como fuente de nuevas preguntas.",
+    "El lenguaje científico debe evitar absolutismos (siempre, nunca); reemplazarlos por enunciados probabilísticos fundamentados."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El principio opera con confiabilidad empírica, pero su estatus lógico como ley absoluta es refutado parcialmente por la posibilidad teórica de excepciones extremas (aunque no observadas)"
+  }
+}

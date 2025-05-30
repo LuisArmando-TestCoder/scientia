@@ -1,0 +1,145 @@
+{
+  "nodo_semantico_de_entrada": "Las leyes físicas han cambiado efectivamente en lo desconocido",
+  "nodo_semantico_central": "Cambio efectivo de leyes físicas en lo desconocido",
+  "firma_ontologica": {
+    "naturaleza": "proposición teórica sobre invariancia física",
+    "funcion": "problematizar la universalidad y constancia de las leyes físicas a través de la dimensión del desconocido",
+    "dominio": "filosofía de la ciencia, epistemología, física fundamental",
+    "forma": "frontera dinámica entre lo conocido y lo desconocido; espacio liminal",
+    "tension": "Epistemológica—la certeza en lo conocido vs. la potencial mutabilidad fuera de la observación",
+    "limite": "Indemostrabilidad empírica directa; toda inferencia está mediada por lo observable"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Leyes físicas",
+      "definicion": "Reglas básicas que rigen el comportamiento de la materia y la energía, formalizadas por la física"
+    },
+    {
+      "termino": "Cambio efectivo",
+      "definicion": "Alteración real y significativa en la forma o funcionamiento de algo, percibida o postulada"
+    },
+    {
+      "termino": "Lo desconocido",
+      "definicion": "Ámbito fuera del conocimiento y de la observación directa; dominio donde las reglas pueden ser hipotéticas"
+    }
+  ],
+  "transduccion_preconceptual": "Es como si tuvieras una caja mágica y dices: 'Aquí adentro, las reglas de mi juego pueden ser diferentes, pero nunca he visto la caja por dentro, solo puedo imaginar lo que pasa ahí.'",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Las leyes físicas han cambiado efectivamente",
+      "subnodo": "Historicidad de la física",
+      "contexto": "Si en el pasado se han observado cambios o reinterpretaciones de leyes físicas, ¿esto implica cambios reales, o solo cambios en nuestra comprensión?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "En lo desconocido",
+      "subnodo": "Dominio fenoménico fuera de observación",
+      "contexto": "¿Es lógico afirmar sobre la alteración de leyes más allá del alcance de la observación y experimentación?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Han cambiado efectivamente en lo desconocido",
+      "subnodo": "Indetectabilidad epistémica",
+      "contexto": "¿Un cambio no observado puede considerarse 'efectivo' en sentido ontológico, si no hay mediación causal observable?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Falta evidencia verificable; proposición epistémicamente plausible pero indemostrable"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de 'ley física' como universal e invariante",
+      "conclusion": "Si las leyes son inmutables, no pueden cambiar, ni siquiera en lo desconocido",
+      "notas": "Esta conclusión depende de una interpretación estricta de 'ley'"
+    },
+    {
+      "origen": "Presencia de fenómenos no explicados por leyes actuales",
+      "conclusion": "Lo desconocido podría contener dinámicas regidas por otras leyes",
+      "notas": "Se basa en una postura inductiva hacia lo desconocido y lo inobservable"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Las leyes físicas han cambiado efectivamente en lo desconocido",
+      "descripcion": "No existen registros experimentales de cambio efectivo en leyes fuera del universo observable; toda variación postulada es especulativa",
+      "grado_de_refutacion": "parcial",
+      "notas": "No se puede probar ni refutar completamente desde el alcance actual de la observación"
+    },
+    {
+      "afirmacion_refutada": "Las leyes físicas son absolutas e inmutables",
+      "descripcion": "Teorías como la inflación cósmica y cambios en las constantes universales sugieren que ciertas 'leyes' pudieron ser distintas en fases tempranas del universo",
+      "grado_de_refutacion": "parcial",
+      "notas": "Las hipótesis cosmológicas plantean posibles mutaciones emergentes bajo condiciones extremas"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Constantes físicas aparentemente fijas en lo observable",
+      "inferencia": "En nuestro dominio, las leyes no cambian detectablemente",
+      "grado_de_confianza": "alto",
+      "notas": "Basado en todas las observaciones experimentales hasta la fecha"
+    },
+    {
+      "patron_observado": "Fenómenos impredecibles en cosmología y física cuántica",
+      "inferencia": "Pudiera haber dominios donde reglas diferentes apliquen",
+      "grado_de_confianza": "medio",
+      "notas": "Estos dominios aún no se han accedido experimentalmente; inferencia basada en extrapolación"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El enunciado sobre el cambio de leyes físicas en lo desconocido revela la tensión entre la necesidad epistémica de inferir universalidad y la posibilidad metafísica de alteridad radical fuera del alcance, operando como pregunta liminal más que como afirmación factual.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Las leyes físicas han cambiado efectivamente en el dominio observable",
+        0,
+        1,
+        0
+      ],
+      [
+        "Las leyes físicas han cambiado efectivamente en lo desconocido",
+        0,
+        0,
+        1
+      ],
+      [
+        "Las leyes físicas son inmutables en todos los ámbitos",
+        0,
+        1,
+        0
+      ],
+      [
+        "Los cambios en las leyes físicas pueden ser postulados pero no probados",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La afirmación pretende dictar sobre lo que precisamente carece de acceso epistémico, generando una paradoja de afirmación sin observación",
+    "ambiguedad": "¿A qué se refiere 'cambio efectivo'? ¿Se asume que la efectividad requiere observación?",
+    "contradiccion_util": "Inferir cambio sin evidencia es útil para ampliar el horizonte conceptual y poner a prueba el marco de lo universal"
+  },
+  "reorganizacion_analoga": [
+    "Como la hipótesis de dimensiones espaciales invisibles cuyas propiedades no pueden confirmarse ni refutarse",
+    "Como reglas de un videojuego nunca jugado—pueden ser postuladas, pero solo existen en potencial",
+    "Como la lógica de los multiversos: realidades no observables con diferentes constantes físicas"
+  ],
+  "implicacion_transformadora": [
+    "La cautela ante afirmaciones sobre lo desconocido es científica y filosóficamente fundamental",
+    "Colapsar a un juicio lógico acerca de lo no observado implica reconocer los límites estructurales del conocimiento",
+    "Esta proposición obliga a afinar los criterios de falsabilidad y experimentabilidad en ciencia y epistemología"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Persistencia de la indemostrabilidad empírica y la irreductibilidad computacional respecto al lo desconocido; la proposición sirve más como generador de problematización que como afirmación absoluta"
+  }
+}

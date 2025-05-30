@@ -1,0 +1,121 @@
+{
+  "nodo_semantico_de_entrada": "La muerte térmica es absolutamente inevitable bajo la física conocida",
+  "nodo_semantico_central": "Inevitabilidad de la muerte térmica",
+  "firma_ontologica": {
+    "naturaleza": "afirmación absoluta sobre destino cosmológico",
+    "funcion": "Predecir el fin del universo bajo leyes físicas actuales",
+    "dominio": "cosmología, termodinámica, epistemología",
+    "forma": "declaración determinista, argumento de clausura futura",
+    "tension": "absolutismo vs. límites del conocimiento físico; certeza declarada vs. improbabilidad de acceso a verdad absoluta",
+    "limite": "Sólo válido si las leyes conocidas son completas e inmutables"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "muerte térmica",
+      "definicion": "Estado final del universo en equilibrio termodinámico donde no hay gradientes de energía aprovechables; máximo desorden (entropía máxima)."
+    },
+    {
+      "termino": "absolutamente inevitable",
+      "definicion": "Que no admite ninguna excepción ni alternativa bajo ninguna circunstancia, dentro del marco considerado."
+    },
+    {
+      "termino": "física conocida",
+      "definicion": "Conjunto de leyes y modelos actualmente aceptados por la comunidad científica sobre el universo físico."
+    }
+  ],
+  "transduccion_preconceptual": "El universo es como una pila que al final se gasta. Según lo que hoy sabemos, ninguna pila puede evitar descargarse por completo. Pero a veces, la ciencia encuentra trucos nuevos o descubre que la pila no era sólo una pila.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El marco es absolutamente inevitable bajo la física conocida",
+      "subnodo": "Condición absolutista",
+      "contexto": "¿Cabe la posibilidad de excepciones, cambios en las leyes físicas o ampliaciones teóricas nuevas?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Bajo la física conocida, toda predicción absoluta es contingente",
+      "subnodo": "Limitaciones epistemológicas",
+      "contexto": "El conocimiento físico es incompleto y provisional, por lo que toda afirmación absoluta entra en tensión con la potencial revisabilidad futura de las leyes."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El absolutismo de la afirmación entra en conflicto con la incertidumbre metodológica de la ciencia y la posibilidad de evolución teórica"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Segunda ley de la termodinámica",
+      "conclusion": "Un universo cerrado evoluciona hacia mayor entropía",
+      "notas": "Sólo cierto si el sistema es cerrado y las leyes actuales son insuperables"
+    },
+    {
+      "origen": "Afirmación absolutista",
+      "conclusion": "Descarta cambios en la física futura o factores desconocidos",
+      "notas": "Imposible justificar con certeza dada la historicidad de la ciencia"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La muerte térmica es absolutamente inevitable",
+      "descripcion": "Nuevas teorías físicas o hallazgos empíricos (p. ej., energía oscura, escenarios cíclicos, física más allá del modelo estándar) podrían modificar o anular la predicción.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Mientras haya potencial revisión teórica o empírica, el absolutismo es refutable."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "A lo largo de la historia científica, muchas absolutizaciones han sido superadas por nuevos paradigmas.",
+      "inferencia": "Las predicciones cosmológicas, aunque robustas, son sujetas a revisión.",
+      "grado_de_confianza": "alto",
+      "notas": "No hay garantía de completitud en el conocimiento físico actual."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Toda afirmación absoluta basada en conocimiento contingente queda, por principio metodológico, abierta a revisión y, por tanto, es indefinida aunque funcionalmente probable.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La muerte térmica es absolutamente inevitable bajo la física conocida",
+        0,
+        0,
+        1
+      ],
+      [
+        "La muerte térmica es probable dadas las leyes actuales",
+        1,
+        0,
+        0
+      ],
+      [
+        "Es imposible que surjan nuevas leyes que lo impidan",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El uso de absoluto contrasta con la provisionalidad radical de la epistemología científica.",
+    "ambiguedad": "¿Es la física 'conocida' una base suficiente para hablar de inevitabilidad absoluta?",
+    "contradiccion_util": "La tensión promueve el escepticismo radical y refuerza la revisión constante en ciencia."
+  },
+  "reorganizacion_analoga": [
+    "Como decir que ningún pájaro puede volar más allá del horizonte porque nunca hemos visto uno regresar.",
+    "Una partida de ajedrez declarada perdida porque sólo conocemos las jugadas actuales, sin prever que alguien invente una regla nueva.",
+    "Un lenguaje cuyo gramática declaramos definitiva hasta que aparecen préstamos inesperados."
+  ],
+  "implicacion_transformadora": [
+    "Toda predicción absoluta en ciencia debe ser revisable; el dogmatismo en cosmología inhibe la creatividad teórica.",
+    "El método Oriens Omni exige siempre dejar puertas abiertas a la emergencia de lo inesperado, incluso ante leyes físicas altamente robustas.",
+    "El análisis epistemológico debe priorizar posiciones probabilísticas fuertes sobre absolutismos estériles."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El absolutismo no puede sostenerse completamente mientras la epistemología científica sea revisable. La afirmación original colapsa a una probabilidad fuerte, pero no certidumbre."
+  }
+}

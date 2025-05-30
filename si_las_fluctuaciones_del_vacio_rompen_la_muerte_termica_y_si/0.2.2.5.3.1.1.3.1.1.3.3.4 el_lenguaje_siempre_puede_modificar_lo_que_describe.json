@@ -1,0 +1,155 @@
+{
+  "nodo_semantico_de_entrada": "El lenguaje siempre puede modificar lo que describe",
+  "nodo_semantico_central": "Plasticidad del lenguaje sobre la realidad",
+  "firma_ontologica": {
+    "naturaleza": "principio relacional",
+    "funcion": "establecer la capacidad del lenguaje de alterar su objeto",
+    "dominio": "epistemología, semiótica, metafísica",
+    "forma": "relación dinámica causa-efecto",
+    "tension": "entre la mediación descriptiva y la transformación performativa",
+    "limite": "depende del objeto (material/mental/simbólico), de la interpretación y del contexto de referencia"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "lenguaje",
+      "definicion": "sistema de signos para comunicar o representar ideas"
+    },
+    {
+      "termino": "modificar",
+      "definicion": "alterar, cambiar o afectar la naturaleza de algo"
+    },
+    {
+      "termino": "describir",
+      "definicion": "comunicar atributos o estados de una cosa; representar información sobre algo"
+    },
+    {
+      "termino": "siempre",
+      "definicion": "en toda circunstancia; ausencia de excepción"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que al decir algo sobre un juguete, el juguete cambia porque lo nombraste. Pero a veces, aunque le pongas nombre diferente, el juguete sigue igual. El lenguaje es como una varita mágica que a veces cambia las cosas, y a veces solo hace brillar su nombre sin tocarlas de verdad.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El lenguaje siempre puede modificar lo que describe",
+      "subnodo": "Performatividad del lenguaje",
+      "contexto": "Actos lingüísticos que transforman la realidad referida (ej. declarar una promesa legalmente válida)"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "El lenguaje siempre puede modificar lo que describe",
+      "subnodo": "Limitaciones empíricas del lenguaje",
+      "contexto": "Palabras que nombran objetos materiales sin alterar su estructura (ej. llamar 'árbol' a una roca no la transforma en árbol)"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "El lenguaje siempre puede modificar lo que describe",
+      "subnodo": "Prescripción y auto-referencia",
+      "contexto": "Lenguaje que modifica conductas propias al ser internalizado y actuar sobre sí mismo (ej. autoprogramación cognitiva)"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación es absolutista pero existen contraejemplos materiales y psicológicos donde el lenguaje no modifica aquello que describe"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de lenguaje y modificar",
+      "conclusion": "El lenguaje solo puede modificar en los casos donde la mediación lingüística tiene efectos performativos o cognitivos sobre el objeto o el receptor",
+      "notas": "No todo objeto es modificado por el lenguaje; materialidad y autonomía del referente limitan el principio"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El lenguaje siempre puede modificar lo que describe",
+      "descripcion": "Decir que una piedra es oro no altera la composición química de la piedra",
+      "grado_de_refutacion": "total",
+      "notas": "Diferencia entre proposición performativa y descriptiva en el uso lingüístico"
+    },
+    {
+      "afirmacion_refutada": "El lenguaje siempre puede modificar lo que describe",
+      "descripcion": "Lenguaje poético puede modificar la percepción subjetiva de un objeto sin alterar su estructura objetiva",
+      "grado_de_refutacion": "parcial",
+      "notas": "Diferenciación entre plano fenomenológico e intervención material"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En contextos sociales, declaraciones lingüísticas pueden cambiar estados de cosas (ej. sentencias legales, diagnósticos médicos)",
+      "inferencia": "El lenguaje tiene potencial transformador en esferas socio-simbólicas",
+      "grado_de_confianza": "alto",
+      "notas": "Válido bajo reglas institucionales y convenciones compartidas"
+    },
+    {
+      "patron_observado": "Cambios subjetivos (autoafirmaciones) a veces modifican conductas por intermediación lingüística",
+      "inferencia": "El lenguaje puede modificar procesos internos cuando media la acción sobre sí mismo",
+      "grado_de_confianza": "medio",
+      "notas": "Depende de la disposición y plasticidad del agente"
+    },
+    {
+      "patron_observado": "La denominación errónea de objetos físicos rara vez altera su composición física",
+      "inferencia": "El lenguaje es incapaz de modificar sustancialmente ciertos referentes extramentales",
+      "grado_de_confianza": "alto",
+      "notas": "Excepción: efectos cuánticos a nivel teórico (aún especulativos en relación al lenguaje ordinario)"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El lenguaje posee una dualidad: puede modificar realidades simbólicas, sociales y subjetivas, pero su poder transformador directo sobre lo físico está mediado o es nulo. La performatividad lingüística depende del contexto, el referente y la relación sujeto-objeto-palabra.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El lenguaje siempre puede modificar lo que describe (en cualquier caso)",
+        0,
+        1,
+        0
+      ],
+      [
+        "El lenguaje puede modificar en contextos simbólicos o sociales",
+        1,
+        0,
+        0
+      ],
+      [
+        "El lenguaje puede modificar objetos materiales directamente",
+        0,
+        1,
+        0
+      ],
+      [
+        "El lenguaje puede modificar percepciones internas",
+        1,
+        0,
+        0
+      ],
+      [
+        "El lenguaje puede modificar lo que describe bajo condiciones performativas",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Cuanto más crees en el lenguaje como herramienta de transformación, más real se vuelve su efecto (auto-cumplimiento), aunque permanece impotente en lo puramente físico",
+    "ambiguedad": "Límites difusos entre lenguaje como descripción, como ejecución y como co-creador de realidades",
+    "contradiccion_util": "El lenguaje puede ser tanto una fotografía (que describe) como un pincel (que cambia) según el campo de aplicación"
+  },
+  "reorganizacion_analoga": [
+    "Como el conjuro de un mago: a veces hace magia real (transforma), otras veces es solo cuento",
+    "Como el software sobre hardware: el código (lenguaje) puede cambiar el estado del sistema, pero no la materia del circuito",
+    "Como una orden en un juego: modifica el curso del juego, pero no la naturaleza física de los jugadores"
+  ],
+  "implicacion_transformadora": [
+    "use el lenguaje consciente de su doble filo: como herramienta de descripción y de acción performativa; no confundir el cambio real con el cambio de sentido.",
+    "aceptar los límites del lenguaje invita a la humildad epistémica y al desarrollo de herramientas materialmente efectivas complementarias."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "La refutación de la universalidad de la afirmación por contraejemplo material y conceptual invalida su forma absolutista"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "nodo_semantico_de_entrada": "Toda inestabilidad absoluta es autoreferencialmente paradójica (en sistemas no autoreferenciales)",
+  "nodo_semantico_central": "Inestabilidad absoluta como paradoja autoreferencial en sistemas no autoreferenciales",
+  "firma_ontologica": {
+    "naturaleza": "Principio lógico/ontológico condicional",
+    "funcion": "Delimitar el estatuto de la inestabilidad absoluta mediante la autoreferencia y la paradoja",
+    "dominio": "Lógica, teoría de sistemas, epistemología",
+    "forma": "Condicional, bucle lógico",
+    "tension": "Apela a la autoreferencia en un contexto explícitamente no autoreferencial; genera un cortocircuito conceptual",
+    "limite": "Colapsa en la imposibilidad de la autoreferencia fuera del sistema que lo permite"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "inestabilidad absoluta",
+      "definicion": "Estado de un sistema en el que toda configuración tiende al cambio sin posibilidad de fijación"
+    },
+    {
+      "termino": "autoreferencia",
+      "definicion": "Propiedad de un sistema para referirse a sí mismo dentro de su propia estructura"
+    },
+    {
+      "termino": "paradoja",
+      "definicion": "Estructura en la que una afirmación se contradice al ser aplicada en el mismo sistema"
+    },
+    {
+      "termino": "sistema no autoreferencial",
+      "definicion": "Conjunto cuyas operaciones y significados no pueden tomar como argumento su propia totalidad"
+    }
+  ],
+  "transduccion_preconceptual": "Imagínate un juego en el que ninguna regla puede hablar sobre el propio juego. Si intentas hacer una regla que diga que las reglas nunca pueden quedarse quietas, esa regla empieza a romperse porque intenta mirarse en un espejo que no existe en ese juego.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Toda inestabilidad absoluta es autoreferencialmente paradójica (en sistemas no autoreferenciales)",
+      "subnodo": "Afirmación autoreferencial fuera del marco",
+      "contexto": "¿Puede existir una paradoja autoreferencial en sistemas que niegan la autoreferencia?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación parece incoherente: asume la autoreferencia en un contexto que la prohíbe. No es completamente falsa: puede generar dinámicas paradójicas desde la perspectiva externa, pero no desde el sistema mismo."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definiciones clásicas de autoreferencia/sistemas formales",
+      "conclusion": "Un sistema no autoreferencial no puede expresar formalmente paradojas autoreferenciales dentro de sí.",
+      "notas": "Las paradojas pueden emerger sólo desde la perspectiva metateórica o externa al sistema."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda inestabilidad absoluta es autoreferencialmente paradójica (en sistemas no autoreferenciales)",
+      "descripcion": "Existen sistemas caóticos (ej. Ecuaciones diferenciales no lineales) que son absolutamente inestables pero no generan paradojas binarias autoreferenciales, sino evoluciones impredecibles.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La paradoja es un fenómeno lógico, no necesariamente físico o dinámico."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En lógica formal, los sistemas evitan la paradoja restringiendo la autoreferencia.",
+      "inferencia": "La autoreferencia es condición fundamental para la generación de paradojas tipo Russell, liar, etc.",
+      "grado_de_confianza": "alto",
+      "notas": "Las paradojas autoreferenciales requieren intencionalmente romper la frontera del sistema."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La inestabilidad absoluta dentro de sistemas no autoreferenciales no puede formalizarse como paradoja autoreferencial; la paradoja sólo emerge metacontextualmente. La inestabilidad puede ser caótica o dinámica, pero formalmente no autocontradictoria dentro del sistema.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda inestabilidad absoluta es autoreferencialmente paradójica (en sistemas no autoreferenciales)",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Intentar aplicar una lógica autoreferencial en ausencia de la autoreferencia: genera bucles de imposibilidad expresiva.",
+    "ambiguedad": "¿De dónde emerge la paradoja si el sistema es incapaz de referirse a sí mismo?",
+    "contradiccion_util": "La afirmación revela la frontera entre lo que un sistema puede enunciar sobre sí o sobre su inestabilidad: la paradoja ayuda a entender el límite de la autoreferencia."
+  },
+  "reorganizacion_analoga": [
+    "Como intentar describir la sombra de un objeto en un mundo sin luz: el concepto nace fuera de las condiciones dadas.",
+    "Como una función recursiva invocada en un lenguaje sin soporte de recursión.",
+    "Como buscar el infinito dentro de un espacio estrictamente finito."
+  ],
+  "implicacion_transformadora": [
+    "El estudio de la inestabilidad debe distinguir entre caos (dinámica impredecible) y paradoja (incoherencia formal).",
+    "La autoreferencia es umbral lógico: fuera de ella, la inestabilidad no genera paradoja, sino diversidad o caos.",
+    "Afirmaciones sobre límites deben distinguir entre el contexto interno (formal) y externo (metaformal)."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición sólo cobra sentido pleno fuera del sistema analizado, manteniendo su valor como detector de fronteras lógicas pero no como enunciado estrictamente verdadero o falso dentro del sistema."
+  }
+}

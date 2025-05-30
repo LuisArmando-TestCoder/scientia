@@ -1,0 +1,125 @@
+{
+  "nodo_semantico_de_entrada": "Segmentos completos en sistemas mal definidos",
+  "nodo_semantico_central": "Completitud parcial dentro de la indefinición",
+  "firma_ontologica": {
+    "naturaleza": "propiedad emergente",
+    "funcion": "Explorar la coexistencia de integridad parcial en la ausencia de estructura reconocible",
+    "dominio": "teoría de sistemas, lógica, ontología estructural",
+    "forma": "fragmento-local, red de discontinuidades",
+    "tension": "Coexistencia de orden local y desorden global; integración limitada frente a caos generalizado",
+    "limite": "Sujeto a la definición contextual de 'segmento', 'completo' y 'mal definido'; límite fundamental: irreducibilidad computacional en algunos sistemas"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Segmento",
+      "definicion": "Parte comprensible o delimitada dentro de un sistema mayor"
+    },
+    {
+      "termino": "Completo",
+      "definicion": "Contención de todos los elementos necesarios o de una función acabada, a escala local"
+    },
+    {
+      "termino": "Sistema mal definido",
+      "definicion": "Conjunto de componentes sin reglas claras, límites difusos o axiomas inconsistentes"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes una caja llena de piezas que nadie sabe para qué son, pero encuentras un grupo que juntos forman un pequeño juego que sí entiendes y puedes usar, aunque el resto siga siendo un misterio.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Puede haber segmentos completos en sistemas mal definidos",
+      "subnodo": "Integridad local emergente",
+      "contexto": "Sistemas caóticos, conjuntos ambiguos, estructuras matemáticas no formalizadas"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "¿Todo sistema mal definido debe tener al menos un subsegmento completo?",
+      "subnodo": "Segmentación obligatoria",
+      "contexto": "Excepcionalidad y necesidad existencial de segmentos completos"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación depende de definiciones contextuales y puede ser verdadera en algunos ejemplos, falsa en otros, existiendo una tensión entre la posibilidad local y el desorden global."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de sistema mal definido",
+      "conclusion": "La completitud sólo puede ser localizada; el todo sigue siendo ambiguo",
+      "notas": "Requiere una operación de corte local y criterio externo de completa funcionalidad"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Puede haber segmentos completos en sistemas mal definidos",
+      "descripcion": "Un sistema mal definido totalmente caótico sin ninguna regla ni patrón local reconocible (ruido puro)",
+      "grado_de_refutacion": "total",
+      "notas": "Si la complejidad es máxima y no hay atributos identificables, tampoco puede haber segmentos completos"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En sistemas biológicos caóticos, suelen emerger órganos funcionales localmente bien definidos incluso cuando el entorno celular es ambiguo.",
+      "inferencia": "La localización de orden es plausible como principio emergente",
+      "grado_de_confianza": "alto",
+      "notas": "Generalizable a sistemas naturales y sociales"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "En sistemas con definición global débil, la aparición de segmentos completos depende de la posibilidad de circunscribir subsistemas localmente estructurados. La completitud local es contingente, no necesaria.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Puede haber segmentos completos en sistemas mal definidos",
+        1,
+        0,
+        0
+      ],
+      [
+        "Todo sistema mal definido contiene segmentos completos",
+        0,
+        1,
+        0
+      ],
+      [
+        "No puede haber segmentos completos en sistemas mal definidos",
+        0,
+        1,
+        0
+      ],
+      [
+        "Puede haber sistemas mal definidos sin segmentos completos",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Completitud parcial dentro de la indefinición global: ¿puede un todo informe contener orden local sin que ello implique estructura en el sistema mayor?",
+    "ambiguedad": "La definición operativa de 'segmento' y 'completo' varía según el observador y el propósito",
+    "contradiccion_util": "El caos total puede no albergar sectores ordenados, pero la mayoría de los sistemas mal definidos permiten islas funcionales. Esta contradicción estimula nuevas teorías sobre la emergencia del orden."
+  },
+  "reorganizacion_analoga": [
+    "Islas de vida en el océano abiótico",
+    "Órganos funcionales en organismos enfermos",
+    "Reglas locales en autómatas celulares caóticos",
+    "Subprogramas correctos en software defectuoso",
+    "Narrativas coherentes en textos fragmentados"
+  ],
+  "implicacion_transformadora": [
+    "La búsqueda de integridad no requiere sistemas globalmente bien definidos: la epistemología puede extraer conocimientos útiles de parcialidades.",
+    "La metodologías de análisis deben adaptarse a la fragmentación y a la emergencia local dentro del caos.",
+    "El diseño de sistemas y políticas puede priorizar la construcción de sectores completos sin esperar la perfección sistémica.",
+    "La inteligencia artificial podría entrenar sobre patrones locales consistentes dentro de datos globalmente ambiguos."
+  ],
+  "reevaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "La completitud local es un fenómeno real en la mayoría de los sistemas confusos; la afirmación es verdadera de manera contingente y con excepciones límites"
+  }
+}

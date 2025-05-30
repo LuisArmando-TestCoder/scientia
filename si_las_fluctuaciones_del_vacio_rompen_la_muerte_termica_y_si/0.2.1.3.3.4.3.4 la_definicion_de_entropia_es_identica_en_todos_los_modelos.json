@@ -1,0 +1,148 @@
+{
+  "nodo_semantico_de_entrada": "La definición de entropía es idéntica en todos los modelos",
+  "nodo_semantico_central": "Identidad semántica de entropía entre modelos",
+  "firma_ontologica": {
+    "naturaleza": "afirmación epistemológica comparativa",
+    "funcion": "Evaluar la invariancia semántica del concepto de entropía en teorías y modelos",
+    "dominio": "termodinámica, teoría de la información, epistemología científica",
+    "forma": "comparación transversal (entre marcos formales)",
+    "tension": "equivalencia semántica absoluta vs. diversidad modelar contextual",
+    "limite": "La definición está sujeta a los axiomas y propósitos del modelo"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "entropía",
+      "definicion": "Medida de desorden, incertidumbre o número de microestados posibles en un sistema (físico, informacional, probabilístico)."
+    },
+    {
+      "termino": "modelos",
+      "definicion": "Sistemas formales, conceptuales o matemáticos que representan fenómenos, axiomas, o contextos particulares."
+    },
+    {
+      "termino": "idéntica",
+      "definicion": "Propiedad de ser la misma en esencia, forma o función, sin variar por contexto."
+    },
+    {
+      "termino": "definición",
+      "definicion": "Delimitación precisa, funcional o descriptiva de un concepto en un sistema."
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que todos tienen una caja de bloques, pero cada caja tiene reglas diferentes para contar los bloques. Aunque todos usan la palabra 'desorden', cada quien cuenta de una manera un poco distinta, y a veces los bloques valen más o menos según el juego.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La definición de entropía es idéntica en todos los modelos",
+      "subnodo": "Equivalencia contextual",
+      "contexto": "Comparar si la función, no sólo la fórmula, es la misma entre termodinámica y teoría de la información"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La definición de entropía es idéntica en todos los modelos",
+      "subnodo": "Divergencia funcional",
+      "contexto": "Caso en el que entropía mide desorden físico (termodinámica) frente a incertidumbre de información (Shannon)"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "La definición de entropía es idéntica en todos los modelos",
+      "subnodo": "Invarianza estructural parcial",
+      "contexto": "Buscar una estructura matemática (función logarítmica de probabilidades) común entre definiciones, aunque los significados varíen"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "falso",
+    "criterio": "Existen contextos (físico vs. informacional vs. probabilístico) en donde la definición formal comparte estructura, pero el significado y función varían; por tanto, la definición no es estrictamente idéntica"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición formal en termodinámica y teoría de la información",
+      "conclusion": "Ambas usan suma logarítmica sobre probabilidades, pero interpretan la variable de modo diferente (microestados físicos vs. mensajes plausible)",
+      "notas": "La coincidencia matemática no presupone identidad semántica."
+    },
+    {
+      "origen": "Afirmación absolutista",
+      "conclusion": "Si bastara compartir fórmula para compartir definición, los diferentes usos (desorden físico, incertidumbre informacional, entropía topológica) quedarían trivializados.",
+      "notas": "La identidad requiere equivalencia de interpretación y función, no solo de expresión formal."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La definición de entropía es idéntica en todos los modelos",
+      "descripcion": "En la termodinámica de Boltzmann, entropía mide microestados físicos; en Shannon, mide incertidumbre en mensajes.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Ambas utilizan H = -∑p log p, pero los objetos de p (microestados vs. mensajes) no se corresponden ontológicamente."
+    },
+    {
+      "afirmacion_refutada": "La definición de entropía es idéntica en todos los modelos",
+      "descripcion": "En la teoría de conjuntos borrosos, existen generalizaciones de entropía que pierden conexión directa con microestados o información.",
+      "grado_de_refutacion": "total",
+      "notas": "La extensión del término ‘entropía’ en modelos no tradicionales muestra ruptura de identidad semántica."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "La palabra 'entropía' es adoptada por diversas disciplinas para medir desorden, incertidumbre o aleatoriedad.",
+      "inferencia": "El concepto sufre transformaciones contextuales adaptadas al propósito de cada campo.",
+      "grado_de_confianza": "alto",
+      "notas": "La polisemia funcional es constante en casos revisados interdisciplinariamente."
+    },
+    {
+      "patron_observado": "Diversos manuales y papers recalcan la diferencia de interpretación del término entre física, matemática e información.",
+      "inferencia": "La definición suele adaptarse, y nunca es estrictamente idéntica al migrar de modelo.",
+      "grado_de_confianza": "medio",
+      "notas": "Quedan núcleos estructurales comunes, pero la función primaria cambia."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La entropía es un arquetipo formal cuya función semántica se especializa por el axioma fundacional del modelo en uso. Su identidad depende de la función, no de la manifestación algebraica.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La definición de entropía es idéntica en todos los modelos",
+        0,
+        1,
+        0
+      ],
+      [
+        "La estructura matemática de la definición de entropía es similar en algunos modelos",
+        1,
+        0,
+        0
+      ],
+      [
+        "La función semántica de la entropía varía entre modelos",
+        1,
+        0,
+        0
+      ],
+      [
+        "Puede absolutamente trasladarse la definición entre modelos sin pérdida de sentido",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "¿Puede una función ser 'la misma' si su significado depende del contexto y del dominio?",
+    "ambiguedad": "¿Qué umbral de identidad distingue entre similitud formal y equivalencia semántica?",
+    "contradiccion_util": "Fórmulas idénticas pueden dar cuenta de sentidos divergentes según los axiomas del modelo; el isomorfismo formal no garantiza la identidad de significado."
+  },
+  "reorganizacion_analoga": [
+    "La palabra ‘energía’ en física (capacidad de hacer trabajo) vs. ‘energía’ en economía (valor de recursos); misma palabra, función contextual distinta.",
+    "El símbolo pi (π) como razón de circunferencia y diámetro vs. constante de probabilidad en estadística: símbolo común, sentido ajustado al campo."
+  ],
+  "implicacion_transformadora": [
+    "El uso de conceptos heredados entre disciplinas exige una revisión ontológica en cada traducción. La copia de fórmulas no puede sustituir la exploración de sentido contextual.",
+    "Identificar el núcleo formal de un concepto no es suficiente para asumir su transferibilidad total: la función debe ser reconstituida semánticamente en cada sistema.",
+    "Cultivar conciencia epistémica de los límites y oportunidades de las analogías matemáticas entre ramas del conocimiento."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "Contraejemplos y divergencias funcionales impiden afirmar la identidad universal de la definición de entropía en todos los modelos; la similitud estructural se reconoce, pero no soporta la conclusión absolutista."
+  }
+}

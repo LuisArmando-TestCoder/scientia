@@ -1,0 +1,139 @@
+{
+  "nodo_semantico_de_entrada": "Universalidad de las leyes físicas",
+  "nodo_semantico_central": "Ley física como principio universal absoluto",
+  "firma_ontologica": {
+    "naturaleza": "principio (afirmación ontológica)",
+    "funcion": "afirmar la validez sin excepción de las leyes físicas en cualquier contexto posible",
+    "dominio": "física fundamental, ontología, filosofía de la ciencia",
+    "forma": "axioma universalista",
+    "tension": "absolutismo vs. existencia de contraejemplos empíricos y límites epistemológicos",
+    "limite": "vulnerable a refutación empírica o conceptual por observaciones que contradigan la universalidad"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "ley física",
+      "definicion": "regla o principio que describe patrones o regularidades observados en la naturaleza"
+    },
+    {
+      "termino": "universalidad",
+      "definicion": "aplicación sin excepción, en todo tiempo, lugar y circunstancia"
+    },
+    {
+      "termino": "perfectamente",
+      "definicion": "sin desviación, excepción o límite; absoluto"
+    }
+  ],
+  "transduccion_preconceptual": "Es como decir que las reglas del juego nunca, nunca cambian, no importa en qué parte del universo juegues ni con quién juegues, aunque a veces parece que encuentras trampas o errores en el tablero.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Toda ley física es perfectamente universal",
+      "subnodo": "Existencia de excepciones observacionales",
+      "contexto": "¿Hay observaciones o experimentos que no encajan en las leyes conocidas?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Toda ley física es perfectamente universal",
+      "subnodo": "Límites epistemológicos y constructos teóricos",
+      "contexto": "¿Podemos definir con certeza que nuestras leyes cubren todos los escenarios posibles, incluso los aún no observados?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Toda ley física es perfectamente universal",
+      "subnodo": "Naturaleza mutable o emergente de las leyes",
+      "contexto": "¿Las leyes son inmutables o evolucionan con nuevos paradigmas científicos?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "falso",
+    "criterio": "Existen ejemplos y argumentos que muestran límites a la universalidad de las leyes físicas, tanto por experimentos (anómalos, extremos), como por consideraciones epistemológicas (desconocimiento de todas las condiciones posibles)."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de ley física y universalidad",
+      "conclusion": "Si una excepción empírica válida existe, anula la universalidad perfecta.",
+      "notas": "Basta un contraejemplo para demostrar la no-universalidad absoluta."
+    },
+    {
+      "origen": "Axioma de evolución teórica",
+      "conclusion": "Las leyes pueden ser revisadas o reconfiguradas ante fenómenos nuevos.",
+      "notas": "La historia de la física avala cambios de paradigma."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda ley física es perfectamente universal",
+      "descripcion": "Constantes físicas cambiantes (por ejemplo, la hipótesis de variabilidad de la constante gravitacional en el tiempo cósmico) o excepciones cuánticas/macro: efectos cuánticos que sobrepasan leyes clásicas.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Aunque las leyes parecen universales en gran escala, han sido refinadas o reformuladas con nuevos datos."
+    },
+    {
+      "afirmacion_refutada": "Toda ley física es perfectamente universal",
+      "descripcion": "Situaciones de frontera (singularidades, condiciones extremas) donde las leyes conocidas dejan de aplicarse o necesitan extenderse (ej.: gravedad clásica vs. relatividad vs. gravedad cuántica).",
+      "grado_de_refutacion": "parcial",
+      "notas": "Abre la puerta a leyes 'locales' o contextuales."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Revisión repetida de leyes físicas cuando surgen datos anómalos",
+      "inferencia": "Las leyes son en su mayoría robustas pero no infalibles ni absolutamente universales",
+      "grado_de_confianza": "alto",
+      "notas": "Consistencia histórica en la revisión de leyes."
+    },
+    {
+      "patron_observado": "Fenómenos extremos fuera del rango de la física clásica",
+      "inferencia": "La universalidad perfecta es una aproximación pragmática, no un hecho absoluto.",
+      "grado_de_confianza": "medio",
+      "notas": "La física de frontera aún no está completa."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La universalidad de las leyes físicas es siempre provisional y dependiente del rango de validez experimental y conceptual; puede colapsar ante excepciones, requiriendo adaptación continua.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda ley física es perfectamente universal (en todo contexto)",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunas leyes físicas son válidas solo en ciertos contextos",
+        1,
+        0,
+        0
+      ],
+      [
+        "Nuestra comprensión puede abarcar todas las condiciones del universo físico",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Leyes físicas que dejan de ser universales en el límite de nuevos conocimientos (el absolutismo lleva al cambio).",
+    "ambiguedad": "¿Qué define el alcance geográfico, temporal o contextual de una 'ley física'?",
+    "contradiccion_util": "Lo que se define como ley universal hoy puede volverse aproximación mañana: la contradicción impulsa la revisión científica."
+  },
+  "reorganizacion_analoga": [
+    "Como una receta que necesita ajustarse según la altitud o el clima.",
+    "Como la gramática de un idioma, que cambia con nuevos dialectos o contextos.",
+    "Como axiomas matemáticos reformulados ante geometrías no-euclidianas."
+  ],
+  "implicacion_transformadora": [
+    "Evitar el dogmatismo en ciencias físicas; la apertura epistémica debe guiar la interpretación de leyes.",
+    "La universalidad perfecta funciona como ideal regulativo, no como verdad verificada.",
+    "El método científico debe incorporar activamente herramientas para detectar, analizar y asimilar excepciones o límites."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "Paradojas encontradas, revisión histórica y contraejemplos muestran que la universalidad perfecta es un ideal, no una condición real."
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "nodo_semantico_de_entrada": "La entropía sólo puede aumentar en todos los modelos cosmológicos.",
+  "nodo_semantico_central": "Entropía creciente universal",
+  "firma_ontologica": {
+    "naturaleza": "principio físico universalizado",
+    "funcion": "limitar o direccionar la evolución de sistemas en escalas cosmológicas",
+    "dominio": "termodinámica, cosmología, lógica modal",
+    "forma": "flecha temporal/dogma generativista",
+    "tension": "universalidad vs. contraejemplo",
+    "limite": "refutabilidad empírica; dependencia de marco teórico y definición de 'aumento de entropía'"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "entropía",
+      "definicion": "medida del desorden o número de formas de organizar un sistema, vinculada a la probabilidad y la información"
+    },
+    {
+      "termino": "aumento",
+      "definicion": "proceso de cambio en una sola dirección cuantitativamente creciente"
+    },
+    {
+      "termino": "modelo cosmológico",
+      "definicion": "teoría o narración matemática sobre la historia, dinámica y geometría del universo"
+    },
+    {
+      "termino": "todos",
+      "definicion": "universalidad afirmada; aplicación sin excepción a cada posible caso dentro de un dominio"
+    }
+  ],
+  "transduccion_preconceptual": "Cuando pones bloques de colores ordenados en una caja y la agitas, los bloques se acomodan al azar y nunca vuelven a estar perfectamente alineados solos. La frase dice que no importa la caja ni cuántos bloques tengas, siempre quedarán más revueltos si la agitas.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "la entropía sólo puede aumentar en todos los modelos cosmológicos",
+      "subnodo": "universalidad del crecimiento entrópico",
+      "contexto": "Es posible que un modelo cosmológico presente ciclos entrópicos decrecientes (p.ej. universos oscilantes o ekpiróticos), ¿lo permite la física?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "la entropía sólo puede aumentar",
+      "subnodo": "irreversibilidad universalizada",
+      "contexto": "¿Existen condiciones límite, fluctuaciones o mecanismos de reversibilidad temporal en algún marco teórico (p. ej. mecánica cuántica o relatividad)?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Presencia de contraejemplos y modelos con ciclos; absolutismo refutable. Depende del marco y definición operativa."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "segunda ley de la termodinámica",
+      "conclusion": "La entropía de sistemas cerrados tiende a incrementarse globalmente.",
+      "notas": "No necesariamente universal para todos los posibles modelos cosmológicos; posible reversión local o fluctual bajo ciertas condiciones exóticas."
+    },
+    {
+      "origen": "modelo estándar del Big Bang",
+      "conclusion": "El universo observable muestra aumento de entropía desde un estado inicial ordenado (baja entropía).",
+      "notas": "No descarta fases anteriores desconocidas ni modelos alternativos."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La entropía sólo puede aumentar en todos los modelos cosmológicos.",
+      "descripcion": "Modelos cosmológicos cíclicos (universo oscilante): después de una contracción (big crunch), la entropía podría teóricamente resetearse en la siguiente expansión, dependiendo de las condiciones límite y de la física cuántica de la gravedad. El universo ekpirótico, modelos de universo rebotante y teorías de fluctuaciones entrópicas (Boltzmann brains) también ponen en cuestión el sentido absoluto.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Depende de interpretaciones de las condiciones de frontera y de la validez de la hipótesis sobre reset entrópico. En todos los modelos estándar en los que la segunda ley rige sin excepción, la frase es verdadera; pero no es cierta para todo posible modelo físico concebible."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En el universo observable, todos los procesos macroscópicos estudiados empíricamente muestran crecimiento entrópico a escala global.",
+      "inferencia": "Es muy probable que el aumento de entropía sea la norma en escenarios realistas.",
+      "grado_de_confianza": "alto",
+      "notas": "No asegura ausencia total de excepciones en escalas o contextos no observables."
+    },
+    {
+      "patron_observado": "La física moderna tiende a extrapolar leyes descubiertas localmente al universo total.",
+      "inferencia": "Las reglas locales podrían no aplicarse de forma absoluta en cuanto al todo.",
+      "grado_de_confianza": "medio",
+      "notes": "Advertencia metodológica sobre inferencias fuera del alcance empírico."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La tendencia al aumento de la entropía es robusta empíricamente pero no puede elevarse a ley absoluta para 'todos los modelos cosmológicos' sin excepciones; cualquier intento de universalización absoluta se encuentra con contraejemplos teóricos e indefiniciones sobre condiciones de frontera.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La entropía sólo puede aumentar en todos los modelos cosmológicos.",
+        0,
+        1,
+        0
+      ],
+      [
+        "La entropía tiende a aumentar en la mayoría de los modelos cosmológicos estándar.",
+        1,
+        0,
+        0
+      ],
+      [
+        "Existen modelos cosmológicos en los que la entropía disminuye en alguna fase.",
+        1,
+        0,
+        0
+      ],
+      [
+        "La afirmación es absoluta y no admite excepción.",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Si no se puede observar el pasado anterior al Big Bang, desconocemos si la entropía pudo haber sido más alta y decrecido en una fase prepandémica o cíclica.",
+    "ambiguedad": "'Aumentar' puede ser ambiguo en universos sin dirección temporal definida, o con ciclos.",
+    "contradiccion_util": "El absolutismo genera crítica fructífera sobre los límites epistemológicos de las leyes físicas y su extrapolación."
+  },
+  "reorganizacion_analoga": [
+    "Como un reloj de arena que siempre cae hacia abajo, salvo que alguien le dé la vuelta (universos cíclicos).",
+    "Como una película que siempre se ve hacia adelante, salvo que exista una sala alternativa donde se invierta la proyección.",
+    "Como cadenas de ADN que solo se degradan, a menos que existan enzimas que reemplacen información perdida (intervención o reinicio)."
+  ],
+  "implicacion_transformadora": [
+    "Desafía la tendencia al absolutismo en leyes físicas, promoviendo una epistemología abierta a contraejemplos y revisión.",
+    "Invita a la exploración de modelos alternativos y a la revisión crítica de los supuestos globales sobre los sistemas cerrados.",
+    "Refuerza la importancia de los bordes de aplicabilidad y de los límites observables en la formulación de teorías universales."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No hay justificación absoluta para universalizar la afirmación en todos los escenarios posibles; la presencia de contraejemplos posibles y el carácter abierto de la cosmología actual hacen que el estado, tras colapsar ambigüedades y analizar contraejemplos, permanezca indefinido; la tendencia empírica es fuerte pero no lógica ni ontológicamente incondicionada."
+  }
+}

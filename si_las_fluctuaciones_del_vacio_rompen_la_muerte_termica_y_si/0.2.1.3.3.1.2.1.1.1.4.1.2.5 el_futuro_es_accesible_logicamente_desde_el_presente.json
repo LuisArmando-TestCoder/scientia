@@ -1,0 +1,143 @@
+{
+  "nodo_semantico_de_entrada": "El futuro es accesible lógicamente desde el presente",
+  "nodo_semantico_central": "Accesibilidad lógica del futuro desde el presente",
+  "firma_ontologica": {
+    "naturaleza": "relación conceptual-proposicional",
+    "funcion": "Vincular temporalidades mediante inferencia lógica",
+    "dominio": "epistemología del tiempo y lógica modal temporal",
+    "forma": "bucle entre presente y posibilidades futuras",
+    "tension": "paradoja entre determinismo y contingencia",
+    "limite": "indeterminación ontológica del futuro"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "futuro",
+      "definicion": "Conjunto de estados o eventos que podrían ocurrir tras un momento dado (presente)"
+    },
+    {
+      "termino": "presente",
+      "definicion": "Instante actual de referencia desde el cual se realiza inferencia"
+    },
+    {
+      "termino": "accesible lógicamente",
+      "definicion": "Posible de ser deducido, anticipado o inferido por reglas o estructuras formales"
+    },
+    {
+      "termino": "desde",
+      "definicion": "Relación de partida de inferencia o perspectiva temporal"
+    }
+  ],
+  "transduccion_preconceptual": "Como mirar un camino en el bosque: desde donde estoy, puedo imaginar por dónde sigue, pero no puedo saber si un árbol bloquea el paso más adelante. Puedo adivinar, pero no ver.",
+  "iteraciones": [
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "El futuro es accesible lógicamente desde el presente",
+      "subnodo": "Indeterminación lógica del futuro",
+      "contexto": "¿Toda la información presente permite deducir todas las posibilidades futuras? Considerar sistemas caóticos y la irreductibilidad computacional."
+    },
+    {
+      "id": "1.1.2",
+      "afirmacion_base": "El futuro es accesible lógicamente desde el presente",
+      "subnodo": "Accesibilidad modal",
+      "contexto": "Diferenciar entre acceso en términos de lógica modal (posibilidad, necesidad) y predicción determinista."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición asume que el futuro puede ser inferido, pero existen límites formales (irreductibilidad, caos, falta de información completa, azar cuántico)."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Lógica determinista (causal clásica)",
+      "conclusion": "Si el universo es determinista y toda la info presente es conocida, el futuro puede inferirse.",
+      "notas": "Sólo válido bajo premisas de determinismo estricto y conocimiento total; rara vez se cumple en sistemas complejos o abiertos."
+    },
+    {
+      "origen": "Lógica modal y sistemas caóticos",
+      "conclusion": "Hay futuros posibles accesibles condicionalmente, pero no necesariamente deducibles efectivamente.",
+      "notas": "La falta de información total limita la accesibilidad lógica real."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El futuro es accesible lógicamente desde el presente (universalmente)",
+      "descripcion": "El clima es caótico: pequeñas variaciones no observables hacen que la predicción se vuelva rápidamente imposible.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Esto muestra que existen dominios donde la inferencia lógica falla por sensibilidad a condiciones iniciales."
+    },
+    {
+      "afirmacion_refutada": "El futuro es accesible lógicamente desde el presente (sin excepción)",
+      "descripcion": "Principio de incertidumbre cuántica: hay eventos futuros cuya probabilidad solo puede describirse estadísticamente, no causalmente.",
+      "grado_de_refutacion": "total",
+      "notas": "Refutación fuerte en física fundamental."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "A menudo se pueden predecir tendencias generales (como el movimiento de un tren que no frena), pero ocurren sorpresas por variables ignoradas.",
+      "inferencia": "El acceso lógico al futuro suele ser parcial y depende del sistema en cuestión.",
+      "grado_de_confianza": "medio",
+      "notas": "Funciona en contexto de regularidad; falla en sistemas dominados por azar o alta sensibilidad."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El futuro puede ser parcialmente accesible lógicamente desde el presente en dominios de baja complejidad o alta regularidad, pero existen límites epistémicos y ontológicos (caos, azar). Toda afirmación absoluta sobre la accesibilidad lógica al futuro debe reducirse a dominios o condiciones particulares.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El futuro es accesible lógicamente desde el presente en sistemas deterministas y cerrados",
+        1,
+        0,
+        0
+      ],
+      [
+        "El futuro es accesible lógicamente desde el presente en sistemas caóticos o abiertos",
+        0,
+        1,
+        0
+      ],
+      [
+        "El futuro es accesible lógicamente desde el presente en física cuántica",
+        0,
+        1,
+        0
+      ],
+      [
+        "El futuro es accesible lógicamente desde el presente (universalmente)",
+        0,
+        0,
+        1
+      ],
+      [
+        "El futuro es parcialmente accesible lógicamente desde el presente",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La afirmación presupone un continuum causal, pero la realidad muestra eventos impredecibles, lo que fractura la cadena deducible.",
+    "ambiguedad": "¿Se refiere a posibilidad modal ('puede llegar a ser') o inferibilidad efectiva ('se puede deducir')?",
+    "contradiccion_util": "La necesidad humana de predecir genera sistemas conceptuales que se enfrentan al límite objetivo de la predicción, fertilizando nuevas epistemologías."
+  },
+  "reorganizacion_analoga": [
+    "Es como intentar adivinar la melodía de una canción oyendo solo la primera nota.",
+    "Es como programar un videojuego: conoces las reglas, pero no puedes prever todas las partidas posibles.",
+    "Como observar un río: su corriente es predecible en lo general, pero cada gota toma su propio camino."
+  ],
+  "implicacion_transformadora": [
+    "La humildad epistemológica ante el futuro: diseñar sistemas para adaptarse y no sólo para predecir.",
+    "Uso de probabilidades y escenarios múltiples para la toma de decisiones.",
+    "Adopción de la irreductibilidad como principio metodológico en ciencias complejas."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición, absolutizada, es insostenible; es parcialmente verdadera bajo restricciones específicas pero globalmente indeterminada debido a los límites caóticos y cuánticos de la realidad."
+  }
+}

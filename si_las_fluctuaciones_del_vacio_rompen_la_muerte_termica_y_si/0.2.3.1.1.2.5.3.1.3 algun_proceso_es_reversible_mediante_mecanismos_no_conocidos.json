@@ -1,0 +1,102 @@
+{
+  "nodo_semantico_de_entrada": "Algún proceso es reversible mediante mecanismos no conocidos",
+  "nodo_semantico_central": "Reversibilidad oculta en procesos",
+  "firma_ontologica": {
+    "naturaleza": "afirmación existencial parcial",
+    "funcion": "hipótesis de posibilidad sobre la reversibilidad bajo ignorancia mecanicista",
+    "dominio": "epistemología de la causalidad",
+    "forma": "algunismo con lagunas semánticas",
+    "tension": "Ignorancia mecanicista versus ontología de la reversibilidad; ambigüedad de lo posible frente a lo demostrable",
+    "limite": "irreductibilidad computacional si los mecanismos permanecen eternamente desconocidos"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "proceso",
+      "definicion": "Serie de cambios o transformaciones en un sistema con estados discernibles"
+    },
+    {
+      "termino": "reversible",
+      "definicion": "Capaz de volver a un estado inicial desde el final mediante algún conjunto de acciones inversas"
+    },
+    {
+      "termino": "algún",
+      "definicion": "Existencia parcial, no universal; al menos una instancia, sin saber cuántas"
+    },
+    {
+      "termino": "mecanismos no conocidos",
+      "definicion": "Conjunto de reglas, dinámicas o vías causales que aún no han sido identificadas ni descritas"
+    }
+  ],
+  "transduccion_preconceptual": "A veces, algo se puede deshacer igual que armar un rompecabezas, pero no sabemos cuál es el truco. Solo sabemos que, en algún lugar, alguien sí podría hacerlo aunque no hayamos visto cómo.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El mecanismo de reversibilidad es desconocido",
+      "subnodo": "Ignoramus reversivo",
+      "contexto": "¿Un proceso puede ser reversible aunque no sepamos el método?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No se prueba ni refuta universalidad, afirmación dependiente de existencia empírica o constructiva"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición de 'algún' + posibilidad lógica",
+      "conclusion": "Si existe al menos un proceso reversible por medios no conocidos, la afirmación es verdadera; si no existe ninguno, es falsa.",
+      "notas": "No es universal: se puede refutar por falta total de ejemplos, reafirmar por existencia demostrada"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todo proceso es reversible mediante mecanismos no conocidos",
+      "descripcion": "Procesos irreversibles (ej: aumento de entropía en sistemas cerrados, descomposición nuclear espontánea)",
+      "grado_de_refutacion": "total",
+      "notas": "Absolutización refutada; siempre existen procesos inherentemente irreversibles"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "A lo largo de la historia, procesos considerados irreversibles han sido revertidos al descubrirse nuevos mecanismos (ej: cicatrización genética, computación reversible, retrocausalidad en física cuántica)",
+      "inferencia": "Es plausible que existan más procesos reversibles cuyo mecanismo no se ha descubierto aún",
+      "grado_de_confianza": "medio",
+      "notas": "Basado en patrón empírico y límite del conocimiento actual"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La reversibilidad no es una propiedad solo del proceso, sino de la relación entre el conocimiento disponible y el sistema; la irreversibilidad puede ser epistémica, no ontológica.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Algún proceso es reversible mediante mecanismos no conocidos",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Un proceso aparentemente irreversible puede ser reversible si se expande el espacio de mecanismos conocidos, pero esto depende del observador y su epistemología",
+    "ambiguedad": "¿Qué umbral de conocimiento determina que un mecanismo deje de ser 'no conocido'?",
+    "contradiccion_util": "La afirmación sostiene su fuerza teórica justo en la incertidumbre: evoluciona en cuanto aparece un contraejemplo o caso positivo"
+  },
+  "reorganizacion_analoga": [
+    "Como un acertijo sin solución visible, hasta que se revela una nueva pista y el camino inverso se abre",
+    "Como un baúl cerrado cuyo contenido puede revertirse solo tras encontrar una llave desconocida",
+    "Como una función matemática inversible solo para ciertos subconjuntos aún no caracterizados"
+  ],
+  "implicacion_transformadora": [
+    "Adoptar el escepticismo metódico ante la irreversibilidad; abrir el marco heurístico para buscar mecanismos no convencionales en sistemas dados por irreversibles",
+    "Fomentar la exploración de horizontes de reversibilidad en física, biología y tecnología bajo un paradigma de ignorancia productiva",
+    "Reformular la ontología de procesos hacia una interpretación dependiente del espacio epistemológico disponible"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La resolución lógica es contingente y evolutiva: solo la aparición de un caso o contraejemplo mueve la verdad a verdadero o falso. Mientras, permanece en estado superpuesto"
+  }
+}

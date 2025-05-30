@@ -1,0 +1,130 @@
+{
+  "nodo_semantico_de_entrada": "Siempre la entropía aumenta",
+  "nodo_semantico_central": "Principio de aumento de entropía",
+  "firma_ontologica": {
+    "naturaleza": "ley física general / tendencia estadística",
+    "funcion": "describir la dirección fundamental de la transformación en sistemas aislados",
+    "dominio": "termodinámica, física estadística, filosofía del tiempo",
+    "forma": "flecha temporal, asimetría estadística, tendencia emergente",
+    "tension": "absolutismo vs. posibilidad de microexcepciones; escala global vs. local",
+    "limite": "solo para sistemas cerrados/macroscópicos; no garantiza comportamiento en trayectorias individuales"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "entropía",
+      "definicion": "Medida del desorden, número de formas en que los componentes de un sistema pueden organizarse"
+    },
+    {
+      "termino": "aumento",
+      "definicion": "Cambio neto positivo en el valor de una variable o propiedad"
+    },
+    {
+      "termino": "siempre",
+      "definicion": "Afirmación absoluta y universal en todos los casos posibles"
+    },
+    {
+      "termino": "sistema aislado",
+      "definicion": "Un sistema que no intercambia materia ni energía con el exterior"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina una habitación llena de bloques ordenados. Si alguien cierra la puerta y agita la habitación, los bloques casi siempre terminan esparcidos, no más ordenados. Es raro (pero posible) que por sí solos se ordenen otra vez.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La entropía siempre aumenta en cualquier sistema",
+      "subnodo": "Generalización total",
+      "contexto": "Afirmación absoluta a nivel universal, sin distinción de tipo de sistema ni condiciones."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La entropía puede disminuir localmente por fluctuaciones",
+      "subnodo": "Contraejemplo microestadístico",
+      "contexto": "En estadística, pequeñas regiones pueden experimentar disminución temporal."
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "La entropía macro aumenta casi siempre pero no siempre",
+      "subnodo": "Algunismo estadístico",
+      "contexto": "Indeterminismo a nivel fundamental, pero tendencia estadística abrumadora."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación absoluta es refutada por casos microestadísticos; a nivel práctico es casi cierta, pero no universal."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Segunda ley de la termodinámica",
+      "conclusion": "En sistemas aislados, la entropía tiende a incrementarse con el tiempo.",
+      "notas": "La ley es estadística, no determinista absoluta; fluctúa a escalas microscópicas."
+    },
+    {
+      "origen": "Definición de proceso reversible",
+      "conclusion": "Es posible concebir trayectorias donde la entropía disminuya, aunque son extremadamente improbables.",
+      "notas": "Validez solo en contextos ideales."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Siempre la entropía aumenta",
+      "descripcion": "En una caja de partículas, puede ocurrir que por azar todas terminen en una esquina (fluctuación termodinámica).",
+      "grado_de_refutacion": "parcial",
+      "notas": "Probabilidad de ocurrencia baja pero no nula; a escala cósmica o en tiempos casi infinitos."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En todos los experimentos cotidianos, el desorden (entropía) sí aumenta.",
+      "inferencia": "A nivel práctico y macroscópico, la dirección del tiempo es asociada al aumento de entropía.",
+      "grado_de_confianza": "alto",
+      "notas": "La experiencia del tiempo coincide con la tendencia estadística."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El aumento de la entropía es una ley estadística casi universal, pero no una imposibilidad absoluta de lo contrario. Los 'siempre' físicos son, en realidad, casi siempre.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Siempre la entropía aumenta (todos los sistemas, todo tiempo)",
+        0,
+        0,
+        1
+      ],
+      [
+        "La entropía casi siempre aumenta (macroscópicamente)",
+        1,
+        0,
+        0
+      ],
+      [
+        "Puede disminuir localmente (microscópico, fluctuaciones)",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El desorden aumenta necesariamente, pero en algunos casos el orden puede surgir espontáneamente por azar.",
+    "ambiguedad": "¿'Siempre' implica certeza absoluta o tendencia abrumadora?",
+    "contradiccion_util": "La violación improbable (micro) sostiene la robustez de la ley (macro); los extremos nutren la regla."
+  },
+  "reorganizacion_analoga": [
+    "Como tirar una baraja al aire y esperar que caiga ordenada: posible, pero tan poco probable que no ocurre en la vida normal.",
+    "Como mezclar dos colores de plastilina: generalmente queda mezclado, aunque a veces quedan zonas de un solo color debido al azar."
+  ],
+  "implicacion_transformadora": [
+    "Las leyes naturales se entienden mejor como restricciones estadísticas, no verdades absolutas.",
+    "El pensamiento absoluto debe ser desplazado por razonamiento probabilístico en sistemas complejos.",
+    "La flecha del tiempo emerge de la probabilidad, no de la determinación."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El análisis revela que la afirmación absoluta no es sostenible sin matizar. Persiste una tensión esencial entre la regla estadística y la excepción microscópica."
+  }
+}

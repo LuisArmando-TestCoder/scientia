@@ -1,0 +1,133 @@
+{
+  "nodo_semantico_de_entrada": "Imposibilidad de descubrir algunos marcos",
+  "nodo_semantico_central": "Demostrabilidad de la imposibilidad epistémica",
+  "firma_ontologica": {
+    "naturaleza": "proposición formal",
+    "funcion": "Delimitar los límites epistémicos de acceso a marcos conceptuales",
+    "dominio": "epistemología, lógica, teoría de la demostración",
+    "forma": "límite, frontera, negación constructiva",
+    "tension": "Incertidumbre entre lo demostrable y lo indemostrable; recursividad godeliana",
+    "limite": "Implicación de irreductibilidad y dependencias axiomáticas"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "imposibilidad",
+      "definicion": "Estado en el que un hecho nunca puede suceder, sin importar los medios empleados"
+    },
+    {
+      "termino": "descubrir",
+      "definicion": "Acceder o desvelar un marco conceptual previamente desconocido"
+    },
+    {
+      "termino": "marcos",
+      "definicion": "Estructuras mentales, sistemas conceptuales, o conjuntos de reglas para organizar realidades"
+    },
+    {
+      "termino": "demostrada",
+      "definicion": "Validada mediante argumentación lógica formal"
+    }
+  ],
+  "transduccion_preconceptual": "A veces, aunque busques por todos lados un tesoro, hay cofres mágicos que están escondidos tan bien que ni con el mejor mapa puedes hallarlos. Dicen que hay mapas que jamás aparecerán, y una regla mágica te muestra por qué nunca los tendrás.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Algunos marcos no pueden ser descubiertos",
+      "subnodo": "Existencia de marcos indemostrablemente ocultos",
+      "contexto": "Discusión sobre la accesibilidad a sistemas de conocimiento; comparación con sets no enumerables en matemáticas"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La imposibilidad puede ser demostrada",
+      "subnodo": "Condición de demostrabilidad de límites negativos",
+      "contexto": "Vínculo con la lógica formal y teoremas de incompletitud"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Depende de la existencia de métodos meta-formales y de la definición operativa de 'marco'; puede ser cierto mediante construcciones auto-referenciales, pero sus límites son sensibles a axiomas seleccionados"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Teoremas de incompletitud de Gödel y lógicas constructivas",
+      "conclusion": "Existen marcos cuyos límites de descubrimiento pueden ser formalmente indecidibles",
+      "notas": "Su validez requiere separación clara entre lo axiomatizadamente demostrable y lo que queda fuera"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La imposibilidad de descubrir algunos marcos puede ser demostrada para todos los marcos",
+      "descripcion": "En contextos donde las reglas del juego son completamente especificadas y periódicamente exhaustivas, cualquier marco existente podría ser necesariamente descubierto por enumeración completa.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Sólo válida cuando el universo de marcos es computable y completamente describible"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En matemáticas y física, estructuras imposibles de acceder directamente han sido inferidas por límites del sistema formal",
+      "inferencia": "La frase parece aplicable en dominios abstractos y puede guiar la búsqueda de axiomas o lagunas teóricas",
+      "grado_de_confianza": "medio",
+      "notas": "Validez correlacionada al nivel de abstracción y autosuficiencia lógica del sistema considerado"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Cualquier teoría general de marcos está limitada por el propio sistema formal que la define. El reconocimiento de lo indemostrable genera nuevas fronteras epistémicas, sugiriendo que la demostrabilidad de la imposibilidad es a la vez un acto de clausura (el cierre de la posibilidad) y una ventana a lo meta-cognitivo.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Existen marcos cuya imposibilidad de descubrimiento es demostrable",
+        1,
+        0,
+        0
+      ],
+      [
+        "Existen marcos cuya imposibilidad de descubrimiento no es demostrable",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda imposibilidad epistémica puede ser demostrada",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunas imposibilidades epistémicas nunca pueden ser demostradas",
+        1,
+        0,
+        0
+      ],
+      [
+        "La imposibilidad de descubrir X implica que X no existe en absoluto",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Demostrar lo indemostrable parece tautológico, pero estructuralmente revela más sobre los límites del sistema que sobre los objetos del sistema",
+    "ambiguedad": "¿Qué constituye un 'marco' y bajo qué condiciones es 'descubrible' versus 'demostrable su imposibilidad'?",
+    "contradiccion_util": "La demostración de la imposibilidad se autorrefuerza mientras simultáneamente evidencia las limitaciones del conocimiento"
+  },
+  "reorganizacion_analoga": [
+    "Teoremas de incompletitud de Gödel en lógica matemática",
+    "Problemas irresolubles en teoría de la computación",
+    "Paradoja de la biblioteca infinita: el libro que prueba que un libro no existe",
+    "Horizonte de sucesos en física, como metáfora de accesibilidad epistemológica"
+  ],
+  "implicacion_transformadora": [
+    "Reconocer los límites de demostrabilidad permite priorizar recursos cognitivos en la búsqueda de marcos accesibles.",
+    "La reflexión sobre lo indemostrable promueve humildad epistemológica y apertura hacia la metateoría.",
+    "El acto de buscar imposibilidades demostrables sirve como catalizador de creatividad conceptual y frontera para la investigación científica."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Los límites auto-referenciales y contextuales impiden una definición absoluta; su fuerza reside en la provocación reflexiva más que en la resolución formal."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "nodo_semantico_de_entrada": "La autonomía depende de definición universal en todos los ámbitos",
+  "nodo_semantico_central": "Condición universalista de la autonomía",
+  "firma_ontologica": {
+    "naturaleza": "proposición condicional universalista",
+    "funcion": "Determinar la dependencia estructural de la autonomía respecto de definiciones universales",
+    "dominio": "filosofía del derecho, epistemología, cibernética social",
+    "forma": "implicación lógica universal/existencial",
+    "tension": "universalismo versus contingencia local",
+    "limite": "la posibilidad real de definir universales en todo sistema; irreducibilidad en ámbitos caóticos"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "autonomía",
+      "definicion": "capacidad de un sistema/agente para regularse según principios propios sin imposición externa"
+    },
+    {
+      "termino": "definición universal",
+      "definicion": "concepto o regla que es válida sin excepciones en cualquier contexto imaginable"
+    },
+    {
+      "termino": "ámbito",
+      "definicion": "entorno, dominio o sistema en que aplica una regla o fenómeno"
+    },
+    {
+      "termino": "depender",
+      "definicion": "exigir cierta condición como prerrequisito para la existencia o persistencia de algo"
+    }
+  ],
+  "transduccion_preconceptual": "Como si para que cada niño decida por sí mismo, todos tuvieran que estar de acuerdo exactamente en qué significa 'decidir', sin importar en qué juego, país o momento están.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La autonomía depende de definición universal en todos los ámbitos",
+      "subnodo": "universalismo necesario",
+      "contexto": "¿Puede existir autonomía sin acuerdo total sobre su significado?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Existen ámbitos caóticos o contextos originales donde la universalidad es irreducible",
+      "subnodo": "irreducibilidad contextual",
+      "contexto": "¿Hay sistemas donde definir universalidad es imposible?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "existen contraejemplos y contextos de irreducibilidad; no se valida universalmente la dependencia"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "La autonomía requiere definición universal → Si la definición no es universal, no hay autonomía",
+      "conclusion": "Si existe solo definición parcial/local, la autonomía sería inválida según la proposición",
+      "notas": "Esto excluye casos prácticos donde la autonomía sí emerge con definiciones contingentes"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La autonomía depende de definición universal en todos los ámbitos",
+      "descripcion": "Culturas, biología y sistemas legales con múltiples definiciones operativas de autonomía; agentes artificiales con criterios adaptativos de autonomía contextuales",
+      "grado_de_refutacion": "total",
+      "notas": "La autonomía práctica emerge en diversidad definicional; el absolutismo se contradice empíricamente"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Sistemas autónomos aparecen regularmente en contextos con definiciones provisionales y divergentes",
+      "inferencia": "La autonomía no requiere integración universalista para operar",
+      "grado_de_confianza": "alto",
+      "notas": "Observado en educación, robótica, autonomía legal-plural y biología"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La autonomía es robusta frente a la pluralidad de definiciones: prospera desde la negociación local y la adaptabilidad, no desde el absolutismo semántico universal.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La autonomía depende de definición universal en todos los ámbitos",
+        0,
+        1,
+        0
+      ],
+      [
+        "La autonomía puede existir con definiciones locales/particulares",
+        1,
+        0,
+        0
+      ],
+      [
+        "En sistemas irreducibles no es posible universalidad definicional",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La búsqueda de universalidad puede socavar la autonomía espontánea local, lo que contradice la experiencia observable.",
+    "ambiguedad": "¿Qué tan universal debe ser la definición de autonomía para considerarse operacionalmente válida?",
+    "contradiccion_util": "La autonomía parece necesitar una definición suficientemente amplia para validar la diferencia, negando así la universalidad estricta."
+  },
+  "reorganizacion_analoga": [
+    "La vida como evolución divergente: cada especie con su propio criterio de autonomía según nicho ecológico.",
+    "Lenguaje natural: cada tribu define 'palabra' o 'prohibido' a su modo; la comunicación ocurre igual.",
+    "Autómatas celulares con reglas de borde distintas mantienen 'autonomía local' sin una regla universal"
+  ],
+  "implicacion_transformadora": [
+    "Las políticas, leyes o sistemas de gobernanza que buscan imponer una definición absoluta de autonomía pueden asfixiar la diversidad legítima de agentes autónomos.",
+    "En sistemas sociales y tecnológicos, la resiliencia y adaptabilidad de lo autónomo depende de la apertura a multidefiniciones.",
+    "Los intentos de universalización deben ser explícitamente reconocidos como estrategias de poder más que necesidades cognitivas/fenomenológicas de la autonomía."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "El absolutismo universalista de la proposición se refuta por contraejemplo empírico y análisis lógico; la autonomía real es contingente, emergente y a menudo pluralista en su definición."
+  }
+}

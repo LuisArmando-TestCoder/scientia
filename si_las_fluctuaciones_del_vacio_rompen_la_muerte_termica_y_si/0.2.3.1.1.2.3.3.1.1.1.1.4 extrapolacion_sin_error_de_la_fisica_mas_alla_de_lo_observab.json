@@ -1,0 +1,161 @@
+{
+  "nodo_semantico_de_entrada": "Extrapolación sin error de la física más allá de lo observable",
+  "nodo_semantico_central": "Límites de validez de teorías físicas fuera de lo observable",
+  "firma_ontologica": {
+    "naturaleza": "proposición universal conceptual",
+    "funcion": "Explorar la aplicabilidad de la física en dominios no observados",
+    "dominio": "Epistemología de la ciencia / filosofía de la física",
+    "forma": "Axioma tentativo; extrapolación epistémica",
+    "tension": "Pretensión de universalidad vs. restricciones empíricas y modelos incompletos",
+    "limite": "Lo no-observable es, por definición, inaccesible a corroboración empírica; irreducibilidad computacional y subdeterminación teórica"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Nuestra física",
+      "definicion": "El conjunto de teorías, modelos y leyes desarrollados en el marco de la ciencia moderna y aceptados mediante validación experimental"
+    },
+    {
+      "termino": "Extrapolar",
+      "definicion": "Aplicar ecuaciones, conceptos o marcos más allá del rango en el que se han verificado"
+    },
+    {
+      "termino": "Sin error",
+      "definicion": "Sin desviación entre predicción y realidad; ausencia total de falsedad o contradicción"
+    },
+    {
+      "termino": "Más allá de lo observable",
+      "definicion": "En dominios donde no hay forma de obtener dato experimental o percepción directa"
+    }
+  ],
+  "transduccion_preconceptual": "Es como tratar de saber si un dado tiene el mismo número de puntos en todas sus caras que el dado que puedes ver, usando sólo el dado que tienes enfrente y nunca viendo el otro.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Nuestra física es autosuficiente, sin importar el dominio",
+      "subnodo": "Autosuficiencia de modelos físicos",
+      "contexto": "Se necesita validar si los modelos siguen siendo correctos fuera del rango observable"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Todas las extrapolaciones físicas mantienen coherencia lógica independientemente del dominio",
+      "subnodo": "Coherencia transdominial",
+      "contexto": "¿Hay modelos que colapsan al aplicarse fuera de su contexto verificado?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Las leyes de la física son absolutas y universales",
+      "subnodo": "Absolutismo legal en física",
+      "contexto": "Intentando afirmar una universalidad desde casos limitados"
+    },
+    {
+      "id": "1.4",
+      "afirmacion_base": "Extrapolar sin error equivale a conocer todos los sistemas posibles, incluidos los caóticos o irreductibles",
+      "subnodo": "Irreducibilidad computacional",
+      "contexto": "Reconocimiento de límites fundamentales como caos, incompletitud, Gödel"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "falso",
+    "criterio": "La afirmación depende de extrapolación absoluta desde dominio restringido y contradice empirismo; resiste contraejemplos e indemostrabilidad"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de extrapolación + irreducibilidad computacional (Wolfram, Turing)",
+      "conclusion": "No toda extrapolación puede garantizar ausencia de error fuera de lo observable",
+      "notas": "Incluso si un modelo es coherente internamente, su conexión con lo real sólo puede inferirse; cualquier extrapolación no comprobada puede fallar"
+    },
+    {
+      "origen": "Principio de subdeterminación empírica",
+      "conclusion": "Múltiples teorías pueden describir lo observado y divergir fuera del rango observable",
+      "notas": "Imposibilidad de verificación definitiva de la extrapolación"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Nuestra física puede extrapolarse sin error más allá de lo observable",
+      "descripcion": "Teoría de Newton válida para planetas y velocidades bajas, pero falla a escala relativista o cuántica, dominios no observados originalmente",
+      "grado_de_refutacion": "total",
+      "notas": "El alcance del modelo se expandió y mostró errores bajo nuevas pruebas"
+    },
+    {
+      "afirmacion_refutada": "Las leyes de la física son universales",
+      "descripcion": "Constante cosmológica, materia oscura/energía oscura, incompatibilidad de gravedad cuántica aún no resuelta",
+      "grado_de_refutacion": "parcial",
+      "notas": "La universalidad de las leyes es conjetural fuera de lo observable"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Todo modelo físico exitoso ha requerido ajustes tras exploración en nuevos dominios",
+      "inferencia": "Las extrapolaciones típicamente fallan completamente o parcialmente en fronteras no observadas",
+      "grado_de_confianza": "alto",
+      "notas": "Basado en la historia de la física desde Newton, Maxwell, Relatividad, hasta la Mecánica Cuántica"
+    },
+    {
+      "patron_observado": "Las teorías predictivas pueden producir fenómenos inesperados al forzar sus límites",
+      "inferencia": "No hay garantía de que la extrapolación sea correcta sin observación",
+      "grado_de_confianza": "medio",
+      "notas": "Ver anomalías históricas como Mercurio, radiación de cuerpo negro"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Toda extrapolación física más allá de lo observable es conjetural y está limitada por la inverificabilidad y el principio de irreducibilidad computacional; la física es localmente eficiente pero globalmente provisional.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Nuestra física puede extrapolarse sin error más allá de lo observable",
+        0,
+        1,
+        0
+      ],
+      [
+        "Las leyes de la física son absolutas y universales",
+        0,
+        1,
+        0
+      ],
+      [
+        "La física puede predecir todos los fenómenos fuera de lo observable",
+        0,
+        1,
+        0
+      ],
+      [
+        "Se pueden conocer todos los sistemas caóticos con física actual",
+        0,
+        1,
+        0
+      ],
+      [
+        "Las extrapolaciones físicas a dominios no observados requieren verificación",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Para validar el modelo fuera de lo observable se necesitaría observar lo no observable",
+    "ambiguedad": "¿Qué cuenta como error si no hay datos para comparar?",
+    "contradiccion_util": "La física progresa sólo al encontrar errores de extrapolación y redefinir la teoría, no a pesar de ellos"
+  },
+  "reorganizacion_analoga": [
+    "Como intentar predecir la forma de una isla sumergida observando sólo la costa visible",
+    "Como expandir una serie matemática fuera de su radio de convergencia",
+    "Como reconstruir un animal extinto a partir de un fósil parcial"
+  ],
+  "implicacion_transformadora": [
+    "Asumir que la física actual es universal sin error limita la creatividad teórica y niega el espacio para lo desconocido",
+    "La ciencia debería utilizar la extrapolación como hipótesis aviso, no como certeza",
+    "El método científico debe incorporar el escepticismo activo respecto a toda inferencia fuera de rango observable"
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "Falsabilidad histórica, limites empíricos, dependencia de verificación constante: coherencia formal alcanzada refutada por realidad experimental"
+  }
+}

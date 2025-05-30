@@ -1,0 +1,135 @@
+{
+  "nodo_semantico_de_entrada": "Universalidad de las leyes físicas en dominios no observados",
+  "nodo_semantico_central": "Invarianza física extrapolada a lo no observado",
+  "firma_ontologica": {
+    "naturaleza": "Principio postulativo",
+    "funcion": "Prolongar la validez comprobada de las leyes físicas a regiones o situaciones fuera del alcance de la observación",
+    "dominio": "Epistemología de la física; filosofía de la ciencia",
+    "forma": "Axioma extendido (suponiendo continuidad y uniformidad del cosmos)",
+    "tension": "Dependencia de la inducción y límite de la verificación empírica",
+    "limite": "No falsabilidad estricta en ausencia de observación directa; irreducibilidad computacional en dominios infinitos"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "dominio no observado",
+      "definicion": "Región, situación o sistema sobre el que no se han obtenido datos empíricos directos"
+    },
+    {
+      "termino": "leyes físicas conocidas",
+      "definicion": "Conjunto de principios y ecuaciones validadas empíricamente que describen regularidades del mundo físico"
+    },
+    {
+      "termino": "se mantienen",
+      "definicion": "Se asume que no se modifican ni violan fuera del espacio de observación"
+    },
+    {
+      "termino": "universalidad",
+      "definicion": "Idea de que lo descubierto en una región del universo o rango experimental es aplicable universalmente"
+    }
+  ],
+  "transduccion_preconceptual": "Imaginar que tienes una caja enorme que nunca has abierto. Dentro de la parte que sí ves, todo funciona como tus canicas, pelotas y cartas ya sabes que funcionan. Supón (sin mirar) que toda la caja funciona igual, aunque nunca lo hayas comprobado.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "En todos los dominios no observados se mantienen las leyes físicas conocidas",
+      "subnodo": "Extensión inductiva absoluta",
+      "contexto": "Interpretación de universalidad física; ¿hay justificación empírica para extender sin límite?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La extrapolación a lo no observado es necesaria para la ciencia teórica",
+      "subnodo": "Axioma metodológico fundamental",
+      "contexto": "¿Puede la ciencia operar sin asumir estabilidad fuera de los datos?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "No podemos saber si hay excepciones en los dominios no observados",
+      "subnodo": "Epistemología límite",
+      "contexto": "¿Cómo distinguir entre límite epistemológico y negación ontológica?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No se puede validar ni refutar con datos; es un postulado fundamental, pero irrefutable en sí"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Principio de invariancia/físicas",
+      "conclusion": "Si las leyes se mantienen en lo observado, y el universo es homogéneo, es razonable extenderlas",
+      "notas": "Solo válido donde no hay evidencia en contra; depende del principio cosmológico"
+    },
+    {
+      "origen": "Irreducibilidad computacional y no observación",
+      "conclusion": "Nunca podemos demostrar universalidad fuera de toda observación posible",
+      "notas": "Hay un límite a la deducción por irreductibilidad de sistemas complejos"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Las leyes se mantienen en todos los dominios no observados",
+      "descripcion": "Constantes físicas locales (variación de la constante fina o localización de dimensiones extras en teorías más profundas); hipótesis de multiverso; anomalías cosmológicas sugeridas en observaciones marginales",
+      "grado_de_refutacion": "parcial",
+      "notas": "Son sugerencias teóricas más que observaciones directas; se asume que podrían existir dominios con otras reglas"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Hasta ahora, empíricamente, toda ley comprobada se mantiene cada vez que expandimos el rango de observación",
+      "inferencia": "Es racional, aunque no seguro, extender la validez de las leyes físicas",
+      "grado_de_confianza": "medio",
+      "notas": "Puede variar ante futuros descubrimientos o experimentos de frontera"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El postulado de universalidad física es una necesidad metodológica, no una garantía ontológica; asegura coherencia predictiva, pero debe mantenerse abierto a revisión ante nuevos datos.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "En todos los dominios no observados se mantienen las leyes físicas conocidas",
+        0,
+        0,
+        1
+      ],
+      [
+        "Hasta ahora lo observado jamás ha contradicho una ley comprobada a mayor escala",
+        1,
+        0,
+        0
+      ],
+      [
+        "Podrían existir excepciones fuera de todo rango observacional",
+        0,
+        0,
+        1
+      ],
+      [
+        "Es necesario postular la universalidad para hacer ciencia predictiva",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Necesitamos asumir que lo desconocido es como lo conocido para avanzar, pero jamás podremos estar seguros de ello",
+    "ambiguedad": "¿Dónde termina 'lo observado' y empieza 'lo no observado'? ¿Hay un límite discernible o es puro gradiente?",
+    "contradiccion_util": "El método científico exige dudar y a la vez asumir continuidad; la tensión impulsa investigación y revisión constante"
+  },
+  "reorganizacion_analoga": [
+    "Suposición de que un mapa sigue igual más allá del borde aún no cartografiado",
+    "Principio de uniformidad temporal: esperar que el mañana se parezca al hoy"
+  ],
+  "implicacion_transformadora": [
+    "La ciencia es forzosamente provisional y colectiva; el avance exige arriesgar axiomas fundamentales, pero también estar dispuestos a desmontarlos si emergen nuevas realidades.",
+    "El pensamiento crítico requiere identificar cuándo estamos extrapolando y no confundirse con certidumbre absoluta."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El análisis muestra la inevitabilidad metodológica del postulado, pero su falta de confirmación última."
+  }
+}

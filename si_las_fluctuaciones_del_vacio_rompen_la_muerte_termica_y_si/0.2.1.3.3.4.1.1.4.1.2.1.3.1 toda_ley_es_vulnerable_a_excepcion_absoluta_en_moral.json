@@ -1,0 +1,114 @@
+{
+  "nodo_semantico_de_entrada": "Toda ley es vulnerable a excepción absoluta (en moral)",
+  "nodo_semantico_central": "Vulnerabilidad de la ley moral absoluta",
+  "firma_ontologica": {
+    "naturaleza": "Principio normativo",
+    "funcion": "Definir la universalidad o excepción de las normas morales",
+    "dominio": "Ética, filosofía moral, normatividad",
+    "forma": "Regla con posibilidad de excepción universal",
+    "tension": "Entre universalidad legal y posibilidad de excepción",
+    "limite": "Depende de la existencia de contraejemplos morales absolutos"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Ley",
+      "definicion": "Regla general que guía el comportamiento o juicio moral"
+    },
+    {
+      "termino": "Vulnerabilidad",
+      "definicion": "Capacidad de la ley para ser invalidada o tener excepciones válidas"
+    },
+    {
+      "termino": "Excepción absoluta",
+      "definicion": "Situación o acción que justifica dejar de aplicar una ley, independientemente de circunstancias"
+    },
+    {
+      "termino": "Moral",
+      "definicion": "Conjunto de principios que guían el bien y el mal en conducta humana"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que hay una regla en el salón de clase que dice 'Nunca se debe correr'. Pero un día, alguien corre porque ve que un amigo se lastimó muy fuerte. La maestra dice que en ese caso estuvo bien romper la regla, porque ayudar a un amigo es más importante que la regla de no correr.",
+  "iteraciones": [
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "Toda ley es vulnerable a excepción absoluta",
+      "subnodo": "Existencia de ley moral sin excepción",
+      "contexto": "¿Puede existir alguna ley moral sin ningún posible contraejemplo?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La universalidad es refutada por contraejemplos conocidos pero no puede descartarse totalmente la existencia de leyes morales verdaderamente absolutas; se requiere análisis para cada ley posible."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si toda ley es vulnerable a excepción absoluta, entonces no existen leyes morales absolutamente inviolables.",
+      "conclusion": "No se puede sostener un universal moral sin posible refutación.",
+      "notas": "Sujeto a la existencia real de contraejemplos; algunas teorías sostienen prohibiciones absolutas (ej. 'no torturarás')."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda ley es vulnerable a excepción absoluta",
+      "descripcion": "Algunas tradiciones sostienen normas morales inquebrantables (como el imperativo categórico kantiano: 'No mentirás, nunca') y presentan casos de dilemas donde romper la norma parece injustificable.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Críticas: incluso las normas categóricas han sido debatidas ante casos límite; la inquebrantabilidad puede ser más teórica que práctica."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En la discusión social y jurídica, casi todas las leyes morales tienen casos límite donde se justifica su excepción",
+      "inferencia": "Las leyes morales tienden a ser contextuales y sujetas a revisión, lo que reduce la fuerza del absolutismo normativo.",
+      "grado_de_confianza": "alto",
+      "notas": "Las excepciones suelen ser admitidas en dilemas reales; la moral práctica es flexible."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La moral humana es dinámica y emergente; los absolutos son ideales, pero las excepciones surgen de la complejidad de contextos y valores en juego.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda ley moral es vulnerable a excepción absoluta",
+        0,
+        0,
+        1
+      ],
+      [
+        "Existe al menos una ley moral absoluta sin excepción",
+        0,
+        0,
+        1
+      ],
+      [
+        "Toda excepción moral puede ser justificada",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Buscando un absoluto moral, cualquier justificación de excepción termina atrapada en loops (Dilema del tranvía, ley vs. compasión).",
+    "ambiguedad": "¿Qué significa una excepción 'absoluta'? ¿Es un caso límite externo o interno a la definición de la ley?",
+    "contradiccion_util": "Solo reformulando repetidamente las leyes e incluyendo excepciones puede refinase la moral hacia una mayor adaptabilidad."
+  },
+  "reorganizacion_analoga": [
+    "Como programar una computadora con firewall: siempre se puede crear una regla, pero aparecen nuevas excepciones y puertas traseras.",
+    "Como en la evolución biológica: reglas de la especie pueden ser rotas ocasionalmente con ventaja adaptativa.",
+    "Como un diccionario actualizado: cada vez que se establece una definición, la realidad genera un nuevo uso que desafía esa definición."
+  ],
+  "implicacion_transformadora": [
+    "Toda práctica ética debe incluir mecanismos de revisión y apertura a actualización/reestructuración.",
+    "El educar moralmente requiere conciencia de excepciones y entrenamiento de juicio contextual, no paternalismo doctrinal.",
+    "Las leyes prácticas necesitan 'válvulas de escape' explícitas para no ser éticamente rígidas y opresivas."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación no puede declararse verdadera ni falsa universalmente; permanece en la frontera de lo autoreferencial e indefinido debido a la complejidad contextual y las paradojas derivadas."
+  }
+}

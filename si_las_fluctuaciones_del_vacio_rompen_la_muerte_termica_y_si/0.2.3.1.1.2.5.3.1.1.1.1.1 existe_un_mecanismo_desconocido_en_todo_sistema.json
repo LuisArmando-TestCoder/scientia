@@ -1,0 +1,126 @@
+{
+  "nodo_semantico_de_entrada": "Existe un mecanismo desconocido en todo sistema",
+  "nodo_semantico_central": "Mecanismo desconocido universal",
+  "firma_ontologica": {
+    "naturaleza": "Principio postulativo",
+    "funcion": "Afirmar la existencia de algo irreconocible intrínseco a cualquier sistema",
+    "dominio": "Metafísica, epistemología de los sistemas",
+    "forma": "Esquema universal latente",
+    "tension": "El enunciado asume universalidad, pero involucra lo indefinido/inaccesible",
+    "limite": "Lo desconocido carece de falsabilidad directa; la afirmación sólo puede validarse indirectamente"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "mecanismo",
+      "definicion": "Conjunto de interacciones u operaciones causales que generan un comportamiento en un sistema"
+    },
+    {
+      "termino": "desconocido",
+      "definicion": "Sin acceder, sin caracterización ni prueba; fuera del alcance conceptual actual"
+    },
+    {
+      "termino": "todo",
+      "definicion": "Absolutismo; aplica sin excepción a todos los elementos del conjunto 'sistemas'"
+    },
+    {
+      "termino": "sistema",
+      "definicion": "Conjunto delimitado de elementos en interacción"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que todas las cajas de juguetes del mundo tienen una pieza oculta que nadie ha visto, pero de alguna manera, esa pieza está siempre ahí dentro, aunque uses la caja mil veces nunca la encuentres.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Todo sistema contiene un mecanismo desconocido",
+      "subnodo": "Presunción absoluta de opacidad universal",
+      "contexto": "¿Puede existir un mecanismo desconocido en 'todo' sistema o sólo en algunos?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Lo desconocido puede ser afirmado universalmente",
+      "subnodo": "Ontología de lo ignoto universal",
+      "contexto": "¿Qué significa afirmar existencia de lo desconocido sin evidencia?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación es un absolutismo sobre lo incognoscible, no pueden ofrecerse casos positivos; tampoco es refutable como falso directamente"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Todo sistema tiene un mecanismo desconocido",
+      "conclusion": "Ningún sistema es completamente transparente epistemológicamente",
+      "notas": "La deducción depende de aceptar la universalidad del postulado"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todo sistema tiene un mecanismo desconocido",
+      "descripcion": "Sistemas matemáticos axiomáticos absolutamente definidos (ej. los conjuntos finitos con reglas exhaustivamente descritas)",
+      "grado_de_refutacion": "total",
+      "notas": "Pero puede argumentarse que siempre hay presupuestos, límites no capturados, o 'metamecanismos' fuera de tal formalismo"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En sistemas observados empíricamente siempre aparece incertidumbre o detalles imprevistos",
+      "inferencia": "Es probable que la mayoría de sistemas reales incluyan algún aspecto no totalmente conocido",
+      "grado_de_confianza": "medio",
+      "notas": "No implica universalidad absoluta; se basa en inferencia probabilística, no lógica"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La epistemología de los sistemas siempre será asintótica respecto a su objeto: nunca se colapsan todas las incertidumbres. Sin embargo, postular lo desconocido como universal implica una heurística de humildad cognitiva, pero resulta falso frente a sistemas conceptual o materialmente agotados.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Todo sistema tiene un mecanismo desconocido",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunos sistemas tienen mecanismos desconocidos",
+        1,
+        0,
+        0
+      ],
+      [
+        "Es imposible saber si existe un mecanismo desconocido en todos los sistemas",
+        0,
+        0,
+        1
+      ],
+      [
+        "El mecanismo desconocido puede ser conocido",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Si el mecanismo es desconocido, no puede ser universalmente afirmado como existente salvo por extrapolación (Límite de la prueba negativa)",
+    "ambiguedad": "¿Qué nivel de 'conocimiento' se exige para que algo deje de ser 'desconocido'?",
+    "contradiccion_util": "Fomentar la búsqueda del mecanismo desconocido renueva y expande la frontera del conocimiento – la tensión jamás se disipa por completo"
+  },
+  "reorganizacion_analoga": [
+    "El horizonte de eventos en los agujeros negros (sabemos que está ahí, pero permanece fuera del alcance de la observación directa)",
+    "Un libro con páginas pegadas entre sí: sabemos que hay contenido, pero no podemos leerlo",
+    "El juego de '¿Quién soy?' donde algunos roles nunca se revelan durante la partida"
+  ],
+  "implicacion_transformadora": [
+    "Utilizar esta heurística de 'mecanismo desconocido' como catalizador de preguntas y motores de investigación, no como verdad absoluta.",
+    "Promover la revisión constante de lo que consideramos finito en nuestro conocimiento de cualquier sistema.",
+    "Evitar el absolutismo epistémico, privilegiando el probabilismo y la apertura hacia la sorpresa cognitiva."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "Refutado por contraejemplo ontológico (sistemas formalmente agotados pueden no contener mecanismos desconocidos). Permanece una supremacía inductiva parcial sobre los sistemas abiertos/realistas, pero la afirmación absoluta no sobrevive conceptual ni lógicamente."
+  }
+}

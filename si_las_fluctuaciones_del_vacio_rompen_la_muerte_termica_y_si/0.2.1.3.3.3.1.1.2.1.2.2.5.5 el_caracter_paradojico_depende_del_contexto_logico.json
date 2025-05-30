@@ -1,0 +1,128 @@
+{
+  "nodo_semantico_de_entrada": "El carácter paradójico depende del contexto lógico",
+  "nodo_semantico_central": "Paradoja-contexto-lógica",
+  "firma_ontologica": {
+    "naturaleza": "relación condicional",
+    "funcion": "Determinar la existencia/relevancia de la paradoja según el contexto lógico definido",
+    "dominio": "lógica, epistemología, semántica estructural",
+    "forma": "nodo condicional, bifurcador semántico",
+    "tension": "No hay paradoja absoluta; la contradicción es relativa al marco adoptado",
+    "limite": "Una lógica incide sobre lo considerado paradoja sólo desde sus propios axiomas"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "carácter paradójico",
+      "definicion": "Condición en la que un conjunto de afirmaciones o su resultado parece contradictorio respecto al sistema formal donde se evalúa"
+    },
+    {
+      "termino": "depende de",
+      "definicion": "No es inherente, sino que se determina en función de otro elemento"
+    },
+    {
+      "termino": "contexto lógico",
+      "definicion": "Sistema de reglas, axiomas y relaciones en el que las afirmaciones toman valor"
+    }
+  ],
+  "transduccion_preconceptual": "Una paradoja es como una trampa de reglas: a veces, si cambias el juego, la trampa desaparece o aparece de nuevo. Cambias el tablero, cambias el truco.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El carácter paradójico es absoluto",
+      "subnodo": "Universalidad impossível de la paradoja",
+      "contexto": "Si existiera una paradoja universal, ningún sistema lógico podría resolverla. Pero diferentes lógicas resuelven o reabsorben paradojas (ejemplo: la paradoja del mentiroso en lógica clásica vs paraconsistente)."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "El contexto lógico es irrelevante para la paradoja",
+      "subnodo": "Independencia lógica refutada",
+      "contexto": "Observando que cambiar los axiomas (por ejemplo, aceptar la ley de la no contradicción o rechazarla), cambia la aparición de la paradoja."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "La dependencia del carácter paradójico respecto al contexto lógico se sostiene empírica y teóricamente; no hay paradoja absoluta fuera de un sistema axiomático."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de sistemas lógicos",
+      "conclusion": "La paradoja sólo existe relativa a los axiomas y reglas del sistema lógico donde se plantea.",
+      "notas": "Si dos sistemas lógicos interpretan una proposición de forma distinta, su estatus paradójico es también relativo."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda paradoja es igual en cualquier lógica",
+      "descripcion": "La paradoja de Russell es insoluble en la teoría de conjuntos ingenua, pero en la teoría de conjuntos de Zermelo-Fraenkel se soluciona.",
+      "grado_de_refutacion": "total",
+      "notas": "Refuta la absolutización del carácter paradójico."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En distintos marcos formales, el estatus paradojal cambia según las reglas internas.",
+      "inferencia": "La paradoja está modulada por el contexto lógico.",
+      "grado_de_confianza": "alto",
+      "notas": "Los ejemplos históricos (época clásica vs lógica fuzzy vs paraconsistente) lo respaldan."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La paradoja es una función del sistema formal: emerge, se disuelve, o muta según la red de axiomas y relaciones admitidas en el 'contexto lógico'. Por tanto, la paradoja es un espejo del sistema axiomático, más que una propiedad absoluta de la afirmación.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El carácter paradójico depende del contexto lógico",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda paradoja es igual en cualquier lógica",
+        0,
+        1,
+        0
+      ],
+      [
+        "El contexto lógico nunca importa para la paradoja",
+        0,
+        1,
+        0
+      ],
+      [
+        "El carácter paradójico puede cambiar con el cambio de axiomas",
+        1,
+        0,
+        0
+      ],
+      [
+        "Existen paradojas absolutas",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Una paradoja puede ser resuelta en un sistema, pero reaparecer en otro ampliado, generando metaparadoja o bucle de resolución.",
+    "ambiguedad": "El carácter 'paradójico' puede confundirse con la mera sorpresa o incomodidad semántica si no se especifica nivel lógico.",
+    "contradiccion_util": "La flexibilidad del contexto lógico habilita creatividad: la paradoja es material para expandir o revisar marcos conceptuales."
+  },
+  "reorganizacion_analoga": [
+    "Como un color que se ve diferente dependiendo de la luz (contexto lógico), la paradoja cambia según el 'filtro' teórico.",
+    "Como un error de software que desaparece cambiando el sistema operativo.",
+    "Como un acertijo que sólo es raro si ignoras ciertas reglas del juego."
+  ],
+  "implicacion_transformadora": [
+    "No existe una paradoja universalmente insoluble; siempre necesitamos declarar desde qué reglas la definimos.",
+    "diseñar sistemas lógicos implica decidir qué paradojas aceptamos, cuáles resolvemos y cuáles transformamos en nuevos conocimientos.",
+    "El avance del conocimiento implica transformar paradojas en nuevos axiomas o redefinir 'lo paradójico' según contexto."
+  ],
+  "reevaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "Se confirma la verdad de la afirmación bajo análisis deductivo, inductivo y por contraejemplo: no hay paradoja absoluta; todo carácter paradójico es contextual."
+  }
+}

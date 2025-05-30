@@ -1,0 +1,133 @@
+{
+  "nodo_semantico_de_entrada": "En todos los dominios no observados se mantienen las leyes físicas conocidas",
+  "nodo_semantico_central": "Persistencia universal de leyes físicas bajo no-observación",
+  "firma_ontologica": {
+    "naturaleza": "Afirmación universal sobre sistemas físicos",
+    "funcion": "Establecer la validez normativa de las leyes físicas fuera de la observación directa",
+    "dominio": "Filosofía de la ciencia, física, epistemología",
+    "forma": "Proposición universal (todo), inferencia contrafáctica",
+    "tension": "Colisión entre realismo científico y problemas de la medición/observador",
+    "limite": "No verificable empíricamente; depende de presuposiciones metafísicas"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Dominio no observado",
+      "definicion": "Cualquier región, fenómeno o sistema del universo donde no se ha realizado observación o medida directa"
+    },
+    {
+      "termino": "Leyes físicas conocidas",
+      "definicion": "Conjunto de reglas matemáticas y empíricas validadas mediante observación y experimentación"
+    },
+    {
+      "termino": "Mantenerse",
+      "definicion": "Seguir siendo válidas o aplicables en ausencia de verificación directa"
+    }
+  ],
+  "transduccion_preconceptual": "Es como decir que cuando cierras los ojos en tu casa, los juguetes no flotan ni hablan solos porque las reglas que viste siempre siguen allí, aunque no estés mirando.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "No se puede observar todos los dominios posibles, pero asumimos que lo no observado se rige igual que lo observado.",
+      "subnodo": "Suposición de homogeneidad cósmica-causal",
+      "contexto": "Base de la inducción científica y extrapolación predictiva"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "¿Es posible falsar la existencia de excepciones en dominios no observados?",
+      "subnodo": "Inverificabilidad empírica",
+      "contexto": "Límite epistémico de la contrastación científica"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Afirmación universal no verificable; depende de presupuestos metafísicos no observables"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Principio de uniformidad",
+      "conclusion": "Si la física es uniforme, lo observable y lo no observable deben responder a las mismas leyes",
+      "notas": "Es la base del método científico pero no demostrable en sí misma"
+    },
+    {
+      "origen": "Lógica modal (necesariamente vs. contingentemente verdadero)",
+      "conclusion": "La universalidad de las leyes sólo se deduce necesariamente si se asume como axioma",
+      "notas": "Entra en conflicto con posibilidad de leyes emergentes en dominios no observados"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "En todos los dominios no observados se mantienen las leyes físicas conocidas",
+      "descripcion": "Fenómenos que sólo aparecen al ser medidos/exactamente observados (ej. colapso de la función de onda en mecánica cuántica)",
+      "grado_de_refutacion": "parcial",
+      "notas": "Indica que la presencia del observador puede alterar el estado físico, pero la ley subyacente sigue aplicando bajo interpretación estándar"
+    },
+    {
+      "afirmacion_refutada": "Todo lo no observado sigue exactamente las mismas leyes",
+      "descripcion": "Universo inflacionario: posibles multiversos con leyes físicas distintas no accesibles a observación",
+      "grado_de_refutacion": "total",
+      "notas": "La hipótesis de multiverso no puede ser formalmente refutada ni confirmada empíricamente"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Nunca se ha observado violación macroscópica de leyes físicas establecidas en contextos accesibles",
+      "inferencia": "Sugiere alta confiabilidad de extrapolación de las leyes",
+      "grado_de_confianza": "medio",
+      "notas": "La extrapolación más allá del dominio observado no es garantía epistemológica"
+    },
+    {
+      "patron_observado": "En física cuántica, el estado puede depender de observación/medición",
+      "inferencia": "La universalidad de las leyes podría ser contextual o dependiente del acto de observación",
+      "grado_de_confianza": "bajo",
+      "notas": "Las interpretaciones varían: algunas permiten realidades no observadas distintas"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La persistencia de las leyes físicas en dominios no observados es una premisa pragmática y axiomática, no un hecho empírico; su utilidad es instrumental para la ciencia, pero permanece abierta a excepciones lógicamente posibles.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "En todos los dominios no observados se mantienen las leyes físicas conocidas",
+        0,
+        0,
+        1
+      ],
+      [
+        "Existen dominios no observados donde las leyes son distintas",
+        0,
+        0,
+        1
+      ],
+      [
+        "La ciencia requiere asumir la conservación de leyes físicas en lo inobservable para operar",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Sólo se puede afirmar lo que se observa, pero hay que asumir lo que no para que la física sea coherente globalmente.",
+    "ambiguedad": "¿‘Dominios no observados’ significa inobservables en principio, o sólo no medidos hasta ahora?",
+    "contradiccion_util": "La ciencia progresa precisamente por buscar excepciones a la uniformidad asumida, pero se basa en esa uniformidad."
+  },
+  "reorganizacion_analoga": [
+    "Como asumir que detrás de la puerta cerrada el mundo sigue existiendo como antes de cerrarla.",
+    "Como la suposición de continuidad de un videojuego cuando el mapa está fuera de la vista del jugador: las reglas dictan la persistencia, pero nada lo corrobora en tiempo real.",
+    "Como confiar en que las reglas de ortografía no cambian en las páginas aún no escritas de un libro."
+  ],
+  "implicacion_transformadora": [
+    "La ciencia depende de este axioma pragmatico, pero debe mantener apertura ontológica ante posibles excepciones.",
+    "Fomenta una vigilancia epistemológica: siempre se deben buscar dominios donde la extrapolación pueda fallar.",
+    "Sugiere que los límites de lo observable son también, en parte, límites de la ley física aplicada; la realidad puede ser más discontinua o plural de lo que el método científico supone."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No falsable desde la experiencia; sólo asumido por utilidad operativa y consistencia metodológica."
+  }
+}

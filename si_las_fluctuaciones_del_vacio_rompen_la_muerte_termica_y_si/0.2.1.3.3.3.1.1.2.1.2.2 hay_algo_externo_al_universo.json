@@ -1,0 +1,161 @@
+{
+  "nodo_semantico_de_entrada": "Hay algo externo al universo",
+  "nodo_semantico_central": "Externalidad del universo",
+  "firma_ontologica": {
+    "naturaleza": "afirmación metafísica",
+    "funcion": "Plantear la posibilidad de existencia fuera del conjunto universal",
+    "dominio": "ontología / cosmología",
+    "forma": "frontera dialéctica; conjunto abierto/cerrado",
+    "tension": "Colisión entre totalidad y exterioridad",
+    "limite": "Indefinición conceptual de 'universo' y 'externo'"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "universo",
+      "definicion": "El conjunto de todo lo que existe, sin excepción, bajo una concepción fuerte."
+    },
+    {
+      "termino": "externo",
+      "definicion": "Aquello que se encuentra fuera de los límites de un sistema definido."
+    },
+    {
+      "termino": "algo",
+      "definicion": "Entidad, fenómeno o principio no especificado."
+    },
+    {
+      "termino": "existencia",
+      "definicion": "Estado de ser reconocible como real en algún marco."
+    }
+  ],
+  "transduccion_preconceptual": "El universo es como una caja gigante donde están todos los juguetes. Decir que hay algo afuera de la caja es como imaginar un juguete que no está adentro ni tampoco sabemos dónde está, solo que no cabe en esa caja. Pero si decimos que la caja tiene todo, ¿puede haber un juguete fuera?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El universo es el conjunto de todo lo que existe",
+      "subnodo": "Totalidad universal",
+      "contexto": "Definición fuerte de universo como totalidad absoluta"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Puede haber algo externo al universo",
+      "subnodo": "Posibilidad de externalidad",
+      "contexto": "Plantea que la definición de universo puede ser expandida, relativa o fracturada"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "El concepto 'afuera' implica un marco mayor que contenga tanto a lo interno como lo externo",
+      "subnodo": "Metamarco o metaverso",
+      "contexto": "Considerar si lo 'externo' fuerza el surgimiento de una definición mayor de universo (el súper-universo)"
+    },
+    {
+      "id": "1.4",
+      "afirmacion_base": "La noción de ‘todo’ puede ser autorreferencial y paradójica",
+      "subnodo": "Paradoja autorreferencial",
+      "contexto": "Comparación con el conjunto de todos los conjuntos; límite lógico"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Ambigüedad inherente a las definiciones y naturaleza autorreferencial; depende del significado asumido para 'universo'"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición fuerte de universo",
+      "conclusion": "Si el universo es todo lo que existe, entonces algo externo sería por definición inexistente o contradicción conceptual",
+      "notas": "Válido en semántica cerrada; inoperante en marcos ampliados"
+    },
+    {
+      "origen": "Concepto de externo",
+      "conclusion": "Postular un exterior obliga a expandir la definición de universo para incluir ese exterior",
+      "notas": "Genera un bucle de redefinición"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Nada puede estar fuera del universo",
+      "descripcion": "Multiverso: postulación de universos paralelos, cada uno con sus límites, generando un metaconjunto más grande",
+      "grado_de_refutacion": "parcial",
+      "notas": "La refutación depende de la posibilidad de definir el universo como solitario o pluralista"
+    },
+    {
+      "afirmacion_refutada": "El universo como totalidad absoluta es coherente",
+      "descripcion": "Paradoja de Russell (conjunto de todos los conjuntos que no se contienen a sí mismos)",
+      "grado_de_refutacion": "parcial",
+      "notas": "La definición de totalidad absoluta puede implicar autoreferencia paradójica"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Ideas sobre lo externo al universo aparecen en varias cosmologías y narrativas históricas",
+      "inferencia": "La inquietud sobre la externalidad es recurrente en la mente humana independientemente de la formalización lógica",
+      "grado_de_confianza": "medio",
+      "notas": "Correlación antropológica, no evidencia ontológica"
+    },
+    {
+      "patron_observado": "La ciencia física moderna solo ha explorado el universo observable",
+      "inferencia": "No es posible empíricamente afirmar o negar la existencia de 'lo externo'",
+      "grado_de_confianza": "alto",
+      "notas": "Limitación práctica, no conceptual"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La afirmación ‘hay algo externo al universo’ es un motor heurístico que expande los límites conceptuales y lógicos del propio término universo; su verdad/falsedad depende menos de evidencias y más de convenciones formales y contextos definicionales.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Hay algo externo al universo (universo=todo lo que existe)",
+        0,
+        1,
+        0
+      ],
+      [
+        "Hay algo externo al universo (universo=nuestro cosmos conocido)",
+        1,
+        0,
+        0
+      ],
+      [
+        "Existe una definición universal que excluya lo externo",
+        0,
+        0,
+        1
+      ],
+      [
+        "Si algo es externo al universo, entonces debe redefinirse el universo para incluirlo",
+        1,
+        0,
+        0
+      ],
+      [
+        "La pregunta genera paradoja autorreferencial",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La definición de universo como totalidad absorbe cualquier intento de exterioridad, provocando paradoja autorreferencial si se postula un ‘afuera’.",
+    "ambiguedad": "El significado de ‘universo’ oscila entre lo absoluto y lo relativo según contexto filosófico/científico.",
+    "contradiccion_util": "La contradicción obliga a repensar los marcos ontológicos de totalidad e inclusión, catalizando el surgimiento de meta-universos o sistemas abiertos."
+  },
+  "reorganizacion_analoga": [
+    "Como el conjunto de todos los conjuntos en la teoría de conjuntos: intentar definir un concepto absoluto fuerza la emergencia de paradojas o nuevos niveles.",
+    "Como el horizonte de un videojuego: su 'borde' existe solo por la perspectiva limitada del jugador, pero fuera de ese marco solo hay metacódigo o vacío semántico.",
+    "Como el concepto de infinito: siempre podemos imaginar algo más allá, pero ese acto expande perpetuamente el marco de referencia."
+  ],
+  "implicacion_transformadora": [
+    "Introduce la necesidad de marcos ontológicos dinámicos que se reconfiguren ante la emergencia de nuevas posibilidades conceptuales o realidades.",
+    "Fertiliza el pensamiento heurístico: el intento de pensar lo imposible produce nuevas teorías y metáforas útiles más allá de la coherencia lógica tradicional.",
+    "Propone que los límites del conocimiento son móviles y fractales, no estáticos."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El valor lógico depende de la definición asumida para ‘universo’; paradoja autorreferencial no resuelta pero generativa"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "nodo_semantico_de_entrada": "Es posible la existencia de un exterior al universo",
+  "nodo_semantico_central": "exterior_universo_posibilidad",
+  "firma_ontologica": {
+    "naturaleza": "pregunta ontológica",
+    "funcion": "explorar los límites del concepto de 'universo' y la posibilidad de un 'afuera'",
+    "dominio": "metafísica, cosmología",
+    "forma": "paradoja, frontera semántica",
+    "tension": "Indeterminación de los límites ontológicos del universo. El concepto de exterioridad presupone una frontera conceptual circular",
+    "limite": "Definición flexible: depende de las restricciones semánticas de 'universo' y 'existencia'."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "universo",
+      "definicion": "Todo lo que existe, el conjunto total de realidades de cualquier tipo."
+    },
+    {
+      "termino": "exterior",
+      "definicion": "Una región, estado o entidad que yace fuera de los límites definidos de algo."
+    },
+    {
+      "termino": "posibilidad",
+      "definicion": "La capacidad de que algo pueda existir, suceder o ser verdadero según algún sistema de reglas."
+    },
+    {
+      "termino": "existencia",
+      "definicion": "El hecho de ser real, tener presencia en algún dominio conceptual."
+    }
+  ],
+  "transduccion_preconceptual": "Imagínate una caja gigante que contiene todo lo que hay, incluso todas las cajas. Ahora alguien pregunta: ¿puede haber algo fuera de esa caja? Pero si todo está dentro, ¿de dónde sacamos un 'fuera'? Quizá hay otras cajas, o sólo estamos usando palabras para imaginar espacios imposibles.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El universo tiene un límite definido.",
+      "subnodo": "frontera_del_universo",
+      "contexto": "Si hay frontera, el exterior es conceptualmente posible; si es ilimitado, la pregunta se disuelve."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Todo lo que existe está en el universo.",
+      "subnodo": "definicion_totalizante",
+      "contexto": "Si cualquier cosa existente pertenece al universo por definición, 'exterior' sólo puede ser no-existente, o pertenece a un universo extendido."
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Existen universos múltiples (multiverso).",
+      "subnodo": "multiverso_y_exterioridad",
+      "contexto": "Un 'exterior' sería en realidad otro universo; la exterioridad es relacional, no absoluta."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación depende de la definición adoptada de 'universo'. Paradoja conceptual; ningún criterio absoluto disponible."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "'Universo' = totalidad de lo existente",
+      "conclusion": "Si algo existe, está en el universo. 'Exterior' carece de referente en existencia.",
+      "notas": "Bajo definición inclusiva, la pregunta es sintácticamente vacía."
+    },
+    {
+      "origen": "Si el universo puede tener margen/fisura/contenedor",
+      "conclusion": "Existen al menos dos dominios: 'interno' y 'externo', y por tanto el universo es solo una parte.",
+      "notas": "Esto redefine 'universo' como sistema local."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todo lo que existe está en el universo.",
+      "descripcion": "Propuestas cosmológicas de multiversos desconectados, donde el universo observable es sólo una parte.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Depende del alcance empírico y de la definición de 'existir'."
+    },
+    {
+      "afirmacion_refutada": "Sólo puede haber exterior si el universo es finito.",
+      "descripcion": "Conjuntos infinitos pueden tener subconjuntos y superconjuntos en matemáticas (ej. números naturales dentro de los reales).",
+      "grado_de_refutacion": "parcial",
+      "notas": "Extrapolación matemática que puede no aplicarse físicamente."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En modelos de burbujas inflacionarias, podrían existir regiones causalmente desconectadas.",
+      "inferencia": "Lo que llamamos 'universo' podría ser solo una parte de una realidad mayor.",
+      "grado_de_confianza": "medio",
+      "notas": "Soportado por teorías especulativas físicas, no confirmado."
+    },
+    {
+      "patron_observado": "El lenguaje ordinario tiende a absolutizar 'universo' como totalidad.",
+      "inferencia": "La pregunta puede ser lingüístico-cognitiva más que física.",
+      "grado_de_confianza": "alto",
+      "notas": "Limitaciones semánticas del término."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La noción de 'exterior al universo' es una frontera paradójica: cuando el exterior se conceptualiza, el universo se redefine para incluirlo. Exterioridad es función de la definición y del marco de referencia, no propiedad objetiva absoluta.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Es posible la existencia de un exterior al universo (definición totalizante)",
+        0,
+        1,
+        0
+      ],
+      [
+        "Es posible la existencia de un exterior al universo (definición flexible / multiverso)",
+        1,
+        0,
+        0
+      ],
+      [
+        "El universo puede tener frontera",
+        1,
+        0,
+        0
+      ],
+      [
+        "Todo lo que existe está en el universo",
+        0,
+        0,
+        1
+      ],
+      [
+        "Existe algo fuera del universo",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Si conceptualizamos el exterior, lo incluimos en una nueva totalidad/universo; la frontera es semánticamente móvil.",
+    "ambiguedad": "'Universo' como totalidad absoluta vs. universo local; 'exterior' es contextualmente cambiante.",
+    "contradiccion_util": "Cuestionar exterioridad genera expansión conceptual: cada 'exterior' posible deviene nuevo interior en una definición jerárquica infinita."
+  },
+  "reorganizacion_analoga": [
+    "Como preguntarse si hay un borde al plano de un videojuego: cualquier borde es un límite del juego, pero siempre se puede programar un nivel externo.",
+    "Como un conjunto matemático cuyo complemento genera un universo mayor.",
+    "Como un sueño dentro de un sueño: el exterior a un sueño es otro nivel de realidad, pero siempre se puede preguntar qué hay fuera del siguiente nivel."
+  ],
+  "implicacion_transformadora": [
+    "El concepto de 'exterior' al universo obliga a revisar los fundamentos de ontología y cosmología.",
+    "Las preguntas límite promueven la expansión semántica y reconfiguración del marco de referencia.",
+    "Para enseñar pensamiento crítico, es fundamental mostrar cómo la paradoja empuja a redefinir conceptos cardinales y habilita propuestas transconceptuales (multiverso, meta-realidades, etc.).",
+    "La formulación de límites ayuda a entender la naturaleza recursiva del pensamiento filosófico y científico."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La pregunta es fundamentalmente ambigua: depende del marco y redefinir el universo desestabiliza la respuesta; tendencia a bucle semántico infinito."
+  }
+}

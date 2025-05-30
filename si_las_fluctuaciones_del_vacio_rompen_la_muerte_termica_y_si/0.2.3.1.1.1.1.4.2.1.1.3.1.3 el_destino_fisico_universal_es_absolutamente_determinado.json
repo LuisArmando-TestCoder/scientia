@@ -1,0 +1,154 @@
+{
+  "nodo_semantico_de_entrada": "El destino físico universal es absolutamente determinado",
+  "nodo_semantico_central": "Determinismo físico universal absoluto",
+  "firma_ontologica": {
+    "naturaleza": "afirmación absoluta sobre proceso ontológico",
+    "funcion": "establecer el carácter ineludible de la evolución física total",
+    "dominio": "metafísica de la física, epistemología",
+    "forma": "enunciado totalizante, axioma o dogma",
+    "tension": "absolutismo vs emergencia de indeterminación observacional",
+    "limite": "vulnerabilidad ante contraejemplos empíricos y lógicos (ej. mecánica cuántica, libre albedrío, caos)"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "destino físico",
+      "definicion": "el estado final o evolución completa del universo material"
+    },
+    {
+      "termino": "universal",
+      "definicion": "aplicable a todo lo existente sin excepción"
+    },
+    {
+      "termino": "absolutamente",
+      "definicion": "sin ninguna posibilidad de excepción, error, azar o contingencia"
+    },
+    {
+      "termino": "determinado",
+      "definicion": "predefinido, fijado de antemano, sin alternativa posible"
+    }
+  ],
+  "transduccion_preconceptual": "Es como decir que cada pieza de un dominó ya sabe dónde va a caer antes de que empiecen a moverse, y nadie puede cambiar nada, ni soplando ni empujando, todo está perfectamente planeado.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El destino físico universal es absolutamente determinado",
+      "subnodo": "Indeterminación cuántica",
+      "contexto": "¿La física cuántica propone eventos físicos fundamentales no determinados?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "El destino físico universal es absolutamente determinado",
+      "subnodo": "Caos y sensibilidad a condiciones iniciales",
+      "contexto": "¿Sistemas caóticos pueden hacer impredecible lo aparentemente determinado?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "El destino físico universal es absolutamente determinado",
+      "subnodo": "Observador y agencia",
+      "contexto": "¿La presencia de agentes conscientes altera los resultados del sistema físico?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "falso",
+    "criterio": "Contraejemplos empíricos y teóricos robustos dentro de la física moderna (cuántica, caos) debilitan el absolutismo de la afirmación"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición de determinismo absoluto + física clásica",
+      "conclusion": "Si todas las leyes físicas fueran perfectamente deterministas y conocidas, el futuro podría inferirse totalmente a partir del presente",
+      "notas": "Sólo se sostiene en modelos clásicos, no cuánticos ni caóticos"
+    },
+    {
+      "origen": "contraposición con mecánica cuántica",
+      "conclusion": "Existen procesos fundamentales donde sólo se pueden calcular probabilidades",
+      "notas": "Indeterminación no es sólo epistemológica sino ontológica según muchas interpretaciones"
+    },
+    {
+      "origen": "teoría del caos",
+      "conclusion": "Sensibilidad extrema a condiciones iniciales imposibilita la predicción práctica universal",
+      "notas": "El sistema puede ser determinista localmente pero impredecible en la práctica general"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El destino físico universal es absolutamente determinado",
+      "descripcion": "El experimento de doble rendija demuestra indeterminación fundamental en el comportamiento de partículas a nivel cuántico",
+      "grado_de_refutacion": "total",
+      "notas": "No hay manera de predecir el resultado exacto para cada partícula, sólo las probabilidades"
+    },
+    {
+      "afirmacion_refutada": "El destino físico universal es absolutamente determinado",
+      "descripcion": "El clima terrestre en escalas largas es caótico, pequeños cambios hoy pueden alterar radicalmente el resultado",
+      "grado_de_refutacion": "parcial",
+      "notas": "Caos no refuta el determinismo ontológico, pero sí imposibilita la predicción práctica absoluta"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Diversos experimentos indican límites inherentes a la predicción incluso con información total",
+      "inferencia": "El determinismo absoluto es heurísticamente inverosímil",
+      "grado_de_confianza": "alto",
+      "notas": "Correlación entre indeterminación experimental y fundamento teórico"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Todo enunciado absolutista sobre el destino del universo es refutable al aparecer al menos una instancia de indeterminación fundamental o impredecibilidad práctica. El determinismo global sólo puede sostenerse como hipótesis límite, no como hecho comprobado.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El destino físico universal es absolutamente determinado",
+        0,
+        1,
+        0
+      ],
+      [
+        "Existen ámbitos del universo que son indeterminados",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda indeterminación es solo ignorancia",
+        0,
+        1,
+        0
+      ],
+      [
+        "El determinismo es válido en sistemas simples",
+        1,
+        0,
+        0
+      ],
+      [
+        "El determinismo absoluto es necesario para la causalidad",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El determinismo absoluto pierde sentido si aparece un solo caso de auténtica indeterminación—pero la indeterminación comprobada no anula por completo zonas de determinismo local.",
+    "ambiguedad": "¿Indeterminación es ontológica (del ser) o gnoseológica (del saber)?",
+    "contradiccion_util": "La coexistencia de regiones deterministas e indeterministas nutre nuevas teorías híbridas (caos, decoherencia, teoría de la información)"
+  },
+  "reorganizacion_analoga": [
+    "Como un libro que, aunque aparentemente escrito, contiene páginas en blanco cuyas palabras dependen de tiradas de dados",
+    "Como un ajedrez donde algunas piezas mueven según reglas fijas pero otras lo hacen aleatoriamente",
+    "Como una máquina expendedora donde a veces el producto correcto cae y a veces, sin razón aparente, no"
+  ],
+  "implicacion_transformadora": [
+    "La epistemología pierde fuerza bajo dogmas deterministas totalizantes: se requiere apertura a estados híbridos y umbrales de incertidumbre",
+    "La ciencia debería modelar el conocimiento como espectro—de lo completamente determinado a lo absolutamente impredecible",
+    "Las éticas, lógicas y acciones derivadas de un determinismo absoluto son inválidas allí donde reina la indeterminación ineludible"
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "La abundancia de contraejemplos empíricos y narrativa conceptual actualizada en física descartan el absolutismo del determinismo universal"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "nodo_semantico_de_entrada": "Ningún dominio no observado tiene leyes distintas sin uniformidad",
+  "nodo_semantico_central": "Principio de uniformidad y leyes en dominios inobservados",
+  "firma_ontologica": {
+    "naturaleza": "Principio epistémico-condicional",
+    "funcion": "Limitar o condicionar la inferencia sobre las leyes en regiones inobservadas",
+    "dominio": "Epistemología, filosofía de la ciencia",
+    "forma": "Condicional modal; bucle lógico sobre posibilidad y observación",
+    "tension": "Depende de una presunción meta-lógica (uniformidad) que es indemostrable fuera del dominio observado",
+    "limite": "Inalcanzabilidad ontológica de los dominios inobservados sin extrapolación inductiva"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Dominio no observado",
+      "definicion": "Región, conjunto de eventos o fenómenos para los cuales no existe acceso sensorial, empírico o instrumental"
+    },
+    {
+      "termino": "Ley distinta",
+      "definicion": "Conjunto de reglas o patrones diferenciales respecto a las leyes conocidas en los dominios observados"
+    },
+    {
+      "termino": "Principio de uniformidad",
+      "definicion": "Suposición de que las leyes naturales se aplican de forma idéntica en todo lugar y tiempo, conocido o desconocido"
+    },
+    {
+      "termino": "Posibilidad epistémica",
+      "definicion": "Espacio lógico de lo que puede concebirse o afirmarse, dada la información disponible"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes un parque gigante con muchas zonas cubiertas por neblina donde nunca has estado. Si crees que los columpios y resbaladillas son iguales en todo el parque, es porque piensas que todo es parecido aunque no lo veas. Pero si no crees eso, no puedes decir si hay algo raro o diferente en la neblina.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El principio de uniformidad es necesario para inferir leyes en lo inobservado",
+      "subnodo": "Axioma de extensión inductiva",
+      "contexto": "Toda extrapolación de lo observado a lo inobservado requiere suponer uniformidad"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Es posible que existan leyes distintas en dominios no observados",
+      "subnodo": "Posibilidad lógica pura vs. restricción epistémica",
+      "contexto": "La posibilidad lógica no implica posibilidad epistémica sin uniformidad"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación depende de la imposibilidad de validar empíricamente las leyes fuera del dominio observable y del estatus del principio de uniformidad como axioma necesario pero indemostrable"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Suposición del principio de uniformidad",
+      "conclusion": "Sin uniformidad, no es lógicamente justificable asumir identidad o diferencia de leyes en dominios no observados",
+      "notas": "El razonamiento es deductivo pero depende de un presupuesto indemostrable"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Ningún dominio inobservado puede tener leyes distintas sin uniformidad",
+      "descripcion": "En cosmología, la hipótesis multiverso postula regiones causalmente desconectadas con constantes físicas diferentes, hipótesis sostenida desde la lógica modal sin el principio estricto de uniformidad",
+      "grado_de_refutacion": "parcial",
+      "notas": "Depende de definiciones de 'ley' y 'observación'; algunas teorías aceptan diversidad en lo inobservado hipótesis mediante"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Siempre que se ha postulado una diferencia sin observación directa, la evidencia empírica suele no confirmarla hasta que el dominio se vuelve observable, si es posible",
+      "inferencia": "La generalización inductiva favorece la uniformidad, pero su confianza decrece fuera del alcance empírico",
+      "grado_de_confianza": "medio",
+      "notas": "El método inductivo no asegura uniformidad fuera de lo observable; solo la presupone operativamente"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La aplicación de leyes a dominios inobservados requiere un acto metateórico de fe en la homogeneidad ontológica de la realidad, pero este axioma no puede ser universalmente probado ni refutado – se trata de una convención pragmática y no de una verdad absoluta.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Es posible que ningún dominio no observado tenga leyes distintas sin uniformidad",
+        0,
+        0,
+        1
+      ],
+      [
+        "La uniformidad permite sostener identidad de leyes en lo inobservado",
+        1,
+        0,
+        0
+      ],
+      [
+        "Sin uniformidad, toda inferencia sobre leyes en lo no observado es especulativa",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Basar toda extrapolación en un principio (uniformidad) que no puede probarse fuera del dominio observado lleva a un bucle epistemológico",
+    "ambiguedad": "¿El concepto de 'ley distinta' requiere observación para adquirir sentido empírico o basta una formalidad lógica?",
+    "contradiccion_util": "El principio de uniformidad soporta la ciencia, pero su indemostrabilidad lo hace simultáneamente necesario y no obligatorio"
+  },
+  "reorganizacion_analoga": [
+    "Como un mapa donde solo se conocen los caminos recorridos, y el resto es asignado por convención hasta que se camine nuevamente",
+    "Como una función matemática definida solo en un intervalo, cuya continuidad fuera de ese intervalo es supuesta por comodidad pero no garantizada"
+  ],
+  "implicacion_transformadora": [
+    "Toda construcción teórica sobre lo inobservable es siempre tentativa y dependiente de axiomas metaempíricos; la ciencia avanza por riesgos de extrapolación y manejo de incertidumbre",
+    "El reconocimiento de la imposibilidad absoluta de validar la uniformidad en lo inobservado obliga a un pluralismo ontológico provisional"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación no puede ser verificada ni refutada lógicamente sin incurrir en nuevos axiomas; el análisis revela que el principio de uniformidad es fundamentalmente un acto de fe metodológico"
+  }
+}

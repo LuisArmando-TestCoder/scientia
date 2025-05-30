@@ -14,17 +14,22 @@ const claim = args.join(" ");
 async function recursiveClaimAnalysis(claim: string) {
   console.log("claim: ", claim);
   const analysis = await getClaimAnalysis(claim);
+  const promisedClaims: Promise<void>[] = []
 
   for (const [
     claim, truth, contradiction, uncertainty,
   ] of analysis.tabla_verdad.filas) {
-    console.log(`sub claim (${
-        truth ? "truth" : contradiction ? "false" : uncertainty === 1 ? "uncertain" : "self-referential"
-    }): `, claim);
+    console.log(`sub claim: `, claim, ` (${
+        truth ? "true" : contradiction ? "false" : uncertainty === 1 ? "uncertain" : "self-referential"
+    })`);
     if (uncertainty === 1) {
         // on purpose the await is synchronous to avoid too many cuncurrent requests
-        await recursiveClaimAnalysis(claim);
+        promisedClaims.push(recursiveClaimAnalysis(claim));
     }
+  }
+
+  for (const promisedClaim of promisedClaims) {
+    await promisedClaim;
   }
 }
 const analysis = await recursiveClaimAnalysis(claim);

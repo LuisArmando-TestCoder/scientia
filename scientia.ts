@@ -235,6 +235,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     "filas": [
       ["", 0, 0, 1] // Estructura: afirmación + verdad/falsedad/indefinición (1 o 0) (Sólo deben tener un estado, si el estado es parcial o ambiguo, se debe marcar como indefinido). Si una afirmación indefinida es autoreferencial el campo de indefindo debe ser null, en vez de 1.
       // Si una afirmación es ambigua se puede absolutizar o algunizar y luego refutar por contraejemplo o reafirmar por caso positivo.
+      // Cada afirmación debe llevar consigo el contexto de la afirmación general explícitamente.
     ]
   },
 

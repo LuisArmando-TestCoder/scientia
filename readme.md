@@ -1,29 +1,29 @@
 Reasoning is not just a semantic emergent phenomena, is an algebraically boolean recursive operation applied (a thinking framework).
 
-```deno run --allow-env --allow-net main.ts si se da lo que recibe cuando se da, entonces se recibe```
+```deno run --allow-env --allow-net main.ts si se da lo que se recibe cuando se da, entonces se recibe```
 
 Example output main.ts
 ```ts
 Starting claim analysis...
-claim:  si se da lo que recibe cuando se da, entonces se recibe
+claim:  si se da lo que se recibe cuando se da, entonces se recibe
 Recursion level:  0
 evaluacion_global:  {
   estado: "indefinido",
-  criterio: "La proposición sólo se estabiliza al aclarar el contexto y sincronía de los términos; por defecto permanece ambigua/autorreferencial, útil como generador de preguntas más que como verdad absoluta."
+  criterio: "La estructura continúa siendo autoreferencial y depende de condiciones externas no especificadas; no es universal sin contextualización"
 }
-sub claim:  Donar implica que el otro recibe justo cuando se dona  (uncertain)
-claim:  Donar implica que el otro recibe justo cuando se dona
-sub claim:  Donar siempre implica recibir  (false)
-sub claim:  Donar algunas veces implica recibir  (true)
-sub claim:  En sincronicidad perfecta, donar implica recibir  (true)
+sub claim:  si al dar, se recibe lo dado, entonces se recibe  (true)
+sub claim:  si se da sin receptor, entonces se recibe  (false)
+sub claim:  siempre que se da, alguien recibe  (uncertain)
+claim:  siempre que se da, alguien recibe
 Recursion level:  1
 evaluacion_global:  {
   estado: "falso",
-  criterio: "La proposición universal no se sostiene por presencia de excepciones empíricas y lógicas; sólo es verdadera en condiciones particulares"
+  criterio: "Coherencia formal refutada por contraejemplos empíricos y laxitud semántica de 'alguien'."
 }
-sub claim:  Donar implica que el otro recibe justo cuando se dona  (false)
-sub claim:  Donar puede implicar que el otro recibe después  (true)
-sub claim:  Donar implica que el otro siempre recibe  (false)
-sub claim:  En algunos casos, donar y recibir ocurren simultáneamente  (true)
+sub claim:  Siempre que se da, alguien recibe  (false)
+sub claim:  Generalmente que se da, alguien recibe  (true)
+sub claim:  Es posible dar sin receptor  (true)
+sub claim:  Siempre que se da, algo recibe  (true)
+sub claim:  En todos los casos, el receptor es 'alguien'  (false)
 Claim analysis completed.
 ```

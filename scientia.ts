@@ -236,7 +236,6 @@ Cada iteración debería generar una versión más refinada de conciencia episte
       ["", 0, 0, 1] // Estructura: afirmación + verdad/falsedad/indefinición (1 o 0) (Sólo deben tener un estado, si el estado es parcial o ambiguo, se debe marcar como indefinido). Si una afirmación indefinida es autoreferencial el campo de indefindo debe ser null, en vez de 1.
       // Si una afirmación es ambigua se puede absolutizar o algunizar y luego refutar por contraejemplo o reafirmar por caso positivo.
       // Cada afirmación debe llevar consigo el contexto de la afirmación general explícitamente.
-      // Cada afirmación debe tener un identificador único para poder referenciarla en el resto del análisis. Si el padre no tenía entoncs se debe crear un prefijo numérico jerárquico (ej. 1, 2, 3... según su orden en la lista) para poder referenciarlo, si ya tiene un identificador único, se debe usar un sub sufijo en el prefijo identificador (ej. 1.1, 1.2... 1.4 o 2.1... 2.4 o 3.2 o 3.1.3... ... 3.2.3 según convenga, sólo hay que copiar el identificador padre y sucederlo con el orden que la afirmación tenga en la lista, en etapas avanzadas de recursividad puede alcanzar longitudes considerables como 1.2.1.1.2.1.2.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.3.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.2 pero, por muy largas que sean, no deben comprimirse, y deben mantenerse íntegras).
     ]
   },
 

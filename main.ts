@@ -11,10 +11,13 @@ if (args.length === 0) {
 const claim = args.join(" ");
 
 // Recursive function to analyze the claim
-async function recursiveClaimAnalysis(claim: string) {
+async function recursiveClaimAnalysis(claim: string, recursionLevel: number = 0) {
   console.log("claim: ", claim);
   const analysis = await getClaimAnalysis(claim);
   const promisedClaims: Promise<void>[] = []
+
+  console.log("Recursion level: ", analysis);
+  console.log("evaluacion_global: ", analysis.evaluacion_global);
 
   for (const [
     claim, truth, contradiction, uncertainty,
@@ -24,11 +27,9 @@ async function recursiveClaimAnalysis(claim: string) {
     })`);
     if (uncertainty === 1) {
         // on purpose the await is synchronous to avoid too many cuncurrent requests
-        promisedClaims.push(recursiveClaimAnalysis(claim));
+        promisedClaims.push(recursiveClaimAnalysis(claim, recursionLevel + 1));
     }
   }
-
-  console.log("evaluacion_global: ", analysis.evaluacion_global);
 
   for (const promisedClaim of promisedClaims) {
     await promisedClaim;

@@ -1,0 +1,153 @@
+{
+  "nodo_semantico_de_entrada": "Todo gran líder debe usar tit-for-tat como estrategia",
+  "nodo_semantico_central": "Liderazgo óptimo exige reciprocidad estratégica (tit-for-tat)",
+  "firma_ontologica": {
+    "naturaleza": "Norma estratégica",
+    "funcion": "Proponer un estándar universal para el comportamiento del liderazgo",
+    "dominio": "Ética política, teoría de juegos, gestión humana",
+    "forma": "Regla prescriptiva universal",
+    "tension": "Universalidad vs. contextualidad; reciprocidad vs. flexibilidad situacional",
+    "limite": "Tiende a ignorar variabilidad moral/cultural y los límites de lo prescriptivo"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Gran líder",
+      "definicion": "Persona que guía y moviliza grupos hacia objetivos; implica virtud, eficacia y ejemplo moral/social"
+    },
+    {
+      "termino": "Tit-for-tat",
+      "definicion": "Estrategia que consiste en replicar la acción previa de la contraparte: cooperación ante cooperación, represalia ante agresión"
+    },
+    {
+      "termino": "Debe usar",
+      "definicion": "Coloca la estrategia como requisito esencial, no opcional"
+    },
+    {
+      "termino": "Estrategia",
+      "definicion": "Método planificado y repetible para alcanzar objetivos"
+    }
+  ],
+  "transduccion_preconceptual": "Líder es como un niño en el recreo que, cada vez que otro niño es amable, responde siendo amable, y si alguien lo empuja, responde igual: así todos aprenden a no lastimarse. Pero si un día el niño ve que otro necesita ayuda aunque haya sido malo antes, ¿puede dejar de jugar así?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Todo gran líder debe usar tit-for-tat como estrategia",
+      "subnodo": "Universalidad normativa del tit-for-tat",
+      "contexto": "¿Es el tit-for-tat la única o mejor forma de liderazgo ético y efectivo en todos los contextos?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Tit-for-tat garantiza buenos resultados de liderazgo",
+      "subnodo": "Eficacia del tit-for-tat",
+      "contexto": "¿La reciprocidad estricta siempre promueve estabilidad y crecimiento?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición es demasiado absoluta; la diversidad de contextos, culturas y dilemas éticos genera contraejemplos."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si todo gran líder usa tit-for-tat y la cooperación total no siempre es correspondida,",
+      "conclusion": "El gran líder podría caer en ciclos de hostilidad perpetua.",
+      "notas": "El liderazgo a menudo exige romper la escalada para restaurar relaciones."
+    },
+    {
+      "origen": "De la prescripción universal",
+      "conclusion": "Limita la adaptabilidad y el juicio moral.",
+      "notas": "Torpe frente a casos de injusticia estructural o dinámicas asimétricas."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todo gran líder debe usar tit-for-tat como estrategia",
+      "descripcion": "Líderes como Mandela o Gandhi usaron estrategias de perdón unilateral y reconciliación incluso ante la no reciprocidad.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La compasión radical o la generosidad pueden superar al tit-for-tat."
+    },
+    {
+      "afirmacion_refutada": "Tit-for-tat es siempre efectivo",
+      "descripcion": "En ambientes de alta desconfianza o error de interpretación, la reciprocidad puede desencadenar ciclos sin fin de venganza.",
+      "grado_de_refutacion": "total",
+      "notas": "La rigidez puede escalar conflictos innecesarios."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Líderes reconocidos alternan entre reciprocidad, generosidad y estrategias asimétricas según el contexto.",
+      "inferencia": "El liderazgo efectivo requiere flexibilidad ética y estratégica.",
+      "grado_de_confianza": "alto",
+      "notas": "Documentado en estudios de liderazgo, historia y psicología grupal."
+    }
+  ],
+  "conclusion_preconceptual": "A veces jugar igual que el otro ayuda, pero a veces dejar de pelear primero es lo que de verdad cambia el juego.",
+  "teoria_o_intuicion_emergente": "El liderazgo óptimo surge de la capacidad de discernir cuándo la reciprocidad es fértil y cuándo romper la cadena con actos de generosidad o estrategias situacionales. La regla absoluta se vuelve insostenible en sistemas complejos y humanos.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Todo gran líder debe usar tit-for-tat como estrategia",
+        0,
+        1,
+        0
+      ],
+      [
+        "Tit-for-tat es siempre efectivo",
+        0,
+        1,
+        0
+      ],
+      [
+        "Gran líder usa tit-for-tat cuando aplica",
+        1,
+        0,
+        0
+      ],
+      [
+        "Sin tit-for-tat un líder no es grande",
+        0,
+        1,
+        0
+      ],
+      [
+        "La regla admite excepciones humanitarias",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Todo gran líder debe usar tit-for-tat como estrategia",
+      "implicacion_por_estado_falso": "La excelencia en el liderazgo no depende solo de la reciprocidad, sino de una paleta ética y táctica más amplia.",
+      "implicacion_por_estado_verdadero": "Se limitaría la creatividad estratégica y la compasión radical."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "El acto verdaderamente líder puede ser precisamente no responder como el otro (ruptura positiva de la reciprocidad).",
+    "ambiguedad": "¿Es tit-for-tat siempre cooperación o puede ser venganza? ¿Quién define lo que es 'gran líder'?",
+    "contradiccion_util": "El absoluto revela su límite al requerir excepciones en entornos complejos."
+  },
+  "reorganizacion_analoga": [
+    "Como un termostato inteligente, que a veces responde igual al frío, pero a veces anticipa el clima y cambia el ciclo.",
+    "Como una danza: imitas pasos, pero creas moviéndote distinto cuando es necesario.",
+    "La biología inmunitaria: responde igual ante amenaza (inmunidad adquirida), pero puede tolerar ciertos antígenos para mantener equilibrio (tolerancia inmunológica)."
+  ],
+  "implicacion_transformadora": [
+    "El liderazgo ético y pragmático requiere discernimiento de cuándo aplicar reglas de reciprocidad y cuándo superarlas con acciones asimétricas.",
+    "Las estrategias fijas deben ser comprendidas como una herramienta, no como un dogma.",
+    "La capacidad de suspender el tit-for-tat permite liderazgos transformadores que rompen ciclos de conflicto y abren nuevas posibilidades colectivas."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "Contraejemplos históricos y estructurales demuestran la insuficiencia de la regla absoluta; el análisis revela la necesidad de flexible discernimiento estratégico."
+  },
+  "reconclusion_preconceptual": "Un buen líder no sólo copia lo que hacen los demás, sabe cuándo hacer algo mejor aunque nadie lo haya hecho antes, como si tuviera un superpoder para cambiar la historia del juego.",
+  "contexto": "Todo gran líder debe usar tit-for-tat como estrategia"
+}

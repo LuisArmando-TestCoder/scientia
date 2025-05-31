@@ -1,5 +1,8 @@
 Reasoning is not just an iterativelly retrofeeding semantic emergent phenomena, is an algebraically boolean recursive operation applied (a thinking framework).
 
+## To resume a process
+```deno run --allow-env --allow-net --allow-write main.ts resume todo_gran_lider_debe_usar_la_mejor_estrategia_del_dilema_del```
+
 ## Last stable version output
 
 Example output 0 ```deno run --allow-env --allow-net --allow-write main.ts "Reasoning is not just an iterativelly retrofeeding semantic emergent phenomena, is an algebraically boolean recursive operation applied (a thinking framework)."```

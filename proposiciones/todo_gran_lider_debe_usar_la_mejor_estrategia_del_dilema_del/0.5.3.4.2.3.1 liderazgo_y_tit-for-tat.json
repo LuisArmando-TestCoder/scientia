@@ -1,0 +1,139 @@
+{
+  "nodo_semantico_de_entrada": "Liderazgo y tit-for-tat",
+  "nodo_semantico_central": "Necesidad de tit-for-tat en el liderazgo",
+  "firma_ontologica": {
+    "naturaleza": "Proposición normativa universal",
+    "funcion": "Prescribir una estrategia óptima de liderazgo",
+    "dominio": "Teoría del liderazgo, teoría de juegos, ética conductual",
+    "forma": "Regla / algoritmo aplicado interpersonalmente",
+    "tension": "Universalidad vs. contextualidad: se prescribe como necesidad absoluta sin reconocer variantes situacionales.",
+    "limite": "Puede ignorar matices culturales, personales y contextuales; riesgo de absolutismo estratégico"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "gran líder",
+      "definicion": "Persona que guía, motiva o representa a un grupo, considerada exitosa o ejemplar por sus resultados o virtudes"
+    },
+    {
+      "termino": "debe",
+      "definicion": "Obligación o necesidad lógica, moral o técnica de realizar una acción"
+    },
+    {
+      "termino": "usar",
+      "definicion": "Implementar o adoptar sistemáticamente un método o recurso"
+    },
+    {
+      "termino": "tit-for-tat",
+      "definicion": "Estrategia de reciprocidad directa: responder en cada interacción replicando lo que el otro hizo previamente, premiando la cooperación y castigando la traición"
+    },
+    {
+      "termino": "estrategia",
+      "definicion": "Plan sistemático diseñado para lograr un objetivo dentro de un entorno competitivo o cooperativo"
+    }
+  ],
+  "transduccion_preconceptual": "Un buen jefe es como un amigo que copia lo que tú haces: si eres amable, él es amable; si eres grosero, él también lo es hasta que tú decidas cambiar. Pero no siempre los mejores amigos hacen eso todo el tiempo.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Todo gran líder debe usar tit-for-tat como estrategia",
+      "subnodo": "Universalidad del método tit-for-tat",
+      "contexto": "¿Existe alguna excepción o contexto donde tit-for-tat no sea la mejor o única estrategia de liderazgo efectivo?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "falso",
+    "criterio": "Existencia de múltiples contraejemplos históricos y contextuales que refutan la universalidad de la afirmación"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de universalidad ('todo')",
+      "conclusion": "Basta con hallar un solo caso de liderazgo efectivo sin tit-for-tat para invalidar la proposición",
+      "notas": "El argumento es sensible a contraejemplos; el uso de 'todo' la hace rigidamente falsable"
+    },
+    {
+      "origen": "Función de tit-for-tat",
+      "conclusion": "Tit-for-tat promueve reciprocidad y cooperación, pero puede no ser óptimo en escenarios donde el perdón, la generosidad o la anticipación son más efectivos",
+      "notas": "No siempre maximiza resultados en todos los estilos de liderazgo"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todo gran líder debe usar tit-for-tat como estrategia",
+      "descripcion": "Líderes carismáticos/morales (Gandhi, Nelson Mandela) utilizaron estrategias de generosidad unilateral, perdón o sacrificio en vez de simple reciprocidad.",
+      "grado_de_refutacion": "total",
+      "notas": "Liderazgo servicial y transformacional rechaza el castigo como método principal"
+    },
+    {
+      "afirmacion_refutada": "Todo gran líder debe usar tit-for-tat como estrategia",
+      "descripcion": "En culturas colectivistas o contextos de asimetría de poder, la estrategia de reciprocidad directa puede ser interpretada como desafío o deslealtad, y resultar contraproducente.",
+      "grado_de_refutacion": "parcial",
+      "notas": "El impacto de tit-for-tat depende de la estructura socio-cultural"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Liderazgo efectivo toma distintas formas: empatía, asertividad, corrupción, altruismo, etc.",
+      "inferencia": "No hay una sola estrategia universal para el éxito en liderazgo; la flexibilidad es clave.",
+      "grado_de_confianza": "alto",
+      "notas": "Respaldo empírico en estudios de administración y psicología organizacional"
+    }
+  ],
+  "conclusion_preconceptual": "Un líder que siempre copia puede ser bueno a veces, pero los mejores líderes cambian según el momento y las personas.",
+  "teoria_o_intuicion_emergente": "Una estrategia dinámica (adaptativa y multiparadigma) supera las ventajas de toda regla fija en contextos complejos de liderazgo.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Todo gran líder debe usar tit-for-tat como estrategia",
+        0,
+        1,
+        0
+      ],
+      [
+        "Existen líderes exitosos que no usan tit-for-tat",
+        1,
+        0,
+        0
+      ],
+      [
+        "Tit-for-tat siempre maximiza efectividad en liderazgo",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "El uso de tit-for-tat no es universal ni necesario en el liderazgo",
+      "implicacion_por_estado_falso": "Si resultara ser falso (es universal y necesario), la ética, cultura y psicología deben basarse en la reciprocidad estricta en todo liderazgo",
+      "implicacion_por_estado_verdadero": "Si es verdadero (no es universal ni necesario), el liderazgo debe basarse en adaptabilidad, empatía contextual y flexibilidad estratégica"
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Un líder inflexible en reciprocidad se vuelve predecible y manipulado por el entorno, pero la ausencia de reciprocidad puede erosionar confianza y autoridad",
+    "ambiguedad": "¿Qué define a un 'gran líder'? ¿El éxito, la moralidad, la percepción social o los resultados?",
+    "contradiccion_util": "El intento de aplicar reglas absolutas al liderazgo revela los límites de la teoría de juegos clásica ante la complejidad social real"
+  },
+  "reorganizacion_analoga": [
+    "Algoritmos de aprendizaje adaptativo vs. algoritmos deterministas",
+    "Democracia deliberativa frente a autocracia reglamentaria",
+    "Juegos iterados con mutaciones aleatorias y estrategias complejas"
+  ],
+  "implicacion_transformadora": [
+    "Los programas de formación en liderazgo deberían centrarse en construir competencias adaptativas y diagnósticas, no en imponer recetas universales.",
+    "La ética del liderazgo debería fomentar la flexibilidad y la integración de estrategias múltiples, no solamente la reciprocidad estricta.",
+    "El análisis de la efectividad de líderes debe tomar en cuenta contexto, cultura y objetivos, superando reglas de oro simplistas"
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "Consenso teórico-práctico y empírico muestra que el liderazgo efectivo es multifactorial y no reducible a una sola estrategia universal"
+  },
+  "reconclusion_preconceptual": "Copiar siempre lo que hacen los demás no te hace el mejor jefe; el mejor jefe sabe cuándo imitar, cuándo perdonar y cuándo ser diferente, según lo que su gente y el momento necesitan.",
+  "contexto": "Todo gran líder debe usar tit-for-tat como estrategia"
+}

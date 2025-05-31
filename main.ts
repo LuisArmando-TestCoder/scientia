@@ -71,13 +71,14 @@ async function persistClaimJSON(
   prefix: string,
   semanticNode: string,
   json: Record<string, unknown>,
+  contexto: string = '',
 ) {
   await Deno.mkdir(baseDir, { recursive: true });
   if (!semanticNode || isIdentifierOnly(semanticNode)) return;
 
   const fileName = `${prefix} ${slugify(semanticNode)}.json`;
   const filePath = join(baseDir, fileName);
-  await Deno.writeTextFile(filePath, JSON.stringify(json, null, 2));
+  await Deno.writeTextFile(filePath, JSON.stringify({ ...json, contexto }, null, 2));
   console.log(`✅ Guardado → ${filePath}`);
 }
 
@@ -109,7 +110,7 @@ if (args.length === 0) {
 }
 
 const claimRoot = args.join(' ');
-const rootDirName = slugify(claimRoot) || 'root_claim';
+const rootDirName = `proposiciones/${slugify(claimRoot) || 'root_claim'}`;
 
 async function recursiveClaimAnalysis(
   claim: string,
@@ -124,7 +125,7 @@ async function recursiveClaimAnalysis(
     (analysis as Record<string, string>).nodo_semantico ??
     claim;
 
-  await persistClaimJSON(baseDir, prefix, semanticNode, analysis);
+  await persistClaimJSON(baseDir, prefix, semanticNode, analysis, claim);
 
   const subtasks: Promise<void>[] = [];
   let childIndex = 1;

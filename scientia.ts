@@ -228,6 +228,8 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     }
     // ...una por cada generalización inducida desde datos o experiencia
   ],
+
+  "conclusion_preconceptual": "", // Pre veredicto preconceptual tomando en cuenta el contexto actual.
   
   "teoria_o_intuicion_emergente": "", // Insight derivado, afirmación teórica, intuición heurística o principio estructural.
 
@@ -267,6 +269,8 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     "estado": "verdadero | falso | indefinido | autoreferencial", // Refinación del juicio lógico refinado global del nodo tras el análisis recursivo tomando en cuenta los juicios lógicos que surjen del nodo de la teoria_o_intuicion_emergente.
     "criterio": "", // Reevaluación del estado elegido (ej. “paradoja no resuelta”, “coherencia formal alcanzada”, etc.)
   }
+
+  "reconclusion_preconceptual": "", // Post veridictico tomando en cuenta el contexto anterior de todos los hallazgos intui o contraintuitivos.
 }
 
 Notas: Recuerda sólo devolver el JSON, sin ningún otro texto adicional, sin wrapping.

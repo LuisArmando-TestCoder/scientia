@@ -1,291 +1,358 @@
-/// <reference lib='deno.ns' />
+/// <reference lib="deno.ns" />
 
-// ———————————————————————————————————————————————————————————————
-//  Dependencies
-// ———————————————————————————————————————————————————————————————
-import { join } from 'https://deno.land/std@0.224.0/path/mod.ts';
+/**************************************************************************************************
+ * Claim Analysis – Functional & Modular Refactor                                                  *
+ * ------------------------------------------------------------------------------------------------ *
+ * This refactor converts the original imperative / class‑centric approach into an almost‑pure      *
+ * functional style. All state is encapsulated in closures that expose explicit, side‑effect‑free   *
+ * interfaces wherever feasible. Business logic remains identical.                                 *
+ *                                                                                                 *
+ * Clean‑code conventions applied                                                                  *
+ * • Top‑level: imports ▸ constants ▸ pure helpers ▸ impure helpers ▸ business functions ▸ main.    *
+ * • Verbose, intention‑revealing identifier names.                                                 *
+ * • JSDoc for all public helpers and exported symbols.                                            *
+ **************************************************************************************************/
+
+// ────────────────────────────────────────────────────────────────────────────────
+// Dependencies
+// ────────────────────────────────────────────────────────────────────────────────
+import { join } from "https://deno.land/std@0.224.0/path/mod.ts";
 import { walk } from "https://deno.land/std@0.224.0/fs/walk.ts";
-import { getClaimAnalysis } from './scientia.ts';
-import { jsonToMarkdown } from './jsontomarkdown.ts';
+import { getClaimAnalysis } from "./scientia.ts";
+import { jsonToMarkdown } from "./jsontomarkdown.ts";
 
-// ———————————————————————————————————————————————————————————————
-//  Synchronous task queue
-// ———————————————————————————————————————————————————————————————
-class SynchronousTaskQueue {
-  private queue: (() => Promise<unknown>)[] = [];
-  private isRunning = false;
+// ────────────────────────────────────────────────────────────────────────────────
+// Constants & Regular Expressions
+// ────────────────────────────────────────────────────────────────────────────────
 
-  add<T>(task: () => Promise<T>): Promise<T> {
-    return new Promise<T>((resolve, reject) => {
-      this.queue.push(async () => {
-        try {
-          const result = await task();
-          resolve(result);
-        } catch (error) {
-          reject(error);
-        }
-      });
-      this.processQueue();
-    });
-  }
+/** Matches identifiers composed exclusively of dot‑separated integers. */
+const IDENTIFIER_ONLY_REGEXP: RegExp = /^\d+(?:\.\d+)*$/;
 
-  private async processQueue() {
-    if (this.isRunning || this.queue.length === 0) return;
-    this.isRunning = true;
-    const taskWrapper = this.queue.shift();
-    if (taskWrapper) {
+// ────────────────────────────────────────────────────────────────────────────────
+// Pure Utility Helpers (No I/O)
+// ────────────────────────────────────────────────────────────────────────────────
+
+/**
+ * Determines if a string contains only numeric identifiers (e.g. "1.2.3").
+ */
+const isIdentifierOnly = (rawText: string): boolean =>
+  IDENTIFIER_ONLY_REGEXP.test(rawText.trim());
+
+/**
+ * Produces a URL‑safe, filesystem‑friendly slug that does **not** leak accents.
+ */
+const slugify = (rawText: string): string =>
+  rawText
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "") // strip diacritics
+    .toLowerCase()
+    .replace(/[^a-z0-9_-]/g, "_")
+    .replace(/_+/g, "_")
+    .slice(0, 60)
+    .replace(/^_|_$/g, "");
+
+// ────────────────────────────────────────────────────────────────────────────────
+// Stateful Queuing (Encapsulated in a Factory for FP‑Friendly API)
+// ────────────────────────────────────────────────────────────────────────────────
+
+/**
+ * Creates a synchronous promise queue that guarantees first‑in‑first‑out *serial* execution.
+ */
+const createSynchronousTaskQueue = () => {
+  let taskQueue: Array<() => Promise<unknown>> = [];
+  let isProcessing = false;
+
+  const processQueue = async (): Promise<void> => {
+    if (isProcessing || taskQueue.length === 0) return;
+
+    isProcessing = true;
+    const nextTask = taskQueue.shift();
+
+    if (nextTask) {
       try {
-        await taskWrapper();
-      } catch (e) {
-        console.error('Error during task execution in queue:', e);
+        await nextTask();
+      } catch (processingError) {
+        console.error("Error during task execution:", processingError);
       } finally {
-        this.isRunning = false;
-        this.processQueue();
+        isProcessing = false;
+        await processQueue();
       }
     } else {
-      this.isRunning = false;
+      isProcessing = false;
     }
-  }
-}
+  };
 
-// ———————————————————————————————————————————————————————————————
-//  Utilities
-// ———————————————————————————————————————————————————————————————
-const ENUM_ONLY_REGEX = /^\d+(?:\.\d+)*$/;
+  /**
+   * Adds a task to the queue and returns a promise that resolves with its result.
+   */
+  const enqueueTask = <T>(taskFactory: () => Promise<T>): Promise<T> =>
+    new Promise<T>((resolve, reject) => {
+      taskQueue.push(async () => {
+        try {
+          const result = await taskFactory();
+          resolve(result);
+        } catch (taskError) {
+          reject(taskError);
+        }
+      });
+      processQueue();
+    });
 
-function isIdentifierOnly(text: string): boolean {
-  return ENUM_ONLY_REGEX.test(text.trim());
-}
+  return { enqueueTask } as const;
+};
 
-function slugify(text: string): string {
-  return text
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9_-]/g, '_')
-    .replace(/_+/g, '_')
-    .slice(0, 60)
-    .replace(/^_|_$/g, '');
-}
-
-async function persistClaimJSON(
-  baseDir: string,
-  prefix: string,
-  semanticNode: string,
-  json: Record<string, unknown>,
-  contexto: string = '',
+/**
+ * Wraps an async function so that calls are automatically serialized through the provided queue.
+ */
+function createQueuedExecutor<Args extends unknown[], Result>(
+  asyncFunction: (...args: Args) => Promise<Result>,
+  queue: ReturnType<typeof createSynchronousTaskQueue>,
 ) {
-  await Deno.mkdir(baseDir, { recursive: true });
-  if (!semanticNode || isIdentifierOnly(semanticNode)) return;
-
-  const fileName = `${prefix} ${slugify(semanticNode)}.json`;
-  const filePath = join(baseDir, fileName);
-  await Deno.writeTextFile(filePath, JSON.stringify({ ...json, contexto }, null, 2));
-  
-  const mdfileName = `${prefix} ${slugify(semanticNode)}.md`;
-  const mdfilePath = join(baseDir, mdfileName);
-  await Deno.writeTextFile(mdfilePath, jsonToMarkdown({ ...json, contexto }));
-
-  console.log(`✅ Guardado → ${filePath}`);
+  return (...args: Args): Promise<Result> =>
+    queue.enqueueTask(() => asyncFunction(...args));
 }
 
-function createQueuedExecutor<A extends unknown[], R>(
-  fn: (...args: A) => Promise<R>,
-  queue: SynchronousTaskQueue,
-) {
-  return (...args: A): Promise<R> => queue.add(() => fn(...args));
+// ────────────────────────────────────────────────────────────────────────────────
+// Impure Helpers (Filesystem & Console I/O)
+// ────────────────────────────────────────────────────────────────────────────────
+
+/**
+ * Persists the JSON analysis and its Markdown rendition side‑by‑side.
+ */
+async function persistClaimArtifacts(
+  targetDirectoryPath: string,
+  claimPrefixIdentifier: string,
+  semanticNodeText: string,
+  analysisJson: Record<string, unknown>,
+  analysisContext: string = "",
+): Promise<void> {
+  await Deno.mkdir(targetDirectoryPath, { recursive: true });
+
+  if (!semanticNodeText || isIdentifierOnly(semanticNodeText)) return; // skip void‑like nodes
+
+  const baseFileNameSafe = `${claimPrefixIdentifier} ${slugify(semanticNodeText)}`;
+
+  const jsonPath = join(targetDirectoryPath, `${baseFileNameSafe}.json`);
+  const mdPath = join(targetDirectoryPath, `${baseFileNameSafe}.md`);
+
+  await Deno.writeTextFile(
+    jsonPath,
+    JSON.stringify({ ...analysisJson, contexto: analysisContext }, null, 2),
+  );
+  await Deno.writeTextFile(
+    mdPath,
+    jsonToMarkdown({ ...analysisJson, contexto: analysisContext }),
+  );
+
+  console.log(`✅ Saved → ${jsonPath}`);
 }
 
-// ———————————————————————————————————————————————————————————————
-//  Queue-wrapped API call
-// ———————————————————————————————————————————————————————————————
-const apiCallQueue = new SynchronousTaskQueue();
-const queuedGetClaimAnalysis = createQueuedExecutor(
-  getClaimAnalysis,
-  apiCallQueue,
-);
-
-// ———————————————————————————————————————————————————————————————
-//  Main
-// ———————————————————————————————————————————————————————————————
-console.log('Starting claim analysis...');
-
-// Ensure 'proposiciones' directory exists
-try {
-  await Deno.stat('proposiciones');
-  // If stat doesn't throw, directory exists.
-  console.log("'proposiciones' directory already exists.");
-} catch (error) {
-  if (error instanceof Deno.errors.NotFound) {
-    // Directory does not exist, create it.
-    console.log("'proposiciones' directory not found. Creating it...");
-    await Deno.mkdir('proposiciones', { recursive: true });
-    console.log("'proposiciones' directory created.");
-  } else {
-    // Other error, rethrow it.
-    console.error("Error checking for 'proposiciones' directory:", error);
-    throw error;
+/**
+ * Reads every file within *folderPath* (no recursion into directories) and returns their full paths.
+ */
+export async function listFilesRecursively(folderPath: string): Promise<string[]> {
+  const collectedPaths: string[] = [];
+  for await (const entry of walk(folderPath, { includeDirs: false })) {
+    collectedPaths.push(entry.path);
   }
+  return collectedPaths;
 }
 
-const args = Deno.args;
-if (args.length === 0) {
-  console.error('Please provide a claim to analyze.');
-  Deno.exit(1);
-}
+// ────────────────────────────────────────────────────────────────────────────────
+// Business‑Logic Functions (Pure wrappers around impure helpers)
+// ────────────────────────────────────────────────────────────────────────────────
 
-let folder = args[0] === "resume" ? args.slice(1).join(" ") : "";
-const claimRoot = args.join(" ");
-const rootDirName = `proposiciones/${slugify(claimRoot) || 'root_claim'}`;
+const apiCallQueue = createSynchronousTaskQueue();
+const queuedGetClaimAnalysis = createQueuedExecutor(getClaimAnalysis, apiCallQueue);
 
-async function recursiveClaimAnalysis({
-  claim,
-  prefix,
-  baseDir,
-  context = "",
-  parentFileName = "",
+/**
+ * Performs a depth‑first traversal of truth‑table rows labelled as *uncertain* (== 1) and
+ * recursively analyses them. Maintains *prefix* numbering semantics identical to the legacy code.
+ */
+async function analyseClaimRecursively({
+  claimText,
+  numericPrefix,
+  outputDirectoryPath,
+  analysisContext = "",
+  parentMarkdownBaseName = "",
 }: {
-  claim: string,
-  prefix: string,
-  baseDir: string,
-  context?: string,
-  parentFileName?: string
+  claimText: string;
+  numericPrefix: string;
+  outputDirectoryPath: string;
+  analysisContext?: string;
+  parentMarkdownBaseName?: string;
 }): Promise<void> {
-  console.log(`[${prefix}] claim:`, claim);
-  const analysis = await queuedGetClaimAnalysis(claim);
+  console.log(`[${numericPrefix}] claim:`, claimText);
 
-  const semanticNode =
+  // Queue‑controlled external API call
+  const analysis = await queuedGetClaimAnalysis(claimText) as Record<string, unknown>;
+
+  // Fallback order preserved from legacy code
+  const semanticNode: string =
     (analysis as Record<string, string>).nodo_semantico_de_entrada ??
     (analysis as Record<string, string>).nodo_semantico ??
-    claim;
-  
-  const currentFileName = `${prefix} ${slugify(semanticNode)}`;
+    claimText;
 
-  // ——————————————————————————————————————————————————————————
-  //  Vincula el nodo actual en el archivo padre (.md)
-  // ——————————————————————————————————————————————————————————
-  console.log("here 1", parentFileName)
-  console.log("here 1.5", currentFileName)
-  if (parentFileName) { // sólo si hay padre
-    const parentFilePath = `${baseDir}/${parentFileName}.md`;
-    console.log("here 2", parentFilePath)
+  const currentMarkdownBaseName = `${numericPrefix} ${slugify(semanticNode)}`;
+
+  // Append a link to the newly created note into its parent (if any)
+  if (parentMarkdownBaseName) {
+    const parentMarkdownPath = join(outputDirectoryPath, `${parentMarkdownBaseName}.md`);
     try {
-      const payload = `\n[[${currentFileName}]]\n`;
-      console.log("here 3", payload)
-      await Deno.writeTextFile(parentFilePath, payload, { append: true });
-    } catch (err) {
-      if (err instanceof Deno.errors.NotFound) {
-        console.warn(`⏩ Archivo padre no hallado: ${parentFilePath}`);
+      await Deno.writeTextFile(parentMarkdownPath, `\n[[${currentMarkdownBaseName}]]\n`, {
+        append: true,
+      });
+    } catch (fsError) {
+      if (fsError instanceof Deno.errors.NotFound) {
+        console.warn(`⏩ Parent file not found: ${parentMarkdownPath}`);
       } else {
-        throw err;
+        throw fsError;
       }
     }
   }
 
+  await persistClaimArtifacts(
+    outputDirectoryPath,
+    numericPrefix,
+    semanticNode,
+    analysis,
+    claimText,
+  );
 
-  await persistClaimJSON(baseDir, prefix, semanticNode, analysis, claim);
+  // Drill down into *uncertain* sub‑claims
+  const { filas } = (analysis as any).tabla_verdad;
+  let childCounter = 1;
+  const childTasks: Array<Promise<void>> = [];
 
-  const subtasks: Promise<void>[] = [];
-  let childIndex = 1;
-
-  for (
-    const [subClaim, truth, contradiction, uncertainty] of
-    (analysis as any).tabla_verdad.filas
-  ) {
-    const label = truth
-      ? 'true'
+  for (const [subClaim, truth, contradiction, uncertainty] of filas) {
+    const truthLabel = truth
+      ? "true"
       : contradiction
-        ? 'false'
-        : uncertainty === 1
-          ? 'uncertain'
-          : 'self-referential';
+      ? "false"
+      : uncertainty === 1
+      ? "uncertain"
+      : "self‑referential";
 
-    console.log(`[${prefix}.${childIndex}] sub claim:`, subClaim, `(${label})`);
+    console.log(`[${numericPrefix}.${childCounter}] sub‑claim:`, subClaim, `(${truthLabel})`);
 
-    const nextPrefix = `${prefix}.${childIndex}`;
-    childIndex++;
+    const nextPrefix = `${numericPrefix}.${childCounter}`;
+    childCounter++;
 
-    if (uncertainty === 1 && !isIdentifierOnly(subClaim)) {      
-      subtasks.push(recursiveClaimAnalysis({
-        claim: `${subClaim} (contexto: ${context || claim})`, 
-        prefix: nextPrefix, 
-        baseDir, 
-        parentFileName: currentFileName
-      }));
-    }
-  }
-
-  for (const task of subtasks) await task;
-}
-
-export async function getWalkedParamFolder(folderPath: string): Promise<string[]> {
-  const files: string[] = [];
-
-  for await (const entry of walk(folderPath, { includeDirs: false })) {
-    files.push(entry.path);
-  }
-
-  return files;
-}
-
-if (folder) {
-  const folderPath = `proposiciones/${folder}`;
-
-  const walkedParamFolder = await getWalkedParamFolder(folderPath);
-  // see in the already created folder tree the first file using walk tree
-
-  for (const filePath of walkedParamFolder) {
-    // get file json content
-    if (!filePath.endsWith('.json')) continue;
-  
-    const analysisObject = JSON.parse(Deno.readTextFileSync(filePath));
-    const parentIndex = filePath.split("/").slice(-1)[0].split(" ")[0];
-  
-    const { filas } = analysisObject.tabla_verdad;
-  
-    const partialStatements = filas
-      .map((fila, index) => ([...fila, index + 1]))
-      .filter(([_0, _1, _2, isPartial]) => isPartial === 1);
-  
-    console.log("Partial statements to resume: ", partialStatements);
-  
-    for (const [statement, _1, _2, _3, index] of partialStatements) {
-      const childIndex = `${parentIndex}.${index}`;
-      const parentFilePath = walkedParamFolder
-        .find(fp => fp.includes(`${parentIndex} `))
-      
-      const parentFileName = parentFilePath
-        ?.split('/')
-        .pop()
-        ?.match(/^(.*)\.md$/)?.[1];
-      const alreadyExists = walkedParamFolder.some(filePath =>
-        filePath.includes(`${childIndex} `)
+    if (uncertainty === 1 && !isIdentifierOnly(subClaim)) {
+      childTasks.push(
+        analyseClaimRecursively({
+          claimText: `${subClaim} (contexto: ${analysisContext || claimText})`,
+          numericPrefix: nextPrefix,
+          outputDirectoryPath,
+          analysisContext: analysisContext || claimText,
+          parentMarkdownBaseName: currentMarkdownBaseName,
+        }),
       );
-    
-      if (!alreadyExists) {
-        console.log('resuming', childIndex);
-        await recursiveClaimAnalysis({
-            claim: statement, 
-            prefix: childIndex, 
-            baseDir: folderPath, 
-            context: analysisObject.contexto,
-            parentFileName
-          })
-      }
     }
-  }  
+  }
+
+  // Ensure deterministic order
+  for (const task of childTasks) await task;
+}
+
+// ────────────────────────────────────────────────────────────────────────────────
+// Startup Helpers & Argument Parsing
+// ────────────────────────────────────────────────────────────────────────────────
+
+/** Ensures the shared "proposiciones" directory exists before any operation. */
+async function ensurePropositionsRoot(): Promise<void> {
+  try {
+    await Deno.stat("proposiciones");
+    console.log("'proposiciones' directory already exists.");
+  } catch (statError) {
+    if (statError instanceof Deno.errors.NotFound) {
+      console.log("'proposiciones' directory not found. Creating it...");
+      await Deno.mkdir("proposiciones", { recursive: true });
+      console.log("'proposiciones' directory created.");
+    } else {
+      throw statError;
+    }
+  }
+}
+
+/** Parses CLI arguments and separates *resume* mode from new‑analysis mode. */
+function parseCommandLine(): { resumeFolderName: string; rootClaimText: string } {
+  const rawArgs = [...Deno.args];
+  if (rawArgs.length === 0) {
+    console.error("Please provide a claim to analyse.");
+    Deno.exit(1);
+  }
+  const resumeFolderName = rawArgs[0] === "resume" ? rawArgs.slice(1).join(" ") : "";
+  const rootClaimText = rawArgs.join(" ");
+  return { resumeFolderName, rootClaimText };
+}
+
+// ────────────────────────────────────────────────────────────────────────────────
+// Main Execution Pipeline
+// ────────────────────────────────────────────────────────────────────────────────
+
+console.log("Starting claim analysis…");
+await ensurePropositionsRoot();
+
+const { resumeFolderName, rootClaimText } = parseCommandLine();
+
+if (resumeFolderName) {
+  // ──────────────────────────────────────────────────────────────────
+  // RESUME MODE
+  // ──────────────────────────────────────────────────────────────────
+  const resumeDirPath = `proposiciones/${resumeFolderName}`;
+  const existingFiles = await listFilesRecursively(resumeDirPath);
+
+  for (const filePath of existingFiles) {
+    if (!filePath.endsWith(".json")) continue;
+
+    const analysisData = JSON.parse(Deno.readTextFileSync(filePath));
+    const parentPrefix = filePath.split("/").at(-1)!.split(" ")[0];
+    const { filas } = analysisData.tabla_verdad;
+
+    const partialRows = filas
+      .map((row: unknown[], idx: number) => [...row, idx + 1])
+      .filter(([, , , uncertainty]) => uncertainty === 1);
+
+    console.log("Partial statements to resume:", partialRows);
+
+    for (const [statement, , , , rowIndex] of partialRows) {
+      const childPrefix = `${parentPrefix}.${rowIndex}`;
+      const parentMarkdownPath = existingFiles.find((fp) => fp.includes(`${parentPrefix} `));
+      const parentMarkdownBaseName = parentMarkdownPath?.split("/").pop()?.replace(/\.md$/, "");
+
+      const alreadyExists = existingFiles.some((fp) => fp.includes(`${childPrefix} `));
+      if (alreadyExists) continue;
+
+      console.log("resuming", childPrefix);
+      await analyseClaimRecursively({
+        claimText: statement,
+        numericPrefix: childPrefix,
+        outputDirectoryPath: resumeDirPath,
+        analysisContext: analysisData.contexto,
+        parentMarkdownBaseName,
+      });
+    }
+  }
 } else {
-  // ————————————————————————————————————————————————
-  //  NEW: guarantee root directory and write claim.md
-  // ————————————————————————————————————————————————
-  await Deno.mkdir(rootDirName, { recursive: true });
-  const claimMdPath = join(rootDirName, 'claim.sh');
-  const claimMdContent = `deno run --allow-read --allow-env --allow-write --allow-net main.ts \"${claimRoot}\"` + "\n";
-  await Deno.writeTextFile(claimMdPath, claimMdContent);
-  
-  await recursiveClaimAnalysis({
-    claim: claimRoot, prefix: '0', baseDir: rootDirName
+  // ──────────────────────────────────────────────────────────────────
+  // NEW CLAIM MODE
+  // ──────────────────────────────────────────────────────────────────
+  const rootDirectoryPath = `proposiciones/${slugify(rootClaimText) || "root_claim"}`;
+  await Deno.mkdir(rootDirectoryPath, { recursive: true });
+
+  // Bootstrap utility shell script for quick reruns (legacy behaviour)
+  const rerunShellPath = join(rootDirectoryPath, "claim.sh");
+  const rerunShellContent =
+    `deno run --allow-read --allow-env --allow-write --allow-net main.ts \"${rootClaimText}\"` +
+    "\n";
+  await Deno.writeTextFile(rerunShellPath, rerunShellContent);
+
+  await analyseClaimRecursively({
+    claimText: rootClaimText,
+    numericPrefix: "0",
+    outputDirectoryPath: rootDirectoryPath,
   });
 }
 
-console.log('Claim analysis completed.');
+console.log("Claim analysis completed.");

@@ -1,0 +1,1 @@
+deno run --allow-read --allow-env --allow-write --allow-net main.ts "si la felicidad se alcanza viviendo en el presente, y el propósito se alcanza viviendo por un ideal, entonces alcanzar el propósito y la felicidad simultáneas son mutuamente excluyentes"

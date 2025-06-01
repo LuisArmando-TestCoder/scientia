@@ -1,0 +1,156 @@
+{
+  "nodo_semantico_de_entrada": "Alcanzar la felicidad implica vivir solo en el presente",
+  "nodo_semantico_central": "Felicidad = Presente (exclusión de ideal futuro)",
+  "firma_ontologica": {
+    "naturaleza": "Relación condicional existencial (proposición sobre experiencia subjetiva)",
+    "funcion": "Establecer un criterio de acceso a la felicidad mediante el anclaje temporal",
+    "dominio": "Ética práctica | Psicología filosófica | Experiencia temporal",
+    "forma": "Bipartición (presente vs ideal/futuro); Dicotomía epistemológica",
+    "tension": "Implicación de exclusión entre enfoque en presente y en ideal",
+    "limite": "Afirmación absoluta: 'solo en el presente', sujeta a refutación por contraejemplo"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Felicidad",
+      "definicion": "Estado subjetivo de bienestar, plenitud y satisfacción"
+    },
+    {
+      "termino": "Vivir en el presente",
+      "definicion": "Enfocar la atención y existencia en el aquí y ahora, sin anclaje en pasado ni proyección en futuro"
+    },
+    {
+      "termino": "Propósito",
+      "definicion": "Orientación de la vida hacia un ideal o meta en el futuro"
+    },
+    {
+      "termino": "Ideal",
+      "definicion": "Meta abstracta o perfección a alcanzar, proyectada fuera del presente"
+    },
+    {
+      "termino": "Exclusión mutua",
+      "definicion": "Condición en la que dos estados no pueden coexistir en el mismo marco temporal/cognitivo"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que eres un niño jugando. Si sólo ves los juguetes que tienes ahora y te olvidas de la pelota que quieres mañana, eres feliz, pero si piensas en esa pelota futura, no puedes disfrutar tu juego de ahora completamente.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El propósito y la felicidad simultáneas son mutuamente excluyentes",
+      "subnodo": "Exclusión propósito-felicidad",
+      "contexto": "¿Puede una persona sentir plenitud viviendo un ideal futuro y al mismo tiempo estar anclada solo al presente?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Sólo el presente permite la felicidad",
+      "subnodo": "Monotemporalidad de la felicidad",
+      "contexto": "¿Es fácticamente ineludible habitar solo el presente para ser realmente feliz?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La relación excluyente no es empíricamente universal; se encuentran casos y excepciones en ambos sentidos."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de felicidad como disfrute del ahora",
+      "conclusion": "Si interpretar felicidad requiere presencia plena, fijar su búsqueda en el ideal posterior la desplazaría",
+      "notas": "Esto es coherente con corrientes filosóficas (budismo, estoicismo), pero no agota toda fenomenología de la felicidad"
+    },
+    {
+      "origen": "Definición de propósito como elemento futuro",
+      "conclusion": "Vivir por un propósito requiere proyectarse fuera del presente, lo que puede generar insatisfacción por no 'haber llegado'",
+      "notas": "Esta tensión es fuente de ansiedad existencial en algunas teorías psicológicas"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Felicidad y propósito son siempre excluyentes",
+      "descripcion": "Personas que reportan mayor felicidad al perseguir activamente su propósito (flow state, sentido de vida, logros escalonados)",
+      "grado_de_refutacion": "parcial",
+      "notas": "Estas personas integran propósito y presencia: disfrutan el camino, no solo la meta"
+    },
+    {
+      "afirmacion_refutada": "Sólo en el presente existe la felicidad auténtica",
+      "descripcion": "Recuerdos felices o anticipación positiva generan felicidad (nostalgia, esperanza, planificación ilusionada)",
+      "grado_de_refutacion": "parcial",
+      "notas": "Aunque el acto mental es presente, el contenido es pasado o futuro"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Individuos reportan bienestar tanto al estar presentes como al perseguir ideales",
+      "inferencia": "La felicidad puede ser multifactorial: ligado al presente, pero también al sentido y la proyección",
+      "grado_de_confianza": "medio",
+      "notas": "Influye la personalidad, la cultura y el contexto vital"
+    }
+  ],
+  "conclusion_preconceptual": "Se puede ser feliz viviendo en el presente, pero también persiguiendo un sueño si se disfruta el camino. No es todo o nada: a veces, querer algo hace feliz, a veces, dejar de quererlo da paz.",
+  "teoria_o_intuicion_emergente": "La felicidad y el propósito no son mutuamente excluyentes, salvo en paradigmas absolutistas. La integración de presente y sentido futuro origina estados dinámicos de bienestar. El conflicto emerge al absolutizar o fragmentar el tiempo experiencial.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Felicidad solo existe en el presente",
+        0,
+        0,
+        1
+      ],
+      [
+        "Vivir por un ideal excluye felicidad",
+        0,
+        1,
+        0
+      ],
+      [
+        "Felicidad y propósito nunca coexisten",
+        0,
+        1,
+        0
+      ],
+      [
+        "Se puede ser feliz persiguiendo ideales",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Felicidad solo existe en el presente",
+    "B": "Vivir por un ideal excluye felicidad",
+    "C": "Felicidad y propósito nunca coexisten",
+    "D": "Se puede ser feliz persiguiendo ideales"
+  },
+  "formula_booleana_del_argumento": "~A & ~B & ~C & D",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Felicidad solo existe en el presente",
+      "implicacion_por_estado_falso": "Admite que la felicidad también puede surgir de recuerdos o anticipación, invalidando la exclusividad presente.",
+      "implicacion_por_estado_verdadero": "Refuerza la exclusión propósito-felicidad, requiriendo elegir uno."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Para algunos, perseguir un ideal futuro es fuente de felicidad en el presente (disfrute del trayecto), rompiendo la exclusión.",
+    "ambiguedad": "¿Significa 'vivir solo en el presente' excluir todo deseo o meta futura?",
+    "contradiccion_util": "Absolutizar el presente elimina sentido; absolutizar el ideal elimina goce. Su tensión alimenta modelos de integración psicodinámica."
+  },
+  "reorganizacion_analoga": [
+    "Como una bicicleta: puedes mirar el paisaje disfrutando (presente) mientras avanzas hacia tu destino (ideal futuro); mantener el equilibrio requiere ambos."
+  ],
+  "implicacion_transformadora": [
+    "La dicotomía felicidad-presente/propósito-futuro es superable si se redefine el sentido del tiempo experiencial.",
+    "Los modelos de bienestar deben considerar la integración de presencia y proyección.",
+    "A nivel práctico, cultivar gratitud y sentido otorga mayor resiliencia subjetiva."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "Contraejemplos y patrones observados refutan el absolutismo de la afirmación: la exclusión no es necesaria."
+  },
+  "reconclusion_preconceptual": "Puedes ser feliz ahora, puedes ser feliz por lo que persigues. A veces, la verdadera magia está en mezclar las dos cosas sin pelear.",
+  "contexto": "Alcanzar la felicidad implica vivir solo en el presente (contexto: si la felicidad se alcanza viviendo en el presente, y el propósito se alcanza viviendo por un ideal, entonces alcanzar el propósito y la felicidad simultáneas son mutuamente excluyentes)"
+}

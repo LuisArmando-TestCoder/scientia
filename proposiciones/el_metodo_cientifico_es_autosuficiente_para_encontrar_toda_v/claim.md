@@ -1,0 +1,1 @@
+deno run --allow-read --allow-env --allow-write --allow-net main.ts "el método científico es autosuficiente para encontrar toda verdad empírica que afecte directamente a la naturaleza que encapsula al observador que lo aplica"

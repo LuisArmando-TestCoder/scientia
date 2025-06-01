@@ -1,0 +1,157 @@
+{
+  "nodo_semantico_de_entrada": "la trascendencia máxima de la conciencia implica separación de la propiocepción",
+  "nodo_semantico_central": "Trascendencia consciente y escisión proprioceptiva",
+  "firma_ontologica": {
+    "naturaleza": "relacional",
+    "funcion": "establecer una condición necesaria entre experiencia trascendental y auto percepción corporal",
+    "dominio": "filosofía de la mente, ontología, fenomenología",
+    "forma": "implicación condicional",
+    "tension": "División entre niveles de conciencia; enfrentamiento entre totalidad autoconsciente y disociación corporal",
+    "limite": "No resuelve si la trascendencia puede coexistir con propiocepción, ni si la ausencia de ésta es definitoria"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "trascendencia máxima",
+      "definicion": "Estado límite de la conciencia, más allá de los confines habituales del yo y/o experiencia"
+    },
+    {
+      "termino": "conciencia",
+      "definicion": "Capacidad de experimentar, percibir o ser consciente de uno mismo y del entorno"
+    },
+    {
+      "termino": "separación",
+      "definicion": "Ruptura o ausencia de conexión directa entre entidades o procesos"
+    },
+    {
+      "termino": "propiocepción",
+      "definicion": "Sentido interno que permite percibir y ubicar el cuerpo y sus movimientos"
+    },
+    {
+      "termino": "implica",
+      "definicion": "Condición que, al cumplirse A, necesariamente lleva a B"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que para pensar y sentir cosas muy grandes tienes que olvidar por un momento dónde está tu cuerpo, como cuando sueñas muy fuerte y olvidas que tienes manos o pies.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La trascendencia máxima de la conciencia implica separación de la propiocepción",
+      "subnodo": "Ruptura de integración cuerpo-mente",
+      "contexto": "Momento donde la conciencia supera límites habituales, cuestionando si lo corporal sigue siendo relevante para el yo"
+    },
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "¿Puede haber conciencia trascendente sin perder percepción del cuerpo?",
+      "subnodo": "Coexistencia posible",
+      "contexto": "Prácticas meditativas y testimonios subjetivos que refieren sensaciones de totalidad plena sin disolución corporal"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Falta evidencia empírica suficiente para afirmar universalidad de la implicación; existen experiencias que refutan la separación absoluta"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición de trascendencia máxima",
+      "conclusion": "Si entendemos trascendencia máxima como desaparición del yo limitado, podría ser necesaria la disolución de la auto percepción corporal",
+      "notas": "Depende de la definición operativa de trascendencia, no hay consenso universal"
+    },
+    {
+      "origen": "estructura lógica de la implicación",
+      "conclusion": "La proposición postula una dirección necesaria, pero no explora reciprocidad ni alternativas graduales",
+      "notas": "Puede haber estados intermedios entre ambos extremos"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La trascendencia máxima de la conciencia implica separación de la propiocepción",
+      "descripcion": "En prácticas contemplativas o de éxtasis, algunos reportan unicidad cósmica manteniendo percepción corporal hiperlúcida (por ejemplo, relatos de meditadores Zen o experiencia de flujo extremo en deportistas)",
+      "grado_de_refutacion": "parcial",
+      "notas": "Seguramente hay variantes individuales mediadas por contexto, cultura y neurodiversidad"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Reportes subjetivos de disolución corporal durante experiencias cumbre (místicos, uso de psicodélicos, experiencias cercanas a la muerte)",
+      "inferencia": "Trascendencia suele venir acompañada de disminución de propiocepción, aunque no siempre total",
+      "grado_de_confianza": "medio",
+      "notas": "La variabilidad cultural y personal debilita la regla dura"
+    },
+    {
+      "patron_observado": "Algunos individuos describen hiperpropiocepción en experiencias sublimes (conciencia aguda del cuerpo como parte del todo)",
+      "inferencia": "No siempre se da una separación; a veces se transforma la propiocepción",
+      "grado_de_confianza": "bajo",
+      "notas": "Menos común, pero documentado en literatura experiencial"
+    }
+  ],
+  "conclusion_preconceptual": "Algunas veces salimos tanto de nosotros que parece que olvidamos el cuerpo, pero otras veces sentimos el cuerpo más fuerte en esos momentos especiales.",
+  "teoria_o_intuicion_emergente": "La trascendencia de la conciencia puede manifestarse tanto por la disolución de la propiocepción como por su intensificación transformadora; la separación no es condición universal, sino una posibilidad polar.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La trascendencia máxima de la conciencia implica separación de la propiocepción",
+        0,
+        0,
+        1
+      ],
+      [
+        "En toda experiencia trascendente se pierde la propiocepción",
+        0,
+        1,
+        0
+      ],
+      [
+        "Es posible trascender manteniendo percepción corporal",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "La trascendencia máxima de la conciencia implica separación de la propiocepción",
+    "B": "En toda experiencia trascendente se pierde la propiocepción",
+    "C": "Es posible trascender manteniendo percepción corporal"
+  },
+  "formula_booleana_del_argumento": "(A ⇔ (B ∧ ¬C)); (¬C → ¬A); (C → ¬A)",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "En toda experiencia trascendente se pierde la propiocepción",
+      "implicacion_por_estado_falso": "La implicación principal (A) no se sostiene universalmente; hay experiencias que refutan la separación estricta",
+      "implicacion_por_estado_verdadero": "La afirmación principal (A) se refuerza como ley general"
+    },
+    {
+      "afirmacion": "Es posible trascender manteniendo percepción corporal",
+      "implicacion_por_estado_falso": "Se afirmaría separación obligatoria",
+      "implicacion_por_estado_verdadero": "La implicación es refutada, se admiten otras formas de trascendencia"
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Trascender el yo corporal podría requerir ser tan consciente que se evade el cuerpo, pero también puede permitir una conciencia expandida del cuerpo como parte del todo",
+    "ambiguedad": "¿Trascendencia significa perder toda referencia corporal o expandirla infinitamente?",
+    "contradiccion_util": "Al intentar definir trascendencia absoluta, aparecen experiencias opuestas que enriquecen la conceptualización en vez de eliminarla"
+  },
+  "reorganizacion_analoga": [
+    "Como un astronauta saliendo de la atmósfera, que podría olvidar la gravedad terrestre o, alternativamente, sentir el tirón del planeta con máxima lucidez",
+    "Como un sueño lúcido en el que uno puede desaparecer o controlar plenamente el cuerpo soñado",
+    "Como una orquesta en la que el silencio absoluto puede ser el clímax, o un solo instrumento puede ser escuchado con potencia inusitada"
+  ],
+  "implicacion_transformadora": [
+    "Explorar la trascendencia no requiere negar el cuerpo forzosamente: las vías de expansión consciente son pluridimensionales.",
+    "La práctica reflexiva puede diseñarse tanto para la disolución del yo corporal como para su integración amplia.",
+    "Mapear experiencias límite en ciencia, arte y espiritualidad podría convertir este debate en un espectro operativo, no en dicotomía.",
+    "Reconsiderar las definiciones de conciencia avanzada para incluir formas múltiples, integrativas y no reduccionistas."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Se mantienen alternativas empíricas y conceptuales antagónicas; la proposición es cierto para algunos, falso para otros, y siempre desafía la generalización universal."
+  },
+  "reconclusion_preconceptual": "A veces conocer mucho y sentir mucho hace que se nos olvide el cuerpo, pero también hay formas de sentir todo con el cuerpo incluido. No hay una sola manera de ser muy consciente.",
+  "contexto": "la trascendencia máxima de la conciencia implica separación de la propiocepción"
+}

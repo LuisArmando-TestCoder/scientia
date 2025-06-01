@@ -1,1 +1,0 @@
-deno run --allow-env --allow-net --allow-write main.ts "el método es autosuficiente para encontrar toda verdad empírica que afecte directamente a la naturaleza que encapsula al observador que lo aplica"

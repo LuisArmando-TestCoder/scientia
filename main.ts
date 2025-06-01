@@ -138,12 +138,19 @@ let folder = args[0] === "resume" ? args.slice(1).join(" ") : "";
 const claimRoot = args.join(" ");
 const rootDirName = `proposiciones/${slugify(claimRoot) || 'root_claim'}`;
 
-async function recursiveClaimAnalysis(
+async function recursiveClaimAnalysis({
+  claim,
+  prefix,
+  baseDir,
+  context = "",
+  parentFileName = "",
+}: {
   claim: string,
   prefix: string,
   baseDir: string,
-  context = ""
-): Promise<void> {
+  context?: string,
+  parentFileName?: string
+}): Promise<void> {
   console.log(`[${prefix}] claim:`, claim);
   const analysis = await queuedGetClaimAnalysis(claim);
 
@@ -151,6 +158,30 @@ async function recursiveClaimAnalysis(
     (analysis as Record<string, string>).nodo_semantico_de_entrada ??
     (analysis as Record<string, string>).nodo_semantico ??
     claim;
+  
+  const currentFileName = `${prefix} ${slugify(semanticNode)}`;
+
+  // ——————————————————————————————————————————————————————————
+  //  Vincula el nodo actual en el archivo padre (.md)
+  // ——————————————————————————————————————————————————————————
+  console.log("here 1", parentFileName)
+  console.log("here 1.5", currentFileName)
+  if (parentFileName) { // sólo si hay padre
+    const parentFilePath = `${baseDir}/${parentFileName}.md`;
+    console.log("here 2", parentFilePath)
+    try {
+      const payload = `\n[[${currentFileName}]]\n`;
+      console.log("here 3", payload)
+      await Deno.writeTextFile(parentFilePath, payload, { append: true });
+    } catch (err) {
+      if (err instanceof Deno.errors.NotFound) {
+        console.warn(`⏩ Archivo padre no hallado: ${parentFilePath}`);
+      } else {
+        throw err;
+      }
+    }
+  }
+
 
   await persistClaimJSON(baseDir, prefix, semanticNode, analysis, claim);
 
@@ -174,8 +205,13 @@ async function recursiveClaimAnalysis(
     const nextPrefix = `${prefix}.${childIndex}`;
     childIndex++;
 
-    if (uncertainty === 1 && !isIdentifierOnly(subClaim)) {
-      subtasks.push(recursiveClaimAnalysis(`${subClaim} (contexto: ${context || claim})`, nextPrefix, baseDir));
+    if (uncertainty === 1 && !isIdentifierOnly(subClaim)) {      
+      subtasks.push(recursiveClaimAnalysis({
+        claim: `${subClaim} (contexto: ${context || claim})`, 
+        prefix: nextPrefix, 
+        baseDir, 
+        parentFileName: currentFileName
+      }));
     }
   }
 
@@ -215,13 +251,26 @@ if (folder) {
   
     for (const [statement, _1, _2, _3, index] of partialStatements) {
       const childIndex = `${parentIndex}.${index}`;
+      const parentFilePath = walkedParamFolder
+        .find(fp => fp.includes(`${parentIndex} `))
+      
+      const parentFileName = parentFilePath
+        ?.split('/')
+        .pop()
+        ?.match(/^(.*)\.md$/)?.[1];
       const alreadyExists = walkedParamFolder.some(filePath =>
         filePath.includes(`${childIndex} `)
       );
     
       if (!alreadyExists) {
         console.log('resuming', childIndex);
-        await recursiveClaimAnalysis(statement, childIndex, folderPath, analysisObject.contexto);
+        await recursiveClaimAnalysis({
+            claim: statement, 
+            prefix: childIndex, 
+            baseDir: folderPath, 
+            context: analysisObject.contexto,
+            parentFileName
+          })
       }
     }
   }  
@@ -234,7 +283,9 @@ if (folder) {
   const claimMdContent = `deno run --allow-read --allow-env --allow-write --allow-net main.ts \"${claimRoot}\"` + "\n";
   await Deno.writeTextFile(claimMdPath, claimMdContent);
   
-  await recursiveClaimAnalysis(claimRoot, '0', rootDirName);
+  await recursiveClaimAnalysis({
+    claim: claimRoot, prefix: '0', baseDir: rootDirName
+  });
 }
 
 console.log('Claim analysis completed.');

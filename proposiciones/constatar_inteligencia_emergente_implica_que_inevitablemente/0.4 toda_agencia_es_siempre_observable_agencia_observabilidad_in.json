@@ -1,0 +1,155 @@
+{
+  "nodo_semantico_de_entrada": "Toda agencia es siempre observable (agencia, observabilidad, inteligencia emergente, 4 premisas)",
+  "nodo_semantico_central": "Observabilidad absoluta de la agencia",
+  "firma_ontologica": {
+    "naturaleza": "proposición universal sobre entidades actuantes (agencia)",
+    "funcion": "establece relación necesaria entre capacidad de actuar y la posibilidad de ser detectada/observada",
+    "dominio": "filosofía de la mente, epistemología de sistemas, teoría de la inteligencia",
+    "forma": "enunciado absoluto, potencialmente reductio ad absurdum",
+    "tension": "Colisión entre agencia en sí y agencia solo como constructo observacional; tensión entre emergente/no-emergente y lo revelado/oculto",
+    "limite": "No distingue entre agencia real y agencia conceptualizada; depende de la presencia y límites de un observador."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "agencia",
+      "definicion": "Capacidad de un sistema para iniciar acciones o producir cambios por cuenta propia, visto como causa eficiente en una red causal."
+    },
+    {
+      "termino": "observable",
+      "definicion": "Cualidad de algo que puede ser detectado, registrado o inferido por una instancia (externa o interna) con capacidad de observación."
+    },
+    {
+      "termino": "inteligencia emergente",
+      "definicion": "Propiedad que surge de la interacción de partes simples, cuyas capacidades aparentan exceder la suma de sus componentes individuales."
+    },
+    {
+      "termino": "premisas sobre agencia",
+      "definicion": "Conjunto de condiciones supuestas: (1) mera etiqueta funcional, (2) inseparable de auto-organización, (3) surge sin observador, (4) siempre observable."
+    }
+  ],
+  "transduccion_preconceptual": "La agencia es como un duende invisible que mueve cosas. Decir que siempre lo puedes ver es como asegurar que todo lo que se mueve lo mueve un duende y que siempre lo podrás encontrar mirando muy bien. Pero, ¿qué pasa si el duende se esconde tan bien, o si la cosa se mueve sola y pensamos que hay duende? A veces creemos que vemos al duende, pero sólo vemos la huella que dejó; otras, ni siquiera eso.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El marco es autosuficiente",
+      "subnodo": "Agencia autosuficiente/autónoma",
+      "contexto": "¿Una agencia puede operar sin ser observada (autosuficiencia sin observabilidad)?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La agencia puede surgir sin observador",
+      "subnodo": "Causalidad oculta",
+      "contexto": "¿Puede haber efectos sin observación del agente causal?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Surge bucle entre ‘lo observable’ y ‘lo existente’: la agencia podría existir sin ser observable, pero toda afirmación de su existencia dependería de señales observables; la distinción puede ser sólo práctica, no ontológica."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Premisa universal 'Toda agencia es observable'",
+      "conclusion": "Si existe agencia no observable, la proposición es falsa; si no puede existir agencia no observable, la proposición es verdadera, pero sólo si la agencia es definida únicamente por su observabilidad.",
+      "notas": "La deducción choca con dualismos epistémico-ontológicos."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda agencia es siempre observable",
+      "descripcion": "En física cuántica, partículas pueden tener efectos (acción) sin ser observadas directamente (colapso de función de onda sólo tras observación). En sistemas naturales, causas pueden operar sin registro directo, sólo notadas a posteriori, o nunca inferidas.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Depende de la definición operativa de ‘observable’ — si admite inferencias indirectas, el contraejemplo se debilita."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Muchos sistemas complejos muestran señales de agencia sólo cuando interactúan con su entorno y no por sí mismos",
+      "inferencia": "La agencia podría depender del modo en que la observación está configurada, no de una propiedad interna esencial.",
+      "grado_de_confianza": "medio",
+      "notas": "La observabilidad parece ser un fenómeno dependiente del marco epistémico."
+    }
+  ],
+  "conclusion_preconceptual": "Tal vez la agencia, como los duendes, a veces sólo significa que necesitamos una explicación para cosas que no entendemos, y cuando no hay nadie mirando, tal vez aún bailan, pero nunca lo sabremos.",
+  "teoria_o_intuicion_emergente": "La agencia puede existir independientemente de su observabilidad, pero la epistemología humana tiende a concebir la agencia por sus trazas observables (heurística antropocéntrica). La proposición se autorefiere, cayendo en un bucle: ‘la agencia es observable porque así la definimos’—círculo epistémico/autorreferencial.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda agencia es siempre observable (considerando contextos cuántico, computacional y biológico)",
+        0,
+        1,
+        0
+      ],
+      [
+        "Hay formas de agencia no observables (sensu lato)",
+        1,
+        0,
+        0
+      ],
+      [
+        "La agencia depende lógicamente de su observabilidad",
+        0,
+        0,
+        1
+      ],
+      [
+        "Si la observabilidad es sólo indirecta (por inferencia), la distinción se debilita",
+        0,
+        0,
+        1
+      ],
+      [
+        "Toda acción implica agencia detectable",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Toda agencia es siempre observable",
+    "B": "Hay agencia no observable",
+    "C": "La agencia depende solamente de observabilidad",
+    "D": "Observabilidad indirecta = observabilidad suficiente",
+    "E": "Toda acción implica agencia detectable"
+  },
+  "formula_booleana_del_argumento": "¬B ∧ (C ∨ D) ⇒ A; (B ∨ E) ⇒ ¬A",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "La agencia depende lógicamente de su observabilidad",
+      "implicacion_por_estado_falso": "La agencia puede existir sin ser observada; la proposición central A es falsa",
+      "implicacion_por_estado_verdadero": "Toda agencia está atada a observabilidad por definición; la proposición A es verdadera, pero es tautológica"
+    },
+    {
+      "afirmacion": "Si la observabilidad es sólo indirecta",
+      "implicacion_por_estado_falso": "Obligaría a que sólo lo directamente observado cuenta como agencia, limitando el concepto",
+      "implicacion_por_estado_verdadero": "Debilita la proposición, permitiendo agencia inferida pero no directamente visible"
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Agencia definida solo por ser observable es tautología; agencia real no observable es indemostrable",
+    "ambiguedad": "¿Observabilidad implica registro físico, inferencia conceptual o experiencia subjetiva del observador?",
+    "contradiccion_util": "La agencia puede surgir y mantenerse sin observador, pero sólo se le concede sentido si algún marco interpretativo la reconoce/infiere"
+  },
+  "reorganizacion_analoga": [
+    "Un planeta sin telescopios era invisible a la humanidad, pero seguía moviéndose; ‘agencia’ del planeta sólo fue ‘observable’ tras el invento del telescopio.",
+    "Como en la mecánica cuántica, donde la función de onda sólo colapsa con observación, podría haber agencia ‘superpuesta’ hasta que eligen medirla.",
+    "Virus desconocidos actúan en organismos sin ser detectados, sólo son ‘todos los virus’ observables tras descubrirlos."
+  ],
+  "implicacion_transformadora": [
+    "Las ciencias de la inteligencia deberían revisar la definición de agencia, distinguiendo entre agencia ontológica (existente independientemente del observador) y agencia epistémica (definida sólo por observación/inferencia).",
+    "El desarrollo de sistemas de inteligencia artificial/evolutiva debe considerar formas de agencia latente, no observable ab initio, para evitar sesgos de diseño antropocéntrico.",
+    "La investigación sobre sistemas complejos necesita cautela ante declaraciones absolutas: lo no observable hoy podría ser observable mañana."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "Los contraejemplos empíricos (fenómenos físicos, biológicos, computacionales) refutan la universalidad de la proposición. Sólo es verdadera si la definición de agencia es reducida a una función dependiente de observador, pero esto sería tautológico y no informativo."
+  },
+  "reconclusion_preconceptual": "No todo lo que actúa se deja ver; a veces el mundo baila a escondidas, y pensar que todo duende deja huella es sólo un truco para sentir que lo entendemos.",
+  "contexto": "Toda agencia es siempre observable (contexto: Constatar inteligencia emergente implica que, inevitablemente, al menos una de estas cuatro premisas sobre la agencia debe ser falsa—que sea mero rótulo funcional, que acompañe toda auto-organización, que pueda surgir sin observador o que sea siempre observable.)"
+}

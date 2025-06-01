@@ -1,0 +1,163 @@
+{
+  "nodo_semantico_de_entrada": "Agencia depende de su observabilidad",
+  "nodo_semantico_central": "Dependencia lógica de la agencia respecto a la observabilidad",
+  "firma_ontologica": {
+    "naturaleza": "Relación condicional conceptual",
+    "funcion": "Determinar el soporte lógico entre la noción de agencia y su visibilidad (observabilidad)",
+    "dominio": "Metafísica de la cognición; epistemología de la acción",
+    "forma": "Bifurcación modal entre predicados",
+    "tension": "Si agencia no es observable, ¿existe alguna manifestación empírica de la misma? ¿Una agencia oculta sigue siendo agencia?",
+    "limite": "Depende del marco conceptual de 'observador/agente'; podría quedar atrapado en bucle autorreferencial si la observación requiere agencia y viceversa."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Agencia",
+      "definicion": "Capacidad de un sistema para elegir o influir sobre el entorno, típicamente atribuible a entidades que pueden tomar decisiones."
+    },
+    {
+      "termino": "Observabilidad",
+      "definicion": "Propiedad por la cual algo puede ser detectado, medido o constatado por un observador externo o interno."
+    },
+    {
+      "termino": "Dependencia lógica",
+      "definicion": "Relación de necesidad conceptual; A depende lógicamente de B si la existencia o validez de A requiere la de B."
+    }
+  ],
+  "transduccion_preconceptual": "Para saber si un muñeco toma sus propias decisiones, necesito verlo mover sus hilos, y si no veo nada, ¿de verdad los mueve solo?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La agencia es siempre observable",
+      "subnodo": "Universalidad de la observabilidad",
+      "contexto": "Premisa fuerte: toda agencia, donde sea que exista, puede en principio ser detectada."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Puede haber agencia sin observador",
+      "subnodo": "Agencia sin testigo",
+      "contexto": "¿Es posible que un agente actúe aunque nadie (ni un sistema ni el propio agente) lo observe?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La universalidad de la observabilidad no es lógicamente necesaria, pero tampoco empíricamente refutable en todos los casos; bucle sobre la agencia en sistemas cerrados o auto-referentes."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si toda agencia es por definición observable",
+      "conclusion": "La agencia que no se puede observar (ni directa ni indirectamente) sería un concepto vacío o metafísicamente nulo",
+      "notas": "Define agencia a partir del acceso empírico"
+    },
+    {
+      "origen": "Si es posible agencia sin observador",
+      "conclusion": "La observabilidad no es condición necesaria para la agencia; abre el paso a sistemas solipsistas o secretos",
+      "notas": "Requiere definición operacional de agencia independiente del observador"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda agencia es siempre observable",
+      "descripcion": "Microsistemas cuánticos con efecto agente (elección colapsada) pero indetectables antes del evento observacional, como la función de onda antes de la medición.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Solo aplicable bajo modelos donde observación ≠ agencia, pero establece una zona gris."
+    },
+    {
+      "afirmacion_refutada": "Agencia solo surge si hay observador",
+      "descripcion": "Evolución de sistemas caóticos autoorganizados que desarrollan pautas pautadas sin observador externo.",
+      "grado_de_refutacion": "total",
+      "notas": "La agencia puede ser proceso ontológico, no necesariamente epistémico."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En sistemas sociales, la agencia siempre se constata a través de interacciones (lenguaje, acción, síntoma)",
+      "inferencia": "En contextos sociales, observabilidad es condición pragmática para atribuir agencia",
+      "grado_de_confianza": "alto",
+      "notas": "No implica universabilidad fuera del ámbito social."
+    },
+    {
+      "patron_observado": "Sistemas computacionales autónomos pueden operar sin vigilancia directa",
+      "inferencia": "Agencia puede prescindir de observación activa mientras los efectos sean posibles por inferencia futura",
+      "grado_de_confianza": "medio",
+      "notas": "Cuestión de alcance temporal y evidencial."
+    }
+  ],
+  "conclusion_preconceptual": "Si no puedo ver lo que hace la marioneta, quizá nunca sepa si es libre, pero la ausencia de testigos no prueba que no tenga hilos propios.",
+  "teoria_o_intuicion_emergente": "La agencia en sistemas complejos es una propiedad relacional: su ascripción depende del contexto epistémico del observador, pero su operatividad puede trascender la observabilidad.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda agencia es siempre observable",
+        0,
+        1,
+        0
+      ],
+      [
+        "Puede haber agencia sin observador",
+        1,
+        0,
+        0
+      ],
+      [
+        "Si la agencia no es observable, no puede ser postulada",
+        0,
+        1,
+        0
+      ],
+      [
+        "Toda agencia requiere observador",
+        0,
+        1,
+        0
+      ],
+      [
+        "La independencia de la agencia de la observabilidad es coherente",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Toda agencia es siempre observable",
+    "B": "Puede haber agencia sin observador",
+    "C": "Si la agencia no es observable, no puede ser postulada",
+    "D": "Toda agencia requiere observador",
+    "E": "La independencia de la agencia de la observabilidad es coherente"
+  },
+  "formula_booleana_del_argumento": "(¬A ∧ B ∧ ¬C ∧ ¬D ∧ E)",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "La agencia es indefinible sin observador",
+      "implicacion_por_estado_falso": "Abre el espectro de agencias ocultas o solipsistas",
+      "implicacion_por_estado_verdadero": "Reduce agencia a fenómeno observacional, eliminando agentes sin testigos"
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Agencia invisible: si sólo los agentes observables cuentan, la agencia sin evidencia no existe, pero negarla puede eliminar posibilidades ontológicas reales.",
+    "ambiguedad": "El concepto de agencia fluctúa entre proceso interno y etiqueta epistémica del observador.",
+    "contradiccion_util": "La agencia se prueba sólo al ser constatada, pero su ausencia de constatación no refuta su potencial existencia."
+  },
+  "reorganizacion_analoga": [
+    "Como una semilla enterrada: aunque nadie la vea germinar, es agente de su propio crecimiento.",
+    "Como una función matemática no computada: existe en potencia aunque nunca se vea su resultado.",
+    "Como la consciencia en un sueño sin testigos: es agencia subjetiva no atestiguada."
+  ],
+  "implicacion_transformadora": [
+    "El concepto de agencia debe flexibilizarse como propiedad relacional, no como absolutismo ontológico.",
+    "Las inferencias sobre inteligencia emergente requieren distinguir entre la agencia aparente y la agencia potencial (no observada).",
+    "El análisis lógico de sistemas complejos debe integrar zonas de agencia plausible pero no colapsada empíricamente."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "Los contraejemplos y la deducción muestran que la agencia no depende necesariamente de la observabilidad para ser conceptualizada o existir; la afirmación en sentido general es insostenible."
+  },
+  "reconclusion_preconceptual": "Aunque quiera ver todas las manos que mueven el mundo, hay hilos que escapan a mis ojos. Negar su movimiento sería cerrar los ojos al misterio, no resolverlo.",
+  "contexto": "La agencia depende lógicamente de su observabilidad (contexto: Toda agencia es siempre observable (contexto: Constatar inteligencia emergente implica que, inevitablemente, al menos una de estas cuatro premisas sobre la agencia debe ser falsa—que sea mero rótulo funcional, que acompañe toda auto-organización, que pueda surgir sin observador o que sea siempre observable.))"
+}

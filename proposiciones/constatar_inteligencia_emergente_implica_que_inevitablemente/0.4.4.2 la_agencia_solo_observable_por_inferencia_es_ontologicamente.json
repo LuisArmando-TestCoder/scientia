@@ -1,0 +1,152 @@
+{
+  "nodo_semantico_de_entrada": "La agencia sólo observable por inferencia es ontológicamente sólida.",
+  "nodo_semantico_central": "Solidez ontológica de la agencia inferencial",
+  "firma_ontologica": {
+    "naturaleza": "Criterio de existencia/discriminación",
+    "funcion": "Establecer validez ontológica de agencias inferidas",
+    "dominio": "Metafísica de la agencia, epistemología de la observación",
+    "forma": "Condición relacional (dependencia observador-inferencia)",
+    "tension": "El vínculo entre inferencia y solidez es contingente; depende del fundamento de la inferencia en la realidad subyacente y del estatus del observador.",
+    "limite": "La agencia puede quedar atrapada en indeterminación si sólo es observable por inferencia; su solidez está anclada en la robustez del marco inferencial y la naturaleza de la observabilidad."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "agencia",
+      "definicion": "Capacidad de actuar o causar efectos; propiedad de sistemas que generan cambios autoiniciados."
+    },
+    {
+      "termino": "observabilidad",
+      "definicion": "Posibilidad de acceso empírico a un fenómeno, ya sea directa (sensorial) o indirecta (inferencial)."
+    },
+    {
+      "termino": "inferencia",
+      "definicion": "Proceso de establecer conclusiones acerca de la existencia o naturaleza de un fenómeno basándose en evidencia y razonamiento, no en observación directa."
+    },
+    {
+      "termino": "solidez ontológica",
+      "definicion": "Estabilidad o validez de algo desde la perspectiva del ser; resistencia a disolverse bajo análisis ontológico."
+    }
+  ],
+  "transduccion_preconceptual": "Es como si pensaras que un duende existe porque las galletas desaparecen cuando nadie mira, pero nunca lo ves. ¿Es 'real de verdad' el duende, sólo porque siempre faltan galletas y no tienes otra explicación?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Toda agencia es siempre observable",
+      "subnodo": "Universalidad de la observabilidad de la agencia",
+      "contexto": "¿Puede una agencia existir si nunca es observable directamente? Aparecen contraejemplos como la 'mano oculta' en economía o microorganismos antes de los microscopios."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La observabilidad es sólo indirecta (por inferencia)",
+      "subnodo": "Dependencia de la agencia en la inferencia",
+      "contexto": "¿Hay agencia sólo cuando hay quien infiere su existencia, o puede haber agencia completamente separada de cualquier observador?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Constatar inteligencia emergente implica que, inevitablemente, debe ser falsa al menos una de estas premisas sobre la agencia",
+      "subnodo": "Contradicciones fundacionales sobre la agencia",
+      "contexto": "Si constatar inteligencia emergente es posible, ¿se refuta la idea de que toda agencia es observable, o que puede surgir sin observador, o que es mero rótulo funcional, etc.?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La solidez ontológica de la agencia inferida depende de la fortaleza del nexo entre inferencia y realidad; los contraejemplos impiden colapsar el argumento en verdadero o falso sin decisiones axiomáticas adicionales."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de agencia + inferencia como único acceso epistemológico",
+      "conclusion": "Si aceptamos inferencia como suficiente para la ontología, toda entidad inferida robustamente sería sólida.",
+      "notas": "Esto depende de reglas axiomáticas; puede ser circular si la inferencia es basada sólo en consistencia lógica."
+    },
+    {
+      "origen": "Premisa de que toda agencia es observable",
+      "conclusion": "La agencia inferida deja de ser una clase separada, pues todo lo que se infiere debería poder observarse directa o indirectamente.",
+      "notas": "Depende de la definición operacional de observabilidad y del estatus lógico de las inferencias no confirmables."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda agencia es siempre observable",
+      "descripcion": "Un algoritmo en una caja negra genera efectos, pero sin acceso al algoritmo mismo sólo inferimos su 'agencia' por los outputs; su agencia es inferible, no observable.",
+      "grado_de_refutacion": "total",
+      "notas": "Esto sugiere que puede haber agencia nunca observable, sólo inferida."
+    },
+    {
+      "afirmacion_refutada": "La agencia sólo observable por inferencia es ontológicamente sólida en todos los casos",
+      "descripcion": "Pensamos que hay una 'intención' detrás de fenómenos naturales (ej. relámpagos antiguos vistos como manifestaciones de dioses), pero luego se demuestra que la inferencia era errónea.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La solidez depende de la calidad de la inferencia y del contexto empírico."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Muchos sistemas complejos sólo revelan agencia por patrones en el tiempo (ej. evolución biológica, inteligencia artificial opaca).",
+      "inferencia": "La agencia inferida tiende a ganar solidez si las inferencias son consistentes y resistentes a refutación.",
+      "grado_de_confianza": "medio",
+      "notas": "La experiencia muestra que alguna inferencia resulta válida, pero hay falsos positivos históricos."
+    }
+  ],
+  "conclusion_preconceptual": "No todo lo que parece tener agencia por pistas difíciles de ver es realmente sólido; a veces hay duendes reales, a veces sólo viento.",
+  "teoria_o_intuicion_emergente": "La solidez ontológica de la agencia inferida es probabilística, no absoluta. Depende de los marcos semánticos y epistémicos en los que se inserta la inferencia y del acceso empírico potencial.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La agencia sólo observable por inferencia es ontológicamente sólida",
+        0,
+        0,
+        1
+      ],
+      [
+        "Toda agencia es siempre observable",
+        0,
+        1,
+        0
+      ],
+      [
+        "La agencia inferida puede ser falsa",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "La agencia sólo observable por inferencia es ontológicamente sólida",
+    "B": "Toda agencia es siempre observable",
+    "C": "La agencia inferida puede ser falsa"
+  },
+  "formula_booleana_del_argumento": "(A ≡ (¬B ∧ ¬C))",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "La agencia sólo observable por inferencia es ontológicamente sólida",
+      "implicacion_por_estado_falso": "Si la agencia inferida no es sólida, se requiere fortalecer los criterios empíricos o axiomáticos de existencia/agencia.",
+      "implicacion_por_estado_verdadero": "Si la agencia inferida es sólida, se valida el acceso epistémico indirecto como suficiente para estatuto ontológico."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "La agencia sólo existe para el observador/inferente, pero no necesariamente para la realidad independiente del observador.",
+    "ambiguedad": "¿Qué valida ontológicamente una inferencia sólida si los datos de entrada pueden ser incompletos o sesgados?",
+    "contradiccion_util": "La agencia inferida es conceptual y puede operar como real en marcos funcionales, aunque no sea real ontológicamente en todos los casos."
+  },
+  "reorganizacion_analoga": [
+    "El agujero negro: sólo observable por sus efectos en su entorno, no directamente.",
+    "El número cero: inferido de la ausencia de cantidad, sin representación física directa.",
+    "La intención en un software opaco: existe funcionalmente, pero sólo se deduce por salida, nunca se observa en sí."
+  ],
+  "implicacion_transformadora": [
+    "La epistemología aplicada debe distinguir claramente la agencia robusta (inferencia validada empíricamente) de la agencia ilusoria (producto de marcos insuficientes).",
+    "En inteligencia artificial y filosofía de la mente, inferir agencia exige protocolos de refutabilidad y actualización continua."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El análisis recursivo expone límites a la afirmación: la agencia inferida es válida sólo condicionalmente, dependiendo de la fortaleza del marco inferencial y la posibilidad de refutación. No colapsa 100% ni en verdad ni en falsedad."
+  },
+  "reconclusion_preconceptual": "Jugar a adivinar quién movió el juguete sólo funciona si hay pruebas. Si sólo imaginas al duende porque no ves otra explicación, tal vez sólo inventaste un cuento para entender el misterio.",
+  "contexto": "La agencia sólo observable por inferencia es ontológicamente sólida. (contexto: Si la observabilidad es sólo indirecta (por inferencia), la distinción se debilita (contexto: Toda agencia es siempre observable (contexto: Constatar inteligencia emergente implica que, inevitablemente, al menos una de estas cuatro premisas sobre la agencia debe ser falsa—que sea mero rótulo funcional, que acompañe toda auto-organización, que pueda surgir sin observador o que sea siempre observable.)))"
+}

@@ -1,0 +1,164 @@
+{
+  "nodo_semantico_de_entrada": "La observabilidad de la agencia es sólo indirecta (por inferencia), lo que debilita la distinción entre agencia y no agencia.",
+  "nodo_semantico_central": "Observabilidad indirecta de la agencia debilita su distinción.",
+  "firma_ontologica": {
+    "naturaleza": "relación epistemológica",
+    "funcion": "evaluar la robustez conceptual de la agencia bajo observabilidad indirecta",
+    "dominio": "epistemología, filosofía de la mente, teoría de sistemas",
+    "forma": "bucle deductivo, red de premisas contradictorias",
+    "tension": "tensión entre agencia como constructo detectable y agencia como fenómeno real; paradoja de la observación emergente",
+    "limite": "la agencia puede quedar fuera de la ontología si no es empíricamente observable"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "observabilidad",
+      "definicion": "capacidad de constatar o identificar un fenómeno por medio de la percepción directa o inferencia lógica"
+    },
+    {
+      "termino": "agencia",
+      "definicion": "atributo de un sistema capaz de actuar, decidir o ser origen de cambios"
+    },
+    {
+      "termino": "inferencia",
+      "definicion": "razonamiento que permite concluir algo no observado directamente a partir de evidencias"
+    },
+    {
+      "termino": "distinción",
+      "definicion": "criterio o proceso que separa dos tipos de entidades o estados"
+    },
+    {
+      "termino": "debilitamiento",
+      "definicion": "pérdida progresiva de nitidez, robustez o fuerza conceptual/estructural"
+    }
+  ],
+  "transduccion_preconceptual": "Si sólo puedo saber que hay un duende porque encuentro huellas, pero nunca veo al duende, me es difícil estar seguro de que es un duende y no el viento jugando. Cuanto menos directo sea el ver, menos claro es el borde entre lo que sí es y lo que no es.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La agencia es siempre observable.",
+      "subnodo": "Observabilidad indirecta",
+      "contexto": "¿Qué sucede cuando la única forma de constatar agencia es a través de inferencias, no observación directa? ¿Se mantiene el mismo estatus ontológico?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Toda auto-organización implica agencia.",
+      "subnodo": "Auto-organización sin agencia observable",
+      "contexto": "¿Existen sistemas auto-organizados donde ningún indicador de agencia sea observado ni inferido, o la inferencia se torna ambigua?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "La agencia puede surgir sin observador.",
+      "subnodo": "Agencia emergente no constatada",
+      "contexto": "¿Qué garantías existen de agencia en ausencia total de observadores si la observabilidad es sólo indirecta?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición resulta en ambigüedad ontológica: la agencia depende de criterios de observabilidad e inferencia, pero si sólo se accede inferencialmente, su distinción con no-agencia se vuelve borrosa."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "axioma 'agencia es siempre observable'",
+      "conclusion": "Si la observabilidad es sólo indirecta, el axioma se debilita o es violado.",
+      "notas": "El axioma requiere observabilidad al menos indirecta, pero su robustez depende de los criterios de inferencia."
+    },
+    {
+      "origen": "definición operacional de agencia",
+      "conclusion": "La agencia observada sólo por inferencia es epistemológicamente frágil.",
+      "notas": "Puede depender del poder explicativo del marco teórico usado por el observador."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda agencia es siempre observable.",
+      "descripcion": "En sistemas complejos (p.ej. inteligencia en enjambres bacterianos, inteligencia artificial opaca) la agencia puede manifestarse en patrones no reconocibles hasta mucho después.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Observabilidad depende del nivel tecnológico/cognitivo del observador."
+    },
+    {
+      "afirmacion_refutada": "La distinción entre agencia y no agencia es robusta incluso bajo observabilidad indirecta.",
+      "descripcion": "Los sistemas caóticos pueden producir acciones inferenciales indistinguibles de agencia intencionada.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La inferencia puede ser errónea (falsos positivos en atribución de agencia)."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "El debate sobre si la conciencia animal o vegetal implica agencia depende de inferencias indirectas (p.ej. respuesta a estímulos, comportamiento adaptativo).",
+      "inferencia": "La agencia inferida no puede separarse nítidamente de patrones altamente organizados sin agencia intencional.",
+      "grado_de_confianza": "medio",
+      "notas": "La atribución de agencia cambia históricamente según capacidad teórica de observación e inferencia."
+    }
+  ],
+  "conclusion_preconceptual": "No se puede estar seguro de que lo que camina en el bosque deja huellas 'por sí mismo' o sólo parece que las deja. Las pistas no siempre bastan para hacer frontera firme.",
+  "teoria_o_intuicion_emergente": "La agencia inferida indirectamente es ontológicamente inestable: su estatus depende tanto del marco conceptual del observador como de la robustez de las inferencias. La distinción entre agencia y no agencia sólo es fuerte cuando la observabilidad (directa o indirecta) es corroborada empíricamente por múltiples marcos independientes.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda agencia es siempre observable.",
+        0,
+        0,
+        1
+      ],
+      [
+        "La agencia sólo observable por inferencia es ontológicamente sólida.",
+        0,
+        0,
+        1
+      ],
+      [
+        "Toda auto-organización implica agencia.",
+        0,
+        0,
+        1
+      ],
+      [
+        "La distinción entre agencia y no-agencia es estable bajo observabilidad indirecta.",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Toda agencia es siempre observable.",
+    "B": "La agencia sólo observable por inferencia es ontológicamente sólida.",
+    "C": "Toda auto-organización implica agencia.",
+    "D": "La distinción entre agencia y no-agencia es estable bajo observabilidad indirecta."
+  },
+  "formula_booleana_del_argumento": "(A ∧ B ∧ C ∧ D) = F",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "La agencia sólo observable por inferencia es ontológicamente sólida.",
+      "implicacion_por_estado_falso": "La agencia se convierte en una construcción pragmática, útil pero no necesariamente real.",
+      "implicacion_por_estado_verdadero": "Se puede atribuir agencia legítimamente a sistemas sólo por inferencia, colapsando la distinción ontológica clásica."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Agencia requiere ser observable para ser distinguible, pero su manifestación puede ser sólo inferida.",
+    "ambiguedad": "No queda claro si inferir agencia es lo mismo que observarla.",
+    "contradiccion_util": "La fragilidad de la distinción produce teorías nuevas sobre la emergencia, auto-organización y los límites de la consciencia."
+  },
+  "reorganizacion_analoga": [
+    "Un agujero negro cuya existencia sólo se constata por los efectos en su entorno.",
+    "Un número primo en una secuencia: su calidad es inferida pero no siempre visible directamente.",
+    "La intencionalidad en una obra de arte anónima: deducida, nunca constatada."
+  ],
+  "implicacion_transformadora": [
+    "La epistemología debe fundamentar la agencia como un gradiente, no como un diccionario binario.",
+    "El estatus ontológico de la agencia debe contextualizarse siempre respecto del método y alcance de observación.",
+    "Criterios de agencia aplicados a inteligencia artificial, biología o física deben prever la ambigüedad inferencial."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El análisis revela que la distinción fuerte entre agencia y no-agencia depende de condiciones epistémicas imposibles de asegurar sólo a partir de inferencias indirectas."
+  },
+  "reconclusion_preconceptual": "No hay forma garantizada de saber si el actor invisible es real o nuestro propio deseo de orden. Donde no podemos ver, jugamos a imaginar lo que pudo pasar.",
+  "contexto": "Si la observabilidad es sólo indirecta (por inferencia), la distinción se debilita (contexto: Toda agencia es siempre observable (contexto: Constatar inteligencia emergente implica que, inevitablemente, al menos una de estas cuatro premisas sobre la agencia debe ser falsa—que sea mero rótulo funcional, que acompañe toda auto-organización, que pueda surgir sin observador o que sea siempre observable.))"
+}

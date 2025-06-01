@@ -1,0 +1,165 @@
+{
+  "nodo_semantico_de_entrada": "Agencia es siempre observable (con premisas en cascada)",
+  "nodo_semantico_central": "Observabilidad absoluta de la agencia",
+  "firma_ontologica": {
+    "naturaleza": "atributo relacional",
+    "funcion": "distinguir la agencia en sistemas autoorganizados mediante su observabilidad o identificabilidad externa",
+    "dominio": "filosofía de la mente, epistemología de sistemas complejos",
+    "forma": "bucle de rotulación relacional funcional",
+    "tension": "entre lo observable/fenomenológicamente constatable y lo posible/metafísicamente implicado",
+    "limite": "subyace la dependencia de un observador o marco de referencia para estabilizar el concepto"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Agencia",
+      "definicion": "capacidad de un ente o sistema para actuar, influir y constituirse como origen funcional de acciones o cambio; implica intencionalidad, pero se puede reducir a procesos de autoorganización."
+    },
+    {
+      "termino": "Observabilidad",
+      "definicion": "posibilidad práctica y teórica de que una acción o atributo pueda ser captado, registrado o inferido mediante un observador dentro de un marco conceptual."
+    },
+    {
+      "termino": "Auto-organización",
+      "definicion": "emergencia espontánea de orden o patrones complejos desde componentes simples sin control externo centralizado."
+    },
+    {
+      "termino": "Rótulo funcional",
+      "definicion": "etiqueta semántica adjudicada a fenómenos según criterios pragmáticos o explicativos, no como esencia ontológica."
+    }
+  ],
+  "transduccion_preconceptual": "Imagínate mirar hormigas construyendo un hormiguero. Ves su organización y piensas que hay una mente maestra, pero solo son pequeñas reglas. Cuando tratas de observar quién manda, no lo puedes ver porque no es nadie y son todas. Llamas 'agencia' a lo que parece un plan, pero no estás seguro si la puedes ver siempre, o solo le pusiste etiqueta al trabajo en grupo.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Agencia es solo rótulo funcional",
+      "subnodo": "Agencia como etiqueta explicativa",
+      "contexto": "¿La agencia existe en sí misma o la nombramos según nuestras necesidades explicativas?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Toda auto-organización lleva agencia",
+      "subnodo": "Agencia como consecuencia de emergencia",
+      "contexto": "¿Siempre que hay auto-organización, hay algo que se pueda llamar 'agencia', o podría haber organización sin intencionalidad, solo por azar o ley física?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Agencia puede surgir sin observador",
+      "subnodo": "Agencia como independencia del observador",
+      "contexto": "¿Puede hablarse de agencia si no hay nadie que la observe o la rotule?"
+    },
+    {
+      "id": "1.4",
+      "afirmacion_base": "Agencia es siempre observable",
+      "subnodo": "Agencia necesariamente fenoménica",
+      "contexto": "¿Puede haber agencia en sistemas donde el 'acto' no es detectable, o hay limitadas formas de observación?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Las premisas forman un círculo auto-negador donde afirmar plenamente la observabilidad de la agencia implica negar al menos una de las otras premisas. Todas no pueden ser realmente ciertas de forma simultánea bajo un mismo marco lógico coherente."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si toda auto-organización lleva agencia Y agencia es solo un rótulo funcional",
+      "conclusion": "Entonces toda auto-organización se puede explicar sin agencia ontológica real, solo como una etiqueta de observador.",
+      "notas": "Reduce agencia a fenómeno epistemológico, no ontológico."
+    },
+    {
+      "origen": "Si agencia puede existir sin observador",
+      "conclusion": "Entonces existen sistemas con agencia inherente, pero podría quedar sin detectar; la observabilidad absoluta sería falsa.",
+      "notas": "Depende de considerar la agencia como propiedad independiente del marco conceptual del observador."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Agencia es siempre observable",
+      "descripcion": "En sistemas microscópicos como el quantum, la 'agencia' del electrón en decisiones de colapso de función de onda no es directamente observable; se puede modelar pero no constatar empíricamente la agencia, solo el resultado.",
+      "grado_de_refutacion": "total",
+      "notas": "Implica que puede haber agencia no observable bajo definición amplia."
+    },
+    {
+      "afirmacion_refutada": "Toda auto-organización lleva agencia",
+      "descripcion": "Cristalización de moléculas: patrones emergen de manera espontánea sin 'decisión', solo por reglas físicas; llamar agencia sería una extensión arbitraria.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Algunos podrían llamar agencia a cualquier emergencia, pero no hay intencionalidad ni acto decisorio."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En la cognición animal y robótica, la agencia suele inferirse por patrones de comportamiento adaptativo, pero existen procesos emergentes sin agente definible.",
+      "inferencia": "La agencia es, en la práctica, solo parcialmente observable y muchas veces inferencial.",
+      "grado_de_confianza": "medio",
+      "notas": "El sesgo observador puede crear agencia donde no hay, o pasarla por alto donde sí."
+    }
+  ],
+  "conclusion_preconceptual": "No siempre puedes ver quién hace las cosas ni saber si hay alguien detrás; a veces solo ves el resultado. Llamar 'agencia' es como ponerle sombrero a la nada.",
+  "teoria_o_intuicion_emergente": "La agencia es una propiedad epistemológicamente dependiente del marco de observación y conceptualización: puede ser inferida, postulada o negada, pero su observabilidad no es ni necesaria ni suficiente para su existencia funcional.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Agencia es solo rótulo funcional",
+        0,
+        0,
+        1
+      ],
+      [
+        "Toda auto-organización lleva agencia",
+        0,
+        1,
+        0
+      ],
+      [
+        "Agencia puede surgir sin observador",
+        1,
+        0,
+        0
+      ],
+      [
+        "Agencia es siempre observable",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Agencia es solo rótulo funcional",
+    "B": "Toda auto-organización lleva agencia",
+    "C": "Agencia puede surgir sin observador",
+    "D": "Agencia es siempre observable"
+  },
+  "formula_booleana_del_argumento": "¬A ∧ C ∧ ¬B ∧ ¬D",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Agencia es solo rótulo funcional",
+      "implicacion_por_estado_falso": "Permite considerar a la agencia como posible entidad ontológica, abriendo la puerta a la agencia no observable.",
+      "implicacion_por_estado_verdadero": "Las demás premisas devienen secundarias; todo análisis de agencia depende de su utilidad funcional para el observador."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Afirmar la observabilidad absoluta de algo cuya existencia puede ser postulada sin observador crea una tensión irresoluble entre epistemología y ontología.",
+    "ambiguedad": "¿La agencia es propiedad intrínseca del sistema o es resultado de la atribución conceptual del observador?",
+    "contradiccion_util": "Tratar de observar completamente la agencia induce la posibilidad de no observar jamás la 'verdadera' agencia, sino solamente sus efectos o interpretaciones observacionales."
+  },
+  "reorganizacion_analoga": [
+    "Como intentar ver todas las causas en un sistema caótico: sólo puedes rastrear trayectorias, jamás toda la 'intención'.",
+    "Como decir que el software siempre es visible en la pantalla: sólo ves la interfaz, nunca las instrucciones subyacentes.",
+    "Como buscar la mente del hormiguero en una sola hormiga: sólo emerge en el conjunto, y no hay punto de observación privilegiado."
+  ],
+  "implicacion_transformadora": [
+    "Toda teoría de la agencia debe abrirse a la posibilidad de agencia no observable o no etiquetable, so pena de volverse tautológica o trivial.",
+    "La práctica epistemológica recomendable sería distinguir siempre entre agencia operativamente inferible y agencia ontológicamente postulada."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "Al menos dos contraejemplos robustos y la propia definición meta-epistémica hacen insostenible que la agencia sea siempre observable bajo cualquier contexto."
+  },
+  "reconclusion_preconceptual": "No puedes ver toda agencia, aunque lo quieras mucho. Hay acciones que no tienen dueño visible, y a veces el nombre que les das solo ayuda a entender (o a confundir) lo que ocurre.",
+  "contexto": "Agencia es siempre observable (contexto: Agencia es solo rótulo funcional (contexto: Toda auto-organización lleva agencia (contexto: Agencia solo es rótulo funcional (contexto: Toda auto-organización lleva agencia (contexto: Constatar inteligencia emergente implica que, inevitablemente, al menos una de estas cuatro premisas sobre la agencia debe ser falsa—que sea mero rótulo funcional, que acompañe toda auto-organización, que pueda surgir sin observador o que sea siempre observable.)))))"
+}

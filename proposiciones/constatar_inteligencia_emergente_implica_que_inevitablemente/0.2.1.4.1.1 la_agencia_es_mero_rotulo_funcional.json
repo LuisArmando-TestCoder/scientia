@@ -1,0 +1,188 @@
+{
+  "nodo_semantico_de_entrada": "La agencia es mero rótulo funcional",
+  "nodo_semantico_central": "Agencia como etiqueta operacional",
+  "firma_ontologica": {
+    "naturaleza": "atributo asignado",
+    "funcion": "diferenciar entidades como agentes a partir de observables o criterios funcionales",
+    "dominio": "epistemología/cognición/filosofía de la acción",
+    "forma": "etiqueta relacional contextual",
+    "tension": "auto-referencialidad e indeterminación: ¿es la agencia intrínseca o impuesta?",
+    "limite": "inestabilidad semántica ante observaciones y definiciones cambiantes"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "agencia",
+      "definicion": "atribución de capacidad para actuar o causar efectos en un sistema"
+    },
+    {
+      "termino": "rótulo funcional",
+      "definicion": "etiqueta asignada por observadores basada en la función aparente, no en una propiedad intrínseca"
+    },
+    {
+      "termino": "auto-organización",
+      "definicion": "capacidad de un sistema para estructurarse y mantener orden sin control externo"
+    },
+    {
+      "termino": "inteligencia emergente",
+      "definicion": "aparición de patrones de solución o adaptación no previstos directamente a partir de componentes individuales"
+    }
+  ],
+  "transduccion_preconceptual": "Llamar a alguien 'héroe' porque hizo algo grande no significa que siempre lo sea. A veces sólo ponemos la etiqueta por cómo se ve desde afuera, pero la acción pudo pasar sola, sin que nadie la planee. Decir que algo tiene agencia puede ser sólo un apodo según lo que vemos en ese momento.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La agencia es mero rótulo funcional",
+      "subnodo": "dependencia observacional",
+      "contexto": "Si solo es etiqueta, entonces ¿la agencia depende absolutamente del observador y su marco conceptual?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Toda auto-organización lleva agencia",
+      "subnodo": "inseparabilidad de auto-organización y agencia",
+      "contexto": "¿Puede haber patrones autoorganizados sin que se les atribuya agencia?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "La agencia puede surgir sin observador",
+      "subnodo": "emergencia objetiva de agencia",
+      "contexto": "¿Puede existir agencia sin que ningún observador la identifique?"
+    },
+    {
+      "id": "1.4",
+      "afirmacion_base": "La agencia es siempre observable",
+      "subnodo": "observabilidad exhaustiva de la agencia",
+      "contexto": "¿Existen sistemas con agencia que nunca sean observados como agentes?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Las afirmaciones presentan paradoja circular: el rótulo es funcional pero su emergencia, observabilidad y vínculo con la auto-organización son dependientes de criterios externos e internos que no se colapsan de manera unívoca."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si la agencia es solo etiqueta funcional puesta por observadores",
+      "conclusion": "No puede sostenerse como propiedad inherente de lo auto-organizado",
+      "notas": "Se debilita el vínculo causal fuerte entre auto-organización y agencia"
+    },
+    {
+      "origen": "Si toda auto-organización implica agencia",
+      "conclusion": "Todo sistema complejo, aunque no observado por nadie, sería un agente",
+      "notas": "Paradoja: ¿la agencia existe si nunca es observada ni inferida?"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La agencia es mero rótulo funcional",
+      "descripcion": "Bacterias que activan respuestas a estímulos ambientales muestran agencia de forma autónoma, previa a cualquier observador humano.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Muestra de agencia en sistemas microscópicos antes de conceptualización consciente."
+    },
+    {
+      "afirmacion_refutada": "Toda auto-organización lleva agencia",
+      "descripcion": "Cristales formándose espontáneamente: el proceso auto-organiza estructuras sin intención ni decisión; difícil llamarles agentes salvo por analogía.",
+      "grado_de_refutacion": "total",
+      "notas": "Estructuras complejas sin acción intencional ni adaptativa."
+    },
+    {
+      "afirmacion_refutada": "La agencia es siempre observable",
+      "descripcion": "Procesos en universos sin observadores (horizonte de eventos), podrían tener sistemas con agencia sin que nadie los detecte.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Hipótesis cosmológica sin validación empírica posible, pero lógica sólida."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Atribución de agencia en robótica e IA depende de criterios funcionales elegidos por humanos",
+      "inferencia": "El estado de agencia es flexible y muchas veces pragmático, no absoluto.",
+      "grado_de_confianza": "alto",
+      "notas": "Consistente en múltiples disciplinas tecnológicas y ciencias cognitivas."
+    },
+    {
+      "patron_observado": "En sistemas evolutivos, la percepción de agencia se incrementa con la complejidad",
+      "inferencia": "La agencia se codifica relacionalmente a través del umbral de observación y no es propiedad esencial.",
+      "grado_de_confianza": "medio",
+      "notas": "Sesgo observacional persistente en biología y teoría de sistemas."
+    }
+  ],
+  "conclusion_preconceptual": "Llamarle agente a algo es como ponerle nombre a un truco mágico que quizás solo pasa cuando alguien está mirando.",
+  "teoria_o_intuicion_emergente": "La agencia es una propiedad relacional, que emerge como función pragmática atribuida en contextos de interpretación, y aunque puede estar correlacionada con complejidad o auto-organización, no es condición ni suficiente ni necesaria para ninguno de los dos fenómenos.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La agencia es mero rótulo funcional",
+        0,
+        0,
+        1
+      ],
+      [
+        "Toda auto-organización lleva agencia",
+        0,
+        1,
+        0
+      ],
+      [
+        "La agencia puede surgir sin observador",
+        0,
+        0,
+        1
+      ],
+      [
+        "La agencia es siempre observable",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "La agencia es mero rótulo funcional",
+    "B": "Toda auto-organización lleva agencia",
+    "C": "La agencia puede surgir sin observador",
+    "D": "La agencia es siempre observable"
+  },
+  "formula_booleana_del_argumento": "¬A ∨ ¬B ∨ ¬C ∨ ¬D",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "La agencia es mero rótulo funcional",
+      "implicacion_por_estado_falso": "Abre posibilidad de agencia como propiedad inherente o emergente independiente de la observación externa",
+      "implicacion_por_estado_verdadero": "Todas las posteriores consideraciones sobre agencia quedan limitadas al marco epistémico de quien rotula"
+    },
+    {
+      "afirmacion": "La agencia puede surgir sin observador",
+      "implicacion_por_estado_falso": "La agencia es dependiente de una instancia observadora; no existe sin la percepción de un agente externo",
+      "implicacion_por_estado_verdadero": "Se admite la acausalidad observacional y la posibilidad de sistemas-agentes objetivos"
+    },
+    {
+      "afirmacion": "La agencia es siempre observable",
+      "implicacion_por_estado_falso": "Puede existir agencia inobservable o inaccesible desde ciertas perspectivas; límite epistemológico",
+      "implicacion_por_estado_verdadero": "Todo agente posible será eventualmente detectado en algún marco de referencia"
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "La observabilidad y emergencia de la agencia dependen de la agencia misma para ser afirmadas o negadas (bucle autoreferencial)",
+    "ambiguedad": "¿Es la agencia una función de la complejidad emergente, del marco observacional o de ambas a la vez?",
+    "contradiccion_util": "Funciona como heurística clasificadora, aunque su estatus ontológico permanezca indeterminado"
+  },
+  "reorganizacion_analoga": [
+    "La agencia como calor: se mide y etiqueta, pero su existencia depende de una escala e instrumento definidos",
+    "La agencia como rol en un juego: presente solo si se cumplen reglas y un observador reconoce movimientos",
+    "La agencia como color en la oscuridad: peligro de atribuir o negar agencia en ausencia de percepción"
+  ],
+  "implicacion_transformadora": [
+    "Las definiciones operativas y criterios sobre agencia requieren ser revisados permanentemente ante nuevas formas de organización e inteligencia.",
+    "Sistemas de atribución de agencia deben incorporar niveles de observabilidad, umbrales funcionales y explicitación de marcos epistémicos.",
+    "La agencia podría emplearse como herramienta heurística flexible, más que como propiedad esencial, orientando la investigación y evitando esencialismos."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No hay colapso unívoco: si alguna de las condiciones restantes se mantiene indefinida, el estado global permanece abierto y dependiente de marcos y contextos de atribución."
+  },
+  "reconclusion_preconceptual": "No siempre sabemos si algo hace cosas porque quiere o sólo parece. Depende de cómo lo veamos, del truco, del momento y de quién esté mirando.",
+  "contexto": "La agencia es mero rótulo funcional (contexto: La agencia es mero rótulo funcional (contexto: Que sea mero rótulo funcional (contexto: Toda auto-organización lleva agencia (contexto: Toda auto-organización lleva agencia (contexto: Constatar inteligencia emergente implica que, inevitablemente, al menos una de estas cuatro premisas sobre la agencia debe ser falsa—que sea mero rótulo funcional, que acompañe toda auto-organización, que pueda surgir sin observador o que sea siempre observable.)))))"
+}

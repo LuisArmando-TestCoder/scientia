@@ -161,6 +161,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
 
 [FORMATO DE RESPUESTA] Estructura de salida esperada (obligatoria):
 {
+  // Evalúa el empirismo del argumento
   "nodo_semantico_de_entrada": "", // Título del concepto de entrada (comprimir si es necesario). 
 
   "nodo_semantico_central": "", // Título condensado del concepto central analizado.
@@ -242,6 +243,14 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     ]
   },
 
+  "diccionario_de_la_formula": {
+    "A": "aquí va el nombre de la afirmación a la que corresponde esta variable"
+    // A, B, C... Z
+  },
+
+  // Vuelve la fórmula lógicamente válida, epistemológicamente robusta, empíricamente colapsable, usando el argumento principal como premisa para refutar o afirmar el resto.
+  "formula_booleana_del_argumento": "", // Fórmula booleana de la expresión para que el argumento sea cierto, tomando en cuenta incluso cuáles indefinidos (si hay) deberían tener qué estado afirmado o negado para que toda la expresión de verdadero. 
+
   "implicaciones_de_colapso": [ // Aquí sólo se incluyen las afirmaciones indefinidas, para las cuales se derivan implicaciones para el estado de la afirmación global si el estado de la sub-afirmación colapsa en un estado booleano u otro.
     {
       "afirmacion": "", // Afirmación indefinida que colapsa a un estado booleano.
@@ -266,6 +275,8 @@ Cada iteración debería generar una versión más refinada de conciencia episte
   ],
 
   "reevaluacion_global": {
+    // Si alguna afirmación fue indefinida, entonces el estado sería indefinido, por el contrario, si ese no es el caso, entonces debería colapsar en falso o verdadero, dependiendo de la estructura de la formula_booleana_del_argumento y de los estados de la tabla_verdad
+    // Si la expresión no cumple con los requesitos necesarios (dados por la formula_booleana_del_argumento) para ser afirmativa, y no posee ningún indefinido, entonces, el estado debe colapsar como falso
     "estado": "verdadero | falso | indefinido | autoreferencial", // Refinación del juicio lógico refinado global del nodo tras el análisis recursivo tomando en cuenta los juicios lógicos que surjen del nodo de la teoria_o_intuicion_emergente.
     "criterio": "", // Reevaluación del estado elegido (ej. “paradoja no resuelta”, “coherencia formal alcanzada”, etc.)
   }

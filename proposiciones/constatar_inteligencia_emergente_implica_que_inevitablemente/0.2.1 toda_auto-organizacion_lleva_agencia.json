@@ -1,0 +1,174 @@
+{
+  "nodo_semantico_de_entrada": "Toda auto-organización lleva agencia",
+  "nodo_semantico_central": "Relación auto-organización ↔ agencia",
+  "firma_ontologica": {
+    "naturaleza": "Principio epistémico",
+    "funcion": "Determinar si la emergencia de orden lleva implícita una fuente de acción intencional o delegada",
+    "dominio": "Epistemología de la inteligencia, teoría de sistemas, filosofía de la mente",
+    "forma": "Implicación global, red bifurcada",
+    "tension": "Confusión entre causalidad funcional y agencia intencional. Ambigüedad sobre criterios ontológicos de “agencia”.",
+    "limite": "Depende de la definición operacional de “agencia” y su separación respecto a ‘auto-organización’ dentro de sistemas abiertos/cerrados."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "auto-organización",
+      "definicion": "Proceso por el cual un sistema genera orden a partir de interacciones internas sin control externo directo."
+    },
+    {
+      "termino": "agencia",
+      "definicion": "Capacidad de un sistema para actuar, causar efectos o modificar su entorno de manera autónoma (desde acciones mínimas computacionales hasta intención consciente)."
+    },
+    {
+      "termino": "lleva",
+      "definicion": "Implicación lógica: la presencia de la primera propiedad debe traer la segunda."
+    }
+  ],
+  "transduccion_preconceptual": "Si ves muchas piezas de dominó que caen y se acomodan en una figura, ¿eso quiere decir que una mano invisible las empujó todas, o pueden hacerlo solas, porque están hechas para reaccionar una tras otra?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Que acompañe toda auto-organización",
+      "subnodo": "Universalidad de la agencia en sistemas emergentes",
+      "contexto": "¿Es agencia inseparable de cualquier patrón autoorganizado (desde cristales hasta hormigueros)?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Que pueda surgir sin observador",
+      "subnodo": "Agencia sin testigo externo",
+      "contexto": "¿Un sistema puede tener agencia si nadie la detecta o define?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Que sea mero rótulo funcional",
+      "subnodo": "Agencia como etiqueta descriptiva",
+      "contexto": "¿El concepto de agencia es una proyección humana sobre procesos ciegos?"
+    },
+    {
+      "id": "1.4",
+      "afirmacion_base": "Que sea siempre observable",
+      "subnodo": "Observabilidad de la agencia",
+      "contexto": "¿Agencia sólo existe si es detectable mediblemente?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El vínculo universal no está demostrado; hay contraejemplos y dependencia de definiciones. La afirmación contiene ambigüedad semántica y depende de la operacionalización de 'agencia'."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición funcionalista de sistemas autoorganizados",
+      "conclusion": "No toda generación espontánea de orden en física implica actor (ejemplo: formación de fractales, auto-ensamblado molecular)",
+      "notas": "Colapsan la necesidad de agencia intencional, pero abren la puerta a agencia ‘mínima’ como mera causalidad interna."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda auto-organización lleva agencia",
+      "descripcion": "Cristales de sal forman patrones complejos y estables por auto-organización, pero carecen de ‘agencia’ en el sentido de acción autónoma dirigida.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Si ampliamos agencia hasta sistemas puramente físicos, el término pierde utilidad explicativa."
+    },
+    {
+      "afirmacion_refutada": "Agencia es siempre observable",
+      "descripcion": "Inteligencia distribuida en enjambres: algunos comportamientos emergentes parecen carecer de agencia individual detectable.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La agencia puede ser emergente/colectiva y no localizada, por lo que observabilidad puede ser gradiente o incluso irreducible."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Agencia se atribuye en biología, robótica y sociología cuando existen bucles de retroalimentación y toma de decisiones, pero muchos sistemas autoorganizados naturales no se consideran agentes.",
+      "inferencia": "La relación no es universal ni necesaria, sino contingente a la definición de agencia adoptada.",
+      "grado_de_confianza": "alto",
+      "notas": "Patrón robusto en literatura de sistemas complejos."
+    }
+  ],
+  "conclusion_preconceptual": "A veces las cosas se ordenan solitas, y otras veces parece que algo hace que se ordenen. No siempre hay ‘alguien’ atrás.",
+  "teoria_o_intuicion_emergente": "La agencia es mejor vista como un umbral dentro de la complejidad autoorganizada, no como condición universal. Surge cuando la auto-organización incluye capacidad de elección o manipulación causal de su entorno, evaluada operacionalmente.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda auto-organización lleva agencia",
+        0,
+        1,
+        0
+      ],
+      [
+        "Que acompañe toda auto-organización",
+        0,
+        1,
+        0
+      ],
+      [
+        "Que pueda surgir sin observador",
+        0,
+        0,
+        1
+      ],
+      [
+        "Que sea mero rótulo funcional",
+        0,
+        0,
+        1
+      ],
+      [
+        "Que sea siempre observable",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Toda auto-organización lleva agencia",
+    "B": "Que acompañe toda auto-organización",
+    "C": "Que pueda surgir sin observador",
+    "D": "Que sea mero rótulo funcional",
+    "E": "Que sea siempre observable"
+  },
+  "formula_booleana_del_argumento": "(A = B AND (C OR D OR E))",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Que pueda surgir sin observador",
+      "implicacion_por_estado_falso": "Agencia puede depender del observador y pierde universalidad.",
+      "implicacion_por_estado_verdadero": "La agencia puede existir independientemente de que sea observada o no."
+    },
+    {
+      "afirmacion": "Que sea mero rótulo funcional",
+      "implicacion_por_estado_falso": "Agencia tiene status ontológico independiente.",
+      "implicacion_por_estado_verdadero": "Agencia es sólo una forma humana de describir sistemas complejos sin intencionalidad real."
+    },
+    {
+      "afirmacion": "Que sea siempre observable",
+      "implicacion_por_estado_falso": "Existen formas de agencia no observables directamente.",
+      "implicacion_por_estado_verdadero": "La agencia requiere trazabilidad para existir como categoría real."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "La atribución de agencia a todo lo autoorganizado trivializa el concepto y lo hace indistinguible de causalidad física.",
+    "ambiguedad": "No hay consenso sobre cuándo un sistema deja de ser ‘mero auto-organizado’ para ser ‘agente’; depende de criterios evolucionistas, computacionales o fenomenológicos.",
+    "contradiccion_util": "La agencia emergente, en sistemas complejos, puede ser resultado de la observación desde fuera y no una propiedad intrínseca."
+  },
+  "reorganizacion_analoga": [
+    "La emergencia de patrones en autómatas celulares: de reglas simples surgen estructuras complejas que parecen ‘decidir’, sin que haya agencia en el sentido fuerte.",
+    "El fenómeno de la vida artificial (ej. Conway’s Game of Life), donde la agencia es ilusión de patrones complejos.",
+    "Los sistemas de precios en mercados: auto-organizan información, pero la agencia atribuye a los ‘agentes económicos’ es una interpretación funcional, no ontológica."
+  ],
+  "implicacion_transformadora": [
+    "Para distinguir en investigación entre sistemas con agencia y sin agencia, hay que introducir criterios formales—p. ej., presencia de meta-información, propósitos explícitos, toma de decisiones.",
+    "Evitar saltar de auto-organización a agencia en filosofía de la mente, ética de IA, biología evolutiva, sin criterios adicionales.",
+    "Agencia debe operacionalizarse para que la categoría mantenga valor explicativo y predictivo."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "Contraejemplos sólidos en física y sistemas complejos naturales muestran que no toda auto-organización lleva agencia; la afirmación falla salvo que se redefina agencia a un nivel trivial, perdiendo su poder discriminante."
+  },
+  "reconclusion_preconceptual": "Las cosas pueden ordenarse sin que haya alguien actuando detrás. A veces sólo parece que ‘alguien’ lo hizo porque a los humanos nos gusta ver manos invisibles donde hay patrones.",
+  "contexto": "Toda auto-organización lleva agencia (contexto: Toda auto-organización lleva agencia (contexto: Constatar inteligencia emergente implica que, inevitablemente, al menos una de estas cuatro premisas sobre la agencia debe ser falsa—que sea mero rótulo funcional, que acompañe toda auto-organización, que pueda surgir sin observador o que sea siempre observable.))"
+}

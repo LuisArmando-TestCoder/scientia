@@ -1,0 +1,143 @@
+{
+  "nodo_semantico_de_entrada": "Demostrabilidad de la existencia de lo no-narrativo",
+  "nodo_semantico_central": "Existencia demostrable de lo no-narrativo",
+  "firma_ontologica": {
+    "naturaleza": "Afirmación epistemológica",
+    "funcion": "Explorar si se puede establecer la existencia de entes/conceptos fuera de marcos narrativos",
+    "dominio": "Epistemología, ontología, semiótica",
+    "forma": "Fractura entre modos de significación (narrativo/no-narrativo), puente argumental",
+    "tension": "Si la demostración presupone lenguaje o estructura narrativa, la proposición se autoliquida al afirmarse",
+    "limite": "Depende de la definición y frontera operativa de 'narratividad'"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Demostrar",
+      "definicion": "Mostrar de manera estructurada, mediante razones o pruebas, la validez de una afirmación"
+    },
+    {
+      "termino": "Existencia",
+      "definicion": "Condición de ser o manifestarse, dentro o fuera del contexto lingüístico o conceptual"
+    },
+    {
+      "termino": "No-narrativo",
+      "definicion": "Característica de aquello que no se configura ni se expresa mediante relatos, historias o secuencias con sentido temporal lógico"
+    },
+    {
+      "termino": "Narratividad",
+      "definicion": "Propiedad de organizar eventos, ideas o entidades en relatos con sintaxis, coherencia y temporalidad"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina un juego donde solo se pueden ganar puntos contando historias. Si alguien quiere ganar sin usar historias, ¿cómo sabríamos que jugó? ¿Hay alguna forma de ver su juego si no cuenta nada? Tal vez escondió los puntos donde nadie sabe buscarlos.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El acto de demostrar es necesariamente narrativo",
+      "subnodo": "Demostración como narración",
+      "contexto": "¿Toda demostración implica relato, secuencia o estructura narrativa?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Existe lo no-narrativo independientemente de la demostración",
+      "subnodo": "Lo no-narrativo como realidad axiomática",
+      "contexto": "¿Puede haber entes/no-cuentos experienciables o pensables que no dependan de narraciones?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Toda existencia demostrable es capturable lingüísticamente",
+      "subnodo": "Reducción del ser a la significación",
+      "contexto": "¿Todo lo que puede ser demostrado debe significar dentro de un marco comunicable?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Hay tensiones conceptuales no resueltas entre la naturaleza de la demostrabilidad y el carácter inasible/límites del no-narrativo"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si demostrar requiere secuencia lógica (narratividad mínima), entonces sólo lo narrativo es demostrable",
+      "conclusion": "Lo estrictamente no-narrativo escapa de la demostración formal",
+      "notas": "A menos que se redefina la demostración"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda demostración es intrínsecamente narrativa",
+      "descripcion": "La exposición matemática de una existencia no constructiva (por ejemplo, existencia de números irracionales por reducción al absurdo) puede no tener una narratividad convencional",
+      "grado_de_refutacion": "parcial",
+      "notas": "La estructura lógica aún puede leerse como relato minimalista"
+    },
+    {
+      "afirmacion_refutada": "Existe lo no-narrativo solo si es demostrable",
+      "descripcion": "Experiencias místicas, estados alterados, fenómenos no verbalizables parecen existir independientemente de la posibilidad de narrarlos",
+      "grado_de_refutacion": "parcial",
+      "notas": "Su existencia es internamente referencial, pero externamente discutible"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Distintas culturas usan mitos negativos para comunicar lo inexpresable ('lo que no se puede contar')",
+      "inferencia": "Lo no-narrativo es recurrentemente acotado a través de estrategias narrativas negativas",
+      "grado_de_confianza": "medio",
+      "notas": "El lenguaje tiende a absorber lo no-narrativo a través de la negación o el límite"
+    },
+    {
+      "patron_observado": "En la lógica formal, existen entidades 'inconstruibles' o indecidibles",
+      "inferencia": "Hay espacios lógicos para lo no-narrativo, pero siempre en relación dialéctica con lo narrativo",
+      "grado_de_confianza": "medio",
+      "notas": "La formalidad los delimita, pero no los absorbe plenamente"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La existencia de lo no-narrativo sólo puede ser esbozada o postulada por el lenguaje narrativo, pero jamás incorporada completamente en él. Ninguna demostrabilidad plena puede capturar lo no-narrativo, solo trazar su borde o negación.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Es demostrable la existencia de lo no-narrativo",
+        0,
+        0,
+        1
+      ],
+      [
+        "Toda demostración requiere estructura narrativa",
+        1,
+        0,
+        0
+      ],
+      [
+        "Puede existir lo no-narrativo sin demostración",
+        0,
+        0,
+        1
+      ],
+      [
+        "El lenguaje siempre puede acotar lo existente",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Demostrar lo no-narrativo implica narrar su existencia, colapsando su no-narratividad",
+    "ambiguedad": "'Narrativo' y 'demostración' pueden tener definiciones expansivas o mínimas que alteran todo el análisis",
+    "contradiccion_util": "El intento de absorber lo no-narrativo en el discurso revela nuevos límites del pensamiento"
+  },
+  "reorganizacion_analoga": [
+    "Como intentar demostrar la existencia de la sombra usando solo luz: el acto la elimina o la transforma",
+    "Como querer tocar el vacío sin dejar de llenarlo",
+    "Como definir el silencio en música – al nombrarlo, lo haces sonido"
+  ],
+  "implicacion_transformadora": [
+    "La frontera entre lo narrable y lo no-narrativo es el motor de la creatividad y el pensamiento esencial. Buscar demostrar lo no-narrativo es propulsar el lenguaje y la cognición a sus límites.",
+    "Las teorías de la mente, la inteligencia artificial y la epistemología deben reconocer las zonas de incompletitud o exterioridad irreductible"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Paradoja no resuelta e indecidibilidad inherente: la definición y la demostrabilidad se coimplican y se lesionan mutuamente"
+  }
+}

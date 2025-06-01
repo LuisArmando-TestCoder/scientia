@@ -1,0 +1,113 @@
+{
+  "nodo_semantico_de_entrada": "Todos los modelos coherentes pueden tener inversión temporal",
+  "nodo_semantico_central": "Universalidad de la reversibilidad temporal en modelos coherentes",
+  "firma_ontologica": {
+    "naturaleza": "Principio lógico universal",
+    "funcion": "Afirmar la posibilidad de inversión temporal para todo sistema modelable coherente",
+    "dominio": "Epistemología de sistemas, lógica modal, física teórica",
+    "forma": "Universalización formal (∀x: Modelo coherente(x) → Inversión temporal posible(x))",
+    "tension": "La noción de 'coherente' y 'inversión temporal' es dependiente de definiciones disciplinarias — ¿son operacionales, estructurales o metafísicas?",
+    "limite": "Depende del marco conceptual adoptado para 'modelo coherente' y de la posibilidad real de inversión temporal según el dominio"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "modelo",
+      "definicion": "Esquema o sistema organizado que intenta reflejar comportamientos, propiedades o dinámicas de una realidad específica"
+    },
+    {
+      "termino": "coherente",
+      "definicion": "Que no presenta contradicciones internas en su estructura lógica o funcional"
+    },
+    {
+      "termino": "inversión temporal",
+      "definicion": "Capacidad para que las relaciones de antes y después puedan alterarse de modo que los procesos puedan reconstruirse si el tiempo corre al revés"
+    },
+    {
+      "termino": "universalidad",
+      "definicion": "Afirmación que involucra a todos los elementos de un dominio sin excepciones"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes un juego de fichas que siempre puedes devolver a la posición inicial, sin importar cómo las moviste. La idea dice: 'Si las reglas del juego no hacen trampas, siempre puedes jugar hacia atrás y el juego seguirá teniendo sentido'. Pero, ¿es siempre posible jugar hacia atrás en cualquier juego?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Todos los modelos coherentes pueden tener inversión temporal",
+      "subnodo": "Modelo coherente con operaciones irreversibles",
+      "contexto": "Existen modelos coherentes que incluyen procesos irreversibles por definición (ejemplo: incremento de entropía, funciones hash uno a uno, eventos históricos no repetibles). ¿Puede invertirse el tiempo en esos casos dentro del propio modelo, o sólo desde afuera?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Todos los modelos coherentes pueden tener inversión temporal",
+      "subnodo": "Dependencia del concepto de 'inversión temporal'",
+      "contexto": "¿La inversión temporal significa que toda la dinámica puede revertirse, o sólo que existe una descripción válida para procesos inversos? Diferencia entre inversión formal (matemática) y inversión física/operacional."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No todos los modelos coherentes permiten inversión, especialmente si contienen irreversibilidades definidas; la universalidad es dudosa sin especificación del tipo de coherencia y dominio"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición lógica universal ∀x: M(x)∧C(x)→T(x)",
+      "conclusion": "Si existe un solo modelo coherente no invertible, la afirmación es falsa en sentido estricto",
+      "notas": "Basta un contraejemplo estructural para refutar universalidad"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todos los modelos coherentes pueden tener inversión temporal",
+      "descripcion": "En termodinámica clásica, modelos coherentes de sistemas caóticos exhiben flecha del tiempo: la entropía crece y su inversión sería implausible/matemáticamente incoherente",
+      "grado_de_refutacion": "parcial",
+      "notas": "La coherencia lógica interna no implica reversibilidad operacional. La inversión puede ser formal en ecuaciones pero no en sentido físico"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Muchos modelos matemáticos fundamentales (mecánica clásica, ecuaciones diferenciales) son reversibles, pero la mayoría de modelos reales involucran irreversibilidades",
+      "inferencia": "La inversión temporal es común en modelos ideales pero rara en modelos aplicados a sistemas complejos",
+      "grado_de_confianza": "alto",
+      "notas": "La irreversibilidad empírica domina la modelización realista"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La posibilidad de invertir el tiempo en un modelo coherente sólo es válida para sistemas donde la definición de coherencia no implica, por sí misma, flecha temporal o procesos irreversibles. La universalidad requiere cualificar el tipo de integridad que no prohíbe irreversibilidad",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Todos los modelos coherentes pueden tener inversión temporal",
+        0,
+        0,
+        1
+      ],
+      [
+        "Existen modelos coherentes sin inversión temporal",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La coherencia puede coexistir con irreversibilidad; invertir toda la historia de un sistema es coherente en papel pero absurdo en muchos contextos reales",
+    "ambiguedad": "¿Qué se entiende por 'inversión temporal'? ¿Reversibilidad estricta o posibilidad de descripción invertida?",
+    "contradiccion_util": "Intentar invertir modelos con procesos irreversibles revela límites creativos y estructurales de la modelización."
+  },
+  "reorganizacion_analoga": [
+    "Como tratar de rebobinar una película realista donde la tinta se mezcla: formalmente todo podría deshacerse, pero ciertos procesos no permiten un retroceso literal sin violar el propio modelo.",
+    "Analogía con funciones no invertibles: una dirección es posible pero la inversa es imposible (funciones hash, evaporación, envejecimiento biológico)."
+  ],
+  "implicacion_transformadora": [
+    "Las afirmaciones universales requieren mapeo exhaustivo de contraejemplos estructurales antes de asumirse. La inversión temporal es una propiedad especial, no genérica.",
+    "Establecer explícitamente los límites semánticos de 'coherencia' para que la reversibilidad no sea asumida sin examen.",
+    "Reconocer y explotar las contradicciones útiles ayuda a discriminar entre clases de modelos y a delimitar la creatividad formal útil de la imaginaria."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La universalidad de la inversión temporal para todo modelo coherente permanece como una afirmación indefinida: depende de especificaciones tácitas sobre irreversibilidad, operacionalidad y naturaleza del modelo."
+  }
+}

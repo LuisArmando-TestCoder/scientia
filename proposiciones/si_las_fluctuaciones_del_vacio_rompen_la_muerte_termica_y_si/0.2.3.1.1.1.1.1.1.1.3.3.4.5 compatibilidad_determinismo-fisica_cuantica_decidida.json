@@ -1,0 +1,124 @@
+{
+  "nodo_semantico_de_entrada": "Compatibilidad determinismo-física cuántica decidida",
+  "nodo_semantico_central": "Compadecidir determinismo/cuántica",
+  "firma_ontologica": {
+    "naturaleza": "Afirmación epistémica",
+    "funcion": "Definir el estado lógico-resolutivo entre dos marcos físicos",
+    "dominio": "Física, filosofía de la ciencia, ontología cuántica",
+    "forma": "Disyunción lógica (decidido/indecidido)",
+    "tension": "Determinismo clásico vs indeterminismo cuántico",
+    "limite": "Decidibilidad epistemológica dependiente del consenso teórico y experimental"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "determinismo",
+      "definicion": "Principio según el cual las condiciones presentes determinan sin ambigüedad todos los eventos futuros"
+    },
+    {
+      "termino": "física cuántica",
+      "definicion": "Marco científico describiendo la naturaleza a escalas subatómicas, con reglas probabilísticas"
+    },
+    {
+      "termino": "compatibilidad",
+      "definicion": "Posibilidad de que dos marcos conceptuales coexistan sin contradicción"
+    },
+    {
+      "termino": "decisión/decidido",
+      "definicion": "Resolución definitiva de una cuestión, cierre lógico consensuado"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina dos juegos de reglas: uno donde todo lo que pasa sigue una historia fija, otro donde algunas cosas pasan por azar como tirar dados. Alguien dice que ya decidieron si los dos juegos pueden ser uno solo, pero nadie te muestra las reglas escritas finales.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La decidibilidad es objetiva e independiente de marco interpretativo",
+      "subnodo": "Decidibilidad fuerte",
+      "contexto": "¿Hay una prueba o experimento definitivo en la física que resuelva la compatibilidad?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Las interpretaciones cuánticas divergentes permiten compatibilidad y no-compatibilidad simultáneas",
+      "subnodo": "Indecidibilidad interpretativa",
+      "contexto": "El resultado depende del marco conceptual y axiomas elegidos (Bohr, Everett, etc.)"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No existe consenso universal ni demostración experimental inequívoca; depende de la interpretación"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición formal de compatibilidad lógica",
+      "conclusion": "Si existe al menos una interpretación cuántica determinista (como De Broglie-Bohm) y otra indeterminista (Copenhague), el estatus global es indefinido",
+      "notas": "Decidibilidad varía según marco seleccionado"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La compatibilidad está decidida",
+      "descripcion": "En la interpretación de Bohm, la cuántica es determinista; en Copenhague, no lo es. No hay experimento que distinga ambos de modo concluyente hasta ahora.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La pluralidad de interpretaciones y ausencia de decisión empírica refuta la afirmación en sentido universal"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Históricamente, la comunidad científica oscila entre interpretaciones y no existe consenso estable",
+      "inferencia": "La decisión parece dependiente más de debate filosófico que de empirismo absoluto",
+      "grado_de_confianza": "alto",
+      "notas": "Refleja un patrón robusto en epistemología de la física"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Las fronteras determinismo/indeterminismo en cuántica son móviles y epistemológicamente dependientes: la decisión sobre compatibilidad es estructuralmente indecidible hasta nuevos avances experimentales o teóricos radicales.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La compatibilidad está decidida para todos los marcos",
+        0,
+        1,
+        0
+      ],
+      [
+        "Existen marcos donde la compatibilidad es decidida",
+        1,
+        0,
+        0
+      ],
+      [
+        "Globalmente la compatibilidad está decidida",
+        0,
+        0,
+        1
+      ],
+      [
+        "Se puede decidir experimentalmente entre compatibilidad e incompatibilidad ahora",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La teoría cuántica permite modelos mutuamente excluyentes que, sin embargo, predicen los mismos resultados observados.",
+    "ambiguedad": "‘Decidido’ carece de operador universal si eligen criterios distintos de decisión.",
+    "contradiccion_util": "El debate mantiene abiertas áreas de exploración e innovación conceptual en física y filosofía."
+  },
+  "reorganizacion_analoga": [
+    "Como una bifurcación en computación: diferentes rutas llevan al mismo resultado observable, pero no puedes decir por dónde viajó la información internamente.",
+    "Como la dualidad onda-partícula: una propiedad elude decisión única dependiendo de cómo se observa."
+  ],
+  "implicacion_transformadora": [
+    "Aceptar la indecidibilidad fomenta apertura para nuevas interpretaciones y potenciales descubrimientos experimentales.",
+    "Promueve humildad epistemológica y combate el absolutismo dogmático en la filosofía de la ciencia."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La pluralidad de marcos, la falta de discriminación experimental y la dependencia de los axiomas seleccionados impiden un estado definido para la proposición principal."
+  }
+}

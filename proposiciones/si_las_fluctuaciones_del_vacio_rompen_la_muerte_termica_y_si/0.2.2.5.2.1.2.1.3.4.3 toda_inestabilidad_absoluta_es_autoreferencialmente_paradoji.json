@@ -1,0 +1,121 @@
+{
+  "nodo_semantico_de_entrada": "Toda inestabilidad absoluta es autoreferencialmente paradójica",
+  "nodo_semantico_central": "Inestabilidad absoluta como paradoja autoreferencial",
+  "firma_ontologica": {
+    "naturaleza": "Propiedad lógica de sistemas",
+    "funcion": "Describir la naturaleza de las inestabilidades conceptuales máximas",
+    "dominio": "Lógica, epistemología, teoría de sistemas",
+    "forma": "Bucle paradojal autoreferente",
+    "tension": "Trata de totalizar la inestabilidad, pero al hacerlo se invoca una referencia a sí misma que la hace problemática",
+    "limite": "No puede ser analizada desde fuera del sistema sin referirse al mismo concepto de total inestabilidad en cuestión"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "inestabilidad absoluta",
+      "definicion": "Condición de cambio o indefinición completa sin posibilidad de estabilización dentro del sistema"
+    },
+    {
+      "termino": "paradoja autoreferencial",
+      "definicion": "Contradicción que surge cuando un sistema, propiedad o afirmación hace referencia a sí misma causando bucle lógico"
+    },
+    {
+      "termino": "toda",
+      "definicion": "Universalización de la propiedad, sin excepciones"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que intentas armar una torre de bloques, pero cada vez que pones un bloque, toda la torre cambia sola. Si preguntas por qué pasa eso, la única respuesta que encuentras es que la torre dice que no quiere estar quieta nunca. Preguntar por su forma real hace que la torre se deshaga y tenga que empezar de nuevo.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La inestabilidad absoluta puede definirse sin referencia a sí misma",
+      "subnodo": "Definibilidad externa de la inestabilidad total",
+      "contexto": "Intentar aislar la inestabilidad absoluta desde un punto de vista externo"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Existen ejemplos de inestabilidad absoluta no autoreferencial",
+      "subnodo": "Ejemplos no bucle",
+      "contexto": "Búsqueda de contraejemplos a la autoreferencialidad en inestabilidades"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición parece formalmente coherente, pero enfrenta límites lógicos por bucle autoreferente que impide resolución directa"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de inestabilidad absoluta",
+      "conclusion": "Cualquier intento de delimitar o comprender totalmente la inestabilidad la estabiliza y, por lo tanto, la niega",
+      "notas": "Restringe la posibilidad de objetivización externa"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda inestabilidad absoluta es necesariamente autoreferencial",
+      "descripcion": "Sistemas caóticos físicos presentan inestabilidad práctica amplia pero no autoreferencial en algunos modelos",
+      "grado_de_refutacion": "parcial",
+      "notas": "La inestabilidad empírica puede no implicar referencia a la definición del propio sistema"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Las paradojas lógicas autoreferenciales suelen colapsar los sistemas formales donde aparecen (ej. paradoja del mentiroso)",
+      "inferencia": "La autoreferencia en combinaciones con propiedades absolutas genera invariancia inestable en los sistemas",
+      "grado_de_confianza": "alto",
+      "notas": "Los sistemas que intentan definirse completamente a sí mismos en términos de inestabilidad entran en bucle"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Las propiedades absolutas impuestas sobre conceptos relacionales invocan necesariamente bucles autoreferenciales, y así el concepto de inestabilidad absoluta sólo puede habitarse como paradoja estructurante, no como estado lógico puro.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda inestabilidad absoluta es autoreferencialmente paradójica",
+        0,
+        0,
+        1
+      ],
+      [
+        "Existen inestabilidades absolutas no autoreferenciales",
+        0,
+        1,
+        0
+      ],
+      [
+        "Cualquier definición externa de inestabilidad absoluta la estabiliza",
+        1,
+        0,
+        0
+      ],
+      [
+        "La autoreferencia produce paradojas",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La afirmación se autoimpide: describir o afirmar la inestabilidad absoluta ya la estabiliza conceptualmente",
+    "ambiguedad": "No queda claro si 'absoluta' se refiere a una propiedad omnipresente o a un límite conceptual esencialmente inaccesible",
+    "contradiccion_util": "La imposibilidad de determinar desde fuera reabre el espacio heurístico para analizar sistemas límites"
+  },
+  "reorganizacion_analoga": [
+    "Como el conjunto de todos los conjuntos que no se contienen a sí mismos",
+    "Como un espejo frente a otro que genera una imagen siempre cambiante e inaccesible para cualquier observador externo",
+    "Como un bucle sin fin en una cinta de Moebius conceptual"
+  ],
+  "implicacion_transformadora": [
+    "No es posible construir una epistemología puramente estable para sistemas donde la inestabilidad es definitoria",
+    "Las paradojas autoreferenciales pueden ser trenzas fértiles para el surgimiento de nuevas lógicas y heurísticas de modelado de sistemas complejos"
+  ],
+  "reevaluacion_global": {
+    "estado": "autoreferencial",
+    "criterio": "El nodo es autoreferente y paradojal: no puede ser reducido a verdadero o falso sin colapsar el campo al que pertenece"
+  }
+}

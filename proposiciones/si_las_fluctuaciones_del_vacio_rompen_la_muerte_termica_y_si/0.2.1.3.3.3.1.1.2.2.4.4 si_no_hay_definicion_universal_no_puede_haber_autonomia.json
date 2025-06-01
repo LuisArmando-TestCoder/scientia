@@ -1,0 +1,122 @@
+{
+  "nodo_semantico_de_entrada": "Si no hay definición universal, no puede haber autonomía",
+  "nodo_semantico_central": "Autonomía depende de definición universal",
+  "firma_ontologica": {
+    "naturaleza": "condicional filosófico",
+    "funcion": "explorar la relación entre universalidad de la definición y posibilidad de autonomía",
+    "dominio": "epistemología y filosofía de la acción",
+    "forma": "implicación lógica",
+    "tension": "El vínculo entre lo universal (totalidad de una definición) y la agencia/autonomía individual; potencial círculo vicioso acerca de quién define universalidad",
+    "limite": "Dependencia de operadores universales no especificados; posibilidad de esquivar universalidad mediante autonomía contextual"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "definición universal",
+      "definicion": "Una explicación compartida y aceptada por todas las conciencias/agentes sobre un concepto."
+    },
+    {
+      "termino": "autonomía",
+      "definicion": "Capacidad de actuar u operar de manera independiente según reglas o principios propios."
+    },
+    {
+      "termino": "no puede haber",
+      "definicion": "Negación de la posibilidad de existencia o manifestación de algo, dada cierta condición."
+    }
+  ],
+  "transduccion_preconceptual": "Si nadie se pone de acuerdo en las reglas del juego, cada quien solo hace lo que puede, pero nadie puede decidir realmente por sí mismo porque no sabe cuáles son los límites ni lo que cuenta como jugar.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El concepto de autonomía exige una definición universalmente compartida.",
+      "subnodo": "¿Puede existir autonomía relativa?",
+      "contexto": "Examina la posibilidad de autonomía dentro de marcos particulares aunque falte una universalidad global."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Universo definicional ausente implica ausencia total de autonomía.",
+      "subnodo": "¿La autonomía necesita reglas globales?",
+      "contexto": "Indaga si es necesario que todos compartan la definición para que surja agencia independiente."
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "La autonomía emerge solo con acuerdo universal.",
+      "subnodo": "Autonomía local vs. global",
+      "contexto": "Valora la diferencia entre autonomía situada/contextual y una autonomía absoluta."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación depende de concepciones específicas de autonomía y de las distintas escalas (local/global). El vínculo propuesto es debatible."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de autonomía como independencia basándose en principios comunes",
+      "conclusion": "Sin definiciones compartidas, la autonomía es relativa o directamente ambigua.",
+      "notas": "Aplica si la autonomía debe acordarse; puede no aplicar a perspectivas solipsistas."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Si no hay definición universal, no puede haber autonomía",
+      "descripcion": "En sistemas biológicos o tribales, cada entidad/sujeto puede operar de manera autónoma dentro de reglas propias, aunque no exista acuerdo universal sobre 'autonomía'.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Autonomía contextual; contradice la necesidad de universalidad total."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Sociedades/organizaciones funcionan con definiciones locales y diferentes formas de autonomía coexistiendo.",
+      "inferencia": "La autonomía parece posible incluso sin definición universal; basta cierto acuerdo contextual.",
+      "grado_de_confianza": "alto",
+      "notas": "El desacuerdo sobre lo universal no elimina capacidades individuales de agencia."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La autonomía puede ser emergente y contextual: surge desde acuerdos locales o reglas internas, y la universalidad solo refuerza o coordina autonomías múltiples, no la habilita absolutamente.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Si no hay definición universal, no puede haber autonomía (en sentido absoluto)",
+        0,
+        1,
+        0
+      ],
+      [
+        "La autonomía depende de definición universal en todos los ámbitos",
+        0,
+        0,
+        1
+      ],
+      [
+        "Puede haber autonomía en ausencia de definición universal",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Autonomía se considera tanto dependiente de reglas externas (definición universal) como emergente de la autoorganización interna.",
+    "ambiguedad": "La definición de universalidad es borrosa; la autonomía puede ser local, relacional o contextual y no necesariamente global.",
+    "contradiccion_util": "La ausencia de acuerdo universal puede, de hecho, permitir múltiples formas de autonomía; la pluralidad de definiciones expande el campo de la autonomía."
+  },
+  "reorganizacion_analoga": [
+    "Como en la biología: distintos organismos tienen autonomías relativas aún sin consenso sobre lo que significa 'vivir'.",
+    "En sistemas legales: cada país ofrece autonomía bajo leyes propias, aunque no haya ley universal.",
+    "Como una red heterogénea: nodos locales toman decisiones autónomas sin que toda la red comparta la misma regla global."
+  ],
+  "implicacion_transformadora": [
+    "No se debe esperar unidad absoluta para desplegar agencias autónomas.",
+    "La generación de autonomía puede y debe explorarse en contextos, permitiendo la diversidad epistemológica y práctica.",
+    "Los sistemas flexibles pueden diseñarse reconociendo autonomías emergentes sin exigir universalidades iniciales."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "El análisis de contraejemplos y observaciones inductivas muestra que la autonomía puede existir sin definición universal; es posible pluralidad autónoma bajo múltiples marcos definicionales."
+  }
+}

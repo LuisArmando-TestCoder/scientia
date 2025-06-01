@@ -1,0 +1,121 @@
+{
+  "nodo_semantico_de_entrada": "Existen afirmaciones verdaderas en todos los dominios",
+  "nodo_semantico_central": "Universalidad de la verdad afirmacional",
+  "firma_ontologica": {
+    "naturaleza": "Principio global-proposicional",
+    "funcion": "Establecer la presencia de verdades afirmativas absolutas en cualquier dominio conceptual",
+    "dominio": "Epistemología, ontología, lógica",
+    "forma": "Afirmación universal cuantificada",
+    "tension": "Ambición de universalidad vs. pluralidad e inconsistencia de marcos",
+    "limite": "Posibilidad de contraejemplos y dependencia ontológica del concepto 'verdad' y 'dominio'"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "afirmación verdadera",
+      "definicion": "Expresión que describe una situación o hecho que se ajusta a la realidad o a los principios aceptados en un sistema dado."
+    },
+    {
+      "termino": "dominio",
+      "definicion": "Ámbito o campo delimitado por un conjunto de reglas, conocimientos o experiencias donde se pueden formular afirmaciones."
+    },
+    {
+      "termino": "universalidad",
+      "definicion": "Propiedad de trascender todos los límites posibles; aplicabilidad en cualquier caso o contexto sin excepción."
+    }
+  ],
+  "transduccion_preconceptual": "Es como si dijéramos que en cada tipo de juego del mundo, sin importar cuáles sean sus reglas, siempre habrá por lo menos una jugada correcta que cualquiera puede encontrar. Pero, quizás, hay juegos tan raros que ni siquiera tienen jugadas claras.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Existen afirmaciones verdaderas en todos los dominios",
+      "subnodo": "Dependencia del concepto de dominio y verdad",
+      "contexto": "¿Pueden existir dominios vacíos, autorreferenciales o triviales donde toda afirmación sea falsa, nula o carente de sentido?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El principio enfrenta límites en dominios vacíos, paradójicos o construidos ad hoc; además, la definición de verdad puede no ser única o estable entre marcos. Contraejemplos pueden invalidar la universalidad absoluta."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de dominio y verdad",
+      "conclusion": "Si existe un dominio en el que el concepto de verdad es vacuo o la lógica no es bivalente, no se garantiza la existencia de afirmaciones verdaderas.",
+      "notas": "Se requiere especificidad sobre qué constituye 'dominio' y 'verdad' en cada caso."
+    },
+    {
+      "origen": "Lógica clásica",
+      "conclusion": "En lógicas bivalentes triviales, la afirmación 'X = X' suele ser verdadera en cualquier dominio definido no vacío.",
+      "notas": "No todos los sistemas son bivalentes ni todos los dominios son no vacíos."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Existen afirmaciones verdaderas en todos los dominios",
+      "descripcion": "Dominios definidos como vacíos (sin elementos) en matemáticas; lógicas dialécticas donde ninguna afirmación puede ser establecida como verdadera; sistemas autorreferenciales con paradoja tipo liar.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Algunos dominios pueden carecer de contenido o coherencia interna; la noción de verdad puede colapsar o ser indeterminada."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En la mayoría de marcos estructurados (matemáticas, ciencias, lenguajes formales) existen afirmaciones consideradas verdaderas por consenso o definición.",
+      "inferencia": "La proposición parece válida de manera operacional práctica para la mayoría de sistemas utilizados.",
+      "grado_de_confianza": "medio",
+      "notas": "Sistemas exóticos o extremos pueden colapsar la validez."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La existencia de afirmaciones verdaderas en un dominio requiere la presencia de reglas, significado y alguna forma de validación consensuada; la universalidad solo se mantiene donde estos elementos están presentes y coherentes.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "En todos los dominios siempre existe al menos una afirmación verdadera",
+        0,
+        0,
+        1
+      ],
+      [
+        "En dominios vacíos no existe ninguna afirmación verdadera",
+        1,
+        0,
+        0
+      ],
+      [
+        "En dominios con reglas contradictorias, la verdad puede ser indeterminada",
+        0,
+        0,
+        1
+      ],
+      [
+        "En la mayoría de dominios prácticos, existen afirmaciones verdaderas",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Dominio autorreferencial tipo 'Esta afirmación es falsa'; genera bucle infinito o colapso del valor de verdad.",
+    "ambiguedad": "Dificultad para definir 'dominio' y 'verdad' uniformemente a través de todos los sistemas posibles.",
+    "contradiccion_util": "El esfuerzo universalizador resalta la necesidad de definir cuidadosamente el alcance y las condiciones de aplicación del concepto de verdad."
+  },
+  "reorganizacion_analoga": [
+    "Como buscar una llave maestra para todas las cerraduras: si todas son diferentes, quizás no exista; pero en la mayoría de puertas comunes, se encuentra una.",
+    "Como preguntar si toda caja tiene algo dentro: la mayoría sí, pero las cajas vacías no ofrecen respuesta.",
+    "Como afirmar que cada rompecabezas tiene al menos una pieza bien puesta: válido en casi todos salvo rompecabezas sin piezas."
+  ],
+  "implicacion_transformadora": [
+    "Estimula el análisis preciso del alcance de principios universales; promueve el escepticismo metódico sobre afirmaciones absolutas.",
+    "Lleva a la operacionalización de definiciones y condiciones de verdad en cada campo, en vez de aplicar unívocamente la misma lógica a todo.",
+    "Resalta la importancia de identificar dominios límites o patológicos donde los principios comunes dejan de operar."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El valor de verdad no puede ser fijado universalmente—depende de la definición ontológica y lógica de cada dominio; el intento universalizador es fértil como heurística pero insuficiente como axioma absoluto."
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "nodo_semantico_de_entrada": "El absolutismo lógico es sostenible",
+  "nodo_semantico_central": "sostenibilidad del absolutismo lógico",
+  "firma_ontologica": {
+    "naturaleza": "afirmación epistémica",
+    "funcion": "evaluar la posibilidad de mantener reglas lógicas absolutas sin contradicción interna a lo largo del tiempo y el conocimiento",
+    "dominio": "lógica, epistemología, metafilosofía",
+    "forma": "sistema de reglas absolutas",
+    "tension": "tensión entre universalidad y contraejemplos; límites por autoreferencia y paradojas autoreplicantes",
+    "limite": "exposición a refutación por paradojas lógicas y casos empíricos; la consistencia absoluta es recursivamente cuestionable"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "absolutismo lógico",
+      "definicion": "creencia en que los principios y reglas lógicas son universales, inmutables y aplicables en todo contexto sin excepción"
+    },
+    {
+      "termino": "sostenible",
+      "definicion": "que puede mantenerse y mantenerse coherente en todas las situaciones y sin generar contradicciones intransitables"
+    },
+    {
+      "termino": "contradicción",
+      "definicion": "la simultaneidad de una afirmación y su opuesta en el mismo contexto, lo que tradicionalmente desestabiliza la lógica absoluta"
+    },
+    {
+      "termino": "paradoja",
+      "definicion": "afirmación o estructura que parece válida lógicamente pero lleva a una conclusión contradictoria o insostenible"
+    }
+  ],
+  "transduccion_preconceptual": "Imagínate que tienes un conjunto de reglas para un juego que nunca pueden cambiar y deben funcionar en cualquier tipo de terreno, con cualquier jugador, incluso si el terreno se parte, se dobla o las reglas se contradicen entre sí. ¿Siempre podríamos jugar sin ningún problema? ¿O algunas veces habría situaciones donde las reglas ya no tengan sentido? Tal vez, a veces, tendríamos que inventar nuevas reglas.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El absolutismo lógico es sostenible en todos los sistemas",
+      "subnodo": "universalidad lógica",
+      "contexto": "aplicación de reglas lógicas absolutas en sistemas finitos, infinitos y autorreferenciales"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "En presencia de paradojas, el absolutismo lógico se mantiene",
+      "subnodo": "robustez ante paradojas",
+      "contexto": "existencia de paradojas lógicas (ej. Russell, Liar) en sistemas formales"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "El absolutismo puede ser sostenible si acotamos el universo de discurso",
+      "subnodo": "absolutismo restringido",
+      "contexto": "lógica de primer orden frente a lógicas modales, constructivas o paraconsistentes"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición falla frente a contraejemplos y paradojas, y se sostiene sólo bajo restricciones contextuales; la sostenibilidad absoluta no es alcanzable de forma general"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición de absolutismo lógico",
+      "conclusion": "Si una sola contradicción o paradoja verdadera emerge, el absolutismo global se colapsa",
+      "notas": "Deducción clásica según ley de no contradicción"
+    },
+    {
+      "origen": "principio de explosión",
+      "conclusion": "Un sistema absolutista ante contradicciones colapsa en trivialidad (todo es deducible)",
+      "notas": "Sólo evitable en lógicas paraconsistentes"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El absolutismo lógico es sostenible siempre",
+      "descripcion": "Paradoja del mentiroso: 'Esta frase es falsa'. Si es verdadera es falsa, si es falsa es verdadera. El sistema lógico explota.",
+      "grado_de_refutacion": "total",
+      "notas": "Mostrada también en la incompletitud de Gödel y en la paradoja de Russell"
+    },
+    {
+      "afirmacion_refutada": "El absolutismo lógico es sostenible en todos los lenguajes",
+      "descripcion": "En lógica paraconsistente y en quantum lógicas, las contradicciones pueden coexistir localmente sin colapso global.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Sostenibilidad depende de la lógica seleccionada y del tipo de sistemas tratados"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "A lo largo de la historia de la lógica formal, los intentos de absolutismo son refutados por nuevas paradojas y sistemas alternativos",
+      "inferencia": "La sostenibilidad del absolutismo lógico requiere restricción de contexto, meta-lenguaje o reglas de excepción",
+      "grado_de_confianza": "alto",
+      "notas": "Patrón observado en evolución de la ciencia lógica"
+    },
+    {
+      "patron_observado": "En matemáticas constructivas, la negación del absolutismo permite operar bajo axiomas menos rígidos",
+      "inferencia": "El absolutismo es un ideal regulativo, no un hecho empírico robusto",
+      "grado_de_confianza": "alto",
+      "notas": "Vinculado a pluralidad de sistemas lógicos"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El absolutismo lógico sólo puede sostenerse dentro de sistemas cerrados y consistentemente axiomatizados; en presencia de autorreferencia, meta-modelos o sistemas complejos, deviene insostenible sin excepciones, bifurcándose en pluralidad lógica y contextualidad semántica.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El absolutismo lógico es sostenible en todos los contextos",
+        0,
+        1,
+        0
+      ],
+      [
+        "El absolutismo lógico puede mantenerse bajo restricciones contextuales",
+        1,
+        0,
+        0
+      ],
+      [
+        "El absolutismo lógico resiste las paradojas",
+        0,
+        1,
+        0
+      ],
+      [
+        "El absolutismo lógico es válido en lógica clásica",
+        1,
+        0,
+        0
+      ],
+      [
+        "El absolutismo lógico se aplica a sistemas autorreferentes",
+        0,
+        1,
+        0
+      ],
+      [
+        "¿Existen lógicas donde la contradicción no destruye el sistema?",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El absolutismo lógico produce autorrefutación ante paradojas implicando su propia insostenibilidad global",
+    "ambiguedad": "Ambigüedad semántica entre 'absolutismo' como regla ideal y como hecho empírico en sistemas complejos",
+    "contradiccion_util": "El intento por sostener absolutismo genera lógicas alternativas y meta-marcos donde la contradicción es encausada en vez de eliminada"
+  },
+  "reorganizacion_analoga": [
+    "Como intentar que una regla de tráfico funcione igual en autos, aviones y submarinos, independientemente del medio",
+    "Como buscar una frontera inmutable en un río que cambia constantemente de curso"
+  ],
+  "implicacion_transformadora": [
+    "La epistemología y diseño de sistemas formales deben integrar apertura a lógicas alternativas y resiliencia ante paradojas",
+    "El conocimiento no debe apegarse al absolutismo, sino considerar pluralidad lógica y contexto semántico como fuentes de innovación teórica",
+    "El absolutismo lógico sirve como regulador ideal, no como fundamento axiomático inviolable"
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "El análisis y los contraejemplos muestran que el absolutismo lógico, entendido como sostenibilidad universal, es insostenible. Es posible solo localmente o bajo condiciones restringidas."
+  }
+}

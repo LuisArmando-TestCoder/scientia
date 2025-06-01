@@ -1,0 +1,146 @@
+{
+  "nodo_semantico_de_entrada": "Impacto global calculable en sistemas complejos, abiertos y caóticos",
+  "nodo_semantico_central": "Calculabilidad del impacto en sistemas caóticos abiertos",
+  "firma_ontologica": {
+    "naturaleza": "proposición analítica multidominio",
+    "funcion": "afirmar la posibilidad de calcular la influencia total de fluctuaciones en sistemas no lineales",
+    "dominio": "complejidad, teoría del caos, epistemología de sistemas abiertos",
+    "forma": "red de causalidad no lineal / proposición condicional global",
+    "tension": "tensión entre predictibilidad y la irreducibilidad inherente del caos",
+    "limite": "computabilidad práctica y límites de observabilidad; irreductibilidad computacional"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "sistemas complejos",
+      "definicion": "Conjuntos con múltiples partes interdependientes, cuyas interacciones generan propiedades emergentes no reducibles a las de los elementos individuales."
+    },
+    {
+      "termino": "sistemas abiertos",
+      "definicion": "Sistemas que intercambian materia, energía o información con el entorno, no totalmente aislados."
+    },
+    {
+      "termino": "sistemas caóticos",
+      "definicion": "Sistemas extremadamente sensibles a condiciones iniciales, suelen mostrar comportamiento impredecible aunque sean deterministas."
+    },
+    {
+      "termino": "fluctuaciones",
+      "definicion": "Cambios pequeños o variaciones aleatorias dentro de un sistema."
+    },
+    {
+      "termino": "impacto global",
+      "definicion": "Efecto agregado o consecuencia total de cambios internos o externos en el sistema globalmente considerado."
+    },
+    {
+      "termino": "calculable",
+      "definicion": "Susceptible de ser determinado mediante un algoritmo o un modelo matemático finito y preciso."
+    }
+  ],
+  "transduccion_preconceptual": "Imagina una pecera con peces que nadan por todas partes, burbujas, plantas y corrientes de agua que cambian sin parar. Si lanzas una piedrita, ¿puedes saber exactamente cómo terminará moviéndose cada pez mucho después? Aunque veas dónde cae, todo cambia tanto y tan rápido que, aunque lo intentes mucho, no siempre puedes predecir lo que pasará al final con todos.",
+  "iteraciones": [
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "El impacto global de las fluctuaciones es calculable en sistemas caóticos abiertos",
+      "subnodo": "Irreductibilidad computacional en sistemas caóticos",
+      "contexto": "Extensión de la teoría de computabilidad y caos: muchos sistemas dan soluciones solo mediante simulación exhaustiva caso por caso; la predicción total puede ser impracticable aunque el sistema sea determinista."
+    },
+    {
+      "id": "1.1.2",
+      "afirmacion_base": "Todas las fluctuaciones pueden ser consideradas en el cálculo global",
+      "subnodo": "Límites prácticos de observación y modelado",
+      "contexto": "Sensibilidad al error de medición, acceso incompleto a variables; aproximaciones pueden ser útiles pero nunca totales."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación confronta el límite entre la calculabilidad matemática (en principio) y el carácter impredecible/no computable (en la práctica) típico de los sistemas caóticos; existen contraejemplos y evidencia de irreductibilidad computacional."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición formal de sistemas caóticos y teorema de irreductibilidad de computo",
+      "conclusion": "No es posible calcular el impacto global de todas las fluctuaciones en sistemas caóticos salvo en sistemas estrictamente limitados o bajo condiciones ideales irrealistas.",
+      "notas": "Solo bajo simplificación extrema se puede simular, pero el caos y el acoplamiento con el entorno introduce incertidumbre que no es computacionalmente tratable en general."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El impacto global es siempre calculable en cualquier sistema complejo abierto y caótico",
+      "descripcion": "Ecuaciones diferenciales no lineales muestran comportamiento caótico incluso para condiciones iniciales deterministas. En meteorología, pequeñas variaciones (efecto mariposa) hacen imposible el pronóstico a largo plazo aún con información casi completa del sistema.",
+      "grado_de_refutacion": "total",
+      "notas": "Experimentos empíricos demuestran que ni la simulación más detallada puede garantizar predicción global exacta por acumulación de errores."
+    },
+    {
+      "afirmacion_refutada": "Incluso un modelo computacional puede prever el efecto total de fluctuaciones en sistemas abiertos",
+      "descripcion": "Por el teorema de la irreductibilidad computacional (Wolfram, Chaitin), hay sistemas cuyo tiempo de predicción/escalabilidad crece exponencialmente y no puede reducirse a una fórmula compacta.",
+      "grado_de_refutacion": "parcial",
+      "notas": "En sistemas acotados o muy simples las predicciones funcionan, pero esto no se generaliza."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Simulaciones y experimentos meteorológicos y económicos muestran que los modelos solo aproximan tendencias locales y fallan a largo plazo bajo caos.",
+      "inferencia": "Los sistemas caóticos abiertos tienden a ser incalculables globalmente, aunque algunos aspectos locales o promedio puedan modelarse.",
+      "grado_de_confianza": "alto",
+      "notas": "El grado de predicción depende mucho de la escala, bajo ciertas condiciones se puede simular, pero globalmente el error se propaga."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "En los sistemas complejos abiertos y caóticos, sólo ciertos patrones o promedios pueden resultar calculables—el impacto global específico de todas las fluctuaciones escapa a la computabilidad en sentido fuerte; la imprevisibilidad es estructural, no sólo circunstancial.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El impacto global de pequeñas fluctuaciones es calculable en cualquier sistema complejo abierto y caótico (contexto global)",
+        0,
+        1,
+        0
+      ],
+      [
+        "En algunos casos limitados/locales/puntuales se puede calcular el impacto de fluctuaciones (contextos restringidos)",
+        1,
+        0,
+        0
+      ],
+      [
+        "En sistemas suficientemente acotados la predicción global puede funcionar (casos ideales/teóricos)",
+        1,
+        0,
+        0
+      ],
+      [
+        "La predicción global exacta en sistemas caóticos abiertos es siempre posible (sin restricciones)",
+        0,
+        1,
+        0
+      ],
+      [
+        "La irreductibilidad computacional introduce un límite fundamental a la predicción global",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Buscamos calcular efectos globales donde cada microfluctuación puede amplificarse de modo impredecible; el querer predecir lo impredecible es autoconflictivo.",
+    "ambiguedad": "\"Calculable\" puede implicar computabilidad teórica (en principio) o práctica (en la realidad) — la afirmación flota entre ambos sin precisar su alcance.",
+    "contradiccion_util": "Sistemas caóticos pueden ser deterministas pero impredecibles: saber las reglas no basta para conocer el resultado."
+  },
+  "reorganizacion_analoga": [
+    "Intentar predecir el clima global exacto a partir de una mariposa batiendo sus alas.",
+    "Calcular el recorrido de cada gota en una cascada turbulenta.",
+    "Esperar que una economía global responda exactamente al cambio de un precio menor."
+  ],
+  "implicacion_transformadora": [
+    "Orientar la epistemología de sistemas complejos hacia patrones, estadísticas locales y promedios, no hacia predicción global exacta.",
+    "Aceptar los límites de la predicción como parte inherente de la naturaleza, no como fracaso metodológico.",
+    "Fomentar modelos robustos ante incertidumbre más que precisión ilusoria."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "Contraejemplos empíricos y formales demuestran la imposibilidad generalizada de calcular el impacto global de las fluctuaciones en sistemas caóticos abiertos; la afirmación es insostenible salvo en contextos muy restringidos."
+  }
+}

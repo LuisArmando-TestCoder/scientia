@@ -1,0 +1,146 @@
+{
+  "nodo_semantico_de_entrada": "El universo es autosuficiente",
+  "nodo_semantico_central": "Autosuficiencia universal",
+  "firma_ontologica": {
+    "naturaleza": "principio",
+    "funcion": "afirmar que el universo contiene todos los recursos, reglas y capacidades necesarios para su propio existir y persistir",
+    "dominio": "cosmología, metafísica",
+    "forma": "totalidad autocontenida, bucle cerrado",
+    "tension": "la autosuficiencia implica clausura causal y ausencia de dependencias externas, pero cuestiona el origen y los límites del universo",
+    "limite": "no puede referenciarse a nada más allá de sí mismo para validarse"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "universo",
+      "definicion": "Conjunto de todo lo que existe de manera física, lógica o conceptual"
+    },
+    {
+      "termino": "autosuficiencia",
+      "definicion": "Capacidad de un sistema para mantenerse y explicarse sin apoyos ni influencias exteriores"
+    },
+    {
+      "termino": "origen",
+      "definicion": "Punto, causa o condición que da inicio a algo; en este contexto, tema problemático dentro de un sistema cerrado"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes una caja mágica con todos sus juguetes adentro. Nadie puede ponerle nada ni quitarle nada. Todo lo que pasa en la caja sucede usando sólo lo que la caja tiene adentro. Si preguntas de dónde vino la caja, nadie puede mirar fuera de ella porque fuera no hay nada.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El universo es autosuficiente",
+      "subnodo": "Autosuficiencia implicada",
+      "contexto": "¿Puede un sistema ser causa única de sí mismo?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "El universo no depende de nada externo",
+      "subnodo": "Ausencia de exterior",
+      "contexto": "¿Existe 'exterior' al universo como totalidad?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "La existencia del universo se explica a sí misma",
+      "subnodo": "Autoexplicación cósmica",
+      "contexto": "¿Puede un sistema fundamentar sin referencia externa?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación carece de medios de validación o refutación externos al propio universo; su verdad depende de asumir o negar la posibilidad de exteriores, generando un bucle autoreferencial."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si 'universo' significa 'todo lo que existe', entonces nada puede estar fuera de él.",
+      "conclusion": "No puede haber nada externo que lo condicione.",
+      "notas": "Esto fortalece autosuficiencia, pero sólo por definición."
+    },
+    {
+      "origen": "Autosuficiencia implica causalidad cerrada.",
+      "conclusion": "El universo no puede ser causado por un agente externo.",
+      "notas": "Pero la naturaleza de la causalidad universal es desconocida."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El universo es autosuficiente (en todos los sentidos)",
+      "descripcion": "Modelos filosóficos o cosmológicos que postulan multiversos, dioses creadores o causas trascendentes (ejemplo: teísmo, teoría de universos de bolsillo)",
+      "grado_de_refutacion": "parcial",
+      "notas": "Estos modelos abren la posibilidad lógica de que el universo observable dependa de marcos más amplios o externos."
+    },
+    {
+      "afirmacion_refutada": "El universo no depende de nada externo",
+      "descripcion": "La hipótesis del multiverso implica dependencia causal o relacional respecto a otros 'universos'.",
+      "grado_de_refutacion": "parcial",
+      "notas": "No confirmado empíricamente; amplía el campo ontológico más allá del universo-conjunto."
+    },
+    {
+      "afirmacion_refutada": "La existencia del universo se explica a sí misma",
+      "descripcion": "El problema de la explicación última (regresión infinita, principio de razón suficiente).",
+      "grado_de_refutacion": "parcial",
+      "notas": "La autoexplicación puede no ser posible; puede presuponer axiomas indemostrables."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En física, los modelos actuales no identifican agentes externos al universo observable.",
+      "inferencia": "La autosuficiencia es coherente con la experiencia empírica conocida.",
+      "grado_de_confianza": "alto",
+      "notas": "Pero sólo aplicable a universo observable, no a totalidad metafísica."
+    },
+    {
+      "patron_observado": "Las explicaciones últimas en filosofía y cosmología tienden a recurrir a principios axiomáticos o bucles autoreferenciales.",
+      "inferencia": "La afirmación de autosuficiencia parece inevitable eventualmente en todo sistema totalizador.",
+      "grado_de_confianza": "medio",
+      "notas": "El fundamento lógico puede quedar como indecidible."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Todo intento de afirmar la autosuficiencia universal conduce a un límite autoreferencial: la totalidad sólo puede afirmarse desde sí misma, pero no puede ser validada desde fuera.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El universo es autosuficiente",
+        0,
+        0,
+        1
+      ],
+      [
+        "El universo no depende de nada externo",
+        0,
+        0,
+        1
+      ],
+      [
+        "La existencia del universo se explica a sí misma",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El universo como totalidad no puede ser explicado sin referencia a lo que lo trasciende, pero afirmar cualquier exterior lo niega como totalidad.",
+    "ambiguedad": "¿'Universo' se refiere al todo absoluto, al universo observable, o a una construcción teórica? La definición elegida afecta la verdad del enunciado.",
+    "contradiccion_util": "El intento de cerrar el universo sobre sí mismo parece inevitable, pero esa misma clausura lo vuelve indecidible en términos absolutos."
+  },
+  "reorganizacion_analoga": [
+    "Como una hoja de papel sobre la que se dibuja a sí misma, pero no puede justificar de dónde viene el papel.",
+    "Como un juego de reglas que define su propio campo, sin que nadie pueda agregar reglas desde afuera.",
+    "Como el conjunto de todas las historias posibles que no puede contar ninguna historia de algo que lo trascienda."
+  ],
+  "implicacion_transformadora": [
+    "Toda doctrina de autosuficiencia total cae en autorreferencia y deja zonas inevitables de ambigüedad axiológica.",
+    "La explicación del todo-totalidad sólo puede ofrecerse como convención funcional, no como verdad absoluta.",
+    "El análisis invita a suspender el juicio sobre absolutismos metafísicos y operar desde sistemas de referencia internos o funcionales.",
+    "Para la teoría del conocimiento, esto acota los intentos de reducción última y fomenta la humildad epistemológica."
+  ],
+  "reevaluacion_global": {
+    "estado": "autoreferencial",
+    "criterio": "La afirmación de autosuficiencia universal sólo puede sostenerse en bucle autoreferencial; la verdad/falsedad o indefinición dependen del marco elegido y no pueden colapsarse lógicamente fuera de toda autorreferencia."
+  }
+}

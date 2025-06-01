@@ -1,0 +1,145 @@
+{
+  "nodo_semantico_de_entrada": "Existencia de posibilidades no actualizadas",
+  "nodo_semantico_central": "Posibilidades reales no realizadas",
+  "firma_ontologica": {
+    "naturaleza": "Afirmación ontológica modal",
+    "funcion": "Delimitar el espacio entre lo posible y lo realizado",
+    "dominio": "Metafísica, lógica modal",
+    "forma": "Bifurcación potencialidad-actualidad",
+    "tension": "Diferenciación entre existencia modal y existencia actual",
+    "limite": "Definible sólo en referencia a un marco temporal, causal o epistémico; depende de la interpretación de 'realidad' y 'actualización'"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "posibilidad",
+      "definicion": "Situación, estado, evento o hecho que podría ocurrir, según la estructura de algún marco lógico o natural."
+    },
+    {
+      "termino": "real",
+      "definicion": "Que posee algún tipo de existencia atribuida por un sistema, pero no necesariamente observada o manifestada."
+    },
+    {
+      "termino": "actualización",
+      "definicion": "Paso de la potencialidad a la existencia observable, la manifestación concreta de una posibilidad."
+    }
+  ],
+  "transduccion_preconceptual": "Imagina una caja llena de canicas de muchos colores. Sabes que podrías sacar una azul, roja o verde, pero solo sacas una cada vez. Las otras siguen ahí, posibles, pero no las tienes en tu mano. Aunque no las sacas, hay muchas canicas que podrías haber tenido.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Existen posibilidades reales que no se actualizan",
+      "subnodo": "Existe el ser-modal no-efectuado",
+      "contexto": "¿Puede un evento ser considerado real aunque nunca ocurra?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Realidad implica actualización",
+      "subnodo": "Redefinición de realidad: ¿ontológica o fenomenológica?",
+      "contexto": "Si lo real sólo es lo actualizado, las posibilidades no manifestadas no son reales"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Ambigüedad semántica en el uso de 'real'. La afirmación depende del marco modal: en lógica modal es posible; en ontología actualista, es insuficiente."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Distinción aristotélica entre potencia y acto",
+      "conclusion": "No todo lo que es posible en potencia llega a ser en acto",
+      "notas": "Sólo es real en sentido modal, no en sentido fenoménico."
+    },
+    {
+      "origen": "Lógica modal: ◇P (posible P), ¬□P (no necesariamente P)",
+      "conclusion": "Hay mundos posibles en los que P no se actualiza, aunque P sea posible.",
+      "notas": "La existencia de P es contingente."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda posibilidad real se actualiza",
+      "descripcion": "El número infinito de posibilidades matemáticas (números irracionales entre 0 y 1) no se actualiza físicamente nunca.",
+      "grado_de_refutacion": "total",
+      "notas": "Sólo un subconjunto finito se manifiesta empíricamente."
+    },
+    {
+      "afirmacion_refutada": "Lo que no se actualiza no es real de ningún modo",
+      "descripcion": "En física cuántica, estados no colapsados son 'reales' en la función de onda aunque no observados.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Coexisten como superposiciones hasta la medición."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "A nivel personal, muchas opciones vitales existen como planes o deseos no realizados",
+      "inferencia": "La experiencia humana reconoce la realidad práctica de posibilidades no realizadas",
+      "grado_de_confianza": "alto",
+      "notas": "Se requiere definir 'realidad' psicológica vs. ontológica"
+    },
+    {
+      "patron_observado": "En sistemas caóticos, la mayoría de rutas posibles nunca ocurren, pero estructuran el espacio de potenciales",
+      "inferencia": "En sistemas complejos, la estructura de posibilidades afecta la evolución, aunque sólo una trayectoria se realice",
+      "grado_de_confianza": "medio",
+      "notas": "Importancia causal de lo no actualizado"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El espacio de posibilidades conforma un trasfondo estructural ontológicamente relevante: lo no actualizado influye en la definición de lo actualizado y en la dinámica de elección y causalidad. La posibilidad puede ser real en cuanto estructura, no necesariamente en cuanto actualización fenoménica.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Existen posibilidades reales que no se actualizan (modalidad)",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda posibilidad real se actualiza",
+        0,
+        1,
+        0
+      ],
+      [
+        "Solo lo actualizado es real",
+        0,
+        1,
+        0
+      ],
+      [
+        "La posibilidad no realizada afecta sistemas",
+        1,
+        0,
+        0
+      ],
+      [
+        "La realidad de las posibilidades depende del sistema conceptual",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Si lo real es sólo lo actual, ¿cómo influyen las posibilidades no actualizadas en sistemas y decisiones?",
+    "ambiguedad": "'Real' es polisémico: ¿es igual de real lo potencial y lo efectivo?",
+    "contradiccion_util": "Lo no realizado puede ser estructuralmente necesario, aunque nunca manifestado"
+  },
+  "reorganizacion_analoga": [
+    "Como las teclas de un piano: todas existen, pero sólo algunas se presionan en una canción.",
+    "Como rutas no tomadas en un mapa: configuran las elecciones, aunque no se recorran.",
+    "Como genes no expresados en un organismo: están presentes, afectan potencialidad, pero no se actualizan."
+  ],
+  "implicacion_transformadora": [
+    "Aceptar la realidad estructural de las posibilidades no realizadas puede enriquecer modelos de decisión, creatividad y predicción.",
+    "Metodológicamente, considerar lo posible no realizado abre espacio a la innovación y a la prevención de errores de cierre prematuro en la ciencia.",
+    "Ética: Reconocer posibilidades no realizadas puede fundamentar responsabilidad por omisión y debate moral prospectivo."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La conclusión depende de la definición operacional de 'real': la afirmación es válida en lógica modal, pero ambigua en ontología actualista. La tensión es fértil, no resolutiva."
+  }
+}

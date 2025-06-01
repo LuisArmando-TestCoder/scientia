@@ -1,0 +1,143 @@
+{
+  "nodo_semantico_de_entrada": "Es posible invertir la flecha del tiempo en modelos físicos coherentes",
+  "nodo_semantico_central": "Inversión temporal en modelos físicos coherentes",
+  "firma_ontologica": {
+    "naturaleza": "posibilidad estructural",
+    "funcion": "Explorar la reversibilidad de la dinámica temporal en marcos teóricos consistentes",
+    "dominio": "física, metafísica, filosofía de la ciencia",
+    "forma": "dualidad / simetría",
+    "tension": "Coexistencia de simetría dinámica y asimetría termodinámica",
+    "limite": "Depende del modelo formal y de las condiciones iniciales; límites en la observación empírica macro"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Flecha del tiempo",
+      "definicion": "Dirección preferida de los procesos físicos, asociada al aumento de la entropía"
+    },
+    {
+      "termino": "Inversión temporal",
+      "definicion": "Operación conceptual donde se intercambian pasado y futuro en una dinámica"
+    },
+    {
+      "termino": "Modelo físico",
+      "definicion": "Representación matemática o conceptual de un conjunto de fenómenos naturales"
+    },
+    {
+      "termino": "Coherencia",
+      "definicion": "Ausencia de contradicciones dentro del marco formal elegido"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina un video de dominó cayendo. Si rebobinas el video, las piezas se levantan como por arte de magia. En algunas reglas del juego, esto sería imposible. Pero en otros juegos, con las reglas correctas, ese rebobinado puede tener sentido.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El modelo físico es coherente bajo inversión temporal",
+      "subnodo": "Simetría-T",
+      "contexto": "Ley de física reversible, e.g. ecuaciones de Newton, Schrödinger, simetría CPT"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La flecha del tiempo es absoluta en la naturaleza",
+      "subnodo": "Asimetría termodinámica",
+      "contexto": "Segundo principio de la termodinámica, irreversibilidad macroscópica"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La validez depende del nivel de descripción: micro (reversible), macro (irreversible)"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Simetría de las leyes físicas fundamentales",
+      "conclusion": "A escala microscópica muchas leyes permiten inversión de tiempo sin contradicción",
+      "notas": "Ecuaciones de la física clásica y cuántica suelen ser reversibles temporalmente"
+    },
+    {
+      "origen": "Segundo principio de la termodinámica",
+      "conclusion": "La irreversibilidad emerge de la estadística colectiva a nivel macroscópico",
+      "notas": "No contradice la reversibilidad nominal de las leyes bajo condiciones micro"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La inversión temporal siempre es posible y físicamente real en todos los contextos",
+      "descripcion": "El desorden espontáneo de un huevo roto no se revierte a orden espontáneamente en la vida diaria",
+      "grado_de_refutacion": "parcial",
+      "notas": "La irreversibilidad es empírica en macro, pero no una prohibición absoluta formal"
+    },
+    {
+      "afirmacion_refutada": "Las leyes físicas siempre son simétricas temporalmente",
+      "descripcion": "Experimentos sobre violación de simetría de CP (e.g., kaones)",
+      "grado_de_refutacion": "parcial",
+      "notas": "La simetría CP rota implica, vía teorema CPT, una ligera asimetría temporal en ciertos procesos"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Modelos matemáticos simétricos bajo inversión T",
+      "inferencia": "La reversibilidad es posible en modelos teóricos sin contradicción formal",
+      "grado_de_confianza": "alto",
+      "notas": "Consistente con la mayoría de ecuaciones fundamentales"
+    },
+    {
+      "patron_observado": "Irreversibilidad en sistemas termodinámicos complejos",
+      "inferencia": "La flecha del tiempo emerge como fenómeno colectivo y no elemental",
+      "grado_de_confianza": "alto",
+      "notas": "Apoyado por evidencia empírica diaria"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La inversión de la flecha del tiempo es posible en modelos físicos coherentes bajo la condición de simetría dinámica, pero la irreversibilidad emerge como fenómeno estadístico-macroscópico, no como imposibilidad lógica fundamental.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Las leyes físicas permiten inversión temporal bajo ciertas condiciones",
+        1,
+        0,
+        0
+      ],
+      [
+        "La irreversibilidad es universal e ineludible",
+        0,
+        1,
+        0
+      ],
+      [
+        "Todos los modelos coherentes pueden tener inversión temporal",
+        0,
+        0,
+        1
+      ],
+      [
+        "La inversión temporal en física siempre conduce a paradojas",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La coexistencia formal de reversibilidad micro y la irreversibilidad macro conduce a la paradoja de Loschmidt (¿Por qué existe una flecha del tiempo si las leyes son reversibles?)",
+    "ambiguedad": "El estatus ontológico de la 'flecha del tiempo': ¿es emergente, fundamental o epistemológica?",
+    "contradiccion_util": "Utilizar la contradicción entre reversibilidad formal y experiencia irreversible para investigar el origen de la temporalidad"
+  },
+  "reorganizacion_analoga": [
+    "Como una cinta donde puedes avanzar y retroceder, pero el desgaste de la cinta hace que rebobinar nunca devuelva el estado original intacto",
+    "Como una receta de cocina cuyas instrucciones puedes leer hacia atrás, pero de la comida cocinada no se obtiene el huevo original",
+    "Como el historial de archivos digitales: los bits pueden revertirse, pero la entropía del entorno persiste"
+  ],
+  "implicacion_transformadora": [
+    "En física teórica, abre la posibilidad de explorar modelos alternativos de causalidad y temporalidad",
+    "En filosofía de la mente y metafísica, habilita escenarios de mundos donde la experiencia interna de fluir temporal podría invertirse o bifurcarse",
+    "En computación, inspira algoritmos reversibles y computación cuántica, donde el tiempo puede ser tratado como parámetro bidireccional"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La inversión de la flecha del tiempo es lógicamente posible bajo ciertos modelos formales, pero su realización empírica general sigue siendo limitada por fenómenos de irreversibilidad emergente y observacional"
+  }
+}

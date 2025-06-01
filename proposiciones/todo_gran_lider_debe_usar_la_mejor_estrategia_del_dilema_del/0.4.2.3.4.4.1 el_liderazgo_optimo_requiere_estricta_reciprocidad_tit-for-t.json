@@ -1,0 +1,172 @@
+{
+  "nodo_semantico_de_entrada": "El liderazgo óptimo requiere estricta reciprocidad tit-for-tat para estabilizar el bienestar social en toda situación",
+  "nodo_semantico_central": "Reciprocidad estricta como requisito universal del liderazgo óptimo",
+  "firma_ontologica": {
+    "naturaleza": "principio regulador",
+    "funcion": "regular la dinámica social para optimizar el bienestar colectivo",
+    "dominio": "teoría social, ética del liderazgo, teoría de juegos",
+    "forma": "condicional universal, regla simétrica de intercambio",
+    "tension": "absolutismo normativo vs. adaptabilidad contextual",
+    "limite": "no contempla excepciones, ignora condiciones anómalas o contextos disruptivos"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "liderazgo óptimo",
+      "definicion": "acción de guiar grupos para alcanzar el mayor bien posible"
+    },
+    {
+      "termino": "reciprocidad tit-for-tat",
+      "definicion": "estrategia de responder exactamente de la misma forma a las acciones previas de otro"
+    },
+    {
+      "termino": "estricta",
+      "definicion": "sin flexibilidad ni excepciones en la aplicación de la reciprocidad"
+    },
+    {
+      "termino": "estabilizar",
+      "definicion": "mantener un estado social sin grandes cambios negativos o alteraciones"
+    },
+    {
+      "termino": "bienestar social",
+      "definicion": "condición de satisfacción, seguridad y justicia para la mayoría"
+    },
+    {
+      "termino": "toda situación",
+      "definicion": "cualquier contexto o escenario posible, sin excepciones"
+    }
+  ],
+  "transduccion_preconceptual": "Imagínate a un grupo en el recreo donde cada vez que uno presta algo, el otro debe devolver exactamente lo mismo cada vez, en cualquier juego o momento, sin importar lo que pase. Nadie puede perdonar ni romper la regla, ni una sola vez.",
+  "iteraciones": [
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "El liderazgo óptimo requiere estricta reciprocidad tit-for-tat para estabilizar el bienestar social en toda situación",
+      "subnodo": "estricto tit-for-tat universal",
+      "contexto": "¿Es la reciprocidad rígida siempre la mejor respuesta en todos los entornos sociales?"
+    },
+    {
+      "id": "1.1.2",
+      "afirmacion_base": "en toda situación",
+      "subnodo": "universalidad de la regla",
+      "contexto": "¿Existen escenarios donde la reciprocidad estricta falla o genera resultados negativos?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El absolutismo de la proposición choca con numerosos contraejemplos contextuales; aunque produce estabilidad en algunos casos, es insuficiente para universalizarse."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "si la reciprocidad estricta es aplicada universalmente",
+      "conclusion": "las interacciones previsibles pueden prevenir abusos recurrentes",
+      "notas": "esto asume agentes racionales y simetría informacional"
+    },
+    {
+      "origen": "la reciprocidad estricta no admite perdón ni generosidad",
+      "conclusion": "errores, accidentes o situaciones asimétricas pueden escalar conflictos",
+      "notas": "no reconoce el valor del altruismo contextual o la reconciliación"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El liderazgo óptimo requiere estricta reciprocidad tit-for-tat en toda situación",
+      "descripcion": "En crisis humanitarias o fallos colectivos, la rigidez puede impedir la reconstrucción de la confianza. El perdón o la proactividad no reactiva pueden ser necesarios (e.g., Mandela con el apartheid, reconstrucción post-catástrofe).",
+      "grado_de_refutacion": "parcial",
+      "notas": "la reciprocidad tit-for-tat es óptima solo en juegos repetidos y simétricos; las sociedades experimentan asimetrías irreductibles"
+    },
+    {
+      "afirmacion_refutada": "toda situación",
+      "descripcion": "La cooperación espontánea puede surgir aun cuando la reciprocidad estricta no se cumple (ejemplo: donaciones anónimas, sacrificio parental, apoyo mutuo en comunidades indígenas)",
+      "grado_de_refutacion": "total",
+      "notas": "diversos estudios en economía conductual refutan el principio como valor absoluto"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "el tit-for-tat estrictamente aplicado tiende a estabilizar pequeños grupos bajo incertidumbre moderada",
+      "inferencia": "es útil como protocolo básica pero insuficiente como axioma universal",
+      "grado_de_confianza": "alto",
+      "notas": "estudios empíricos en teoría de juegos y dinámicas sociales"
+    },
+    {
+      "patron_observado": "los sistemas sociales flexibles perdonan errores y previenen ciclos de venganza",
+      "inferencia": "la adaptabilidad supera la rigidez ante entornos caóticos o complejos",
+      "grado_de_confianza": "alto",
+      "notes": "observaciones de comunidades resilientes y adaptativas"
+    }
+  ],
+  "conclusion_preconceptual": "A veces, seguir exactamente la misma regla para todos puede ayudar, pero cuando suceden accidentes o el grupo es muy grande y diverso, ser rígido puede romper cosas en vez de arreglarlas.",
+  "teoria_o_intuicion_emergente": "El liderazgo óptimo requiere combinar la reciprocidad tit-for-tat con flexibilidad estratégica y espacio para el perdón, reconociendo la diversidad y la asimetría contextual como componentes críticos de la estabilidad social.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El liderazgo óptimo siempre requiere estricta reciprocidad tit-for-tat",
+        0,
+        1,
+        0
+      ],
+      [
+        "La reciprocidad tit-for-tat estabiliza parcialmente el bienestar social",
+        1,
+        0,
+        0
+      ],
+      [
+        "La aplicación estricta de tit-for-tat es óptima en toda situación",
+        0,
+        1,
+        0
+      ],
+      [
+        "Existen situaciones donde la reciprocidad estricta falla",
+        1,
+        0,
+        0
+      ],
+      [
+        "Existen situaciones donde la reciprocidad tit-for-tat produce resultados óptimos",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "El liderazgo óptimo requiere estricta reciprocidad tit-for-tat en toda situación",
+      "implicacion_por_estado_falso": "Requiere revisión del marco: la flexibilidad es condición necesaria para la estabilidad y adaptabilidad social.",
+      "implicacion_por_estado_verdadero": "Convertiría la norma de reciprocidad rígida en axioma universal, eliminando excepciones y adaptabilidad contextual."
+    },
+    {
+      "afirmacion": "La reciprocidad estricta falla en algunos contextos",
+      "implicacion_por_estado_falso": "Validar la absoluta aplicabilidad del modelo en cualquier entorno.",
+      "implicacion_por_estado_verdadero": "Reconocer la insuficiencia del absolutismo y la necesidad de estrategias situacionales."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "La regla universal de reciprocidad puede destruir la cooperación si se enfrenta a la inevitable asimetría humana (errores, accidentes, altruismo).",
+    "ambiguedad": "La noción de 'toda situación' es demasiado vaga y omite contextos donde otras estrategias son superiores.",
+    "contradiccion_util": "La necesidad del liderazgo óptimo es tanto firmeza como adaptabilidad: la contradicción entre rigidez y flexibilidad es fuente de innovación social."
+  },
+  "reorganizacion_analoga": [
+    "Un sistema inmunológico que responde igual ante todas las amenazas puede atacar al propio cuerpo (autoinmunidad).",
+    "Un código legal sin excepción haría ilegítima toda amnistía o compasión.",
+    "En ajedrez, repetir siempre la misma jugada ante la misma respuesta lleva al empate, pero impediría toda táctica sorpresa o adaptación cuando el rival cambia de estrategia."
+  ],
+  "implicacion_transformadora": [
+    "El diseño de políticas de liderazgo y bienestar social debe incorporar mecanismos de reciprocidad, pero evitar la rigidez doctrinal.",
+    "Se recomienda crear sistemas de respuesta adaptativa que consideren cuándo aplicar reciprocidad y cuándo activar el perdón, la generosidad o la negociación.",
+    "La estabilidad social surge de la combinación dinámica de reglas claras y margen para la excepción."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "El análisis revela contraejemplos robustos y evidencia que la afirmación es inválida en su forma absolutista, aunque describe parcialmente el funcionamiento en sistemas limitados."
+  },
+  "reconclusion_preconceptual": "Aunque seguir al pie de la letra una regla ayuda muchas veces, lo mejor es tener también espacio para ser flexible y perdonar, porque así el grupo puede enfrentar juntos los retos inesperados.",
+  "contexto": "El liderazgo óptimo requiere estricta reciprocidad tit-for-tat para estabilizar el bienestar social en toda situación"
+}

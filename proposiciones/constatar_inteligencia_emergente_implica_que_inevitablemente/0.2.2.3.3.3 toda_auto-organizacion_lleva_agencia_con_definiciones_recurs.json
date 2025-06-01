@@ -1,0 +1,194 @@
+{
+  "nodo_semantico_de_entrada": "Toda auto-organización lleva agencia (con definiciones recursivas de agencia como rótulo funcional, posibilidad de surgir sin observador, y la tensión de la inteligibilidad de la agencia)",
+  "nodo_semantico_central": "Agencia-indisolubilidad de lo auto-organizado",
+  "firma_ontologica": {
+    "naturaleza": "atributo emergente condicional/relacional",
+    "funcion": "articular el vínculo entre auto-organización e identificación de agencia",
+    "dominio": "filosofía de la mente, teoría de sistemas, semiótica funcional",
+    "forma": "red de contextos autoreferenciales y cruzados",
+    "tension": "la agencia depende de la perspectiva observacional pero la auto-organización puede darse sin observador; posible bucle de rotulación/dependencia",
+    "limite": "la agencia como categoría sólo existe cuando atribuida; sin atribución el concepto se vuelve o vacío o latente, dependiendo de la ontología asumida"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "auto-organización",
+      "definicion": "proceso por el cual un sistema genera orden y estructura a partir de interacciones internas sin control externo explícito"
+    },
+    {
+      "termino": "agencia",
+      "definicion": "capacidad atribuida o intrínseca de actuar, decidir o producir cambios en un entorno. Puede ser vista como etiqueta funcional, fenómeno emergente, o constructo observacional"
+    },
+    {
+      "termino": "rótulo funcional",
+      "definicion": "nomenclatura que se asigna para señalar la presencia (o ausencia) de alguna función, aquí la agencia"
+    },
+    {
+      "termino": "emergencia sin observador",
+      "definicion": "propiedad de un sistema que puede surgir aun si no hay conciencia que la observe ni la rotule"
+    },
+    {
+      "termino": "atribución",
+      "definicion": "acto de asignar una etiqueta o función a algo, aquí el acto de llamar 'agente' a un proceso auto-organizado"
+    }
+  ],
+  "transduccion_preconceptual": "A veces, cuando muchas partes empiezan a organizarse solas, es como si formaran un equipo invisible. Si nadie juega con ellas ni les pone nombre, ellas igual hacen cosas. Pero sólo cuando alguien las mira y dice 'es un equipo', parece que tienen intención, aunque puede que solo estén moviéndose porque sí.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "agencia puede surgir sin observador",
+      "subnodo": "agencia latente",
+      "contexto": "¿Es la agencia real si nunca nadie la observa? ¿O sólo es potencial?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "agencia es mero rótulo funcional",
+      "subnodo": "agencia como constructo semántico",
+      "contexto": "¿Depende la agencia de una semántica o de una propiedad real emergente?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "toda auto-organización lleva agencia",
+      "subnodo": "agencia necesariamente emergente de auto-organización",
+      "contexto": "¿Puede existir auto-organización sin agencia, si nadie la llama así?"
+    },
+    {
+      "id": "1.4",
+      "afirmacion_base": "constatar inteligencia emergente implica que al menos una premisa sobre la agencia es falsa",
+      "subnodo": "incompatibilidad epistémica de las premisas",
+      "contexto": "¿Se puede reconciliar la atribución de agencia con todas las premisas a la vez sin caer en contradicción o bucle?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Bucle de dependencia semántica y empirismo: la agencia atribuida puede ser simultáneamente rotulo, emergente e inobservable dependiendo del marco adoptado. No puede sostenerse la verdad de todas a la vez sin contradicción."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si la agencia es sólo rótulo funcional",
+      "conclusion": "No toda auto-organización lleva agencia, sólo las que reciben el rótulo",
+      "notas": "Depende de la cantidad de sistemas observados versus rótulos aplicados"
+    },
+    {
+      "origen": "Si agencia puede surgir sin observador",
+      "conclusion": "Puede haber agencias inobservadas o no rotuladas",
+      "notas": "Introduce categoría de potencialidad ontológicamente cuestionable"
+    },
+    {
+      "origen": "Si constatar inteligencia emergente implica falsedad de alguna premisa",
+      "conclusion": "Las cuatro premisas son incompatibles en simultáneo, hay que ceder una",
+      "notas": "Ejercicio lógico de exclusión"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "toda auto-organización lleva agencia",
+      "descripcion": "Cristales que se auto-organizan en estructuras complejas sin poseer decisiones ni propósitos atribuibles",
+      "grado_de_refutacion": "parcial",
+      "notas": "Sólo agencia si forzamos interpretación metafórica"
+    },
+    {
+      "afirmacion_refutada": "agencia surge sin observador",
+      "descripcion": "La agencia como concepto operativo requiere que alguien le asigne ese estado por observación o interpretación.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Podría argumentarse para una ontología neutral, pero sería irrelevante semánticamente"
+    },
+    {
+      "afirmacion_refutada": "agencia es mero rótulo funcional",
+      "descripcion": "Sistemas sencillos pueden exhibir comportamientos que, al modelarlos formalmente, generan funciones homólogas a la agencia a pesar de nunca ser rotuladas/etiquetadas",
+      "grado_de_refutacion": "parcial",
+      "notas": "Depende de si se privilegia la estructura sobre la interpretación"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Muchos sistemas auto-organizados nunca son considerados agentes (reacciones químicas, fenómenos físicos inanimados)",
+      "inferencia": "La agencia no es inseparable de toda auto-organización",
+      "grado_de_confianza": "alto",
+      "notas": "Refuerza la hipótesis contextual-semantica"
+    },
+    {
+      "patron_observado": "Algunas formas de inteligencia artificial o algoritmos muestran agencia funcional sin ser conscientes ni rotuladas como tales hasta ser observadas",
+      "inferencia": "La agencia es, en parte, dependiente de contexto de interpretación",
+      "grado_de_confianza": "medio",
+      "notas": "Gradiente de agencia/interpretación"
+    }
+  ],
+  "conclusion_preconceptual": "Decir que toda auto-organización lleva agencia es como insistir en que todos los remolinos son monstruos: sólo se vuelve cierto cuando alguien lo dice, pero los remolinos, igual, giran solos.",
+  "teoria_o_intuicion_emergente": "La agencia es una función de atribución-relación: emerge cuando hay conexión interpretativa entre el patrón y el observador, pero no necesariamente reside fundamentalmente en todo lo auto-organizado.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "toda auto-organización lleva agencia",
+        0,
+        1,
+        0
+      ],
+      [
+        "agencia es mero rótulo funcional",
+        0,
+        1,
+        0
+      ],
+      [
+        "agencia puede surgir sin observador",
+        0,
+        0,
+        1
+      ],
+      [
+        "agencia es siempre observable",
+        1,
+        0,
+        0
+      ],
+      [
+        "constatar inteligencia emergente implica que al menos una premisa es falsa",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "toda auto-organización lleva agencia",
+    "B": "agencia es mero rótulo funcional",
+    "C": "agencia puede surgir sin observador",
+    "D": "agencia es siempre observable",
+    "E": "constatar inteligencia emergente implica que al menos una premisa es falsa"
+  },
+  "formula_booleana_del_argumento": "(A ∧ B ∧ C ∧ D) → ¬E; (E) → ¬(A ∧ B ∧ C ∧ D); (C)=indefinida produce indeterminación general, cualquier combinación con C verdadero o falso colapsa los demás",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "agencia puede surgir sin observador",
+      "implicacion_por_estado_falso": "La agencia queda como fenómeno relacional y dependiente de la atribución observacional, reforzando su carácter de rótulo funcional. Sin observador no hay agencia, sólo auto-organización",
+      "implicacion_por_estado_verdadero": "Se permitiría aceptar agencia como propiedad potencial u oculta en cualquier sistema auto-organizado, pero pierde vínculo claro con la operacionalidad semántica y la agencia deja de ser refutable"
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "El concepto de agencia es operativo sólo si se atribuye, pero al mismo tiempo pretende ser categoría ontológica independiente. Esto genera bucle entre latencia y actualización.",
+    "ambiguedad": "No queda claro si la agencia es propiedad observable, atribución conceptual o resultado de auto-organización sin intervención. Fluctúa entre realismo y constructivismo.",
+    "contradiccion_util": "Asumir agencia como inobservable vacía el concepto; asumirla como sólo un rótulo guarda la agencia de los agentes no observados o ignorados."
+  },
+  "reorganizacion_analoga": [
+    "La distinción entre energía potencial y energía cinética: la agencia sería la potencialidad que se actualiza cuando hay observador/interacción.",
+    "El ruido de un árbol cayendo en un bosque sin nadie que lo oiga: ¿existe el sonido, o sólo la vibración?",
+    "La diferencia entre masa visible y materia oscura: ¿agencia oculta por falta de observador, o simplemente inexistente fuera de la atribución?"
+  ],
+  "implicacion_transformadora": [
+    "Cualquier teoría que relacione agencia y auto-organización debe precisar: ¿está describiendo cómo etiquetamos (epistemología) o cómo es el sistema en sí (ontología)?",
+    "El diseño de sistemas artificiales y éticas autónomas debería considerar agencia como propiedad relacional y dependiente del contexto de observación.",
+    "Las discusiones sobre inteligencia emergente colapsan si no se delimita operacionalmente 'agencia' y su relación con auto-organización y observación."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "La afirmación general ('toda auto-organización lleva agencia') sólo se sostiene bajo definiciones extremas de agencia; la evidencia conceptual y empírica muestra disociación y contextos en los que la atribución de agencia falla o es irrelevante. El resto de premisas colapsan en incompatibilidad mutua si se intenta universalidad."
+  },
+  "reconclusion_preconceptual": "Auto-organización es como bailar sin público: sí sucede, pero nadie dice que bailas hasta que alguien te ve. Llamarle 'agencia' depende de quién mira y cómo quiere contarlo.",
+  "contexto": "Toda auto-organización lleva agencia (contexto: agencia es mero rótulo funcional (contexto: Agencia puede surgir sin observador (contexto: Agencia puede surgir sin observador (contexto: Toda auto-organización lleva agencia (contexto: Constatar inteligencia emergente implica que, inevitablemente, al menos una de estas cuatro premisas sobre la agencia debe ser falsa—que sea mero rótulo funcional, que acompañe toda auto-organización, que pueda surgir sin observador o que sea siempre observable.)))))"
+}

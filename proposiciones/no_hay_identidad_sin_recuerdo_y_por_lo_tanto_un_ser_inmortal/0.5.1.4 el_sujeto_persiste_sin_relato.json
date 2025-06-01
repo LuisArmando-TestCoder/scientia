@@ -1,0 +1,162 @@
+{
+  "nodo_semantico_de_entrada": "El sujeto persiste sin relato",
+  "nodo_semantico_central": "Persistencia del sujeto sin narración",
+  "firma_ontologica": {
+    "naturaleza": "Paradoja ontológica",
+    "funcion": "Explora la relación entre sujeto (identidad/agente) y relato (auto-narración/estructura temporal).",
+    "dominio": "Filosofía de la identidad, teoría del yo, fenomenología, ontología narrativa.",
+    "forma": "Bifurcación entre ser y relatarse",
+    "tension": "La existencia del sujeto como núcleo sin historia versus la autoafirmación narrativa.",
+    "limite": "Indefinición si el sujeto puede ser pensado sin acto de relato; autonegación narrativa"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "sujeto",
+      "definicion": "Entidad pensante, consciente de sí misma (yo, agente, núcleo de experiencia)."
+    },
+    {
+      "termino": "persistencia",
+      "definicion": "Continuidad o permanencia en el tiempo, más allá de las apariencias o relatos."
+    },
+    {
+      "termino": "relato",
+      "definicion": "Narración, secuencia de eventos o descripciones a través de los cuales el sujeto se autodefine."
+    },
+    {
+      "termino": "sin",
+      "definicion": "En ausencia de, separado de, prescindiendo de determinado elemento (relato, en este caso)."
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que eres alguien sin contar su historia nunca; como un árbol en medio del bosque al que nadie le pone nombre ni cuenta su vida, pero sigue ahí. ¿Puede el árbol saber que existe si nadie, ni él mismo, cuenta su historia?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El sujeto puede existir sin relato",
+      "subnodo": "sujeto-núcleo",
+      "contexto": "Supone la existencia de un yo esencial previo a toda narración sobre sí mismo."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "El relato es imprescindible para la persistencia del sujeto",
+      "subnodo": "sujeto-narrativo",
+      "contexto": "Relaciona el autoconcepto con el relato contínuo que lo justifica y sostiene."
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "La persistencia puede ser no-narrativa",
+      "subnodo": "ser-bruto",
+      "contexto": "Pensar el ser como presencia silenciosa, sin lenguaje ni memoria activa."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición depende admisiblemente del marco: desde el esencialismo ontológico (esencia sin relato) es verdadera; desde el narrativismo (el sujeto es relato) es falsa; ambas tradiciones tienen límites conceptuales y contraejemplos internos."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de sujeto como núcleo esencial",
+      "conclusion": "Si el sujeto es anterior a la narración, existe incluso sin relato.",
+      "notas": "Un sujeto pre-narrativo es posible en algunas ontologías (ej. Descartes, núcleo cartesiano)."
+    },
+    {
+      "origen": "Teoría narrativa del yo",
+      "conclusion": "El sujeto sólo persiste como relato; perder el relato implica perder la subjetividad.",
+      "notas": "Ejemplo: trastornos donde la pérdida de continuidad narrativa afecta la identidad."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El sujeto no puede persistir sin relato",
+      "descripcion": "Personas en coma profundo sin actividad consciente/narrativa pero biológicamente persistentes.",
+      "grado_de_refutacion": "parcial",
+      "notas": "No es claro si persiste la subjetividad o sólo la biología; limita a subjetividad mínima."
+    },
+    {
+      "afirmacion_refutada": "El relato es necesario para la persistencia",
+      "descripcion": "Momentos de ‘olvido total’ en experiencias meditativas profundas o en animales sin relato propio.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Sugiere modos de ser sin auto-narración consciente."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En las culturas orales y autobiográficas se refuerza la noción del yo como relato.",
+      "inferencia": "La identidad narrativa es reforzada socialmente, pero no es única vía de persistencia.",
+      "grado_de_confianza": "medio",
+      "notas": "Contexto cultural influye gravemente en la autopercepción del sujeto."
+    },
+    {
+      "patron_observado": "Algunos animales parecen actuar con agencia sin relato.",
+      "inferencia": "Es posible persistir como agente sin narrarse reflexivamente.",
+      "grado_de_confianza": "bajo",
+      "notas": "Difícil acceso a la vivencia interior no-narrativa."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La persistencia del sujeto puede entenderse como un continuo entre polos: núcleo ontológico mínimo (ser-silencio) y sujeto plenamente narrado (ser-historia). Ambos extremos fertilizan el campo, pero ninguno puede reclamar monopólio.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El sujeto puede persistir sin relato (en el sentido ontológico esencialista)",
+        1,
+        0,
+        0
+      ],
+      [
+        "El sujeto puede persistir sin relato (en el sentido narrativo existencial)",
+        0,
+        1,
+        0
+      ],
+      [
+        "El relato es condición necesaria del sujeto",
+        0,
+        1,
+        0
+      ],
+      [
+        "El relato es condición suficiente del sujeto",
+        0,
+        1,
+        0
+      ],
+      [
+        "Puede haber persistencia sin relato (en contextos límite – coma, olvido, meditación)",
+        1,
+        0,
+        0
+      ],
+      [
+        "Ambos modos no se excluyen: la persistencia puede ser polimorfa",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El sujeto sólo puede pensarse en tanto se relata, pero podría existir una subjetividad muda y pre-narrativa desconocida.",
+    "ambiguedad": "Es ambigua la frontera entre persistencia mínima y persistencia consciente.",
+    "contradiccion_util": "La coexistencia de ser silente y ser narrativo motiva nuevas preguntas sobre el yo: ¿es el relato una función, una máscara, o un constituyente?"
+  },
+  "reorganizacion_analoga": [
+    "Como un libro cerrado: los personajes ya están ahí aunque nadie lea su historia.",
+    "Como un software sin ejecutar: el código (sujeto) existe aunque el proceso (relato) no corra.",
+    "Como la música escrita en partitura antes de ser interpretada.",
+    "Como potencialidad latente frente a realidad manifiesta."
+  ],
+  "implicacion_transformadora": [
+    "Abrir la definición de sujeto a modos no narrativos expande la ética y la ontología: no todo lo humano (o animado) requiere recuerdo o historia.",
+    "Reconocer estados de conciencia y presencia fuera del hilo narrativo puede redefinir derechos, límites de la autodeterminación y formas de cuidar a sujetos en estados no narrativos.",
+    "Desestabilizar el absolutismo narrativo abre espacio para nuevas formas de subjetividad (convivencia con IA, animales, vegetales, estados alterados)."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El nodo une perspectivas contradictorias y deja la resolución abierta; la paradoja fertiliza más que limita. El análisis revela zonas ciegas en la ontología clásica del sujeto y del relato."
+  }
+}

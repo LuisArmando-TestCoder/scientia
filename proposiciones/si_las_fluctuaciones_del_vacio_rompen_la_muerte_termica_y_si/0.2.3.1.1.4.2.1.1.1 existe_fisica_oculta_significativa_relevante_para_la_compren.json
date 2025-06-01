@@ -1,0 +1,132 @@
+{
+  "nodo_semantico_de_entrada": "Existe física oculta significativa relevante para la comprensión física",
+  "nodo_semantico_central": "Hipótesis de física oculta en la explicación física",
+  "firma_ontologica": {
+    "naturaleza": "proposición hipotética",
+    "funcion": "postula la existencia de estructuras físicas no observadas relevantes para el entendimiento físico",
+    "dominio": "epistemología de la ciencia, ontología física",
+    "forma": "bifurcación: conocido/desconocido",
+    "tension": "Afirmación no falsable-abierto; depende de límites empíricos y semánticos de 'oculto' y 'significativo'",
+    "limite": "Dependencia empírica; indeterminación semántica en la definición de 'oculto'; riesgo de irreducibilidad computacional"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "física oculta",
+      "definicion": "aspecto o estructura de la realidad física no identificada, no observable actualmente o no conceptualizada dentro del marco científico vigente"
+    },
+    {
+      "termino": "significativa",
+      "definicion": "que altera o transforma de forma sustantiva la comprensión de fenómenos o teorías físicas actuales"
+    },
+    {
+      "termino": "relevante",
+      "definicion": "aporta o tiene impacto demostrable en la explicación o predicción física dentro de paradigmas científicos"
+    },
+    {
+      "termino": "comprensión física",
+      "definicion": "estructura conceptual, experimental y teórica capaz de explicar, predecir o modelar fenómenos asociados a la física"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que buscas piezas de un rompecabezas. Hay partes que nunca viste porque están debajo del tapete. Crees que pueden cambiar el dibujo, pero no sabes cuántas faltan ni si realmente existen. Solo sabes lo que ves, pero lo oculto podría cambiar toda la imagen.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Es posible que exista física no observada actualmente que sea crucial para el paradigma físico",
+      "subnodo": "Hipótesis de insuficiencia del modelo",
+      "contexto": "Historia de la física: paradigmas previos han sido reemplazados/extendidos al descubrir elementos ocultos (ejemplo: físicas clásica y cuántica, materia oscura)"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Se puede distinguir entre física oculta significativa y física oculta irrelevante",
+      "subnodo": "Criterios de relevancia en lo oculto",
+      "contexto": "Problemática de demarcación entre componentes 'ocultos' que modifican nuestra comprensión y aquellos que no tienen impacto causal"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Lo oculto puede ser definido operacionalmente en el dominio físico",
+      "subnodo": "Definición funcional de 'oculto'",
+      "contexto": "¿Puede la física proponer formalmente el espacio de lo no-observado bajo sus axiomas?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación es plausible pero no falsable ni verificable sin criterios axiomáticos de 'significativo' y 'oculto'; potencial de irreducibilidad computacional"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si lo oculto afecta el paradigma, los modelos actuales son incompletos",
+      "conclusion": "La credibilidad de la física vigente queda condicionada a la exhaustividad de sus medios de observación",
+      "notas": "Condición análoga a modelos incompletos; históricamente justificada pero formalmente incognoscible sin nuevos datos"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Existe física oculta significativa relevante para la comprensión física",
+      "descripcion": "No toda información no-observada altera necesariamente los marcos de interpretación física. Ejemplo: universalidad emergente, donde detalles ocultos pueden ser irrelevantes a ciertas escalas",
+      "grado_de_refutacion": "parcial",
+      "notas": "La existencia de 'física oculta' no implica relevancia absoluta para todos los niveles explicativos"
+    },
+    {
+      "afirmacion_refutada": "No existe física oculta significativa",
+      "descripcion": "Las revoluciones científicas muestran la emergencia de fenómenos antes invisibles (electricidad, gravedad, neutrinos, materia oscura)",
+      "grado_de_refutacion": "parcial",
+      "notas": "La afirmación contraria tampoco se sostiene en sentido absoluto"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Iteración histórica de paradigmas superados por descubrimientos nuevos",
+      "inferencia": "La presencia de 'oculto significativo' es recurrente en la dinámica de desarrollo científico",
+      "grado_de_confianza": "medio",
+      "notas": "Puede no generalizarse a todos los casos futuros; la inducción sugiere la plausibilidad, no necesidad"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El espacio de comprensión física es recursivamente abierto: lo oculto significativo es tanto posibilidad como motor heurístico, pero no es verificable en términos absolutos; la física se autoorganiza bajo el límite de lo observable, pero su completitud es provisional.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Existe física oculta significativa relevante para la comprensión física",
+        0,
+        0,
+        1
+      ],
+      [
+        "La física vigente contempla todo lo relevante",
+        0,
+        1,
+        0
+      ],
+      [
+        "Si existe física oculta, su impacto siempre es determinante",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Para demostrar lo oculto, deja de serlo; la significatividad sólo puede evaluarse tras la revelación.",
+    "ambiguedad": "Indeterminación en los términos 'significativo', 'oculto' y los criterios de relevancia epistemológica.",
+    "contradiccion_util": "Física solo puede reconocer lo oculto tras hacerlo visible, pero su infinita posibilidad impulsa renovación teórica."
+  },
+  "reorganizacion_analoga": [
+    "Como un mapa incompleto: lo que está en blanco condiciona el valor interpretativo del mapa existente",
+    "Como la ceguera selectiva: lo no percibido puede cambiar el sentido, pero no si permanece siempre inobservable",
+    "Como una caja negra en ingeniería: solo se inferirán aspectos de lo oculto por sus efectos colaterales en lo medible"
+  ],
+  "implicacion_transformadora": [
+    "Sostener la posibilidad de 'física oculta' requiere epistemología abierta y flexibilidad metodológica; impide absolutismo dogmático.",
+    "La narrativa científica debe integrar la provisionalidad y reconocimiento de sus límites observacionales.",
+    "La búsqueda de lo oculto significativo puede inspirar experimentación disruptiva y creatividad paradigmática."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La hipótesis es estructural e históricamente fértil pero formalmente indeterminada; admite desarrollo recursivo según nueva evidencia."
+  }
+}

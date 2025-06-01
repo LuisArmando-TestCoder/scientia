@@ -1,0 +1,120 @@
+{
+  "nodo_semantico_de_entrada": "Si una posibilidad nunca ocurre, sigue siendo una posibilidad",
+  "nodo_semantico_central": "Existencia ontológica de la posibilidad no realizada",
+  "firma_ontologica": {
+    "naturaleza": "estado potencial no realizado",
+    "funcion": "definir el estatuto de lo posible ausente de manifestación",
+    "dominio": "modalidad, ontología, lógica modal",
+    "forma": "proposición condicional, bifurcación lógica",
+    "tension": "entre ser posible y ser realizado",
+    "limite": "depende de la distinción entre lo potencial y lo actual; sensible a consideraciones axiomáticas sobre la existencia de lo posible"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "posibilidad",
+      "definicion": "Condición de algo que puede suceder, aunque no haya sucedido aún."
+    },
+    {
+      "termino": "ocurrir",
+      "definicion": "Manifestarse en la realidad, hacerse actual desde el potencial."
+    },
+    {
+      "termino": "sigue siendo",
+      "definicion": "Mantiene una propiedad a pesar de otras condiciones."
+    },
+    {
+      "termino": "nunca",
+      "definicion": "Ausencia absoluta de ocurrencia en cualquier momento."
+    }
+  ],
+  "transduccion_preconceptual": "Imagina una caja con muchos juguetes. Si hay uno que nunca sacas para jugar, sigue estando ahí, esperando. Aunque no lo uses, sigue siendo un juguete en la caja de los juegos posibles.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El hecho de que algo sea posible depende de que alguna vez ocurra.",
+      "subnodo": "Dependencia ontológica entre posibilidad y realización",
+      "contexto": "¿Puede existir una posibilidad que nunca llega a realizarse y aún así ser posibilidad?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Si nunca ocurre, nunca fue realmente posible.",
+      "subnodo": "Retroactividad de la realidad sobre lo posible",
+      "contexto": "¿La realidad actual puede redefinir el espacio de lo posible a posteriori?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Depende de la concepción ontológica de las posibilidades; si la posibilidad requiere manifestación o basta su coherencia lógica."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "lógica modal estándar",
+      "conclusion": "La posibilidad no implica realización; un enunciado es posible si no es contradictorio, aunque nunca ocurra.",
+      "notas": "Este principio mantiene viva la noción de potencial sin requerir actualización."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Si nunca ocurre, entonces nunca fue una posibilidad real.",
+      "descripcion": "El número infinito de cadenas posibles en una tirada de moneda. La mayoría nunca ocurren, pero son todas posibilidades genuinas.",
+      "grado_de_refutacion": "total",
+      "notas": "El espacio de lo posible siempre excede por mucho a lo realizado."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En juegos de azar, combinaciones posibles que jamás son extraídas siguen siendo parte del espacio de resultados contados como viables.",
+      "inferencia": "La potencialidad no depende de la actualización real.",
+      "grado_de_confianza": "alto",
+      "notas": "Probabilidad y lógica apoyan la existencia de posibilidades no manifestadas."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La posibilidad es una estructura semántica y lógica separada de la ocurrencia. Su persistencia no requiere actualización, sólo ausencia de contradicción interna.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Si una posibilidad nunca ocurre, sigue siendo una posibilidad.",
+        1,
+        0,
+        0
+      ],
+      [
+        "La realización es condición para la posibilidad.",
+        0,
+        1,
+        0
+      ],
+      [
+        "El espacio de lo posible cambia tras cada ocurrencia.",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "¿Puede considerarse posibilidad auténtica algo que, por definición, nunca ocurrirá (imposibilidad disfrazada)?",
+    "ambiguedad": "Definición local de posibilidad: ¿es dependiente de la información disponible, o absoluta?",
+    "contradiccion_util": "Lo posible como permanente fondo sin garantía de emergencia; sostiene la creatividad y la indeterminación, pero desafía la predicibilidad total."
+  },
+  "reorganizacion_analoga": [
+    "La raíz cuadrada de -1: existe en el espacio matemático pero nunca se ve en números reales clásicos.",
+    "El potencial genético de un individuo: hay genes presentes que nunca se expresan, pero son genuinamente posibles.",
+    "Un tablero de ajedrez: jugadas que nunca usan ciertas piezas siguen siendo legales movimientos potenciales."
+  ],
+  "implicacion_transformadora": [
+    "Al pensar que posibilidades no realizadas siguen existiendo, forzamos la mente y los sistemas a considerar la creatividad, la innovación y la apertura ante lo no actual.",
+    "Planificar y mantener posibilidades no requiere que todas se materialicen, sólo que no sean imposibles por principio.",
+    "El respeto filosófico y técnico por lo no realizado expande el universo epistemológico y ético."
+  ],
+  "reevaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "Coherencia lógica y evidencia en estructuras combinatorias y lógicas sostienen que la posibilidad no se agota en su realización."
+  }
+}

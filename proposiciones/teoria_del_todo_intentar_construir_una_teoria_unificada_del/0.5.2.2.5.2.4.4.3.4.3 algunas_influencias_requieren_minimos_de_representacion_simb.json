@@ -1,0 +1,134 @@
+{
+  "nodo_semantico_de_entrada": "Algunas influencias requieren mínimos de representación simbólica",
+  "nodo_semantico_central": "Umbral simbólico para la influencia",
+  "firma_ontologica": {
+    "naturaleza": "principio condicional",
+    "funcion": "Vincular la eficacia de una influencia al nivel mínimo de representación simbólica necesaria para operar",
+    "dominio": "epistemología, semiótica, teoría de la información",
+    "forma": "umbral, filtro, cuantificación mínima",
+    "tension": "¿Toda influencia actúa a través de símbolos? ¿Hay influencias que eluden toda mediación representacional?",
+    "limite": "Sólo aplica a influencias que requieren codificación, traducibilidad o transmisión; no a las que operan por puro contacto material"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "influencia",
+      "definicion": "Cambio o efecto producido en un sistema o entidad por causa de otra"
+    },
+    {
+      "termino": "mínimo",
+      "definicion": "Cantidad más pequeña necesaria para que algo ocurra"
+    },
+    {
+      "termino": "representación simbólica",
+      "definicion": "Uso de símbolos para señalar, comunicar o mediar un concepto, estado o acción"
+    }
+  ],
+  "transduccion_preconceptual": "A veces solo hace falta una palabra mágica para que las cosas cambien; otras veces, si no dices la palabra correcta, nada pasa.",
+  "iteraciones": [
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "Hay influencias que no requieren ningún tipo de representación simbólica",
+      "subnodo": "Influencia sin símbolo",
+      "contexto": "¿Puede haber una influencia pura, como dos piedras chocando, sin intermediación simbólica? ¿Sigue siendo influencia bajo ese marco?"
+    },
+    {
+      "id": "1.1.2",
+      "afirmacion_base": "Para que una influencia sea comunicable, necesita al menos un símbolo",
+      "subnodo": "Comunicabilidad y simbolización",
+      "contexto": "Solo lo que se representa puede pasar de mente en mente; lo no representado, aunque afecte, es invisible cognoscitivamente"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Hay influencias materiales sin símbolo, pero toda traducibilidad de la influencia parece depender de la representación mínima; ambigüedad no resuelta entre causalidad directa y mediada"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de influencia + representación simbólica",
+      "conclusion": "No toda influencia requiere símbolo; pero toda influencia comunicable, sí",
+      "notas": "El paso de lo material a lo mental exige simbolización mínima"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todas las influencias requieren representación simbólica",
+      "descripcion": "Una roca rodando por una pendiente influye en la otra al golpear sin mediar símbolos",
+      "grado_de_refutacion": "parcial",
+      "notas": "Refuta en el dominio físico/material, pero no en el comunicativo"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Toda transmisión de información requiere al menos un símbolo, incluso el más simple (ejemplo: pulgar arriba, luz encendida)",
+      "inferencia": "En los sistemas que transmiten estados intencionales, la representación simbólica mínima es condición necesaria para la influencia",
+      "grado_de_confianza": "alto",
+      "notas": "Patrón estable en comunicación animal y humana"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El símbolo mínimo es el punto de cruce entre la causalidad muda y la agencia cognitiva; donde hay observador que aprende, debe haber al menos un signo.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Todas las influencias requieren mínimos simbólicos",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunas influencias requieren mínimos simbólicos",
+        1,
+        0,
+        0
+      ],
+      [
+        "Ninguna influencia requiere símbolos",
+        0,
+        1,
+        0
+      ],
+      [
+        "Toda comunicación requiere mínimos simbólicos",
+        1,
+        0,
+        0
+      ],
+      [
+        "Puede influir sin símbolo en comunicación",
+        0,
+        1,
+        0
+      ],
+      [
+        "Influencia material puede ser no simbólica",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El influenciar puede ocurrir sin símbolos, pero el comprender o transmitir influencia requiere simbología.",
+    "ambiguedad": "La transición entre influencia directa y comunicación simbólica no tiene frontera clara. ¿En qué punto una acción se convierte en comunicación?",
+    "contradiccion_util": "Lo real puede afectar sin representación, pero lo inteligible solo existe donde el símbolo hace de puente."
+  },
+  "reorganizacion_analoga": [
+    "Como el lenguaje binario: una sola diferencia (1/0) basta para comunicar algo frente al puro ruido.",
+    "Como el umbral de excitación en las neuronas: debe superarse un mínimo para que haya señal.",
+    "Como la presencia de una contraseña: sólo con el símbolo correcto la puerta se abre, si falta, no hay acceso."
+  ],
+  "implicacion_transformadora": [
+    "Para crear tecnología comunicativa universal, debe identificarse el mínimo simbólico necesario para cada canal.",
+    "La epistemología de la influencia exige distinguir entre lo infértil y lo traducible—no todo impacto es comunicación.",
+    "En el diseño educativo, el hallazgo de mínimos simbólicos acelera la transmisión de conocimiento complejo."
+  ],
+  "reevaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "Abundantes contraejemplos muestran que no toda influencia requiere símbolo, pero toda influencia comunicable sí. El núcleo de la afirmación —algunas influencias requieren mínimos de representación simbólica— se sostiene con claridad teórica y evidencia."
+  }
+}

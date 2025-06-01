@@ -1,0 +1,143 @@
+{
+  "nodo_semantico_de_entrada": "Siempre la entropía aumenta (todos los sistemas, todo tiempo)",
+  "nodo_semantico_central": "Afirmación universal de crecimiento entrópico",
+  "firma_ontologica": {
+    "naturaleza": "principio físico/ley universal candidata",
+    "funcion": "describir la tendencia direccional fundamental de sistemas físicos",
+    "dominio": "termodinámica, cosmología, teoría de sistemas",
+    "forma": "afirmación absolutista temporal y totalizante",
+    "tension": "universalidad vs. contraejemplo micro y macro, determinismo vs. fluctuaciones",
+    "limite": "Validez depende del nivel de descripción, escala y definición de 'sistema'; posibles excepciones locales"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "entropía",
+      "definicion": "medida del desorden o la cantidad de microestados posibles en un sistema"
+    },
+    {
+      "termino": "aumenta",
+      "definicion": "pasa a un valor mayor en comparación a un estado previo"
+    },
+    {
+      "termino": "siempre",
+      "definicion": "en todos los momentos, situaciones y sin excepción"
+    },
+    {
+      "termino": "sistemas",
+      "definicion": "conjuntos limitados de componentes con propiedades físicas definidas"
+    },
+    {
+      "termino": "todo tiempo",
+      "definicion": "cualquier instante, pasado, presente o futuro"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes una caja de piezas de lego. Cada vez que sacudes la caja, las piezas se desordenan más y más. Aunque trates de organizar algo dentro de la caja, si la sigues agitando y no intervienes, siempre terminarán más revueltas. Pero, a veces, sin querer, algunas piezas pueden juntarse de forma ordenada por accidente.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El aumento de entropía es siempre verdadero en todos los sistemas",
+      "subnodo": "Excepciones de escala y fluctuación",
+      "contexto": "¿Qué sucede en escalas microscópicas o en sistemas abiertos?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La entropía jamás disminuye",
+      "subnodo": "Formulación probabilística/ley estadística",
+      "contexto": "¿Existen eventos raros donde la entropía localmente disminuye?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Existen contraejemplos estadísticos que refutan la universalidad estricta; sólo se sostiene como tendencia probabilística macroscópica"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Segunda ley de la termodinámica",
+      "conclusion": "En sistemas cerrados macroscópicos, la entropía tiene una tendencia a aumentar",
+      "notas": "No implica imposibilidad de disminución puntual, sino improbabilidad extrema"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Siempre la entropía aumenta en todos los sistemas y en todo tiempo",
+      "descripcion": "En sistemas microscópicos (fluctuaciones térmicas), la entropía puede disminuir temporalmente (teorema de las fluctuaciones de Crooks/Jarzynski, experimento de la Demonio de Maxwell). Regiones locales en el universo donde, debido a condiciones iniciales, la entropía puede descender brevemente.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La segunda ley es estadística y se cumple en promedio sobre muchas partículas o sistemas grandes; no como imposibilidad absoluta."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En la vida diaria y en procesos macroscópicos, el desorden suele aumentar",
+      "inferencia": "El aumento de entropía es extremadamente probable y casi inevitable en sistemas grandes",
+      "grado_de_confianza": "alto",
+      "notas": "La experiencia cotidiana y la ciencia física estándar apoyan la tendencia, pero no universalizan en sentido estricto"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La afirmación absoluta debe reescalarse a una formulación probabilística: 'La entropía de sistemas cerrados tiende casi siempre a aumentar, pero pueden existir excepciones puntuales en escalas pequeñas o en condiciones especiales.'",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "En todos los sistemas en todo tiempo la entropía aumenta",
+        0,
+        1,
+        0
+      ],
+      [
+        "La entropía tiende a aumentar en sistemas macroscópicos cerrados",
+        1,
+        0,
+        0
+      ],
+      [
+        "La entropía nunca puede disminuir en ningún sistema",
+        0,
+        1,
+        0
+      ],
+      [
+        "Puede haber excepciones locales o temporales",
+        1,
+        0,
+        0
+      ],
+      [
+        "La segunda ley es estrictamente determinista",
+        0,
+        1,
+        0
+      ],
+      [
+        "La segunda ley es una ley estadística",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Demonio de Maxwell: la información permite, en principio, reducir la entropía localmente, generando tensión entre lo absoluto y lo posible",
+    "ambiguedad": "Definición de 'sistema' y 'tiempo' (¿cuán grande/de qué duración?)",
+    "contradiccion_util": "La excepción puntual nutre la comprensión de la ley como tendencia estadística, no determinista"
+  },
+  "reorganizacion_analoga": [
+    "Como un río que siempre fluye cuesta abajo, pero en algunas rocas puede formarse un remolino que va en contra por un rato",
+    "Como empujar una pelota cuesta arriba: puedes hacerlo brevemente, pero naturalmente tiende a bajar",
+    "Como el envejecimiento: inevitable en promedio, pero con momentos de rejuvenecimiento local"
+  ],
+  "implicacion_transformadora": [
+    "Las leyes universales deben entenderse como modelos estadísticos, no dogmas absolutos",
+    "La validación empírica debe buscar contraejemplos en el límite: lo micro, lo raro, lo extremo",
+    "Todo concepto físico global requiere observar su granularidad estructural antes de universalizarlo",
+    "Los sistemas abiertos y los contextos inusuales exigen redefinir la afirmación central continuamente"
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "La universalidad total está refutada por fluctuaciones y escalas; la formulación correcta es 'casi siempre', con excepciones estadísticas"
+  }
+}

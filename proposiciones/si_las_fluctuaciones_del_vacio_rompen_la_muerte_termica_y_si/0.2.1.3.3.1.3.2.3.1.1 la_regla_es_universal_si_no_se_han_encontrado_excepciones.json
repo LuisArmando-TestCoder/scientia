@@ -1,0 +1,122 @@
+{
+  "nodo_semantico_de_entrada": "La regla es universal si no se han encontrado excepciones",
+  "nodo_semantico_central": "Universalidad contingente por observación de excepciones",
+  "firma_ontologica": {
+    "naturaleza": "principio condicional epistemológico",
+    "funcion": "determina (provisionalmente) el alcance de una regla en función de la observación empírica",
+    "dominio": "lógica, epistemología, filosofía de la ciencia",
+    "forma": "bucle condicional",
+    "tension": "asume que la ausencia de pruebas en contra equivale a justificación universal hasta refutación",
+    "limite": "irreducibilidad computacional e imposibilidad de prueba universal por inducción incompleta"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "regla",
+      "definicion": "afirmación general que se piensa válida bajo ciertas condiciones"
+    },
+    {
+      "termino": "universal",
+      "definicion": "que se aplica en todos los casos posibles dentro de un dominio"
+    },
+    {
+      "termino": "excepción",
+      "definicion": "caso particular que contradice o escapa a la regla"
+    },
+    {
+      "termino": "no se han encontrado",
+      "definicion": "no hay evidencia o registro hasta la fecha"
+    }
+  ],
+  "transduccion_preconceptual": "Es como decir: ‘Siempre que me baño sale agua caliente porque nunca ha salido fría’. Pero podría pasar un día distinto, aunque nadie lo haya visto antes.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La regla es universal si no se han encontrado excepciones",
+      "subnodo": "universalidad provisional",
+      "contexto": "¿Puede asumirse que algo es para siempre si nunca se ha visto lo contrario?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "No se han encontrado excepciones",
+      "subnodo": "evidencia limitada",
+      "contexto": "¿La falta de contraejemplo prueba la ley o solo señala que no hemos mirado lo suficiente?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición depende de observación incompleta e imposibilidad inductiva de confirmar universalidad total. Coherencia pragmática alcanzada pero falsabilidad latente."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "principio de inducción",
+      "conclusion": "La universalidad sólo puede sostenerse provisionalmente, no lógicamente.",
+      "notas": "Depende del contexto y del alcance de exploración posible; siempre es susceptible a refutación."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La regla es universal si no se han encontrado excepciones",
+      "descripcion": "El pavo inductivista de Russell cree que será alimentado cada día porque nunca ha ocurrido lo contrario, pero en Navidad la regla falla.",
+      "grado_de_refutacion": "parcial",
+      "notas": "El contraejemplo muestra que la observación limitada no asegura universalidad; la regla sólo es válida dentro de los casos observados."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Casi todas las leyes científicas han sido consideradas universales hasta que surgió un caso límite.",
+      "inferencia": "Universalidad empírica es siempre provisional.",
+      "grado_de_confianza": "medio",
+      "notas": "Inducción fiable en dominios cerrados, menos fiable cuando el espacio de posibilidades crece indefinidamente."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Toda afirmación universal basada solamente en la ausencia de contraejemplo es una hipótesis mantenida por defecto, nunca una certeza absoluta.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La regla es universal si no se han encontrado excepciones",
+        0,
+        0,
+        1
+      ],
+      [
+        "La regla es universal SOLO si es imposible encontrar excepción",
+        0,
+        1,
+        0
+      ],
+      [
+        "La regla es universal si no se han encontrado excepciones DENTRO DEL DOMINIO OBSERVADO",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Afirmar universalidad a partir de la no observación de excepciones es un bucle inductivo que nunca puede cerrarse definitivamente.",
+    "ambiguedad": "‘No se han encontrado’ puede deberse a imposibilidad, falta de búsqueda o simple ignorancia.",
+    "contradiccion_util": "La creencia provisional en reglas universales sin excepciones favorece la investigación y la predicción aunque esté siempre expuesta a revisión."
+  },
+  "reorganizacion_analoga": [
+    "Como mapear una selva: sólo se cree conocer todo mientras no se encuentra un animal nuevo.",
+    "Como suponer que todos los cisnes son blancos hasta ver el primero negro.",
+    "Como confiar en un software porque nunca falló, hasta el primer bug."
+  ],
+  "implicacion_transformadora": [
+    "Las reglas universales en ciencias y otros dominios deben ostentarse siempre como abiertas a refutación.",
+    "La epistemología práctica necesita admitir la provisionalidad de las creencias por inducción.",
+    "El dogmatismo universalista se debilita con cada nueva observación o excepción encontrada.",
+    "Las afirmaciones universales deben restringirse formalmente al dominio fechado y observable.",
+    "La investigación debe buscar exceptions activamente, no asumir su inexistenia por omisión."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La universalidad empírica no puede sellarse sin excepción lógica. Bucle inductivo ineludible, provisionalidad conciente."
+  }
+}

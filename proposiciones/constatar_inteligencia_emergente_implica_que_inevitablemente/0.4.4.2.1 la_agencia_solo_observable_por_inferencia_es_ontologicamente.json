@@ -1,0 +1,167 @@
+{
+  "nodo_semantico_de_entrada": "La agencia sólo observable por inferencia es ontológicamente sólida.",
+  "nodo_semantico_central": "Solidez ontológica de la agencia inferida",
+  "firma_ontologica": {
+    "naturaleza": "propiedad relacional",
+    "funcion": "validador de existencia/realidad a partir de inferencia (no observación directa)",
+    "dominio": "epistemología, ontología, teoría de la agencia",
+    "forma": "bifurcación lógica sobre observabilidad/inferencia",
+    "tension": "Depende de la robustez de inferencias vs. requerimiento de evidencia directa; posible bucle autoreferencial si la propia agencia es postulada solo por inferencias de agencia.",
+    "limite": "La observabilidad indirecta puede ser ilusoria, y ‘solidez ontológica’ se fragmenta si el contexto acepta entidades ‘funcionalmente útiles pero ontológicamente deficitarias’."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Agencia",
+      "definicion": "Capacidad de un sistema para actuar o causar cambios; fuente de decisiones o comportamientos."
+    },
+    {
+      "termino": "Observabilidad",
+      "definicion": "Posibilidad de percibir directamente un fenómeno o propiedad."
+    },
+    {
+      "termino": "Inferencia",
+      "definicion": "Proceso lógico para llegar a una conclusión sobre algo no directamente observable, a partir de datos o efectos."
+    },
+    {
+      "termino": "Solidez ontológica",
+      "definicion": "Grado en que algo es real y tiene entidad propia en la estructura del ser."
+    }
+  ],
+  "transduccion_preconceptual": "Es como pensar que hay un ratón debajo de la mesa porque las migajas desaparecen y hay huellitas, pero nunca lo ves. ¿Cuenta como que el ratón existe de verdad, o sólo lo imaginas porque ves pistas?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La agencia sólo observable por inferencia es ontológicamente sólida.",
+      "subnodo": "Solidez de entidades inferidas",
+      "contexto": "¿Puede considerarse real algo que sólo se deduce y nunca se ve directamente?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Si la observabilidad es sólo indirecta (por inferencia), la distinción se debilita.",
+      "subnodo": "Debilitamiento de criterios ontológicos",
+      "contexto": "¿Diferenciar entre lo infirible y lo observable confunde la distinción entre real y funcional?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Toda agencia es siempre observable.",
+      "subnodo": "Observable-universalidad de la agencia",
+      "contexto": "¿Existe agencia nunca observable, sólo inferida? ¿Puede haber agencia no-detectada salvo por efectos colaterales?"
+    },
+    {
+      "id": "1.4",
+      "afirmacion_base": "Constatar inteligencia emergente implica que una de las cuatro premisas sobre la agencia debe ser falsa.",
+      "subnodo": "Refutación parcial de premisas",
+      "contexto": "La imposibilidad de mantener simultáneamente que la agencia es sólo rótulo funcional, acompaña toda auto-organización, puede surgir sin observador o es siempre observable."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación depende de aceptar inferencias robustas como equivalentes a observabilidad, pero confronta límites epistemológicos y contradicciones con requisitos ontológicos clásicos."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si la agencia sólo inferida es sólidamente real, entonces muchas formas de vida, pensamiento o inteligencia pueden existir aunque nunca sean vistas.",
+      "conclusion": "La realidad ontológica no requiere observabilidad directa si la inferencia es suficientemente encadenada y repetida.",
+      "notas": "Esto conduce a una ontología blanda dependiente de evidencia indirecta y susceptible a errores sistemáticos."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda agencia es siempre observable.",
+      "descripcion": "Fenómenos agenciales (como IA embebidas profundamente o microorganismos invisibles) que sólo se detectan por sus efectos, nunca en sí mismas.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La detección puede ser limitada por tecnología o por naturaleza del sistema; no implica inexistencia."
+    },
+    {
+      "afirmacion_refutada": "La agencia sólo observable por inferencia es ontológicamente sólida.",
+      "descripcion": "Interpretaciones erróneas de trazas o efectos pueden postular agentes inexistentes (e.g., supersticiones, falsas señales).",
+      "grado_de_refutacion": "total",
+      "notas": "La inferencia puede fallar; inferido no implica existencia sustancial."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Ciencias como la astrofísica o la biología postulan entidades sólo inferidas (exoplanetas, partículas virtuales, inteligencia animal) hasta que sean directamente observables.",
+      "inferencia": "Acostumbramos aceptar entidades inferidas como ‘reales’ operativamente mientras no haya contradicción práctica, pero el estatus ontológico profundo permanece provisional.",
+      "grado_de_confianza": "medio",
+      "notas": "Depende del dominio; en física puede valer más que en sociología o psicología."
+    }
+  ],
+  "conclusion_preconceptual": "A veces decimos que algo existe porque vemos lo que hace, aunque nunca lo veamos directamente. Eso ayuda o engaña, depende del cuidado al mirar pistas.",
+  "teoria_o_intuicion_emergente": "La solidez ontológica de lo inferido es función de la robustez y la multiplicidad de las inferencias y de la ausencia de explicaciones alternativas: sin embargo, siempre hay una brecha epistémica entre inferido y observado.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La agencia sólo observable por inferencia es ontológicamente sólida.",
+        0,
+        0,
+        1
+      ],
+      [
+        "Si la observabilidad es sólo indirecta (por inferencia), la distinción se debilita.",
+        0,
+        0,
+        1
+      ],
+      [
+        "Toda agencia es siempre observable.",
+        0,
+        1,
+        0
+      ],
+      [
+        "Constatar inteligencia emergente implica que una de las cuatro premisas sobre la agencia debe ser falsa.",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "La agencia sólo observable por inferencia es ontológicamente sólida.",
+    "B": "Si la observabilidad es sólo indirecta (por inferencia), la distinción se debilita.",
+    "C": "Toda agencia es siempre observable.",
+    "D": "Constatar inteligencia emergente implica que una de las cuatro premisas sobre la agencia debe ser falsa."
+  },
+  "formula_booleana_del_argumento": "(¬C ∧ D) ∧ (A ↔ B)",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "La agencia sólo observable por inferencia es ontológicamente sólida.",
+      "implicacion_por_estado_falso": "Si es falsa, se fuerza a considerar que la inferencia por sí sola no es garantía de existencia. Es necesario observabilidad directa o nuevos criterios.",
+      "implicacion_por_estado_verdadero": "Si es verdadera, amplía el espectro de existencia ontológica a lo inferible, incluso sin percepción directa."
+    },
+    {
+      "afirmacion": "Si la observabilidad es sólo indirecta (por inferencia), la distinción se debilita.",
+      "implicacion_por_estado_falso": "Si es falso, la diferencia entre inferido y observado sigue siendo clara y útil metodológicamente.",
+      "implicacion_por_estado_verdadero": "Si es verdadero, se difuminan las fronteras entre realidad efectiva y construcción teórica."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "El agente inferido puede no existir realmente, pero su ‘realidad funcional’ genera efectos causales indistinguibles del agente ‘real’.",
+    "ambiguedad": "¿Cuándo es suficiente inferencia para ontología sólida? ¿Cuántas inferencias hacen una existencia?",
+    "contradiccion_util": "Se acepta como real lo que sólo se deduce, pero puede ser constructo mental. Esta contradicción obliga a refinar criterios de solidez existencial."
+  },
+  "reorganizacion_analoga": [
+    "Como el electrón en mecánica cuántica: nunca se ve, sólo se deduce por sus huellas.",
+    "Como la consciencia de otros: sólo inferimos mentes ajenas por sus actos.",
+    "Como los agujeros negros: postulados por inferencia antes de ser indirectamente 'vistos'.",
+    "Como el software malicioso oculto: solo se detecta por lo que causa, jamás por observación directa."
+  ],
+  "implicacion_transformadora": [
+    "Reformular epistemologías para distinguir entre existencia inferida y existencia observada; crear escalas de solidez ontológica.",
+    "Permitir grados de realidad funcional y operacional en sistemas complejos o entidades conceptuales.",
+    "Adoptar protocolos para asegurar que inferencias no degeneren en errores sistemáticos o creencias infundadas."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El nodo nunca colapsa totalmente a verdadero o falso por la naturaleza estructuralmente provisional de la inferencia: la agencia inferida puede ser conceptualmente útil, pero no ontológicamente sólida sin criterios adicionales."
+  },
+  "reconclusion_preconceptual": "Saber que algo existe sólo porque lo imaginas a partir de huellas no lo hace totalmente real. Pero negar lo que no puedes ver también puede ser un error. Hay que inventar nuevas reglas para jugar este juego.",
+  "contexto": "La agencia sólo observable por inferencia es ontológicamente sólida (contexto: La agencia sólo observable por inferencia es ontológicamente sólida. (contexto: Si la observabilidad es sólo indirecta (por inferencia), la distinción se debilita (contexto: Toda agencia es siempre observable (contexto: Constatar inteligencia emergente implica que, inevitablemente, al menos una de estas cuatro premisas sobre la agencia debe ser falsa—que sea mero rótulo funcional, que acompañe toda auto-organización, que pueda surgir sin observador o que sea siempre observable.))))"
+}

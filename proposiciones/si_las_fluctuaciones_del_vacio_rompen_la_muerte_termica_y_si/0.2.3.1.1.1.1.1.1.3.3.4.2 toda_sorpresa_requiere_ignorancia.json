@@ -1,0 +1,126 @@
+{
+  "nodo_semantico_de_entrada": "Toda sorpresa requiere ignorancia",
+  "nodo_semantico_central": "Relación entre sorpresa e ignorancia",
+  "firma_ontologica": {
+    "naturaleza": "Relación lógica",
+    "funcion": "Indagar dependencia entre estados cognitivos (sorpresa, ignorancia)",
+    "dominio": "Epistemología, psicología cognitiva",
+    "forma": "Regla condicional (si-entonces)",
+    "tension": "Generalización absoluta; vínculo necesario vs posible",
+    "limite": "No contempla la posibilidad de sorpresa con información total"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Sorpresa",
+      "definicion": "Estado emocional/cognitivo experimentado cuando ocurre algo inesperado o no anticipado"
+    },
+    {
+      "termino": "Ignorancia",
+      "definicion": "Falta de conocimiento, información, o previsión respecto a un hecho"
+    },
+    {
+      "termino": "Requiere",
+      "definicion": "Necesidad lógica o causal; condición imprescindible"
+    },
+    {
+      "termino": "Toda",
+      "definicion": "Universalidad absoluta; sin excepciones"
+    }
+  ],
+  "transduccion_preconceptual": "Para que alguien se sorprenda, tiene que haber algo que no sabe. Si alguien lo conoce todo, no podrá asustarse o alegrarse porque todo le parecerá normal.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Sorpresa solo ocurre si hay ignorancia",
+      "subnodo": "Existencia de sorpresa sin ignorancia",
+      "contexto": "Considerar la posibilidad de sorpresa en presencia de información total o conocimiento previo"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Toda sorpresa requiere ignorancia",
+      "subnodo": "Generalización refutable",
+      "contexto": "Buscar contraejemplo: Puede haber sorpresa aun teniendo todo el conocimiento, debido a errores de predicción, procesos inconscientes, o expectativas erradas"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La relación es plausible en la mayoría de los casos, pero la afirmación universal es refutable mediante contraejemplo."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de sorpresa como evento inesperado",
+      "conclusion": "Si todo es conocido y predecible, la sorpresa no debería ocurrir",
+      "notas": "Soporta el núcleo de la proposición en sentido lógico"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda sorpresa requiere ignorancia",
+      "descripcion": "Un sistema puede conocer todas las reglas, pero aun así experimentar sorpresa si existe ruido, error en la predicción, o disposición emocional que dificulte anticipar el resultado (ej. trucos de magia o paradojas cognitivas conocidas que igual asombran al espectador informado)",
+      "grado_de_refutacion": "parcial",
+      "notas": "La sorpresa puede ser resultado de conflicto entre expectativas y realidad, aun sin ignorancia objetiva"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Personas experimentan sorpresa al ver un resultado esperable en una situación emocionalmente cargada",
+      "inferencia": "Factores emocionales, cognitivos o contextuales pueden desencadenar sorpresa, no solo la ignorancia objetiva",
+      "grado_de_confianza": "medio",
+      "notas": "Basado en observación empírica y fenómenos psicológicos conocidos"
+    },
+    {
+      "patron_observado": "La mayoría de sorpresas están asociadas a la falta de previsión o desconocimiento",
+      "inferencia": "La ignorancia frecuentemente está implicada en la sorpresa",
+      "grado_de_confianza": "alto",
+      "notas": "Empíricamente robusto, con excepciones"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La sorpresa es usualmente consecuencia de ignorancia o desajuste entre expectativa y acontecimiento, pero puede ocurrir también por fenómenos afectivos, errores de predicción o mecanismos subconscientes aún en presencia de información completa.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda sorpresa requiere ignorancia [universalidad]",
+        0,
+        1,
+        0
+      ],
+      [
+        "La sorpresa está usualmente asociada a la ignorancia",
+        1,
+        0,
+        0
+      ],
+      [
+        "Existen sorpresas sin ignorancia objetiva completa",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Un sujeto omnisciente no podría nunca sorprenderse; sin embargo, psicología y neurología muestran que hechos inesperados pueden causar sorpresa incluso en presencia de toda la información accesible.",
+    "ambiguedad": "¿Se refiere ignorancia objetiva, subjetiva o contextual? ¿Ignorancia de qué tipo?",
+    "contradiccion_util": "La universalidad de la afirmación fuerza a explorar límites y redefine los contornos de la sorpresa respecto a niveles de conciencia y predicción"
+  },
+  "reorganizacion_analoga": [
+    "Como el algoritmo que, conociendo todas las reglas, aún produce resultados aleatorios por ruido",
+    "Como el lector que, conocedor del final de un libro, se emociona al leerlo nuevamente por la vivencia afectiva no prevista",
+    "Como el ajedrecista experto que cae en una trampa conocida por un movimiento inesperado en familiaridad"
+  ],
+  "implicacion_transformadora": [
+    "La pedagogía debe contemplar que aumentar el conocimiento reduce mayormente la sorpresa, pero nunca la elimina absolutamente.",
+    "Sistemas de IA pueden modelar sorpresa incluso con acceso a información completa, si se simulan capas de expectativa/predicción diferenciadas.",
+    "El estudio de la sorpresa invita a investigar los límites entre información, emoción y previsibilidad, ampliando el campo de la epistemología hacia lo afectivo y lo subjetivo."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "La afirmación universal es refutada por contraejemplo; la relación es predominante pero no necesaria en términos absolutos."
+  }
+}

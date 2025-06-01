@@ -1,0 +1,131 @@
+{
+  "nodo_semantico_de_entrada": "Excepciones físicas dependen de teorías",
+  "nodo_semantico_central": "Dependencia ontológica entre excepción y teoría en física",
+  "firma_ontologica": {
+    "naturaleza": "proposición relacional",
+    "funcion": "delimitar la existencia de una excepción física sólo en presencia de un marco teórico",
+    "dominio": "epistemología de la ciencia / filosofía de la física",
+    "forma": "condicional / binaria / bucle autorreferencial",
+    "tension": "la existencia empírica versus la existencia teórica; presunción de primacía conceptual",
+    "limite": "depende del alcance de 'teoría'; puede quedarse atrapada en una tautología si toda percepción es teorizada"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "excepción",
+      "definicion": "evento/observación que no encaja en las reglas vigentes"
+    },
+    {
+      "termino": "física",
+      "definicion": "campo que estudia las leyes fundamentales del universo observable"
+    },
+    {
+      "termino": "teoría",
+      "definicion": "sistema estructurado de conceptos y leyes para explicar fenómenos"
+    },
+    {
+      "termino": "existencia",
+      "definicion": "estado de ser reconocido como real o identificable"
+    }
+  ],
+  "transduccion_preconceptual": "Sin reglas, el bicho raro ni siquiera es raro: sólo es. Primero inventamos el juego, luego notamos quién rompe las reglas.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Las excepciones en física carecen de existencia sin una teoría",
+      "subnodo": "Autoexistencia fenomenológica vs. etiquetado teórico",
+      "contexto": "¿Puede algo ser excepción sin norma previa? ¿Dónde colapsa el 'ser' si no hay comparación?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Las excepciones requieren contexto normativo",
+      "subnodo": "Naturaleza contextual de la anomalía",
+      "contexto": "¿Se define la excepción por el contexto de observación-normalidad?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Requiere distinguir existencia empírica de reconocimiento epistémico; paradoja circular"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de excepción como desviación",
+      "conclusion": "No puede haber excepción sin referencia a un sistema de reglas (teoría implícita o explícita)",
+      "notas": "La excepción se define secundariamente; necesita contexto normativo"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Las excepciones físicas sólo existen dentro de teorías",
+      "descripcion": "Fenómenos observados 'sin teoría' (ejemplo: relámpago para culturas pre-eléctricas) existen aunque no sean catalogados como excepciones",
+      "grado_de_refutacion": "parcial",
+      "notas": "La excepción emerge al ser detectada una regularidad; antes sólo es fenómeno bruto"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Las anomalías históricas en ciencia suelen surgir al establecerse un canon explicativo",
+      "inferencia": "El proceso de 'excepción' surge reactivo al dominio teórico",
+      "grado_de_confianza": "alto",
+      "notas": "La historia de los paradigmas muestra este patrón reiteradamente (Kuhn)"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La excepción física es un producto epistémico, no ontológico: emerge cuando un marco normativo no se ajusta a la experiencia, pero fenómenos eventualmente reconocibles pueden carecer inicialmente de categoría.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Las excepciones físicas existen sin teoría",
+        0,
+        1,
+        0
+      ],
+      [
+        "Todo fenómeno es excepción si no hay marco explicativo",
+        0,
+        1,
+        0
+      ],
+      [
+        "Fenómenos pueden ser observados pero no clasificados hasta que surge una teoría",
+        1,
+        0,
+        0
+      ],
+      [
+        "La existencia de la excepción depende del contexto",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda excepción carece de existencia antes de la teoría",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La excepción existe sólo cuando hay norma, pero los fenómenos pueden existir pre-normativamente.",
+    "ambiguedad": "¿Se toma 'existencia' como existencia física, fenomenológica o epistémica?",
+    "contradiccion_util": "El estatus de excepción siempre cambia cuando cambia la teoría; fertiliza nuevos paradigmas."
+  },
+  "reorganizacion_analoga": [
+    "Ruidos desconocidos en la selva no son anomalías hasta que tenemos noción de 'silencio' o 'normalidad'.",
+    "Errores informáticos no existen hasta que definimos el programa correcto.",
+    "Las manchas solares eran 'manchas' sólo tras asumir la perfección del Sol."
+  ],
+  "implicacion_transformadora": [
+    "La excepción física es una función de la matriz teórica: entender la ciencia requiere analizar cómo se seleccionan, rechazan o promueven las anomalías.",
+    "Recalibrar la epistemología: las excepciones no son debilidades, sino motores para la creación y destrucción de teorías."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Persistencia de ambigüedad entre existencia fenomenológica y epistémica; no resoluble sin colapsar ambas perspectivas."
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "nodo_semantico_de_entrada": "Toda posibilidad real está en algún universo posible",
+  "nodo_semantico_central": "Ubicuidad modal de las posibilidades reales",
+  "firma_ontologica": {
+    "naturaleza": "afirmación modal universal",
+    "funcion": "estipular el alcance de los posibles como contenedor de toda realidad",
+    "dominio": "ontología modal, filosofía de la posibilidad",
+    "forma": "relación universal-contenedora",
+    "tension": "absolutismo lógico entre 'todo', 'real' y 'posible'; ambigüedad sobre lo que cuenta como 'real' o 'universo posible'",
+    "limite": "posibles irreducibilidad computacional/paradojas de inclusión sobre la relación entre lo real y lo imaginable"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "posibilidad real",
+      "definicion": "Una forma de existencia que podría ser, o que se materializa en condiciones concretas"
+    },
+    {
+      "termino": "universo posible",
+      "definicion": "Un conjunto completo de condiciones o realidades donde ciertos hechos o posibilidades pueden darse"
+    },
+    {
+      "termino": "estar en",
+      "definicion": "Ser representable, integrable o subsumible dentro del ámbito de otro"
+    },
+    {
+      "termino": "toda",
+      "definicion": "Universalidad: no se admite excepción alguna"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que cada cosa que puede pasar es como una canica. Todos los canicas especiales (posibilidades reales) están guardadas en diferentes cajas (universos posibles). Si la canica existe, seguro que hay una caja donde puede estar.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El conjunto de universos posibles incluye toda posibilidad real",
+      "subnodo": "Extensión modal totalizante",
+      "contexto": "¿Existen posibilidades reales que no están en ningún universo posible, o está siempre garantizado el alojamiento?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "El término 'real' restringe el universo de las posibilidades a lo efectivamente realizable",
+      "subnodo": "Distinción realidad-virtualidad",
+      "contexto": "¿Si una posibilidad es irrealizable en cualquier universo, sigue siendo 'posible'?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Absolutismo de 'toda'",
+      "subnodo": "Refutabilidad por contraejemplo",
+      "contexto": "¿Existe una posibilidad real que no encaje en las definiciones convencionales de universo posible?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El nodo depende de las definiciones operativas de 'real' y 'universo posible'; la universalidad es vulnerable a contraejemplos semánticos y paradojas modales."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición universalista de universo posible",
+      "conclusion": "Si toda posibilidad real está contenida en algún universo posible, entonces nada real escapa al espacio de lo posible.",
+      "notas": "Depende de que el dominio cubra todas las lógicas posibles; puede fallar en sistemas con límites computacionales."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda posibilidad real está en algún universo posible",
+      "descripcion": "Si los universos posibles se definen solo con leyes físicas conocidas, hipotéticas realidades emergentes (como lógicas distintas o paradojas autoreferenciales) quedarían fuera.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La afirmación depende del alcance de la definición de 'universo posible'; pueden encontrarse casos límite en filosofía de la mente o lógica matemática."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En modelos de física teórica y lógica modal, toda realización pensable suele modelarse como un universo posible.",
+      "inferencia": "La proposición encaja bien con la intuición formal de los multiversos y lógicas modales.",
+      "grado_de_confianza": "medio",
+      "notas": "No todas las teorías físicas o lógicas aceptan dominios tan amplios; existe bias antropocéntrico y paradojas tipo Russell."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "En la medida que los 'universos posibles' sean lo suficientemente amplios para modelar todo lo coherente, toda realidad debe poder ser incluida; sin embargo, la definición de posibilidad real y el alcance de los universos posibles es siempre discutible, y pueden existir límites lógicos o paradojas que refuten la universalidad.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda posibilidad real está en algún universo posible",
+        0,
+        0,
+        1
+      ],
+      [
+        "Existe una posibilidad real que no cabe en ningún universo posible",
+        0,
+        1,
+        0
+      ],
+      [
+        "Si algo es real es necesariamente posible en algún universo",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda posibilidad lógica implica existencia en algún modelo",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Russell/Barber: ¿Puede existir una posibilidad real que por su naturaleza escape a todo universo modelable?",
+    "ambiguedad": "Lo 'real' se confunde con lo 'posible', y los límites entre ambos se vuelven difusos según el marco lógico.",
+    "contradiccion_util": "Si todo lo real es posible pero lo posible admite lo irreal, la frontera se torna una zona fértil de reconsideración epistemológica."
+  },
+  "reorganizacion_analoga": [
+    "Como decir que cada historia escrita puede estar guardada en algún libro; pero siempre existe la posibilidad de una historia ilegible fuera de cualquier libro físico.",
+    "Como en matemáticas, los números naturales parecen caber todos en la secuencia infinita, pero los transfinitos desafían esa contención.",
+    "Como en sueños: todos los sueños pueden suceder en la mente, pero hay sueños que no pueden pensarse ni soñarse."
+  ],
+  "implicacion_transformadora": [
+    "La afirmación invita a expandir nuestra concepción de realidad para incluir dominios modales más allá de la experiencia empírica.",
+    "Se requiere investigación constante sobre los límites de lo posible y la naturaleza del concepto de 'universo'.",
+    "Sirve como base para debates sobre multiversos, liminalidad de la realidad y ontología computacional."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El análisis lógico y los contraejemplos muestran que la afirmación, aunque poderosa para el pensamiento modal, depende de definiciones abiertas y admite excepciones estructurales."
+  }
+}

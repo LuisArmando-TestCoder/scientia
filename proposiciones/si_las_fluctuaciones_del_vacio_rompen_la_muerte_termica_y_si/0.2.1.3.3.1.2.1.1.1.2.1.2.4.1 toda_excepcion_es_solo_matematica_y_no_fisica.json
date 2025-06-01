@@ -1,0 +1,129 @@
+{
+  "nodo_semantico_de_entrada": "Toda excepción es sólo matemática y no física",
+  "nodo_semantico_central": "Excepcionalidad matemática vs física",
+  "firma_ontologica": {
+    "naturaleza": "afirmación categórica sobre excepciones",
+    "funcion": "distinguir la naturaleza (origen y dominio) de las excepciones",
+    "dominio": "epistemología, filosofía de la ciencia, lógica",
+    "forma": "bifurcación conceptual (exclusión dicotómica)",
+    "tension": "absolutismo en la exclusividad entre lo matemático y lo físico",
+    "limite": "reinterpretabilidad de los límites entre lo abstracto (matemático) y lo empírico (físico)"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Excepción",
+      "definicion": "Caso que no sigue una regla general establecida"
+    },
+    {
+      "termino": "Matemática",
+      "definicion": "Sistema formal de símbolos y relaciones lógicas, independiente de lo empírico"
+    },
+    {
+      "termino": "Física",
+      "definicion": "Dominio de fenómenos medibles en la realidad material"
+    },
+    {
+      "termino": "Sólo",
+      "definicion": "Exclusión total de otros posibles dominios; restricción absoluta"
+    }
+  ],
+  "transduccion_preconceptual": "Es como decir que si encuentras una ficha rara en un juego, solo puede existir en las reglas del libro y no en el tablero real donde juegas.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Toda excepción es sólo matemática",
+      "subnodo": "Reducción del concepto de excepción a reglas formales",
+      "contexto": "¿Hay excepciones en la naturaleza que surgen de límites físicos y no solo formales?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "No hay excepción física",
+      "subnodo": "Negación de emergencias empíricas ajenas a lo formal",
+      "contexto": "Explora casos en física donde aparecen excepciones sin fundamento matemático previo (fenómenos emergentes, ruptura de simetría, etc.)"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "falso",
+    "criterio": "Existen excepciones tanto en contextos matemáticos (formales) como físicos (empíricos) y ambos pueden influenciarse mutuamente; la exclusividad es insostenible frente a casos empíricos."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Diferencia ontológica entre sistemas formales y sistemas naturales",
+      "conclusion": "Excepciones pueden originarse por errores o limitaciones en modelos matemáticos o por la complejidad de lo físico.",
+      "notas": "La correspondencia matemática ↔ física no es biunívoca; hay fenómenos no previstos o apenas formalizables matemáticamente."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda excepción es sólo matemática y no física",
+      "descripcion": "Efecto túnel cuántico: Predicho por matemática, constatado físicamente como excepción al comportamiento clásico. Cambios de fase — emergen excepciones empíricas que fuerzan refinamiento matemático.",
+      "grado_de_refutacion": "total",
+      "notas": "El surgimiento de excepciones físicas puede preceder o guiar cambios en la formalización matemática."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Historia de descubrimientos físicos que obligan a replantear o expandir los sistemas matemáticos",
+      "inferencia": "La frontera entre excepciones matemáticas y físicas es dinámica y permeable, no exclusiva.",
+      "grado_de_confianza": "alto",
+      "notas": "Ejemplo: anomalía del perihelio de Mercurio, desajuste sólo resuelto tras cambiar las reglas matemáticas (teoría de la relatividad)."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Las excepciones se sitúan en el cruce entre modelos formales limitados y realidades empíricas complejas. Pretender que solo existen matemáticamente es desconocer la autonomía epistemológica de lo físico.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda excepción es sólo matemática y no física",
+        0,
+        1,
+        0
+      ],
+      [
+        "Existen excepciones puramente matemáticas",
+        1,
+        0,
+        0
+      ],
+      [
+        "Existen excepciones puramente físicas",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda excepción física es también matemática",
+        0,
+        1,
+        0
+      ],
+      [
+        "Toda excepción matemática tiene correlato físico",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Existen excepciones que desafían ambos sistemas (matemático y físico), lo que sugiere límites en nuestra capacidad de traducción entre ambos campos.",
+    "ambiguedad": "El concepto de 'excepción' varía según el sistema interpretativo: lo que es excepción en un modelo puede ser regla en otro.",
+    "contradiccion_util": "El supuesto absolutismo refuerza la importancia del diálogo entre formalismo y empirismo: el conflicto genera avances epistemológicos."
+  },
+  "reorganizacion_analoga": [
+    "Como una llave que a veces abre puertas nuevas en una casa que acabamos de descubrir: ni la cerradura ni la llave estaban en el plano original."
+  ],
+  "implicacion_transformadora": [
+    "El análisis exige que la ciencia permanezca abierta a revisar sus marcos formales a la luz de lo inesperado en la realidad física; las excepciones son motores de revolución teórica.",
+    "Promueve una epistemología híbrida y anti-dogmática: ni solo matemática, ni solo física, sino intersección productiva."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "La experiencia y la teoría científica muestran que excepciones emergen en ambos dominios y su diálogo impulsa el avance del conocimiento."
+  }
+}

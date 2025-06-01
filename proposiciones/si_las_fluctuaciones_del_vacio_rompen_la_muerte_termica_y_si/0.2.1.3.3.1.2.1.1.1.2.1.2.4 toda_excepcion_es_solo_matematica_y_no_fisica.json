@@ -1,0 +1,131 @@
+{
+  "nodo_semantico_de_entrada": "Toda excepción es sólo matemática y no física",
+  "nodo_semantico_central": "Excepción: matemática vs física",
+  "firma_ontologica": {
+    "naturaleza": "distinción conceptual",
+    "funcion": "determinar si las excepciones existen como artefactos del sistema conceptual matemático o emergen en la realidad física",
+    "dominio": "epistemología, filosofía de la ciencia, ontología",
+    "forma": "bifurcación categorial",
+    "tension": "dualidad entre formalismo abstracto y experiencia empírica",
+    "limite": "posibilidad de la excepción fuera de los sistemas formales"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "excepción",
+      "definicion": "evento, situación o caso que no sigue una regla o patrón general"
+    },
+    {
+      "termino": "matemática",
+      "definicion": "sistema formal construido a partir de axiomas, símbolos y reglas lógicas"
+    },
+    {
+      "termino": "física",
+      "definicion": "descripción de la realidad empírica a través de la experimentación y la observación"
+    },
+    {
+      "termino": "sólo",
+      "definicion": "exclusión total de otros dominios; limitación absoluta"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes una caja de reglas para ordenar bloques: si un bloque es distinto, la caja dice “esto es una excepción”. Pero cuando juegas fuera, a veces los bloques no hacen caso a la caja y se mezclan diferente. ¿Eso fue excepción del juego de las reglas o del juego de la vida real?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El concepto de excepción sólo tiene sentido en matemáticas, no en física",
+      "subnodo": "contextualidad del concepto de excepción",
+      "contexto": "¿Puede una 'excepción' existir fuera de un sistema de reglas formales?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "No existen excepciones físicas, sólo irregularidades respecto a modelos",
+      "subnodo": "relación entre modelo y realidad",
+      "contexto": "¿Las excepciones en física son fallas del modelo o propiedades del mundo?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación depende de la definición de excepción y del marco elegido; el límite entre modelos formales y realidad empírica es difuso"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición de excepción como ruptura de regla formal",
+      "conclusion": "Las excepciones en un sistema axiomático (matemático) son internas al sistema",
+      "notas": "La excepción, como tal, requiere un contexto de reglas explícitas"
+    },
+    {
+      "origen": "naturaleza empírica de la física",
+      "conclusion": "En física, lo inesperado suele interpretarse como una indicación de insuficiencia del modelo, no necesariamente como excepción ontológica",
+      "notas": "Depende del estatus del modelo y la confianza experimental"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda excepción es sólo matemática y no física",
+      "descripcion": "El descubrimiento de nuevos fenómenos físicos que no encajan en ningún modelo previo (ej: superconductividad, materia oscura) es denominado inicialmente 'excepción' en el contexto físico",
+      "grado_de_refutacion": "parcial",
+      "notas": "A menudo la física absorbe la excepción redefiniendo sus reglas, pero el fenómeno preexiste a la matemática"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "La historia de la ciencia muestra múltiples casos donde observaciones inesperadas ('excepciones') llevan a revisiones de teorías físicas",
+      "inferencia": "El concepto de excepción opera como interfaz dialéctica entre nuestro conocimiento formal y la realidad",
+      "grado_de_confianza": "alto",
+      "notas": "Sugiere que la excepción no es sólo matemática"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Toda excepción revela la frontera entre el lenguaje formal y lo real; las excepciones pueden ser fenómenos físicos aún no subsumidos por modelos matemáticos existentes. El concepto de excepción es un motor en la construcción y reconstrucción de ambos dominios.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda excepción es sólo matemática y no física",
+        0,
+        0,
+        1
+      ],
+      [
+        "Las excepciones identifican límites de los sistemas formales",
+        1,
+        0,
+        0
+      ],
+      [
+        "Las excepciones en física carecen de existencia sin una teoría",
+        0,
+        0,
+        1
+      ],
+      [
+        "La excepción puede ser absorbida por una teoría ampliada",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Si toda excepción es matemáticamente definida, ¿cómo explicar los fenómenos físicos que aún no pueden formalizarse?",
+    "ambiguedad": "La excepción puede designar tanto una anomalía en el modelo como un suceso real aún no comprendido",
+    "contradiccion_util": "El avance científico depende de tratar lo excepcional como real a pesar de la insuficiencia actual del modelo formal"
+  },
+  "reorganizacion_analoga": [
+    "Un error informático que revela nueva funcionalidad más allá del algoritmo original",
+    "Un animal albino en una población regular: excepción para la estadística, realidad para la biología",
+    "Una llave que no abre ninguna puerta: en el plano teórico es un artefacto inútil, pero puede señalar la existencia de una cerradura desconocida"
+  ],
+  "implicacion_transformadora": [
+    "Reformular la excepción como puente creativo entre lo formal y lo empírico",
+    "Aceptar la excepción como catalizador de expansión conceptual",
+    "Ver en cada excepción una invitación epistemológica a revisar límites, no simplemente una anomalía a descartar"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No se puede colapsar la afirmación a verdad o falsedad absoluta: la experiencia histórica y la operatividad conceptual obligan a resignificar la excepción como constructo fronterizo"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "nodo_semantico_de_entrada": "Invariancia absoluta de leyes físicas",
+  "nodo_semantico_central": "Universalidad temporal y espacial de las leyes físicas",
+  "firma_ontologica": {
+    "naturaleza": "afirmación de invariancia universal",
+    "funcion": "postular la constancia de las regularidades físicas",
+    "dominio": "física fundamental, metafísica de la regularidad natural",
+    "forma": "axioma absoluto",
+    "tension": "afirma invariancia absoluta versus observaciones y modelos que sugieren contingencia o variedad local",
+    "limite": "depende de la imposibilidad de experimentar la totalidad del espacio-tiempo"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "leyes físicas",
+      "definicion": "reglas fundamentales que describen cómo interactúan y cambian los componentes del universo"
+    },
+    {
+      "termino": "siempre",
+      "definicion": "across todos los momentos temporales, sin excepción"
+    },
+    {
+      "termino": "todo el universo",
+      "definicion": "la totalidad del espacio, materia, energía y eventos que existen"
+    },
+    {
+      "termino": "invariancia",
+      "definicion": "no cambia bajo ninguna condición en tiempo o lugar"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que el universo es un gran parque donde las reglas del juego nunca cambian, no importa dónde estés ni cuándo juegues: correr, saltar y girar funcionan igual siempre, en todos lados.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Las leyes físicas son idénticas en todo el tiempo",
+      "subnodo": "invariancia temporal",
+      "contexto": "¿Podemos asumir que la gravedad o la velocidad de la luz no han cambiado nunca?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Las leyes físicas son idénticas en todo el espacio",
+      "subnodo": "invariancia espacial",
+      "contexto": "¿Podemos asegurar que en regiones extremadamente distantes del cosmos las mismas reglas aplican?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Nunca existe una excepción a estas leyes",
+      "subnodo": "imposibilidad de excepción",
+      "contexto": "¿Es la regularidad absoluta comprobable o sólo postulable?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No es comprobable empíricamente en sentido absoluto; depende de extrapolaciones y ausencia de contraejemplo global"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Axioma de uniformidad",
+      "conclusion": "Predecir fenómenos lejanos o antiguos requiere asumir la invariancia",
+      "notas": "Base necesaria para extrapolaciones cosmológicas"
+    },
+    {
+      "origen": "Imposibilidad de observación universal",
+      "conclusion": "Ninguna observación puede confirmar la afirmación en todo el universo y tiempo",
+      "notas": "Sólo se puede falsar si se detecta una variación"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Las leyes físicas serán siempre las mismas para todo el universo y todo tiempo",
+      "descripcion": "Hipótesis de variación de constantes fundamentales (como la constante de estructura fina), escenarios cosmológicos de cambio de leyes en eras tempranas o regiones remotas, hipótesis de multiverso",
+      "grado_de_refutacion": "parcial",
+      "notas": "Falsedades locales o temporales son compatibles con una invariancia a gran escala, pero refutan el absolutismo"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Hasta ahora, las mediciones físicas en diferentes lugares y tiempos han coincidido dentro del error experimental",
+      "inferencia": "Indicio empírico de invariancia local en nuestro horizonte observacional",
+      "grado_de_confianza": "alto",
+      "notas": "Sólo aplicable a nuestro rango experimental"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La invariancia de las leyes físicas es una convención operativo-axiomática útil pero no una certeza absoluta; su falsabilidad se limita a contradicciones empíricas dentro del rango observable.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Las leyes físicas serán siempre las mismas para todo el universo y todo tiempo",
+        0,
+        0,
+        1
+      ],
+      [
+        "Las leyes físicas observadas han sido las mismas en nuestro marco de observación",
+        1,
+        0,
+        0
+      ],
+      [
+        "Es posible que existan diferencias en regiones inaccesibles o épocas remotas",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "No se puede demostrar la invariancia absoluta sin comprobar todo el espacio-tiempo, lo cual es imposible desde cualquier punto local",
+    "ambiguedad": "\"Leyes físicas\" pueden referirse a ecuaciones fundamentales, parámetros o regularidades empíricas, cuyo estatus ontológico varía",
+    "contradiccion_util": "Las excepciones hipotéticas abren posibilidades de física más profunda, motivando la búsqueda de nuevas regularidades o principios meta-legales"
+  },
+  "reorganizacion_analoga": [
+    "Como una regla de juegos inventada por niños: mientras nadie recuerde otra variante, todos juegan igual, pero en otro parque podría haber reglas nuevas",
+    "Como la gramática de un idioma: parece constante, pero puede tener dialectos y excepciones desconocidas"
+  ],
+  "implicacion_transformadora": [
+    "La ciencia debe tratar la hipótesis de invariancia como una herramienta provisional, siempre abierta a la revisión ante nuevos datos",
+    "Las teorías cosmológicas y extrapolaciones fuera de nuestro horizonte causal dependen críticamente de este postulado"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Queda en suspensión lógica: útil como hipótesis de trabajo, pero indemostrable en sentido absoluto; se mantiene por ausencia de contraejemplo y necesidad operativa"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "nodo_semantico_de_entrada": "Lo que no se conoce aún no es relevante ontológicamente",
+  "nodo_semantico_central": "Relevancia ontológica de lo desconocido",
+  "firma_ontologica": {
+    "naturaleza": "Criterio relacional de relevancia",
+    "funcion": "Delimitar ámbito de lo ontológicamente significativo a dominios de conocimiento explícito",
+    "dominio": "Epistemología, Ontología",
+    "forma": "Barrera semántica; umbral de inclusión/exclusión",
+    "tension": "Polarización entre lo conocido y lo potencial; dicotomía entre presencia formal y ausencia conceptual; posible exclusión del campo de lo existente por el mero desconocimiento",
+    "limite": "Supone que la relevancia depende de la conciencia o formalización; ignora la independencia o peso ontológico de lo aún no articulado"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "conocer",
+      "definicion": "Tener información, identificando o nombrando características de algo"
+    },
+    {
+      "termino": "aún no",
+      "definicion": "En un estado previo a ser conocido; potencialmente cognoscible en el futuro"
+    },
+    {
+      "termino": "relevancia",
+      "definicion": "Importancia o peso que se le asigna a un ente, hecho o concepto en un marco dado"
+    },
+    {
+      "termino": "ontológico",
+      "definicion": "Relacionado con la existencia, el ser, o la estructura fundamental de la realidad"
+    }
+  ],
+  "transduccion_preconceptual": "Lo que no ves, para este juego, no importa en las reglas. Pero tal vez solo no lo ves todavía.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "¿Lo no conocido nunca es relevante ontológicamente?",
+      "subnodo": "Relevancia potencial versus actualidad",
+      "contexto": "La posible importancia de algo que aún no se conceptualiza o reconoce dentro de un sistema"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "¿Lo ontológico depende de conocimiento humano?",
+      "subnodo": "Dependencia constructiva del observador",
+      "contexto": "La posibilidad de que la existencia o relevancia de algo no dependa de la percepción/conocimiento del sujeto"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No resuelve si la ontología se fundamenta en el conocimiento o si existe independiente de él; paradoja de la potencialidad y el acto"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si solo lo conocido es relevante, lo desconocido carece de peso ontológico.",
+      "conclusion": "La relevancia ontológica sería contingente al acto cognitivo.",
+      "notas": "Esto genera una ontología egocéntrica o correlacionista"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Lo que no se conoce aún no es relevante ontológicamente",
+      "descripcion": "El descubrimiento de los microbios: Existieron y afectaron la realidad aunque fueran desconocidos.",
+      "grado_de_refutacion": "total",
+      "notas": "La relevancia ontológica es independiente del conocimiento"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "A lo largo de la historia, lo que era desconocido ha resultado ser fundamental para cambios estructurales en los sistemas de la realidad cuando se conoció.",
+      "inferencia": "La relevancia ontológica puede anteceder al acto cognitivo o de reconocimiento.",
+      "grado_de_confianza": "alto",
+      "notas": "Indica error en vincular ontología sólo al saber explícito"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La relevancia ontológica no está condicionada por la actualidad del conocimiento, sino por la capacidad de incidencia o existencia independiente del acto de conocer.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Lo que no se conoce aún no es relevante ontológicamente",
+        0,
+        1,
+        0
+      ],
+      [
+        "Todo lo relevante ontológicamente es conocido",
+        0,
+        1,
+        0
+      ],
+      [
+        "Puede haber relevancia ontológica sin conocimiento",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Si algo gana relevancia ontológica solo al ser conocido, ¿cómo pudo alguna vez adquirir relevancia?",
+    "ambiguedad": "La definición de relevancia puede cambiar según si el marco es internalista (mental) o externalista (realista)",
+    "contradiccion_util": "La frontera entre lo conocido y lo relevante nunca es estable, ya que lo desconocido irrumpe y redefine los límites"
+  },
+  "reorganizacion_analoga": [
+    "Un continente oculto bajo el hielo: ignorado por los mapas, existe y afecta mareas y climas; su desafiliación al saber no le resta fuerza causal.",
+    "Una carta invisible en un juego, cuyo significado emerge imprevistamente, altera la partida aun antes de ser reconocida."
+  ],
+  "implicacion_transformadora": [
+    "La epistemología debe mantenerse abierta a la relevancia potencial de lo no reconocido.",
+    "La ontología gana capacidad crítica cuando concede espacio a lo desconocido como fuerza latente."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "Refutado por contraejemplo empírico e inconsistencia lógica: la relevancia ontológica es independiente de la actualidad del saber."
+  }
+}

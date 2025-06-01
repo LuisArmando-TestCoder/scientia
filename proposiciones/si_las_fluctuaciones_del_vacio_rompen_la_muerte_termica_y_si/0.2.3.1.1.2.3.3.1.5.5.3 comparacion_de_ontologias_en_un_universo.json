@@ -1,0 +1,156 @@
+{
+  "nodo_semantico_de_entrada": "Comparación de ontologías en un universo",
+  "nodo_semantico_central": "Comparabilidad ontológica intra-universal",
+  "firma_ontologica": {
+    "naturaleza": "relación lógica entre sistemas de categorización de lo que es",
+    "funcion": "Evaluar la posibilidad de trazar correspondencias o distinciones entre ontologías dentro de un mismo universo",
+    "dominio": "ontología, epistemología comparada",
+    "forma": "mapeo, red de correspondencias, intersección/discrepancia",
+    "tension": "Equivalencia vs. incommensurabilidad; lo común vs. lo irreductible",
+    "limite": "Depende de criterios de traducción, grado de abstracción y supuestos compartidos"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "ontología",
+      "definicion": "Conjunto de conceptos y relaciones fundamentales aceptados como realidad dentro de un sistema de pensamiento"
+    },
+    {
+      "termino": "universo",
+      "definicion": "Totalidad de entidades, relaciones y reglas asumidas como el marco donde surgen las ontologías"
+    },
+    {
+      "termino": "comparar",
+      "definicion": "Buscar correspondencias, relaciones o diferencias significativas"
+    },
+    {
+      "termino": "criterio de comparabilidad",
+      "definicion": "Condición de posibilidad para establecer puentes semánticos entre ontologías; puede ser la existencia de conceptos en común, lógicas traducibles o reglas de composición comparables"
+    },
+    {
+      "termino": "incommensurabilidad",
+      "definicion": "Estado en el cual los elementos de una ontología no pueden ser traducidos o comparados directamente con los de otra"
+    }
+  ],
+  "transduccion_preconceptual": "Es como tener dos cajas de juguetes diferentes en la misma habitación. Puedes ver si en las dos hay bloques, coches o muñecos, pero hay cosas de una caja que no existen en la otra. A veces, un juguete nuevo te hace inventar un juego que sirve para los dos, otras veces algunos juguetes no se entienden nunca.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Las ontologías son totalmente comparables dentro de un universo",
+      "subnodo": "Absolutismo comparativo",
+      "contexto": "Todos los sistemas pueden ser mapeados 1:1 porque comparten el mismo universo"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Algunas ontologías no pueden compararse dentro de un universo",
+      "subnodo": "Incommensurabilidad parcial",
+      "contexto": "Pueden existir conceptos o estructuras que carecen de equivalente en la otra ontología"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Comparar ontologías requiere una meta-ontología común",
+      "subnodo": "Necesidad de marco traductor",
+      "contexto": "Sin un lenguaje o estructura de puente, la comparación se vuelve imposible o trivial"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La posibilidad depende de la existencia (o construcción) de criterios o sistemas traductores; no puede declararse verdadero ni falso entre todos los casos posibles sin trampa lógica"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de ontología + universo común",
+      "conclusion": "Toda comparación requiere algún grado de equivalencia conceptual o regla compartida",
+      "notas": "Dado un universo compartido, la comparación es posible sólo hasta el punto en que los sistemas acepten los mismos axiomas o categorías básicas"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Las ontologías son totalmente comparables en un universo",
+      "descripcion": "Ejemplo de dos lenguajes formalmente completos pero con sintaxis/pragmática disjunta: pueden representar el mismo universo, pero sus usuarios no pueden comunicarse sin perder información",
+      "grado_de_refutacion": "parcial",
+      "notas": "La comparación existe, pero está limitada al nivel de abstracción del punto común mínimo"
+    },
+    {
+      "afirmacion_refutada": "Ninguna comparación es posible",
+      "descripcion": "El uso de una meta-ontología o de traductores conceptuales permite cierto grado de emparejamiento, aunque incompleto",
+      "grado_de_refutacion": "parcial",
+      "notas": "Siempre hay una comparación trivial posible (vacío, negación), aunque puede carecer de contenido semántico relevante"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Proyectos de interoperabilidad entre bases de datos, traducción entre paradigmas científicos, debates filosóficos interculturales",
+      "inferencia": "En la práctica, determinados niveles de comparación se alcanzan a través de la construcción de marcos puente",
+      "grado_de_confianza": "medio",
+      "notas": "La traducción implica siempre una pérdida o transformación del sentido original"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La comparación entre ontologías dentro de un universo es una función de su grado de solapamiento conceptual, la existencia de lenguajes intermedios y la voluntad de construir puentes formales o pragmáticos. La incomparabilidad total es rara, pero la comparabilidad absoluta es ilusoria.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Se puede comparar ontologías dentro de un mismo universo",
+        0,
+        0,
+        1
+      ],
+      [
+        "La comparación es total",
+        0,
+        1,
+        0
+      ],
+      [
+        "La comparación es imposible",
+        0,
+        1,
+        0
+      ],
+      [
+        "Siempre es perfecta",
+        0,
+        1,
+        0
+      ],
+      [
+        "Siempre hay algún puente posible",
+        1,
+        0,
+        0
+      ],
+      [
+        "Todas las diferencias pueden eliminarse",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Para comparar se requiere una meta-ontología que es, a su vez, otra ontología. El intento de totalización lleva a una regresión infinita.",
+    "ambiguedad": "¿Qué se considera 'comparar'? ¿Comparabilidad funcional, estructural, semántica? Diferentes definiciones llevan a diferentes respuestas.",
+    "contradiccion_util": "La imposibilidad de comparación total genera impulsos para enriquecer ambos sistemas y construir nuevas formas de traducción."
+  },
+  "reorganizacion_analoga": [
+    "Traducción entre lenguajes naturales que comparten contexto pero no todas las palabras",
+    "Interoperabilidad limitada entre sistemas informáticos heterogéneos",
+    "Intercambio filosófico intercultural",
+    "Superposición de conjuntos con elemento común y zonas irreducibles"
+  ],
+  "implicacion_transformadora": [
+    "Cualquier proceso de comparación entre mapas de lo real es un acto creativo, no sólo lógico.",
+    "El esfuerzo de construir puentes ontológicos enriquece ambos polos y favorece la emergencia de conocimientos meta-ontológicos.",
+    "No debe asumirse nunca ni la equivalencia plena ni la tolerancia cero: las comparaciones son procesos, no estados.",
+    "El criterio operativo debería ser la utilidad pragmática del puente, no su perfección estructural."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación no se puede colapsar a verdad o falsedad universal sin acepciones debilitantes; queda como dependencia del marco de referencia y del grado construido de traductibilidad."
+  }
+}

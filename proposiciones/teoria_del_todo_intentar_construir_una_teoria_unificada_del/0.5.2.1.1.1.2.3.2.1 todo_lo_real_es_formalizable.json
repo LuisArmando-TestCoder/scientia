@@ -1,0 +1,143 @@
+{
+  "nodo_semantico_de_entrada": "Todo lo real es formalizable",
+  "nodo_semantico_central": "Formalización total de la realidad",
+  "firma_ontologica": {
+    "naturaleza": "proposición universal",
+    "funcion": "afirmar la reducibilidad completa de lo real a esquemas formales",
+    "dominio": "filosofía de la lógica, ontología, epistemología",
+    "forma": "universalismo lógico",
+    "tension": "intenta colapsar la totalidad de lo real bajo estructuras formales, invitando a contraejemplos",
+    "limite": "depende de la frontera entre lo formalizable y lo irreductible (problema de la completitud/incompletitud)"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "real",
+      "definicion": "aquello que tiene existencia, presencia o efecto, independiente de su conceptualización"
+    },
+    {
+      "termino": "formalizable",
+      "definicion": "puede ser representado completamente en un sistema formal (matemático, lógico, simbólico)"
+    },
+    {
+      "termino": "todo",
+      "definicion": "afirmación absolutista: sin excepción"
+    },
+    {
+      "termino": "sistema formal",
+      "definicion": "conjunto de reglas y símbolos para representar y operar sobre entidades abstractas"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes bloques de construcción con instrucciones que te dicen cómo usarlos. 'Todo lo real es formalizable' dice que cualquier cosa que existe puede ser armada, explicada y descrita con estos bloques y sus reglas, sin que falte ninguna pieza.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Lo real es completamente formalizable",
+      "subnodo": "casos límite de lo no formalizable",
+      "contexto": "Existen fenómenos que se resisten a toda formalización (ejemplo: experiencia subjetiva pura, caos irreducible, paradojas auténticas)"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Todo lo real puede describirse sin pérdida en sistemas formales",
+      "subnodo": "formalización y pérdida de sentido",
+      "contexto": "¿Puede la totalidad del sentido, experiencia o existencia transferirse sin pérdida al formalizar?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Lo posible en lo real es abarcado por lo formal",
+      "subnodo": "limites de los sistemas formales (Gödel/Turing)",
+      "contexto": "Incompletitud de sistemas formales para capturar toda verdad de su propio dominio"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Existen zonas de la realidad que parecen escaparse a la formalización absoluta; la proposición es un absolutismo refutable por casos límite y contraejemplos. Sin embargo, la tendencia a formalizar es poderosa — lo indefinido permanece por la frontera epistemológica activa."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "sistema formal definido como absolutamente abarcante",
+      "conclusion": "Si toda la realidad es formalizable, entonces no existen hechos o entidades inconmensurables/inefables.",
+      "notas": "Choca con experiencias subjetivas indescriptibles o paradojas matemáticas reputadas."
+    },
+    {
+      "origen": "definición de 'formalizable'",
+      "conclusion": "Si algo es formalizable, puede al menos en principio ser capturado en un lenguaje lógico o matemático.",
+      "notas": "La formalización podría ser infinitamente compleja o impráctica, pero no imposible según la afirmación original."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todo lo real es formalizable",
+      "descripcion": "El problema de la mente (qualia), experiencias subjetivas puras, intuiciones no articulables; el teorema de incompletitud de Gödel para matemáticas y la indeterminación de sistemas complejos irreducibles (irreducibilidad computacional de Wolfram, eventos cuánticos individuales, proceso creativo genuino).",
+      "grado_de_refutacion": "parcial",
+      "notas": "No es concluyente si todo lo real es formalizable o si solo es el caso de que parte de lo real hoy no podemos formalizarlo. Pero existen ejemplos robustos para desafiar el absolutismo."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Ciencia y lógica han logrado avanzar en la formalización de grandes nichos de la realidad física y teórica.",
+      "inferencia": "Muchos aspectos de la realidad son formalizables o tienden a serlo, pero siempre emergen fenómenos fuera de toda formalización completa.",
+      "grado_de_confianza": "alto",
+      "notas": "La ola de la historia es una marcha tendencial hacia la formalización, pero el borde nunca se cierra del todo. El paradigma indeterminado se desplaza, no colapsa."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Toda realidad conocida tiende a ser formalizable a medida que se expande el alcance del pensamiento formal, pero cada expansión genera nuevos horizontes irreductibles. El propio acto de formalizacion crea y revela lo informalizable: irreductibilidad emergente como ley metaformal.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Todo lo real es formalizable",
+        0,
+        0,
+        1
+      ],
+      [
+        "Algunas cosas reales no son formalizables (qualia, creatividad pura, etc.)",
+        0,
+        1,
+        0
+      ],
+      [
+        "Los sistemas formales pueden describir todo lo empírico",
+        0,
+        0,
+        1
+      ],
+      [
+        "Existen entidades reales que escapan al lenguaje formal",
+        0,
+        1,
+        0
+      ],
+      [
+        "La formalización total es posible en principio",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El esfuerzo totalizante de la formalización produce necesariamente una frontera de lo no formalizable (paradoja auto-reflexiva y de incompletitud).",
+    "ambiguedad": "¿Qué cuenta como 'real' y hasta dónde se extiende lo formalizado versus lo experimentado o vivido?",
+    "contradiccion_util": "Lo real pretende ser abarcado por lo formal, pero lo formal sólo se define en relación a lo que escapa a él."
+  },
+  "reorganizacion_analoga": [
+    "Como un mapa que crece con cada exploración, pero cuyo borde siempre revela más territorio no cartografiado.",
+    "El horizonte de la realidad como la línea del mar que retrocede al avanzar hacia ella.",
+    "El teorema de Gödel: la incompletitud estructural como límite inherente a cualquier sistema que intente describirse en totalidad."
+  ],
+  "implicacion_transformadora": [
+    "Adoptar una epistemología dinámica donde la formalización es herramienta pero no límite final.",
+    "Pensar siempre en apertura: lo real excede todo lenguaje, pero vale la pena intentar capturarlo (sabiendo que nunca será final).",
+    "Incentivar una creatividad que no tema a lo irreductible, usándolo como motor para la invención de nuevos lenguajes o sistemas."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La frase absolutista no se verifica ni se falsifica exhaustivamente: el horizonte de formalización es móvil y autogenerativo; la paradoja permanece abierta."
+  }
+}

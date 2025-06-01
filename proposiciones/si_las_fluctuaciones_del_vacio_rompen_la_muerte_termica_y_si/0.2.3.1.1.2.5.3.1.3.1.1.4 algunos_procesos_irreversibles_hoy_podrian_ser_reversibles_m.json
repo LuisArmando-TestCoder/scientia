@@ -1,0 +1,136 @@
+{
+  "nodo_semantico_de_entrada": "Algunos procesos irreversibles hoy, podrían ser reversibles mañana",
+  "nodo_semantico_central": "Reversibilidad contingente de procesos",
+  "firma_ontologica": {
+    "naturaleza": "Condición prospectiva sobre procesos",
+    "funcion": "Explorar la contingencia temporal de las propiedades de irreversibilidad",
+    "dominio": "Filosofía de la ciencia, termodinámica, teoría del conocimiento",
+    "forma": "Bifurcación temporal (árbol de posibilidades a través del tiempo)",
+    "tension": "Entre definición actual y potencial de los procesos; ambigüedad sobre el conocimiento y la tecnología futuros",
+    "limite": "Epistemológicamente incompleto; depende de lo que mañana sea técnicamente o ontológicamente posible"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "algunos",
+      "definicion": "No todos, solo una parte o subconjunto de casos"
+    },
+    {
+      "termino": "procesos irreversibles",
+      "definicion": "Eventos o transformaciones cuyo estado no puede regresar exactamente al punto de inicio bajo las condiciones actuales conocidas"
+    },
+    {
+      "termino": "hoy",
+      "definicion": "Condición definida por el conocimiento, tecnología y leyes conocidas en el momento presente"
+    },
+    {
+      "termino": "podrían ser reversibles",
+      "definicion": "Existe la posibilidad, sujeta a factores no determinados, de que la función inversa de un proceso sea factible"
+    },
+    {
+      "termino": "mañana",
+      "definicion": "Un estado futuro donde las condiciones pueden haber cambiado fundamentalmente"
+    }
+  ],
+  "transduccion_preconceptual": "Como si una puerta que solo se puede abrir hacia fuera hoy, mañana alguien inventara una llave que la hiciera abrirse hacia adentro también. Pero eso solo pasará si alguien imagina una forma diferente de usar la puerta.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El conjunto de procesos irreversibles es permanente e inmutable",
+      "subnodo": "Revisión del Absolutismo sobre la Irreversibilidad",
+      "contexto": "Cuestionar si existen contraejemplos donde procesos fueron considerados irreversibles y luego se revirtieron (Ejemplo: avances en la criónica, restauración celular, inversión de cálculos encriptados, etc.)"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Lo que hoy es irreversible mañana permanece igual",
+      "subnodo": "Contingencia del conocimiento y la técnica",
+      "contexto": "Consideración del avance científico, límites actuales, posibles descubrimientos futuros, así como la diferencia entre irreversibilidad práctica y fundamental"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No hay garantía universal de reversibilidad futura ni evidencia de imposibilidad universal; dependerá de futuras capacidades epistemológicas y tecnológicas"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si existen procesos que pasaron de ser irreversibles a reversibles en la historia",
+      "conclusion": "No es lógicamente necesario que la irreversibilidad sea permanente",
+      "notas": "Depende de la definición operacional de irreversibilidad y los límites técnicos"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todos los procesos irreversibles lo son para siempre",
+      "descripcion": "En termodinámica, ciertos procesos microscópicos percibidos como irreversibles han mostrado reversibilidad en condiciones cuánticas o extremas (Ej: rectificación Maxwelliana, computación reversible)",
+      "grado_de_refutacion": "parcial",
+      "notas": "La reversibilidad extrema puede ser solo teórica, práctica o limitada"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Avances científicos históricos han permitido revertir procesos antes considerados permanentes (Ej: edición genética, restauración de materiales, recodificación de datos)",
+      "inferencia": "La irreversibilidad práctica suele ser relativa al conocimiento y herramientas disponibles",
+      "grado_de_confianza": "medio",
+      "notas": "No garantiza totalidad, pero sugiere posibilidad condicionada por el progreso"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La irreversibilidad es, en muchos dominios, una propiedad dependiente del contexto epistemológico y tecnológico: es un estatus provisional resultante de las limitaciones actuales, no necesariamente una categoría ontológica fija.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Todos los procesos irreversibles seguirán siéndolo indefinidamente",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunos procesos considerados irreversibles hoy pueden volverse reversibles",
+        1,
+        0,
+        0
+      ],
+      [
+        "La irreversibilidad es una propiedad absoluta",
+        0,
+        1,
+        0
+      ],
+      [
+        "La reversibilidad futura depende solo de la voluntad",
+        0,
+        1,
+        0
+      ],
+      [
+        "La reversibilidad futura depende de factores desconocidos",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Solo se puede probar la reversibilidad futura con el avance del tiempo y la creatividad, pero no se puede invalidar la posibilidad sin agotar todo progreso futuro.",
+    "ambiguedad": "Irreversible puede significar diferencia epistemológica (no conocemos cómo revertirlo) o ontológica (es imposible por estructura de la realidad)",
+    "contradiccion_util": "Tratamos lo irreversible como absoluto para operar, pero la historia demuestra que este absoluto es útil pero desbordable."
+  },
+  "reorganizacion_analoga": [
+    "Un candado sin llave hoy puede tener llave mañana",
+    "Las enfermedades incurables del pasado hoy tienen cura",
+    "Los archivos digitales corruptos a veces se pueden restaurar con nuevas tecnologías"
+  ],
+  "implicacion_transformadora": [
+    "Recomienda prudencia epistemológica: no absolutizar irreversibilidad salvo evidencia ontológica fuerte",
+    "Fomenta heurística de creatividad para invertir procesos con imaginación y progreso técnico",
+    "Promueve la apertura al cambio de paradigma técnico y filosófico"
+  ],
+  "reevaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "Existe suficiente soporte deductivo, inductivo e histórico para afirmar que algunos procesos irreversibles hoy pueden volverse reversibles, aunque no se pueda garantizar universalidad"
+  }
+}

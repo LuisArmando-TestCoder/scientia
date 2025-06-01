@@ -1,0 +1,116 @@
+{
+  "nodo_semantico_de_entrada": "Existe al menos un contraejemplo",
+  "nodo_semantico_central": "Existencia de contraejemplo",
+  "firma_ontologica": {
+    "naturaleza": "afirmación existencial",
+    "funcion": "negar universalidad",
+    "dominio": "lógica, epistemología, filosofía de la ciencia",
+    "forma": "particularidad disruptiva",
+    "tension": "abre una fisura en cualquier pretensión absolutista; impone límites a la validez universal",
+    "limite": "sólo puede refutar, no probar universalidad"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "contraejemplo",
+      "definicion": "caso específico que contradice una afirmación general"
+    },
+    {
+      "termino": "existencia",
+      "definicion": "afirmación de que hay al menos un caso"
+    },
+    {
+      "termino": "afirmación universal",
+      "definicion": "proposición que sostiene que algo es verdadero para todos los casos posibles"
+    }
+  ],
+  "transduccion_preconceptual": "Si alguien dice que todas las pelotas son rojas, pero encuentras una azul, ese único hallazgo hace que la idea de 'todas son rojas' ya no funcione, aunque solo sea una azul.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Existe al menos un contraejemplo",
+      "subnodo": "Posibilidad mínima de refutación",
+      "contexto": "¿Puede cualquier verdad universal ser refutada por un caso?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Un solo caso basta para romper una regla universal",
+      "subnodo": "Debilidad de los absolutos",
+      "contexto": "Relación de fuerza lógica entre universalidad y particularidad"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "Por definición lógica, basta un caso para refutar el universal"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición formal de contraejemplo en lógica",
+      "conclusion": "La existencia de uno refuta la afirmación universal respectiva",
+      "notas": "Se asume que el 'universal' está especificado y el contraejemplo es válido"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todo es siempre verdadero",
+      "descripcion": "Aparición de un único caso contrario (ej: 'todos los cisnes son blancos' frente a un cisne negro)",
+      "grado_de_refutacion": "total",
+      "notas": "La universalidad se derrumba ante el mínimo caso real opuesto"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Afirmaciones absolutistas frecuentemente colapsan ante datos discordantes",
+      "inferencia": "El hallazgo de un contraejemplo es habitual en complejidad real",
+      "grado_de_confianza": "alto",
+      "notas": "Especialmente en ciencias empíricas y sistemas abiertos"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Toda pretensión universal es inherentemente inestable: el espacio conceptual siempre aloja al menos la posibilidad de un contraejemplo latente.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Existe al menos un contraejemplo",
+        1,
+        0,
+        0
+      ],
+      [
+        "Las proposiciones universales son irrevocables",
+        0,
+        1,
+        0
+      ],
+      [
+        "La inexistencia de contraejemplo equivale a verdad universal",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La búsqueda de verdad universal genera inevitablemente su propio punto de inestabilidad.",
+    "ambiguedad": "Qué constituye un contraejemplo válido puede depender de la interpretación del dominio.",
+    "contradiccion_util": "Para robustecer cualquier teoría universal, es necesario buscar (y enfrentar) sus propios contraejemplos potenciales."
+  },
+  "reorganizacion_analoga": [
+    "Un solo eslabón roto basta para que una cadena deje de ser útil.",
+    "Una grieta en un dique puede derrumbar toda la protección.",
+    "Un error en código fuente puede hacer caer un sistema entero."
+  ],
+  "implicacion_transformadora": [
+    "El método científico se sostiene buscando activamente contraejemplos.",
+    "La epistemología requiere valorar más las disonancias que las confirmaciones.",
+    "En campos complejos, la humildad ontológica es señal de madurez: aceptar que bastará con un hallazgo contrario para reconfigurar el marco teórico."
+  ],
+  "reevaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "El análisis recursivo no encontró excepción al rol del contraejemplo como destructor de universalidad; coherencia formal alcanzada."
+  }
+}

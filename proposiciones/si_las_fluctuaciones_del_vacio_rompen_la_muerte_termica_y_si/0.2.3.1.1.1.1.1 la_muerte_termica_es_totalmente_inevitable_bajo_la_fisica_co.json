@@ -1,0 +1,149 @@
+{
+  "nodo_semantico_de_entrada": "La muerte térmica es totalmente inevitable bajo la física conocida",
+  "nodo_semantico_central": "Inevitabilidad absoluta de la muerte térmica",
+  "firma_ontologica": {
+    "naturaleza": "proposición predictiva",
+    "funcion": "Establece una predicción absoluta sobre el destino del universo según la física actual",
+    "dominio": "termodinámica, cosmología, epistemología",
+    "forma": "afirmación universal-causal",
+    "tension": "Afirmación absolutista frente a la incertidumbre epistemológica. Paradoja entre previsión, límite de conocimiento y el ‘todo/nada’.",
+    "limite": "Sólo válida dentro del marco teórico/observacional actual; dependiente de la completitud de la física conocida"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "muerte térmica",
+      "definicion": "Estado final en el que el universo alcanza equilibrio termodinámico y ya no es posible extraer trabajo ni ocurre cambio termodinámico significativo"
+    },
+    {
+      "termino": "totalmente inevitable",
+      "definicion": "No admite excepción bajo ningún escenario; se asume certidumbre absoluta"
+    },
+    {
+      "termino": "física conocida",
+      "definicion": "Conjunto actual de teorías, modelos y observaciones aceptados por la comunidad científica"
+    },
+    {
+      "termino": "bajo",
+      "definicion": "Condicionado en el marco axiológico y epistemológico de un corpus científico vigente"
+    }
+  ],
+  "transduccion_preconceptual": "Es como si todo el universo fuera un gran cuarto lleno de aire; con el tiempo, todas las cosas calientes y frías se igualan, y ya nadie puede encender un ventilador porque todo está tibio. La frase dice que, según lo que sabemos de ciencia, ese cuarto siempre quedará así y no puede ser de otra manera.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La muerte térmica es totalmente inevitable",
+      "subnodo": "Absolutismo físico",
+      "contexto": "¿Puede una afirmación absolutista mantenerse ante posibles límites del conocimiento físico?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Bajo la física conocida",
+      "subnodo": "Dependencia epistemológica",
+      "contexto": "Si la física cambia, ¿cambia la inevitabilidad?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "La física conocida es completa",
+      "subnodo": "Completitud Epistémica",
+      "contexto": "¿Existe totalidad en el saber físico, o sólo provisionalidad?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación absolutista se sostiene sólo provisionalmente; existen límites epistemológicos y margen para contraejemplos (futuras teorías, observaciones, fenómenos emergentes no contemplados)."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Segunda Ley de la Termodinámica",
+      "conclusion": "Dado suficiente tiempo y ausencia de procesos violadores de la termodinámica, el equilibrio térmico es el destino esperado",
+      "notas": "Sólo es válida si el universo es cerrado y no intervienen nuevas leyes o fenómenos desconocidos"
+    },
+    {
+      "origen": "Definición de 'totalmente'",
+      "conclusion": "Ninguna excepción permitiría escapar a la muerte térmica; basta un solo contraejemplo para debilitar esta aseveración",
+      "notas": "El absolutismo exige universalidad; epistemológicamente frágil"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La muerte térmica es totalmente inevitable bajo la física conocida",
+      "descripcion": "El descubrimiento futuro de nuevas partículas, dimensiones, ciclos cósmicos recurren o mecanismos cuánticos que permitan inversión local/global de entropía podría invalidar la inevitabilidad.",
+      "grado_de_refutacion": "parcial",
+      "notas": "No refuta la física actual, pero señala su precariedad epistemológica"
+    },
+    {
+      "afirmacion_refutada": "Total inevitabilidad bajo la física conocida",
+      "descripcion": "Algunas propuestas cosmológicas (universo cíclico, fluctuaciones del vacío cuántico, agujeros de gusano) sugieren posibles futuros alternativos, aunque aún especulativos.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Dependen de hipótesis teóricas fuera del consenso, pero aún dentro del desarrollo de la física"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Todos los sistemas cerrados observados tienden al equilibrio termodinámico",
+      "inferencia": "La tendencia hacia la muerte térmica parece consistente con la experiencia e inferencias actuales",
+      "grado_de_confianza": "alta",
+      "notas": "Generalización válida mientras no se observen excepciones"
+    },
+    {
+      "patron_observado": "La física cambia y se expande históricamente con nuevos descubrimientos",
+      "inferencia": "Toda afirmación sobre lo 'inevitable' en física debe ser provisional",
+      "grado_de_confianza": "alta",
+      "notas": "Historia de la ciencia marca reversibilidad de certidumbres"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Toda aseveración de inevitabilidad universal (especialmente en cosmología) es funcional pero provisional; el absolutismo es epistemológicamente inestable. La muerte térmica, dentro de la física actual, es el final esperado — pero ese horizonte es histórico, no ontológico.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La muerte térmica es totalmente inevitable bajo la física conocida",
+        0,
+        0,
+        1
+      ],
+      [
+        "En todos los modelos de física actual, la entropía del universo aumenta",
+        1,
+        0,
+        0
+      ],
+      [
+        "La física conocida es completa y definitiva",
+        0,
+        1,
+        0
+      ],
+      [
+        "Es posible imaginar excepciones concebibles bajo nuevos paradigmas",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El absolutismo de la inevitabilidad choca con la provisionalidad de todo conocimiento científico (‘incompletitud epistemológica’)",
+    "ambiguedad": "¿'Física conocida' significa física comprobada, consensuada, o toda la física concebible hasta la fecha?",
+    "contradiccion_util": "El marco universal absoluto permite organizar, pero también exige su propia refutación como motor de cambio epistémico"
+  },
+  "reorganizacion_analoga": [
+    "Como declarar que nunca lloverá en el Sahara: verdadero dentro de límites observados, falso con un solo caso extremo futuro.",
+    "Como una partida de ajedrez donde se supone que sólo queda el rey: sólo si nadie inventa una nueva regla.",
+    "Como decir que el sol siempre saldrá por el este: seguro hasta que cambien los polos magnéticos, o lo revisemos desde otra referencia."
+  ],
+  "implicacion_transformadora": [
+    "Toda predicción física absoluta debe presentarse como hipótesis robusta, no como dogma; conservando apertura a revoluciones teóricas.",
+    "El lenguaje absoluto es útil operativamente, pero obliga a distinguir entre lo que sabemos, lo que inferimos, y lo que podríamos descubrir.",
+    "La epistemología científica debe abrazar la incertidumbre estructural como condición de posibilidad para el futuro conocimiento."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación absolutista sólo es formalmente indefinida: no existe fundamento para justificar su verdad total más allá de un horizonte provisional"
+  }
+}

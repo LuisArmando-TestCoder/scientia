@@ -1,0 +1,127 @@
+{
+  "nodo_semantico_de_entrada": "Toda autonomía causal requiere definiciones universales",
+  "nodo_semantico_central": "Autonomía causal y necesidad de definiciones universales",
+  "firma_ontologica": {
+    "naturaleza": "Principio condicionante (proposición universal)",
+    "funcion": "Determinar la dependencia de la autonomía (capacidad de actuar sobre causas) respecto a la existencia de definiciones universales (conceptos compartidos y abiertos)",
+    "dominio": "epistemología, filosofía, lógica de sistemas",
+    "forma": "relación condicional universal",
+    "tension": "Absolutismo vs. particularidad; definición de autonomía vs. arbitrariedad de universales",
+    "limite": "La proposición se enfrenta a posibles contraejemplos donde autonomía causal se manifiesta en la ausencia de universales"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Autonomía causal",
+      "definicion": "Capacidad de un agente, sistema o entidad de originar efectos a partir de sus propias decisiones, sin instrucciones externas directas"
+    },
+    {
+      "termino": "Definiciones universales",
+      "definicion": "Conceptos o descripciones aceptados y aplicables a todo caso del sistema considerado, sin depender de contextos particulares"
+    },
+    {
+      "termino": "Requiere",
+      "definicion": "Condición estricta: la existencia de una depende necesariamente de la otra"
+    }
+  ],
+  "transduccion_preconceptual": "Es como decir que para poder hacer lo que quieras, primero tienes que tener reglas que todos entiendan. Si inventas tus propias reglas y solo tú las usas, tal vez haces cosas, pero no todos ven que tienes el poder de hacerlo 'de verdad'. ¿Pero si nadie tiene siempre las mismas reglas, podrías ser libre igual?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La autonomía causal solo existe si hay definiciones universales",
+      "subnodo": "Dependencia de autonomía causal respecto a universales",
+      "contexto": "¿Puede haber causalidad autónoma individual sin compartir definiciones globales?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Existen sistemas autónomos sin definiciones universales explícitas",
+      "subnodo": "Emergencia de causalidad local o contextual",
+      "contexto": "Fenómenos emergentes donde las reglas universales no están formuladas de antemano"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación es universal pero se enfrenta a posibles contraejemplos de autonomía causal contextual, e.g., sistemas biológicos, inteligencias animales, procesos emergentes donde los universales están en construcción o son irreductibles"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de autonomía causal",
+      "conclusion": "Si autonomía causal presupone un marco de interpretación, entonces requiere algún universal mínimo",
+      "notas": "No requiere necesariamente definiciones explícitas universales, solo marco de interpretación común"
+    },
+    {
+      "origen": "Definición de definiciones universales",
+      "conclusion": "No todo sistema autónomo implica necesariamente universales; podrían ser locales o contextuales",
+      "notas": "La condición puede ser estricta solo bajo ciertos paradigmas"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda autonomía causal requiere definiciones universales",
+      "descripcion": "Comportamientos autónomos emergentes en sistemas complejos (ej. colonias de bacterias, algoritmos evolutivos) donde las reglas no son universales sino adaptativas y particulares al entorno",
+      "grado_de_refutacion": "parcial",
+      "notas": "La autonomía causal puede manifestarse antes de la generalización universal"
+    },
+    {
+      "afirmacion_refutada": "Toda autonomía causal requiere definiciones universales",
+      "descripcion": "Acción de criaturas auto-organizadas cuyos principios de agencia no derivan de definiciones aceptadas universalmente (casos animales, mente pre-lingüística)",
+      "grado_de_refutacion": "parcial",
+      "notas": "El universal puede emerger tras la autonomía, no antes"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Sistemas vivos y agentes inteligentes muestran autonomía causal sin enunciar universales previos",
+      "inferencia": "La autonomía causal puede ser un efecto emergente antes que la definición de universales compartidos",
+      "grado_de_confianza": "alto",
+      "notas": "Universales pueden ser producto retroactivo de la autonomía"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La autonomía causal puede ser contextual y emergente; requiere definiciones compartidas para ser reconocida a nivel intersubjetivo o universal, pero puede operar localmente antes o sin ellas. Los universales son a veces consecuencia y no condición previa.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda autonomía causal requiere definiciones universales",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunos modos de autonomía causal requieren definiciones universales",
+        1,
+        0,
+        0
+      ],
+      [
+        "Es posible autonomía causal sin universales explícitos",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "¿Cómo es que la autonomía causal puede existir antes de ser reconocida universalmente, pero necesita de reconocimiento para operar en sistemas abstractos/lógicos?",
+    "ambiguedad": "La definición de 'universal' varía según la escala sistémica y el contexto de aplicación",
+    "contradiccion_util": "La autonomía local crea universales post facto; la autonomía requiere universales solo cuando quiere ser reconocida como tal fuera de su propio sistema"
+  },
+  "reorganizacion_analoga": [
+    "Como un idioma local que luego deviene lengua franca al popularizarse",
+    "Como una célula que actúa independiente pero se integra a un organismo mayor con nuevas reglas",
+    "Como una regla en un juego inventado por un niño que se convierte en norma al ser compartida"
+  ],
+  "implicacion_transformadora": [
+    "Los sistemas epistemológicos deben poder identificar y analizar autonomías emergentes antes de exigir universales previos.",
+    "El reconocimiento de la autonomía causal depende del observador y su marco de universales; fomentar diversidad de marcos permite innovación en la emergencia de lo causal.",
+    "Nuevas formas de agencia podrían definirse ampliando el campo de lo que se reconoce universal, sin negar la autonomía previa a dicha definición."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Absolutizar la necesidad de universales para la autonomía causal es refutado, pero la existencia de casos particulares sugiere una condición suficiente, no necesaria. La universalidad puede ser una propiedad emergente, no fundante."
+  }
+}

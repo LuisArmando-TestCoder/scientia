@@ -1,0 +1,151 @@
+{
+  "nodo_semantico_de_entrada": "Existen universos para cada posibilidad real",
+  "nodo_semantico_central": "Pluralidad ontológica por potencialidad",
+  "firma_ontologica": {
+    "naturaleza": "principio metafísico",
+    "funcion": "Permitir la coexistencia de múltiples estados posibles como realidades autónomas",
+    "dominio": "ontología, metafísica, cosmología modal",
+    "forma": "multiplicidad ramificada (árbol de posibilidades, multiverso)",
+    "tension": "Distinguir entre posibilidad real y posibilidad lógica; indeterminación sobre lo 'realizable'. Problemas de sobreproducción ontológica.",
+    "limite": "No se puede verificar empíricamente; depende de criterios de 'realidad' para las posibilidades."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "universo",
+      "definicion": "Sistemas autónomos completos donde ocurren hechos según leyes consistentes propias."
+    },
+    {
+      "termino": "posibilidad real",
+      "definicion": "Un conjunto de estados o eventos que podrían ocurrir bajo algún marco lógico-coherente; no meramente imaginado, sino realizable según condiciones del sistema."
+    },
+    {
+      "termino": "existencia",
+      "definicion": "Estado de ser ontológico; ser actual, efectivo o potencial dentro de un marco estructural concreto."
+    },
+    {
+      "termino": "cada",
+      "definicion": "Cuantificador distributivo que implica exhaustividad (para todos los elementos de un conjunto definido)."
+    }
+  ],
+  "transduccion_preconceptual": "Es como si cada vez que sueñas con algo que podría pasar, ese sueño crece en otro lugar y vive su propia historia, aunque tú sólo veas una. Todas las formas en que podrías pintar un dibujo existen guardadas como cuadros que alguien, en algún lado, sí pintó.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Existe al menos un universo para cada posibilidad real",
+      "subnodo": "Definición de posibilidad real",
+      "contexto": "¿Qué distingue a una posibilidad real de una meramente lógica o imaginada?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Existe al menos un universo para cada posibilidad real",
+      "subnodo": "Límite de la cuantificación existencial",
+      "contexto": "¿Es posible establecer un criterio para universalizar la construcción del multiverso?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Existe al menos un universo para cada posibilidad real",
+      "subnodo": "Verificabilidad ontológica",
+      "contexto": "¿Puede haber acceso causal o epistémico entre universos para justificar su existencia?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No existe verificación empírica y la distinción entre 'real' y 'lógica' permanece problemática."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si toda posibilidad real implica un universo existente",
+      "conclusion": "El conjunto de universos es, en principio, infinito o al menos incontable",
+      "notas": "Esto asume que las posibilidades reales no pueden ser finitas salvo que las leyes del ser limiten la realización."
+    },
+    {
+      "origen": "Cada posibilidad real implica existencia de un universo separado",
+      "conclusion": "El universo único (monismo fuerte) queda refutado bajo esta hipótesis",
+      "notas": "Sólo si la variedad es mera apariencia y no hay autarquía causal, el monismo resiste."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Existe al menos un universo para cada posibilidad real",
+      "descripcion": "Posibilidades lógicamente coherentes pero físicamente irreales (ejemplo: un universo donde los números primos dejan de ser infinitos, pero la estructura matemática lo prohíbe).",
+      "grado_de_refutacion": "parcial",
+      "notas": "Demuestra que no toda posibilidad lógica implica posibilidad real, limitando el rango del principio."
+    },
+    {
+      "afirmacion_refutada": "Existe al menos un universo para cada posibilidad real",
+      "descripcion": "Principio de economía ontológica (Navaja de Occam): postular infinitos universos sin evidencia directa es insatisfactorio según algunos criterios científicos.",
+      "grado_de_refutacion": "parcial",
+      "notas": "No elimina la posibilidad pero debilita su atractivo como explicación fundamental."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En física cuántica, múltiples resultados posibles colapsan pero sólo un resultado se actualiza por observador.",
+      "inferencia": "La multiplicidad potencial no implica necesariamente multiplicidad real. La experiencia no da acceso a los otros 'universos'.",
+      "grado_de_confianza": "medio",
+      "notas": "Hay interpretación en la mecánica cuántica (Everett) que sugiere multiversos, pero no hay consenso."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La idea de que cada posibilidad real genera un universo es fértil para imaginar la hiperpluralidad como fundamento, pero la falta de criterios claros de realizabilidad ontológica y la ausencia de evidencia hace de esta afirmación una heurística de especulación más que un principio empírico.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Existe al menos un universo para cada posibilidad real",
+        0,
+        0,
+        1
+      ],
+      [
+        "Toda posibilidad lógica genera existencia",
+        0,
+        1,
+        0
+      ],
+      [
+        "Universos múltiples pueden ser verificados",
+        0,
+        1,
+        0
+      ],
+      [
+        "El monismo es necesariamente falso",
+        0,
+        1,
+        0
+      ],
+      [
+        "El multiverso es coherente como construcción lógica",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La paradoja de la realización: ¿qué criterio separa lo posible de lo realizable sin caer en trivialidad ontológica?",
+    "ambiguedad": "Ambigüedad en 'realidad': ¿se refiere al potencial, a lo observado, a lo necesario, o a lo contingente?",
+    "contradiccion_util": "Lo que no puede ser verificado puede circular libremente; la afirmación permite explorar teorías sin anclaje experimental, fertilizando creatividad teórica."
+  },
+  "reorganizacion_analoga": [
+    "Como en un árbol cuántico donde cada rama crece en dirección a todos los futuros posibles.",
+    "Como una biblioteca infinita (Borges) donde todo libro posible existe en algún estante.",
+    "Como un sistema operativo que ejecuta todas las ramificaciones posibles de un programa en máquinas virtuales paralelas.",
+    "Como un genoma que codifica todas las combinaciones posibles, pero sólo algunas se expresan."
+  ],
+  "implicacion_transformadora": [
+    "Invita a un pensamiento no exclusivo: la realidad no es unívoca ni cerrada.",
+    "Abre espacio a la imaginación científica y la teorización filosófica más allá de la verificación.",
+    "Puede servir como marco de exploración para modelos multicausales o narrativas alternativas.",
+    "Impulsa el análisis de límites entre lo epistemológicamente accesible y lo metafísicamente postulable."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No se puede decidir formalmente ni refutar totalmente; se trata de una hipótesis racionalmente válida, fructífera pero no comprobable."
+  }
+}

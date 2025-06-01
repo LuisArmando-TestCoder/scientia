@@ -1,0 +1,131 @@
+{
+  "nodo_semantico_de_entrada": "Experiencia como narrativa al ser recordada",
+  "nodo_semantico_central": "Transformación de experiencia en relato",
+  "firma_ontologica": {
+    "naturaleza": "proceso de transformación mental",
+    "funcion": "Convertir vivencias en relatos organizados en el acto de recordar",
+    "dominio": "epistemología, psicología cognitiva, fenomenología",
+    "forma": "transducción narrativa secuencial",
+    "tension": "la universalidad del cambio experiencial versus la posibilidad de memoria pre-narrativa",
+    "limite": "depende de la definición de experiencia, de memoria y de narración (problema de límites semánticos)"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Experiencia",
+      "definicion": "Lo que una conciencia vive, percibe o siente directamente, antes de cualquier interpretación."
+    },
+    {
+      "termino": "Narrativa",
+      "definicion": "Conjunto ordenado y articulado de eventos, imágenes o ideas con estructura o sentido reconocible."
+    },
+    {
+      "termino": "Recordar",
+      "definicion": "Proceso mental de traer al presente imágenes, impresiones o sensaciones vividas en el pasado, con o sin modificación."
+    },
+    {
+      "termino": "Transformación",
+      "definicion": "Cambio de forma o estructura, aquí aplicado a cómo la experiencia cruda se vuelve relato articulado."
+    }
+  ],
+  "transduccion_preconceptual": "Cuando recuerdas algo que te pasó, tu mente lo cuenta como si fuera una pequeña película o cuento, aunque lo hayas sentido como algo confuso o muy rápido. Es como si para entender lo que pasó, tu cabeza pusiera cada cosa en orden y le diera sentido como a una historia que puedes contar a otros (o a ti mismo).",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Toda experiencia se vuelve narrativa al ser recordada",
+      "subnodo": "Universalidad de la narrativización",
+      "contexto": "¿Hay alguna experiencia que, al ser recordada, no se articule en forma de relato?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Hay memorias puras, no discursivas",
+      "subnodo": "Memoria pre-narrativa (sensorial, corporal, no-verbal)",
+      "contexto": "¿Puede una memoria sensorial o motriz no convertirse en relato, sino permanecer como sensación o imagen sin relato explícito?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Ambigüedad en la definición operacional de narrativa; posible existencia tanto de recuerdos estructurados como relatos como de recuerdos fragmentarios/sensoriales no narrativos."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de narrativa como estructura organizada con sentido",
+      "conclusion": "Si recordar exige organizar, entonces cualquier recuerdo genuino es ya una narrativa mínima.",
+      "notas": "Asume que organización mínima (principio de orden temporal/causal) siempre ocurre."
+    },
+    {
+      "origen": "Existencia de memorias puramente sensoriales",
+      "conclusion": "No todo recuerdo requiere articulación verbal o estructuración secuencial.",
+      "notas": "La memoria corporal o sensorial puede no formar narrativa explícita."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda experiencia se vuelve narrativa al ser recordada",
+      "descripcion": "Recuerdos fugaces o sensaciones sin contexto verbal, como el recuerdo del olor de la lluvia o de una emoción pura, sin asociarla a una secuencia de hechos.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Implica que la memoria puede permanecer en estado pre-narrativo o fragmentario, aunque posteriormente se pueda narrativizar si se reflexiona sobre ella."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Personas suelen relatar recuerdos en forma de historias, aún los eventos pequeños o triviales.",
+      "inferencia": "La tendencia narrativa es fuerte, y la experiencia tiende a ser organizada en relatos tras uso repetido de la memoria.",
+      "grado_de_confianza": "alto",
+      "notas": "Patrón observado en lenguaje cotidiano, terapias narrativas y auto-reflexión."
+    },
+    {
+      "patron_observado": "A veces los recuerdos son fragmentarios, imágenes sueltas o sensaciones sin orden temporal.",
+      "inferencia": "La narrativización plena puede requerir un procesamiento adicional, no es instantánea ni universal.",
+      "grado_de_confianza": "medio",
+      "notas": "Depende de la experiencia, nivel de consciencia y contexto cultural/individual."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La memoria humana tiene una fuerte propensión a narrativizar la experiencia, pero puede retener fragmentos o núcleos pre-narrativos. La narrativización ocurre como dispositivo de comprensión, comunicación o integración psíquica, pero no abarca automáticamente cualquier recuerdo.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda experiencia se vuelve narrativa al ser recordada",
+        0,
+        0,
+        1
+      ],
+      [
+        "Algunas memorias permanecen pre-narrativas al recordarse",
+        1,
+        0,
+        0
+      ],
+      [
+        "La narrativización es necesaria para la integración consciente",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El intento de recordar implica organizar, pero la organización puede partir de fragmentos no narrativos.",
+    "ambiguedad": "¿Hasta qué punto una sensación recordada sin secuencia ni causalidad es narrativa?",
+    "contradiccion_util": "La memoria integra tanto narrativa como pre-narrativo; lo recordado puede oscilar entre lo estructurado y lo fragmentario."
+  },
+  "reorganizacion_analoga": [
+    "Como tomar piezas sueltas de un rompecabezas y, a veces, armar una imagen completa, y a veces sólo sostener una pieza sin contexto.",
+    "Como un álbum incompleto, donde algunas fotos forman historias y otras quedan sueltas.",
+    "Como grabar sonidos dispersos y luego, al escucharlos, algunos se convierten en canciones y otros sólo en ecos."
+  ],
+  "implicacion_transformadora": [
+    "Comprender que la narrativización no es universal invita a ejercicios de memoria más allá de la palabra, como el arte, la danza o la evocación sensorial.",
+    "Invita a repensar la educación y la terapia para integrar métodos pre-narrativos/expresivos.",
+    "No toda experiencia debe narrarse para ser significativa; hay valor en lo inarticulado."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El análisis revela que la proposición es muy fuerte y no se sostiene universalmente; la evidencia muestra zonas grises y dualidad entre lo narrativo y lo no narrativo en la memoria."
+  }
+}

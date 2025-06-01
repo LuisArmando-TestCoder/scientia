@@ -1,0 +1,136 @@
+{
+  "nodo_semantico_de_entrada": "Algunos dominios no observados pueden tener leyes distintas",
+  "nodo_semantico_central": "Potencial diversidad legal en dominios inobservados",
+  "firma_ontologica": {
+    "naturaleza": "proposición epistemológica hipotética",
+    "funcion": "Explorar la posible variabilidad de las leyes en regiones o sistemas que aún no han sido observados",
+    "dominio": "epistemología, metafísica, ciencias fundamentales",
+    "forma": "ramificación condicional / espacio de posibilidades",
+    "tension": "indeterminación estructural sobre lo no observado; frontera observacional",
+    "limite": "no falsabilidad empírica directa, posible irreducibilidad computacional"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "dominio",
+      "definicion": "región conceptual, física, matemática o cognitiva delimitada"
+    },
+    {
+      "termino": "no observado",
+      "definicion": "área fuera del alcance actual de medición, percepción o modelado"
+    },
+    {
+      "termino": "leyes",
+      "definicion": "principios organizativos que gobiernan el comportamiento de un sistema"
+    },
+    {
+      "termino": "distinto",
+      "definicion": "diferente en contenido, estructura o mecanismo respecto a lo conocido"
+    },
+    {
+      "termino": "algunos",
+      "definicion": "se refiere a un subconjunto posible, no universal"
+    }
+  ],
+  "transduccion_preconceptual": "Es como mirar una caja cerrada y pensar que podría tener juguetes diferentes a los que ya conoces, porque nadie ha abierto esa caja todavía. Quizá en otras cajas, las reglas para jugar sean otras.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El dominio no observado puede tener leyes distintas",
+      "subnodo": "hipótesis de variabilidad legal",
+      "contexto": "Pensar si lo desconocido necesariamente debe parecerse a lo conocido"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "No todos los dominios no observados tienen leyes distintas",
+      "subnodo": "hipótesis de similitud potencial",
+      "contexto": "Es posible que algunos dominios no observados sigan las mismas leyes"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "No se puede saber si los dominios no observados tienen leyes distintas sin observarlos",
+      "subnodo": "irreductibilidad epistemológica",
+      "contexto": "Problema del límite observacional y acceso empírico"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No es posible resolver empíricamente la afirmación sin observación, aunque el razonamiento inductivo y deductivo permite contemplar ambos casos (distinción o similitud)."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición de dominio y ley",
+      "conclusion": "Si un dominio no ha sido observado, no hay evidencia directa sobre sus leyes.",
+      "notas": "La posibilidad lógica existe, la realidad empírica no se puede afirmar ni negar."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todos los dominios no observados tienen leyes distintas",
+      "descripcion": "La homogeneidad cósmica observada sugiere que muchas regiones cumplen leyes similares, aunque no todas hayan sido verificadas directamente.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Argumento basado en extrapolación inductiva de la experiencia observada"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En la ciencia, regiones históricamente no observadas frecuentemente han confirmado las mismas leyes de la física tras su estudio",
+      "inferencia": "Existe una tendencia a suponer regularidad, pero no puede garantizarse universalidad",
+      "grado_de_confianza": "medio",
+      "notas": "Posibilidad de excepciones, no descarta la afirmación original"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Afirmar que algunos dominios no observados pueden tener leyes distintas es coherente bajo la ignorancia epistemológica, manteniendo abiertas tanto la posibilidad de regularidad como de diversidad.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Todos los dominios no observados tienen leyes distintas",
+        0,
+        1,
+        0
+      ],
+      [
+        "Ningún dominio no observado tiene leyes distintas",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunos dominios no observados pueden tener leyes distintas",
+        0,
+        0,
+        1
+      ],
+      [
+        "No se puede saber si las leyes son distintas sin observación",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La imposibilidad de conocer la ley de un dominio no observado sin observarlo",
+    "ambiguedad": "El significado de 'algunos' —¿es posibilidad lógica o existencia real?",
+    "contradiccion_util": "Cuanta más regularidad descubro, más me permito imaginar la diferencia; la diversidad es necesaria para justificar la búsqueda epistemológica."
+  },
+  "reorganizacion_analoga": [
+    "Como imaginar planetas con gravedad invertida en zonas no viajadas del cosmos.",
+    "Como la matemática de geometrías no euclidianas antes de hallar ejemplos físicos.",
+    "Como la caja negra de un programa: solo al ejecutarlo sabemos sus reglas internas."
+  ],
+  "implicacion_transformadora": [
+    "Reconocer la apertura ontológica de lo no observado estimula la creatividad científica y prepara para revoluciones paradigmáticas.",
+    "La ciencia debe mantener la humildad y apertura ante la posibilidad de alteridad fundamental en lo no explorado.",
+    "La validación empírica sigue siendo el límite: mientras no se observe, las hipótesis sólo expanden el espacio del pensamiento posible."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El análisis recursivo preserva la indefinición basal, pues la falta de observación impide resolución lógica definitiva; la proposición es heurísticamente fértil pero formalmente irrefutable/inconfirmable."
+  }
+}

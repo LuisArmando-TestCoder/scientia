@@ -1,0 +1,148 @@
+{
+  "nodo_semantico_de_entrada": "La física conocida cubre todas las posibilidades cosmológicas",
+  "nodo_semantico_central": "Cobertura epistemológica de la física sobre la cosmología",
+  "firma_ontologica": {
+    "naturaleza": "afirmación absolutista epistemológica",
+    "funcion": "delimitar el alcance totalizante de las teorías físicas actuales sobre dominios cosmológicos potenciales",
+    "dominio": "física teórica, cosmología, epistemología de la ciencia",
+    "forma": "pretensión universal de cierre explicativo",
+    "tension": "ambigüedad por irreducibilidad de lo desconocido y la posibilidad de falsación futura",
+    "limite": "vinculación al estado actual del conocimiento y a lo empíricamente verificable"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "física conocida",
+      "definicion": "las teorías y modelos aceptados en la comunidad científica que explican fenómenos observables mediante leyes formales validadas"
+    },
+    {
+      "termino": "posibilidades cosmológicas",
+      "definicion": "todos los escenarios, estructuras y dinámicas que el universo podría manifestar, observables o no"
+    },
+    {
+      "termino": "cubrir",
+      "definicion": "explicar exhaustiva y completamente bajo reglas explícitas"
+    },
+    {
+      "termino": "todas",
+      "definicion": "sin excepción; incluye lo conocido, lo desconocido y lo aún impensado"
+    }
+  ],
+  "transduccion_preconceptual": "Imaginar que tienes una caja mágica que dice que puede contener todos los juguetes posibles, incluso los que nunca has visto. Pero ¿qué tal si existen juguetes fuera de tu imaginación, demasiado pequeños para ver o demasiado grandes para caber en la caja?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La física conocida es suficiente para explicar cualquier universo posible",
+      "subnodo": "Suficiencia explicativa absoluta",
+      "contexto": "Supone que nuestro sistema de leyes y modelos abarca infinitas formas de la realidad aún no observadas"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "No hay fenómenos cosmológicos fuera del alcance teórico actual",
+      "subnodo": "Negación de desconocidos incógnitos",
+      "contexto": "Elimina la posibilidad de nuevos fenómenos por descubrir"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Lo observacionalmente inaccesible no contradice la física conocida",
+      "subnodo": "Suposición de silencio cosmológico",
+      "contexto": "Plantea que la ausencia de evidencia no es evidencia de ausencia de teoría suficiente"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "falso",
+    "criterio": "Existen múltiples contraejemplos teóricos (materia oscura/energía oscura, multiversos, métricas exóticas) y límites epistémicos reconocidos (irreductibilidad computacional, física más allá del horizonte observable); la afirmación es absoluta y no puede sostenerse con los datos ni la estructura de la ciencia actual."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Por el principio de inexhaustividad epistemológica",
+      "conclusion": "Ningún sistema formal puede garantizar que cubre todos los estados posibles de realidades cosmológicas",
+      "notas": "Gödel, Turing, problemas de medida cuántica"
+    },
+    {
+      "origen": "Historia de la física",
+      "conclusion": "Todo marco que parecía cubrir 'todo' fue superado por anomalías o descubrimientos inesperados",
+      "notas": "Newton→Einstein→Mecánica cuántica"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La física conocida cubre todas las posibilidades cosmológicas",
+      "descripcion": "Fenómenos como la materia y energía oscura no tienen explicación satisfactoria en el marco estándar; teorías de multiverso y universos inflacionarios proponen realidades no abarcadas por el modelo actual",
+      "grado_de_refutacion": "parcial",
+      "notas": "Incluso aceptando los modelos actuales como útiles, tienen lagunas reconocidas"
+    },
+    {
+      "afirmacion_refutada": "No hay fenómenos fuera del alcance teórico actual",
+      "descripcion": "El descubrimiento de la aceleración de la expansión cósmica no estaba predicho ni por la relatividad general ni por los modelos aceptados antes de 1998",
+      "grado_de_refutacion": "total",
+      "notas": "La inclusión de la energía oscura fue ad hoc"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Nuevos fenómenos cósmicos tienden a desafiar marcos existentes",
+      "inferencia": "El conocimiento científico progresa incorporando excepciones y anomalías; imposible asegurar cierre definitivo",
+      "grado_de_confianza": "alto",
+      "notas": "Patrón recurrente en la historia de la física y la astronomía"
+    },
+    {
+      "patron_observado": "La formulación de modelos universales suele generar zonas de frontera epistemológica",
+      "inferencia": "El borde entre lo conocido y lo posible es inherentemente móvil",
+      "grado_de_confianza": "medio",
+      "notas": "Ejemplo: límites de la cosmología observacional vs. inflacionaria"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Todo modelo físico necesariamente enfrenta el horizonte móvil de lo desconocido; el valor epistemológico está en su capacidad adaptativa, no en su pretensión de clausura universal; la física es mapa, no territorio.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La física conocida cubre todas las posibilidades cosmológicas",
+        0,
+        1,
+        0
+      ],
+      [
+        "Existen fenómenos cosmológicos fuera del alcance actual",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda teoría física puede ser completada",
+        0,
+        1,
+        0
+      ],
+      [
+        "Puede haber universos físicamente inconcebibles",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Pretender que el conocimiento actual cierra todos los posibles futuros descubrimientos implica negar la dinámica básica del progreso científico",
+    "ambiguedad": "¿Qué define 'posibilidad cosmológica' si muchas no son observables o son metafísicas?",
+    "contradiccion_util": "El dogma del cierre científico incentiva la creatividad teórica, produciendo nuevas aperturas"
+  },
+  "reorganizacion_analoga": [
+    "Caja negra de posibilidades: siempre mayor que su contenido visible",
+    "Fractales cuyo borde nunca se alcanza al avanzar en la escala",
+    "Juego de exploración: cada nuevo movimiento revela espacios insospechados"
+  ],
+  "implicacion_transformadora": [
+    "La epistemología científica requiere abrazar la incompletitud y la apertura, evitando clausuras dogmáticas",
+    "El avance cosmológico depende de la disposición a encontrar lo inesperado, no de la consolidación de sistemas cerrados"
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "La revisión lógica, histórica y prospectiva subraya la imposibilidad de afirmar el cierre; la proposición es incompatible con la evidencia y con los principios abiertos de la ciencia."
+  }
+}

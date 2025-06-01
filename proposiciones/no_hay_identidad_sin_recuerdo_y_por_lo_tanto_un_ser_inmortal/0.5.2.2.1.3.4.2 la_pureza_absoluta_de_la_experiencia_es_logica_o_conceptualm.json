@@ -1,0 +1,158 @@
+{
+  "nodo_semantico_de_entrada": "La pureza absoluta de la experiencia es lógica o conceptualmente posible",
+  "nodo_semantico_central": "Posibilidad de pureza absoluta en la experiencia",
+  "firma_ontologica": {
+    "naturaleza": "proposición filosófica",
+    "funcion": "explorar límites ontológicos y epistemológicos de la experiencia",
+    "dominio": "fenomenología, epistemología, lógica modal",
+    "forma": "afirmación absoluta",
+    "tension": "colisión entre idealidad y facticidad; exige eliminación de toda mediación o contaminación semántica/conceptual",
+    "limite": "roza la irreducibilidad y la paradoja cuando se exige un estado puro en sistemas semióticamente mediados"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "pureza absoluta",
+      "definicion": "ausencia total de mezcla, interferencia o mediación; estado incondicionado"
+    },
+    {
+      "termino": "experiencia",
+      "definicion": "aparición subjetiva de fenómenos, sensaciones, vivencias o datos internos/exteriores"
+    },
+    {
+      "termino": "posibilidad lógica",
+      "definicion": "condición de no ser contradictorio en términos formales"
+    },
+    {
+      "termino": "posibilidad conceptual",
+      "definicion": "condición de poder ser pensado coherentemente, aun si no realizado"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina tener un vaso de agua tan limpia que no hay nada, nada más: ni polvo, ni burbujas, ni siquiera el sabor del vaso. Pero para saber si está limpia, tienes que mirar, oler o probar… y cada vez que lo haces, ¿sigue estando igual de limpia como antes?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La pureza absoluta de la experiencia es lógica o conceptualmente posible",
+      "subnodo": "Experiencia no mediada",
+      "contexto": "¿Puede haber experiencia sin ninguna mezcla ni interferencia?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La pureza absoluta es lógicamente posible",
+      "subnodo": "Pureza en términos modales",
+      "contexto": "¿Sería contradictorio postular una experiencia completamente pura?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "La pureza absoluta es conceptualmente posible",
+      "subnodo": "Coherencia del concepto de pureza absoluta",
+      "contexto": "¿Es pensable un estado de experiencia puro, sin contaminación conceptual?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición es ambigua: posible en plano lógico formal, problemática en plano fenomenológico; la experiencia parece requerir siempre 'forma' o mediación"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de experiencia como fenómeno mediado",
+      "conclusion": "Si toda experiencia es mediada, la pureza absoluta sería imposible en la práctica",
+      "notas": "Esto depende de aceptar que 'experimentar' implica diferencia, variación, referencia"
+    },
+    {
+      "origen": "Posibilidad lógica (no contradicción formal)",
+      "conclusion": "No hay contradicción en imaginar una experiencia pura en abstracto",
+      "notas": "No implica realizabilidad empírica"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La pureza absoluta de la experiencia es conceptualmente posible",
+      "descripcion": "Toda experiencia requiere un marco de referencia o contraste (ejemplo: no se puede experimentar 'puro vacío' sin un sujeto que distinga vacío de no-vacío)",
+      "grado_de_refutacion": "parcial",
+      "notas": "El marco conceptual mismo introduce una mediación mínima"
+    },
+    {
+      "afirmacion_refutada": "La pureza absoluta de la experiencia es lógicamente posible",
+      "descripcion": "Aplicación estricta de la autoinclusión: una experiencia plenamente pura no puede referirse ni a sí misma; se autopierde como experiencia",
+      "grado_de_refutacion": "parcial",
+      "notas": "Si la pureza absoluta implica ausencia total de alteridad o distinción, también implica la anulación del sujeto que la experimenta"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Todas las experiencias conocidas involucran contraste o referencia",
+      "inferencia": "La pureza absoluta no ha sido observada; su posibilidad empírica es baja",
+      "grado_de_confianza": "alto",
+      "notas": "Las prácticas meditativas buscan acercarse, pero siempre mediante alguna técnica o forma"
+    },
+    {
+      "patron_observado": "En términos matemáticos y formales, se postulan conjuntos puros o elementos básicos",
+      "inferencia": "Podría pensarse en pureza lógica como ideación, pero no como vivencia",
+      "grado_de_confianza": "medio",
+      "notas": "La realización 'vivida' es diferente que la abstracción lógica"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La pureza absoluta de la experiencia es un ideal límite: es formalmente imaginable (como asintótico), pero toda experiencia vivida implica, al menos, la mediación auto-referencial del sujeto. Así, la idea de pureza absoluta cumple función regulativa más que realizable.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La pureza absoluta de la experiencia es lógica o conceptualmente posible",
+        0,
+        0,
+        1
+      ],
+      [
+        "Es lógicamente posible postular experiencia pura",
+        1,
+        0,
+        0
+      ],
+      [
+        "Es conceptualmente posible experimentar pureza absoluta",
+        0,
+        1,
+        0
+      ],
+      [
+        "Empíricamente puede lograrse pureza absoluta de la experiencia",
+        0,
+        1,
+        0
+      ],
+      [
+        "Pureza absoluta implica ausencia total de referencia",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El acto de experimentar pureza destruye la pureza postulada (la experiencia es siempre un hecho mediado)",
+    "ambiguedad": "No queda claro si pureza absoluta es exigencia fenomenológica, lógica o solo regulativa",
+    "contradiccion_util": "El ideal de pureza absoluta guía prácticas y teorías aun sabiendo que es inalcanzable; su imposibilidad práctica es fuente de creatividad"
+  },
+  "reorganizacion_analoga": [
+    "El cero absoluto en termodinámica: considerado como ideal inalcanzable, pero útil para estructuras teóricas",
+    "El vacío cuántico: parece puro, pero siempre contiene fluctuaciones",
+    "El juego de un niño que intenta no pensar en nada: en cuanto lo intenta, surge algún pensamiento",
+    "El color blanco puro: cualquier superficie, al observarse, revela impurezas",
+    "Un cristal ideal en matemáticas vs. todos los cristales reales"
+  ],
+  "implicacion_transformadora": [
+    "La búsqueda de pureza absoluta puede llevar a la clarificación y refinamiento de la experiencia, aunque la pureza perfecta no sea realizable",
+    "Reconocer los límites de la pureza absoluta permite aceptar y trabajar con la complejidad irreductible de la conciencia y la experiencia",
+    "Las teorías que buscan estados absolutos suelen generar heurísticas poderosas cuando se aceptan como horizontes y no como logros",
+    "La pregunta puede derivar prácticas de deconstrucción conceptual (meditación, crítica filosófica, metacognición)"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El análisis revela que el nodo opera como ideal regulativo, no como posibilidad pragmática o fenómeno real; la proposición permanece en el limbo entre posibilidad lógica y facticidad empírica"
+  }
+}

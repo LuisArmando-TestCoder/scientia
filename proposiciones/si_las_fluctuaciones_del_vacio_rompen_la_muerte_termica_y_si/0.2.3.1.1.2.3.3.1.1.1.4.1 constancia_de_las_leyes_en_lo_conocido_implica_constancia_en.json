@@ -1,0 +1,147 @@
+{
+  "nodo_semantico_de_entrada": "Constancia de las leyes en lo conocido implica constancia en lo desconocido",
+  "nodo_semantico_central": "principio de extrapolación de leyes",
+  "firma_ontologica": {
+    "naturaleza": "principio epistémico hipotético",
+    "funcion": "permitir extensión inductiva de regularidades observadas a lo no observado",
+    "dominio": "epistemología, filosofía de la ciencia",
+    "forma": "inferencial, linealidad epistemológica",
+    "tension": "depende del supuesto de uniformidad de la naturaleza; puede caer en circularidad inductiva",
+    "limite": "no puede ser fundamentado únicamente por experiencia empírica; está sujeto a falibilismo"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "constancia",
+      "definicion": "persistencia, estabilidad o repetición sistemática de un patrón o regla"
+    },
+    {
+      "termino": "leyes",
+      "definicion": "relaciones estructurales aceptadas como invariantes en el universo observado"
+    },
+    {
+      "termino": "conocido",
+      "definicion": "aquello que ha sido observado, experimentado o comprendido"
+    },
+    {
+      "termino": "desconocido",
+      "definicion": "ámbitos fuera del registro empírico o conceptual actual"
+    },
+    {
+      "termino": "implicación",
+      "definicion": "suposición de transferencia lógica de una propiedad de un dominio a otro"
+    }
+  ],
+  "transduccion_preconceptual": "Si siempre que lanzo una pelota en el patio cae al piso, pienso que si lanzo una en otro lado también caerá, aunque no lo haya visto. Pero puede que en una casa nueva el piso sea de aire.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El comportamiento regular de lo conocido ocurre igual en lo no observado",
+      "subnodo": "principio de uniformidad",
+      "contexto": "Hipótesis central de la inferencia inductiva científica"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "No se puede verificar el desconocido sin observarlo",
+      "subnodo": "falacia inductiva potencial",
+      "contexto": "Crítica escéptica a la extrapolación universal"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El principio es fundacional para la ciencia, pero su verdad lógica es indemostrable y depende de una suposición metafísica."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de constancia y extrapolación lógica",
+      "conclusion": "Si las leyes fueran absolutamente constantes, la extrapolación siempre sería válida.",
+      "notas": "Esto solo sería verdadero en sistemas cerrados, no necesariamente aplicable al universo real."
+    },
+    {
+      "origen": "Límites empíricos de lo conocido",
+      "conclusion": "No se puede demostrar que lo no observado siga las mismas leyes solo por la experiencia pasada.",
+      "notas": "Argumento clásico de Hume sobre el problema de la inducción."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La constancia en lo conocido implica necesariamente constancia en lo desconocido",
+      "descripcion": "Descubrimiento de regiones físicas (como la mecánica cuántica) en las que las leyes clásicas no aplican igual que en lo macroscópico.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La extrapolación falla al cruzar dominios no análogos."
+    },
+    {
+      "afirmacion_refutada": "Las leyes de la física son invariantes en todo el universo",
+      "descripcion": "Hipótesis cosmológicas sobre variación temporal o espacial de constantes universales.",
+      "grado_de_refutacion": "parcial",
+      "notas": "No hay evidencia concluyente, pero tampoco garantía absoluta de invariancia."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Repetición de patrones en experimentos idénticos",
+      "inferencia": "La repetibilidad favorece la confianza en la extrapolación, pero no la justifica absolutamente.",
+      "grado_de_confianza": "medio",
+      "notas": "Siempre bajo percepción de contingencia contextual."
+    },
+    {
+      "patron_observado": "Fallas empíricas al extender modelos a ámbitos no observados previamente (ej., Newton → relatividad)",
+      "inferencia": "Ampliar un marco teórico puede requerir nuevas reglas fuera del dominio previo.",
+      "grado_de_confianza": "alto",
+      "notas": "Indicación de límites a la inducibilidad universal."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Todo principio de constancia universal es, en el fondo, una heurística pragmática para la acción y no una garantía metafísica absoluta. Sirve como regla orientadora, pero es inherentemente provisional.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La constancia en lo conocido implica constancia en lo desconocido",
+        0,
+        0,
+        1
+      ],
+      [
+        "La uniformidad puede asumirse con éxito operativo en ciencia",
+        1,
+        0,
+        0
+      ],
+      [
+        "No puede demostrarse empíricamente la constancia fuera del dominio observado",
+        1,
+        0,
+        0
+      ],
+      [
+        "Existen contraejemplos donde extrapolar falla",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Confiar en extrapolación es necesario para el conocimiento, pero su fundamento último es indemostrable.",
+    "ambiguedad": "No está determinado a priori hasta dónde se puede extrapolar / hasta qué escala.",
+    "contradiccion_util": "El avance científico usa la extrapolación, pero aprende de las excepciones y quiebres cuando la extrapolación falla."
+  },
+  "reorganizacion_analoga": [
+    "Como caminar sobre un puente construido sobre niebla: se avanza asumiendo que el puente sigue, pero siempre hay posibilidad de un vacío.",
+    "Como usar una regla milimetrada para medir el mundo y luego encontrar regiones que no pueden ser medidas con esa regla.",
+    "Como aplicar una llave maestra esperando que todas las puertas funcionen igual, hasta que se encuentra una cerradura diferente."
+  ],
+  "implicacion_transformadora": [
+    "La ciencia y el conocimiento requieren asumir regularidad, pero deben estar abiertos a auto-corrigirse ante lo nuevo.",
+    "El pensamiento crítico exige reconocer las suposiciones ocultas de la extrapolación y mantenerlas en revisión constante.",
+    "No existe una garantía racional absoluta de la uniformidad universal; todo método debe incorporar mecanismos de revisión ante anomalías."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El análisis recursivo muestra que la proposición es útil y necesaria, pero lógicamente indemostrable; el límite es heurístico, no ontológico."
+  }
+}

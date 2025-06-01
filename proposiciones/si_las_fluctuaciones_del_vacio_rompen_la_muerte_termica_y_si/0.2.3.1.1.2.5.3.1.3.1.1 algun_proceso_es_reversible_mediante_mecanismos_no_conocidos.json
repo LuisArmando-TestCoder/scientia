@@ -1,0 +1,144 @@
+{
+  "nodo_semantico_de_entrada": "Algún proceso es reversible mediante mecanismos no conocidos",
+  "nodo_semantico_central": "Reversibilidad desconocida en procesos",
+  "firma_ontologica": {
+    "naturaleza": "afirmación de posibilidad parcial",
+    "funcion": "postular la existencia de procesos reversibles por medios aún no identificados",
+    "dominio": "epistemología/física/teoría de sistemas",
+    "forma": "conjetura algunista abierta",
+    "tension": "imprecisión en los mecanismos y alcance; zóna gris entre lo posible y lo incognoscible",
+    "limite": "incertidumbre sobre la existencia y accesibilidad del mecanismo; incompletitud informacional"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "proceso",
+      "definicion": "Serie ordenada de pasos o transformaciones que producen un cambio"
+    },
+    {
+      "termino": "reversible",
+      "definicion": "Capaz de regresar a un estado anterior bajo ciertas condiciones"
+    },
+    {
+      "termino": "mecanismos",
+      "definicion": "Medios, métodos o agentes que posibilitan el cambio o la reversión"
+    },
+    {
+      "termino": "no conocidos",
+      "definicion": "Fuera del alcance actual del conocimiento humano o científico"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que una caja se transforma en pelota, pero no sabemos cómo regresar la pelota a la caja porque no encontramos el botón secreto. Quizás existe, pero todavía nadie lo ha visto.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Hay mecanismos de reversión no conocidos",
+      "subnodo": "Hipótesis de existencia latente",
+      "contexto": "Epistemologías que aceptan la provisionalidad del conocimiento"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La reversibilidad depende de los mecanismos",
+      "subnodo": "Dependencia condicional",
+      "contexto": "Teoría física: procesos irreversibles vs reversibles (según leyes conocidas)"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "La falta de conocimiento impide el uso del mecanismo",
+      "subnodo": "Límite gnoseológico",
+      "contexto": "Principio de incompletitud en sistemas complejos"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación no puede ser totalmente verificada ni refutada con el conocimiento actual; depende de futuros descubrimientos o redefiniciones epistémicas"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Significado de algúnismo",
+      "conclusion": "No se afirma que todos los procesos sean reversibles, sólo la posibilidad de que exista al menos uno",
+      "notas": "Puede ser cierto incluso si sólo se encuentra un caso entre infinitos"
+    },
+    {
+      "origen": "Diferencia entre desconocimiento y no existencia",
+      "conclusion": "El hecho de que no se conozcan mecanismos no implica su inexistencia",
+      "notas": "Cuidado con el sesgo de ignorancia"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Algún proceso es reversible mediante mecanismos no conocidos",
+      "descripcion": "Si todos los procesos conocidos e investigados resultan irreversibles incluso ante tecnologías superiores hipotéticas",
+      "grado_de_refutacion": "parcial",
+      "notas": "Solo debilita la afirmación si existe una prueba exhaustiva de irreversibilidad"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Ha habido procesos considerados irreversibles que luego se demostró que sí lo eran con mecanismos posteriormente descubiertos (ej. ciertas reacciones químicas, avances tecnológicos)",
+      "inferencia": "Es razonable suponer que algunos procesos puedan resultar reversibles en el futuro mediante nuevos mecanismos",
+      "grado_de_confianza": "medio",
+      "notas": "Patrón observado históricamente pero no generalizable sin reservas"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La reversibilidad epistemológica depende tanto del avance tecno-científico como de redefiniciones conceptuales de proceso y mecanismo. El desconocimiento operativo no es evidencia concluyente de imposibilidad.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Existe (al menos) un proceso que es reversible mediante mecanismos no conocidos actualmente",
+        0,
+        0,
+        1
+      ],
+      [
+        "Todo proceso es reversible",
+        0,
+        1,
+        0
+      ],
+      [
+        "Ningún proceso es reversible",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunos procesos irreversibles hoy, podrían ser reversibles mañana",
+        0,
+        0,
+        1
+      ],
+      [
+        "Todo mecanismo no conocido es inexistente",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Ignorancia productiva: no saber si ignoramos o si hay imposibilidad absoluta",
+    "ambiguedad": "Reversibilidad y mecanismo no tienen unívoco sentido técnico en todos los contextos",
+    "contradiccion_util": "Afirmar posibilidad sin prueba ni refutación práctica estimula la investigación pero nunca culmina en certeza"
+  },
+  "reorganizacion_analoga": [
+    "La hipótesis de los cisnes negros (algo desconocido puede aparecer)",
+    "La historia de la alquimia y la química (transmutación imposible → posible ante nuevos conocimientos)",
+    "El enigma de la máquina de movimiento perpetuo",
+    "El concepto matemático de problemas indecidibles"
+  ],
+  "implicacion_transformadora": [
+    "Debemos permanecer abiertos ante el descubrimiento de nuevas vías de reversibilidad para procesos que hoy parecen cerrados",
+    "Promover la investigación de mecanismos alternativos aun sin evidencia actual",
+    "La incertidumbre epistemológica es fuente de creatividad, no parálisis"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Por soporte inductivo leve y falta de refutación exhaustiva, el estatus se mantiene abierto y productivamente ambiguo – ni verdadero ni falso, sino promesa epistemológica"
+  }
+}

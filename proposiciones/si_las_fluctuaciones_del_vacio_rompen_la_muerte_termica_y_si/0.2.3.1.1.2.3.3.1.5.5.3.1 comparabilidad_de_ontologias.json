@@ -1,0 +1,125 @@
+{
+  "nodo_semantico_de_entrada": "Comparabilidad de ontologías",
+  "nodo_semantico_central": "Comparación de ontologías en un único universo",
+  "firma_ontologica": {
+    "naturaleza": "relación epistemológica",
+    "funcion": "evaluar las estructuras de conocimiento en el mismo conjunto de referencia",
+    "dominio": "ontología, epistemología, metafísica",
+    "forma": "mapeo, isomorfismo, red de correspondencias",
+    "tension": "La posibilidad o imposibilidad de correspondencia total/de parcialidad semántica y estructural.",
+    "limite": "Condicionada por los criterios de equivalencia, el alcance de los lenguajes y la irreducibilidad interpretativa local."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "comparar",
+      "definicion": "examinar dos o más cosas para ver en qué son iguales o diferentes"
+    },
+    {
+      "termino": "ontología",
+      "definicion": "conjunto de conceptos y relaciones fundamentales que describen lo que existe en un sistema"
+    },
+    {
+      "termino": "universo",
+      "definicion": "conjunto de todo lo que se considera dentro de un mismo marco de realidad o referencia"
+    },
+    {
+      "termino": "criterio de equivalencia",
+      "definicion": "regla que determina cuándo dos objetos/conceptos pueden ser considerados iguales en algún sentido relevante"
+    }
+  ],
+  "transduccion_preconceptual": "Imagínate que tienes dos cajas de juguetes diferentes. Ambas están en el mismo cuarto, y quieres ver si hay juguetes parecidos, diferentes o que hagan lo mismo, aunque se llamen distinto. Puedes comparar porque los dos están en el mismo cuarto, pero si uno tiene juguetes secretos que nunca ves, puede ser difícil estar seguro si comparaste todo.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El concepto de ‘un mismo universo’ implica acceso compartido a las mismas entidades referenciales.",
+      "subnodo": "unidad de referencia semántica",
+      "contexto": "¿Es posible la comparación si los sistemas no tienen referencia compartida o se expresan en distintos lenguajes?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Las ontologías pueden tener estructuras incompatibles aunque habiten el mismo universo.",
+      "subnodo": "inconmensurabilidad estructural",
+      "contexto": "¿Puede haber puntos ciegos o irreductibilidad al intentar compararlas?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La posibilidad de comparación depende de la existencia de referencias comunes; existen contrasituaciones donde la comparación falla por inconmensurabilidad semántica o estructural."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición de universo compartido",
+      "conclusion": "Si hay un universo común, existe al menos un mínimo marco compartido para la comparación.",
+      "notas": "La comparación puede ser sólo parcial; la equivalencia total no está garantizada."
+    },
+    {
+      "origen": "existencia de criterios de equivalencia",
+      "conclusion": "La comparación es efectiva sólo si los criterios están definidos e intertraducidos.",
+      "notas": "Falta de criterios compartidos = imposibilidad operativa."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Siempre se puede comparar ontologías en el mismo universo",
+      "descripcion": "Dos lenguajes formales pueden describir el mismo conjunto de objetos sin poder traducir ciertas relaciones no expresables en ambos (ver teoremas de incompletitud o teorías topológicamente no equivalentes).",
+      "grado_de_refutacion": "parcial",
+      "notas": "La comparación absoluta falla si hay propiedades no mapeables."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En las ciencias, muchas ontologías distintas pueden compararse mediante traducciones o equivalencias parciales, pero siempre existen zonas oscuras o ‘restos’ no mapeables.",
+      "inferencia": "La comparabilidad es funcional, no absoluta.",
+      "grado_de_confianza": "alto",
+      "notas": "Se apoya en la experiencia multidisciplinar y en análisis de modelos formales."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "Las ontologías dentro de un mismo universo son comparables en la medida en que existe alguna referencia compartida, pero toda comparación está limitada por la granularidad semántica, los criterios de equivalencia y la posibilidad de inconmensurabilidad parcial.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Se puede comparar ontologías dentro de un mismo universo en todos los casos",
+        0,
+        0,
+        1
+      ],
+      [
+        "Se puede comparar parcialmente ontologías en un mismo universo si existe algún marco común",
+        1,
+        0,
+        0
+      ],
+      [
+        "La comparación absoluta nunca es posible",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La comparación presupone interpretabilidad recíproca, pero la existencia de puntos ciegos estructurales puede impedir la traducción total.",
+    "ambiguedad": "¿Qué constituye ‘un mismo universo’? ¿El marco de referencia ontológico o el acceso epistémico-real?",
+    "contradiccion_util": "La posibilidad de comparación motiva nuevas formas de traducción o nuevos lenguajes puente."
+  },
+  "reorganizacion_analoga": [
+    "Como comparar mapas de una misma ciudad hechos con reglas cartográficas distintas.",
+    "Como analizar dos recetas distintas para el mismo platillo usando ingredientes con nombres locales.",
+    "Como convertir monedas en un mercado donde algunos billetes son irreconocibles para ciertas máquinas."
+  ],
+  "implicacion_transformadora": [
+    "El análisis epistemológico requiere explicitar los criterios de equivalencia y los límites de traducción.",
+    "La práctica ontológica debe asumir zonas de inconmensurabilidad y buscar construir nuevos puentes semánticos.",
+    "La comparación promueve la creatividad teórica, aunque jamás garantiza homogeneidad total."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La comparabilidad es condicional; la posibilidad real depende del marco conceptual y de las herramientas de traducción disponibles. Se mantiene la indeterminación por la existencia, en principio, de casos extremos de inconmensurabilidad."
+  }
+}

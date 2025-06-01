@@ -1,0 +1,114 @@
+{
+  "nodo_semantico_de_entrada": "La inexistencia de contraejemplo equivale a verdad universal",
+  "nodo_semantico_central": "Verdad universal por ausencia de contraejemplo",
+  "firma_ontologica": {
+    "naturaleza": "principio lógico",
+    "funcion": "criterio de validación de universalidad",
+    "dominio": "lógica matemática / epistemología",
+    "forma": "implicación condicional",
+    "tension": "asimetría entre posibilidad y exhaustividad",
+    "limite": "dependencia de la completitud del dominio de casos"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Contraejemplo",
+      "definicion": "Un caso particular que contradice una afirmación general"
+    },
+    {
+      "termino": "Verdad universal",
+      "definicion": "Afirmación que se cumple en todos los casos posibles dentro de un dominio especificado"
+    },
+    {
+      "termino": "Equivalencia",
+      "definicion": "Relación en la cual dos condiciones siempre se corresponden mutuamente"
+    },
+    {
+      "termino": "Inexistencia",
+      "definicion": "Ausencia verificable de al menos un caso contradictorio"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes un montón de canicas de diferentes colores en una caja. Si buscas y buscas y nunca encuentras una canica azul, puedes pensar que no hay ninguna azul en la caja. Pero, ¿seguro que miraste todas? Decir que no hay azul solo porque no viste una es como apostar a que buscaste en todo el universo de canicas.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La inexistencia de contraejemplo equivale a verdad universal",
+      "subnodo": "Certeza por exhaustividad",
+      "contexto": "¿Es posible garantizar que no hay contraejemplos en dominios infinitos o desconocidos?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La no detección de contraejemplo implica universalidad",
+      "subnodo": "Confusión entre 'no encontrado' y 'no existente'",
+      "contexto": "¿La búsqueda incompleta produce una afirmación universal?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Ambigüedad entre conocimiento limitado y completitud del dominio; sólo es verdad bajo dominio finito, exhaustivamente explorado."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de verdad universal y lógica formal",
+      "conclusion": "Si existe aunque sea un contraejemplo, la afirmación universal es falsa. Si ninguno existe y se ha verificado exhaustivamente el dominio, la afirmación puede considerarse verdadera.",
+      "notas": "Requiere acceso a la totalidad del dominio. En dominios infinitos la afirmación es insostenible."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La inexistencia de contraejemplo equivale a verdad universal",
+      "descripcion": "Teorema falsificado décadas después de formulado. P.ej., conjetura de Euler sobre potencias: durante siglos no hubo contraejemplo conocido hasta que apareció uno inesperado.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Afirmaciones universales pueden resistir largo tiempo sin contraejemplo, pero no son verdaderas hasta agotar el dominio."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En ciencias naturales y matemáticas, muchas proposiciones se mantienen como 'verdaderas' hasta la aparición de un solo contraejemplo.",
+      "inferencia": "La evidencia empírica respalda el valor provisional del método, pero nunca garantiza la universalidad fuera de dominios finitos.",
+      "grado_de_confianza": "medio",
+      "notas": "Método útil en ciencia, pero inherentemente provisional."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La universalidad lógica puede, en la práctica, sostenerse sobre la ausencia temporal de contraejemplos, pero ontológicamente depende de la completitud del dominio: el salto de 'no encontrado' a 'no existe' es problemático salvo bajo control exhaustivo.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Para dominios finitos exhaustivamente verificados, la falta de contraejemplo equivale a verdad universal",
+        1,
+        0,
+        0
+      ],
+      [
+        "Para dominios infinitos o incompletamente verificados, la falta de contraejemplo equivale a verdad universal",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "En dominios infinitos, jamás se puede verificar la inexistencia absoluta de contraejemplo, salvo por demostración formal.",
+    "ambiguedad": "Equivocación frecuente entre 'no observado' y 'no existente'.",
+    "contradiccion_util": "La propia ciencia avanza apoyándose provisionalmente en universales basados en ausencia de refutación, aceptando su reemplazo en cuanto surge un contraejemplo."
+  },
+  "reorganizacion_analoga": [
+    "Como buscar vida en otros planetas: la ausencia de evidencia no es evidencia de ausencia.",
+    "Como una prueba de seguridad que encuentra cero fallos tras mil intentos: útil, pero nunca garantía absoluta fuera de límites finitos.",
+    "Como decir que no hay monstruos bajo la cama porque nunca has visto uno: sólo certeza si revisaste debajo de todas las camas posibles."
+  ],
+  "implicacion_transformadora": [
+    "En epistemología y ciencia, toda verdad universal debe ser sostenida provisionalmente hasta la aparición de contraejemplo o prueba formal absoluta.",
+    "Desarrollar sistemas de validación que distingan entre evidencia negativa (no encontrado) y verificación exhaustiva.",
+    "Formar pensamiento crítico hacia las afirmaciones universales, requiriendo siempre la explicitación del dominio y el nivel de exhaustividad alcanzada."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La validez de la equivalencia depende estrictamente de la naturaleza finita o infinita del dominio; en la mayor parte de los contextos reales es sólo una heurística, no una ley universal."
+  }
+}

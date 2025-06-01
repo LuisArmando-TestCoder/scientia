@@ -1,0 +1,120 @@
+{
+  "nodo_semantico_de_entrada": "Alguna posibilidad real no se actualiza en ningún universo posible",
+  "nodo_semantico_central": "No realización de posibilidades reales",
+  "firma_ontologica": {
+    "naturaleza": "proposición modal",
+    "funcion": "explorar la actualización ontológica de las posibilidades consideradas 'reales'",
+    "dominio": "metafísica, lógica modal",
+    "forma": "afirmación existencial (algunismo) negativa universal",
+    "tension": "Tensión entre posibilidad real y actualización en universos posibles; posible conflicto entre la noción de posibilidad real y su actualización modal.",
+    "limite": "El concepto de 'real' no está definido axiomáticamente; su interpretación depende del marco metafísico adoptado."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "posibilidad real",
+      "definicion": "una posibilidad que, bajo ciertos criterios ontológicos, no es ficticia o ilusoria, sino admitida en alguna estructura de realidad"
+    },
+    {
+      "termino": "actualización",
+      "definicion": "el proceso o hecho de que una posibilidad se haga efectiva o acontezca en algún sentido modal"
+    },
+    {
+      "termino": "universo posible",
+      "definicion": "un modelo o dominio completo donde ciertas posibilidades se realizan y otras no, según la lógica modal"
+    },
+    {
+      "termino": "ningún",
+      "definicion": "negación universal que excluye la ocurrencia en todo el dominio considerado"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes una caja llena de dados mágicos. Algunos tienen muchas caras, otros pocas. Tienes una lista de posibles números que podrían salir (posibilidades reales), pero se dice que hay al menos uno de esos números que, sin importar cuántas veces tires los dados o cuántos juegos inventes (universos posibles), nunca va a salir.",
+  "iteraciones": [
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "La existencia de posibilidades reales no garantiza su actualización en universos posibles",
+      "subnodo": "Brecha entre posibilidad real y realización modal",
+      "contexto": "¿Ser 'real' implica necesariamente la posible actualización en algún universo posible?"
+    },
+    {
+      "id": "1.1.2",
+      "afirmacion_base": "Algunas posibilidades reales podrían ser irreductibles computacionalmente en universos posibles",
+      "subnodo": "Irreducibilidad existencial",
+      "contexto": "¿Hay posibilidades cuya realización está más allá de cualquier construcción modal/computable de universos?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La ambigüedad semántica de 'posibilidad real' y su desalineación con la estructura de universos posibles genera una tensión sin resolución axiomática clara."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Lógica modal clásica (posibilidad/actualidad)",
+      "conclusion": "Si una posibilidad es real pero no se actualiza en ningún universo posible, debe haber una distinción entre 'posibilidad real' y 'posibilidad modal'.",
+      "notas": "Esto sugiere la existencia de un plano ontológico distinto al modal tradicional."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda posibilidad real se actualiza en al menos un universo posible",
+      "descripcion": "La imposibilidad lógica (por ejemplo, una ronda de ajedrez donde ambos reyes están en jaque) es considerada real por algunas definiciones pero no ocurre en ningún universo consistente.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Depende de cómo se califica la 'realidad' de la posibilidad."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En construcciones teóricas (por ejemplo, matemática), existen objetos posibles coherentes que nunca ocurren en el universo físico",
+      "inferencia": "La posibilidad 'real' puede depender del contexto o del sistema de reglas elegido.",
+      "grado_de_confianza": "medio",
+      "notas": "La extrapolación metafísica desde contextos locales es incierta."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El espacio de las posibilidades reales podría ser más amplio que el espacio de actualización modal–algunas posibilidades reales están ontológicamente 'fuera de alcance' de toda generación de universos modales, delineando una frontera entre lo meramente pensable y lo potencialmente actualizable.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Alguna posibilidad real no se actualiza en ningún universo posible",
+        0,
+        0,
+        1
+      ],
+      [
+        "Toda posibilidad real se actualiza en al menos un universo posible",
+        0,
+        1,
+        0
+      ],
+      [
+        "Existen posibilidades reales que son irreductibles modalmente",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "Si la realidad de una posibilidad depende de su actualización, entonces la ausencia de actualización cuestiona su 'realidad'; pero si no depende, ¿qué tipo de realidad es esa?",
+    "ambiguedad": "Diferencia entre realidad ontológica y posibilidad modal; posible equívoco entre 'real' y 'posible'.",
+    "contradiccion_util": "La tensión genera exploraciones fructíferas sobre la naturaleza del ser y del poder-ser, abriendo caminos hacia ontologías más ricas."
+  },
+  "reorganizacion_analoga": [
+    "Como un número primo inconsciente en la serie infinita de los números naturales: existe, pero nunca se muestra bajo ciertas reglas.",
+    "Como un color fuera del espectro visible: físicamente representable, pero jamás experimentado en ningún ojo.",
+    "Como una melodía escrita que nunca es interpretada."
+  ],
+  "implicacion_transformadora": [
+    "Invita a definir marcos más refinados para la distinción entre realidad, posibilidad y actualización.",
+    "Sugiere límites del poder predictivo y explicativo de la lógica modal respecto a la ontología.",
+    "Abre la cuestión de lo inactualizable como fuente de nuevos paradigmas filosóficos o lógicos."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación queda en estado indefinido al no resolverse la ambigüedad central entre los criterios ontológicos y modales adoptados; requiere clarificación axiomática adicional."
+  }
+}

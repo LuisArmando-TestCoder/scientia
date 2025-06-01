@@ -1,0 +1,158 @@
+{
+  "nodo_semantico_de_entrada": "Modelos cosmológicos con entropía decreciente",
+  "nodo_semantico_central": "Entropía decreciente en cosmologías alternativas",
+  "firma_ontologica": {
+    "naturaleza": "posibilidad teórica",
+    "funcion": "Explorar la coherencia física y lógica de universos con entropía global decreciente",
+    "dominio": "cosmología, termodinámica, metafísica",
+    "forma": "modelo hipotético, campo de posibilidades",
+    "tension": "Contradicción con la segunda ley de la termodinámica en su forma clásica; potencial compatibilidad en marcos simétricos o de tiempo reverso",
+    "limite": "Depende del marco cosmológico y de definiciones operacionalizadas de 'entropía' y 'globalidad'"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "modelo cosmológico",
+      "definicion": "conjunto de ideas para describir cómo es y cambia el universo en grande"
+    },
+    {
+      "termino": "entropía",
+      "definicion": "medida de cuánto se desordenan las cosas en un sistema"
+    },
+    {
+      "termino": "decrecimiento",
+      "definicion": "que algo se hace menos conforme pasa el tiempo"
+    },
+    {
+      "termino": "globalmente",
+      "definicion": "en todo el universo, no solo en una parte"
+    },
+    {
+      "termino": "segunda ley de la termodinámica",
+      "definicion": "idea de que el desorden (entropía) siempre crece o se queda igual"
+    },
+    {
+      "termino": "tiempo reversible",
+      "definicion": "proceso teórico donde los cambios pueden ir para adelante o para atrás sin romper las reglas"
+    }
+  ],
+  "transduccion_preconceptual": "Imagínate que tienes un gran juego de bloques lego desordenados en el piso. Cada vez que juegas, generalmente hay más desorden. Pero aquí te dicen que, en vez de eso, ¡los bloques poco a poco se van poniendo en orden solos en toda la casa! Es como ver una película al revés, donde el caos se cambia por orden en todo el mundo del juego.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El universo puede tener entropía decreciente en algún modelo",
+      "subnodo": "Simetría temporal y universos espejo",
+      "contexto": "¿Existen marcos donde las leyes físicas permiten inversión temporal global?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La segunda ley de la termodinámica es universal",
+      "subnodo": "Condiciones de aplicabilidad de la ley",
+      "contexto": "¿Es la ley válida en todos los contextos o depende de condiciones iniciales?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No hay consenso teórico ni observacional; depende de supuestos y definición de los términos."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición tradicional de entropía y segunda ley",
+      "conclusion": "En el universo observable, la entropía tiende a aumentar.",
+      "notas": "Basada en experiencia empírica y formalismo estadístico"
+    },
+    {
+      "origen": "Simetría CPT y algunos modelos de universo espejo",
+      "conclusion": "Pueden existir soluciones formales en las que una flecha temporal inversa disminuya entropía, desde una perspectiva local interna.",
+      "notas": "No hay evidencia experimental disponible de estos universos; son consistentes dentro de marcos lógicos extendidos."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La entropía siempre debe crecer globalmente en todos los modelos posibles",
+      "descripcion": "Modelos cosmológicos de Big Bounce o universos espejo donde el tiempo se invierte y la entropía decrece desde una singularidad",
+      "grado_de_refutacion": "parcial",
+      "notas": "Son soluciones matemáticas más que físicas comprobadas; requieren condiciones exóticas"
+    },
+    {
+      "afirmacion_refutada": "Es imposible que la entropía disminuya en algún sistema cerrado",
+      "descripcion": "Fluctuaciones estadísticas extremas pueden, teóricamente, producir pequeñas disminuciones locales",
+      "grado_de_refutacion": "parcial",
+      "notas": "No implica decrecimiento global persistente, pero ilustra la no absolutización"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En experimentos y observaciones actuales, la entropía macroscopica siempre aumenta",
+      "inferencia": "La experiencia física apoya la ley clásica, pero no explora todos los posibles modelos cosmológicos",
+      "grado_de_confianza": "alto",
+      "notas": "La extrapolación a otros modelos es conjetural"
+    },
+    {
+      "patron_observado": "Algunos modelos formales permiten simetría temporal",
+      "inferencia": "Puede haber contextos teóricos donde la entropía decrece si los axiomas son distintos",
+      "grado_de_confianza": "medio",
+      "notas": "La ausencia de evidencia no es evidencia de ausencia"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La afirmación sobre entropía decreciente desafía el absolutismo de la segunda ley en cosmología, señalando que su universalidad puede depender del marco teórico, condiciones iniciales y estructuras profundas de simetría. Lo que es imposible en un contexto puede ser coherente en otro con una ontología diferente del tiempo y la causalidad.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Existen modelos cosmológicos donde la entropía decrece globalmente",
+        0,
+        0,
+        1
+      ],
+      [
+        "La segunda ley de la termodinámica es absoluta en todos los modelos",
+        0,
+        1,
+        0
+      ],
+      [
+        "Es posible invertir la flecha del tiempo en modelos físicos coherentes",
+        0,
+        0,
+        1
+      ],
+      [
+        "El universo observable muestra decrecimiento de entropía",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunismo: Hay casos teóricos de entropía decreciente",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "La segunda ley es considerada absoluta pero cede ante ciertas simetrías o marcos alternativos.",
+    "ambiguedad": "¿Qué se entiende exactamente por 'entropía' y 'global'? ¿Es globalidad universal, multiversal o de región causal?",
+    "contradiccion_util": "La contraposición entre experiencia empírica y constructos teóricos fertiliza nuevas exploraciones sobre el tiempo y las leyes físicas."
+  },
+  "reorganizacion_analoga": [
+    "Como una película que puede proyectarse al revés sin perder sentido en otro universo.",
+    "Como una montaña rusa que, después de la cima, puede volver por el mismo recorrido en reversa.",
+    "Como ecuaciones simétricas donde cambiar el signo del tiempo genera nuevos universos posibles."
+  ],
+  "implicacion_transformadora": [
+    "Pone límite a los absolutismos en leyes físicas: lo que consideramos universal puede ser emergente o contextual.",
+    "Abre la exploración hacia una cosmología plural con escenarios insospechados.",
+    "Obliga a revisar la semántica de 'orden', 'caos' y 'flujo temporal' en ontologías expandidas.",
+    "Puede inspirar modelos computacionales de sistemas reversibles o exploración filosófica sobre la causalidad."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación es consistente en algunos marcos teóricos pero no validada empíricamente; la indeterminación favorece la fertilidad paradigmática y no la clausura conceptual."
+  }
+}

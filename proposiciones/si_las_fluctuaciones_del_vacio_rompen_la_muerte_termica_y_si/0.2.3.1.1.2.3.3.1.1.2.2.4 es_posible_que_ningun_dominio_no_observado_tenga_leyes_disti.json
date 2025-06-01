@@ -1,0 +1,129 @@
+{
+  "nodo_semantico_de_entrada": "Es posible que ningún dominio no observado tenga leyes distintas",
+  "nodo_semantico_central": "Uniformidad posible de leyes en dominios no observados",
+  "firma_ontologica": {
+    "naturaleza": "Afirmación modal",
+    "funcion": "Hipótesis sobre la uniformidad de leyes en sistemas fuera de observación",
+    "dominio": "epistemología, filosofía de la ciencia, lógica modal",
+    "forma": "Posibilidad negativa universal",
+    "tension": "Entre posibilidad, desconocimiento y límites de observación",
+    "limite": "Irreductibilidad computacional sobre lo no observable; dependencia del principio de uniformidad de la naturaleza"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Dominio no observado",
+      "definicion": "Región, sistema o conjunto del cual no tenemos observación directa o medición"
+    },
+    {
+      "termino": "Leyes distintas",
+      "definicion": "Reglas, patrones o regularidades que difieren de las conocidas u observadas"
+    },
+    {
+      "termino": "Posible",
+      "definicion": "No contradice la lógica ni la evidencia disponible, pero no implica certeza"
+    },
+    {
+      "termino": "Ningún",
+      "definicion": "Universal negativa: cero casos"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes muchos cofres cerrados. No puedes abrirlos ni ver adentro. Piensas que quizás todos tienen el mismo tesoro, pero no hay forma de estar seguro. Solo puedes imaginar que podría ser así; nadie puede decir que sea imposible ni cierto hasta abrir los cofres.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Es posible que ningún dominio no observado tenga leyes distintas",
+      "subnodo": "Universalidad modal",
+      "contexto": "¿Puede la imposibilidad de observación implicar uniformidad?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Dominio no observado",
+      "subnodo": "Definición de inaccesibilidad epistémica",
+      "contexto": "Explorando lo que significa y limita la noción de 'no observado'"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Tener leyes distintas",
+      "subnodo": "Posibilidad de ruptura del principio de uniformidad",
+      "contexto": "¿Puede algo sin observación tener reglas fuera del alcance lógico y físico conocido?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El juicio depende de la epistemología adoptada y del principio de uniformidad, pero carece de evidencia. Hay irreducibilidad computacional e imposibilidad de verificación directa."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Principio de uniformidad de la naturaleza",
+      "conclusion": "Si asumes que las leyes son uniformes, entonces la afirmación sería congruente aunque no demostrable",
+      "notas": "Depende de axioma, no de evidencia empírica fuera del ámbito observado"
+    },
+    {
+      "origen": "Definición de 'posible'",
+      "conclusion": "No afirmar imposibilidad implica que la hipótesis permanece lógica, aunque incognoscible",
+      "notas": "Distinción entre lo posible, lo probable y lo verificable"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Es posible que ningún dominio no observado tenga leyes distintas",
+      "descripcion": "El multiverso en teorías físicas permite dominios con constantes y leyes diferentes aunque inobservables",
+      "grado_de_refutacion": "parcial",
+      "notas": "Aun así, no hay evidencia empírica directa; el contraejemplo es teórico, muestra posibilidades pero no establece hechos"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "La mayoría de los fenómenos observados comparten regularidades hasta que una observación rompe la pauta",
+      "inferencia": "Es inductivamente plausible suponer continuidad, pero siempre es vulnerable a excepciones desconocidas",
+      "grado_de_confianza": "medio",
+      "notas": "La inducción siempre puede ser refutada por un nuevo caso"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La imposibilidad de observar no limita la imaginación de lo posible, pero tampoco permite unificar bajo un principio de certeza. La epistemología se bifurca entre el axioma de uniformidad y la apertura radical a lo desconocido.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Es posible que ningún dominio no observado tenga leyes distintas bajo el principio de uniformidad",
+        1,
+        0,
+        0
+      ],
+      [
+        "Es posible que ningún dominio no observado tenga leyes distintas sin el principio de uniformidad",
+        0,
+        0,
+        1
+      ],
+      [
+        "Todos los dominios no observados necesariamente tienen las mismas leyes",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "No observable implica siempre desconocido; afirmar uniformidad sin acceso es circular",
+    "ambiguedad": "¿Implica 'posible' una verdad, una suposición metodológica o una simple falta de contradicción?",
+    "contradiccion_util": "El mismo marco que permite imaginar la posibilidad, impide refutarla de raíz"
+  },
+  "reorganizacion_analoga": [
+    "Como mirar el lado oculto de la Luna antes de la era espacial: asumimos que es similar, pero la certeza sólo llega con observación",
+    "Como el contenido de una caja negra: toda hipótesis es válida hasta que la abrimos"
+  ],
+  "implicacion_transformadora": [
+    "Reconocer los límites de la inferencia más allá de la observabilidad: la ciencia trabaja en el borde epistemológico, nunca en el centro del misterio",
+    "Toda construcción teórica sobre dominios inobservados debe apegarse a una prudencia justamente proporcional a su falta de evidencia"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación no puede colapsarse lógicamente fuera de axiomas adoptados. Su verdad depende de metasistemáticas filosóficas, no observacionales."
+  }
+}

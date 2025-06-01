@@ -1,0 +1,121 @@
+{
+  "nodo_semantico_de_entrada": "La narratividad es necesaria para la conceptualización de experiencia",
+  "nodo_semantico_central": "Narratividad como requisito de conceptualización experiencial",
+  "firma_ontologica": {
+    "naturaleza": "relación funcional (proceso cognitivo-representacional)",
+    "funcion": "Determinar si la estructura narrativa es condición necesaria para formar conceptos a partir de experiencias.",
+    "dominio": "epistemología, teoría de la mente, lingüística cognitiva",
+    "forma": "condición modal, dependencia estructural",
+    "tension": "Universalidad vs particularidad; interioridad de experiencia vs estructura lingüística; necesidad vs suficiencia.",
+    "limite": "La noción de experencia puede no requerir representación narrativa según contexto (experiencia sin verbalización consciente)."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Narratividad",
+      "definicion": "Organización de eventos, acciones o estados en secuencias coherentes con sentido, típicamente orientadas a un principio, desarrollo y conclusión."
+    },
+    {
+      "termino": "Conceptualización",
+      "definicion": "Proceso de formar conceptos a partir de información percibida o vivida, mediante abstracción y categorización."
+    },
+    {
+      "termino": "Experiencia",
+      "definicion": "Vivencia o suceso percibido/experimentado por una conciencia; materia prima de la cognición subjetiva."
+    },
+    {
+      "termino": "Necesidad",
+      "definicion": "Requisito lógico o causal sin el cual el fenómeno no ocurre en ningún caso."
+    }
+  ],
+  "transduccion_preconceptual": "Es como cuando un niño juega: para entender lo que siente y ve, a veces cuenta una historia con sus juguetes. Pero otras veces sólo siente sin palabras o historias. ¿Siempre necesita hacer una historia para entender lo que pasa?",
+  "iteraciones": [
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "La conceptualización de experiencia sin narratividad es imposible.",
+      "subnodo": "Experiencia conceptualizada sin narración (análisis de casos excepcionales)",
+      "contexto": "Experiencia sensorial o emocional sin articulación narrativa (ejemplo: dolor, placer, miedo primario)."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación depende del tipo de experiencia (simbólica vs pre-verbal) y del nivel de conceptualización involucrado. Hay evidencia de formas de conceptualización no narrativas (por ejemplo, categorización perceptiva inmediata)."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de necesidad",
+      "conclusion": "Si existe siquiera un mecanismo alterno de conceptualización, la necesidad estricta de la narratividad queda refutada.",
+      "notas": "Basta con un contraejemplo para refutar el absolutismo."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La narratividad es indispensable para toda conceptualización de experiencia.",
+      "descripcion": "Conceptualización visual inmediata, reconocimiento de formas o emociones básicas en animales y bebés prelingüísticos, procesamiento de patrones en inteligencia artificial sin mediación narrativa.",
+      "grado_de_refutacion": "total",
+      "notas": "El procesamiento conceptual puede ocurrir mediante esquemas, patrones o mapeos directos sin narración."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "La mayoría de los relatos autobiográficos, memorias y aprendizajes complejos emergen en forma narrativa.",
+      "inferencia": "Narratividad es común y útil en la conceptualización de experiencia, especialmente en seres humanos socializados.",
+      "grado_de_confianza": "alto",
+      "notas": "Predomina en memoria episódica y transmisión cultural, pero no es universal."
+    }
+  ],
+  "teoria_o_intuicion_emergente": "La narratividad es un modo privilegiado y flexiblemente dominante para conceptualizar experiencias complejas, pero existen modos alternativos (esquemas, imágenes, emociones) que pueden conceptuar la experiencia sin requerir narrativa.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda conceptualización de experiencia requiere narratividad.",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunas conceptualizaciones de experiencia pueden prescindir de narratividad.",
+        1,
+        0,
+        0
+      ],
+      [
+        "La conceptualización sin narratividad es irrelevante para seres humanos adultos.",
+        0,
+        1,
+        0
+      ],
+      [
+        "En la infancia o en animales, la conceptualización se da a menudo sin narrativa.",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "¿Cómo se conceptualizan experiencias puramente sensoriales, sin tiempo, ni agente, ni secuencia?",
+    "ambiguedad": "El término 'narratividad': ¿implica mínima secuencia, o requiere estructura narrativa completa?",
+    "contradiccion_util": "La negación de necesidad absoluta abre múltiples caminos alternativos de conceptualización."
+  },
+  "reorganizacion_analoga": [
+    "Procesamiento visual inmediato (como un animal reconociendo peligro)",
+    "Formación de hábitos motores sin verbalización (tocar un instrumento)",
+    "Algoritmos de IA que categorizan datos sin relatar historias",
+    "La música abstracta: genera sensación/emoción sin narrativa explícita"
+  ],
+  "implicacion_transformadora": [
+    "Enseñar y comunicar experiencia puede tomar rutas no narrativas (visual, corporal, emocional, algorítmica)",
+    "Los sistemas artificiales y naturales pueden conceptuar experiencias mediante formas no discursivas.",
+    "Favorece la apertura a pedagogías y epistemologías multimodales que reconozcan la pluralidad de formas de conceptualización más allá de la narrativa tradicional."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "La universalidad de la necesidad es refutada por contraejemplo empírico y conceptual: la narrativa es potente pero no indispensable; existen alternativas robustas."
+  }
+}

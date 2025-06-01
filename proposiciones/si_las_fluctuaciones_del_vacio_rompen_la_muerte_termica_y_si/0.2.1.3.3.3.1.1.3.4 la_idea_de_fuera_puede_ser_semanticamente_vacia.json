@@ -1,0 +1,156 @@
+{
+  "nodo_semantico_de_entrada": "La idea de ‘fuera’ puede ser semánticamente vacía",
+  "nodo_semantico_central": "Vaciedad semántica del ‘fuera’",
+  "firma_ontologica": {
+    "naturaleza": "relación espacial/conceptual",
+    "funcion": "determinar límites, distinción y exclusión de lo que se considera ‘dentro’",
+    "dominio": "semántica, ontología, lógica de conjuntos",
+    "forma": "borde, límite, frontera variable",
+    "tension": "puede designar la mera negación de un interior, o carecer de contenido propio",
+    "limite": "si ‘fuera’ sólo existe por referencia a ‘dentro’, pierde independencia semántica"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "fuera",
+      "definicion": "lo que no es parte del ‘dentro’, definido por exclusión o posición relativa al contorno de un sistema"
+    },
+    {
+      "termino": "vacío semántico",
+      "definicion": "carece de significado propio, sólo adquiere sentido por negación o contexto"
+    },
+    {
+      "termino": "dentro",
+      "definicion": "todo lo que está incluido en un límite dado"
+    },
+    {
+      "termino": "límite",
+      "definicion": "frontera conceptual o física que separa ‘dentro’ de ‘fuera’"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina una caja. Si piensas en lo que hay adentro, sabes lo que hay. Pero si preguntas qué es lo de afuera, sólo sabes que no es lo de adentro; podrías no saber qué es, sólo que no está en la caja.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El ‘fuera’ puede tener significado propio aparte de ‘dentro’",
+      "subnodo": "Significado autónomo de ‘fuera’",
+      "contexto": "¿Puede el ‘fuera’ describir algo concreto, o sólo ser el resto indefinido?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Cuando todo es ‘fuera’, ‘dentro’ y ‘fuera’ pierden sentido",
+      "subnodo": "Relatividad del límite",
+      "contexto": "¿‘Fuera’ depende únicamente del observador o del marco del sistema?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "‘Fuera’ puede ser usado como sinónimo de ‘no pertenece’",
+      "subnodo": "Negación y pertenencia",
+      "contexto": "Relación entre lógica de conjuntos y semántica cotidiana"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El significado de ‘fuera’ depende enteramente del sistema de referencia, así que puede ser vacía o no según el contexto y el uso"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de fuera como exclusión de dentro",
+      "conclusion": "‘Fuera’ no refiere a propiedades esenciales, sino sólo ausencia de pertenencia",
+      "notas": "Su significado se agota en la negación"
+    },
+    {
+      "origen": "Ontología de límites",
+      "conclusion": "Modificar el límite altera qué es ‘fuera’, mostrando su dependencia contextual",
+      "notas": "El mismo espacio puede ser ‘dentro’ o ‘fuera’ con sólo cambiar la frontera"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El ‘fuera’ siempre es vacío semánticamente",
+      "descripcion": "En física, ‘fuera del sistema solar’ refiere a un espacio con propiedades definidas, no sólo a la negación de ‘dentro’",
+      "grado_de_refutacion": "parcial",
+      "notas": "En dominios técnicos, ‘fuera’ puede tener taxonomías y valores propios"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En el uso cotidiano, ‘fuera’ a menudo se usa sólo en función de lo que se designa como ‘dentro’",
+      "inferencia": "El término suele operar como negación dependiente",
+      "grado_de_confianza": "alto",
+      "notas": "Patrón consistente en topología, semántica y percepción espacial"
+    },
+    {
+      "patron_observado": "‘Fuera’ adquiere contenido cuando se nombra o describe qué contiene ese exterior",
+      "inferencia": "Cuando el ‘fuera’ tiene propiedades asignadas, deja de ser vacío",
+      "grado_de_confianza": "alto",
+      "notas": "El vacío semántico es contingente, no necesario"
+    }
+  ],
+  "teoria_o_intuicion_emergente": "El concepto de ‘fuera’ es relacional y sólo se llena de sentido al referirse a propiedades positivas del exterior o al delimitar explícitamente sus fronteras respecto a un interior; su vaciedad semántica emerge en ausencia de descripción o individuación propia.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El ‘fuera’ es siempre semánticamente vacío en todos los contextos",
+        0,
+        1,
+        0
+      ],
+      [
+        "El ‘fuera’ puede ser semánticamente vacío si no se especifica",
+        1,
+        0,
+        0
+      ],
+      [
+        "El ‘fuera’ adquiere sentido cuando tiene propiedades concretas",
+        1,
+        0,
+        0
+      ],
+      [
+        "‘Fuera’ es meramente lo que no es ‘dentro’",
+        1,
+        0,
+        0
+      ],
+      [
+        "‘Fuera’ y ‘dentro’ son siempre simétricos",
+        0,
+        1,
+        0
+      ],
+      [
+        "’Fuera’ puede tener significado sin referencia a ‘dentro’",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "tension_logica": {
+    "paradoja": "El ‘fuera’, como negación del ‘dentro’, no puede ser descrito sin invocar el ‘dentro’ que lo genera.",
+    "ambiguedad": "En ciertos marcos (filosofía, física, biología), ‘fuera’ puede carecer de sentido si el sistema no está bien definido.",
+    "contradiccion_util": "Para que ‘fuera’ tenga sentido, debe dejar de ser pura exclusión. Pero, al hacerlo, deja de ser simplemente ‘fuera’. La contradicción fecunda surge entre la existencia del borde y su indefinición ontológica."
+  },
+  "reorganizacion_analoga": [
+    "Como el ‘exterior’ de un círculo topológico: existe sólo porque hay un círculo, pero puede convertirse en el ‘interior’ de otro círculo más grande.",
+    "Como una palabra cuya definición sólo existe por la ausencia de letras específicas.",
+    "Como el espacio fuera de una habitación: puede ser un pasillo, el jardín o el universo, dependiendo del límite elegido."
+  ],
+  "implicacion_transformadora": [
+    "Al redefinir ‘fuera’ a través de propiedades positivas y no sólo por negación, los sistemas de referencia ganan precisión, evitando vacíos semánticos.",
+    "La conciencia de la vaciedad semántica obliga a preguntarse por la naturaleza de las fronteras y el contexto de cada distinción.",
+    "En epistemología, impulsa a no asumir que los términos de exclusión son autosuficientes: todo ‘fuera’ es una invitación a nombrar nuevos ‘dentro’.",
+    "La lógica del ‘fuera’ propone siempre una potencial expansión del sistema: todo exterior puede devenir un nuevo interior por desplazamiento de la frontera."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La vaciedad semántica del ‘fuera’ es contingente; sólo es semánticamente vacío si no se le asigna contenido positivo o contexto operacional."
+  }
+}

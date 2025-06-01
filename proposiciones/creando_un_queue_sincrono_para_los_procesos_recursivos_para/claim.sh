@@ -1,0 +1,1 @@
+deno run --allow-read --allow-env --allow-write --allow-net main.ts "creando un queue síncrono para los procesos recursivos para evitar race conditions en la API, se puede poner el API al límite sin romperlo"

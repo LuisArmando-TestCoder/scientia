@@ -1,0 +1,1 @@
+deno run --allow-read --allow-env --allow-write --allow-net main.ts "de la autonegación de la nada misma surge el todo mismo (semánticamente la nada no puede ser nada sin la apariencia de otros conceptos, y la paradoja semántica se convierte en verbo)"

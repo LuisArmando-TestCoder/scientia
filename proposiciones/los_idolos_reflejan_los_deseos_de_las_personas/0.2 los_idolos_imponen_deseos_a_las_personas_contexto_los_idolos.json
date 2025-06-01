@@ -1,0 +1,169 @@
+{
+  "nodo_semantico_de_entrada": "Los ídolos imponen deseos a las personas (contexto: los ídolos reflejan los deseos de las personas)",
+  "nodo_semantico_central": "Relación entre ídolos y deseos en la psique social",
+  "firma_ontologica": {
+    "naturaleza": "relación simbiótica/dialéctica",
+    "funcion": "explicar cómo los ídolos afectan (o co-crean) deseos humanos",
+    "dominio": "psicología social / filosofía de la cultura",
+    "forma": "circuito retroalimentado",
+    "tension": "asimetría de agencia; reflejo vs imposición",
+    "limite": "distinción entre imposición y proyección puede ser difusa; depende de contexto y definición de 'ídolo'"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "ídolo",
+      "definicion": "Figura simbólica (persona, concepto, objeto) idealizada, a la que se le atribuyen valores deseados o admirados."
+    },
+    {
+      "termino": "imponer",
+      "definicion": "Ejercer influencia fuerte o forzada sobre las decisiones o deseos de otros, a veces más allá de la voluntad propia."
+    },
+    {
+      "termino": "deseos",
+      "definicion": "Impulsos internos que orientan la acción buscando satisfacción o sentido."
+    },
+    {
+      "termino": "reflejar",
+      "definicion": "Expresar o mostrar características originadas en otro, como un espejo psíquico."
+    },
+    {
+      "termino": "personas",
+      "definicion": "Sujetos individuales o colectivos portadores de deseos, valores y capacidad de interpretación."
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que hay juguetes muy brillantes. Algunos niños los ven y quieren lo que el juguete dice que deben querer. Pero, al mismo tiempo, el juguete brilla porque los niños ya querían jugar así. ¿Quién empieza primero, el juguete o el deseo?",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Los ídolos imponen deseos a las personas",
+      "subnodo": "Agencia idolátrica",
+      "contexto": "¿El ídolo es causal primario del deseo, o sólo catalizador?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "los ídolos reflejan los deseos de las personas",
+      "subnodo": "Proyección psicosocial",
+      "contexto": "¿El deseo preexiste al ídolo, o el ídolo lo reforma?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "paradoja activa; la causalidad es bidireccional y contextodependiente"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición tradicional de imposición",
+      "conclusion": "Si los ídolos sólo reflejaran pasivamente, no habría imposición. Imposición implica asimetría.",
+      "notas": "El grado de asimetría depende de la agencia percibida por el individuo."
+    },
+    {
+      "origen": "Psicología de masas",
+      "conclusion": "La masa puede proyectar sus deseos en un ídolo, pero después ser transformada por esta proyección convertida en norma.",
+      "notas": "El colectivo resignifica el deseo inicial a través del ídolo."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Los ídolos siempre imponen deseos a las personas",
+      "descripcion": "Hay personas que rechazan los deseos encarnados en ciertos ídolos y desarrollan deseos opuestos.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La reacción puede ser de rebeldía o disidencia frente al ídolo, mostrando límite a la imposición."
+    },
+    {
+      "afirmacion_refutada": "Los ídolos sólo reflejan sin alterar",
+      "descripcion": "Un nuevo ídolo mediático puede instaurar deseos inéditos en una sociedad que antes no los presentaba.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Muestra la capacidad innovadora o disruptiva del ídolo."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Celebridades populares generan tendencias de consumo inesperadas en sus audiencias",
+      "inferencia": "Existe influencia bidireccional; la figura puede despertar, reformar o amplificar deseos.",
+      "grado_de_confianza": "alto",
+      "notas": "Poder mediático y social es verificable empíricamente, aunque no absoluto."
+    },
+    {
+      "patron_observado": "Ídolos locales encarnan valores previamente apreciados por el grupo",
+      "inferencia": "Los ídolos suelen ser elegidos porque ya simbolizan un deseo colectivo.",
+      "grado_de_confianza": "alto",
+      "notes": "La dirección causal varía culturalmente."
+    }
+  ],
+  "conclusion_preconceptual": "A veces el muñeco hace que los niños quieran cosas nuevas, a veces los niños ya querían y el muñeco sólo lo muestra. Ambos bailan juntos.",
+  "teoria_o_intuicion_emergente": "El ídolo y el deseo se co-construyen: el ídolo puede catalizar, transformar e incluso imponer deseos, pero esta imposición es en sí misma expresión parcial del deseo colectivo que lo eligió. El proceso es circular: proyección, refracción, retro-imposición y posible fuga (rechazo/disidencia).",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Los ídolos imponen deseos a las personas (en todos los casos)",
+        0,
+        1,
+        0
+      ],
+      [
+        "Los ídolos reflejan deseos de las personas (en todos los casos)",
+        0,
+        0,
+        1
+      ],
+      [
+        "Toda imposición idolátrica implica agencia unilateral",
+        0,
+        1,
+        0
+      ],
+      [
+        "Puede haber imposición sin proyección previa de deseo",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Los ídolos imponen deseos a las personas (en todos los casos)",
+    "B": "Los ídolos reflejan deseos de las personas (en todos los casos)",
+    "C": "Toda imposición idolátrica implica agencia unilateral",
+    "D": "Puede haber imposición sin proyección previa de deseo"
+  },
+  "formula_booleana_del_argumento": "(¬A ∧ (B∨¬B) ∧ ¬C ∧ (D∨¬D))",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Los ídolos reflejan deseos de las personas (en todos los casos)",
+      "implicacion_por_estado_falso": "El ídolo puede generar deseos autónomamente, acentuando la tesis de imposición.",
+      "implicacion_por_estado_verdadero": "Sólo existe reflejo, la imposición es ilusoria o secundaria."
+    },
+    {
+      "afirmacion": "Puede haber imposición sin proyección previa de deseo",
+      "implicacion_por_estado_falso": "Toda imposición requiere una mínima base proyectada.",
+      "implicacion_por_estado_verdadero": "El ídolo puede imponer absolutamente incluso sin deseo colectivo previo."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "El ídolo parece a la vez reflejo y forjador; la frontera difumina la causalidad.",
+    "ambiguedad": "Dificultad para asignar inicio a la secuencia entre deseo colectivo e ídolo.",
+    "contradiccion_util": "La tensión entre imposición y reflejo muestra que la agencia cultural no es unilateral, sino interdependiente y mutable."
+  },
+  "reorganizacion_analoga": [
+    "Como un eco que amplifica y deforma un grito inicial, generando nuevas ondas que reimpactan al que grita.",
+    "Como un programa de televisión interactivo donde el público decide el contenido, pero el contenido también modifica los gustos del público.",
+    "Como la relación entre la moda y quienes la consumen: las tendencias surgen de abajo y de arriba en simultáneo."
+  ],
+  "implicacion_transformadora": [
+    "Las prácticas de idolatría social pueden ser herramientas de autoconocimiento colectivo si se reconocen como espejos deformantes, no imposiciones absolutas.",
+    "La reforma de deseos a través de los ídolos puede ser usada conscientemente para modificar la cultura o para resistirse a manipulaciones.",
+    "La tensión en la agencia cultural implica que la crítica a los ídolos debe ser también autocrítica social."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "la interacción ídolo-deseo es sistémica, acausal/unilateralidad refutada; los juicios dependen del contexto cultural/histórico/individual."
+  },
+  "reconclusion_preconceptual": "A veces el deseo elige al ídolo y a veces el ídolo cambia al deseo. No se puede decir siempre quién manda. Son como dos amigos que juegan a imitarse, pero nunca sabes quién empezó el juego.",
+  "contexto": "Los ídolos imponen deseos a las personas (contexto: los ídolos reflejan los deseos de las personas)"
+}

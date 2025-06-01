@@ -1,0 +1,155 @@
+{
+  "nodo_semantico_de_entrada": "Toda idolatría refleja un deseo previo",
+  "nodo_semantico_central": "Idolatría como espejo de deseos preexistentes",
+  "firma_ontologica": {
+    "naturaleza": "relación causal",
+    "funcion": "Explicar origen de la idolatría desde la dinámica del deseo",
+    "dominio": "psicología, antropología religiosa",
+    "forma": "bucle reflexivo (presencia-interpretación-atribución)",
+    "tension": "universalidad vs particularidad; causa lineal vs multicausalidad",
+    "limite": "posible falsación por casos sin deseo previo observable"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "idolatría",
+      "definicion": "Acto de atribuir valor sobrehumano o absoluto a una entidad o cosa"
+    },
+    {
+      "termino": "reflejar",
+      "definicion": "Ser manifestación externa de una condición o proceso interno"
+    },
+    {
+      "termino": "deseo previo",
+      "definicion": "Impulso o expectativa interna existente antes del acto de atribución de valor"
+    }
+  ],
+  "transduccion_preconceptual": "Es como cuando un niño dibuja un superhéroe porque primero quiso tener poderes; lo que crea muestra lo que quiere dentro.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Siempre que hay idolatría hubo primero un deseo",
+      "subnodo": "secuencia causal estricta de deseo->idolatría",
+      "contexto": "¿Idolatría puede ocurrir en ausencia total de deseo previo consciente?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Todo tipo de deseo puede generar idolatría",
+      "subnodo": "universalidad del deseo como causa",
+      "contexto": "¿Algunos deseos conducen inevitablemente a idolatría, o sólo ciertos tipos?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Puede existir idolatría sin deseo individual",
+      "subnodo": "idolatría colectiva sin deseo explícito individual",
+      "contexto": "Fenómenos sociales, presión de grupo o herencia cultural"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Puede haber casos donde la idolatría surge por imitación, coerción o costumbre, sin que el deseo previo sea rastreable o consciente; universalidad no demostrada"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si todo ídolo es reflejo de un deseo anterior",
+      "conclusion": "No podría haber idolatría espontánea o inducida sin deseo",
+      "notas": "Excluye posibilidades de manipulación o condicionamiento externo puro"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Siempre que hay idolatría hubo primero un deseo",
+      "descripcion": "En contextos tribales, el culto a tótems puede ser heredado o impuesto colectivamente sin deseo individual previo",
+      "grado_de_refutacion": "parcial",
+      "notas": "El deseo puede ser socializado, latente o simbólico, pero su presencia individualizada es cuestionable"
+    },
+    {
+      "afirmacion_refutada": "Todo tipo de deseo puede generar idolatría",
+      "descripcion": "Deseos fugaces, triviales o conscientes de su carácter efímero no suelen cristalizar en idolatría",
+      "grado_de_refutacion": "parcial",
+      "notas": "No toda aspiración o anhelo deviene en construcción idolátrica"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En múltiples culturas, la introducción de nuevos ídolos coincide con etapas de carencia o proyección de necesidades",
+      "inferencia": "La idolatría suele correlacionarse con la existencia o surgimiento de deseos insatisfechos",
+      "grado_de_confianza": "medio",
+      "notas": "El nexo puede ser difuso, con gradiente de intencionalidad"
+    }
+  ],
+  "conclusion_preconceptual": "Las personas suelen inventar cosas importantes porque primero quieren algo que les falta, pero a veces sólo copian lo que ven.",
+  "teoria_o_intuicion_emergente": "La idolatría es eminentemente proyectiva, pero puede estar mediada o alterada por tradición, imitación y presión colectiva; el deseo previo suele estar presente, aunque no siempre como impulso consciente individual.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda idolatría refleja un deseo previo",
+        0,
+        0,
+        1
+      ],
+      [
+        "Puede haber idolatría sin deseo personal previo",
+        1,
+        0,
+        0
+      ],
+      [
+        "Todo deseo genera idolatría",
+        0,
+        1,
+        0
+      ],
+      [
+        "Idolatría es mera copia cultural",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Toda idolatría refleja un deseo previo",
+    "B": "Puede haber idolatría sin deseo personal previo",
+    "C": "Todo deseo genera idolatría",
+    "D": "Idolatría es mera copia cultural"
+  },
+  "formula_booleana_del_argumento": "A = (no B) and (C or D'= indefinidos permiten falsación parcial)",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Puede haber idolatría sin deseo personal previo",
+      "implicacion_por_estado_falso": "Refuerza la universalidad de la afirmación principal",
+      "implicacion_por_estado_verdadero": "Refuta la universalidad, colapsando la afirmación de entrada a falso"
+    },
+    {
+      "afirmacion": "Idolatría es mera copia cultural",
+      "implicacion_por_estado_falso": "Reduce el margen de idolatría sin deseo previo",
+      "implicacion_por_estado_verdadero": "Permite idolatría ausente de deseo individual consciente"
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "La idolatría puede surgir de ausencia de deseo consciente (por inercia cultural), pero al institucionalizarse reintroduce deseo estructuralmente",
+    "ambiguedad": "Diferenciar deseo individual, colectivo y deseo latente/implícito",
+    "contradiccion_util": "Aun la imitación cultural puede contener deseos de pertenencia, lo que cierra parcialmente el ciclo causal"
+  },
+  "reorganizacion_analoga": [
+    "Reflejo de sombra: la sombra muestra formas aunque la luz detrás cambie",
+    "Herencia memética: canciones populares asentadas sin saber por qué gustan",
+    "Impronta animal: seguir algo porque otros lo siguen, no porque se desee personalmente"
+  ],
+  "implicacion_transformadora": [
+    "El análisis de idolatría debe considerar tanto la estructura proyectiva del deseo como los modos de transmisión impersonal (cultural, social)",
+    "Reformular el estudio de las creencias/objetos de culto incluyendo gradientes de agencia y deseo"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No se puede garantizar universalidad de la relación deseo-idolatría; casos de idolatría culturalmente inducida persisten"
+  },
+  "reconclusion_preconceptual": "A veces seguimos adorando lo que no entendemos porque otros lo hicieron antes, y eso también forma lo que queremos.",
+  "contexto": "Toda idolatría refleja un deseo previo (contexto: los ídolos reflejan los deseos de las personas)"
+}

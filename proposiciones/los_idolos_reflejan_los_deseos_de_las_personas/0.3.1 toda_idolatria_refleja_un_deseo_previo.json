@@ -1,0 +1,131 @@
+{
+  "nodo_semantico_de_entrada": "Toda idolatría refleja un deseo previo",
+  "nodo_semantico_central": "Idolatría como reflejo de deseo preexistente",
+  "firma_ontologica": {
+    "naturaleza": "relación causal universal",
+    "funcion": "explicar el origen psicológico de la idolatría",
+    "dominio": "psicología de la religión, antropología simbólica",
+    "forma": "regla universal (quantificador absoluto)",
+    "tension": "inferencia de necesidad entre fenómeno externo (idolatría) e interno (deseo)",
+    "limite": "universalidad puesta en cuestión por contraejemplos de idolatría emergente sin deseo consciente"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "idolatría",
+      "definicion": "adorar o dar importancia excesiva a algo, persona o idea, atribuyéndole cualidades superiores a las propias"
+    },
+    {
+      "termino": "reflejar",
+      "definicion": "hacer visible, manifestar, mostrar la existencia de"
+    },
+    {
+      "termino": "deseo previo",
+      "definicion": "una carencia, necesidad o anhelo existente antes del surgimiento de la idolatría"
+    }
+  ],
+  "transduccion_preconceptual": "Cuando un niño quiere mucho un juguete antes de verlo en la tienda, y después lo ve y lo admira mucho, está adorando algo porque ya lo quería antes. Pero a veces, ve un juguete nuevo y le empieza a gustar sólo porque otros lo tienen, sin que lo deseara antes.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El marco es absoluto: toda idolatría requiere deseo previo",
+      "subnodo": "idolatría espontánea",
+      "contexto": "¿Existen formas de idolatría que emergen sin un deseo previo identificable?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La universalidad de la afirmación queda en cuestión por posibles contraejemplos donde la idolatría emerge sin deseo explícito previo, o donde el deseo es inducido por la idolatría misma (bucle causal o deseo post-facto)."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Premisa lógica: toda idolatría implica deseo previo.",
+      "conclusion": "Si existe idolatría sin deseo previo, la premisa es falsa.",
+      "notas": "La necesidad absoluta es refutable por el hallazgo de un solo contraejemplo válido."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda idolatría refleja un deseo previo",
+      "descripcion": "Fenómeno de culto generado por presión social: individuos pueden idolatrar figuras o modas populares por imitación inconsciente, sin deseo preexistente.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La idolatría surge por contagio memético, no por deseo previo consciente."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En muchos casos, las personas buscan ídolos que encarnan sus anhelos o carencias.",
+      "inferencia": "La idolatría frecuentemente canaliza deseos previos, pero no necesariamente en el 100% de los casos.",
+      "grado_de_confianza": "medio",
+      "notas": "El patrón es más probabilístico que determinista."
+    },
+    {
+      "patron_observado": "A veces el deseo aparece tras la exposición reiterada al ídolo (modas, celebridades).",
+      "inferencia": "Puede haber idolatría que induce el deseo, no a la inversa.",
+      "grado_de_confianza": "medio",
+      "notas": "Hay retroalimentación entre deseo e idolatría; la causalidad puede ser circular."
+    }
+  ],
+  "conclusion_preconceptual": "La mayoría de las veces adoramos cosas porque ya las queríamos, pero a veces empezamos a quererlas porque las adoramos sin saberlo antes.",
+  "teoria_o_intuicion_emergente": "La idolatría suele manifestar deseos previos, pero puede funcionar también como generadora de nuevos deseos, produciéndose bucles de retroalimentación entre deseo e ídolo.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda idolatría refleja un deseo previo",
+        0,
+        0,
+        1
+      ],
+      [
+        "Algun tipo de idolatría ocurre sin deseo previo",
+        1,
+        0,
+        0
+      ],
+      [
+        "La mayoría de las idolatrías reflejan deseos previos",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Toda idolatría refleja un deseo previo",
+    "B": "Algun tipo de idolatría ocurre sin deseo previo",
+    "C": "La mayoría de las idolatrías reflejan deseos previos"
+  },
+  "formula_booleana_del_argumento": "A = ¬B, C = A | B",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Toda idolatría refleja un deseo previo",
+      "implicacion_por_estado_falso": "Debe aceptarse que existen o son posibles formas de idolatría sin deseo previo.",
+      "implicacion_por_estado_verdadero": "La idolatría solo puede emerger como expresión de deseos preexistentes."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Causalidad circular: idolatría genera deseo y deseo genera idolatría.",
+    "ambiguedad": "¿Qué se considera ‘deseo previo’? ¿Consciente, inconsciente, social, individual?",
+    "contradiccion_util": "El absolutismo de la afirmación se fertiliza con casos de deseabilidad emergente post idolatría."
+  },
+  "reorganizacion_analoga": [
+    "Como el fenómeno del gusto adquirido: a veces se desea algo después de probarlo, no antes.",
+    "Como el culto a modas virales: el deseo puede ser consecuencia de la adopción, no su origen."
+  ],
+  "implicacion_transformadora": [
+    "No toda adoración revela carencia anterior; a veces el objeto adorado modela un nuevo deseo.",
+    "El análisis de idolatría debe replantear el rol de la causalidad entre deseo y objeto, considerando dinámicas de retroalimentación social y psicológica.",
+    "Las intervenciones prácticas (educativas, culturales) deben discernir cuándo un deseo es genuino o es fabricado por la idolatría misma."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "La proposición universal colapsa por existencia de contraejemplos inductivos y deductivos."
+  },
+  "reconclusion_preconceptual": "Pensar que siempre adoramos algo porque lo deseábamos antes es una idea bonita, pero no siempre funciona así. A veces, primero seguimos a algo y después empezamos a quererlo.",
+  "contexto": "Toda idolatría refleja un deseo previo (contexto: los ídolos reflejan los deseos de las personas)"
+}

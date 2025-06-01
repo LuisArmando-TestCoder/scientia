@@ -1,0 +1,1 @@
+deno run --allow-env --allow-write --allow-read main.ts "Constatar inteligencia emergente implica que, inevitablemente, al menos una de estas cuatro premisas sobre la agencia debe ser falsa—que sea mero rótulo funcional, que acompañe toda auto-organización, que pueda surgir sin observador o que sea siempre observable."

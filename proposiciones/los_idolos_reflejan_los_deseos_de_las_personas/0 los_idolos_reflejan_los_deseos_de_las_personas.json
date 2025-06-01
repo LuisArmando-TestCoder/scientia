@@ -1,0 +1,159 @@
+{
+  "nodo_semantico_de_entrada": "los ídolos reflejan los deseos de las personas",
+  "nodo_semantico_central": "Idolatría como espejo de anhelos colectivos",
+  "firma_ontologica": {
+    "naturaleza": "relación simbólica",
+    "funcion": "mediar la expresión y proyección de deseos internos hacia figuras externas",
+    "dominio": "psicología social, antropología cultural",
+    "forma": "bucle espejo, retroalimentación",
+    "tension": "¿el ídolo da forma al deseo o el deseo crea al ídolo?",
+    "limite": "imposibilidad de distinguir causa y efecto en la dinámica de proyección"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "ídolo",
+      "definicion": "figura, persona o símbolo investido de significado especial, idealizado colectiva o individualmente"
+    },
+    {
+      "termino": "reflejo",
+      "definicion": "representación, imagen o manifestación indirecta sobre otra cosa"
+    },
+    {
+      "termino": "deseos",
+      "definicion": "anhelos, necesidades o carencias psíquicas, culturales o biológicas"
+    },
+    {
+      "termino": "personas",
+      "definicion": "individuos dentro de una comunidad, portadores de significados"
+    }
+  ],
+  "transduccion_preconceptual": "Es como cuando ves un dibujo en una nube: lo que imaginas ya estaba en tu cabeza, pero la nube te ayuda a verlo.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "los ídolos reflejan los deseos de las personas",
+      "subnodo": "reflexividad simbólica",
+      "contexto": "¿La figura admirada existe antes del deseo, o surge porque las personas necesitan ese reflejo?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "el ídolo causa los deseos de las personas",
+      "subnodo": "inducción aspiracional",
+      "contexto": "¿El modelo adorado impone nuevos deseos que antes no existían?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "relación bidireccional no separable entre deseo e ídolo; posible bucle autorreferencial"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición de reflejo",
+      "conclusion": "Si el reflejo depende del deseo, todo ídolo necesariamente contiene deseos proyectados",
+      "notas": "Esto no descarta que también pueda orientar o transformar esos deseos"
+    },
+    {
+      "origen": "concepto de ídolo como símbolo",
+      "conclusion": "Toda colectividad fabrica ídolos según necesidades internas",
+      "notas": "Las figuras impuestas pueden fracasar si no coinciden con deseos subyacentes"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "los ídolos reflejan únicamente los deseos de las personas",
+      "descripcion": "Celebridades promovidas artificialmente pueden volverse ídolos a través de mercadotecnia, aún sin deseos genuinos previos",
+      "grado_de_refutacion": "parcial",
+      "notas": "Sugiere una causalidad adicional: modelamiento externo"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En distintas culturas, ídolos cambian con expectativas sociales",
+      "inferencia": "Los ídolos tienden a adaptarse a los deseos emergentes",
+      "grado_de_confianza": "medio",
+      "notas": "No es universal, pero es recurrente en la historia"
+    },
+    {
+      "patron_observado": "Personas cambian deseos para parecerse a ídolos mediáticos",
+      "inferencia": "La relación puede ser también inversa: los ídolos moldean deseos",
+      "grado_de_confianza": "alto",
+      "notas": "Efecto aspiracional observado contemporáneamente"
+    }
+  ],
+  "conclusion_preconceptual": "Los ídolos y los deseos se construyen mutuamente como dos espejos que se miran.",
+  "teoria_o_intuicion_emergente": "La idolatría es un sistema simbólico de retroalimentación, donde los deseos inconscientes buscan formas externas que los representen y esas formas a su vez reordenan los deseos.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Los ídolos reflejan los deseos de las personas",
+        0,
+        0,
+        1
+      ],
+      [
+        "Los ídolos imponen deseos a las personas",
+        0,
+        0,
+        1
+      ],
+      [
+        "Toda idolatría refleja un deseo previo",
+        0,
+        0,
+        1
+      ],
+      [
+        "Toda idolatría genera nuevos deseos",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Los ídolos reflejan los deseos de las personas",
+    "B": "Los ídolos imponen deseos a las personas",
+    "C": "Toda idolatría refleja un deseo previo",
+    "D": "Toda idolatría genera nuevos deseos"
+  },
+  "formula_booleana_del_argumento": "(A v B) & (C v D)",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Los ídolos reflejan los deseos de las personas",
+      "implicacion_por_estado_falso": "La construcción de ídolos podría operar sin conexión con deseos internos",
+      "implicacion_por_estado_verdadero": "La idolatría sería una proyección directa de deseos sociales"
+    },
+    {
+      "afirmacion": "Los ídolos imponen deseos a las personas",
+      "implicacion_por_estado_falso": "Los ídolos serían inertes si no hay deseo previo",
+      "implicacion_por_estado_verdadero": "La relación sería de causación más que de reflejo"
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "El ídolo depende del deseo, pero el deseo cambia por efecto del ídolo",
+    "ambiguedad": "No es claro qué surge primero o si se pueden separar los procesos",
+    "contradiccion_util": "La imposibilidad de distinguir origen y reflejo permite explicar fenómenos sociales dinámicos"
+  },
+  "reorganizacion_analoga": [
+    "Como dos espejos enfrentados creando un bucle de imágenes",
+    "Como una semilla (deseo) y una planta (ídolo) que se fertilizan mutuamente a lo largo de ciclos",
+    "Como un software que aprende del usuario y, al mismo tiempo, moldea los hábitos del usuario"
+  ],
+  "implicacion_transformadora": [
+    "La crítica de los ídolos puede ser crítica de los propios deseos ocultos",
+    "Modificar la estructura de idolatría implica reeducar deseos colectivos",
+    "La autoconciencia colectiva surge si se deconstruyen los bucles entre proyección y modelamiento"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El nodo permanece en bucle retroalimentado; depende del contexto si el deseo antecede o es modelado"
+  },
+  "reconclusion_preconceptual": "Mirar los ídolos es mirarse uno mismo, aunque a veces uno se modifica sin darse cuenta por el propio reflejo.",
+  "contexto": "los ídolos reflejan los deseos de las personas"
+}

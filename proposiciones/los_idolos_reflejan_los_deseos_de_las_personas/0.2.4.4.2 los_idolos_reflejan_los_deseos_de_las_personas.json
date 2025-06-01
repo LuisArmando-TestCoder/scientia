@@ -1,0 +1,156 @@
+{
+  "nodo_semantico_de_entrada": "Los ídolos reflejan los deseos de las personas",
+  "nodo_semantico_central": "La función proyectiva del ídolo sobre el deseo",
+  "firma_ontologica": {
+    "naturaleza": "Relación simbólico-psicológica",
+    "funcion": "Actuar como espejo de proyecciones internas colectivas o individuales",
+    "dominio": "Antropología, psicología, fenomenología religiosa",
+    "forma": "Bucle proyectivo; dualidad reflejo-proyector",
+    "tension": "La dirección es ambigua: ¿el ídolo moldea el deseo, o el deseo moldea el ídolo?",
+    "limite": "Ambigüedad estructura-función; no toda idolatría involucra proyecciones conscientes"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Ídolo",
+      "definicion": "Objeto, persona o idea investida de poder simbólico por la colectividad o el individuo"
+    },
+    {
+      "termino": "Reflejar",
+      "definicion": "Mostrar, proyectar o dar forma externa a un contenido interno; es un acto de doble sentido, tanto pasivo como activo"
+    },
+    {
+      "termino": "Deseos de las personas",
+      "definicion": "Anhelos, aspiraciones, carencias o ideales internos, individuales o colectivos"
+    }
+  ],
+  "transduccion_preconceptual": "Como cuando un niño dibuja un superhéroe con todo lo que desea ser fuerte o valiente, y luego se convence de que ese dibujo puede protegerlo: el dibujo y el deseo se dan la mano y se vuelven uno en su mundo.",
+  "iteraciones": [
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "El ídolo siempre refleja los deseos de todas las personas",
+      "subnodo": "Absolutismo del reflejo",
+      "contexto": "Examinar contraejemplos de ídolos impuestos o adoptados sin deseo previo consciente"
+    },
+    {
+      "id": "1.1.2",
+      "afirmacion_base": "El ídolo sólo refleja algunos deseos, no todos, y puede también imponer deseos",
+      "subnodo": "Algunismo más imposición",
+      "contexto": "¿Puede el ídolo fabricar deseo donde antes no existía?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La direccionalidad del reflejo es contextual y recíproca, existen contraejemplos y casos mixtos"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de reflejo como acto de doble sentido (activo-pasivo)",
+      "conclusion": "El ídolo no sólo refleja sino que también puede moldear o inducir nuevos deseos",
+      "notas": "Aplica a mediación cultural y manipulación simbólica"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El ídolo siempre refleja todos los deseos de todas las personas",
+      "descripcion": "Ídolos impuestos por autoridad (política, religiosa) no siempre reflejan deseos sino que pueden ser aceptados por presión o costumbre",
+      "grado_de_refutacion": "parcial",
+      "notas": "La autonomía del deseo individual puede estar anulada socialmente"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Grupos que crean ídolos en torno a celebridades suelen compartir aspiraciones o carencias similares",
+      "inferencia": "Generalmente sí existe un vínculo proyectivo deseo-ídolo",
+      "grado_de_confianza": "medio",
+      "notas": "Existen casos atípicos donde la idolatría es convencional, no proyectiva"
+    }
+  ],
+  "conclusion_preconceptual": "A veces las personas ven en los ídolos lo que quieren ser, pero otras veces sólo es lo que todos dicen que hay que mirar.",
+  "teoria_o_intuicion_emergente": "El ídolo es una interfaz simbiótica, capaz de amplificar, modular o crear deseos vía retroalimentación social e individual.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El ídolo siempre refleja los deseos de todas las personas",
+        0,
+        1,
+        0
+      ],
+      [
+        "El ídolo puede reflejar algún deseo de algún grupo",
+        1,
+        0,
+        0
+      ],
+      [
+        "El ídolo puede imponer nuevos deseos",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda idolatría es conscientemente proyectiva",
+        0,
+        1,
+        0
+      ],
+      [
+        "Puede un ídolo reflejar al deseo inconsciente",
+        1,
+        0,
+        0
+      ],
+      [
+        "El ídolo depende sólo del deseo individual",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "El ídolo siempre refleja los deseos de todas las personas",
+    "B": "El ídolo puede reflejar algún deseo de algún grupo",
+    "C": "El ídolo puede imponer nuevos deseos",
+    "D": "Toda idolatría es conscientemente proyectiva",
+    "E": "Puede un ídolo reflejar al deseo inconsciente",
+    "F": "El ídolo depende sólo del deseo individual"
+  },
+  "formula_booleana_del_argumento": "(B ∨ C ∨ E) ∧ (¬A) ∧ (¬D) ∧ (¬F)",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "El ídolo puede reflejar algún deseo de algún grupo",
+      "implicacion_por_estado_falso": "El vínculo ídolo-deseo es principalmente impuesto/extrajeto",
+      "implicacion_por_estado_verdadero": "La función proyectiva del ídolo sigue vigente en por lo menos un grupo"
+    },
+    {
+      "afirmacion": "El ídolo puede imponer nuevos deseos",
+      "implicacion_por_estado_falso": "El ídolo se vuelve mero receptáculo pasivo",
+      "implicacion_por_estado_verdadero": "La relación ídolo-deseo es recíproca y dinámica"
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "El ídolo refleja deseos, pero a veces produce deseos que luego refleja; ciclo retroalimentado",
+    "ambiguedad": "¿Cuál es el origen real del deseo proyectado? ¿Es adecuado hablar de causalidad lineal?",
+    "contradiccion_util": "El ídolo es tanto pantalla como motor de deseo, negando la exclusividad de cualquiera de los polos"
+  },
+  "reorganizacion_analoga": [
+    "Como una red social donde las personas siguen tendencias que ellas mismas alimentan, pero que llegan a imponer modas fuera del deseo original individual.",
+    "Como un termómetro que no sólo mide la temperatura, sino que la altera al colocarse en contacto con el objeto."
+  ],
+  "implicacion_transformadora": [
+    "La relación con el ídolo enseña que la construcción simbólica colectiva no es un espejo pasivo, sino un co-creador activo de significado personal y social.",
+    "Las estrategias de análisis de proyección pueden permitir a individuos o sociedades identificar cuándo un deseo es propio y cuándo fue internalizado desde el ídolo."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación es parcialmente cierta, pero la relación ídolo-deseo es recíproca, emergente y situada"
+  },
+  "reconclusion_preconceptual": "A veces el deseo crea el ídolo y otras el ídolo crea el deseo. Son como amigos que se imitan todo el tiempo sin saber quién empezó el juego.",
+  "contexto": "Los ídolos reflejan los deseos de las personas (contexto: los ídolos reflejan los deseos de las personas)"
+}

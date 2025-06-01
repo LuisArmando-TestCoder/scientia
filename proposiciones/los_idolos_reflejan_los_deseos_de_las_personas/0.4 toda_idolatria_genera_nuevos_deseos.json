@@ -1,0 +1,143 @@
+{
+  "nodo_semantico_de_entrada": "Toda idolatría genera nuevos deseos",
+  "nodo_semantico_central": "Idolatría como generador/despertador de deseos",
+  "firma_ontologica": {
+    "naturaleza": "proceso simbólico-reflexivo",
+    "funcion": "activar, transformar o amplificar deseos mediante la exaltación de representaciones externas/ídolos",
+    "dominio": "psicología simbólica, antropología, epistemología de los valores",
+    "forma": "ciclo retroalimentado/de espejo (reflexión y proyección)",
+    "tension": "deseo preexistente vs. deseo emergente, idolatría como causalidad lineal vs. circular",
+    "limite": "puede haber idolatría sin generación de nuevos deseos o deseos sin idolatría; la relación no es universal ni unilateral"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Idolatría",
+      "definicion": "Acto de otorgar un valor excesivo o central a una representación, símbolo, objeto o ser, hasta volverlo digno de culto o admiración."
+    },
+    {
+      "termino": "Deseo",
+      "definicion": "Impulso interno hacia algo percibido como valioso, carencia o ideal a alcanzar."
+    },
+    {
+      "termino": "Generar",
+      "definicion": "Provocar, activar o catalizar la aparición de algo que antes no existía en igual grado."
+    },
+    {
+      "termino": "Nuevo",
+      "definicion": "No previamente manifestado; que surge o se expande gracias a una interacción."
+    }
+  ],
+  "transduccion_preconceptual": "Cuando miras una figura que todos adoran, a veces no sólo quieres lo que ya querías, sino que empiezas a querer más cosas, diferentes, o a soñar algo que no habías pensado. Como si el ídolo te enseñara a desear cosas nuevas o a mirar tus propios sueños con una lupa.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El acto de idolatrar SIEMPRE produce nuevos deseos en todos los contextos",
+      "subnodo": "Imperativo Absoluto",
+      "contexto": "¿Puede haber casos donde la idolatría sólo reafirma deseos existentes o no produce ninguno?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Algunas formas de idolatría generan deseos, otras sólo reflejan los ya existentes",
+      "subnodo": "Diferenciación de causalidad",
+      "contexto": "¿Qué condiciones debe cumplir la idolatría para ser genuinamente generativa?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación absoluta no se sostiene universalmente; pueden existir idolatrías sin generación de deseos genuinamente nuevos, aunque también pueden producirse deseos derivados. Requiere distinción de tipos y contextos de idolatría y deseo."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición de idolatría como proyección de valor",
+      "conclusion": "Si idolatrar es proyectar anhelo sobre algo externo, puede reconfigurar los deseos internos.",
+      "notas": "No implica que todo acto de idolatría modifique el deseo; puede reforzar, modificar o amplificar."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda idolatría genera nuevos deseos",
+      "descripcion": "Un devoto que idolatra una figura exactamente por los mismos deseos que antes tenía, sin que surja ningún deseo distinto — sólo se reafirma.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Demuestra que la generación de deseos no es universal, aunque puede ser frecuente."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En fenómenos de masas (fandoms, religiones, cultura pop), los ídolos suelen catalizar tendencias o modas de deseo colectivo",
+      "inferencia": "La idolatría suele funcionar como amplificador y diversificador del deseo, aunque no siempre lo crea ex nihilo.",
+      "grado_de_confianza": "medio",
+      "notas": "Existen casos confirmados y otros de simple conservación sin innovación."
+    }
+  ],
+  "conclusion_preconceptual": "A veces, admirar mucho una cosa te hace querer cosas nuevas, pero otras veces sólo sigues queriendo lo mismo — depende de lo que traías adentro y cómo ves al ídolo.",
+  "teoria_o_intuicion_emergente": "La idolatría puede ser tanto un espejo amplificador como un laboratorio generador de deseo, pero su efecto generativo depende de la relación previa entre el sujeto y el símbolo idolatrado.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda idolatría genera nuevos deseos",
+        0,
+        1,
+        0
+      ],
+      [
+        "Algunas formas de idolatría generan nuevos deseos",
+        1,
+        0,
+        0
+      ],
+      [
+        "Puede haber idolatría meramente reafirmativa",
+        1,
+        0,
+        0
+      ],
+      [
+        "Idolatría nunca genera deseos nuevos",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Toda idolatría genera nuevos deseos",
+    "B": "Algunas formas de idolatría generan nuevos deseos",
+    "C": "Puede haber idolatría meramente reafirmativa",
+    "D": "Idolatría nunca genera deseos nuevos"
+  },
+  "formula_booleana_del_argumento": "B ∧ C ∧ ¬D ⇒ ¬A",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Puede haber idolatría meramente reafirmativa",
+      "implicacion_por_estado_falso": "Si no puede haber idolatría reafirmativa, la afirmación general tendería a verdadero.",
+      "implicacion_por_estado_verdadero": "La existencia de casos reafirmativos obliga a rechazar la universalidad de la afirmación."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "¿El deseo es previo a la idolatría o emergente de ella? Idolatría puede ser a la vez causa y síntoma.",
+    "ambiguedad": "Lo 'nuevo' en el deseo puede ser cuantitativo (amplificado) o cualitativo (distinto).",
+    "contradiccion_util": "La idolatría, como espejo, puede devolver lo mismo o distorsionarlo, facilitando nuevas rutas de deseo — la contradicción permite distinguir tipos de relación simbólica."
+  },
+  "reorganizacion_analoga": [
+    "Como plantar una semilla en tierra fértil — a veces crece una nueva planta, a veces sólo mejora lo que ya existía.",
+    "Como una lupa sobre un dibujo — puedes ver detalles que antes no veías (nuevo), o sólo hacer más grande lo mismo de antes.",
+    "Como la imitación en el juego infantil: a veces conduce a inventar reglas, otras sólo a repetir."
+  ],
+  "implicacion_transformadora": [
+    "Toda afirmación universal sobre sistemas de proyección simbólica debe ser matizada: lo que idolatramos puede despertarnos sentimientos nuevos o simplemente reforzar lo que ya sentíamos.",
+    "El estudio de la idolatría puede operar como termómetro del deseo social, pero nunca como generador automático de novedad.",
+    "La comprensión de la relación individuo-ídolo ayuda a clarificar cuándo la cultura innova y cuándo sostiene el status quo."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "La fórmula booleana y la presencia de contraejemplos colapsan la afirmación absoluta; sólo subsiste en forma matizada (algunista) e interpretativa."
+  },
+  "reconclusion_preconceptual": "A veces los ídolos te hacen soñar diferente; otras veces sólo te cuidan lo que ya soñabas — pero nunca es igual para todos.",
+  "contexto": "Toda idolatría genera nuevos deseos (contexto: los ídolos reflejan los deseos de las personas)"
+}

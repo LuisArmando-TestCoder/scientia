@@ -1,0 +1,134 @@
+{
+  "nodo_semantico_de_entrada": "Toda imposición implica intencionalidad (ídolos como reflejo de deseos)",
+  "nodo_semantico_central": "Imposición como acto intencional vinculado al deseo reflejado en ídolos",
+  "firma_ontologica": {
+    "naturaleza": "relación causal conceptual (entre imposición e intencionalidad)",
+    "funcion": "Vincular cualquier acto de imposición con la existencia previa de intención subyacente, especialmente en contextos de simbolización del deseo (ídolos)",
+    "dominio": "epistemología social, psicología de la acción, teoría simbólica",
+    "forma": "implicación lógica unidireccional; red semántica entre acción y propósito",
+    "tension": "absolutismo universal versus excepciones no intencionales; relación individuo-colectivo",
+    "limite": "Admite posibilidad de imposiciones no conscientes o no planeadas; indefinibilidad de la intencionalidad en ciertos contextos"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "imposición",
+      "definicion": "acto de forzar, establecer o dictar algo sobre un otro, directa o indirectamente, intencional o inintencionalmente"
+    },
+    {
+      "termino": "intencionalidad",
+      "definicion": "presencia de propósito, voluntad o dirección consciente en un acto"
+    },
+    {
+      "termino": "ídolo",
+      "definicion": "objeto/símbolo en el que se proyectan deseos, valores o anhelos colectivos/individuales"
+    },
+    {
+      "termino": "reflejo",
+      "definicion": "manifestación visible de un deseo interno o colectivo en un objeto externo"
+    }
+  ],
+  "transduccion_preconceptual": "Cuando una persona dice que todos deben hacer algo, es como si quisiera que el mundo fuera como él o ella quiere; sus deseos se ven en lo que pide. Como tener un juguete favorito y decir que todos deberían jugar sólo con ese; tu deseo está en esa regla.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Toda imposición implica intencionalidad",
+      "subnodo": "Existen imposiciones automáticas/inconscientes",
+      "contexto": "¿Puede haber imposición sin que nadie lo planee ni quiera, como cuando normas emergen espontáneamente?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Ídolos reflejan deseos de las personas",
+      "subnodo": "Los ídolos pueden surgir accidentalmente, sin deseo explícito",
+      "contexto": "¿Un objeto puede ser idolatrado por costumbre o por azar, sin que haya un deseo consciente inicial?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Ambigüedad en casos donde la imposición es efecto lateral no planeado, así como en idolatrías emergentes no intencionadas"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición de imposición como acción intencionada",
+      "conclusion": "Si toda imposición requiere decisión, entonces es siempre intencional",
+      "notas": "Pero si la definición permite imposición sin agente (estructural, accidental), la deducción no se sostiene"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda imposición implica intencionalidad",
+      "descripcion": "Normas culturales que imponen conductas aún cuando ningún individuo las desee, pero perduran por inercia histórica",
+      "grado_de_refutacion": "parcial",
+      "notas": "Estas imposiciones pueden estar desprovistas de intención específica en el presente, surgiendo de la dinámica del colectivo"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Con frecuencia, leyes y reglas se crean por decisión (intención), pero otras veces surgen de evolución social espontánea",
+      "inferencia": "La intencionalidad es común en imposiciones, pero no absoluta",
+      "grado_de_confianza": "medio",
+      "notas": "El matiz depende del nivel de análisis (individual/colectivo/sistémico)"
+    }
+  ],
+  "conclusion_preconceptual": "Muchas veces mandamos porque queremos algo, pero también a veces las reglas sólo se quedan, nadie las eligió hoy, como un juego que sigue solo.",
+  "teoria_o_intuicion_emergente": "Las imposiciones pueden originarse tanto en intenciones explícitas como en procesos automáticos o sistémicos; la intencionalidad es frecuente pero no ontológicamente necesaria.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Toda imposición implica intencionalidad (en todos los contextos)",
+        0,
+        0,
+        1
+      ],
+      [
+        "Los ídolos siempre reflejan deseos explícitos",
+        0,
+        1,
+        0
+      ],
+      [
+        "Existen imposiciones no intencionales (estructurales, inconscientes)",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Toda imposición implica intencionalidad (en todos los contextos)",
+    "B": "Los ídolos siempre reflejan deseos explícitos",
+    "C": "Existen imposiciones no intencionales (estructurales, inconscientes)"
+  },
+  "formula_booleana_del_argumento": "~C → A; B ≠ A; Si C es verdadero, entonces A es falso o indefinido, por lo tanto, el absolutismo de A colapsa en indefinido/falso.",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Existen imposiciones no intencionales (estructurales, inconscientes)",
+      "implicacion_por_estado_falso": "El axioma original se refuerza y toda imposición sería intencional",
+      "implicacion_por_estado_verdadero": "Se refuta la universalidad del axioma original, colapsando en ambigüedad o falsedad parcial"
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "¿Puede existir imposición sin sujeto intencional, o la estructura social misma se vuelve 'agente' sin voluntad?",
+    "ambiguedad": "La frontera entre intencionalidad y automatismo cultural no está claramente separada",
+    "contradiccion_util": "El concepto de imposición se fertiliza al aceptar la coexistencia de orígenes intencionados y estructurales"
+  },
+  "reorganizacion_analoga": [
+    "Las huellas fósiles de especies extintas: persisten reglas antiguas sin agente vivo que las sostenga",
+    "Un virus informático programado para replicarse: sus efectos se imponen tras la intención original, aunque se pierda el control/agencia"
+  ],
+  "implicacion_transformadora": [
+    "Las políticas y normas sociales deben ser revisadas periódicamente para verificar si representan intencionalidades actuales o son sólo reliquias estructurales",
+    "Cuestionar el origen y vigencia de nuestras 'idolatrías': ¿son deseos conscientes o hábitos acríticos heredados?"
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "No se puede afirmar universalmente que toda imposición implique intencionalidad; casos estructurales y emergentes muestran límites del axioma"
+  },
+  "reconclusion_preconceptual": "Hay reglas que mandan como si alguien quisiera, aunque nadie piensa en ellas ya. Imponemos a veces porque queremos, otras sólo porque así quedó el orden del juego.",
+  "contexto": "Toda imposición implica intencionalidad (contexto: los ídolos reflejan los deseos de las personas)"
+}

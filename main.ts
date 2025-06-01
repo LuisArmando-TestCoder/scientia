@@ -6,6 +6,7 @@
 import { join } from 'https://deno.land/std@0.224.0/path/mod.ts';
 import { walk } from "https://deno.land/std@0.224.0/fs/walk.ts";
 import { getClaimAnalysis } from './scientia.ts';
+import { jsonToMarkdown } from './jsontomarkdown.ts';
 
 // ———————————————————————————————————————————————————————————————
 //  Synchronous task queue
@@ -80,6 +81,11 @@ async function persistClaimJSON(
   const fileName = `${prefix} ${slugify(semanticNode)}.json`;
   const filePath = join(baseDir, fileName);
   await Deno.writeTextFile(filePath, JSON.stringify({ ...json, contexto }, null, 2));
+  
+  const mdfileName = `${prefix} ${slugify(semanticNode)}.md`;
+  const mdfilePath = join(baseDir, mdfileName);
+  await Deno.writeTextFile(mdfilePath, jsonToMarkdown({ ...json, contexto }));
+
   console.log(`✅ Guardado → ${filePath}`);
 }
 
@@ -220,6 +226,14 @@ if (folder) {
     }
   }  
 } else {
+  // ————————————————————————————————————————————————
+  //  NEW: guarantee root directory and write claim.md
+  // ————————————————————————————————————————————————
+  await Deno.mkdir(rootDirName, { recursive: true });
+  const claimMdPath = join(rootDirName, 'claim.md');
+  const claimMdContent = `deno run --allow-read --allow-env --allow-write --allow-net main.ts \"${claimRoot}\"` + "\n";
+  await Deno.writeTextFile(claimMdPath, claimMdContent);
+  
   await recursiveClaimAnalysis(claimRoot, '0', rootDirName);
 }
 

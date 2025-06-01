@@ -279,7 +279,7 @@ if (folder) {
   //  NEW: guarantee root directory and write claim.md
   // ————————————————————————————————————————————————
   await Deno.mkdir(rootDirName, { recursive: true });
-  const claimMdPath = join(rootDirName, 'claim.md');
+  const claimMdPath = join(rootDirName, 'claim.sh');
   const claimMdContent = `deno run --allow-read --allow-env --allow-write --allow-net main.ts \"${claimRoot}\"` + "\n";
   await Deno.writeTextFile(claimMdPath, claimMdContent);
   

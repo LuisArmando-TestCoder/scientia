@@ -1,0 +1,1 @@
+deno run --allow-read --allow-env --allow-write --allow-net main.ts "como las fluctuaciones del vacío rompen la muerte térmica, si siempre el vacío fluctúa entonces la muerte térmica no existirá en el contexto del big rip"

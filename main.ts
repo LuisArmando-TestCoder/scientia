@@ -104,6 +104,24 @@ const queuedGetClaimAnalysis = createQueuedExecutor(
 // ———————————————————————————————————————————————————————————————
 console.log('Starting claim analysis...');
 
+// Ensure 'proposiciones' directory exists
+try {
+  await Deno.stat('proposiciones');
+  // If stat doesn't throw, directory exists.
+  console.log("'proposiciones' directory already exists.");
+} catch (error) {
+  if (error instanceof Deno.errors.NotFound) {
+    // Directory does not exist, create it.
+    console.log("'proposiciones' directory not found. Creating it...");
+    await Deno.mkdir('proposiciones', { recursive: true });
+    console.log("'proposiciones' directory created.");
+  } else {
+    // Other error, rethrow it.
+    console.error("Error checking for 'proposiciones' directory:", error);
+    throw error;
+  }
+}
+
 const args = Deno.args;
 if (args.length === 0) {
   console.error('Please provide a claim to analyze.');

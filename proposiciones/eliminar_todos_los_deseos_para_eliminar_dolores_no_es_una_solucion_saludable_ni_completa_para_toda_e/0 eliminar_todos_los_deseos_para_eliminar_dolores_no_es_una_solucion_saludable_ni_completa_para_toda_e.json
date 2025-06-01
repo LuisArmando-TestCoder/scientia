@@ -1,0 +1,188 @@
+{
+  "nodo_semantico_de_entrada": "Eliminar todos los deseos para eliminar dolores no es una solución saludable, ni completa para toda experiencia humana",
+  "nodo_semantico_central": "Abstinencia absoluta del deseo no garantiza bienestar ni totalidad humana",
+  "firma_ontologica": {
+    "naturaleza": "proposición evaluativa",
+    "funcion": "cuestionar la validez de eliminar deseos como vía para erradicar sufrimiento",
+    "dominio": "psicología, filosofía de la mente, antropología",
+    "forma": "bifurcación axiológico-existencial",
+    "tension": "enfrenta la polaridad deseo-sufrimiento y la tentación de soluciones absolutas",
+    "limite": "depende del marco normativo usado para definir salud, completitud y experiencia"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "deseos",
+      "definicion": "impulsos orientados a obtener, evitar o transformar vivencias internas o externas"
+    },
+    {
+      "termino": "dolores",
+      "definicion": "experiencias sentidas como negativas, desagradables o disruptivas para la integridad del sujeto"
+    },
+    {
+      "termino": "eliminación total",
+      "definicion": "erradicación absoluta sin residuo ni excepción"
+    },
+    {
+      "termino": "salud",
+      "definicion": "estado de equilibrio funcional y adaptativo del organismo y la mente"
+    },
+    {
+      "termino": "completitud",
+      "definicion": "sentimiento o atribución de totalidad, integración, suficiencia en la vivencia"
+    },
+    {
+      "termino": "experiencia humana",
+      "definicion": "conjunto de vivencias, percepciones, emociones y narrativas propias de personas reales"
+    }
+  ],
+  "transduccion_preconceptual": "Si te quitas todas las ganas de hacer cosas porque a veces duelen, te pierdes también los juegos, los abrazos y la risa. Es como querer que nunca te raspen jugando, pero eso también te quita la aventura.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "Eliminar todos los deseos elimina todos los dolores",
+      "subnodo": "deseo y dolor no siempre están acoplados",
+      "contexto": "Existen dolores independientes de los deseos (fisiológicos, azar, pérdida accidental)"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Ausencia de deseos implica salud completa",
+      "subnodo": "salud implica un rango óptimo de deseos",
+      "contexto": "Motivaciones básicas (comer, socializar) son necesarias para la homeostasis y el propósito vital"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Eliminar todos los deseos es realizable en la experiencia humana",
+      "subnodo": "imposibilidad práctica y teórica",
+      "contexto": "Naturaleza autopoiética de la mente humana tiende a generar deseos nuevos incluso bajo ascetismo estricto"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "El ideal de eliminar totalmente los deseos es insalubre e incompleto para la mayoría de modelos psicológicos, fisiológicos y existenciales—y su realización además es prácticamente inalcanzable"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Eliminación total de deseos implica supresión de motivaciones vitales",
+      "conclusion": "Una vida sin deseos carece de agencia y significado emergente, afectando negativamente la salud mental y física",
+      "notas": "Modelos de motivación humana como Maslow y autopoiesis corroboran la necesidad de deseo para la autorrealización"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Eliminar todos los deseos elimina todo dolor",
+      "descripcion": "Dolores físicos crónicos, experiencias traumáticas, y pérdidas aleatorias ocurren sin necesariamente estar ligados a deseos explícitos",
+      "grado_de_refutacion": "total",
+      "notas": "La eliminación de deseos no inmuniza contra el sufrimiento físico o existencial"
+    },
+    {
+      "afirmacion_refutada": "Ausencia de deseos asegura completitud existencial",
+      "descripcion": "Individuos en estados de anhedonia (ausencia de deseo profundo, como en depresión severa) experimentan vacío, no completitud",
+      "grado_de_refutacion": "parcial",
+      "notas": "Algunos ascetas informan paz, pero es debatible si es salud o una forma de evasión"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Comunidades ascéticas desarrollan reglas para filtrar, no erradicar, deseos",
+      "inferencia": "Control selectivo de deseos es más factible y propicia bienestar que su supresión total",
+      "grado_de_confianza": "alto",
+      "notas": "Religiones, filosofías y psicoterapias convergen en la canalización, no extinción, del deseo"
+    },
+    {
+      "patron_observado": "Experiencias positivas derivadas de deseos (afecto, creatividad) son esenciales para el florecimiento humano",
+      "inferencia": "Los deseos propician complejidad existencial y ampliación de sentido de vida",
+      "grado_de_confianza": "alto",
+      "notas": "Evidencia transversal en arte, ciencia y vínculos interpersonales"
+    }
+  ],
+  "conclusion_preconceptual": "Quitar las ganas de todo para no sentir nada malo también quita las cosas bonitas y te deja vacío: ni feliz ni completo.",
+  "teoria_o_intuicion_emergente": "El bienestar humano florece en el equilibrio dinámico entre la gestión de deseos y el aprendizaje del dolor, no en su erradicación absoluta",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Eliminar todos los deseos elimina todos los dolores",
+        0,
+        1,
+        0
+      ],
+      [
+        "Ausencia total de deseos implica salud",
+        0,
+        1,
+        0
+      ],
+      [
+        "Eliminar todos los deseos es realizable para humanos",
+        0,
+        1,
+        0
+      ],
+      [
+        "La administración de deseos puede reducir ciertos dolores",
+        1,
+        0,
+        0
+      ],
+      [
+        "Algunas formas de dolor son independientes de los deseos",
+        1,
+        0,
+        0
+      ],
+      [
+        "Erradicar el deseo causa vacío existencial",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Eliminar todos los deseos elimina todos los dolores",
+    "B": "Ausencia total de deseos implica salud",
+    "C": "Eliminar todos los deseos es realizable para humanos",
+    "D": "La administración de deseos puede reducir ciertos dolores",
+    "E": "Algunas formas de dolor son independientes de los deseos",
+    "F": "Erradicar el deseo causa vacío existencial"
+  },
+  "formula_booleana_del_argumento": "(¬A ∧ ¬B ∧ ¬C ∧ D ∧ E ∧ F)",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Ausencia total de deseos implica salud",
+      "implicacion_por_estado_falso": "El equilibrio deseante es parte de la salud",
+      "implicacion_por_estado_verdadero": "Planteamiento de ascetismo saludable, refutado por mayoría de experiencias clínicas y antropológicas"
+    },
+    {
+      "afirmacion": "Eliminar todos los deseos es realizable para humanos",
+      "implicacion_por_estado_falso": "Incluso si deseable, la erradicación total es inviable",
+      "implicacion_por_estado_verdadero": "Humanos podrían permanecer en estado anhedónico, asociado a sufrimiento y no a bienestar"
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "El deseo de eliminar el deseo es en sí mismo un deseo",
+    "ambiguedad": "Definir salud y completitud depende de contextos culturales y subjetivos",
+    "contradiccion_util": "El sufrimiento propicia evolución y autoconocimiento; eliminarlo por erradicación de deseo detiene ese proceso"
+  },
+  "reorganizacion_analoga": [
+    "Como intentar apagar una fogata cubriendo todo con ceniza y terminando sin calor ni luz",
+    "Un jardín sin deseos es un terreno baldío: sin insectos que dañen, pero tampoco flores ni frutos",
+    "Un sistema inmunológico que anule toda reacción elimina tanto enfermedad como defensa y resiliencia"
+  ],
+  "implicacion_transformadora": [
+    "La solución no está en la supresión total, sino en la autorregulación activa y creativa de los deseos",
+    "Educar para reconvertir el dolor en aprendizaje y el deseo en motor de sentido",
+    "Promover modelos de bienestar que aceptan la inevitable coexistencia de deseos y sufrimientos como parte constitutiva del ser humano"
+  ],
+  "reevaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "Todos los subargumentos clave colapsan en falso para la alternativa absolutista y los contraejemplos empíricos robustecen la postura"
+  },
+  "reconclusion_preconceptual": "Tratar de ser feliz evitando sentir cualquier cosa mala hace perder también lo bueno: vivir completo es querer, incluso si a veces duele.",
+  "contexto": "Eliminar todos los deseos para eliminar dolores no es una solución saludable, ni completa para toda experiencia humana"
+}

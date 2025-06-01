@@ -39,17 +39,20 @@ const isIdentifierOnly = (rawText: string): boolean =>
   IDENTIFIER_ONLY_REGEXP.test(rawText.trim());
 
 /**
- * Produces a URL‑safe, filesystem‑friendly slug that does **not** leak accents.
+ * Produces a URL‑safe, filesystem‑friendly slug with a hard limit to prevent OS filename errors.
+ * The `maxTotalLength` parameter should account for any prefix or extension added externally.
  */
-const slugify = (rawText: string): string =>
-  rawText
+const slugify = (rawText: string, maxTotalLength: number = 100): string => {
+  const base = rawText
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "") // strip diacritics
     .toLowerCase()
     .replace(/[^a-z0-9_-]/g, "_")
     .replace(/_+/g, "_")
-    .slice(0, 60)
     .replace(/^_|_$/g, "");
+
+  return base.slice(0, maxTotalLength);
+};
 
 // ────────────────────────────────────────────────────────────────────────────────
 // Stateful Queuing (Encapsulated in a Factory for FP‑Friendly API)

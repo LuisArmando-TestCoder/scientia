@@ -9,13 +9,13 @@
 
 ---
 
-\## Why Oriens Omni?
+## Why Oriens Omni?
 
 Conventional LLM wrappers excel at summarising text or answering direct questions, but they seldom **interrogate** an idea. Oriens Omni adds a missing layer: it treats a proposition as a living system, decomposes it into "conceptual particles", stress‑tests every assumption with boolean logic, and recursively digs until uncertainty collapses or new insights emerge. The result is a **self‑navigable knowledge map** (JSON + Markdown) you can query, quote, or feed to other tools.
 
 ---
 
-\## Table of Contents
+## Table of Contents
 
 1. [Features](#features)
 2. [Quick Start](#quick-start)
@@ -32,7 +32,7 @@ Conventional LLM wrappers excel at summarising text or answering direct question
 
 ---
 
-\## Features
+## Features
 
 | Capability                   | What It Delivers                                              |
 | ---------------------------- | ------------------------------------------------------------- |
@@ -47,7 +47,7 @@ Conventional LLM wrappers excel at summarising text or answering direct question
 
 ---
 
-\## Quick Start
+## Quick Start
 
 ```bash
 # analyse a claim
@@ -73,7 +73,7 @@ Open the `.md` in any viewer or pipe the JSON into your own pipelines.
 
 ---
 
-\## Installation
+## Installation
 
 1. **Install Deno ≥1.44**
 
@@ -100,21 +100,21 @@ Open the `.md` in any viewer or pipe the JSON into your own pipelines.
 
 ---
 
-\## Usage Patterns
+## Usage Patterns
 
-\### Analyse & Export only JSON
+### Analyse & Export only JSON
 
 ```bash
 deno run -A main.ts --json-only "Democracy is inevitable." > result.json
 ```
 
-\### Custom output directory
+### Custom output directory
 
 ```bash
 deno run -A main.ts --out ./analysis "General AI will end scarcity."
 ```
 
-\### Override max recursion depth
+### Override max recursion depth
 
 ```bash
 deno run -A main.ts --depth 3 "Time travel violates causality."
@@ -124,7 +124,7 @@ Run `deno run main.ts --help` for a full CLI reference.
 
 ---
 
-\## Configuration
+## Configuration
 
 | Variable         | Required | Default       | Description                            |
 | ---------------- | -------- | ------------- | -------------------------------------- |
@@ -138,7 +138,7 @@ These can be placed in `.env` or exported in your shell.
 
 ---
 
-\## Project Layout
+## Project Layout
 
 ```
 oriens‑omni/
@@ -157,7 +157,7 @@ oriens‑omni/
 
 ---
 
-\## Method Under the Hood
+## Method Under the Hood
 
 The JSON schema encodes a multi‑stage epistemic pipeline:
 
@@ -173,7 +173,7 @@ The process is formally specified inside `scientia.ts` so you can fork and modif
 
 ---
 
-\## Extending Oriens Omni
+## Extending Oriens Omni
 
 * **Plug a different provider** — add a `helper/callAnthropic.ts`, then pass `--provider anthropic`.
 * **Swap the schema** — edit `scientia.ts` or inject your own prompt via `--prompt-file`.
@@ -182,7 +182,7 @@ The process is formally specified inside `scientia.ts` so you can fork and modif
 
 ---
 
-\## Troubleshooting & Limitations
+## Troubleshooting & Limitations
 
 | Symptom                 | Likely Cause            | Mitigation                                                         |
 | ----------------------- | ----------------------- | ------------------------------------------------------------------ |
@@ -198,7 +198,7 @@ Known gaps:
 
 ---
 
-\## Roadmap
+## Roadmap
 
 * [ ] **v0.5** CLI refactor with sub‑commands (`analyse`, `resume`, `schema`).
 * [ ] **v0.6** Structured logging + verbose flag.
@@ -209,7 +209,7 @@ Contributions and issue reports are welcome.
 
 ---
 
-\## Contributing
+## Contributing
 
 1. Fork the repo & create a feature branch.
 2. Run `deno test` (tests coming soon).
@@ -219,13 +219,13 @@ We follow conventional commits and require CI to pass before merge.
 
 ---
 
-\## License
+## License
 
 MIT © 2025 Oriens (Automation to Business LLC). See [LICENSE](LICENSE) for details.
 
 ---
 
-\## Acknowledgements
+## Acknowledgements
 
 * The Deno community for a modern, secure runtime.
 * OpenAI / Azure OpenAI teams for GPT‑4o.

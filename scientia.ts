@@ -166,6 +166,10 @@ Cada iteración debería generar una versión más refinada de conciencia episte
 
   "nodo_semantico_central": "", // Título condensado del concepto central analizado.
 
+  "razones_del_argumento": [
+    "", // Lista de argumentos encontrados (si existen), con la justificación de su presencia, y si no existen argumentos mecionables, que posean la justificación de su ausencia
+  ],
+
   "firma_ontologica": {
     "naturaleza": "", // Tipo de entidad (proceso, sistema, principio, etc.)
     "funcion": "", // Finalidad o propósito operativo.

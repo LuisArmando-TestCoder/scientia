@@ -1,0 +1,157 @@
+{
+  "nodo_semantico_de_entrada": "pleasure of pursuit vs pursuit of pleasure; dopamine and effort",
+  "nodo_semantico_central": "El placer genuino está vinculado al esfuerzo en la búsqueda, no al objetivo fácil; la dopamina fácil reduce la sensibilidad al placer.",
+  "razones_del_argumento": [
+    "La distinción discursiva entre 'la búsqueda del placer' y 'el placer de la búsqueda' implica diferentes arquitecturas motivacionales.",
+    "El argumento señala que la dopamina obtenida sin esfuerzo lleva a una reducción progresiva del placer, lo que sugiere una homeostasis adaptativa o tolerancia.",
+    "No hay ejemplos dados que refuten directamente esta teoría, pero la plasticidad neuroquímica y las excepciones individuales la matizan."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "principio motivacional-metacognitivo",
+    "funcion": "Relacionar el valor subjetivo del placer con el esfuerzo implicado en su obtención.",
+    "dominio": "neuropsicología, ética, motivación, hedónica",
+    "forma": "bucle adaptativo, proceso de regulación",
+    "tension": "entre esfuerzo, recompensa anticipada y placer real; riesgo de reducción hedonista por sobreexposición.",
+    "limite": "No aborda variabilidad individual, contextos culturales o placeres no dopaminérgicos."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "placer (pleasure)",
+      "definicion": "Estado emocional de bienestar, satisfacción o gozo percibido."
+    },
+    {
+      "termino": "búsqueda (pursuit)",
+      "definicion": "Proceso activo y sostenido de intentar obtener algo valioso."
+    },
+    {
+      "termino": "dopamina",
+      "definicion": "Neurotransmisor implicado en recompensa, motivación y aprendizaje."
+    },
+    {
+      "termino": "esfuerzo",
+      "definicion": "Cantidad de energía física, mental o emocional invertida para alcanzar un objetivo."
+    },
+    {
+      "termino": "narrowing (estrechamiento hedónico)",
+      "definicion": "Reducción de la variedad o intensidad de estímulos que generan placer."
+    }
+  ],
+  "transduccion_preconceptual": "Si un niño recibe dulces todo el tiempo sin hacer nada, pronto se aburre y ya no disfruta los dulces. Si tiene que buscar los dulces en una búsqueda del tesoro, cada dulce encontrado le da alegría cada vez que lo encuentra.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La dopamina sin esfuerzo ‘reduce’ el campo del placer",
+      "subnodo": "adaptación hedónica automática",
+      "contexto": "¿El cerebro se ajusta a recibir recompensas fáciles bajando la sensibilidad?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "El placer incrementa si hay más esfuerzo",
+      "subnodo": "refuerzo motivacional",
+      "contexto": "¿La anticipación y el trabajo invertido aumentan la percepción subjetiva del placer?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "Validado por modelos de recompensa, adaptación hedonista y literatura sobre motivación intrínseca/extrínseca. No es absoluto pero predomina el patrón adaptativo."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Relación esfuerzo-recompensa",
+      "conclusion": "El placer puede ser maximizado no aumentando la recompensa, sino aumentando el valor subjetivo por el esfuerzo invertido.",
+      "notas": "Puede variar en casos patológicos o bajo condiciones de privación/extrema abundancia."
+    },
+    {
+      "origen": "Adaptación dopaminérgica",
+      "conclusion": "La exposición repetida a recompensas fáciles conduce a tolerancia y menos placer por el mismo estímulo.",
+      "notas": "Correlacionado con desórdenes de adicción y pérdida de motivación."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda dopamina sin esfuerzo reduce el placer",
+      "descripcion": "Personas con tendencias anhedónicas pueden beneficiarse de recompensas fáciles para romper ciclos depresivos; niños pequeños aprenden placer base con recompensas fáciles antes de buscar esfuerzo.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La plasticidad del circuito hedónico permite escenarios donde la recompensa fácil es útil para reiniciar el sistema de placer."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Personas que logran objetivos sin esfuerzo tienden a aburrirse o buscar estímulos nuevos más intensos.",
+      "inferencia": "La novedad y el esfuerzo tienen un rol clave en la percepción duradera del placer.",
+      "grado_de_confianza": "alto",
+      "notas": "Se observa en estudios sobre gratificación instantánea vs. gratificación retardada."
+    }
+  ],
+  "conclusion_preconceptual": "Para que algo siga haciendo feliz a alguien, hay que moverse, buscar y trabajar un poco para ganarlo.",
+  "teoria_o_intuicion_emergente": "El placer es un sistema dinámico: se optimiza más en la curva del esfuerzo y la transformación del deseo que en el acceso inmediato a la recompensa.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La dopamina sin esfuerzo reduce campo de placer",
+        1,
+        0,
+        0
+      ],
+      [
+        "El placer se profundiza con esfuerzo",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda dopamina sin esfuerzo reduce cualquier placer",
+        0,
+        1,
+        0
+      ],
+      [
+        "El placer instantáneo incrementa la felicidad estable",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "La dopamina sin esfuerzo reduce campo de placer",
+    "B": "El placer se profundiza con esfuerzo",
+    "C": "Toda dopamina sin esfuerzo reduce cualquier placer",
+    "D": "El placer instantáneo incrementa la felicidad estable"
+  },
+  "formula_booleana_del_argumento": "(A AND B) AND (NOT C) AND (NOT D)",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Toda dopamina sin esfuerzo reduce cualquier placer",
+      "implicacion_por_estado_falso": "El argumento es general, pero reconoce excepciones y plasticidad del sistema hedónico.",
+      "implicacion_por_estado_verdadero": "Si fuera cierto, toda recompensa pasiva sería perjudicial sin matices, lo cual contradice observaciones clínicas y educativas."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "El placer exige tensión entre carencia y logro, pero cuanto más accesible, más se desvanece la recompensa. Buscar placer mata el placer.",
+    "ambiguedad": "No siempre es posible distinguir entre placer obtenido activamente y pasivamente; las fronteras se diluyen en actividades creativas o colaborativas.",
+    "contradiccion_util": "La dopamina puede servir como incentivo inicial y, aún sin esfuerzo, ayudar en fases especiales (recuperación, aprendizaje infantil), pero a largo plazo produce efectos contrarios."
+  },
+  "reorganizacion_analoga": [
+    "Como el entrenamiento muscular: ejercicio intenso fortalece, pero sobreestimulación sin pausa o ‘fuerza sin carga’ atrofia la musculatura.",
+    "Como un videojuego con trucos: ganar sin reto hace que el juego pierda sentido y pronto deje de entretener.",
+    "Como el aprendizaje: memorizar respuestas sin comprender ni esforzarse en entender, lleva a olvidar rápido el conocimiento adquirido."
+  ],
+  "implicacion_transformadora": [
+    "La búsqueda activa y la dificultad son ingredientes esenciales para una vida placentera y motivada.",
+    "Enseñar y diseñar sistemas de recompensa (educativos, laborales, sociales) debe priorizar el esfuerzo y la exploración más que la recompensa instantánea.",
+    "El placer como resultado de la búsqueda genera resiliencia emocional frente a la frustración y previene la banalización del deseo."
+  ],
+  "reevaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "El patrón adaptativo se sostiene empírica y teóricamente, con excepciones limitadas. No es absoluto ni dogmático, pero la tendencia predomina salvo condiciones clínicas o atípicas."
+  },
+  "reconclusion_preconceptual": "Lo más divertido es encontrar o construir, no solo tener. Por eso, si todo lo conseguimos sin movernos, al rato ya no sabremos disfrutar. El chiste siempre será buscar y disfrutar mientras buscamos.",
+  "contexto": "It’s not about the pursuit of pleasure, it’s about the pleasure of pursuit; any high amount of dopamine that comes to you without effort will eventually progress into a narrowing of the things that bring you pleasure"
+}

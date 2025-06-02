@@ -1,0 +1,1 @@
+deno run --allow-read --allow-env --allow-write --allow-net main.ts "It’s not about the pursuit of pleasure, it’s about the pleasure of pursuit; any high amount of dopamine that comes to you without effort will eventually progress into a narrowing of the things that bring you pleasure"

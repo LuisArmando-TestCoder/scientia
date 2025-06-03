@@ -71,6 +71,11 @@ entropy_decreases_in_isolated_quantum_systems/
 
 Open the `.md` in any viewer or pipe the JSON into your own pipelines.
 
+```bash
+# test a JS shaped boolean algebraic formula
+deno run -A main.ts test "proposiciones/demuestro_la_validez_de_modus_ponens_verificando_algoritmicamente_que_la_tautologia_p_q_p_q_pertenec/0.3.2 la_tautologia_esta_siempre_disponible.json"
+```
+
 ---
 
 ## Installation

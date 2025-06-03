@@ -1,0 +1,153 @@
+{
+  "nodo_semantico_de_entrada": "Tautologías booleanas y validez extrabooleana",
+  "nodo_semantico_central": "Validez universal de tautologías booleanas en sistemas no booleanos clásicos",
+  "razones_del_argumento": [
+    "La premisa es que al definir tautología exclusivamente mediante la verificación exhaustiva de la tabla de verdad con operadores clásicos, el resultado es independiente del observador, pues solo depende del procedimiento matemático determinista.",
+    "No se contempla explícitamente si la propiedad de 'tautología' sobrevive a la traslación del sistema (de lógica booleana clásica a otros sistemas lógicos o semánticos).",
+    "Se asume que la validez sintáctica y semántica es trasladable entre marcos formales distintos solo por el procedimiento, sin evaluar los requisitos semánticos del sistema destino.",
+    "Argumentos a favor: el procedimiento garantiza que, dentro del sistema booleando clásico, la validez de la tautología es objetiva y universal para ese sistema."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "principio sintáctico y semántico de validez",
+    "funcion": "determinar universalidad de verdades lógicas por métodos exhaustivos y ajenos al sujeto",
+    "dominio": "lógica, meta-lógica, epistemología formal",
+    "forma": "procedimiento determinista sobre un espacio finito (tabla de verdad); representa un bucle cerrado sin dependencia subjetiva",
+    "tension": "transferencia de propiedad lógica entre sistemas formalmente distintos; el método es robusto solo en el interior del sistema original",
+    "limite": "según la naturaleza del sistema destino, las tautologías pueden perder su universalidad por diferencias en semántica, operadores, o axiomas subyacentes"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Tautología booleana",
+      "definicion": "Fórmula compuesta por operadores booleanos que toma siempre el valor verdadero, sin importar la asignación de valores a sus variables."
+    },
+    {
+      "termino": "Validez",
+      "definicion": "Condición de ser inevitablemente verdadero bajo todas las interpretaciones posibles dentro de un sistema lógico dado."
+    },
+    {
+      "termino": "Sistema lógico no booleano",
+      "definicion": "Reglas y operadores que pueden diferir de la lógica booleana clásica (pueden tener valores adicionales, operadores no clásicos, reglas de inferencia distintas)."
+    },
+    {
+      "termino": "Tabla de verdad",
+      "definicion": "Matriz exhaustiva de todas las combinaciones posibles de valores proposicionales para evaluar una fórmula lógica."
+    },
+    {
+      "termino": "Axioma",
+      "definicion": "Proposición tomada como verdadera sin necesidad de demostración dentro de un sistema formal."
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes un juego con cartas rojas y azules. Si sigues la regla de que siempre que pongas una carta azul junto con otra azul ganas, esa regla será siempre cierta mientras juegues solo con azules y rojas. Pero, si de pronto el juego usa cartas verdes que tienen reglas distintas, la regla de las azules puede no servir más.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El método asegura que toda tautología booleana es válida fuera de la lógica booleana.",
+      "subnodo": "Transferibilidad cruzada de validez tautológica",
+      "contexto": "¿Las tautologías de un sistema permanecen tautologías en otros sistemas de lógica no clásica?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación general presupone la conservabilidad de la universalidad más allá de las fronteras del formalismo donde la tautología se formula. Hay sistemas (lógica multivaluada, lógica modal, paraconsistente, cuántica, intuicionista) donde la validez booleana pierde universalidad."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Definición formal de tautología booleana",
+      "conclusion": "Una tautología booleana será siempre verdadera en cualquier sistema isomorfo a la lógica booleana clásica.",
+      "notas": "La transferencia solo es segura si el sistema destino preserva la interpretación y las reglas de la lógica booleana. Si hay diferencia estructural, la validez puede perderse."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Toda tautología booleana es válida en sistemas fuera de la lógica booleana clásica.",
+      "descripcion": "En lógica intuicionista, la ley del tercero excluido (A || !A) no es aceptada como tautología.",
+      "grado_de_refutacion": "total",
+      "notas": "El cambio de axiomas y semántica redefine el espacio de las tautologías."
+    },
+    {
+      "afirmacion_refutada": "Toda tautología booleana es válida en sistemas fuera de la lógica booleana clásica.",
+      "descripcion": "En lógica trivalente (Kleene), ciertas tautologías binarias pierden universalidad ante la introducción de un valor de indeterminación.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La no exhaustividad de los valores provoca que la tabla de verdad booleano pierda correspondencia total."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Sistemas lógicos no clásicos usualmente redefinen operadores, semántica o número de valores.",
+      "inferencia": "La validez de las tautologías booleanas depende del isomorfismo semántico con el sistema clásico.",
+      "grado_de_confianza": "alto",
+      "notas": "Comprobable en historia de la lógica matemática y metamatemática."
+    }
+  ],
+  "conclusion_preconceptual": "La regla que siempre funciona al jugar bajo tus reglas puede romperse si el juego cambia de reglas o aparecen nuevos colores que tú no esperabas.",
+  "teoria_o_intuicion_emergente": "La universalidad de las tautologías depende del cierre semántico y axiomático del sistema. No es transferible por mera mecánica sintáctica.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Tautología booleana => Válida fuera del sistema clásico",
+        0,
+        1,
+        0
+      ],
+      [
+        "Tautología booleana => Válida en sistema isomorfo",
+        1,
+        0,
+        0
+      ],
+      [
+        "Tautología booleana => Válida en sistemas de más valores",
+        0,
+        0,
+        1
+      ],
+      [
+        "Tautología booleana => Válida en sistema intuicionista",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Tautología booleana => Válida fuera del sistema clásico",
+    "B": "Tautología booleana => Válida en sistema isomorfo",
+    "C": "Tautología booleana => Válida en sistemas de más valores",
+    "D": "Tautología booleana => Válida en sistema intuicionista"
+  },
+  "formula_booleana_del_argumento": "B && !A && (C === null) && !D",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Tautología booleana => Válida en sistemas de más valores",
+      "implicacion_por_estado_falso": "La universalidad solo se mantiene para isomorfismos clásicos.",
+      "implicacion_por_estado_verdadero": "Refutaría la especificidad booleana de la validez."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Un método procedural exhaustivo asegura la universalidad interna, pero no puede exportar su criterio fuera de su propia semántica sin salirse de sí mismo.",
+    "ambiguedad": "¿Se significa 'válido' como 'sintácticamente derivable' o como 'semánticamente transferible entre distintos formalismos'?",
+    "contradiccion_util": "La aparente universalidad mecánica señaliza los límites de todo procedimiento basado en autodefinición."
+  },
+  "reorganizacion_analoga": [
+    "Como un algoritmo de compresión que solo logra descomprimir datos codificados bajo el mismo estándar.",
+    "Como una llave que encaja en una cerradura solo si ambas comparten especificaciones exactas.",
+    "Como una ley de física clásica tratando de operar en el dominio cuántico donde los conceptos fundamentales cambian."
+  ],
+  "implicacion_transformadora": [
+    "La objetividad del método mecánico garantiza solidez epistemológica solo en el interior del sistema para el que fue definido.",
+    "Todo formalismo busca su autoreplicación, pero el cruce entre paradigmas requiere traducción y ajuste contextual.",
+    "Incluir tautologías como axiomas solo permite la construcción segura dentro del formalismo original; la extrapolación recursiva demanda validación adicional."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "Se ofrecen contraejemplos explícitos e históricos: la universalidad booleana es falsada por sistemas no isomorfos. La afirmación es falsa fuera del sistema clásico booleano."
+  },
+  "reconclusion_preconceptual": "Las reglas que siempre ganan en un juego dejan de servir si cambian las piezas o las reglas del juego. Solo eres invencible cuando juegas con tus propias reglas.",
+  "contexto": "Toda tautología booleana es válida en sistemas fuera de la lógica booleana clásica (contexto: Para evitar que mi propio juicio influya al elegir axiomas, sigo un método enteramente mecánico: primero delimito el lenguaje proposicional con los operadores clásicos; luego tomo cada fórmula candidata y construyo su tabla de verdad completa; si la evaluación resulta verdadera en todas las asignaciones posibles, la declaro tautología y la incluyo como axioma; si aparece al menos un valor falso, la descarto. Como la decisión se basa únicamente en la verificación exhaustiva del cálculo booleano (un procedimiento finito y determinista) el resultado se independiza de mis preferencias o creencias, garantizando que cualquier axioma aceptado conserve validez universal sin intervención subjetiva.)"
+}

@@ -7,7 +7,7 @@ async function main() {
   const outputFilename = `.output${timestamp}_${safeBaseName}.txt`;
   
   // File extensions whitelist - only process .ts files for backend
-  const allowedExtensions = [".md"];
+  const allowedExtensions = [".ts"];
   
   let ignorePatterns: string[] = [];
   try {

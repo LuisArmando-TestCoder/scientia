@@ -1,0 +1,1 @@
+deno run -A main.ts "If time is the rate of change, if the change tends to more possibilities, then that equates entropy's increase, then time is that, then time is irreversible, then time travel within the same timeline is impossible"

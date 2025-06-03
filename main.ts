@@ -115,6 +115,46 @@ function createQueuedExecutor<Args extends unknown[], Result>(
     queue.enqueueTask(() => asyncFunction(...args));
 }
 
+function getColapsedArgumentedAnalysis(analysisJson: Record<string, any>) {
+  const definitions = eval(`
+    Object.entries(${JSON.stringify(analysisJson.diccionario_de_la_formula)}).map(([
+      name, value
+    ]) => {
+      let variable = ${JSON.stringify(analysisJson.tabla_verdad.filas)}.find(([
+        afirmation,
+        truthment,
+        falsement,
+        undefinement
+      ]) => {
+        console.log(value.trim(), " | value")
+        console.log(afirmation.trim(), " | afirmation")
+        console.log("-")
+        
+        return (
+          value.trim().includes(afirmation.trim()) ||
+          afirmation.trim().includes(value.trim())
+          // The AI might not have generated the same statements
+        )
+      });
+      const z = \`let \${name} = \${variable[1]} || \${variable[1] === 0 && variable[2] === 1 ? 0 : "Error"}\`
+    
+      return z;
+    }).join("\\n")
+  `);
+
+  console.log("definitions", definitions)
+
+  const result = eval(`
+      (function () {
+          ${definitions}
+  
+          return ${definitions.includes("Error") ? "undefined" : analysisJson.formula_booleana_del_argumento}
+      })()
+  `);
+
+  return result;
+}
+
 // ────────────────────────────────────────────────────────────────────────────────
 // Impure Helpers (Filesystem & Console I/O)
 // ────────────────────────────────────────────────────────────────────────────────
@@ -126,7 +166,7 @@ async function persistClaimArtifacts(
   targetDirectoryPath: string,
   claimPrefixIdentifier: string,
   semanticNodeText: string,
-  analysisJson: Record<string, unknown>,
+  analysisJson: Record<string, any>,
   analysisContext: string = "",
 ): Promise<void> {
   await Deno.mkdir(targetDirectoryPath, { recursive: true });
@@ -137,14 +177,19 @@ async function persistClaimArtifacts(
 
   const jsonPath = join(targetDirectoryPath, `${baseFileNameSafe}.json`);
   const mdPath = join(targetDirectoryPath, `${baseFileNameSafe}.md`);
+  const finalObject = {
+    ...analysisJson, contexto: analysisContext,
+    estado_booleano_colapsado_por_calculo_determinista:
+      getColapsedArgumentedAnalysis(analysisJson)
+  };
 
   await Deno.writeTextFile(
     jsonPath,
-    JSON.stringify({ ...analysisJson, contexto: analysisContext }, null, 2),
+    JSON.stringify(finalObject, null, 2),
   );
   await Deno.writeTextFile(
     mdPath,
-    jsonToMarkdown({ ...analysisJson, contexto: analysisContext }),
+    jsonToMarkdown(finalObject),
   );
 
   console.log(`✅ Saved → ${jsonPath}`);
@@ -231,10 +276,10 @@ async function analyseClaimRecursively({
     const truthLabel = truth
       ? "true"
       : contradiction
-      ? "false"
-      : uncertainty === 1
-      ? "uncertain"
-      : "self‑referential";
+        ? "false"
+        : uncertainty === 1
+          ? "uncertain"
+          : "self‑referential";
 
     console.log(`[${numericPrefix}.${childCounter}] sub‑claim:`, subClaim, `(${truthLabel})`);
 
@@ -279,15 +324,16 @@ async function ensurePropositionsRoot(): Promise<void> {
 }
 
 /** Parses CLI arguments and separates *resume* mode from new‑analysis mode. */
-function parseCommandLine(): { resumeFolderName: string; rootClaimText: string } {
+function parseCommandLine(): { resumeFolderName: string; rootClaimText: string; testClaim: string } {
   const rawArgs = [...Deno.args];
   if (rawArgs.length === 0) {
     console.error("Please provide a claim to analyse.");
     Deno.exit(1);
   }
   const resumeFolderName = rawArgs[0] === "resume" ? rawArgs.slice(1).join(" ") : "";
+  const testClaim = rawArgs[0] === "test" ? rawArgs[1] : "";
   const rootClaimText = rawArgs.join(" ");
-  return { resumeFolderName, rootClaimText };
+  return { resumeFolderName, rootClaimText, testClaim };
 }
 
 // ────────────────────────────────────────────────────────────────────────────────
@@ -297,7 +343,7 @@ function parseCommandLine(): { resumeFolderName: string; rootClaimText: string }
 console.log("Starting claim analysis…");
 await ensurePropositionsRoot();
 
-const { resumeFolderName, rootClaimText } = parseCommandLine();
+const { resumeFolderName, rootClaimText, testClaim } = parseCommandLine();
 
 if (resumeFolderName) {
   // ──────────────────────────────────────────────────────────────────
@@ -337,6 +383,17 @@ if (resumeFolderName) {
       });
     }
   }
+} else if (testClaim) {
+  const jsonFilePath = testClaim;
+  const analysisData = JSON.parse(Deno.readTextFileSync(jsonFilePath));
+
+  console.log("getColapsedArgumentedAnalysis",
+    analysisData.formula_booleana_del_argumento,
+    analysisData.estado_booleano_colapsado_por_calculo_determinista,
+    getColapsedArgumentedAnalysis(
+      analysisData
+    )
+  );
 } else {
   // ──────────────────────────────────────────────────────────────────
   // NEW CLAIM MODE
@@ -347,7 +404,7 @@ if (resumeFolderName) {
   // Bootstrap utility shell script for quick reruns (legacy behaviour)
   const rerunShellPath = join(rootDirectoryPath, "claim.sh");
   const rerunShellContent =
-    `deno run --allow-read --allow-env --allow-write --allow-net main.ts \"${rootClaimText}\"` +
+    `deno run -A main.ts \"${rootClaimText}\"` +
     "\n";
   await Deno.writeTextFile(rerunShellPath, rerunShellContent);
 

@@ -1,0 +1,176 @@
+{
+  "nodo_semantico_de_entrada": "Entropía siempre aumenta",
+  "nodo_semantico_central": "Monotonía del incremento entrópico",
+  "razones_del_argumento": [
+    "La entropía se define como una medida de la cantidad de desorden o cantidad de microestados disponibles en un sistema físico.",
+    "La segunda ley de la termodinámica sostiene que, en sistemas aislados, la entropía no disminuye.",
+    "Si el tiempo es interpretado como la dirección de mayor generación de posibilidades (microestados), entonces asumir el “aumento de entropía“ equivale a asumir que el tiempo sólo puede avanzar, lo que introduce irreversibilidad.",
+    "Si no decrece, la reversibilidad temporal y la posibilidad de viaje al pasado en la misma línea de tiempo, quedan teóricamente imposibilitadas por este mismo argumento estructural."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "principio",
+    "funcion": "limitar el espacio de las transformaciones posibles en sistemas físicos",
+    "dominio": "termodinámica, física del tiempo, metafísica del cambio",
+    "forma": "flecha unidireccional dentro de un grafo de estados posibles",
+    "tension": "Universalidad vs contraejemplos microscópicos; definición local/global; aplicación a sistemas no cerrados",
+    "limite": "Validez sólo asegurada en sistemas aislados a gran escala y bajo la interpretación clásica"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "entropía",
+      "definicion": "contar cuántas formas distintas puede tener una cosa dentro de un sistema"
+    },
+    {
+      "termino": "aumento",
+      "definicion": "que cada vez existen más opciones para cambiar el sistema"
+    },
+    {
+      "termino": "tiempo",
+      "definicion": "lo que hace que las cosas no puedan volver exactamente hacia atrás en el mismo camino"
+    },
+    {
+      "termino": "irreversibilidad",
+      "definicion": "no se puede deshacer completamente lo que ocurrió"
+    },
+    {
+      "termino": "imposibilidad de viaje al pasado",
+      "definicion": "no se pueden deshacer todas las causas para volver al estado anterior sin contradicción"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes un cuarto lleno de bloques de colores y los tiras al aire: cada vez que caen, hay muchas más maneras en que pueden desordenarse que en las que podrían volver a ordenarse solitos. Pasar del desorden al orden es como intentar que todos los bloques saltando solos formen una torre perfecta: casi nunca pasa.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El tiempo es irreversible porque la entropía siempre aumenta",
+      "subnodo": "Irreversibilidad del tiempo físico",
+      "contexto": "¿Qué ocurre si encontramos procesos en los que la entropía decrece?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Entropía siempre aumenta",
+      "subnodo": "Condiciones de sistemas cerrados versus abiertos",
+      "contexto": "¿La afirmación se sostiene si el sistema no es perfectamente aislado?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La universalidad del aumento de entropía enfrenta refutaciones empíricas en escalas microscópicas, fluctuaciones, y bajo determinadas condiciones cosmológicas. Sin embargo, para sistemas macroscópicos, es formalmente válida. Indefinido por límites axiomáticos."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "segunda ley de la termodinámica",
+      "conclusion": "Ningún proceso en un sistema aislado puede reducir la entropía global.",
+      "notas": "Vigencia macroscópica, con excepciones estadísticas de baja probabilidad a escalas microscópicas."
+    },
+    {
+      "origen": "teoría del tiempo flecha entrópica",
+      "conclusion": "Si la entropía no puede disminuir, el tiempo no puede revertirse en la misma línea causal.",
+      "notas": "Axioma dependiente de interpretación de ‘flecha del tiempo’"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Entropía siempre aumenta",
+      "descripcion": "Fluctuaciones entrópicas en sistemas cuánticos/microscópicos permiten decrementos locales de entropía (fluctuación de Poincaré, demonio de Maxwell conceptualmente).",
+      "grado_de_refutacion": "parcial",
+      "notas": "Sólo ocurre en escalas y tiempos muy limitados; no afecta la tendencia macroscópica."
+    },
+    {
+      "afirmacion_refutada": "Imposibilidad de invertir el tiempo",
+      "descripcion": "En simulaciones numéricas de dinámica molecular, puede invertirse el sentido temporal perfectamente bajo condiciones ideales.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Sólo válido si no existe ninguna interacción externa ni decoherencia; imposible en la práctica macroscópica."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Todos los sistemas cotidianos (vasos que se rompen, hielo que se derrite) exhiben aumento de desorden con el tiempo.",
+      "inferencia": "La experiencia común apoya la flecha temporal asociada al aumento de entropía.",
+      "grado_de_confianza": "alto",
+      "notas": "Puede no ser extrapolable al universo completo o a eventos cuánticos particulares."
+    }
+  ],
+  "conclusion_preconceptual": "En general, el desorden crece, y por eso no ves nunca el hielo recomponerse solo, pero a escalas rarísimas, puede pasar lo contrario por un rato, aunque nadie lo vea.",
+  "teoria_o_intuicion_emergente": "La flecha entrópica es una tendencia dominante, no una necesidad absoluta — la irreversibilidad del tiempo es una propiedad emergente de la estadística global del universo, no una ley sin excepción.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Entropía siempre aumenta",
+        0,
+        0,
+        1
+      ],
+      [
+        "El tiempo es irreversible en sistemas macroscópicos",
+        1,
+        0,
+        0
+      ],
+      [
+        "Viajar al pasado en la misma línea de tiempo es imposible por entropía",
+        1,
+        0,
+        0
+      ],
+      [
+        "A escala microscópica la entropía puede decrecer",
+        0,
+        0,
+        1
+      ],
+      [
+        "La segunda ley no tiene excepciones",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Entropía siempre aumenta",
+    "B": "El tiempo es irreversible en sistemas macroscópicos",
+    "C": "Viajar al pasado en la misma línea de tiempo es imposible por entropía",
+    "D": "A escala microscópica la entropía puede decrecer",
+    "E": "La segunda ley no tiene excepciones"
+  },
+  "formula_booleana_del_argumento": "A && B && C && !D && !E",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Entropía siempre aumenta",
+      "implicacion_por_estado_falso": "Si se demuestra falso, cae la base de la irreversibilidad temporal.",
+      "implicacion_por_estado_verdadero": "Establece tiempo irreversible y prohíbe el viaje contra la corriente causal."
+    },
+    {
+      "afirmacion": "A escala microscópica la entropía puede decrecer",
+      "implicacion_por_estado_falso": "El principio se vuelve absoluto y elimina contraejemplos.",
+      "implicacion_por_estado_verdadero": "La afirmación general se restringe sólo a escala macroscópica; se requieren matices en la ley."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "¿Cómo puede surgir la irreversibilidad de la suma de procesos reversibles a nivel microscópico?",
+    "ambiguedad": "Definición operativa de ‘aumenta siempre’ depende del rango espacial, temporal y del nivel estadístico considerado.",
+    "contradiccion_util": "La universalidad aparente da paso a la emergencia estadística: lo absoluto nace de lo probabilístico."
+  },
+  "reorganizacion_analoga": [
+    "Como el azúcar que se disuelve en el agua — puede juntarse otra vez, pero sería casi imposible ver que todas las moléculas solas volvieran al terrón.",
+    "Como un huevo que se rompe: sus pedazos pueden alinearse por azar pero es súper improbable.",
+    "Como una película que se rebobina: las leyes permiten la reversión, pero la realidad casi nunca la expresa."
+  ],
+  "implicacion_transformadora": [
+    "Evitar absolutismos sobre las leyes físicas: lo estadístico no es absolutamente prohibitivo, sólo improbable.",
+    "La irreversibilidad temporal y la imposibilidad práctica del viaje temporal emergen de tendencias, no de imposiciones divinas.",
+    "Repensar la causación en escenarios donde la reversibilidad local pudiera desafiar la intuición sobre el curso temporal."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El incremento entrópico es dominante pero no absoluto: la reformulación exige colocar el nodo como tendencia estadística, no como imposibilidad lógica universal."
+  },
+  "reconclusion_preconceptual": "Casi siempre el desorden aumenta, por eso parece que el tiempo sólo va para adelante, pero a veces, en pequeñito y por poco rato, la historia puede hacer pequeñísimos viajes locos hacia atrás.",
+  "contexto": "Entropía siempre aumenta (contexto: If time is the rate of change, if the change tends to more possibilities, then that equates entropy's increase, then time is that, then time is irreversible, then time travel within the same timeline is impossible)"
+}

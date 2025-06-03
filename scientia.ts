@@ -251,8 +251,23 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     "A": "aquí va el nombre de la afirmación a la que corresponde esta variable"
     // A, B, C... Z
   },
-
+  
   // Vuelve la fórmula lógicamente válida, epistemológicamente robusta, empíricamente colapsable, usando el argumento principal como premisa para refutar o afirmar el resto.
+  /**
+   * En vez de los operadores booleanos, usa los operadores de JavaScript
+   * ==============================================
+   * 
+   * NOT    (¬A)    ->  !A
+   * AND    (A ∧ B) ->  A && B
+   * OR     (A ∨ B) ->  A || B
+   * IMPL   (A → B) ->  !A || B      # “si A entonces B”
+   * IFF    (A ↔ B) ->  A === B      # “A si y sólo si B”
+   * XOR    (A ⊕ B) ->  A !== B      # verdadero sólo si difieren
+   * NAND   (A ↑ B) ->  !(A && B)
+   * NOR    (A ↓ B) ->  !(A || B)
+   * 
+   * (Asume que A, B... Z son booleanos puros.)
+   */
   "formula_booleana_del_argumento": "", // Fórmula booleana de la expresión para que el argumento sea cierto, tomando en cuenta incluso cuáles indefinidos (si hay) deberían tener qué estado afirmado o negado para que toda la expresión de verdadero. 
 
   "implicaciones_de_colapso": [ // Aquí sólo se incluyen las afirmaciones indefinidas, para las cuales se derivan implicaciones para el estado de la afirmación global si el estado de la sub-afirmación colapsa en un estado booleano u otro.
@@ -288,7 +303,9 @@ Cada iteración debería generar una versión más refinada de conciencia episte
   "reconclusion_preconceptual": "", // Post veridictico tomando en cuenta el contexto anterior de todos los hallazgos intui o contraintuitivos.
 }
 
-Notas: Recuerda sólo devolver el JSON, sin ningún otro texto adicional, sin wrapping.
+Notas:
+- Recuerda sólo devolver el JSON, sin ningún otro texto adicional, sin wrapping.
+- Las afirmaciones dentro implicaciones_de_colapso, diccionario_de_la_formula y tabla_verdad.filas deben ser semántica, sintáctica y gramáticalmente idénticas (strings equivalentes; strings gemelos)
 
 Ahora, analiza esta proposición: ${claim}
 `;

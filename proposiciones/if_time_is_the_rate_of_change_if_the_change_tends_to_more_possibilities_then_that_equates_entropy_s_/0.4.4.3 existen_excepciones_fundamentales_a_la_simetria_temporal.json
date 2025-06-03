@@ -1,0 +1,182 @@
+{
+  "nodo_semantico_de_entrada": "Existen excepciones fundamentales a la simetría temporal",
+  "nodo_semantico_central": "Excepciones a la irreversibilidad temporal",
+  "razones_del_argumento": [
+    "La proposición afirma que hay situaciones o leyes donde la simetría temporal (la posibilidad de invertir el tiempo) no se cumple universalmente.",
+    "La justificación radica en fenómenos físicos como la segunda ley de la termodinámica (entropía) y en formulaciones en las que ciertas ecuaciones físicas son invariantes bajo inversión temporal, pero no todos los procesos observados lo son.",
+    "La ausencia de simetría se apoya en evidencia empírica: la flecha del tiempo y procesos irreversibles."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "excepción de ley o proceso",
+    "funcion": "restringir o condicionar la interpretación universal de la simetría temporal",
+    "dominio": "física, metafísica del tiempo",
+    "forma": "brecha, asimetría, anomalía",
+    "tension": "la coexistencia de ecuaciones simétricas y soluciones asimétricas",
+    "limite": "depende del nivel fenomenológico y de interpretación (micro vs. macro)"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "simetría temporal",
+      "definicion": "propiedad por la cual las leyes físicas no cambian si el tiempo se invierte (t → -t)"
+    },
+    {
+      "termino": "irreversibilidad",
+      "definicion": "imposibilidad de deshacer un proceso siguiendo las mismas leyes naturales, ligada al aumento de entropía"
+    },
+    {
+      "termino": "excepción fundamental",
+      "definicion": "caso límite o regla que contradice la expectativa general y no puede revertirse por simple ignorancia"
+    },
+    {
+      "termino": "entropía",
+      "definicion": "medida del desorden o número de formas en que puede organizarse un sistema, que tiende a aumentar"
+    },
+    {
+      "termino": "viaje en el tiempo",
+      "definicion": "proceso hipotético por el cual un sistema podría regresar a un estado anterior de su propia línea de tiempo"
+    }
+  ],
+  "transduccion_preconceptual": "El tiempo es como un camino donde las huellas siempre van hacia adelante y nadie puede caminar exactamente en sentido contrario borrando cada paso; a veces parece posible, pero hay piedras marcadas que jamás vuelven a su lugar original.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El tiempo es irreversible",
+      "subnodo": "irreversibilidad del tiempo",
+      "contexto": "flecha termodinámica; imposibilidad de deshacer procesos macroscópicos"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Existen excepciones fundamentales a la simetría temporal",
+      "subnodo": "excepciones a la simetría temporal",
+      "contexto": "procesos o leyes que no admiten inversión de tiempo, como ciertas violaciones de simetría en física de partículas (violaciones CP, decaimientos entrópicos)"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "El viaje en el tiempo dentro de la misma línea es imposible",
+      "subnodo": "imposibilidad de inversión total",
+      "contexto": "dado el aumento universal de entropía, no hay evidencia de regreso causal dentro de la misma trayectoria histórica"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "La propuesta es coherente con el marco de referencia termodinámico y con fenómenos observados. Solo proceso idealizado de microestados sugiere simetría perfecta."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "leyes macroscópicas y segunda ley de la termodinámica",
+      "conclusion": "La mayoría de los procesos naturales son irreversibles y establecen una flecha del tiempo.",
+      "notas": "Esto no contradice que a nivel fundamental haya ecuaciones simétricas, pero las condiciones iniciales y la complejidad introducen irreversibilidad en la práctica."
+    },
+    {
+      "origen": "violaciones de simetría en física de partículas (violación CP)",
+      "conclusion": "No todas las interacciones elementales son simétricas bajo inversión temporal.",
+      "notas": "Esto constituye un ejemplo empírico de excepción fundamental."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todo proceso físico admite simetría temporal perfecta",
+      "descripcion": "La desintegración de ciertas partículas subatómicas (kaones neutros) muestra violación CP, implicando asimetría bajo inversión temporal.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Ocurre en contextos específicos; no generaliza a todos los sistemas, pero sí demuestra la existencia de excepciones."
+    },
+    {
+      "afirmacion_refutada": "El aumento de entropía es universal e imposible de revertir incluso localmente",
+      "descripcion": "En sistemas acotados o bajo control extremo, puede reducirse la entropía local a costa de aumentarla externamente. Maxwell's demon es un experimento mental famoso, aunque requiere considerar la información.",
+      "grado_de_refutacion": "parcial",
+      "notas": "No refuta la irreversibilidad global, pero muestra sutilezas locales."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En sistemas macroscópicos, nunca se ha observado espontánea reducción masiva de entropía o inversión de procesos naturales completos.",
+      "inferencia": "La irreversibilidad es una característica emergente robusta.",
+      "grado_de_confianza": "alto",
+      "notas": "Los patrones empíricos apoyan la flecha del tiempo."
+    },
+    {
+      "patron_observado": "Algunas ecuaciones de la física fundamental (ej. electromagnetismo, mecánica clásica sin dissipación) son simétricas en el tiempo.",
+      "inferencia": "La simetría temporal es un principio más fundamental que la irreversibilidad macroscópica, pero está rota por condiciones iniciales y complejidad.",
+      "grado_de_confianza": "alto",
+      "notas": "La ruptura emerge de la relación entre micro y macro."
+    }
+  ],
+  "conclusion_preconceptual": "Aunque algunas reglas del universo permiten soñar con rebobinar el tiempo, en el mundo real siempre hay algo que no puede regresar.",
+  "teoria_o_intuicion_emergente": "Las excepciones a la simetría temporal son fundamentales y acotan la posibilidad de retroceso histórico incluso dentro de sistemas ideales. La irreversibilidad no es absoluta a nivel de ecuaciones, pero nace inevitablemente de las condiciones iniciales, el entrelazamiento y la complejidad estadística.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El tiempo es irreversible en sistemas macroscópicos",
+        1,
+        0,
+        0
+      ],
+      [
+        "Existen excepciones fundamentales a la simetría temporal",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda ley física es simétrica respecto al tiempo",
+        0,
+        1,
+        0
+      ],
+      [
+        "La entropía siempre aumenta localmente",
+        0,
+        1,
+        0
+      ],
+      [
+        "El viaje en el tiempo dentro de la misma línea es posible",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "El tiempo es irreversible en sistemas macroscópicos",
+    "B": "Existen excepciones fundamentales a la simetría temporal",
+    "C": "Toda ley física es simétrica respecto al tiempo",
+    "D": "La entropía siempre aumenta localmente",
+    "E": "El viaje en el tiempo dentro de la misma línea es posible"
+  },
+  "formula_booleana_del_argumento": "(A && B) && !C && !D && !E",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Existen excepciones fundamentales a la simetría temporal",
+      "implicacion_por_estado_falso": "Si no existen tales excepciones, la tesis de la irreversibilidad absoluta debe replantearse o postularse como sólo emergente.",
+      "implicacion_por_estado_verdadero": "Confirma la imposibilidad del viaje temporal dentro de la misma línea y refuerza la irreversibilidad macroscópica."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Las ecuaciones fundamentales aparentan simetría, pero la experiencia y condiciones iniciales imponen asimetría.",
+    "ambiguedad": "¿La irreversibilidad es fundamental o sólo emergente?",
+    "contradiccion_util": "La coexistencia de leyes reversibles y procesos irreversibles abre la vía a nuevas interpretaciones del tiempo y la causalidad."
+  },
+  "reorganizacion_analoga": [
+    "Como una huella que no puede deshacerse ni siquiera lavando el lodo; el camino se transforma cada vez que intentas regresar.",
+    "Como la muerte de una estrella: la física permite describir su formación y muerte simétricamente, pero en la práctica, nada revive tal cual.",
+    "Como una taza rota: la física de partículas podría, teóricamente, permitir reunir los fragmentos, pero en el mundo real, siempre se pierde información y energía."
+  ],
+  "implicacion_transformadora": [
+    "Las excepciones a la simetría temporal fundamentan la dirección del tiempo y restringen escenarios especulativos como el viaje temporal clásico.",
+    "El reconocimiento de estas excepciones invita a buscar leyes más profundas sobre el origen del tiempo y la causalidad.",
+    "Establecen límites epistemológicos sobre la reconstrucción histórica y la predicción absoluta."
+  ],
+  "reevaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "La coherencia lógica queda mantenida y los contraejemplos sólo introducen matices sin refutar la proposición central."
+  },
+  "reconclusion_preconceptual": "Por más que sepamos hacer cálculos hacia atrás, el universo prefiere seguir caminando hacia adelante, y algunas reglas no dejan que nadie lo engañe.",
+  "contexto": "Existen excepciones fundamentales a la simetría temporal (contexto: El tiempo es irreversible (contexto: If time is the rate of change, if the change tends to more possibilities, then that equates entropy's increase, then time is that, then time is irreversible, then time travel within the same timeline is impossible))"
+}

@@ -1,0 +1,155 @@
+{
+  "nodo_semantico_de_entrada": "La entropía nunca disminuye en sistemas aislados",
+  "nodo_semantico_central": "Principio de entropía creciente en sistemas aislados",
+  "razones_del_argumento": [
+    "La afirmación se fundamenta en la Segunda Ley de la Termodinámica, una de las leyes más robustas de la física estadística.",
+    "El contexto de validez es para 'sistemas aislados' definidos en términos termodinámicos clásicos.",
+    "No implica que el valor local de entropía no fluctúe microscópicamente, sino que el estado macroscópico global tiende a incrementarse o permanecer igual.",
+    "La palabra 'nunca' introduce un absolutismo susceptible a contraejemplo en microfluctuaciones o marcos cuánticos, pero es estadísticamente sólido en el dominio clásico."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "Principio físico universal",
+    "funcion": "Describir la tendencia del desorden/aleatoriedad en sistemas cerrados",
+    "dominio": "termodinámica, estadística, física fundamental",
+    "forma": "ley universal, ecuación diferencial, tendencia estadística",
+    "tension": "Absolutismo frente a excepciones improbables; aplicabilidad a escalas microscópicas vs. macroscópicas",
+    "limite": "No cubre sistemas abiertos/energía en intercambio; cuestionable en marcos cuánticos/fenómenos de pequeña escala"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Entropía",
+      "definicion": "Medida de desorden, aleatoriedad o número de microestados posibles en un sistema"
+    },
+    {
+      "termino": "Nunca",
+      "definicion": "Cuantificador absoluto que se refiere a inexistencia de excepción en el marco aplicado"
+    },
+    {
+      "termino": "Disminuye",
+      "definicion": "Cambio negativo en la función de entropía en el tiempo"
+    },
+    {
+      "termino": "Sistema aislado",
+      "definicion": "Conjunto que no intercambia energía ni materia con el exterior"
+    }
+  ],
+  "transduccion_preconceptual": "Imagínate una caja cerrada llena de piezas de lego revueltas. Si agitas la caja, las piezas nunca se van a ordenar solas como por arte de magia; lo más probable es que cada vez estén más mezcladas. Siempre hay más maneras de estar desordenadas que ordenadas.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La entropía nunca disminuye en sistemas aislados",
+      "subnodo": "Excepciones microscópicas/estadísticas",
+      "contexto": "¿Puede la entropía, por fluctuación improbable, bajar localmente/emergentemente?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Nunca",
+      "subnodo": "Revisión del absolutismo semántico",
+      "contexto": "¿Puede demostrarse experimentalmente una disminución espontánea no forzada de entropía en sistemas reales?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Formalmente cierto en estadística clásica pero permite micro-excepciones altamente improbables ('demonio de Maxwell', fluctuaciones cuánticas); estrictamente hablando, el absolutismo 'nunca' no puede garantizarse empíricamente a escala infinita en todos los universos posibles."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Segunda Ley de la Termodinámica (macroescala)",
+      "conclusion": "La función de entropía total no decrece en sistemas aislados en procesos espontáneos.",
+      "notas": "Válido en la gran mayoría de observaciones macroscópicas; deducción estadística, no determinista únicamente."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La entropía nunca disminuye en sistemas aislados",
+      "descripcion": "Fluctuaciones de entropía en sistemas muy pequeños (fluctuación de Boltzmann); posibilidad teórica del demonio de Maxwell.",
+      "grado_de_refutacion": "parcial",
+      "notas": "No es observacionalmente relevante para sistemas macroscópicos; la ley se reafirma estadísticamente."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En todos los experimentos macroscópicos realizados, la entropía no ha disminuido espontáneamente.",
+      "inferencia": "La afirmación es estadísticamente sólida para sistemas de tamaño real.",
+      "grado_de_confianza": "alto",
+      "notas": "A menor escala, la ley puede experimentar desviaciones temporales; en sistemas grandes, dichas desviaciones tienden a desaparecer."
+    }
+  ],
+  "conclusion_preconceptual": "En la mayoría de los escenarios, las cosas se vuelven cada vez más desordenadas cuando nadie interviene.",
+  "teoria_o_intuicion_emergente": "La irreversibilidad macroscópica es una propiedad emergente de la probabilidad combinatoria de los estados del sistema; el absolutismo expresado como 'nunca' es operativo pero filosóficamente refutable.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La entropía nunca disminuye en sistemas aislados",
+        0,
+        0,
+        1
+      ],
+      [
+        "La entropía no disminuye estadísticamente en sistemas aislados",
+        1,
+        0,
+        0
+      ],
+      [
+        "La entropía puede disminuir localmente de modo improbable",
+        0,
+        0,
+        1
+      ],
+      [
+        "'Nunca' implica imposibilidad absoluta",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "La entropía nunca disminuye en sistemas aislados",
+    "B": "La entropía no disminuye estadísticamente en sistemas aislados",
+    "C": "La entropía puede disminuir localmente de modo improbable",
+    "D": "'Nunca' implica imposibilidad absoluta"
+  },
+  "formula_booleana_del_argumento": "(B && !C) || (A && D)",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "La entropía puede disminuir localmente de modo improbable",
+      "implicacion_por_estado_falso": "El enunciado absoluto sería cierto como ley fundamental.",
+      "implicacion_por_estado_verdadero": "La ley es estadística, no absolutista, y su validez es práctica, no lógica."
+    },
+    {
+      "afirmacion": "'Nunca' implica imposibilidad absoluta",
+      "implicacion_por_estado_falso": "El marco se relaja: el enunciado debe cambiar de 'nunca' por 'casi nunca' o 'estadísticamente no'.",
+      "implicacion_por_estado_verdadero": "La ley sería válida lógicamente sólo bajo axiomas idealizados."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "El demonio de Maxwell propone escenarios donde la entropía parece decrecer sin violar las leyes físicas; solución propuesta: coste informacional/energético del demonio.",
+    "ambiguedad": "'Nunca' como absoluto vs. 'estadísticamente casi nunca'; escala de aplicación (atomística/macroscópica).",
+    "contradiccion_util": "De los escenarios improbables pueden surgir nuevos análisis de irreversibilidad y teoría de la información."
+  },
+  "reorganizacion_analoga": [
+    "Como una baraja de cartas lanzada al aire: es casi imposible que caigan ordenadas, pero no absolutamente imposible.",
+    "Como una canción tocada muchas veces: lo normal es que se oiga igual o más confusa, nunca más nítida por sí sola.",
+    "Como bolsas con muchas canicas de colores: si las sacudes, las mezclas más; que terminen separadas es posible, pero ridículamente raro."
+  ],
+  "implicacion_transformadora": [
+    "Aceptar que muchas leyes naturales son estadísticamente absolutas, no lógicamente necesarias.",
+    "Enseñar que el lenguaje científico debe reflejar la incertidumbre inherente a fenómenos emergentes.",
+    "Investigar la relación entre la irreversibilidad estadística y la flecha del tiempo.",
+    "Explorar cómo los contraejemplos extremos, aunque improbables, pueden llevar a desarrollar nuevas teorías (teoría cuántica, información, caos)."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición, aunque válida en el sentido práctico y experimental, es filosófica y lógicamente incompleta en términos absolutos debido a la posibilidad de microfluctuaciones; la certeza observacional es estadística, no dogmática."
+  },
+  "reconclusion_preconceptual": "La entropía casi nunca baja por sí sola, pero si tienes infinitas oportunidades, tal vez en una de ellas ocurra. Para casi todas las personas, e incluso los científicos, el principio sigue siendo verdad en la vida diaria.",
+  "contexto": "La entropía nunca disminuye en sistemas aislados"
+}

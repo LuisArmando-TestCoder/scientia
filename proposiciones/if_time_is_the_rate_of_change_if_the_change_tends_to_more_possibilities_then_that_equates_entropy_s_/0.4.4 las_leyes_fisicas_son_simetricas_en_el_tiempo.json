@@ -1,0 +1,163 @@
+{
+  "nodo_semantico_de_entrada": "Las leyes físicas son simétricas en el tiempo",
+  "nodo_semantico_central": "Simetría temporal de las leyes físicas",
+  "razones_del_argumento": [
+    "La afirmación parte de la sospecha empírica y teórica de que las ecuaciones más fundamentales no distinguen en su forma matemáticamente entre pasado y futuro. El argumento se justifica en contextos de mecánica clásica, relatividad y mecánica cuántica no-relativista, pero encuentra tensiones con fenómenos irreversibles como la entropía. La ausencia de simetría surge ante la segunda ley de la termodinámica y procesos de decoherencia cuántica."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "Principio general",
+    "funcion": "Postular la equivalencia operacional de evolución física al invertir la dirección del tiempo",
+    "dominio": "Física teórica, metafísica del tiempo",
+    "forma": "Bilateral (dualidad pasado-futuro); red de implicaciones",
+    "tension": "Ruptura entre ecuaciones fundamentales y observaciones macroscópicas",
+    "limite": "Emergencia de asimetrías irreversibles a nivel termodinámico y cosmológico"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "ley física",
+      "definicion": "Regla matemática que describe cómo cambian las cosas en la naturaleza"
+    },
+    {
+      "termino": "simetría",
+      "definicion": "Propiedad de mantenerse igual tras una transformación (como el cambio de dirección temporal)"
+    },
+    {
+      "termino": "tiempo",
+      "definicion": "Secuencia en la que ocurren los eventos; puede ir hacia adelante o hacia atrás en modelos ideales"
+    },
+    {
+      "termino": "irreversibilidad",
+      "definicion": "Fenómeno donde el sentido del tiempo importa y algunos procesos solo van en una dirección"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tienes un video de canicas rodando que puedes ver hacia adelante o hacia atrás; muchas veces parece posible. Pero, si se rompe un vaso, verlo al revés se siente raro: nunca ves pedazos saltando solos para armar el vaso, aunque las reglas para cada pedazo lo permitirían.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El marco teórico subyacente de la física es reversible en el tiempo",
+      "subnodo": "reversibilidad dinámica",
+      "contexto": "Ecuaciones newtonianas, Hamiltonianas, ecuaciones de Schrödinger, función de onda cuántica"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La experiencia macroscópica muestra flecha del tiempo",
+      "subnodo": "assimetría emergente",
+      "contexto": "Segundo principio de la termodinámica, colapso de la función de onda, flecha cosmológica"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Coexiste simetría formal en leyes fundamentales e irreversibilidad emergente dependiendo del nivel de descripción; la afirmación es parcialmente cierta y depende del contexto de aplicación."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Las ecuaciones de movimiento clásicas y cuánticas",
+      "conclusion": "Invertir 't' produce trayectorias matemáticamente válidas",
+      "notas": "Solo si el sistema está cerrado y no considera disipación"
+    },
+    {
+      "origen": "Axioma termodinámico",
+      "conclusion": "No puede haber decrecimiento global de entropía en sistemas cerrados",
+      "notas": "El sentido de aumento de entropía quiebra la simetría temporal"
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Las leyes físicas son siempre simétricas en el tiempo",
+      "descripcion": "Desintegración radiactiva: los procesos nucleares pueden mostrar violación de simetría temporal (CP-violación en física de partículas)",
+      "grado_de_refutacion": "parcial",
+      "notas": "Relevante a nivel subatómico y cosmológico; no universal"
+    },
+    {
+      "afirmacion_refutada": "Los procesos macroscópicos pueden invertirse sin anomalía",
+      "descripcion": "Ruptura de un huevo: en ningún caso espontáneamente se invierte el proceso en condiciones naturales",
+      "grado_de_refutacion": "total",
+      "notas": "La irreversibilidad emerge por el alto número de estados micro"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Todas las ecuaciones físicas fundamentales (excepto ciertos decaimientos) son reversibles",
+      "inferencia": "Hay una fuerte tendencia formal hacia la simetría temporal",
+      "grado_de_confianza": "alto",
+      "notas": "Excepción CP/T"
+    },
+    {
+      "patron_observado": "Aumenta la entropía global en observaciones cotidianas",
+      "inferencia": "A nivel práctico, la asimetría es la regla; la simetría es una abstracción matemática",
+      "grado_de_confianza": "alto",
+      "notas": "Influido por condiciones iniciales y número de partículas"
+    }
+  ],
+  "conclusion_preconceptual": "Con las reglas del universo ideal puedes jugar al revés y casi nada cambia. Pero en la vida real, algunas cosas, como el romper una taza, sólo tienen un camino: adelante.",
+  "teoria_o_intuicion_emergente": "El tiempo emerge con flecha en sistemas complejos, aunque la base de las reglas permite que todo pueda ir hacia adelante o atrás; la simetría es un límite ideal.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Las leyes físicas fundamentales son simétricas en el tiempo (ideal cerrado)",
+        1,
+        0,
+        0
+      ],
+      [
+        "Los procesos físicos observables en la experiencia cotidiana son simétricos en el tiempo",
+        0,
+        1,
+        0
+      ],
+      [
+        "Existen excepciones fundamentales a la simetría temporal",
+        0,
+        0,
+        1
+      ],
+      [
+        "La irreversibilidad macroscópica contradice la simetría",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Las leyes físicas fundamentales son simétricas en el tiempo (ideal cerrado)",
+    "B": "Los procesos físicos observables en la experiencia cotidiana son simétricos en el tiempo",
+    "C": "Existen excepciones fundamentales a la simetría temporal",
+    "D": "La irreversibilidad macroscópica contradice la simetría"
+  },
+  "formula_booleana_del_argumento": "A && (!B) && (!D) && (!C || C)",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Existen excepciones fundamentales a la simetría temporal",
+      "implicacion_por_estado_falso": "No existen excepciones, la simetría es universal en el nivel fundamental",
+      "implicacion_por_estado_verdadero": "La simetría solo es aproximadamente cierta; requiere correcciones"
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Las leyes fundamentales permiten invertir el tiempo pero la realidad cotidiana exhibe irreversibilidad absoluta.",
+    "ambiguedad": "El uso de 'simetría' depende del marco (micro vs macro, ideal vs real).",
+    "contradiccion_util": "La co-existencia de simetría formal e irreversibilidad emergente permite explorar nuevo terreno entre caos, información y flecha del tiempo."
+  },
+  "reorganizacion_analoga": [
+    "Como un libro que puede leerse al derecho o al revés (letras iguales), pero sólo una dirección da una historia coherente.",
+    "Como una receta de cocina que indica pasos reversibles, pero una vez que se mezcla y hornea, ya no se puede volver atrás.",
+    "Como un juego de dominó: las reglas son iguales en ambos sentidos, pero el derrumbe solo va para adelante en la experiencia real."
+  ],
+  "implicacion_transformadora": [
+    "El análisis obliga a distinguir entre lo permitido por la matemática fundamental y lo impuesto por condiciones emergentes y estados iniciales.",
+    "La asimetría temporal emergente alerta sobre límites de predicción, computabilidad y causalidad.",
+    "Lleva a buscar nuevas leyes o principios que expliquen la emergencia de irreversibilidad."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La simetría temporal es cierta en el límite ideal/formal pero incompleta en la experiencia total del universo; el nodo persiste en tensión dinámica entre niveles de descripción."
+  },
+  "reconclusion_preconceptual": "Si las reglas del juego siempre permitieran volver todo al principio, la vida sería como un truco de magia repetible. Pero en este mundo, algunas cartas sólo se pueden lanzar una vez.",
+  "contexto": "Las leyes físicas son simétricas en el tiempo"
+}

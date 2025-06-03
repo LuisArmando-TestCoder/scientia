@@ -1,0 +1,130 @@
+{
+  "nodo_semantico_de_entrada": "La entropía nunca disminuye en sistemas aislados",
+  "nodo_semantico_central": "Segunda ley de la termodinámica en sistemas aislados",
+  "razones_del_argumento": [
+    "La observación empírica en física sugiere que, en sistemas aislados, la entropía (medida del desorden o número de microestados) tiende a incrementarse o, en el mejor de los casos, permanecer igual.",
+    "La formulación estadística de la termodinámica (Boltzmann, Gibbs) respalda esta tendencia de la entropía, dada la altísima improbabilidad de la reducción espontánea del desorden.",
+    "Existen debates sobre interpretaciones cuánticas, recurrences (recurrencias de Poincaré) y fluctuaciones, pero estadísticamente, la probabilidad de disminución espontánea es prácticamente nula al tratarse de sistemas macroscópicos."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "principio físico (ley estadística)",
+    "funcion": "Describir la dirección probable de la evolución de sistemas cerrados",
+    "dominio": "física, termodinámica, teoría de sistemas",
+    "forma": "ley (restricción evolutiva), tendencia estadística irreversible",
+    "tension": "Fundada en la matemática estadística, pero no estrictamente determinista para todos los microestados posibles; su forma absolutista entra en tensión con fluctuaciones estadísticamente posibles y recurrencias a escalas de tiempo astronómicas.",
+    "limite": "A nivel microscópico/teórico, eventos extremadamente improbables pueden violar la ley en intervalos enormes; en la práctica experimental, el límite es inobservable por la irreducibilidad computacional del número de microestados."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "entropía",
+      "definicion": "medida de desorden, número de formas en que se puede organizar un sistema, o información sobre incertidumbre en un sistema físico."
+    },
+    {
+      "termino": "sistema aislado",
+      "definicion": "sistema que no intercambia energía ni materia con el entorno; frontera perfecta y autosuficiente."
+    },
+    {
+      "termino": "nunca disminuye",
+      "definicion": "afirmación absolutista de imposibilidad de reducción en magnitud en ningún caso, lugar o tiempo caso."
+    }
+  ],
+  "transduccion_preconceptual": "Imagina una caja llena de piezas desordenadas. Si cierras la caja y la mueves, las piezas casi nunca se ordenarán solas. Siempre que miras adentro, hay más desorden, nunca menos.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La entropía nunca disminuye en sistemas aislados",
+      "subnodo": "absolutismo de la irreversibilidad",
+      "contexto": "¿Existen casos en que la entropía pueda bajar, aunque sea extremadamente improbable?"
+    },
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "Eventos microestadísticos pueden provocar disminuciones locales de entropía",
+      "subnodo": "fluctuación termodinámica",
+      "contexto": "A escala microscópica, ¿puede haber disminuciones temporales por azar del conjunto?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El absolutismo es refutable por contraejemplo teórico —banalizado a escala práctica— pero el enunciado es casi-verdadero operacionalmente a escalas macroscópicas."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Principio de indistinguibilidad estadística y segunda ley de la termodinámica",
+      "conclusion": "En un número N suficientemente grande de partículas, la evolución tiende con altísima probabilidad al incremento o conservación de la entropía global.",
+      "notas": "La deducción se apoya en el límite termodinámico."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La entropía nunca disminuye en sistemas aislados",
+      "descripcion": "Recurrencias de Poincaré, fluctuaciones aleatorias en sistemas pequeños, o acontecimientos extremadamente improbables pueden invertir transitoriamente el sentido de la entropía.",
+      "grado_de_refutacion": "parcial",
+      "notas": "El efecto es inobservable o irrelevante en contextos macroscópicos prácticos."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Ningún experimento macroscópico ha observado disminución sostenida de entropía en sistemas aislados.",
+      "inferencia": "La ley opera con confiabilidad total en el dominio práctico.",
+      "grado_de_confianza": "alto",
+      "notas": "El número de partículas y los tiempos involucrados exceden cualquier factibilidad observacional."
+    }
+  ],
+  "conclusion_preconceptual": "En la vida diaria, el desorden nunca se ordena solo dentro de una caja cerrada; sólo de milagro ocurriría.",
+  "teoria_o_intuicion_emergente": "La irreversibilidad observada a gran escala es una ley estadística emergente, no una imposibilidad lógica; el absolutismo exige ser relativizado.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La entropía nunca disminuye en sistemas aislados",
+        0,
+        0,
+        1
+      ],
+      [
+        "La entropía generalmente no disminuye en sistemas aislados",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "La entropía nunca disminuye en sistemas aislados",
+    "B": "La entropía generalmente no disminuye en sistemas aislados"
+  },
+  "formula_booleana_del_argumento": "!A || B",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "La entropía nunca disminuye en sistemas aislados",
+      "implicacion_por_estado_falso": "El absolutismo falla; la ley debe expresarse como tendencia y no como certidumbre absoluta.",
+      "implicacion_por_estado_verdadero": "El principio se sostiene como axioma absoluto; deberían desaparecer los contraejemplos."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "La ley es experimento inalterable en la práctica y sin embargo puede violarse en lo teóricamente posible.",
+    "ambiguedad": "La palabra 'nunca' tiende a ignorar la existencia formal de eventos de recurrencia estadística.",
+    "contradiccion_util": "El uso retórico de absolutos promueve comprensión cotidiana, pero sacrifica la precisión teórica; la contradicción fertiliza el debate sobre escalas y límites."
+  },
+  "reorganizacion_analoga": [
+    "Como las cartas de una baraja lanzadas al aire: pueden caer perfectamente ordenadas, pero la probabilidad es tan baja que esperamos siempre el desorden.",
+    "Como un reloj que puede volver atrás por azar, pero nunca observamos ese evento en la realidad, sólo en el mundo de las posibilidades.",
+    "Como un cubo de hielo que espontáneamente se forma en café caliente: casi imposible, pero no lógicamente prohibido."
+  ],
+  "implicacion_transformadora": [
+    "Las leyes físicas deben ser formuladas como tendencias estadísticas, dejando espacio a la excepción improbable que jamás veremos.",
+    "La epistemología del absolutismo exige refutación constante mediante contraejemplo, aún cuando la consecuencia práctica sea nula.",
+    "Para la pedagogía y la ciencia, distinguir entre lo absoluto pedagógico y lo empíricamente verificable robustece la comprensión avanzada."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El argumento absolutista es refutable formalmente pero sostenido con máxima robustez práctica; el nodo permanece indefinido pues depende del nivel de granularidad y del dominio de aplicación."
+  },
+  "reconclusion_preconceptual": "Las cosas casi nunca se ordenan solas, pero un día, muy (muy) lejos, podrían sorprendernos.",
+  "contexto": "La entropía nunca disminuye en sistemas aislados"
+}

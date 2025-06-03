@@ -1,0 +1,138 @@
+{
+  "nodo_semantico_de_entrada": "La entropía nunca disminuye en sistemas aislados",
+  "nodo_semantico_central": "Irreversibilidad de la entropía en sistemas aislados",
+  "razones_del_argumento": [
+    "La proposición se basa en la segunda ley de la termodinámica, ampliamente experimentada y formalizada.",
+    "No existe experimento reproducido que haya refutado la irreversibilidad entrópica en sistemas perfectamente aislados."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "principio físico-fundamental",
+    "funcion": "determinar la direccionalidad temporal de fenómenos termodinámicos",
+    "dominio": "termodinámica, física estadística",
+    "forma": "ley universal restringida a condiciones ideales (aislamiento total)",
+    "tension": "limitación al idealismo del aislamiento; dependiente de la definición operacional de sistema y medición",
+    "limite": "solo aplicable a sistemas completamente aislados; no se extiende sin matices a sistemas abiertos o cuasi-cerrados"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Entropía",
+      "definicion": "Medida de desorden o posibilidades microestatales de un sistema."
+    },
+    {
+      "termino": "Sistema aislado",
+      "definicion": "Objeto o conjunto que no intercambia ni materia ni energía con su entorno."
+    },
+    {
+      "termino": "Disminuir",
+      "definicion": "Cambiar a un valor menor a lo largo de la evolución temporal."
+    },
+    {
+      "termino": "Nunca",
+      "definicion": "Absoluto temporal: en ningún momento durante la evolución posible."
+    }
+  ],
+  "transduccion_preconceptual": "Imagina una caja mágica cerrada que nadie puede tocar ni abrir. Dentro, las cosas siempre se vuelven más desordenadas o se quedan igual, pero jamás, por sí solas, se ordenan más de lo que ya estaban.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La entropía nunca disminuye en sistemas perfectamente aislados.",
+      "subnodo": "Condición ideal de aislamiento absoluto",
+      "contexto": "Cuestiona imposibilidad práctica de aislamiento total; plantea límite experimental."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Nunca",
+      "subnodo": "Absolutismo temporal",
+      "contexto": "Busca contraejemplo fuera del ideal matemático; indaga fluctuaciones estadísticas."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "Ningún contraejemplo experimental o teórico irrebatible a la proposición en condiciones estrictas; universalidad formalmente justificada bajo hipótesis del sistema aislado."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Segunda ley de la termodinámica",
+      "conclusion": "Todo proceso espontáneo en sistema aislado tiene ΔS ≥ 0",
+      "notas": "ΔS=0 sólo para procesos reversibles ideales, no observados en la práctica."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La entropía nunca disminuye en sistemas aislados",
+      "descripcion": "Las fluctuaciones de entropía a escala microscópica (teorema de fluctuaciones de Jarzynski y Crooks) pueden permitir una disminución local y temporalmente en sistemas cuánticos o muy pequeños.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Válido sólo en sistemas de pocas partículas, en escalas temporalmente minúsculas, el promedio global sigue incrementando la entropía."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En cada experimento a escala macroscópica, la entropía en sistemas razonablemente aislados siempre permanece igual o aumenta.",
+      "inferencia": "El principio tiene extraordinaria fiabilidad empírica para sistemas de interés práctico o físico convencional.",
+      "grado_de_confianza": "alto",
+      "notas": "Solo se debilita al descender a escalas cuánticas o sistemas microscópicos."
+    }
+  ],
+  "conclusion_preconceptual": "La caja mágica siempre se vuelve más desordenada, excepto si la miras con una lupa tan precisa que veas cosas por un instante hacer trampa, pero cuando miras todo el tiempo y en grande, nunca hay trampa.",
+  "teoria_o_intuicion_emergente": "El aumento inevitable de la entropía sólo pertenece firmemente al mundo macroscópico e idealmente aislado; en el reino micro o en sistemas cuánticos hay margen para fluctuaciones, pero el comportamiento global se preserva.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La entropía nunca disminuye en sistemas perfectamente aislados (macroscópicos)",
+        1,
+        0,
+        0
+      ],
+      [
+        "La entropía nunca disminuye en sistemas microscópicos o cuánticos",
+        0,
+        1,
+        0
+      ],
+      [
+        "La entropía promedio no disminuye en ningún sistema aislado",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "La entropía nunca disminuye en sistemas perfectamente aislados (macroscópicos)",
+    "B": "La entropía nunca disminuye en sistemas microscópicos o cuánticos",
+    "C": "La entropía promedio no disminuye en ningún sistema aislado"
+  },
+  "formula_booleana_del_argumento": "A && C && !B",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "La entropía nunca disminuye en sistemas microscópicos o cuánticos",
+      "implicacion_por_estado_falso": "El principio global sólo se sostiene promedio estadístico, no en cada caso microindividual.",
+      "implicacion_por_estado_verdadero": "La ley sería válida incluso en el régimen cuántico o de partículas individuales."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "A nivel microscópico, el principio admite excepciones temporales (fluctuaciones), pero a nivel macroscópico es inviolable.",
+    "ambiguedad": "Definición precisa de 'sistema aislado' y de 'disminuir' requiere idealización matemática; en la práctica, el aislamiento perfecto es imposible.",
+    "contradiccion_util": "El comportamiento micro puede contradecir el macro, pero al unir ambos, se conserva la irreversibilidad, mostrando la naturaleza estadística de las leyes físicas."
+  },
+  "reorganizacion_analoga": [
+    "Como un juego de millones de monedas lanzadas: alguna seguidilla puede salir cara seguida de sello (orden), pero en sumas grandes, el desorden gana siempre.",
+    "Como intentar ordenar una habitación con millones de hormigas: alguna esquina milagrosamente se ordena sola, pero el todo siempre tiende al caos."
+  ],
+  "implicacion_transformadora": [
+    "El principio de irreversibilidad se fundamenta en la estadística de sistemas grandes; en las fronteras cuánticas o micro, la realidad requiere generalizaciones estadísticas.",
+    "El absolutismo sólo es defendible en contextos ideales; la epistemología debe reconocer sus márgenes y los contextos de validez de toda ley."
+  ],
+  "reevaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "La afirmación es verdadera en su contexto ideal y uso convencional, con reservas para excepciones micro que no alteran el resultado promedio."
+  },
+  "reconclusion_preconceptual": "En la mayoría del tiempo y en la mayoría de los lugares, las cosas se desordenan solas en su caja cerrada, y aunque alguna vez, escondidas y pequeñas, jueguen a estar ordenadas, no pueden hacerlo por siempre ni todas juntas.",
+  "contexto": "La entropía nunca disminuye en sistemas aislados (contexto: La entropía nunca disminuye en sistemas aislados)"
+}

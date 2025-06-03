@@ -1,0 +1,1 @@
+deno run -A main.ts "If time (as the rate of change) stopped Omniversally, there would not be observer left to witness and compare the stoppage against its memory of ever changing states, and the illusion of existence would be no longer, and the end itself would be imperceptible"

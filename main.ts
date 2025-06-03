@@ -120,7 +120,7 @@ function getColapsedArgumentedAnalysis(analysisJson: Record<string, any>) {
     Object.entries(${JSON.stringify(analysisJson.diccionario_de_la_formula)}).map(([
       name, value
     ]) => {
-      let variable = ${JSON.stringify(analysisJson.tabla_verdad.filas)}.find(([
+      let statementState = ${JSON.stringify(analysisJson.tabla_verdad.filas)}.find(([
         afirmation,
         truthment,
         falsement,
@@ -136,7 +136,7 @@ function getColapsedArgumentedAnalysis(analysisJson: Record<string, any>) {
           // The AI might not have generated the same statements
         )
       });
-      const z = \`let \${name} = \${variable[1]} || \${variable[1] === 0 && variable[2] === 1 ? 0 : "Error"}\`
+      const z = \`let \${name} = \${statementState[1]} || \${statementState[1] === 0 && statementState[2] === 1 ? 0 : statementState[1] || "Error"}\`
     
       return z;
     }).join("\\n")
@@ -147,6 +147,8 @@ function getColapsedArgumentedAnalysis(analysisJson: Record<string, any>) {
   const result = eval(`
       (function () {
           ${definitions}
+
+          console.log("${analysisJson.formula_booleana_del_argumento}", ${analysisJson.formula_booleana_del_argumento})
   
           return ${definitions.includes("Error") ? "undefined" : analysisJson.formula_booleana_del_argumento}
       })()

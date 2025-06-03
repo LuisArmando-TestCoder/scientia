@@ -1,1 +1,0 @@
-deno run --allow-read --allow-env --allow-write --allow-net main.ts "Demuestro la validez de Modus Ponens verificando algorítmicamente que la tautología ((P → Q) ∧ P) → Q pertenece a mi base axiomática; así, cuando poseo P → Q y P instancio esa misma tautología y obtengo Q sin recurrir a reglas externas."

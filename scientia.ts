@@ -238,6 +238,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
   
   "teoria_o_intuicion_emergente": "", // Insight derivado, afirmación teórica, intuición heurística o principio estructural.
 
+  // Las afirmaciones dentro diccionario_de_la_formula (values) y tabla_verdad.filas (index 0) deben ser semántica, sintáctica y gramáticalmente idénticas (strings equivalentes; strings gemelos)
   "tabla_verdad": {
     "columnas": ["afirmacion", "verdadero", "falso", "indefinido"], // Ejes de evaluación lógica modal.
     "filas": [
@@ -247,6 +248,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     ]
   },
 
+  // Las afirmaciones dentro diccionario_de_la_formula (values) y tabla_verdad.filas (index 0) deben ser semántica, sintáctica y gramáticalmente idénticas (strings equivalentes; strings gemelos)
   "diccionario_de_la_formula": {
     "A": "aquí va el nombre de la afirmación a la que corresponde esta variable"
     // A, B, C... Z
@@ -305,7 +307,6 @@ Cada iteración debería generar una versión más refinada de conciencia episte
 
 Notas:
 - Recuerda sólo devolver el JSON, sin ningún otro texto adicional, sin wrapping.
-- Las afirmaciones dentro implicaciones_de_colapso, diccionario_de_la_formula y tabla_verdad.filas deben ser semántica, sintáctica y gramáticalmente idénticas (strings equivalentes; strings gemelos)
 
 Ahora, analiza esta proposición: ${claim}
 `;

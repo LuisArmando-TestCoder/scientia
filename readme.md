@@ -1,11 +1,11 @@
-# Oriens Omni
+# Scientia Oriens Omni
 
 > **Recursive Epistemological Claim Analysis for Deno**
-> *Automate first‑principles thinking, boolean validation, and analogy generation with a single CLI command.*
+> **Automate first‑principles thinking, boolean validation, and analogy generation with a single CLI command.**
 
 [![Deno >=1.44](https://img.shields.io/badge/deno-%E2%89%A51.44-green?logo=deno)](https://deno.land/) 
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](#license) 
-![Status Beta](https://img.shields.io/badge/status-beta-orange)
+[![Status Beta](https://img.shields.io/badge/status-beta-orange)](Beta)
 
 ---
 

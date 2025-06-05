@@ -1,0 +1,1 @@
+deno run -A main.ts "The emergence of deep conversations, on some measure, depends on your circles, but can also emerge from unexpected places, if you has the willingness to inquire at every glimpse of curiosity and at every spark"

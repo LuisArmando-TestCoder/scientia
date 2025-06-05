@@ -1,0 +1,1 @@
+deno run -A main.ts "Eval is never needed when you have custom-made parsers for your specific interpretation purposes when polymorphic structures of your interpretable outputs and its limits are completely defined"

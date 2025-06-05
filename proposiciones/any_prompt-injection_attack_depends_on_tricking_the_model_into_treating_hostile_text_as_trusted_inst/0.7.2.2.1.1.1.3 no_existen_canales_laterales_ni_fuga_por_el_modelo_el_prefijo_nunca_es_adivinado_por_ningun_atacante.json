@@ -1,0 +1,177 @@
+{
+  "nodo_semantico_de_entrada": "No existen canales laterales ni fuga por el modelo (el prefijo nunca es adivinado por ningún atacante).",
+  "nodo_semantico_central": "Imposibilidad de ataque por canales laterales o fuga del prefijo en modelo LLM por diseño de separación y borrado.",
+  "razones_del_argumento": [
+    "La inyección de instrucciones maliciosas depende de que el atacante adivine el prefijo secreto para que la IA lo trate como comando, lo cual es prácticamente imposible por la longitud (256 bits, espacio inabarcable) y unicidad por cada llamada.",
+    "La lógica de ejecución limita la acción de la IA únicamente a líneas con el prefijo correcto; todo lo demás se trata como datos inertes.",
+    "El borrado posterior del prefijo de toda la salida (limpieza multipaso) elimina la posibilidad de fuga del prefijo a través de la respuesta.",
+    "No se deja escapar el estado interno ni el secreto sintáctico mediante pasos deterministas controlados incluso ante fallos parciales."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "Restricción axiomática, sistema defensivo",
+    "funcion": "Cerrar rutas de ejecución no controladas y evitar fuga de información por canales ocultos",
+    "dominio": "Seguridad de IA, teoría de sistemas, protocolos criptográficos",
+    "forma": "Red de filtros, barrera criptográfica, verificador de ejecución",
+    "tension": "El modelo debe confiar en su propia separación de contexto y la limpieza debe ser exhaustiva y a prueba de trucos de representación.",
+    "limite": "Depende de la calidad de la implementación del filtro y la ausencia de vulnerabilidades físicas fuera del modelo puro; la seguridad es asegurada sólo bajo los supuestos dados (prefijo efectivamente aleatorio y secreto, modelabilidad total de la salida)"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "canal lateral",
+      "definicion": "Vía no prevista por la cual información sensible se filtra, indirecta al canal principal de comunicación."
+    },
+    {
+      "termino": "prefijo secreto",
+      "definicion": "Valor único generado aleatoriamente, inscrito en cada instrucción válida y desconocido para el atacante."
+    },
+    {
+      "termino": "inyección de prompt",
+      "definicion": "Técnica que busca hacer que el modelo ejecute instrucciones camufladas dentro del input."
+    },
+    {
+      "termino": "borrado post-respuesta",
+      "definicion": "Eliminación sistemática del prefijo en la salida, incluso si fue ofuscado, antes de entregar el texto."
+    }
+  ],
+  "transduccion_preconceptual": "Imagina una caja fuerte que sólo abre con una llave inventada en ese momento y que cambia con cada intento, y luego borra cualquier pista de la llave después de usarla. Nadie puede saber la llave para mandar órdenes, ni ver lo que fue usado.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El prefijo nunca es adivinado por ningún atacante.",
+      "subnodo": "Adivinanza imposible",
+      "contexto": "La seguridad depende únicamente de la fortaleza del secreto: si por alguna razón el prefijo pudiese filtrarse, la seguridad caería; se abre subnodo de ataque físico o filtración externa."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "El canal lateral potencial se borra por limpieza posrespuesta.",
+      "subnodo": "Eliminación de restos sintácticos",
+      "contexto": "Si la limpieza falla, incluso parcialmente, un atacante cuidadoso podría reconstruir fragmentos con suficiente interacción."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La seguridad formal es tan fuerte como el prefijo y la limpieza, pero podría verse rota por una vulnerabilidad de implementación o filtrado exterior. La afirmación es válida en términos teóricos con los supuestos dados."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "El espacio del prefijo (256 bits) es inabarcable",
+      "conclusion": "La probabilidad de adivinanza por fuerza bruta es nula para efectos prácticos.",
+      "notas": "Asume un generador de aleatoriedad perfecto y sin fuga previa."
+    },
+    {
+      "origen": "Ejecución estricta bajo prefijo, todo lo demás es inerte",
+      "conclusion": "No hay camino para ejecutar inyecciones sin acceso al prefijo.",
+      "notas": "Si el modelo ignora la instrucción, el atacante no logra ejecución efectiva."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El prefijo nunca es adivinado por ningún atacante.",
+      "descripcion": "Un fallo del generador aleatorio, reuso de prefijos o filtración del entorno pueden revelar el prefijo sin vulnerar el modelo.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La afirmación depende de supuestos externos sobre el entorno y la calidad de la aleatoriedad. Si algún canal fuera del modelo (logs, timing, side-channels de hardware) existiera, el argumento perdería solidez."
+    },
+    {
+      "afirmacion_refutada": "El borrado multipaso elimina toda traza del prefijo.",
+      "descripcion": "Un error de parseo o sanitización (por ejemplo, un caso complejo de unicode, HTML raro o representación binaria que el stripper no cubre) podría dejar parte del prefijo en la salida.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La fortaleza del sistema depende de que la limpieza funcione para toda codificación posible."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Diversos experimentos en prompt injection han demostrado que sistemas con entradas delimitadas y secretos no expuestos frustran ataques prácticos.",
+      "inferencia": "El enfoque parece eficaz empíricamente cuando no hay canales sobresalientes y se mantiene la disciplina del secreto.",
+      "grado_de_confianza": "alto",
+      "notas": "La mayor parte de los ataques exitosos explotan delimitadores predecibles o datos visibles, no secretos fuertes."
+    },
+    {
+      "patron_observado": "En bugs históricos, partes del estado interno lograron filtrarse por canales indirectos (timing, logs, cachés).",
+      "inferencia": "Ningún sistema puede descartar por completo canales laterales salvo en modelo teórico cerrado.",
+      "grado_de_confianza": "medio",
+      "notas": "En ambientes reales, los detalles de la infraestructura pueden impactar."
+    }
+  ],
+  "conclusion_preconceptual": "Si nadie puede saber el secreto, nadie puede engañar al sistema. Pero si algún día el secreto sale, la magia se rompe.",
+  "teoria_o_intuicion_emergente": "La seguridad por separación semántica estricta y secreto temporal es robusta contra inyección directa; la fuga depende no del modelo lógico sino de la pureza y perfección de la implementación y el entorno.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El prefijo nunca es adivinado por ningún atacante.",
+        1,
+        0,
+        0
+      ],
+      [
+        "No existen canales laterales ni fuga por el modelo.",
+        0,
+        0,
+        1
+      ],
+      [
+        "El borrado multipaso elimina toda traza del prefijo.",
+        1,
+        0,
+        0
+      ],
+      [
+        "La lógica de ejecución sólo valida comandos con prefijo correcto.",
+        1,
+        0,
+        0
+      ],
+      [
+        "No existe posibilidad alguna de fuga exterior absolutamente.",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "El prefijo nunca es adivinado por ningún atacante.",
+    "B": "No existen canales laterales ni fuga por el modelo.",
+    "C": "El borrado multipaso elimina toda traza del prefijo.",
+    "D": "La lógica de ejecución sólo valida comandos con prefijo correcto.",
+    "E": "No existe posibilidad alguna de fuga exterior absolutamente."
+  },
+  "formula_booleana_del_argumento": "(A && C && D) && !E",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "No existen canales laterales ni fuga por el modelo.",
+      "implicacion_por_estado_falso": "Si hay canales laterales, se abre brecha de seguridad aunque el prefijo sea secreto.",
+      "implicacion_por_estado_verdadero": "El sistema es seguro bajo los axiomas y no hay camino para la ejecución de instrucciones hostiles."
+    },
+    {
+      "afirmacion": "No existe posibilidad alguna de fuga exterior absolutamente.",
+      "implicacion_por_estado_falso": "Reconoce que teóricamente siempre puede haber algún canal no previsto, pero la implementación dada lo hace inviable en la práctica.",
+      "implicacion_por_estado_verdadero": "El modelo sería seguro bajo todos los posibles contextos, incluso ante ataques de canal lateral más allá del software."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Afirmar seguridad absoluta exige negar toda posibilidad de canal lateral, pero en sistemas abiertos, la seguridad absoluta es inalcanzable.",
+    "ambiguedad": "Ambigüedad sobre el alcance de ‘ningún canal lateral’: ¿incluye sólo el software, también el hardware, el entorno operativo?",
+    "contradiccion_util": "El mismo reconocimiento del límite operativo abre la vía para nuevas capas de defensa y monitoreo; fortaleza por consciencia de la imperfección."
+  },
+  "reorganizacion_analoga": [
+    "Como un castillo cuya llave cambia para cada visitante y desaparece tras cruzar, pero siempre puede existir un túnel que el constructor no haya visto.",
+    "Como un firewall con lista blanca de acceso, donde los únicos comandos que pasan la puerta son los que traen la contraseña imposible de copiar ese día."
+  ],
+  "implicacion_transformadora": [
+    "El diseño por secreto-por-request y borrado sistemático eleva la seguridad de los LLM donde los ataques dependen de confusión sintáctica.",
+    "La estrategia fomenta la división radical entre órdenes y datos, apuntando a una arquitectura menos vulnerable a manipulación textual.",
+    "La consciencia de los límites de seguridad absoluta obliga a prácticas de defensa en profundidad y monitoreo activo para el resto del entorno."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La seguridad es prácticamente total bajo los supuestos, pero no es absoluta fuera del entorno lógico-criptográfico; el diseño es robusto mientras se mantengan los axiomas y controles de calidad."
+  },
+  "reconclusion_preconceptual": "Es casi imposible engañar o hackear este sistema por adivinanza o trampa de texto, pero la verdadera seguridad vive mientras la caja y la llave nunca sean vistas fuera del juego.",
+  "contexto": "No existen canales laterales ni fuga por el modelo. (contexto: El prefijo nunca es adivinado por ningún atacante. (contexto: Any prompt-injection attack depends on tricking the model into treating hostile text as trusted instructions, so I start by introducing a verifiable separator between the two: a freshly generated 256-bit hash prefix that only my code and the model see during the current request, making it practically unguessable. I stamp that prefix onto every developer-controlled line and explicitly tell the model to execute only lines that carry the stamp while treating all other content—including user-provided data—as inert. Because the attacker never learns the prefix until after the model has parsed the prompt, they cannot forge valid instructions, so injected directives are ignored by construction. Once the model replies, I run a multi-pass scrubber that strips every possible rendering of the prefix, even if the model tried to obfuscate it with HTML tags or whitespace, preventing the secret from leaking into downstream channels. The surrounding retry and back-off logic ensures deterministic behavior so partial failures cannot sidestep the guard. Given an unguessable per-call secret, strict prefix-gated execution, and post-response erasure, the attacker has no viable pathway to smuggle executable commands, which closes the prompt-injection breach by first-principles reasoning.))"
+}

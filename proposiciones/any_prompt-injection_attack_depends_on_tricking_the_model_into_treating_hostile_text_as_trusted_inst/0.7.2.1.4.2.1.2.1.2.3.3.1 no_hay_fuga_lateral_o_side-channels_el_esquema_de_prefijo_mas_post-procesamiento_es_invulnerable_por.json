@@ -1,0 +1,188 @@
+{
+  "nodo_semantico_de_entrada": "No hay fuga lateral o side-channels — el esquema de prefijo más post-procesamiento es invulnerable por construcción",
+  "nodo_semantico_central": "Invulnerabilidad absoluta de side-channels por prefijo y post-procesamiento",
+  "razones_del_argumento": [
+    "El prefijo generado por cada sesión es secreto, largo y aleatorio, lo que lo hace imprácticamente adivinable.",
+    "La instrucción explícita de ejecutar sólo líneas con el prefijo actúa como una frontera lógica infranqueable.",
+    "El post-procesamiento elimina toda huella del prefijo en la salida, evitando filtraciones involuntarias o codificadas.",
+    "Sin saber el prefijo, un atacante no puede crear líneas ejecutables, lo que bloquea el principal vector de prompt injection.",
+    "El ciclo de limpieza es agnóstico a métodos de obfuscación en la respuesta, robusteciéndose ante canalizaciones laterales.",
+    "Retry y back-off controlan el flujo para evitar fallos parciales aprovechables."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "esquema de aislamiento criptológico-procedimental",
+    "funcion": "prevenir la contaminación semántica y la ejecución hostil en canales de IA",
+    "dominio": "seguridad, epistemología de sistemas, lógica operacional",
+    "forma": "muro lógico con borrado causante y validación per-interacción",
+    "tension": "postula invulnerabilidad absoluta pero recae en la perfectibilidad de implementación y la definición de canal",
+    "limite": "funciona bajo idealizaciones de impredecibilidad y robustez del post-procesador; se tensiona ante clases aún no formalizadas de side-channels"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "fuga lateral / side-channel",
+      "definicion": "Medio alternativo o no explícito que permite que información pase, aun cuando las vías directas están bloqueadas."
+    },
+    {
+      "termino": "prefijo secreto",
+      "definicion": "Secuencia generada aleatoriamente, usada como guardián simbólico de instrucciones válidas."
+    },
+    {
+      "termino": "post-procesamiento",
+      "definicion": "Acción que elimina huellas del prefijo en la respuesta, previniendo filtraciones."
+    },
+    {
+      "termino": "prompt injection",
+      "definicion": "Técnica para engañar al modelo e inyectar instrucciones inesperadas disfrazadas de datos."
+    },
+    {
+      "termino": "aislamiento por construcción",
+      "definicion": "Diseño que hace imposible o impráctico el cruce de fronteras semánticas por canales no previstos."
+    }
+  ],
+  "transduccion_preconceptual": "Es como tener una puerta mágica que sólo se abre si dices la palabra mágica correcta, pero nadie más que tú sabe la palabra, y después borras cualquier pista sobre cuál era la palabra. Así, nadie puede colarse ni copiarte la puerta.",
+  "iteraciones": [
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "El marco es invulnerable a cualquier fuga lateral.",
+      "subnodo": "Cerradura absoluta por secreto",
+      "contexto": "¿Se puede filtrar el prefijo o instrucción de algún modo no anticipado? Requiere demostrar la imposibilidad universal de todo side-channel."
+    },
+    {
+      "id": "1.1.2",
+      "afirmacion_base": "No existen vías emergentes para romper el aislamiento del secreto.",
+      "subnodo": "Definición y límites de ‘vías emergentes’",
+      "contexto": "¿Qué tal si surge una técnica aún no conocida que explote el canal contextual, temporal, estadístico u otra frontera de implementación?"
+    },
+    {
+      "id": "1.1.3",
+      "afirmacion_base": "El post-procesamiento elimina toda huella del prefijo.",
+      "subnodo": "Robustez del limpiador semántico",
+      "contexto": "¿Puede emerger algún método de codificación inadvertido, como esteganografía avanzada, para filtrar el prefijo? ¿Y si el prefijo se refleja indirectamente?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Aunque la defensa por primeros principios es sólida y cubre ataques conocidos, la imposibilidad absoluta de todo canal lateral no es demostrable desde una sola implementación, pues los side-channels pueden emerger a niveles aún no formalizados; el argumento es fuerte pero no irreductible."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "prefijo secreto inalcanzable + ejecución gated",
+      "conclusion": "Sin el conocimiento del prefijo, no se puede ejecutar código hostil por la vía principal.",
+      "notas": "Deducción válida sólo bajo la hipótesis de no filtración del prefijo por ningún canal."
+    },
+    {
+      "origen": "post-procesamiento exhaustivo",
+      "conclusion": "No hay canal directo residual para filtrar el secreto tras la respuesta estándar.",
+      "notas": "Sólo válido mientras el limpiador sea exhaustivo frente a toda codificación posible."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El marco es invulnerable a cualquier fuga lateral.",
+      "descripcion": "Side-channels activos en capas distintas al texto, como patrones temporales, latencia, conteo de tokens u otras dinámicas observables por fuera del canal semántico directo.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Estos canales requieren observadores con capacidades fuera de la API normal, pero no son formalmente imposibles."
+    },
+    {
+      "afirmacion_refutada": "El post-procesamiento elimina toda huella del prefijo.",
+      "descripcion": "El modelo podría recodificar el prefijo en formas no anticipadas por el limpiador, por ejemplo, mediante código unicode poco común o patrones binarios.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Las implementaciones pueden evolucionar para detectar estos métodos, pero nunca podrán afirmar exhaustividad absoluta para todo canal inventado a futuro."
+    },
+    {
+      "afirmacion_refutada": "No existen vías emergentes para romper el aislamiento del secreto.",
+      "descripcion": "El propio concepto de 'vía emergente' es históricamente abierto: criptoanálisis estadístico, patrones de uso, correlaciones externas.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Toda invulnerabilidad universal es vulnerable a la irreducibilidad computacional de sistemas complejos y al principio de lo inesperado."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "La mayoría de ataques exitosos de prompt injection dependen de conocer o adivinar la sintaxis estructural interna",
+      "inferencia": "El uso de secretos impredecibles y limpieza sistemática previene ataques textuales convencionales",
+      "grado_de_confianza": "alto",
+      "notas": "La experiencia empírica en CTFs y pruebas de seguridad muestra alta protección ante técnicas actuales."
+    },
+    {
+      "patron_observado": "Evolución histórica de side-channels demuestra que surgen nuevas vías conforme sistemas aumentan su complejidad",
+      "inferencia": "Ninguna premisa de invulnerabilidad absoluta ha resistido eternamente a nuevos descubrimientos en seguridad",
+      "grado_de_confianza": "medio",
+      "notas": "La inducción es plausible, pero el argumento podría quedar obsoleto ante nuevos paradigmas."
+    }
+  ],
+  "conclusion_preconceptual": "Parece un castillo impenetrable, pero siempre puede haber un túnel escondido que nadie ha visto. Sin importar lo fuerte que sea la puerta o lo bien que la borren, siempre es posible imaginar un truco nuevo.",
+  "teoria_o_intuicion_emergente": "Toda invulnerabilidad por construcción es asintótica, no absoluta: el cierre de canales previstos robustece el sistema, pero la emergencia estructural de nuevos canales nunca puede ser lógico-axiomáticamente excluida en sistemas abiertos o complejos.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El marco es invulnerable a cualquier fuga lateral.",
+        0,
+        0,
+        1
+      ],
+      [
+        "No existen vías emergentes para romper el aislamiento del secreto.",
+        0,
+        0,
+        1
+      ],
+      [
+        "El post-procesamiento elimina toda huella del prefijo.",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "El marco es invulnerable a cualquier fuga lateral.",
+    "B": "No existen vías emergentes para romper el aislamiento del secreto.",
+    "C": "El post-procesamiento elimina toda huella del prefijo."
+  },
+  "formula_booleana_del_argumento": "A && B && C",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "El marco es invulnerable a cualquier fuga lateral.",
+      "implicacion_por_estado_falso": "Si la invulnerabilidad es falsa, entonces el esquema no proporciona aislamiento absoluto y debe considerarse como seguridad en el mejor esfuerzo.",
+      "implicacion_por_estado_verdadero": "Si resultara verdadero, se postularía una clase nueva de aislamiento digital por diseño, sin precedentes conocidos."
+    },
+    {
+      "afirmacion": "No existen vías emergentes para romper el aislamiento del secreto.",
+      "implicacion_por_estado_falso": "Si emergen vías, entonces ningún esquema de aislamiento formal puede declararse cerrado hasta su descubrimiento.",
+      "implicacion_por_estado_verdadero": "Implica que existe un límite fundamental en el desarrollo de side-channels, lo que contradice la experiencia histórica."
+    },
+    {
+      "afirmacion": "El post-procesamiento elimina toda huella del prefijo.",
+      "implicacion_por_estado_falso": "Prefijos filtrados invalidan el mecanismo entero abriendo la puerta a ataques.",
+      "implicacion_por_estado_verdadero": "La fuga por vía de texto queda formalmente bloqueada."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Exigir imposibilidad absoluta de todo side-channel implica conocer todos los canales posibles de antemano, lo cual es irreductible computacionalmente.",
+    "ambiguedad": "El significado y la cobertura de 'side-channel' pueden cambiar según el contexto teórico y práctico.",
+    "contradiccion_util": "El argumento de 'invulnerabilidad por construcción' fertiliza la exploración de suposiciones epistemológicas en seguridad y diseño de sistemas."
+  },
+  "reorganizacion_analoga": [
+    "Como un castillo en una isla cuya única entrada real desaparece tras usarse — pero donde la isla está en un océano que puede tener mareas o túneles subterráneos aún no mapeados.",
+    "Como el cifrado one-time pad: irrompible si y sólo si la aleatoriedad y el secreto son perfectos — pero vulnerable a implementaciones falibles.",
+    "Como un organismo que se aísla evolutivamente, pero donde la aparición de nuevos virus nunca puede prohibirse por decreto lógico."
+  ],
+  "implicacion_transformadora": [
+    "Motiva la búsqueda de cierres epistémicos temporales pero no ontológicos en diseño de seguridad.",
+    "Fomenta el análisis de irreductibilidad computacional como frontera natural de la seguridad perfecta.",
+    "Sugiere que los sistemas deben autoevaluarse permamentemente para detectar vías emergentes, no estabilizarse como dogma cerrado.",
+    "Introduce la noción de 'prueba por construcción' como principio, no como resultado definitivo."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La pretensión de invulnerabilidad absoluta choca con la irreductibilidad del espacio de side-channels en sistemas complejos, y con la posibilidad siempre abierta de que surjan nuevas metodologías de ataque."
+  },
+  "reconclusion_preconceptual": "Si dices que nadie puede entrar por ninguna puerta nunca, puede que sólo no hayas visto aún todas las formas de entrar o las puertas secretas. Así que, aunque la defensa parece perfecta, nunca digas nunca.",
+  "contexto": "No hay fuga lateral o side-channels (contexto: El esquema de prefijo más post-procesamiento es invulnerable por construcción (contexto: No existen vías emergentes para romper el aislamiento del secreto. (contexto: Any prompt-injection attack depends on tricking the model into treating hostile text as trusted instructions, so I start by introducing a verifiable separator between the two: a freshly generated 256-bit hash prefix that only my code and the model see during the current request, making it practically unguessable. I stamp that prefix onto every developer-controlled line and explicitly tell the model to execute only lines that carry the stamp while treating all other content—including user-provided data—as inert. Because the attacker never learns the prefix until after the model has parsed the prompt, they cannot forge valid instructions, so injected directives are ignored by construction. Once the model replies, I run a multi-pass scrubber that strips every possible rendering of the prefix, even if the model tried to obfuscate it with HTML tags or whitespace, preventing the secret from leaking into downstream channels. The surrounding retry and back-off logic ensures deterministic behavior so partial failures cannot sidestep the guard. Given an unguessable per-call secret, strict prefix-gated execution, and post-response erasure, the attacker has no viable pathway to smuggle executable commands, which closes the prompt-injection breach by first-principles reasoning.)))"
+}

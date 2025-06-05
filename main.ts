@@ -136,9 +136,9 @@ function getColapsedArgumentedAnalysis(analysisJson: Record<string, any>) {
           // The AI might not have generated the same statements
         )
       });
-      const z = \`let \${name} = \${statementState[1]} || \${statementState[1] === 0 && statementState[2] === 1 ? 0 : statementState[1] || "Error"}\`
+      const variableDefinition = \`let \${name} = \${statementState[1]} || \${statementState[1] === 0 && statementState[2] === 1 ? 0 : statementState[1] || "Error"}\`
     
-      return z;
+      return statementState ? variableDefinition : "";
     }).join("\\n")
   `);
 

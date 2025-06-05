@@ -83,6 +83,7 @@ Límite: sólo se estabiliza momentáneamente; está diseñado para mutar.
 - _Marco_: contenedor abstracto de operaciones.
     
 - _Reducción epistemológica_: proceso de simplificación y decodificación de conocimiento.
+(reduce el argumento a sus principios más fundamentales, las cosas de las que estás más seguro a un nivel fundamental que establece tu base axiomática y razona a partir de ello, para luego comparar tu conclusión con los axiomas incuestionables)
     
 - _Recursivo_: capaz de aplicarse sobre sí mismo indefinidamente.
     
@@ -214,7 +215,8 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     // ...una por cada deducción relevante
   ],
 
-  "contraejemplos": [
+  "contraejemplos": [ // Cuestiona tu propio argumento para probar la validez de si el argumento de nodo_semantico_central es válido, y cuestiona meta-cuestionamiento (meta-meta-argumentación auto-argumentativa). 
+    // Genera al menos un contraejemplo por cada premisa nuclear.
     {
       "afirmacion_refutada": "", // Afirmación cuestionada.
       "descripcion": "", // Situación, experimento, ejemplo o paradoja que la refuta.
@@ -281,6 +283,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     // ...una por cada afirmación que colapsa a un estado booleano.
   ],
 
+  // Evalúa el argumento en sus extremos
   "tension_logica": {
     "paradoja": "", // Paradoja estructural que moviliza el nodo.
     "ambiguedad": "", // Ambigüedad semántica o funcional no resuelta.

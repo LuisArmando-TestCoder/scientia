@@ -298,6 +298,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     "" // Consecuencias epistemológicas, éticas, cognitivas o metodológicas. Operacionalización de la teoría.
   ],
 
+  // Si el contexto refleja señales de un bucle auto-referencial (en el caso de contexto conectados que argumentan la misma proposición que la proposición actual), entonces etiqueta el estado de la reevaluacion_global como autoreferencial
   "reevaluacion_global": {
     // Si alguna afirmación fue indefinida, entonces el estado sería indefinido, por el contrario, si ese no es el caso, entonces debería colapsar en falso o verdadero, dependiendo de la estructura de la formula_booleana_del_argumento y de los estados de la tabla_verdad
     // Si la expresión no cumple con los requesitos necesarios (dados por la formula_booleana_del_argumento) para ser afirmativa, y no posee ningún indefinido, entonces, el estado debe colapsar como falso

@@ -1,0 +1,146 @@
+{
+  "nodo_semantico_de_entrada": "El mercado responde sólo a los valores colectivos",
+  "nodo_semantico_central": "Solemnidad del mercado a valores colectivos",
+  "razones_del_argumento": [
+    "La proposición afirma que el mercado, como sistema, ajusta su comportamiento únicamente en función de los valores sostenidos colectivamente, suprimiendo posibles influencias individuales o externas.",
+    "La exclusividad ('sólo') implica una relación causal necesaria y suficiente: ningún otro factor afecta las respuestas del mercado más allá de los valores colectivos.",
+    "La noción de 'valores colectivos' requiere reducción: ¿son explícitos, implícitos, universales, contextualmente negociados? Ausencia de detalle puede volver a la proposición indefinida."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "afirmación causal sobre sistemas económicos",
+    "funcion": "delinear origen del comportamiento sistémico de mercados",
+    "dominio": "economía, sociología, filosofía moral",
+    "forma": "sistema cerrado bajo una única causalidad (valores colectivos)",
+    "tension": "exclusividad causal vs. multifactorialidad empírica",
+    "limite": "vulnerable a contraejemplos individualistas o exógenos"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "mercado",
+      "definicion": "Sistema dinámico de intercambio de bienes, servicios o información mediado por participantes."
+    },
+    {
+      "termino": "responde",
+      "definicion": "Ajusta conducta según estímulos provenientes de participantes o entorno."
+    },
+    {
+      "termino": "sólo",
+      "definicion": "Restricción absoluta; negación de cualquier causa alternativa."
+    },
+    {
+      "termino": "valores colectivos",
+      "definicion": "Preferencias, éticas, creencias, prioridades compartidas por un grupo dentro de un contexto definido."
+    }
+  ],
+  "transduccion_preconceptual": "El mercado es como un gran juego de niños en el recreo. Si todos quieren jugar a lo mismo, se organiza ese juego. Si sólo algunos quieren y otros no, a veces juegan cosas distintas. Pero si dijéramos que el juego solo depende de lo que todos eligen juntos, ignoraríamos a los niños que quieren cambiar las reglas o jugar solos.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El mercado es influido solo por los valores colectivos",
+      "subnodo": "Causalidad exclusiva de lo colectivo",
+      "contexto": "¿Puede el mercado ignorar preferencias individuales, agentes exógenos u otros impulsos no colectivos?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "No existen factores individuales ni externos relevantes para el mercado",
+      "subnodo": "Negación de factores alternos",
+      "contexto": "¿Podría un actor grande (ej. Estado, empresa) alterar el mercado fuera del consenso colectivo?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación es vulnerable a contraejemplos; la exclusividad se sostiene sólo en contextos ideales o teóricos, no empíricos generales."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Sólo valores colectivos determinan el mercado",
+      "conclusion": "Ninguna otra fuerza (tecnología, leyes, individuos) puede impactar el mercado, salvo si atraviesa lo colectivo.",
+      "notas": "Esta conclusión es útil como ideal teórico, pero ignora empiria histórica y multifactorialidad evidenciada."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El mercado responde sólo a los valores colectivos",
+      "descripcion": "Un monopolio introduce un cambio no deseado colectivamente; un agente externo impone precios. Pandemias, políticas fiscales o innovación tecnológica alteran el mercado sin consenso.",
+      "grado_de_refutacion": "parcial",
+      "notas": "En economías reales, actores con poder o sucesos aleatorios pueden modificar respuestas del mercado ajenos al valor colectivo."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Casos históricos donde agentes individuales o exógenos provocan cambios bruscos en mercados (innovaciones disruptivas, lobbies, shocks externos)",
+      "inferencia": "El mercado suele reflejar una combinación de valores colectivos, fuerzas individuales y factores contingentes.",
+      "grado_de_confianza": "alto",
+      "notas": "Especialmente observable en mercados financieros, tecnológicos y de recursos naturales."
+    }
+  ],
+  "conclusion_preconceptual": "El mercado suele moverse como un río: sigue la corriente grande, pero pequeños afluentes y piedras también cambian su forma.",
+  "teoria_o_intuicion_emergente": "La respuesta sistémica del mercado es un resultado emergente mixto: refleja valores colectivos cuando estos son suficientemente predominantes, pero está permeada y a veces disrumpida por factores individuales o exógenos no colectivos.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El mercado responde sólo a los valores colectivos",
+        0,
+        0,
+        1
+      ],
+      [
+        "El mercado responde en parte a valores no colectivos",
+        0,
+        1,
+        0
+      ],
+      [
+        "Existen influencias individuales o exógenas",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "El mercado responde sólo a los valores colectivos",
+    "B": "El mercado responde en parte a valores no colectivos",
+    "C": "Existen influencias individuales o exógenas"
+  },
+  "formula_booleana_del_argumento": "!B && !C && A",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "El mercado responde sólo a los valores colectivos",
+      "implicacion_por_estado_falso": "Reconocimiento de multifactorialidad e imposibilidad de causalidad exclusiva para lo colectivo.",
+      "implicacion_por_estado_verdadero": "Se sostiene el determinismo absoluto de lo colectivo sobre el mercado, ignorando toda causalidad alternativa."
+    },
+    {
+      "afirmacion": "El mercado responde en parte a valores no colectivos",
+      "implicacion_por_estado_falso": "Refuerza la exclusividad de lo colectivo.",
+      "implicacion_por_estado_verdadero": "Niega la exclusividad, apertura causal multifactorial."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "El mercado como expresión pura de lo colectivo vs. apariciones de cambios no colectivos.",
+    "ambiguedad": "Determinación y definición de 'valores colectivos'; ¿cuándo un valor pasa de individual a colectivo?",
+    "contradiccion_util": "El acto de atribuir exclusivamente una causa niega la dinámica caótica y adaptativa del propio mercado, fertilizando modelos híbridos."
+  },
+  "reorganizacion_analoga": [
+    "Una orquesta en que sólo cuenta la voluntad del conjunto y no de ningún músico, aunque un solista puede alterar el resultado.",
+    "Un ecosistema donde las especies dominantes marcan tendencia, pero una plaga externa puede cambiarlo todo.",
+    "Un software donde el comportamiento global depende del código fuente (colectivo), pero los bugs individuales pueden colapsar el sistema."
+  ],
+  "implicacion_transformadora": [
+    "Los análisis de mercado deben incorporar modelos de causalidad múltiple y reconocer la emergencia de lo imprevisible.",
+    "Las políticas y predicciones basadas sólo en valores colectivos pueden fallar al no anticipar disrupciones individuales o externas.",
+    "El pensamiento absoluto ('sólo', 'nunca') requiere refutación empírica constante y apertura a reformulación."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición, en su formulación absoluta, no resiste ni la deducción lógica completa ni la inducción empírica robusta; requiere modulación y apertura causal."
+  },
+  "reconclusion_preconceptual": "El mercado a veces baila con lo que el grupo decide, pero no siempre escucha sólo esa música.",
+  "contexto": "El mercado responde sólo a los valores colectivos"
+}

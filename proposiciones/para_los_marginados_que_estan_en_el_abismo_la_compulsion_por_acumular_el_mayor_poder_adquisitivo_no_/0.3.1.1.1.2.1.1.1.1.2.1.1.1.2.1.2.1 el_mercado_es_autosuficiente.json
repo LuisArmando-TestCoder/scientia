@@ -1,0 +1,167 @@
+{
+  "nodo_semantico_de_entrada": "El mercado es autosuficiente.",
+  "nodo_semantico_central": "Autosuficiencia de mercado",
+  "razones_del_argumento": [
+    "La proposición assume que el mercado puede funcionar sin intervención externa, sosteniéndose y regulándose sólo a través de su dinámica interna. El argumento aparece en escuelas económicas liberales (mano invisible), pero entra en tensión con excepciones empíricas de fallas de mercado, bienes públicos o externalidades. La justificación de su validez o invalidez depende del contexto y de la interpretación de ‘autosuficiencia’. La ausencia de evidencia absoluta de autosuficiencia obliga a tratarlo como principio y no como hecho empírico universal."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "Afirmación de principio (axioma económico contingentado)",
+    "funcion": "Establecer la capacidad teórica del mercado de autogestionarse sin apoyo o regulación externa",
+    "dominio": "Economía, teoría de sistemas, filosofía política",
+    "forma": "Sistema dinámico abierto, se postula cerradura operativa ideal",
+    "tension": "Contradicción entre la idea de autosuficiencia teórica y los múltiples ejemplos empíricos de necesidad de intervención o corrección externa",
+    "limite": "La autosuficiencia depende de supuestos ideales (información perfecta, agentes racionales, competencia perfecta) raramente cumplidos en la realidad"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "mercado",
+      "definicion": "Conjunto de agentes, reglas e intercambios donde se determinan precios y asignación de recursos."
+    },
+    {
+      "termino": "autosuficiencia",
+      "definicion": "Capacidad de un sistema para sostenerse, regularse y perpetuarse sin intervención exógena."
+    }
+  ],
+  "transduccion_preconceptual": "Imagínate un patio de recreo donde todos los niños intercambian sus juguetes y dulces. Si todos juegan justo, nadie hace trampa y todos tienen lo que quieren, el patio no necesita que venga el maestro a ordenar nada. Pero si alguien acapara todos los dulces, o si algunos se quedan sin nada, a veces el maestro tiene que ayudar a que nadie se quede fuera.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El mercado es autosuficiente",
+      "subnodo": "Suficiencia del mercado bajo supuestos ideales",
+      "contexto": "Se explora bajo condiciones de competencia perfecta, información total y racionalidad absoluta."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "El mercado es autosuficiente",
+      "subnodo": "Fallas estructurales de mercado",
+      "contexto": "Se analizan los casos donde la autosuficiencia se rompe: monopolios, externalidades, bienes públicos, asimetría de información."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación es verdadera bajo condiciones ideales hipotéticas, pero refutada como tesis absoluta en la práctica empírica—depende del contexto y del nivel de tolerancia ante fallas, intervención o externalidad."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Supuesto de competencia perfecta",
+      "conclusion": "Un mercado puede autoorganizarse sin intervención si todos los agentes son racionales y la competencia es plena.",
+      "notas": "No se cumple en la mayoría de mercados reales."
+    },
+    {
+      "origen": "Teoría de la mano invisible (Smith)",
+      "conclusion": "La búsqueda del interés propio puede, bajo ciertas condiciones, llevar al bien común sin coordinación externa.",
+      "notas": "Depende de supuestos restrictivos; la empiria muestra desviaciones."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El mercado es autosuficiente",
+      "descripcion": "Externalidades negativas como la contaminación: el mercado no internaliza completamente los costos, lo que requiere regulación.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La autosuficiencia falla en la presencia de externalidades. Se requiere acción exógena."
+    },
+    {
+      "afirmacion_refutada": "El mercado es autosuficiente",
+      "descripcion": "Bienes públicos: la provisión de bienes como defensa nacional o faros es ineficiente o nula si depende sólo del mercado.",
+      "grado_de_refutacion": "total",
+      "notas": "El mercado no provee ciertos bienes necesarios, requiriendo intervención."
+    },
+    {
+      "afirmacion_refutada": "El mercado es autosuficiente",
+      "descripcion": "Monopolios naturales: empresas con poder de mercado pueden distorsionar precios y cantidades, impidiendo equilibrio autosuficiente.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La autosuficiencia es imposible donde hay fallas de competencia sostenida."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En la mayoría de las economías, existen regulaciones estatales y subsidios junto con mercados libres.",
+      "inferencia": "La autosuficiencia absoluta del mercado es rara; la intervención es la norma, no la excepción.",
+      "grado_de_confianza": "alto",
+      "notas": "La observación empírica tiende a refutar la autosuficiencia total salvo excepciones marginales."
+    },
+    {
+      "patron_observado": "Existen mercados pequeños o locales que operan con mínima intervención y relativa estabilidad.",
+      "inferencia": "En contextos limitados y simples, la autosuficiencia del mercado puede emerger temporalmente.",
+      "grado_de_confianza": "medio",
+      "notas": "Sólo aplicable en condiciones muy controladas o simples."
+    }
+  ],
+  "conclusion_preconceptual": "El mercado a veces puede cuidarse solo, pero muchas veces necesita que alguien lo vigile cuando las cosas se complican o no hay reglas claras.",
+  "teoria_o_intuicion_emergente": "La autosuficiencia del mercado es un ideal límite más que una realidad omnipresente; su utilidad es heurística y normativa, no axiomática.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El mercado es autosuficiente",
+        0,
+        0,
+        1
+      ],
+      [
+        "El mercado es autosuficiente bajo condiciones ideales",
+        1,
+        0,
+        0
+      ],
+      [
+        "El mercado es autosuficiente en presencia de fallas de mercado",
+        0,
+        1,
+        0
+      ],
+      [
+        "El mercado es autosuficiente en todas circunstancias",
+        0,
+        1,
+        0
+      ],
+      [
+        "El mercado es autosuficiente en la realidad observable",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "El mercado es autosuficiente",
+    "B": "El mercado es autosuficiente bajo condiciones ideales",
+    "C": "El mercado es autosuficiente en presencia de fallas de mercado",
+    "D": "El mercado es autosuficiente en todas circunstancias",
+    "E": "El mercado es autosuficiente en la realidad observable"
+  },
+  "formula_booleana_del_argumento": "A === (B && !C && !D && !E)",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "El mercado es autosuficiente",
+      "implicacion_por_estado_falso": "Se requiere intervención estructural para corrección de ineficiencias.",
+      "implicacion_por_estado_verdadero": "Puede sostenerse una política de mínima regulación basada en autorregulación eficiente."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "El mercado necesita intervención para corregir sus propias fallas para asegurar su funcionamiento, negando su autosuficiencia teórica.",
+    "ambiguedad": "‘Autosuficiencia’ no define umbrales ni grados; en mercados parcialmente intervenidos, ¿se pierde totalmente la autosuficiencia o existe en escala?",
+    "contradiccion_util": "El ideal de autosuficiencia sirve como guía, aun sabiendo que pocas veces se puede mantener completamente—impulsa reformas y mejoras."
+  },
+  "reorganizacion_analoga": [
+    "Un ecosistema que se autorregula hasta que se introduce una especie invasora o un contaminante.",
+    "Una máquina de relojería sin mantenimiento: funciona bien mientras no haya fricción o daño, pero al mínimo desgaste requiere intervención.",
+    "Un software autónomo que necesita parches ocasionales a pesar de estar diseñado para correr siempre sin supervisión."
+  ],
+  "implicacion_transformadora": [
+    "La creencia en la autosuficiencia de los mercados puede guiar políticas hacia desregulación excesiva, pero también puede utilizarse como modelo teórico para diagnosticar por qué y cuándo se requiere intervención.",
+    "El contraste entre autosuficiencia ideal y realidad observable permite identificar umbrales de tolerancia y mejora instituyente."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La autosuficiencia del mercado no puede ser declarada verdadera ni falsa de modo absoluto; su verdad depende de condiciones y contextos que rara vez coinciden con la realidad empírica, colapsando a indefinido salvo en formulaciones más específicas."
+  },
+  "reconclusion_preconceptual": "A veces el patio puede arreglárselas solo, pero casi siempre necesita que la maestra esté atenta por si alguien hace trampa o si algo sale desbalanceado.",
+  "contexto": "El mercado es autosuficiente."
+}

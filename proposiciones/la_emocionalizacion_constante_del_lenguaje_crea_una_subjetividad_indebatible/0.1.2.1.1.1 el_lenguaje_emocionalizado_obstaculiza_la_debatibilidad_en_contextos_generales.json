@@ -1,0 +1,156 @@
+{
+  "nodo_semantico_de_entrada": "El lenguaje emocionalizado obstaculiza la debatibilidad en contextos generales",
+  "nodo_semantico_central": "Emocionalización obstaculiza debatibilidad general",
+  "razones_del_argumento": [
+    "La carga emocional puede entorpecer la objetividad y la disposición al diálogo.",
+    "Subjetividad intensa dificulta la identificación de criterios compartidos para el debate.",
+    "No toda dimensión emocional impide el debate: en algunos casos, lo enriquece. Esta ausencia de universalidad justifica la búsqueda de refutaciones y matices.",
+    "Se requiere distinguir entre emocionalización ocasional y emocionalización constante; la segunda pretende definir la irreductibilidad del fenómeno."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "proceso",
+    "funcion": "Evaluar cómo la carga emocional afecta la capacidad de debatir ideas colectivamente.",
+    "dominio": "epistemología del lenguaje / psicología social / teoría del debate",
+    "forma": "relación condicional (si emoción → menos debatibilidad)",
+    "tension": "Entre subjetividad comunicativa y necesidad de marco común/objetivo.",
+    "limite": "No distingue matices de intensidad, tipo de emoción, ni contexto cultural."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Lenguaje emocionalizado",
+      "definicion": "Manera de hablar o escribir impregnada de emociones personales y expresivas, con poco o nulo filtro racional."
+    },
+    {
+      "termino": "Debatibilidad",
+      "definicion": "Posibilidad de argumentar a favor o en contra de una idea usando criterios compartidos y verificables."
+    },
+    {
+      "termino": "Contextos generales",
+      "definicion": "Situaciones sociales, culturales o comunicativas en las que se espera apertura y pluralidad temática."
+    },
+    {
+      "termino": "Obstaculizar",
+      "definicion": "Hacer difícil o imposible una acción o proceso esperado."
+    }
+  ],
+  "transduccion_preconceptual": "Si todos en un grupo hablan como si sus sentimientos fueran verdad absoluta y no escuchan a los demás, ya nadie puede jugar limpio al 'veamos quién tiene razón' porque nadie acepta las reglas del juego.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El lenguaje emocionalizado obstaculiza la debatibilidad en contextos generales",
+      "subnodo": "Relación emoción-debatibilidad",
+      "contexto": "Relación de causa-efecto entre lenguaje cargado de emoción vs. posibilidades de argumentación racional."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La emocionalización constante del lenguaje crea una subjetividad indebatible",
+      "subnodo": "Emocionalización → subjetividad irreducible",
+      "contexto": "Indaga si la permanencia de lo emocional impide lograr un acuerdo que trascienda lo personal."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Falta de total generalidad; existen contraejemplos donde la emocionalidad motiva debates profundos pese a la fuerte subjetividad. No se prueba que toda emocionalización obstruya necesariamente la debatibilidad en todo contexto."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si el lenguaje es emocionalizado y el debate requiere objetividad, entonces hay menos debatibilidad.",
+      "conclusion": "El aumento de emoción suele dificultar la discusión racional.",
+      "notas": "Sólo válido donde se exige neutralidad o lógica compartida."
+    },
+    {
+      "origen": "Para debatir debe haber algún estándar común.",
+      "conclusion": "Si el único estándar es el sentir subjetivo, el debate objetivo se limita.",
+      "notas": "Si la emoción apela a experiencias universales compartidas, podría no obstaculizar."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El lenguaje emocionalizado obstaculiza la debatibilidad en contextos generales",
+      "descripcion": "Debates filosóficos sobre derechos pueden ser intensamente emocionales y seguir siendo debatidos racionalmente.",
+      "grado_de_refutacion": "parcial",
+      "notas": "El tipo de emoción (empatía vs. ira) influye de modo distinto. La emocionalización no siempre anula la lógica del argumento."
+    },
+    {
+      "afirmacion_refutada": "La emocionalización constante del lenguaje crea una subjetividad indebatible",
+      "descripcion": "Comunidades minoritarias debaten políticas identitarias altamente emocionalizadas, pero han logrado marcos de diálogo común.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La negociación sobre emociones compartidas puede llevar a normativas comunes."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En redes sociales, las discusiones con más carga emocional suelen terminar en insultos e impasses, no en síntesis.",
+      "inferencia": "La emocionalización frecuente termina obstaculizando el debate constructivo.",
+      "grado_de_confianza": "medio",
+      "notas": "Contexto digital, anonimato y polarización podrían sesgar resultados."
+    },
+    {
+      "patron_observado": "En grupos pequeños de confianza, las discusiones emocionales pueden desembocar en consensos profundos.",
+      "inferencia": "La emocionalización no impide debatibilidad en entornos con confianza relacional.",
+      "grado_de_confianza": "medio",
+      "notas": "Fuerza del lazo social y reglas previas modifican el efecto emocional."
+    }
+  ],
+  "conclusion_preconceptual": "Llenar el lenguaje de emoción puede a veces impedir el debate, pero no siempre: depende de cómo y para qué se use la emoción.",
+  "teoria_o_intuicion_emergente": "La discutibilidad de temas emocionalizados depende más del tipo de vínculo, límite contextual y reglas compartidas que de la simple presencia de emoción.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El lenguaje emocionalizado obstaculiza la debatibilidad en contextos generales",
+        0,
+        0,
+        1
+      ],
+      [
+        "La emocionalización constante del lenguaje crea una subjetividad indebatible",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "El lenguaje emocionalizado obstaculiza la debatibilidad en contextos generales",
+    "B": "La emocionalización constante del lenguaje crea una subjetividad indebatible"
+  },
+  "formula_booleana_del_argumento": "A && B",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "El lenguaje emocionalizado obstaculiza la debatibilidad en contextos generales",
+      "implicacion_por_estado_falso": "Puede haber situaciones emocionales que incentiven el debate",
+      "implicacion_por_estado_verdadero": "La emoción si es obstáculo sistemático en todos los contextos generales"
+    },
+    {
+      "afirmacion": "La emocionalización constante del lenguaje crea una subjetividad indebatible",
+      "implicacion_por_estado_falso": "Es posible debatir dentro de subjetividades fuertes",
+      "implicacion_por_estado_verdadero": "En cualquier conversación emocionalizada el debate objetivo es imposible"
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Emocionalización puede desestabilizar el debate, pero también impulsarlo en cuanto busca horizonte común mediante experiencias compartidas.",
+    "ambiguedad": "No se distingue entre emoción que refuerza empatía y emoción usada como arma retórica o dogma.",
+    "contradiccion_util": "La emoción que dificulta puede ser la que cataliza nuevos horizontes de diálogo."
+  },
+  "reorganizacion_analoga": [
+    "Como jugar fútbol con reglas que cambian al gusto de cada jugador—el partido se frustra, pero a veces surgen acuerdos improvisados que originan un nuevo deporte.",
+    "Como un termómetro: mucho calor (emoción) puede romper el aparato (debate), pero cierta temperatura es necesaria para que funcione el proceso químico (intercambio de ideas)."
+  ],
+  "implicacion_transformadora": [
+    "Los marcos de debate deben diseñar protocolos para distinguir cuándo y cómo la emocionalización es barrera o puente.",
+    "En contextos plurales, aprender a identificar los tipos de emoción (apertura vs. cierre) puede reciclar la emocionalización de obstáculo a recurso.",
+    "La pedagogía debe cultivar habilidades para modular lenguaje y emoción, evitando absolutismos."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Persisten subnodos indefinidos; depende del contexto social, intensidad y manejo de la emocionalización."
+  },
+  "reconclusion_preconceptual": "A veces la emoción rompe el juego del debate, otras veces es justo la chispa que lo vuelve posible. No hay un sí o no para todos los casos.",
+  "contexto": "El lenguaje emocionalizado obstaculiza la debatibilidad en contextos generales (contexto: La emocionalización constante del lenguaje crea una subjetividad indebatible (contexto: La emocionalizacion constante del lenguaje crea una subjetividad indebatible))"
+}

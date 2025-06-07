@@ -288,7 +288,7 @@ async function analyseClaimRecursively({
     const nextPrefix = `${numericPrefix}.${childCounter}`;
     childCounter++;
 
-    if (uncertainty === 1 && !isIdentifierOnly(subClaim)) {
+    if (uncertainty === 1 && !isIdentifierOnly(subClaim) && getColapsedArgumentedAnalysis(analysis) === undefined) {
       childTasks.push(
         analyseClaimRecursively({
           claimText: `${subClaim} (contexto: ${analysisContext || claimText})`,

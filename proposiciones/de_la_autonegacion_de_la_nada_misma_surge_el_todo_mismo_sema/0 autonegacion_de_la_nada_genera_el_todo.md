@@ -119,7 +119,7 @@ La paradoja de la nada que se autonega sugiere que los conceptos extremos se def
 
 ## reconclusion_preconceptual
 
-Al tratar de borrar todo, tu mente encuentra formas de dibujar otra vez el universo sobre el vacío.
+ Al tratar de borrar todo, tu mente encuentra formas de dibujar otra vez el universo sobre el vacío.
 
 ## contexto
 

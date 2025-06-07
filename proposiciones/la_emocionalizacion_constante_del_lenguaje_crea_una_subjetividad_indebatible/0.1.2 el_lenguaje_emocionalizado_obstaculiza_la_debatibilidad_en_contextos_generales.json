@@ -1,0 +1,133 @@
+{
+  "nodo_semantico_de_entrada": "El lenguaje emocionalizado obstaculiza la debatibilidad (en contextos generales)",
+  "nodo_semantico_central": "Impacto del lenguaje emocional en la apertura del debate",
+  "razones_del_argumento": [
+    "El argumento sostiene que la presencia de emoción en el lenguaje dificulta el intercambio argumentativo racional y abierto, presumiblemente porque polariza, cierra o sesga la disposición al análisis imparcial.",
+    "No se explicita evidencia empírica; se asume generalidad contextual.",
+    "Ausencia de justificación sobre qué emociones, niveles o modos de emocionalización son relevantes o si el obstáculo es inherente."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "relación causal conceptual",
+    "funcion": "explorar el efecto de la emocionalidad en la dinámica del debate",
+    "dominio": "psicología del lenguaje, epistemología de la argumentación",
+    "forma": "implicación contextual (si hay emoción → menos debatibilidad)",
+    "tension": "Ambigüedad entre contexto general y contextos específicos; posible absolutismo de la proposición.",
+    "limite": "No define alcance de aplicabilidad ni tipología de debate."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "lenguaje emocionalizado",
+      "definicion": "Forma de comunicar donde el mensaje contiene emociones explícitas o implícitas, tanto en el vocabulario como en la intención."
+    },
+    {
+      "termino": "obstaculizar",
+      "definicion": "Poner barreras, dificultar o reducir la eficiencia de un proceso, en este caso el debate."
+    },
+    {
+      "termino": "debatibilidad",
+      "definicion": "Capacidad de un tema o afirmación para ser discutida de manera abierta, razonada y plural."
+    },
+    {
+      "termino": "contextos generales",
+      "definicion": "Situaciones no especificadas, se asume que significa la mayoría o totalidad de los ámbitos de intercambio discursivo."
+    }
+  ],
+  "transduccion_preconceptual": "Cuando las personas discuten usando palabras que suenan muy enojadas o tristes, como si gritaran, otras personas ya no quieren hablar o escuchar; es como tratar de jugar un juego donde todos están enojados y dejan de seguir las reglas.",
+  "iteraciones": [
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "El lenguaje emocionalizado obstaculiza la debatibilidad en contextos generales",
+      "subnodo": "Excepciones específicas",
+      "contexto": "Casos en los que la emocionalidad en realidad incentiva el debate, como movimientos sociales, descargas emocionales grupales, o debates afectivos controlados."
+    },
+    {
+      "id": "1.1.2",
+      "afirmacion_base": "El lenguaje emocionalizado obstaculiza la debatibilidad en contextos generales",
+      "subnodo": "Definición graduable de emocionalidad",
+      "contexto": "Modos de emocionalidad: intensidad, tipo de emoción, presencia de emoción positiva versus negativa."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición no discrimina casos ni define grados; existen contraejemplos y ambigüedad estructural que impiden juicio absoluto."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si el lenguaje emocional obstaculiza siempre la debatibilidad, ningún debate emocional prosperaría.",
+      "conclusion": "Hay contextos donde sí se debaten temas aun cuando hay emociones involucradas.",
+      "notas": "Indica que la afirmación no es absolutista válida."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El lenguaje emocionalizado obstaculiza la debatibilidad en contextos generales",
+      "descripcion": "Debates sobre derechos civiles o movimientos sociales donde la carga emocional moviliza el intercambio y la reflexión colectiva.",
+      "grado_de_refutacion": "parcial",
+      "notas": "En ciertos contextos, la emocionalidad cataliza el debate en vez de cerrarlo."
+    },
+    {
+      "afirmacion_refutada": "El lenguaje emocionalizado obstaculiza la debatibilidad en contextos generales",
+      "descripcion": "Terapia grupal donde el lenguaje emocionalizado es base del intercambio.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Demuestra que la emocionalidad puede ser estructural al debate en algunos contextos."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Encuentros en redes sociales intensamente emocionales suelen terminar en polarización y quiebre del diálogo.",
+      "inferencia": "En contextos no estructurados, la emocionalidad sí correlaciona con menor debatibilidad.",
+      "grado_de_confianza": "medio",
+      "notas": "No puede generalizarse sin matices sobre contexto y cultura."
+    }
+  ],
+  "conclusion_preconceptual": "A veces, cuando hablamos sintiendo mucho, las peleas pueden crecer y las reglas se pierden; pero otras veces, sentir mucho ayuda a que más personas se animen a hablar y pensar diferente.",
+  "teoria_o_intuicion_emergente": "El efecto del lenguaje emocionalizado sobre la debatibilidad es contingente: depende del contexto, del tipo de emoción, de las reglas del intercambio y de la cultura de los interlocutores.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El lenguaje emocionalizado obstaculiza la debatibilidad en contextos generales",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "El lenguaje emocionalizado obstaculiza la debatibilidad en contextos generales"
+  },
+  "formula_booleana_del_argumento": "A",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "El lenguaje emocionalizado obstaculiza la debatibilidad en contextos generales",
+      "implicacion_por_estado_falso": "La emocionalidad en el lenguaje puede, en ciertos contextos, facilitar o ampliar el debate.",
+      "implicacion_por_estado_verdadero": "Debe restringirse el uso emocional en el discurso para proteger la calidad del debate, aunque esto sacrificaría autenticidad emocional."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Si eliminar toda emoción para proteger el debate obstaculiza la autenticidad del intercambio, posiblemente se pierda la conexión humana necesaria para debatir a fondo.",
+    "ambiguedad": "\"Obstaculiza\" puede ser temporal, parcial o condicional; \"contextos generales\" carece de precisión.",
+    "contradiccion_util": "El propio acto de debatir sobre el impacto de la emoción implica que cierto nivel de emocionalidad no obstaculiza, sino que incentiva la reflexión crítica."
+  },
+  "reorganizacion_analoga": [
+    "Un termómetro en un salón de clases: si la temperatura (emoción) es muy alta, los alumnos no debaten, pero en un frío absoluto, nadie se anima a participar.",
+    "En química, un catalizador puede acelerar o destruir una reacción dependiendo de las cantidades y condiciones: la emoción cataliza el debate si es preciso el contexto.",
+    "Red social como ecosistema: mucha emoción con baja regulación colapsa el ecosistema; emoción regulada por reglas de convivencia favorece la diversidad."
+  ],
+  "implicacion_transformadora": [
+    "No se debe asumir que eliminar emoción mejora el debate; hay que diseñar espacios que reconozcan y moderen la emocionalidad.",
+    "La regulación de emociones no implica su censura, sino su contextualización.",
+    "Desarrollar metatecnologías para canalizar positivamente la emocionalidad en espacios argumentativos colectivos."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación no es universalizable debido a contraejemplos y dependencia contextual; requiere disgregación en condiciones específicas para evaluar su validez real."
+  },
+  "reconclusion_preconceptual": "Sentir mucho no siempre impide hablar bien; a veces, ayuda a que todos hablen. Lo importante es aprender cuándo sentir mucho ayuda y cuándo no.",
+  "contexto": "El lenguaje emocionalizado obstaculiza la debatibilidad (en contextos generales)"
+}

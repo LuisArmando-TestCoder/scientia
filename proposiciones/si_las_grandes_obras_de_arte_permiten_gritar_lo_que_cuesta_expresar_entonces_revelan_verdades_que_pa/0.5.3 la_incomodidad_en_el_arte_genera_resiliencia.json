@@ -1,0 +1,137 @@
+{
+  "nodo_semantico_de_entrada": "La incomodidad en el arte genera resiliencia",
+  "nodo_semantico_central": "Incomodidad artística como motor de resiliencia",
+  "razones_del_argumento": [
+    "La afirmación presupone que el arte puede ser una experiencia incómoda propositivamente (es decir, que desafía, incomoda o perturba) y que ello tiene una consecuencia positiva en el desarrollo de la resiliencia."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "principio causal-experiencial",
+    "funcion": "proponer una relación generativa entre experiencia incómoda (en contexto de arte) y la capacidad de soportar/adaptarse (resiliencia)",
+    "dominio": "psicología del arte, fenomenología de la experiencia estética, pedagogía",
+    "forma": "dinámica relacional causa-efecto",
+    "tension": "La incomodidad suele verse negativamente, pero aquí se postula como factor generativo positivo; posible ambigüedad respecto al tipo/grado de incomodidad y la definición operativa de resiliencia.",
+    "limite": "No toda incomodidad genera resiliencia; no toda resiliencia proviene del arte; el efecto puede depender del contexto, la disposición individual y el tipo de arte/exposición."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "incomodidad",
+      "definicion": "Sensación de no estar en estado de confort; experiencia de desafío emocional o intelectual."
+    },
+    {
+      "termino": "arte",
+      "definicion": "Expresión y percepción a través de medios simbólicos, visuales, sonoros o performativos que evocan interpretación, emoción o reflexión."
+    },
+    {
+      "termino": "genera",
+      "definicion": "Acto de producir u originar, como causa eficiente de una consecuencia."
+    },
+    {
+      "termino": "resiliencia",
+      "definicion": "Capacidad de recuperarse o adaptarse positivamentre después de una dificultad, estrés o desafío."
+    }
+  ],
+  "transduccion_preconceptual": "Cuando algo en el arte te hace sentir raro o incómodo, es como si hicieras ejercicio mental o emocional. Y, al igual que cuando levantas pesas, al principio es difícil, pero después te haces más fuerte para soportar otras cosas difíciles de la vida.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La incomodidad en el arte genera resiliencia",
+      "subnodo": "¿Depende de la disposición del espectador?",
+      "contexto": "Algunas personas pueden rechazar la incomodidad, otras pueden crecer gracias a ella; el efecto es contingente, no absoluto."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La incomodidad en el arte genera resiliencia",
+      "subnodo": "¿Existe resiliencia sin incomodidad?",
+      "contexto": "Resiliencia también puede originarse fuera del arte, o sin incomodidad explícita."
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "La incomodidad en el arte genera resiliencia",
+      "subnodo": "¿Puede la incomodidad dañar en vez de fortalecer?",
+      "contexto": "Exposición excesiva o mal gestionada puede producir trauma, no resiliencia."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Relación depende de variables no especificadas (tipo de arte, contexto, individuo); es generalización que requiere matización y evidencia empírica."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Afirmación central",
+      "conclusion": "Si la incomodidad artística puede ser integrada o procesada sanamente, entonces puede contribuir a la resiliencia.",
+      "notas": "Válido bajo condiciones de integración saludable y soporte contextual."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La incomodidad en el arte genera resiliencia",
+      "descripcion": "Una persona sufre ansiedad ante contenido artístico incómodo y evita futuras experiencias similares, desarrollando evasión en vez de resiliencia.",
+      "grado_de_refutacion": "parcial",
+      "notas": "El resultado depende de factores de personalidad y contexto psicosocial."
+    },
+    {
+      "afirmacion_refutada": "La incomodidad en el arte genera resiliencia",
+      "descripcion": "Alguien experimenta incomodidad pero no reflexiona sobre ella ni integra la experiencia, por lo cual la incomodidad no tiene efecto transformador.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La mera exposición no garantiza el desarrollo de resiliencia."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Testimonios y literatura donde espectadores/artistas afirman fortalecimiento personal tras enfrentar obras incómodas.",
+      "inferencia": "Hay casos positivos que apoyan la relación, pero no en todos los contextos.",
+      "grado_de_confianza": "medio",
+      "notas": "Evidencia anecdótica, sujeta a sesgos de autoselección."
+    }
+  ],
+  "conclusion_preconceptual": "Sentirse incómodo con una obra de arte puede ayudarte a hacerte más fuerte, pero a veces sólo te hace querer evitar sentirte mal otra vez.",
+  "teoria_o_intuicion_emergente": "La incomodidad estética, enmarcada en ambientes que faciliten integración y reflexión, puede ser catalizadora de resiliencia. Sin condiciones de contención adecuadas, el efecto puede invertirse o neutralizarse.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La incomodidad en el arte genera resiliencia",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "La incomodidad en el arte genera resiliencia"
+  },
+  "formula_booleana_del_argumento": "A",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "La incomodidad en el arte genera resiliencia",
+      "implicacion_por_estado_falso": "Si la incomodidad en el arte no genera resiliencia, entonces el valor transformativo de la incomodidad artística se pone en cuestión, y se requeriría enfocar el arte en confort o placer, o buscar otras fuentes de resiliencia.",
+      "implicacion_por_estado_verdadero": "Si la incomodidad en el arte genera resiliencia, es deseable promover experiencias artísticas que desafíen, pero dentro de ambientes psicológicamente seguros."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "El disconfort, usualmente considerado negativo, se postula aquí como fuente de fortaleza.",
+    "ambiguedad": "No está claro qué grado/tipo de incomodidad es constructivo y cuál es destructivo.",
+    "contradiccion_util": "El mismo estímulo (incomodidad artística) puede ser generador de resiliencia o de evasión, según el sujeto/contexto."
+  },
+  "reorganizacion_analoga": [
+    "Las vacunas introducen una pequeña incomodidad (el virus atenuado) para fortalecer el sistema inmunológico.",
+    "Los músculos crecen después de ser estresados por el ejercicio físico.",
+    "El aprendizaje profundo requiere inicialmente enfrentar el no-saber y la confusión."
+  ],
+  "implicacion_transformadora": [
+    "El arte puede utilizarse como herramienta pedagógica para cultivar la resiliencia si se acompaña de reflexión guiada y apoyo.",
+    "Es necesario diseñar experiencias artísticas y educativas que no sólo incomoden, sino que ayuden a integrar y resignificar esa incomodidad.",
+    "La afirmación llama a investigar los límites y condiciones bajo las cuales la incomodidad es fértil y no lesiva."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El valor lógico no puede ser colapsado sin especificar variables contextuales (arte, sujeto, integración reflexiva); la afirmación es heurística, no ley universal."
+  },
+  "reconclusion_preconceptual": "Sentirse mal con el arte puede hacerte fuerte si logras entenderlo o hablarlo, pero a veces sólo te asusta; ayuda tener a alguien que te explique o te acompañe.",
+  "contexto": "La incomodidad en el arte genera resiliencia"
+}

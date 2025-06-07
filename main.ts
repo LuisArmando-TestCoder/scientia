@@ -16,10 +16,13 @@
 // ────────────────────────────────────────────────────────────────────────────────
 // Dependencies
 // ────────────────────────────────────────────────────────────────────────────────
-import { join } from "https://deno.land/std@0.224.0/path/mod.ts";
+import { join, resolve as pathResolve, dirname as pathDirname, basename as pathBasename } from "https://deno.land/std@0.224.0/path/mod.ts";
 import { walk } from "https://deno.land/std@0.224.0/fs/walk.ts";
+import { ensureDir } from "https://deno.land/std@0.224.0/fs/ensure_dir.ts";
+import { parse as parseFlags } from "https://deno.land/std@0.224.0/flags/mod.ts";
 import { getClaimAnalysis } from "./scientia.ts";
 import { jsonToMarkdown } from "./jsontomarkdown.ts";
+import { generateFolderPrefix, getNextNumericIndex } from "./prefixHelper.ts";
 
 // ────────────────────────────────────────────────────────────────────────────────
 // Constants & Regular Expressions
@@ -171,7 +174,7 @@ async function persistClaimArtifacts(
   analysisJson: Record<string, any>,
   analysisContext: string = "",
 ): Promise<void> {
-  await Deno.mkdir(targetDirectoryPath, { recursive: true });
+  await Deno.mkdir(targetDirectoryPath, { recursive: true }); // ensureDir might be better here too
 
   if (!semanticNodeText || isIdentifierOnly(semanticNodeText)) return; // skip void‑like nodes
 
@@ -326,16 +329,43 @@ async function ensurePropositionsRoot(): Promise<void> {
 }
 
 /** Parses CLI arguments and separates *resume* mode from new‑analysis mode. */
-function parseCommandLine(): { resumeFolderName: string; rootClaimText: string; testClaim: string } {
-  const rawArgs = [...Deno.args];
-  if (rawArgs.length === 0) {
-    console.error("Please provide a claim to analyse.");
+function parseCommandLine(): {
+  resumeFolderName: string;
+  rootClaimText: string;
+  testClaim: string;
+  outputDir?: string;
+} {
+  const flags = parseFlags(Deno.args, {
+    string: ["output-dir"],
+    alias: { "output-dir": "o" },
+  });
+
+  const positionalArgs = flags._ as string[];
+
+  if (positionalArgs.length === 0 && !flags["output-dir"] && !Deno.args.includes("resume") && !Deno.args.includes("test")) {
+     // Allow running with only --output-dir if it's a special mode, otherwise require claim.
+     // This check might need refinement based on how --output-dir is intended to be used alone.
+    console.error("Please provide a claim to analyse or specify 'resume' or 'test' mode.");
     Deno.exit(1);
   }
-  const resumeFolderName = rawArgs[0] === "resume" ? rawArgs.slice(1).join(" ") : "";
-  const testClaim = rawArgs[0] === "test" ? rawArgs[1] : "";
-  const rootClaimText = rawArgs.join(" ");
-  return { resumeFolderName, rootClaimText, testClaim };
+  
+  const outputDir = flags["output-dir"];
+  let rootClaimText = "";
+  let resumeFolderName = "";
+  let testClaim = "";
+
+  if (positionalArgs[0] === "resume") {
+    resumeFolderName = positionalArgs.slice(1).join(" ");
+  } else if (positionalArgs[0] === "test" && positionalArgs.length > 1) {
+    testClaim = positionalArgs[1];
+  } else if (positionalArgs.length > 0) {
+    rootClaimText = positionalArgs.join(" ");
+  } else if (!outputDir && rootClaimText === "") { 
+    console.error("Invalid arguments. Please provide a claim, or use 'resume' or 'test' mode, or specify an output directory if no claim is given for a new analysis.");
+    Deno.exit(1);
+  }
+
+  return { resumeFolderName, rootClaimText, testClaim, outputDir };
 }
 
 // ────────────────────────────────────────────────────────────────────────────────
@@ -343,9 +373,9 @@ function parseCommandLine(): { resumeFolderName: string; rootClaimText: string; 
 // ────────────────────────────────────────────────────────────────────────────────
 
 console.log("Starting claim analysis…");
-await ensurePropositionsRoot();
+await ensurePropositionsRoot(); // Ensures 'proposiciones' exists for default cases
 
-const { resumeFolderName, rootClaimText, testClaim } = parseCommandLine();
+const { resumeFolderName, rootClaimText, testClaim, outputDir } = parseCommandLine();
 
 if (resumeFolderName) {
   // ──────────────────────────────────────────────────────────────────
@@ -400,19 +430,39 @@ if (resumeFolderName) {
   // ──────────────────────────────────────────────────────────────────
   // NEW CLAIM MODE
   // ──────────────────────────────────────────────────────────────────
-  const rootDirectoryPath = `proposiciones/${slugify(rootClaimText) || "root_claim"}`;
-  await Deno.mkdir(rootDirectoryPath, { recursive: true });
+  let rootDirectoryPath: string;
+  const claimSlug = slugify(rootClaimText) || "claim_analysis"; // Default slug if rootClaimText is empty
 
-  // Bootstrap utility shell script for quick reruns (legacy behaviour)
+  if (outputDir && outputDir.trim() !== "" && outputDir.trim() !== "./proposiciones" && outputDir.trim() !== "proposiciones") {
+    // Custom output directory specified, and it's not 'proposiciones'
+    const absoluteOutputDir = pathResolve(outputDir);
+    await ensureDir(absoluteOutputDir); 
+
+    const numericIndex = await getNextNumericIndex(absoluteOutputDir);
+    const prefix = await generateFolderPrefix(numericIndex, absoluteOutputDir, true); 
+    
+    const finalFolderName = `${prefix}${claimSlug}`;
+    rootDirectoryPath = join(absoluteOutputDir, finalFolderName);
+    console.log(`Outputting to custom prefixed directory: ${rootDirectoryPath}`);
+
+  } else {
+    // Default behavior: create inside 'proposiciones' without prefix
+    rootDirectoryPath = join("proposiciones", claimSlug);
+    console.log(`Outputting to default directory: ${rootDirectoryPath}`);
+  }
+  
+  await ensureDir(rootDirectoryPath); 
+
   const rerunShellPath = join(rootDirectoryPath, "claim.sh");
   const rerunShellContent =
-    `deno run -A main.ts \"${rootClaimText}\"` +
+    `deno run -A main.ts \"${rootClaimText.replace(/"/g, '\\"')}\"` + 
+    (outputDir ? ` -o "${outputDir.replace(/"/g, '\\"')}"` : "") + 
     "\n";
   await Deno.writeTextFile(rerunShellPath, rerunShellContent);
 
   await analyseClaimRecursively({
     claimText: rootClaimText,
-    numericPrefix: "0",
+    numericPrefix: "0", 
     outputDirectoryPath: rootDirectoryPath,
   });
 }

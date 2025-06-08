@@ -1,0 +1,211 @@
+{
+  "nodo_semantico_de_entrada": "Visibilizar la prevención puede incentivar conductas proactivas.",
+  "nodo_semantico_central": "La visibilización de procesos preventivos impulsa la proactividad colectiva.",
+  "razones_del_argumento": [
+    "Existe un sesgo social y organizacional hacia la acción visible y el espectáculo, que premia el ruido (acción dramática) por encima de la prevención sutil y efectiva.",
+    "La invisibilización de la prevención implica que las conductas preventivas rara vez reciben reconocimiento, promoción o imitación.",
+    "La psicología social sugiere que los modelos conductuales apreciados tienden a ser replicados; si la prevención es visible y se valora, aumenta la probabilidad de que sea adoptada.",
+    "Si solo se premian las reacciones audaces (no la prevención), se generan incentivos perversos: conductas reactivas, cultura tóxica, pérdida de talento sutil y disminución de la innovación sistemática.",
+    "Sin visibilidad, la prevención no difunde su valor y la organización pierde resiliencia e innovación; visibilizarla se vuelve pragmáticamente necesario."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "principio operacional-social",
+    "funcion": "Catalizar la adopción de conductas preventivas y proactivas mediante la manipulación consciente de la visibilidad social.",
+    "dominio": "psicología social, gestión organizacional, epistemología de las conductas colectivas",
+    "forma": "ciclo de retroalimentación reputacional",
+    "tension": "Equilibrio entre la valoración de la prevención y la tendencia natural a premiar lo espectacular; riesgo de instrumentalizar la prevención solo para visibilidad.",
+    "limite": "La visibilización excesiva puede desvirtuar la prevención transformándola en ritual vacío o espectáculo sin sustancia."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Visibilizar",
+      "definicion": "Hacer perceptible para los demás un acto, proceso o resultado previamente desapercibido."
+    },
+    {
+      "termino": "Prevención",
+      "definicion": "Acción o proceso de anticiparse para evitar que ocurra un daño, falla o crisis."
+    },
+    {
+      "termino": "Conducta proactiva",
+      "definicion": "Comportamiento orientado a adelantarse y resolver problemas antes de que se manifiesten."
+    },
+    {
+      "termino": "Cultura organizacional",
+      "definicion": "Conjunto de valores y prácticas colectivas que determinan qué conductas son incentivadas o ignoradas."
+    },
+    {
+      "termino": "Liderazgo aparente",
+      "definicion": "Percepción de liderazgo asociada a indicadores visibles (como hablar mucho o dramatizar la acción), no necesariamente al mérito real."
+    }
+  ],
+  "transduccion_preconceptual": "Si nadie ve a la persona que limpia antes de que llegue el desastre, muchos pensarán que nunca pasa nada malo solo por suerte. Pero si todos ven cómo alguien arregla las cosas antes de que se rompan, más niños querrán arreglar problemas antes de que se hagan grandes.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El marco puede analizar cualquier idea",
+      "subnodo": "Generalización de la visibilidad en el refuerzo conductual",
+      "contexto": "¿La exposición constante de cualquier conducta positiva genera su imitación o solamente aquellas con inherente atractivo social?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "El marco puede autoanalizarse sin límites",
+      "subnodo": "Metaevaluación del principio",
+      "contexto": "¿El mismo proceso de visibilización puede aplicarse a sí mismo, generando reconocimiento de la prevención de la invisibilidad?"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "La prevención sólo es valiosa si es reconocida",
+      "subnodo": "Valor pragmático versus valor intrínseco",
+      "contexto": "¿Existen sistemas donde la prevención no necesita visibilidad para sostenerse y replicarse?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "La evidencia empírica y teórica en psicología conductual respalda que el refuerzo y la imitación están mediados por la visibilidad y el prestigio social; la invisibilidad inhibe la replicación de conductas preventivas."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Sesgo observacional hacia la acción visible",
+      "conclusion": "Lo que no se ve, no se imita ni se refuerza socialmente.",
+      "notas": "Corolario de la teoría del aprendizaje social de Bandura."
+    },
+    {
+      "origen": "Retroalimentación organizacional",
+      "conclusion": "Las conductas más promovidas tienden a ser las más premiadas; las más premiadas tienden a ser las más replicadas.",
+      "notas": "La promoción selectiva moldea la cultura interna a mediano plazo."
+    }
+  ],
+  "subjetividades": [
+    "Apreciación estética o emocional de la espectacularidad de la acción versus la prevención. Algunos contextos valoran la planificación silenciosa; otros la desprecian.",
+    "Factores culturales pueden alterar la medición de la 'visibilidad' o lo que se considera digno de reconocimiento."
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Visibilizar la prevención siempre incentiva proactividad",
+      "descripcion": "En estructuras burocráticas rígidas donde la visibilidad conduce al castigo o a la sobrecarga (por ejemplo, trabajadores que previenen accidentes y por ello reciben más tareas sin reconocimiento), la visibilización puede desalentar la proactividad.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La visibilidad necesita ir acompañada del refuerzo positivo adecuado y de contextos no punitivos."
+    },
+    {
+      "afirmacion_refutada": "La prevención nunca es visible sin promoción explícita",
+      "descripcion": "En ciertos sistemas naturales (ejemplo: sistemas inmunes), la prevención es efectiva e 'invisible', pero su valor se reconoce internamente por el mantenimiento del equilibrio.",
+      "grado_de_refutacion": "parcial",
+      "notas": "El reconocimiento no siempre depende de la visibilidad pública; pero la replicación social sí."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Empresas que premian a gestores de crisis más que a planificadores preventivos tienden a repetir crisis.",
+      "inferencia": "La falta de visibilización de la prevención produce bucles de crisis evitables.",
+      "grado_de_confianza": "alto",
+      "notas": "Corroborado por estudios de management y resiliencia organizacional."
+    },
+    {
+      "patron_observado": "Equipos deportivos donde el trabajo invisible (defensa, preparación) es tan celebrado como los goles tienden a desarrollar coordinación y éxito sostenido.",
+      "inferencia": "La visibilidad del esfuerzo preventivo fortalece la cultura de la proactividad.",
+      "grado_de_confianza": "medio",
+      "notas": "Empírico, aunque susceptible a sesgos de selección del tipo de deporte/colectivo."
+    }
+  ],
+  "conclusion_preconceptual": "Si haces famoso el trabajo del que cuida a todos antes de que algo salga mal, más personas van a querer cuidar y arreglar, no sólo ponerse de héroes cuando todo se rompe.",
+  "teoria_o_intuicion_emergente": "El mecanismo de visibilización actúa como amplificador cultural de la prevención, desplazando el refuerzo del espectáculo hacia la resiliencia anticipatoria.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Visibilizar la prevención puede incentivar conductas proactivas.",
+        1,
+        0,
+        0
+      ],
+      [
+        "Promover la acción espectacular refuerza el liderazgo aparente.",
+        1,
+        0,
+        0
+      ],
+      [
+        "Ignorar a los prevenidores de crisis erosiona el talento y la innovación.",
+        1,
+        0,
+        0
+      ],
+      [
+        "Toda prevención invisible es ineficaz socialmente.",
+        0,
+        1,
+        0
+      ],
+      [
+        "Sólo lo visible se puede promover.",
+        0,
+        1,
+        0
+      ],
+      [
+        "La visibilización mal gestionada puede producir ritual vacío.",
+        1,
+        0,
+        0
+      ],
+      [
+        "La prevención sin refuerzo es autosuficiente.",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Visibilizar la prevención puede incentivar conductas proactivas.",
+    "B": "Promover la acción espectacular refuerza el liderazgo aparente.",
+    "C": "Ignorar a los prevenidores de crisis erosiona el talento y la innovación.",
+    "D": "Toda prevención invisible es ineficaz socialmente.",
+    "E": "Sólo lo visible se puede promover.",
+    "F": "La visibilización mal gestionada puede producir ritual vacío.",
+    "G": "La prevención sin refuerzo es autosuficiente."
+  },
+  "formula_booleana_del_argumento": "A && B && C && F && !D && !E && !G",
+  "conclusion": "Dado que la visibilidad determina la replicabilidad de las conductas preventivas e impacta la resiliencia colectiva, visibilizar y reforzar explícitamente la prevención es condición necesaria para incrementar el grado de proactividad y menor exposición a crisis innecesarias en culturas organizacionales (véase Bandura, 1977; Kotter & Heskett, 1992; Weick & Sutcliffe, 2001), y por todo esto, una cultura que no celebra la prevención condena su propio futuro a la reacción y el drama perpetuos.",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Toda prevención invisible es ineficaz socialmente.",
+      "implicacion_por_estado_falso": "Se valida que existe eficacia social de la prevención incluso si no es visible, pero su replicabilidad depende de otros factores.",
+      "implicacion_por_estado_verdadero": "Sólo lo visible es replicado; se necesita visibilizar la prevención para incrementar su frecuencia."
+    },
+    {
+      "afirmacion": "La visibilización mal gestionada puede producir ritual vacío.",
+      "implicacion_por_estado_falso": "La visibilización siempre agrega valor sin distorsión.",
+      "implicacion_por_estado_verdadero": "Advertencia: la visibilización sin sustancia puede trivializar la prevención e inhibir la proactividad genuina."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Cuanto más efectiva es la prevención, menos visible es el problema y menos se valora la prevención, induciendo apatía.",
+    "ambiguedad": "¿Hasta qué punto la visibilidad es resultado de calidad de la prevención, o de su mercadeo superficial?",
+    "contradiccion_util": "Visibilizar lo invisible tensiona el valor intrínseco de la prevención contra la necesidad reputacional de la acción visible."
+  },
+  "reorganizacion_analoga": [
+    "Como el sistema inmunológico: cuando funciona, nada es visible, pero si no se celebra su efectividad, la necesidad de su existencia se olvida — hasta el desastre.",
+    "Como el mantenimiento preventivo en infraestructura: lo que no se nota es parte de lo que sostiene el mundo, pero es celebrado sólo cuando falla.",
+    "Como un árbitro eficaz en un partido: si su trabajo no se percibe, el juego es limpio; si sólo se premia el espectáculo del conflicto, crece el caos."
+  ],
+  "implicacion_transformadora": [
+    "Incorporar métricas y sistemas de reconocimiento explícito a la prevención para catalizar la proactividad y resiliencia organizacional.",
+    "Redefinir liderazgo y mérito no por el ruido generado sino por la minimización de problemas y el flujo armónico sostenido.",
+    "Asegurar que los incentivos no sólo premien la reacción espectacular, sino la acción anticipada e invisible.",
+    "Transformar la cultura de crisis en una cultura de prevención celebrada: pasar de héroes reactivos a arquitectos de lo previsible."
+  ],
+  "reevaluacion_global": {
+    "estado": "verdadero",
+    "criterio": "La consistencia lógica, la cita empírica y la robustez de los contraejemplos enfatizan la validez estructural del argumento: la visibilización de la prevención tiene un efecto positivo neto sobre la proactividad, siempre que se gestione con autenticidad y refuerzo adecuado."
+  },
+  "reconclusión": "Hacer visible y reconocer abiertamente a quienes previenen problemas y construyen resiliencia es crucial para replicar y sostener culturas realmente innovadoras, resilientes y saludables; ignorar la prevención es perpetuar la vulnerabilidad y la cultura del drama.",
+  "reconclusion_preconceptual": "Cuando cuentas la historia del que evita los problemas, todos aprenden a cuidar antes de que las cosas se rompan; así, todos viven mejor, aunque no haya héroes que salven el día a último minuto.",
+  "contexto": "Visibilizar la prevención puede incentivar conductas proactivas. (contexto: Si en estudios de psicología clínica se ha observado que el potencial de liderazgo se percibe en quienes hablan más, independientemente del contenido real de sus aportes; se prefiere a quienes muestran una confianza aparente, sin evaluar su competencia efectiva, y se admira a las personas por su ocupación constante y el dramatismo de la acción, sin considerar la sustancia ni el impacto preventivo, entonces, si creemos que la acción espectacular es señal de gran liderazgo, si elogiamos el ruido y las crisis gestionadas espectacularmente, si ignoramos a quienes previenen problemas con planificación sutil, si premiamos el espectáculo sobre la sustancia, si fomentamos culturas tóxicas por su dramatismo y desmotivamos al verdadero talento, y si perdemos innovación y resiliencia organizacional por todo esto, entonces, para aquellos quienes previenen crisis por su rigurosidad deben sintetizarse promociones forzosas para que la fineza de sus marcos de acción se difundan entre el sistema que no los nota.)",
+  "estado_booleano_colapsado_por_calculo_determinista": true
+}

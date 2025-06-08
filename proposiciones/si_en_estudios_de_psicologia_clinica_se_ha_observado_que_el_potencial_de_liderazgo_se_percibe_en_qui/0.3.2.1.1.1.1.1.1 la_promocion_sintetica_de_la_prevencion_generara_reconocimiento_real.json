@@ -1,0 +1,151 @@
+{
+  "nodo_semantico_de_entrada": "La promoción sintética de la prevención generará reconocimiento real.",
+  "nodo_semantico_central": "Promoción artificial de la prevención produce reconocimiento tangible.",
+  "razones_del_argumento": [
+    "La cultura organizacional tradicional reconoce acciones visibles, espectaculares y dramáticas porque son perceptibles y emocionalmente impactantes.",
+    "La prevención, al evitar crisis antes de que se materialicen, no produce eventos llamativos ni historias heroicas, por lo que tiende a pasar desapercibida.",
+    "Se asume, por evidencia empírica en psicología organizacional, que el liderazgo y el mérito son premiados por su visibilidad más que por su efectividad intrínseca.",
+    "La hipótesis sugiere que al promover artificialmente o sintetizar el reconocimiento para quienes previenen, esa prevención por fin será valorada.",
+    "Si no se visibiliza la prevención, no se generará aprecio genuino ni cultural para quienes sostienen la estabilidad de los sistemas."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "Estrategia/Heurística normativa",
+    "funcion": "Proveer reconocimiento a acciones preventivas utilizando mecanismos artificiales de promoción.",
+    "dominio": "Epistemología organizacional, psicología social, teoría de la acción.",
+    "forma": "Bucle de retroalimentación cultural inducido; mecanismo de visibilidad externa artificial.",
+    "tension": "Entre lo auténtico y lo fabricado: ¿Reconocimiento artificial puede convertirse en reconocimiento intrínseco?",
+    "limite": "Puede generar cinismo, manipulación, o trivializar el mérito genuino."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Promoción sintética",
+      "definicion": "Estrategia deliberada para visibilizar, premiar o alabar lo que antes era invisible u opaco mediante mecanismos no naturales o no espontáneos."
+    },
+    {
+      "termino": "Prevención",
+      "definicion": "Conjunto de acciones que evitan la aparición de problemas, riesgos o crisis antes de que sean evidentes."
+    },
+    {
+      "termino": "Reconocimiento real",
+      "definicion": "Valoración y aprecio tangible (social, profesional, institucional) cuyo efecto trasciende lo meramente simbólico o superficial."
+    }
+  ],
+  "transduccion_preconceptual": "Imagina a un niño que evita que su grupo de amigos se meta en problemas, pero nadie se da cuenta porque nunca pasa nada malo. Si otro niño consigue atención solo después de arreglar un gran caos, todos lo aplauden. Entonces deciden hacer una fiesta sorpresa para el primer niño cada vez que evita problemas, para que todos recuerden que gracias a él, todo sigue bien.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El reconocimiento real surge sólo del espectáculo.",
+      "subnodo": "Reconocimiento inhibido por invisibilidad",
+      "contexto": "En culturas que premian sólo los eventos llamativos, la prevención queda invisibilizada."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "La promoción puede hacer visible lo invisible.",
+      "subnodo": "Promoción como amplificador perceptual",
+      "contexto": "La promoción funciona como altavoz de lo preventivo vía estrategias de difusión forzada."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Existen potenciales efectos positivos y negativos. Puede generar reconocimiento tangible si la cultura lo acepta, pero existe el riesgo de artificialidad y backlash."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si la promoción sintética visibiliza la prevención (axioma), entonces el reconocimiento real puede generarse si la cultura lo valora.",
+      "conclusion": "Sin visibilización, la prevención seguirá siendo invisible y no reconocida.",
+      "notas": "Sólo es necesaria la promoción si el contexto valora la visibilidad."
+    }
+  ],
+  "subjetividades": [
+    "El concepto de 'reconocimiento real' depende de valores culturales y percepciones subjetivas sobre la autenticidad.",
+    "Lo 'real' para algunos puede ser superficial para otros."
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La promoción sintética genera necesariamente reconocimiento real.",
+      "descripcion": "En culturas donde el reconocimiento sólo se concede a logros o fracasos espectaculares (p.ej., sistemas donde sólo las ventas récord o escándalos son noticia), la promoción sintética puede ser vista como marketing vacío y perder credibilidad.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Hay contextos donde la simulación no genera aceptación genuina."
+    },
+    {
+      "afirmacion_refutada": "La prevención necesariamente carece de reconocimiento si no tiene promoción sintética.",
+      "descripcion": "En pequeñas comunidades o equipos con liderazgo consciente, la prevención puede ser valorada sin necesidad de promoción artificial.",
+      "grado_de_refutacion": "parcial",
+      "notas": "En contextos de alta confianza grupal, la prevención puede ser reconocida por su impacto silencioso."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Las organizaciones exitosas a largo plazo suelen tener culturas que reconocen la prevención, ya sea formal o informalmente.",
+      "inferencia": "La provisión de reconocimiento explícito al acto preventivo correlaciona con resiliencia y disminución de crisis.",
+      "grado_de_confianza": "alto",
+      "notas": "Basado en estudios sobre seguridad industrial, compañías de aviación, etc."
+    }
+  ],
+  "conclusion_preconceptual": "Si haces que todos vean y aplaudan a quien evita problemas, más personas querrán evitar problemas en vez de esperar a que todo se incendie y salir como héroes después.",
+  "teoria_o_intuicion_emergente": "La visibilización planificada es un recurso cognitivo y cultural para equilibrar los sesgos de atención hacia la acción heroica y el olvido de la operación preventiva.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La promoción sintética de la prevención generará reconocimiento real.",
+        0,
+        0,
+        1
+      ],
+      [
+        "La prevención no reconocida conduce a culturas tóxicas.",
+        1,
+        0,
+        0
+      ],
+      [
+        "El reconocimiento visible motiva comportamientos deseados.",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "La promoción sintética de la prevención generará reconocimiento real.",
+    "B": "La prevención no reconocida conduce a culturas tóxicas.",
+    "C": "El reconocimiento visible motiva comportamientos deseados."
+  },
+  "formula_booleana_del_argumento": "A && B && C",
+  "conclusión": "Si la promoción sintética hace visible la prevención (A), y está comprobado que la prevención ignorada crea culturas insanas (B), y que sólo se promueve lo que se reconoce socialmente (C), entonces la organización debe invertir en visibilizar a quienes previenen porque de lo contrario perpetuará la toxicidad y perderá talento: y por todo esto, la promoción sintética de la prevención es indispensable hasta que el reconocimiento de la prevención sea parte del tejido cultural sin necesidad de artificio.",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "La promoción sintética de la prevención generará reconocimiento real.",
+      "implicacion_por_estado_falso": "La prevención seguirá siendo invisible; riesgo de perpetuar culturas de crisis y desmotivación del talento preventivo.",
+      "implicacion_por_estado_verdadero": "El reconocimiento del trabajo preventivo se institucionaliza, cambiando incentivos organizacionales y favoreciendo mayor resiliencia e innovación."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "El reconocimiento verdadero puede surgir de medios artificiales, pero podría perder autenticidad.",
+    "ambiguedad": "¿Reconocimiento real es lo que el grupo define como tal, o hay un estándar objetivo?",
+    "contradiccion_util": "El artificio puede ser necesario para instaurar una cultura donde la prevención devenga espontáneamente reconocida."
+  },
+  "reorganizacion_analoga": [
+    "La publicidad positiva de las buenas prácticas de seguridad en aviación: se premian y publicitan prevenciones proactivas.",
+    "La vacunación infantil difundida mediante campañas masivas, aunque su éxito deja sin evidencia directa los males que pudo evitar.",
+    "Premios a la ausencia de accidentes en fábricas, haciendo visible lo invisible."
+  ],
+  "implicacion_transformadora": [
+    "El diseño institucional debe premiar explícitamente el acto de prevenir y hacerlo visible, usando hasta mecanismos artificiales si es necesario, hasta que la cultura internalice ese valor.",
+    "La falta de reconocimiento de la prevención perpetúa sistemas reactivos y culturas de crisis permanentes.",
+    "Visibilizar la prevención es un acto revolucionario en culturas adictas al espectáculo y la inmediatez."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La efectividad de la promoción sintética como catalizador de reconocimiento genuino permanece condicionada al contexto sociocultural; puede generar resultados positivos o backlash."
+  },
+  "reconclusión": "La promoción sintética de la prevención puede generar reconocimiento real bajo ciertas condiciones culturales, pero debe aplicarse con cuidado para evitar cinismo organizacional; como mínimo, es un paso necesario para contrarrestar el sesgo hacia la acción espectacular y defender la resiliencia institucional.",
+  "reconclusion_preconceptual": "Si cuentas las historias del héroe que evita los incendios antes de que empiecen, toda la tribu aprende a mirar con respeto al guardián silencioso.",
+  "contexto": "La promoción sintética de la prevención generará reconocimiento real. (contexto: Si en estudios de psicología clínica se ha observado que el potencial de liderazgo se percibe en quienes hablan más, independientemente del contenido real de sus aportes; se prefiere a quienes muestran una confianza aparente, sin evaluar su competencia efectiva, y se admira a las personas por su ocupación constante y el dramatismo de la acción, sin considerar la sustancia ni el impacto preventivo, entonces, si creemos que la acción espectacular es señal de gran liderazgo, si elogiamos el ruido y las crisis gestionadas espectacularmente, si ignoramos a quienes previenen problemas con planificación sutil, si premiamos el espectáculo sobre la sustancia, si fomentamos culturas tóxicas por su dramatismo y desmotivamos al verdadero talento, y si perdemos innovación y resiliencia organizacional por todo esto, entonces, para aquellos quienes previenen crisis por su rigurosidad deben sintetizarse promociones forzosas para que la fineza de sus marcos de acción se difundan entre el sistema que no los nota.)"
+}

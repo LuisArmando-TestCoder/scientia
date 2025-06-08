@@ -1,0 +1,174 @@
+{
+  "nodo_semantico_de_entrada": "La prevención sólo es reconocida si es visible sintéticamente.",
+  "nodo_semantico_central": "Reconocimiento de la prevención depende de mostrarla como acción visible.",
+  "razones_del_argumento": [
+    "La percepción social y organizacional tiende a valorar la acción visible y el espectáculo por encima de resultados silenciosos pero efectivos, como la prevención.",
+    "Las estructuras de poder y recompensa favorecen a individuos que muestran confianza y actividad aparente, dejando fuera a quienes operan de manera sutil y estratégica.",
+    "La promoción de los agentes de prevención sólo es posible si su impacto se vuelve notoriamente visible para los sistemas que recompensan el ruido, no la sustancia.",
+    "La ausencia de atención sobre la prevención reduce la innovación y resiliencia organizacional, según la lógica empírica del texto."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "proceso evaluativo y social",
+    "funcion": "determinar el reconocimiento y recompensa de agentes preventivos",
+    "dominio": "psicología organizacional, sociología del reconocimiento",
+    "forma": "bucle de visibilización y recompensa",
+    "tension": "se premia la espectacularidad, se ignora la eficacia invisible",
+    "limite": "el reconocimiento sólo ocurre si la prevención puede hacerse 'visible', aun distorsionando su naturaleza sutil"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "prevención",
+      "definicion": "acción para evitar que ocurra un problema antes de que sea visible"
+    },
+    {
+      "termino": "reconocimiento",
+      "definicion": "acto social/cultural de dar valor, atención o recompensa"
+    },
+    {
+      "termino": "sintéticamente visible",
+      "definicion": "convertido en algo notorio, tangible o presentado de forma clara para que otros lo perciban"
+    },
+    {
+      "termino": "acción espectacular",
+      "definicion": "actividad notoria, dramática, fácil de observar y valorar"
+    },
+    {
+      "termino": "subjetividad evaluativa",
+      "definicion": "criterios sociales que influyen en a quién se reconoce o premia"
+    }
+  ],
+  "transduccion_preconceptual": "Es como cuando alguien limpia y organiza tu cuarto antes de que llegues, y nunca ves el desorden porque ya lo arreglaron. Nadie le da las gracias porque nadie vio el desastre, pero si alguien apaga un incendio grande, todos dicen '¡qué héroe!'. A veces, ser bueno significa que nadie se entera de lo que evitaste.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El impacto preventivo sólo se reconoce si se hace visible o espectacular.",
+      "subnodo": "Visibilidad del impacto preventivo",
+      "contexto": "Entornos organizacionales donde sólo se premia la gestión de crisis visible"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Las promociones deben forzarse para difundir el reconocimiento de la prevención sutil.",
+      "subnodo": "Promoción artificial de agentes preventivos",
+      "contexto": "Política organizacional sobre recompensas sistémicas"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "Ignorar la prevención produce pérdida de resiliencia e innovación.",
+      "subnodo": "Costos ocultos de la falta de reconocimiento",
+      "contexto": "Resultados a largo plazo de estructuras de incentivo inadecuadas"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El argumento asume que la visibilidad es una condición necesaria para el reconocimiento, pero existen contraejemplos donde la cultura o estándares pueden permitir reconocimiento sin espectacularidad. La generalización del 'sólo' no se sostiene universalmente."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si la visibilidad es condición necesaria para el reconocimiento, toda prevención invisible quedará sin recompensa.",
+      "conclusion": "El sistema tiende a desincentivar la prevención sutil.",
+      "notas": "Esto depende estructuralmente de la cultura organizacional y de los mecanismos de evaluación existentes."
+    },
+    {
+      "origen": "Si el reconocimiento sólo ocurre mediante visibilización forzada, se puede distorsionar el sentido auténtico del desempeño preventivo.",
+      "conclusion": "La prevención puede volverse un espectáculo, apartándose de su naturaleza eficaz y discreta.",
+      "notas": "Riesgo de perder profundidad por competir en el campo del espectáculo."
+    }
+  ],
+  "subjetividades": [
+    "La premisa inicial considera que el único modo de reconocimiento es la visibilidad sintética; puede haber subjetividades culturales, organizacionales o personales que permitan la apreciación de la prevención sin espectacularidad.",
+    "La percepción de la competencia y el valor depende aún de factores subjetivos (sesgos, creencias sobre el liderazgo, etc.)."
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La prevención sólo es reconocida si es visible sintéticamente.",
+      "descripcion": "En culturas organizacionales maduras con métricas orientadas a resultados y cultura de apreciación del riesgo mitigado, se reconoce la labor de prevención aunque no sea visible.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Depende del grado de madurez y del sistema de valores de la organización."
+    },
+    {
+      "afirmacion_refutada": "El espectáculo siempre vence a la sustancia en el reconocimiento.",
+      "descripcion": "En el sector de seguridad industrial, la prevención de accidentes puede premiarse a través de sistemas de reporte y métricas, aunque los incidentes nunca ocurran.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Requiere mecanismos de evaluación objetivos y cultura institucional."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Líderes que gestionan crisis públicamente tienden a ascender más rápido.",
+      "inferencia": "El espectáculo y la visibilidad pública impactan en la percepción de liderazgo.",
+      "grado_de_confianza": "alto",
+      "notas": "Corroborado en múltiples estudios de management y psicología organizacional."
+    },
+    {
+      "patron_observado": "Los logros preventivos suelen pasar desapercibidos sin intervención de los propios agentes.",
+      "inferencia": "La prevención tiende a desaparecer del radar de reconocimiento si no se comunica activamente.",
+      "grado_de_confianza": "medio",
+      "notas": "Puede variar con la cultura."
+    }
+  ],
+  "conclusion_preconceptual": "Si nadie ve lo que evitaste, casi nadie lo celebra. Los que hacen el espectáculo se llevan el aplauso, los que protegen de verdad, el silencio.",
+  "teoria_o_intuicion_emergente": "En sistemas donde la visibilidad es clave para la recompensa, la prevención sutil debe ser traducida en narrativas y métricas observables para sostenerse; de lo contrario, el sistema pierde talento y resiliencia, reproduciendo la tiranía del espectáculo.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La prevención sólo es reconocida si es visible sintéticamente.",
+        0,
+        0,
+        1
+      ],
+      [
+        "El espectáculo siempre vence a la sustancia en reconocimiento.",
+        0,
+        0,
+        1
+      ],
+      [
+        "Forzar promociones sintetiza el impacto preventivo real.",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "La prevención sólo es reconocida si es visible sintéticamente.",
+    "B": "El espectáculo siempre vence a la sustancia en reconocimiento.",
+    "C": "Forzar promociones sintetiza el impacto preventivo real."
+  },
+  "formula_booleana_del_argumento": "A && B && C",
+  "conclusión": "Si la organización sólo premia el espectáculo, perderá silenciosamente el valor de quienes previenen y mitigan riesgos sin protagonismo, y por todo esto sólo transformando la métrica y el lenguaje del reconocimiento puede sostenerse el talento preventivo genuino.",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "La prevención sólo es reconocida si es visible sintéticamente.",
+      "implicacion_por_estado_falso": "Si la visibilidad no es requerida, la apreciación de la prevención puede funcionar en silencio, promoviendo una cultura madura y robusta.",
+      "implicacion_por_estado_verdadero": "Si se mantiene la condición, la prevención será sistemáticamente ignorada salvo que se teatralice su impacto."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "La prevención más exitosa es invisible; lo que no ocurre, no se celebra.",
+    "ambiguedad": "¿Puede el valor de la prevención comunicarse sin forzar su teatralización?",
+    "contradiccion_util": "El acto de premiar la prevención sutil puede anular su naturaleza indirecta, pero no premiarla la extingue."
+  },
+  "reorganizacion_analoga": [
+    "Como el software antivirus: sólo recibe atención si el virus aparece; su éxito radica en que nada pase.",
+    "Como un árbitro en deportes: si hace bien su trabajo es invisible, si se equivoca todos le miran.",
+    "Como un seguro: pagas por lo que nunca quieres ver en acción, y nadie aplaude cuando no se usa."
+  ],
+  "implicacion_transformadora": [
+    "Transformar los sistemas de valoración para identificar y recompensar la prevención genuina podría elevar la resiliencia, innovación y cultura ética de las organizaciones.",
+    "La invisibilidad de la prevención debe afrontarse con narrativas y métricas intencionadas, no con teatralización forzosa."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El argumento sostiene fuerza en contextos de baja madurez organizativa, pero existen entornos donde la prevención invisible sí es apreciada; la universalidad afirmada por el 'sólo' es empiricamente insostenible."
+  },
+  "reconclusión": "El reconocimiento basado únicamente en la visibilidad sintetizada de la prevención condena el talento estratégico a la irrelevancia y empobrece las organizaciones; para cultivar ecosistemas resilientes es preciso diseñar sistemas de recompensa y métricas que celebren también la excelencia que nadie ve.",
+  "reconclusion_preconceptual": "Hay que aprender a aplaudir no sólo al que apaga incendios, sino también al que evita que empiecen.",
+  "contexto": "La prevención sólo es reconocida si es visible sintéticamente. (contexto: Si en estudios de psicología clínica se ha observado que el potencial de liderazgo se percibe en quienes hablan más, independientemente del contenido real de sus aportes; se prefiere a quienes muestran una confianza aparente, sin evaluar su competencia efectiva, y se admira a las personas por su ocupación constante y el dramatismo de la acción, sin considerar la sustancia ni el impacto preventivo, entonces, si creemos que la acción espectacular es señal de gran liderazgo, si elogiamos el ruido y las crisis gestionadas espectacularmente, si ignoramos a quienes previenen problemas con planificación sutil, si premiamos el espectáculo sobre la sustancia, si fomentamos culturas tóxicas por su dramatismo y desmotivamos al verdadero talento, y si perdemos innovación y resiliencia organizacional por todo esto, entonces, para aquellos quienes previenen crisis por su rigurosidad deben sintetizarse promociones forzosas para que la fineza de sus marcos de acción se difundan entre el sistema que no los nota.)"
+}

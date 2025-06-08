@@ -1,0 +1,146 @@
+{
+  "nodo_semantico_de_entrada": "El espectáculo siempre vence a la sustancia en reconocimiento.",
+  "nodo_semantico_central": "Preeminencia del espectáculo sobre la sustancia en la percepción social y organizacional.",
+  "razones_del_argumento": [
+    "Estudios de psicología clínica sugieren que el liderazgo percibido se asocia a la cantidad y teatralidad de las intervenciones, no necesariamente a la profundidad de su contenido.",
+    "Las culturas organizacionales tienden a elogiar la acción visible y el manejo dramático de crisis en vez de la prevención y planificación eficiente.",
+    "Los sistemas que promueven la visibilidad y el ruido desmotivan al talento enfocado en la prevención y el trabajo de fondo.",
+    "El reconocimiento social y profesional se otorga más por apariencia de acción que por resultados sustanciales, lo que puede erosionar la innovación y resiliencia.",
+    "Se sugiere, como contramedida, la promoción forzosa de perfiles orientados a la prevención para equilibrar el sesgo hacia lo espectacular."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "Dinámica de valoración social (proceso cultural y psicológico)",
+    "funcion": "Dirigir el reconocimiento y los incentivos en función de la visibilidad de la acción en vez de la sustancia o impacto real.",
+    "dominio": "Psicología social, gestión organizacional, epistemología práctica.",
+    "forma": "Bucle retroalimentado; paradigma cultural dominante que se autorrefuerza y se propaga por imitación y recompensa social.",
+    "tension": "Preeminencia de la forma sobre la función; posible colapso de la efectividad del sistema por falta de reconocimiento a quienes sostienen la estructura desde la prevención.",
+    "limite": "No puede sostenerse indefinidamente sin pérdida sustancial de innovación, resiliencia y eficiencia; dependencia de percepciones colectivas volátiles."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "espectáculo",
+      "definicion": "Acción visible, llamativa o emocionalmente intensa que capta la atención colectiva independientemente de su fundamento."
+    },
+    {
+      "termino": "sustancia",
+      "definicion": "Contenido esencial, impacto real o fondo eficaz tras una acción o discurso."
+    },
+    {
+      "termino": "reconocimiento",
+      "definicion": "Premio social, profesional o institucional que depende de la visibilidad, prestigio o adhesión social."
+    },
+    {
+      "termino": "prevención",
+      "definicion": "Acción silenciosa y estratégica para evitar crisis o problemas antes de que emerjan."
+    },
+    {
+      "termino": "cultura tóxica",
+      "definicion": "Ambiente donde prima el conflicto, el ruido y el reconocimiento artificial sobre la verdadera innovación o colaboración."
+    }
+  ],
+  "transduccion_preconceptual": "Cuando en la escuela se da premio al niño que grita más, aunque el más callado solucionó el problema antes. Todos aplauden el show, pocos notan quién evitó el incendio.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El marco de reconocimiento social prefiere la visibilidad a la eficacia.",
+      "subnodo": "Reconocimiento por visibilidad",
+      "contexto": "Percepción pública y recompensa institucional"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "El liderazgo percibido depende de teatralidad antes que de contenido verdadero.",
+      "subnodo": "Liderazgo aparente",
+      "contexto": "Sesgo perceptual en psicología y cultura organizacional"
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "La falta de reconocimiento erosiona la innovación y la resiliencia.",
+      "subnodo": "Efectos sistémicos",
+      "contexto": "Consecuencias socio-organizacionales a largo plazo"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación contiene un absolutismo parcialmente refutable, pero su tendencia es confirmada empíricamente en la literatura; el absolutismo (siempre) es parcialmente invalidado por contraejemplo."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si la visibilidad es más reconocida que la prevención, entonces el reconocimiento se dirige al espectáculo.",
+      "conclusion": "Sistemas sociales tienden a sobrevalorar la teatralidad y a desincentivar la prevención silenciosa.",
+      "notas": "La deducción es válida bajo la observación de que la prevención es subvalorada."
+    }
+  ],
+  "subjetividades": [
+    "Valoración cultural del espectáculo como deseable.",
+    "Dificultad de medir objetivamente el impacto de la prevención versus la acción visible.",
+    "La percepción de liderazgo depende de constructos subjetivos, no sólo de resultados medibles."
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El espectáculo siempre vence a la sustancia en reconocimiento.",
+      "descripcion": "En equipos o comunidades donde existen métricas objetivas y una cultura de retroalimentación robusta—como en algunos entornos altamente técnicos—el reconocimiento se da explícitamente a los logros sustantivos, incluso si han sido logrados sin espectacularidad.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La afirmación deja de cumplirse en contextos de alta especialización y valoración técnica por pares."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Gerentes que previenen crisis tienden a ser ignorados, mientras que quienes resuelven crisis de forma dramática son promovidos.",
+      "inferencia": "La cultura dominante tiende a preferir lo espectacular sobre lo sustantivo.",
+      "grado_de_confianza": "alto",
+      "notas": "Confirmado en literatura sobre management y psicología social (cf. Pfeffer, J.; Sutton, R. — 'The Knowing-Doing Gap')."
+    }
+  ],
+  "conclusion_preconceptual": "La mayoría prefiere a quien hace ruido, no a quien en silencio previene problemas.",
+  "teoria_o_intuicion_emergente": "El sesgo hacia el espectáculo crea bucles de retroalimentación que perpetúan su dominio en la cultura organizacional, desplazando el valor de la prevención y planificación estratégica.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El espectáculo siempre vence a la sustancia en reconocimiento.",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "El espectáculo siempre vence a la sustancia en reconocimiento."
+  },
+  "formula_booleana_del_argumento": "A",
+  "conclusion": "Si la cultura recompensa lo visible y espectacular (A), la prevención se desincentiva; si no, entonces la sustancia puede ser reconocida, pero esto ocurre solo en sistemas excepcionales: por todo esto, el espectáculo suele ganar el reconocimiento, pero no es una ley inexorable.",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "El espectáculo siempre vence a la sustancia en reconocimiento.",
+      "implicacion_por_estado_falso": "El reconocimiento se distribuye equitativamente o según la eficacia real, sistema se autoequilibra y premia la prevención y la profundidad.",
+      "implicacion_por_estado_verdadero": "Emerge una cultura que perpetúa líderes superficiales y desmotiva la innovación real; sostenibilidad a largo plazo se ve comprometida."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Si todos previenen de forma invisible, no hay espectáculo; pero el espectáculo seguirá siendo premiado mientras haya crisis.",
+    "ambiguedad": "\"Siempre\" implica universalidad cuando en la práctica hay contextos excepcionales.",
+    "contradiccion_util": "El aplauso al espectáculo es lo que impide notar la sustancia y así eternizar la necesidad del espectáculo."
+  },
+  "reorganizacion_analoga": [
+    "Como la fama del bombero que apaga incendios, pero nunca del ingeniero que diseñó el edificio para que no ardiera.",
+    "Como el titular mediático sobre el médico que reanima pacientes críticos, mientras el médico de familia previene silenciosamente enfermedades.",
+    "Como el ‘héroe’ que resuelve problemas públicos versus el burócrata eficiente cuya labor evitó el caos."
+  ],
+  "implicacion_transformadora": [
+    "Cambiar sistemas de reconocimiento para premiar efectivamente la prevención y la inteligencia estratégica.",
+    "Implementar métricas objetivas sobre impacto silencioso y resultados a largo plazo.",
+    "Desarrollar alfabetización colectiva sobre el valor de lo no espectacular para la salud sistémica."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El absolutismo se refuta parcialmente; el argumento es tendencia fuerte, pero no universal (la excepción confirma la regla, pero la existencia de la excepción invalida el 'siempre')."
+  },
+  "reconclusión": "La preferencia por el espectáculo en reconocimiento social y profesional es una tendencia robusta, no una inevitabilidad absoluta: solo sistemas altamente sofisticados consiguen premiar la sustancia; el resto perpetúa el ciclo del espectáculo.",
+  "reconclusion_preconceptual": "Aunque casi todos aplauden el show, en algunos lugares especiales gana quien de verdad construye, aunque nadie lo vea.",
+  "contexto": "El espectáculo siempre vence a la sustancia en reconocimiento. (contexto: Si en estudios de psicología clínica se ha observado que el potencial de liderazgo se percibe en quienes hablan más, independientemente del contenido real de sus aportes; se prefiere a quienes muestran una confianza aparente, sin evaluar su competencia efectiva, y se admira a las personas por su ocupación constante y el dramatismo de la acción, sin considerar la sustancia ni el impacto preventivo, entonces, si creemos que la acción espectacular es señal de gran liderazgo, si elogiamos el ruido y las crisis gestionadas espectacularmente, si ignoramos a quienes previenen problemas con planificación sutil, si premiamos el espectáculo sobre la sustancia, si fomentamos culturas tóxicas por su dramatismo y desmotivamos al verdadero talento, y si perdemos innovación y resiliencia organizacional por todo esto, entonces, para aquellos quienes previenen crisis por su rigurosidad deben sintetizarse promociones forzosas para que la fineza de sus marcos de acción se difundan entre el sistema que no los nota.)"
+}

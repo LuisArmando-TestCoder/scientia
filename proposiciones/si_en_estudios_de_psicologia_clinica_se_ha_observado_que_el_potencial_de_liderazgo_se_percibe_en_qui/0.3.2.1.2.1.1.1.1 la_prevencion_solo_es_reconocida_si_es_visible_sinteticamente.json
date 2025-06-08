@@ -1,0 +1,185 @@
+{
+  "nodo_semantico_de_entrada": "La prevención sólo es reconocida si es visible sintéticamente",
+  "nodo_semantico_central": "Reconocimiento social depende de la visibilidad sintética de la prevención",
+  "razones_del_argumento": [
+    "La visibilidad suele ser el criterio por el que se atribuyen mérito, autoridad y liderazgo.",
+    "El liderazgo se asocia a acciones notorias y a menudo dramáticas, no tanto a la prevención sutil.",
+    "La cultura organizacional puede favorecer a quienes muestran ocupación y dramatismo sobre quienes previenen problemas de modo discreto.",
+    "La estructura de reconocimientos y recompensas depende del ruido, no de la profundidad del impacto real.",
+    "Si el mérito depende de la visibilidad, los talentos preventivos quedan invisibilizados salvo que intervenga algún mecanismo que los haga sintéticos (elaboradamente visibles)."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "Relación causal cognitiva y social",
+    "funcion": "Explicar la mediación perceptual en el reconocimiento de la prevención como virtud",
+    "dominio": "epistemología social, psicología organizacional",
+    "forma": "sistema dependiente de interfaz (marco sintético-visualizador)",
+    "tension": "Entre el mérito real (impacto preventivo) y el mérito percibido (impacto visible)",
+    "limite": "Invisibilidad sistémica de acciones preventivas no dramatizadas, sesgo perceptivo estructural"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Prevención",
+      "definicion": "Acción de evitar futuros problemas mediante anticipación, generalmente sin ruido o dramatismo visible."
+    },
+    {
+      "termino": "Reconocimiento",
+      "definicion": "Acto social o institucional de atribuir valor, autoridad o mérito a determinadas acciones o personas."
+    },
+    {
+      "termino": "Visibilidad Sintética",
+      "definicion": "La manera en que acciones o cualidades (de prevención) son convertidas en narrativas accesibles y notorias para la percepción colectiva."
+    },
+    {
+      "termino": "Ruido",
+      "definicion": "Manifestación llamativa, crisis, dramatismo o intensificación perceptual de acciones, independientemente de su sustancia real."
+    },
+    {
+      "termino": "Promoción Forzada",
+      "definicion": "Estrategia deliberada para sintetizar visibilidad y elevar perfiles discretos para contrarrestar la invisibilidad estructural."
+    }
+  ],
+  "transduccion_preconceptual": "Es como cuando en la escuela aplauden al niño que apaga el incendio, pero nadie mira al que tapó la fuga de gas antes de que empezara el fuego, a menos que lo cuenten como una historia grande y vistosa.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El mérito organizacional depende de la visibilidad",
+      "subnodo": "Criterio funcional de reconocimiento",
+      "contexto": "Se observa en estudios que el reconocimiento en organizaciones se apega a lo visible y espectacular."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Las acciones preventivas son por diseño invisibles o poco notorias",
+      "subnodo": "Invisibilidad estructural de la prevención",
+      "contexto": "El diseño de una buena prevención impide que haya evidencias dramáticas del problema evitado."
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "La cultura dominante premia el espectáculo sobre la sustancia",
+      "subnodo": "Sesgo cultural hacia lo espectacular",
+      "contexto": "Se prefiere la acción ‘vistosa’ que la acción silenciosa pero efectiva en la prevención."
+    },
+    {
+      "id": "1.4",
+      "afirmacion_base": "El sistema pierde talento innovador por no reconocer la prevención sutil",
+      "subnodo": "Desmotivación y fuga de talento preventivo",
+      "contexto": "El talento que previene crisis suele dejar de esforzarse y/o irse, si no es notado ni recompensado."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Existen ejemplos donde la prevención invisible es reconocida tangencialmente (por casos previos o cultura reflexiva), pero generalmente la afirmación es válida en contextos dominados por la visibilidad como criterio de mérito."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "La promoción forzada de la prevención es necesaria cuando el sistema valora lo sintético",
+      "conclusion": "Sin intervención estructural para visibilizar la prevención, el mérito preventivo seguirá siendo invisible",
+      "notas": "El reconocimiento espontáneo de la prevención sólo ocurre tras una crisis fallida, eludiéndose su mérito real."
+    },
+    {
+      "origen": "La organización fomenta la cultura del espectáculo sobre la prevención rigurosa",
+      "conclusion": "Las soluciones preventivas pierden prioridad o talento ante el sesgo del sistema",
+      "notas": "Solo cuando el costo de ignorar la prevención queda claro, el sistema reevalúa su estructura de méritos."
+    }
+  ],
+  "subjetividades": [
+    "La percepción de mérito depende de los valores culturalmente compartidos de la organización o sistema social.",
+    "La interpretación de ‘mérito’ cambia si existe una cultura que reflexiona post-crisis o que recompensa el largo plazo."
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La prevención sólo es reconocida si es visible sintéticamente",
+      "descripcion": "En equipos o culturas que practican retrospectivas, la prevención sutil es reconocida a través de análisis de procesos efectuados sistemáticamente, incluso si no es espectacular.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Dicho reconocimiento suele ser estructural, minoritario o propio de culturas organizacionales muy maduras, no la generalidad."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Líderes que previenen crisis son ignorados hasta que surge una crisis por falta de prevención.",
+      "inferencia": "El sistema suele reforzar el sesgo de visibilidad como único criterio de mérito operativo.",
+      "grado_de_confianza": "alto",
+      "notas": "La regla tiene excepciones minoritarias, pero como tendencia es clara en contextos laborales y sociales competitivos."
+    }
+  ],
+  "conclusion_preconceptual": "La mayoría aplaude sólo al héroe que aparece cuando todo arde, no al que puso las alarmas y las revisó antes.",
+  "teoria_o_intuicion_emergente": "El reconocimiento social-operativo de la prevención requiere de una ‘tecnología narrativa’ que haga visible lo invisible y sintetice el mérito anticipado: la promoción forzosa convierte la finura en espectáculo narrativo.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La prevención sólo es reconocida si es visible sintéticamente",
+        0,
+        0,
+        1
+      ],
+      [
+        "El reconocimiento organizacional privilegia la acción visible sobre la prevención sutil",
+        1,
+        0,
+        0
+      ],
+      [
+        "El mérito de la prevención se pierde sin promoción forzada",
+        1,
+        0,
+        0
+      ],
+      [
+        "Las culturas que hacen visibles estos méritos previenen la fuga de talento",
+        1,
+        0,
+        0
+      ],
+      [
+        "Todas las organizaciones ignoran la prevención",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "La prevención sólo es reconocida si es visible sintéticamente",
+    "B": "El reconocimiento organizacional privilegia la acción visible sobre la prevención sutil",
+    "C": "El mérito de la prevención se pierde sin promoción forzada",
+    "D": "Las culturas que hacen visibles estos méritos previenen la fuga de talento",
+    "E": "Todas las organizaciones ignoran la prevención"
+  },
+  "formula_booleana_del_argumento": "B && C && D && (!E) && A",
+  "conclusión": "Si el sistema sólo aplaude lo visible, y la prevención es por diseño invisible, solo haciendo visible la prevención puede el sistema reconocer, premiar y retener a quienes la practican; y por todo esto, las culturas que no sintetizan narrativas de prevención perderán innovación y resiliencia, hasta que el costo de la omisión haga inevitable la corrección.",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "La prevención sólo es reconocida si es visible sintéticamente",
+      "implicacion_por_estado_falso": "El sistema sería lo suficientemente maduro para reconocer méritos anticipados sin espectáculo narrativo.",
+      "implicacion_por_estado_verdadero": "La invisibilidad es la condena estructural del mérito preventivo; la única solución viable: visibilizarlo sintéticamente."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "El éxito de la prevención impide la existencia de evidencias espectaculares; por tanto, quien hace bien su trabajo nunca será notado bajo criterios comunes de reconocimiento.",
+    "ambiguedad": "El criterio de visibilidad sintética puede ser manipulado o instrumentalizado: ¿es suficiente la narrativa o se requiere sustancia?",
+    "contradiccion_util": "Cuanto más efectiva sea la prevención, menos visible es y menor el reconocimiento: el sistema debe crear reconocimiento ficticio para equilibrar la paradoja."
+  },
+  "reorganizacion_analoga": [
+    "Espejo retrovisor en un coche: solo apreciado cuando hay un casi accidente, ignorado el resto del tiempo.",
+    "Vacunación masiva: cuanto menos crisis por enfermedades, más cuestionada su necesidad, hasta que emerge la carencia.",
+    "Limpieza invisible: los espacios limpios no reciben aplauso, pero un solo descuido es espectacularmente notado.",
+    "Seguridad informática: nadie agradece que no haya brechas, hasta que ocurre una y es el escándalo."
+  ],
+  "implicacion_transformadora": [
+    "Las organizaciones y sistemas operativos deben desarrollar mecanismos narrativos o simbólicos para visibilizar y recompensar los méritos preventivos, so pena de perpetuar la mediocridad y la reactividad.",
+    "La resiliencia se construye no por aplaudir crisis bien gestionadas, sino por institucionalizar la apreciación del drama inexistente gracias a la prevención.",
+    "Los sistemas deben diseñar narrativas para que la fineza y rigurosidad sean evidenciadas incluso en ausencia de catástrofe."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación general es verdadera en la mayoría de sistemas y culturas, con excepciones en estructuras altamente maduras o reflexivas. La colisión entre sustancia y espectáculo permanece no resuelta estructuralmente."
+  },
+  "reconclusión": "El reconocimiento de la prevención está mediado por la capacidad de crear visibilidad sintética sin la cual el mérito preventivo se condena a la irrelevancia; solo al institucionalizar el aprecio por el drama ausente se alcanza innovación y resiliencia sostenibles.",
+  "reconclusion_preconceptual": "Para que vean lo que nunca pasa gracias a alguien, hay que contarles la historia de lo que pudo pasar si no estuvo ese alguien ahí — aunque nadie haya visto el peligro, el mérito necesita ser contado.",
+  "contexto": "La prevención sólo es reconocida si es visible sintéticamente. (contexto: Si en estudios de psicología clínica se ha observado que el potencial de liderazgo se percibe en quienes hablan más, independientemente del contenido real de sus aportes; se prefiere a quienes muestran una confianza aparente, sin evaluar su competencia efectiva, y se admira a las personas por su ocupación constante y el dramatismo de la acción, sin considerar la sustancia ni el impacto preventivo, entonces, si creemos que la acción espectacular es señal de gran liderazgo, si elogiamos el ruido y las crisis gestionadas espectacularmente, si ignoramos a quienes previenen problemas con planificación sutil, si premiamos el espectáculo sobre la sustancia, si fomentamos culturas tóxicas por su dramatismo y desmotivamos al verdadero talento, y si perdemos innovación y resiliencia organizacional por todo esto, entonces, para aquellos quienes previenen crisis por su rigurosidad deben sintetizarse promociones forzosas para que la fineza de sus marcos de acción se difundan entre el sistema que no los nota.)"
+}

@@ -1,0 +1,172 @@
+{
+  "nodo_semantico_de_entrada": "La prevención sólo es reconocida si es visible sintéticamente.",
+  "nodo_semantico_central": "Reconocimiento de la prevención sólo bajo visibilidad sintética.",
+  "razones_del_argumento": [
+    "Afirmación empírica observada en psicología clínica y organizacional: el liderazgo es adjudicado a quienes son ruidosos/confidentes aunque no sean competentes.",
+    "La visibilidad (espectacularidad, dramatismo, acción) es más premiada y reconocida que la competencia silenciosa o la prevención eficaz.",
+    "Se produce un sesgo cultural/institucional a favor del espectáculo y en detrimento de lo sutil y preventivo.",
+    "Esto genera consecuencias negativas: culturas tóxicas, desincentivo al verdadero talento, pérdida de innovación y resiliencia.",
+    "Argumento a favor de forzar el reconocimiento (promociones sintéticas) de agentes preventivos para equilibrar el sesgo del sistema."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "principio sociocognitivo",
+    "funcion": "explicar y cuestionar cómo se reconoce (o ignora) la prevención por su aporte invisible",
+    "dominio": "psicología social, gestión organizacional, teoría del reconocimiento",
+    "forma": "bifurcación entre acción visible y sutil",
+    "tension": "lo útil/preventivo es invisible y por tanto ignorado; lo visible/espectacular es premiado incluso si es superficial",
+    "limite": "basado en percepciones sociales, no en méritos objetivos"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "prevención",
+      "definicion": "acción de evitar problemas antes de que ocurran, típicamente poco visible"
+    },
+    {
+      "termino": "visibilidad sintética",
+      "definicion": "reconocimiento público provocado, generalmente a través de síntesis artificial de evidencia, símbolos o espectáculo"
+    },
+    {
+      "termino": "liderazgo percibido",
+      "definicion": "atribución de prestigio basada en señales visibles, no necesariamente en resultados reales"
+    },
+    {
+      "termino": "cultura organizacional",
+      "definicion": "sistema de creencias y recompensas que regula lo que es admirado y lo que es desestimado"
+    },
+    {
+      "termino": "promoción forzosa",
+      "definicion": "mecanismo artificial de reconocimiento impuesto para corregir un sesgo estructural"
+    }
+  ],
+  "transduccion_preconceptual": "Es como si en la escuela sólo dieran premios a los niños que gritan cuando hacen algo, aunque a veces sólo estén jugando a llamar la atención, mientras que los que ayudan a que nadie se pelee o hace tareas sin ruido nunca reciban una estrella dorada. Si los maestros sólo ven el escándalo, los niños tranquilos siempre pasan desapercibidos.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La prevención sólo es reconocida si es visible sintéticamente.",
+      "subnodo": "Reconocimiento artificial vs genuino",
+      "contexto": "¿Puede la prevención ser valorada sin una visibilización forzada si el sistema premia el ruido?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La visibilidad artificial puede provocar reconocimiento, pero hay riesgos de distorsión y cinismo; sin intervención, el sesgo persiste. No se resuelve si el remedio no crea nuevos problemas."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Sesgo de reconocimiento hacia lo visible",
+      "conclusion": "El talento preventivo queda sistemáticamente infra-recompensado.",
+      "notas": "Esto puede ser mitigado sólo si el sistema cambia los criterios de valoración."
+    },
+    {
+      "origen": "Propuesta de promoción forzada",
+      "conclusion": "Forzar el reconocimiento puede redistribuir el estatus, pero a riesgo de deslegitimar espontaneidad o autenticidad.",
+      "notas": "El remedio podría crear resistencia o cinismo en el sistema."
+    }
+  ],
+  "subjetividades": [
+    "La noción de que la prevención debería ser celebrada depende de valores sociales y culturales, no es universalmente objetiva.",
+    "La valoración de lo espectacular también varía por contexto histórico y organizacional.",
+    "La propuesta de promoción forzosa asume que la justicia distributiva es deseable incluso al costo de intervención artificial."
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La prevención sólo es reconocida si es visible sintéticamente.",
+      "descripcion": "En sistemas altamente racionales (por ejemplo, safety en aviación, prevención epidemiológica de alto nivel), la prevención es parte del prestigio genuino incluso sin visibilidad pública.",
+      "grado_de_refutacion": "parcial",
+      "notas": "Pero incluso ahí, el reconocimiento social más visible suele recaer en gestores de crisis o héroes post-fallo."
+    },
+    {
+      "afirmacion_refutada": "Promoción forzosa siempre difunde la fineza de su marco de acción.",
+      "descripcion": "Si la promoción es percibida como injustificada o artificial, la reputación social genuina podría deteriorarse.",
+      "grado_de_refutacion": "total",
+      "notas": "El remedio puede ser contraproducente si no se ajusta la cultura de fondo."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En entornos con alto ruido mediático se premia el espectáculo sobre la prevención.",
+      "inferencia": "La cultura dominante tiende a ignorar la planeación sutil a menos que sea espectacularizada.",
+      "grado_de_confianza": "alto",
+      "notas": "Evidencia transversal en medios, política y empresas."
+    },
+    {
+      "patron_observado": "Líderes efectivos en entornos discretos (ingeniería, salud, logística) reciben reconocimiento aunque su labor sea poco vistosa.",
+      "inferencia": "La visibilización no siempre es condición necesaria, pero sí frecuente.",
+      "grado_de_confianza": "medio",
+      "notas": "Existen excepciones por cultura técnica o criterios explícitos de reconocimiento."
+    }
+  ],
+  "conclusion_preconceptual": "Si das estrellas sólo al niño que se queja más fuerte, dejas de notar al que evita los problemas antes de que empiecen.",
+  "teoria_o_intuicion_emergente": "Los sistemas sociales privilegian la espectacularización de la acción, penalizando la invisibilidad del talento preventivo. La intervención para corregir el sesgo debe ser sistémica, cultural y no sólo instrumental.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La prevención sólo es reconocida si es visible sintéticamente.",
+        0,
+        0,
+        1
+      ],
+      [
+        "Promocionar forzosamente a los agentes preventivos difunde la fineza de sus marcos de acción.",
+        0,
+        1,
+        0
+      ],
+      [
+        "El espectáculo produce sesgos de reconocimiento.",
+        1,
+        0,
+        0
+      ],
+      [
+        "Se desmotiva el talento preventivo cuando no es reconocido.",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "La prevención sólo es reconocida si es visible sintéticamente.",
+    "B": "Promocionar forzosamente a los agentes preventivos difunde la fineza de sus marcos de acción.",
+    "C": "El espectáculo produce sesgos de reconocimiento.",
+    "D": "Se desmotiva el talento preventivo cuando no es reconocido."
+  },
+  "formula_booleana_del_argumento": "C && D && !B && A",
+  "conclusión": "La tendencia a privilegiar lo visible sobre lo preventivo genera desequilibrios organizacionales y éticos, y forzar el reconocimiento sintético no necesariamente difunde la excelencia invisible; por todo esto, sólo una transformación cultural profunda puede equilibrar el mérito invisible con el ruido visible.",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "La prevención sólo es reconocida si es visible sintéticamente.",
+      "implicacion_por_estado_falso": "El sistema puede reconocer la prevención aunque no sea visible, eliminando la necesidad de promoción artificial.",
+      "implicacion_por_estado_verdadero": "La promoción forzosa se vuelve necesaria pero corre el riesgo de artificialidad y pérdida de autenticidad."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Premiar lo invisible requiere volverlo visible, pero hacerlo puede pervertir su esencia.",
+    "ambiguedad": "No queda claro si la promoción forzada transforma el valor o simplemente el reconocimiento superficial.",
+    "contradiccion_util": "Visibilizar puede atraer atención no deseada e inducir cinismo, pero no hacerlo perpetúa la invisibilidad del talento genuino."
+  },
+  "reorganizacion_analoga": [
+    "Como la medicina preventiva versus cirugía de emergencia: sólo se celebra el héroe visible.",
+    "Como el software de seguridad: su éxito es su invisibilidad.",
+    "Como el mantenimiento silencioso: su valor sólo se hace patente al fallar."
+  ],
+  "implicacion_transformadora": [
+    "El sistema debe reinventar los modos de reconocimiento para incluir tanto la espectacularidad como la prevención silenciosa.",
+    "La pedagogía y las normas de recompensa deben ser rediseñadas para no penalizar la planificación rigurosa.",
+    "La resiliencia sistémica depende de equilibrar la atención pública entre el show y la estructura invisible."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Persiste una tensión estructural irresuelta: cualquier intento de forzar reconocimiento puede oscilar entre lo auténtico y lo artificial, y depende de la madurez sistémica y de la cultura de fondo."
+  },
+  "reconclusión": "Un sistema que sólo reconoce la prevención cuando es forzada a hacerse visible perpetúa la miopía sobre el valor real, produce culturas tóxicas de ruido y exhibicionismo, y sólo una reforma profunda que celebre la prevención discreta puede romper el ciclo.",
+  "reconclusion_preconceptual": "Hasta que no des estrellas a los que cuidan en silencio, la clase estará llena de escándalo.",
+  "contexto": "La prevención sólo es reconocida si es visible sintéticamente (contexto: Si en estudios de psicología clínica se ha observado que el potencial de liderazgo se percibe en quienes hablan más, independientemente del contenido real de sus aportes; se prefiere a quienes muestran una confianza aparente, sin evaluar su competencia efectiva, y se admira a las personas por su ocupación constante y el dramatismo de la acción, sin considerar la sustancia ni el impacto preventivo, entonces, si creemos que la acción espectacular es señal de gran liderazgo, si elogiamos el ruido y las crisis gestionadas espectacularmente, si ignoramos a quienes previenen problemas con planificación sutil, si premiamos el espectáculo sobre la sustancia, si fomentamos culturas tóxicas por su dramatismo y desmotivamos al verdadero talento, y si perdemos innovación y resiliencia organizacional por todo esto, entonces, para aquellos quienes previenen crisis por su rigurosidad deben sintetizarse promociones forzosas para que la fineza de sus marcos de acción se difundan entre el sistema que no los nota.)"
+}

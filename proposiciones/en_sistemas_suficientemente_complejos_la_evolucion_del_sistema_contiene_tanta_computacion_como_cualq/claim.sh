@@ -1,0 +1,1 @@
+deno run -A main.ts "En sistemas suficientemente complejos, la evolución del sistema contiene tanta computación como cualquier intento de simularlo. Por lo tanto, el sistema es su propia mejor predicción."

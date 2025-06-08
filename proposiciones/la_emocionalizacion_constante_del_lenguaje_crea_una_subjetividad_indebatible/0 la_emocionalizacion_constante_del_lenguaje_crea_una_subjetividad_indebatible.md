@@ -105,7 +105,7 @@ La emocionalización progresiva del lenguaje tiende a blindar la subjetividad fr
 - Como paredes de cristal esmerilado: dejan pasar la luz (emoción) pero dificultan ver y dialogar claramente del otro lado.
 - Como un diálogo entre músicos donde cada uno improvisa su melodía interna, a veces imposible de armonizar, pero ocasionalmente coinciden en un acorde común.
 
-## implicacion_transformadora
+## implicaciones
 
 - El análisis sugiere que fomentar el reconocimiento de las emociones en el lenguaje, sin absolutizarlas como barreras, permite crear zonas de permeabilidad emocional en la argumentación.
 - Invita a diferenciar entre la presencia saludable de emoción (que puede enriquecer el debate) y la saturación que clausura por completo el terreno de lo compartido.

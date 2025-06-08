@@ -113,7 +113,7 @@ La precisión empírica es un nicho dentro del valor adaptativo, pero no su cima
 - Redes de rumores: Mensajes inexactos pueden ser esenciales para cohesión o alerta colectiva, aunque no sean verdad fáctica.
 - Compresión de información en redes neuronales: el tradeoff entre exactitud y eficiencia se replica en algoritmos y heurísticas biológicas/culturales.
 
-## implicacion_transformadora
+## implicaciones
 
 - No se puede reducir el valor adaptativo a la precisión empírica sin perder de vista la complejidad evolutiva y cultural.
 - El diagnóstico de ‘error’ requiere contextualizar el marco de validación y los fines pragmáticos o simbólicos.

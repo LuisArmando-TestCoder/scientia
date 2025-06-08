@@ -163,7 +163,7 @@
     "Como un túnel cuántico: el secreto existe en un estado sólo visible cuando la puerta ya se ha cerrado",
     "Como un juego donde la regla principal es que nadie, ni el árbitro, conoce el resultado hasta que el tiempo ha terminado"
   ],
-  "implicacion_transformadora": [
+  "implicaciones": [
     "El núcleo de resistencia ante ataques está desplazado desde la semántica hacia la ingeniería y la higiene operacional del secreto",
     "La separación absoluta entre instrucciones legítimas y datos inertes establece un nuevo estándar ante injects, pero fuerza auditoría continua de la robustez de RNG, eliminación de side-channels y canal exclusivo",
     "La defensa por prefijo sólo es tan fuerte como su capa más débil: convierte la seguridad lógica en proyecto perpetuo de vigilancia y actualización"

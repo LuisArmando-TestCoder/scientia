@@ -137,7 +137,7 @@
     "Como un surtidor universal que acepta diferentes tapas de botellas, pero no puede servir si alguien trae un recipiente desconocido.",
     "Como una puerta giratoria que da la misma entrada sin importar si vienes del norte o del sur, pero sólo mientras puedas girar la puerta."
   ],
-  "implicacion_transformadora": [
+  "implicaciones": [
     "La escalabilidad arquitectónica requiere enfoques híbridos: permitir que la experiencia de desarrollo sea monolítica, mientras la de producción sea modular, mediada por una capa de abstracción que traduzca pero también señale los límites de lo traducible.",
     "La solución sugiere una convergencia de diseño centrada en la interfaz y no en la implementación: lo que cambia es invisible, lo que permanece estable es la promesa del contrato.",
     "Promover la experimentación con arquitecturas 'transitivas' que se adapten dinámicamente al contexto, pero definir contratos mínimos inmutables (promesas)."

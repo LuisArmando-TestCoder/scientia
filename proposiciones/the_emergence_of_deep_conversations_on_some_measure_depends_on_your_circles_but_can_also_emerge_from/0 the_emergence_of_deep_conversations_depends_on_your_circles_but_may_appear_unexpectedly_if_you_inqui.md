@@ -110,7 +110,7 @@ La profundidad conversacional surge en la interfaz flexible entre el condicionam
 - Como un incendio que puede prender por el clima (contexto) o por una chispa inesperada (curiosidad individual)
 - Como un software que requiere hardware adecuado (red social) pero puede ejecutar procesos imprevistos si el usuario (agente curioso) decide explorarlos
 
-## implicacion_transformadora
+## implicaciones
 
 - Invita a cultivar tanto círculos fértiles para el pensamiento profundo como a fomentar la disposición inquisitiva individual
 - Desafía a no esperar a que el entorno sea perfecto para explorar la profundidad; la agencia puede forzar la emergencia si hay oportunidad mínima

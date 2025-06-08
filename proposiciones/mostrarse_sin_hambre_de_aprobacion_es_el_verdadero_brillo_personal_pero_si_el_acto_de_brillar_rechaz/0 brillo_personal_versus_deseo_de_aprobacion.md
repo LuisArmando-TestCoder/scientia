@@ -115,7 +115,7 @@ La autenticidad florece en la autonomía del impulso; la performance constante h
 - Un sol que emite luz exista o no quien la perciba, pero cuya trayectoria cambiaría si sólo brillara para ser observado
 - La escritura de un diario personal versus la oratoria en público
 
-## implicacion_transformadora
+## implicaciones
 
 - La autenticidad debe ser cultivada a pesar de, y no gracias a, la aprobación externa
 - Reconocer la presencia del deseo de aprobación permite vislumbrar la diferencia entre ser y parecer

@@ -112,7 +112,7 @@ El placer es un sistema dinámico: se optimiza más en la curva del esfuerzo y l
 - Como un videojuego con trucos: ganar sin reto hace que el juego pierda sentido y pronto deje de entretener.
 - Como el aprendizaje: memorizar respuestas sin comprender ni esforzarse en entender, lleva a olvidar rápido el conocimiento adquirido.
 
-## implicacion_transformadora
+## implicaciones
 
 - La búsqueda activa y la dificultad son ingredientes esenciales para una vida placentera y motivada.
 - Enseñar y diseñar sistemas de recompensa (educativos, laborales, sociales) debe priorizar el esfuerzo y la exploración más que la recompensa instantánea.

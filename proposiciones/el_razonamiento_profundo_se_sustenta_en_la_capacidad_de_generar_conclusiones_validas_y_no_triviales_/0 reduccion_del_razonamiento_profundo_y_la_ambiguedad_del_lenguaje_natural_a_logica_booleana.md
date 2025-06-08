@@ -126,7 +126,7 @@ Si el razonamiento profundo es colapsable a la lógica booleana cuando las propo
 - Como un mapa: útil para la navegación, pero incapaz de capturar la totalidad vibrante del territorio real.
 - Como un filtro de colores: aclara ciertos tonos, pero ignora matices fuera de su espectro.
 
-## implicacion_transformadora
+## implicaciones
 
 - Metodológicamente, cualquier modelo lógico debe explicitar los límites de su representación y declarar sus exclusiones de antemano.
 - La aspiración a la claridad debe ceder ante la honestidad epistémica sobre la inalcanzable totalidad racional.

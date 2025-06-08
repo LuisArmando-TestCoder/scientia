@@ -133,7 +133,7 @@ Si la curiosidad y la percepción se cultivan activamente y la creatividad no de
 - Como la evolución biológica: múltiples vías filogenéticas pueden desembocar en soluciones adaptativas equivalentes.
 - Como un taller polímata, donde herramientas cruzadas se usan para resolver problemas inusuales, aunque a veces una simple chispa basta.
 
-## implicacion_transformadora
+## implicaciones
 
 - Optimizar creatividad no implica seguir todos los pasos, sino adaptar, combinar y dejar emerger aquello que cada contexto y mente requiera.
 - La genialidad es una propiedad emergente y no una receta lineal — su cultivo requiere flexibilizar, mezclar y, a veces, romper los propios procedimientos.

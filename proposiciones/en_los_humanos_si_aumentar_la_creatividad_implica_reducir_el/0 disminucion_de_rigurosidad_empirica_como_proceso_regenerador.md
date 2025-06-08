@@ -111,7 +111,7 @@ Los sistemas cognitivos requieren fases de menor rigidez interpretativa (similar
 - Como reiniciar una computadora para resolver problemas de memoria acumulada.
 - Como dejar en barbecho un campo para que la tierra recupere su fuerza.
 
-## implicacion_transformadora
+## implicaciones
 
 - Impulsar espacios mentales, sociales o metodológicos donde la reducción temporal de precisión empírica funcione como instrumento de renovación creativa, siempre acompañada de fases de validación rigurosa posterior.
 - Proponer protocolos de alternancia entre pensamiento divergente (desrigidez) y convergente (rigurosidad) como mecanismos saludables de higiene cognitiva y epistemológica.

@@ -109,7 +109,7 @@ La simultaneidad de felicidad y propósito depende de si el ideal es vivido como
 - La crianza: presente (interacción diaria) y propósito (formar a alguien).
 - Orquesta: cada nota existe en el presente, pero la melodía obedece a un ideal global.
 
-## implicacion_transformadora
+## implicaciones
 
 - Cambiar el marco: fomentar culturas/filosofías que enseñen a entrelazar gozo presente con dirección teleológica.
 - Reformular la educación para que el propósito se viva como proceso creativo, no solo como meta final.

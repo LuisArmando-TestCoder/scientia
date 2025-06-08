@@ -132,7 +132,7 @@ Dado que el pipeline sólo se sostiene en contextos suficientemente calibrados y
 - Como diseñar un parque temático en el que cada estación (paso) prepara sensorial y emocionalmente para la siguiente, pero donde el recorrido puede y debe cambiar según la reacción de los visitantes.
 - Como componer una sinfonía en la que cada movimiento es calibrado, probado y refinado en función de la respuesta del público para lograr la máxima resonancia e impacto memorable.
 
-## implicacion_transformadora
+## implicaciones
 
 - La ingeniería consciente y recursiva de mensajes puede multiplicar el poder de la comunicación.
 - La transformación del entendimiento humano requiere tanto dirección intencional como sensibilidad adaptativa.

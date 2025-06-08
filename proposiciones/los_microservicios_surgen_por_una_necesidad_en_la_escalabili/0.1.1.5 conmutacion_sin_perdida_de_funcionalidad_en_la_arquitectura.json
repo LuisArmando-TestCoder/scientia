@@ -140,7 +140,7 @@
     "Como un traductor entre dos idiomas similares: el 95% se traduce perfectamente, pero algunos chistes o matices no pueden mapearse sin perder nada.",
     "Como un mando a distancia programable: la mayoría de funciones son iguales, pero ciertas marcas o dispositivos requieren botones únicos."
   ],
-  "implicacion_transformadora": [
+  "implicaciones": [
     "Los sistemas deben diseñarse para ser conmutables donde importa, pero aceptar irreducibilidad en los márgenes.",
     "El router/promesa puede estandarizar el trabajo diario, pero los desarrolladores deben documentar y testear casos no conmutables explícitamente.",
     "Se puede plantear una epistemología de diseño arquitectónico: todo modelo de universalidad revela sus propias excepciones y debe incluir mecanismos para identificarlas, categorizarlas y operar sobre ellas."

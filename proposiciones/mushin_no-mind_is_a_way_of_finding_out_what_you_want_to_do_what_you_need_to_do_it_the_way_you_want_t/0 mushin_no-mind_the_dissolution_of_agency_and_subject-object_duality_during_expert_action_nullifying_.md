@@ -122,7 +122,7 @@ A && C && E && !B && !D
 - IA en modo inference-only, sin intervención manual: máxima eficiencia por diseño.
 - Un espejo tan claro que ni se nota el reflejo; simplemente muestra sin interferir.
 
-## implicacion_transformadora
+## implicaciones
 
 - La excelencia subjetiva no es producto de más esfuerzo, sino de la integración entre soltar el ego y confiar en la auto-organización del sistema percepción-acción.
 - Prácticas de conciencia pueden diseñarse para minimizar narrativas internas y acelerar la emergencia de estados de no-mind.

@@ -111,7 +111,7 @@ A and B and (C => D)
 - Como un fractal de máximas conexiones: a cierto nivel de complejidad, sus patrones se ven irreconocibles a simple vista, aunque tengan estructura.
 - Como el ruido blanco auditivo: aunque está compuesto de todas las frecuencias posibles, no se distingue ninguna melodía.
 
-## implicacion_transformadora
+## implicaciones
 
 - Enseñar creatividad no como evasión del referente, sino como danza entre inteligibilidad y ruptura; enfatizar el diálogo entre lo reconocible y lo inédito.
 - Aceptar que el umbral de sentido no es fijo, sino movedizo y dependiente del observador—lo incomprensible hoy puede ser el canon de mañana, o viceversa.

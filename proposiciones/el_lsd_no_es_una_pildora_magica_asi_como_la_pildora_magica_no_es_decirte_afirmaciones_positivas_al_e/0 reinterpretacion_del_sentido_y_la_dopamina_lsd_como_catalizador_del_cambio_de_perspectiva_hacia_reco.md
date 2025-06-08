@@ -125,7 +125,7 @@ Las transiciones motivacionales profundas requieren experiencias catalíticas qu
 - Como aprender a nadar sintiendo el agua, no memorizando instrucciones: sólo al sumergirse cambia la percepción del movimiento y el progreso.
 - Como sintonizar una radio que transmite sentido solo cuando no se busca sintonía fija, sino que se explora el dial con curiosidad activa.
 
-## implicacion_transformadora
+## implicaciones
 
 - La motivación y el sentido pueden emanciparse de la tiranía del resultado y anclarse en flujos de acción intencional.
 - El uso guiado y consciente del LSD (o similares) puede abrir trampillas cognitivas hacia una vida menos dependiente del logro externo y más sostenida en la coherencia entre valores y actos.

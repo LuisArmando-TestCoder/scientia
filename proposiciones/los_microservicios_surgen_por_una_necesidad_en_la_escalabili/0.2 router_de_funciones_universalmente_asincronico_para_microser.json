@@ -160,7 +160,7 @@
     "Como una interfaz USB: igual por fuera, diferente por dentro según el dispositivo conectado.",
     "Como un banco de pruebas con dobles que imitan comportamientos reales sin garantizar la misma respuesta bajo tensión."
   ],
-  "implicacion_transformadora": [
+  "implicaciones": [
     "Arquitecturas futuras pueden beneficiarse de routers adaptativos que permitan experiencias de desarrollo homogéneas y despliegues heterogéneos controlados.",
     "El modelado explícito de asincronía desde el diseño empuja al desarrollador a contemplar el caos potencial desde el inicio, potencialmente resultando en software más resiliente.",
     "La homogeneización superficial sólo es sostenible si hay métricas y pruebas específicas para capturar y reconciliar las diferencias entre entornos."

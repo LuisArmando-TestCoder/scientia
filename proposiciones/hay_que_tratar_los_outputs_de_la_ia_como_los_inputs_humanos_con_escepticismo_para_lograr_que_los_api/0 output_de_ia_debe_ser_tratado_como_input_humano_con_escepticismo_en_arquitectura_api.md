@@ -121,7 +121,7 @@ A && B && D && !C && !E
 - Un sistema inmunológico que desconfía tanto de células propias como externas hasta verificar autenticidad.
 - Un referee que revisa jugadas por video sin importar de qué jugador o equipo provienen.
 
-## implicacion_transformadora
+## implicaciones
 
 - Las arquitecturas de software deben reinventar sus sistemas de validación, no solo añadir capas de confianza para la IA.
 - La trazabilidad del input facilita la auditoría y la recuperación ante fallos sistémicos.

@@ -119,7 +119,7 @@ A && B && C && D && E
 - Como un video reproducido: normalmente solo avanza, pero si tuvieras control absoluto de cada píxel, podrías ponerlo en reversa.
 - Como la expansión de una tinta en agua: fácil de expandir, casi imposible de reunir gotas originales sin herramientas externas.
 
-## implicacion_transformadora
+## implicaciones
 
 - El sentido común sobre la flecha del tiempo es producto de un marco estadístico, no de una ley inviolable.
 - Cualquier teoría fundamental del tiempo deberá distinguir entre imposibilidades estadísticas y lógicas.

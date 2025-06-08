@@ -130,7 +130,7 @@ A && B && D && F && (!G) && (C || E)
 - Como una red neuronal que reconfigura sus pesos al redefinir la función de pérdida: la optimización cambia el curso aunque la dinámica subyacente de aprendizaje persiste.
 - Como el giro copernicano en la ciencia: desplazar el centro redefine todas las órbitas, aunque la compulsión por orbitar sigue ahí.
 
-## implicacion_transformadora
+## implicaciones
 
 - Cambiar el referente idolátrico colectivo desencadena transformaciones conductuales en cascada.
 - La validación estructural puede canalizar energías obsesivas hacia la construcción de sistemas sociales más éticos o cooperativos.

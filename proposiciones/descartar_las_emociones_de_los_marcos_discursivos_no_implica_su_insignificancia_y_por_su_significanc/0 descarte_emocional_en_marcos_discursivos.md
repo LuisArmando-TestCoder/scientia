@@ -111,7 +111,7 @@ A && (B || !B)
 - Como instalar filtros de spam que al final acaban filtrando mensajes valiosos por el tono en que están escritos.
 - La exclusión emocional en el discurso es como poner paredes para el viento: se redirige, pero no desaparece.
 
-## implicacion_transformadora
+## implicaciones
 
 - Incorporar mecanismos reflexivos sobre la emoción en la arquitectura de cualquier marco discursivo robusto.
 - Reconocer que la objetividad es una aspiración regulativa, no un estado puro alcanzable.

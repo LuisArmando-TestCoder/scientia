@@ -109,7 +109,7 @@ El uso de soluciones genéricas (eval) es símbolo de incompletitud epistemológ
 - Como un antivirus con definiciones de malware: funciona mientras todas las variantes conocidas estén cubiertas, pero el malware desconocido exige heurística o métodos de ejecución genéricos (eval).
 - Como un libro de recetas exhaustivo: si ya tienes recetas para cualquier combinación de ingredientes, no necesitas improvisar; pero si llega un ingrediente nuevo, la improvisación retorna.
 
-## implicacion_transformadora
+## implicaciones
 
 - Fomentar el diseño explícito de protocolos y estructuras limitadas para reducir dependencias peligrosas como eval.
 - Sugiere que todo parser debería incluir mecanismos explícitos de detección de desviaciones que escalen a manejadores y nunca a ejecución genérica por defecto.

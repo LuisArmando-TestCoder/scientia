@@ -123,7 +123,7 @@ Si aceptamos que el espectáculo y el drama tienden a ser premiados sobre la pre
 - En medicina preventiva, los éxitos son invisibles pero el heroísmo del cirujano mediático es celebrado.
 - El árbitro perfecto en un partido de fútbol es el que pasa desapercibido: nadie lo premia.
 
-## implicacion_transformadora
+## implicaciones
 
 - Sistematizar la promoción y visibilización de la prevención convierte a los actores sutiles en modelos a imitar.
 - Redefinir los parámetros de liderazgo organizacional fortalece la innovación silenciosa y la resiliencia a largo plazo.

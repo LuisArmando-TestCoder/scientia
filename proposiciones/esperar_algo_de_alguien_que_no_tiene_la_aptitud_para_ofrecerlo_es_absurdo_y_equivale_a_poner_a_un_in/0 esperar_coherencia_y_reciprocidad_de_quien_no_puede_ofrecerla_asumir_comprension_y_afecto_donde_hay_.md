@@ -122,7 +122,7 @@ A && B && C && E && !D && !F
 - Como bailar al borde de un abismo y preguntar por qué no hay suelo.
 - Como poner un guante a la ausencia y luego lamentar la mano perdida.
 
-## implicacion_transformadora
+## implicaciones
 
 - Desechar la proyección de agency donde no la hay evita el círculo de sufrimiento absurdo.
 - Reconocer la dimensión estética/irónica de la tragedia personal puede transformar el dolor en arte, pero no lo vuelve menos real.

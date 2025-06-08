@@ -130,7 +130,7 @@
     "Como un voto en urna sellada donde el sello se borra antes del conteo.",
     "Como una bóveda bancaria con renovación de código de acceso en cada transacción y cuyos registros se autodestruyen."
   ],
-  "implicacion_transformadora": [
+  "implicaciones": [
     "El diseño de sistemas antifugas debe suponer siempre la posibilidad de canales laterales y contemplar auditorías periódicas fuera del flujo principal.",
     "El absolutismo de control es mejor sustituido por la vigilancia dinámica y la corrección adaptativa.",
     "La seguridad última radica en la eficiencia para identificar, cerrar y corregir rendijas no previstas más que en la negación de su posible existencia."

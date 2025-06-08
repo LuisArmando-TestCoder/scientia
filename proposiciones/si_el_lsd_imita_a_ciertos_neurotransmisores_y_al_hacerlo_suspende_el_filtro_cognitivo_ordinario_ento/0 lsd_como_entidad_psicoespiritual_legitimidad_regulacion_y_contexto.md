@@ -130,7 +130,7 @@ Las sustancias psicoactivas, lejos de tener una esencia moral buena o mala, adqu
 - Como una herramienta quirúrgica: peligrosa en manos inexpertas, salvadora en el contexto adecuado.
 - Como los ritos de paso: lo que transforma también puede traumatizar si carece de estructura o guía.
 
-## implicacion_transformadora
+## implicaciones
 
 - Las políticas de drogas deben fundarse en evidencia empírica y epistemología contextual, no en narrativas de miedo.
 - Integrar los psicodélicos a la salud mental y la cultura exige regulación, educación y acompañamiento experto.

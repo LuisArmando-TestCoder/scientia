@@ -113,7 +113,7 @@ Hay un ‘umbral’ óptimo de creatividad donde la novedad útil maximiza sin p
 - Como la selección natural: suficiente mutación da evolución, demasiada destruye estabilidad adaptativa.
 - Como una brújula desimantada: el norte cambia cada vez, la exploración se vuelve inmanejable.
 
-## implicacion_transformadora
+## implicaciones
 
 - La optimización de sistemas cognitivos -humanos y artificiales- requiere no sólo modular creatividad, sino instalar ‘checks’ epistémicos para evitar el colapso en delirio.
 - En entornos sociales o tecnológicos de baja verificación, surgen dinámicas de manipulación epistémica donde los mejores dialécticos pueden condicionar la percepción de la realidad.

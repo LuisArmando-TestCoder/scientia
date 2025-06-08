@@ -121,7 +121,7 @@ C && (E || !A) && (!B && !D)
 - Como las estrellas moribundas que, al colapsar, dan origen a nuevos elementos.
 - Como una planta traspasa sus semillas: el organismo original decae pero las nuevas vidas persisten.
 
-## implicacion_transformadora
+## implicaciones
 
 - La madurez no necesita ser el fin de la vitalidad infantil; puede transformarse en una integración creativa de dolor y asombro.
 - La pedagogía y la cultura pueden ser diseñadas para mantener vivo al niño interior durante la adultez.

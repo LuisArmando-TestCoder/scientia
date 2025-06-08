@@ -125,7 +125,7 @@
     "Los programas de computadora segmentados (microservicios), si bien limitan errores propagados, pueden contener bugs o fallos lógicos propios si su diseño interno lo permite",
     "Una red de ciudades amuralladas: las murallas evitan problemas externos, pero la revuelta interna aún es posible"
   ],
-  "implicacion_transformadora": [
+  "implicaciones": [
     "La modularidad debe ir acompañada de restricciones internas explícitas (como evitar autorreferencia absoluta) para minimizar verdaderamente las paradojas",
     "El análisis de sistemas debe buscar tanto modularidad como control de autoimplicaciones y límites internos de definición"
   ],

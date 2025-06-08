@@ -119,7 +119,7 @@ El LSD, como tecnología de conciencia, es moralmente neutro; su potencialidad e
 - Como un lente de aumento: si miras una flor ves belleza, si miras una herida ves más sangre.
 - Como una puerta: lo que pase al cruzarla depende de la casa y de quien la abre.
 
-## implicacion_transformadora
+## implicaciones
 
 - Invita a la responsabilidad radical al diseñar experiencias psicodélicas. No delegar al azar ni al dogma moral la planificación de la conciencia ampliada.
 - Promueve la epistemología del cuidado: la preparación consciente se convierte en una tecnología del yo, trasladando la ética farmacológica a un arte de navegación interior y exterior.

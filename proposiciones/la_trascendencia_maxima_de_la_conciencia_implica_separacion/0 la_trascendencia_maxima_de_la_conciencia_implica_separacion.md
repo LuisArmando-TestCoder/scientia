@@ -106,7 +106,7 @@ La trascendencia de la conciencia puede manifestarse tanto por la disolución de
 - Como un sueño lúcido en el que uno puede desaparecer o controlar plenamente el cuerpo soñado
 - Como una orquesta en la que el silencio absoluto puede ser el clímax, o un solo instrumento puede ser escuchado con potencia inusitada
 
-## implicacion_transformadora
+## implicaciones
 
 - Explorar la trascendencia no requiere negar el cuerpo forzosamente: las vías de expansión consciente son pluridimensionales.
 - La práctica reflexiva puede diseñarse tanto para la disolución del yo corporal como para su integración amplia.

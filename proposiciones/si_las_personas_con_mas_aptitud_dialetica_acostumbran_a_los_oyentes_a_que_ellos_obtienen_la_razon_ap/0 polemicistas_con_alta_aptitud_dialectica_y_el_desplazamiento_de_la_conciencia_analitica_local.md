@@ -106,7 +106,7 @@ La regulación adaptativa del discurso —vía mecanismos explícitos (IA) o imp
 - Como ajustar el peso extra para corredores élite en carreras para igualar competencia.
 - Como las plataformas que ponen 'desaceleradores' al trading de alta frecuencia para proteger el entorno del mercado.
 
-## implicacion_transformadora
+## implicaciones
 
 - Marcos deliberativos pueden evolucionar hacia sistemas adaptativos auto-regulables asistidos por IA para maximizar el aprendizaje colectivo.
 - El desafío discursivo debe crecer en complejidad con la destreza del agente, fomentando nuevos modos de alfabetización crítica.

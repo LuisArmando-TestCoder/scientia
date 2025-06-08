@@ -110,7 +110,7 @@ La autosuficiencia del método científico es relativa a su instrumentalidad, hi
 - Como un idioma que sólo puede nombrar lo que ya existe en su léxico, siendo incapaz de captar lo aún innombrado.
 - Como una cámara que sólo toma lo que ilumina su flash, pero el cuarto es mayor que el haz de luz.
 
-## implicacion_transformadora
+## implicaciones
 
 - Los sistemas de generación de conocimiento deben incluir protocolos para identificar y evaluar sus propios puntos ciegos.
 - La epistemología óptima integra adaptabilidad metodológica y reconocimiento de irreductibilidad parcial.

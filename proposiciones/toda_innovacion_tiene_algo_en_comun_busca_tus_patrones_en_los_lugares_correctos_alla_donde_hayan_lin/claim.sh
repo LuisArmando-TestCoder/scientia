@@ -1,0 +1,1 @@
+deno run -A main.ts "Toda innovación tiene algo en común; busca tus patrones en los lugares correctos, allá donde hayan líneas argumentales con conexiones causales (aparentes o contraintuitivas) inevitables, aunque sus dominios ontológicos parezcan separados pero que en realidad sean paralelismos del mismo fenómemo"

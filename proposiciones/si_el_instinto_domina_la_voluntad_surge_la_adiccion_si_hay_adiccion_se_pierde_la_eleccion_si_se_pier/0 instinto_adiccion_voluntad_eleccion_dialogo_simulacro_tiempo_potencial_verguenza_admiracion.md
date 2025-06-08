@@ -132,7 +132,7 @@ A && B && !C && D && E && F && !G && !H
 - Como una planta que crece torcida si no la enderezas en su momento, pero aun torcida puede florecer inesperadamente
 - Como un juego donde perder el control no elimina toda posibilidad de cambio, pero sí lo dificulta
 
-## implicacion_transformadora
+## implicaciones
 
 - Los ciclos de pérdida de agencia requieren intervención interna (voluntad), pero también pueden ser rescatados externamente (diálogo, entorno, comunidad).
 - El diálogo nunca es totalmente inútil si alguna parte de la agencia sobrevive, por mínima que sea.

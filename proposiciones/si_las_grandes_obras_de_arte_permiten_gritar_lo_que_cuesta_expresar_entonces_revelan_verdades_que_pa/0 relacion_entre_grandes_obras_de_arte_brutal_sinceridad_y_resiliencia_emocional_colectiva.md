@@ -121,7 +121,7 @@ A && (C || F)
 - Como la poda de un árbol: cortar para que crezca más robusto.
 - Como una vacuna emocional: una pequeña dosis de caos para inmunizar al organismo frente a realidades más duras.
 
-## implicacion_transformadora
+## implicaciones
 
 - El arte debe ser evaluado tanto por lo que consuela como por lo que incomoda: su función es expandir las fronteras del ser.
 - Las dinámicas de censura social revelan, sin querer, los umbrales colectivos de adaptación emocional.

@@ -163,7 +163,7 @@
     "Como un castillo cuya llave cambia para cada visitante y desaparece tras cruzar, pero siempre puede existir un túnel que el constructor no haya visto.",
     "Como un firewall con lista blanca de acceso, donde los únicos comandos que pasan la puerta son los que traen la contraseña imposible de copiar ese día."
   ],
-  "implicacion_transformadora": [
+  "implicaciones": [
     "El diseño por secreto-por-request y borrado sistemático eleva la seguridad de los LLM donde los ataques dependen de confusión sintáctica.",
     "La estrategia fomenta la división radical entre órdenes y datos, apuntando a una arquitectura menos vulnerable a manipulación textual.",
     "La consciencia de los límites de seguridad absoluta obliga a prácticas de defensa en profundidad y monitoreo activo para el resto del entorno."

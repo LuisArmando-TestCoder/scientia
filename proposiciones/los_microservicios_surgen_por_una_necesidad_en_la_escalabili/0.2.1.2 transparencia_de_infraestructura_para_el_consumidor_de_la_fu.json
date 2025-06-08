@@ -164,7 +164,7 @@
     "Un intérprete simultáneo que traduce en tiempo real entre dos personas, las cuales podrían hablar idiomas diferentes sin notarlo.",
     "Sistema nervioso reflejo: rutas diferentes para el mismo estímulo dependiendo del contexto, pero respuesta siempre congruente para el usuario."
   ],
-  "implicacion_transformadora": [
+  "implicaciones": [
     "Cualquier patrón de desarrollo o arquitectura debe priorizar interfaces contractuales limpias y asincrónicas como primer ciudadano.",
     "Los equipos de desarrollo deben aceptar que la transparencia absoluta es ideal pero siempre existe potencial de filtración contextual, por lo que deben diseñar para testear y monitorear continuamente los límites de la transparencia.",
     "El router/mediador se convierte en el punto crítico de control, monitorización y resiliencia entre contextos."

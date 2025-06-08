@@ -113,7 +113,7 @@ El acto de resistir la influencia externa puede abrir caminos para ejercer una i
 - Como arcilla que prefiere su forma, pero sólo cambiando al sostenerse firme puede moldear también el entorno (la mesa, las manos del escultor).
 - Como un espejo: al no reflejar, se convierte en una puerta.
 
-## implicacion_transformadora
+## implicaciones
 
 - Fomentar una postura crítica frente a la presión social puede habilitar vías de transformación, pero no lo garantiza.
 - La autonomía es un catalizador potencial de innovación y cambio sólo cuando se acompaña de acción positiva.

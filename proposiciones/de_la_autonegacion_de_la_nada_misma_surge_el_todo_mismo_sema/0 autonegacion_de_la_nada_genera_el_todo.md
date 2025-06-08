@@ -106,7 +106,7 @@ La paradoja de la nada que se autonega sugiere que los conceptos extremos se def
 - Como el big bang, donde el universo emerge de una ‘singularidad’ (vacío lleno de potencial).
 - Como la página en blanco que, declarándose vacía, provoca la urgencia de llenarla.
 
-## implicacion_transformadora
+## implicaciones
 
 - Las paradojas fuertes no bloquean el pensamiento, sino que lo impulsan.
 - Enseñar a pensar los extremos semánticos como motores de sentido, no como límites infranqueables.

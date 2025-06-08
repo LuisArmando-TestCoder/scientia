@@ -118,7 +118,7 @@ Si A entonces B, si B entonces C, si C entonces D, pero dado que A es indefinido
 - Como analizar una melodía sólo a partir de la partitura ignorando la interpretación emocional del músico.
 - Como trazar la personalidad de alguien sólo a partir de tests psicométricos formales, dejando fuera su singularidad existencial.
 
-## implicacion_transformadora
+## implicaciones
 
 - La operacionalización tensorial permite automatizar el análisis estilístico y habilita nuevas formas de detección, clasificación y atribución autoral.
 - La reducción estilométrica, aunque poderosa, debe usarse como instrumento no definitivo: lo residual (contexto, vivencia, ironía, eco implícito) exige complementariedad hermenéutica.

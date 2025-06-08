@@ -118,7 +118,7 @@ A && (B || C) && D
 - Como un juez de carreras que sólo mira el cronómetro y no a qué equipo pertenece el corredor.
 - Como una computadora que valida un resultado aunque no lo reconozca en su base de datos histórica.
 
-## implicacion_transformadora
+## implicaciones
 
 - El avance científico exige mantener prioritarios los criterios de falsabilidad y predictibilidad por encima de la autoridad del consenso.
 - Los paradigmas científicos deben aceptar ser revisados radicalmente por modelos que los contradigan si ofrecen mejor poder de predicción.

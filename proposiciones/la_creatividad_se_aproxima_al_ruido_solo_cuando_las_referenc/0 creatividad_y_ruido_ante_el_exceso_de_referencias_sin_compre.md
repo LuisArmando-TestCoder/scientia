@@ -118,7 +118,7 @@ La creatividad máxima no es función de máxima absorción de referencias, sino
 - Como un jardín: demasiadas semillas sin cuidado convierten la tierra en maraña, no en ecosistema
 - Como el entrenamiento de una IA: datos sin curación generan sobreajuste o ruido; los datos filtrados producen modelos útiles
 
-## implicacion_transformadora
+## implicaciones
 
 - La clave de la innovación no está en la cantidad de insumos, sino en el desarrollo de capacidad crítica de síntesis, selección y estructuración.
 - Enseñar creatividad no es limitación de influencias, sino fortalecimiento del criterio interno (meta-algoritmo de elección)

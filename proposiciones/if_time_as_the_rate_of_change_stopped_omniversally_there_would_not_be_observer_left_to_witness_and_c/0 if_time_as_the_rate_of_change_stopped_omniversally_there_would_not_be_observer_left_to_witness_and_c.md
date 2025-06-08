@@ -119,7 +119,7 @@ La existencia fenomenológica requiere de la irreductibilidad del tiempo como su
 - El sueño en el momento exacto antes de despertar, si nunca se despierta: potencial, pero jamás experiencia.
 - Como si presionaras pausa al universo, pero también la máquina de presionar ‘pausa’ desaparece junto con todo lo demás.
 
-## implicacion_transformadora
+## implicaciones
 
 - Las discusiones sobre el fin del tiempo, o del universo entero, deben asumir la imposibilidad de cualquier experiencia o conocimiento del momento del fin.
 - La conciencia de ‘fin’ requiere la supervivencia de la memoria y de la comparación: el verdadero fin es, por definición, imperceptible.

@@ -114,7 +114,7 @@ La subjetividad emocional erosiona la verificabilidad y precisión conceptual, p
 - El lenguaje poético: su fuerza reside en la indeterminación.
 - Las fronteras culturales: difusas, pero reales en la experiencia colectiva.
 
-## implicacion_transformadora
+## implicaciones
 
 - El discurso epistemológico debe considerar tanto la verificabilidad estricta como la productividad hermenéutica de lo subjetivo.
 - Las ciencias de la subjetividad requieren metodologías híbridas que reconozcan sus límites y potencialidades.

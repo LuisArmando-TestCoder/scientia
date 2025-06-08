@@ -139,7 +139,7 @@
     "El código fuente de un programa informático contiene 'debug mode', pero si siempre permite saltarse todas las reglas pierde funcionalidad",
     "Un juego cuyos árbitros pueden cambiar cualquier regla a voluntad pierde integridad estructural (arbitrariedad total)"
   ],
-  "implicacion_transformadora": [
+  "implicaciones": [
     "Las reglas deben nacer abiertas a revisión (flexibilidad), pero no a excepciones absolutas arbitrarias; la excepción absoluta es el operador de reinicio y debe manejarse como transformador, no como condicionante de consistencia",
     "Aplicar excepción absoluta es procedimiento de rediseño sistémico, más que garantía de la fortaleza de la regla",
     "La creencia en la necesidad universal de excepciones absolutas puede llevar a nihilismo normativo o dogmatismo transformador, según se aplique"

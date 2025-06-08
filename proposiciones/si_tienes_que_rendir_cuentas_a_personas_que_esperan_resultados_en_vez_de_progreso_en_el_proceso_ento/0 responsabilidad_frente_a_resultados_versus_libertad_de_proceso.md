@@ -110,7 +110,7 @@ Si solo se permite ejecutar procesos cuyo valor puede mostrarse en el presente, 
 - Como evaluar una sinfonía por cada nota y no por el efecto final.
 - Como esperar una pintura acabada tras el primer trazo.
 
-## implicacion_transformadora
+## implicaciones
 
 - La cultura de la inmediatez limita capacidades de exploración y maduración intelectual.
 - Espacios de confianza y flexibilidad son indispensables para la innovación profunda.

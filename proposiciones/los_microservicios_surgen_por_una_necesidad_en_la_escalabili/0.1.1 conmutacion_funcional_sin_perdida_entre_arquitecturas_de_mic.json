@@ -164,7 +164,7 @@
     "Como una máscara de teatro reversible; por el frente siempre hay la misma expresión, pero por detrás la tensión cambia según la escena.",
     "Como un lenguaje de programación multiplataforma: funciona igual, salvo en detalles ocultos por la abstracción."
   ],
-  "implicacion_transformadora": [
+  "implicaciones": [
     "Obligar a explicitar el contrato total de interfaz (promesas y qué cubren) genera arquitectura más robusta y auditable.",
     "Crece la disciplina de diseño sufriendo menos lock-in, pero exige humildad: la perfección sólo se alcanza en el límite teórico.",
     "Fomenta paradigmas de composición y orquestación flexibles, adaptables al contexto sin sacrificar mantenibilidad ni experiencia de desarrollo."

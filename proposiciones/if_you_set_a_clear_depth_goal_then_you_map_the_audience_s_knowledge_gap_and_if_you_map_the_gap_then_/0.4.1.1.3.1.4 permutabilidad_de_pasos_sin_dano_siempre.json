@@ -123,7 +123,7 @@
     "Como la construcción de algoritmos: algunos módulos pueden reordenarse, otros generan errores si se permutan.",
     "Como una orquesta, donde el cambio de secuencia entre entrada de instrumentos puede arruinar la armonía."
   ],
-  "implicacion_transformadora": [
+  "implicaciones": [
     "La instrucción efectiva requiere conocer qué partes de una secuencia son permutables y cuáles no.",
     "El diseñador de sistemas debe validar experimentalmente las dependencias antes de flexibilizar el orden.",
     "Revela la importancia de mapear la arquitectura causal antes de probar nuevas acciones."

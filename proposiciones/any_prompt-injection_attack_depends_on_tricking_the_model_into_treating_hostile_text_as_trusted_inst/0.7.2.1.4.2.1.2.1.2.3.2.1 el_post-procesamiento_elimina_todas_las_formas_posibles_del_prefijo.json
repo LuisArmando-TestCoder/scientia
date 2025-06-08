@@ -173,7 +173,7 @@
     "Firewall adaptativo: bloquea patrones conocidos y firmas, pero es vulnerable a variantes novedosas aún no catalogadas.",
     "Cerraduras que cambian combinaciones tras cada acceso, pero dependen de que los mecanismos internos no sean manipulables."
   ],
-  "implicacion_transformadora": [
+  "implicaciones": [
     "El razonamiento de primer principio sobre aislamiento por prefijo y limpieza reitera la necesidad de monitoreo y actualización continua en sistemas de defensa alto-stakes.",
     "Cualquier garantía lógica debe ir acompañada de vigilancia empírica y mejora recursiva.",
     "La perfección aparente en ambientes cerrados puede convertirse en ilusión en condiciones reales impredecibles."

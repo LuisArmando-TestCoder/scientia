@@ -131,7 +131,7 @@
     "Como una vía de tren asíncrona: todos pueden circular, pero algunas cargas requieren reglas especiales de control y entrega.",
     "Como un enchufe universal: casi todo cabe, pero algunos aparatos necesitan transformador."
   ],
-  "implicacion_transformadora": [
+  "implicaciones": [
     "Al diseñar sistemas duales monolito/microservicio, priorizar acoplamiento por promesas garantiza transición fluida, pero mantener capa extensible para semántica avanzada es clave para supervivencia y evolución del sistema.",
     "Tomar la promesa no como dogma suficiente, sino como cimiento ampliable de interoperabilidad evolutiva y mantenible.",
     "El valor metodológico está en saber cuándo alcanza la promesa y cuándo invocar protocolos ampliados."

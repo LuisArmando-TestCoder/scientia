@@ -111,7 +111,7 @@ El dolor es un fenómeno policausal: aunque el deseo insatisfecho es generador p
 - Como tapar todos los agujeros para que no entre el viento: dejas de sentir frío, pero también el aire fresco.
 - Como desactivar las alarmas del dolor físico: ya no duele, pero puedes morir por no advertir el daño
 
-## implicacion_transformadora
+## implicaciones
 
 - Interrogación radical sobre la relación deseo-dolor puede promover prácticas de autoconocimiento, atención plena o redefinición de expectativas, pero la erradicación total del deseo es ni necesaria ni universal.
 - La gestión del sufrimiento requiere un abordaje policausal: biológico, existencial, social y psicológico.

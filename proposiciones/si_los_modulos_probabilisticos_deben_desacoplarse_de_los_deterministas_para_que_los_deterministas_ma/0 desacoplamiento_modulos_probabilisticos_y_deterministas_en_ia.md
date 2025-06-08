@@ -123,7 +123,7 @@ Si desacoplas los módulos probabilísticos de los deterministas y usas APIs o c
 - Como usar un comité de expertos (deterministas) que sólo toma en cuenta sugerencias externas (IA/humanos) si son validadas por un filtro anti-falsedades.
 - Como poner aduanas entre países para inspeccionar cada paquete que entra: protege el país del contrabando (errores probabilísticos).
 
-## implicacion_transformadora
+## implicaciones
 
 - En IA empresarial o crítica, toda integración debe pensarse en topologías desacopladas, avalando la validación cruzada antes de ejecutar acciones irreversibles.
 - Abre la puerta al diseño de arquitecturas híbridas donde las fronteras funcionales y semánticas sean explícitas y auditables, limitando la confianza ciega en los outputs 'inteligentes'.

@@ -107,7 +107,7 @@ A AND NOT B AND C AND NOT D AND NOT E
 - Control de acceso en parque de diversiones: todos seguros pero filas interminables hacen que algunos ni siquiera entren.
 - Barricada contra inundaciones: previene desbordes locales, pero si el caudal excede la capacidad, la barrera falla completamente.
 
-## implicacion_transformadora
+## implicaciones
 
 - En sistemas recursivos y concurrentes, la sincronización es imprescindible, pero debe ser acompañada por monitoreo dinámico y límites diseñados explícitamente.
 - No existen soluciones absolutas; todo sistema al límite revela la necesidad de diseños antifrágiles que consideren fallos fuera del espacio protegido por la sincronización.

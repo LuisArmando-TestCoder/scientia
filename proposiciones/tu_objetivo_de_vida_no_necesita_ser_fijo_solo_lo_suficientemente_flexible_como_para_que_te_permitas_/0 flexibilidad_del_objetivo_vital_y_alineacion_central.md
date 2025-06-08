@@ -119,7 +119,7 @@ El equilibrio vital surge de combinar la exploración flexible con una órbita d
 - Como un río que cambia su cauce, pero siempre fluye hacia el mar.
 - Como un bailarín que improvisa, pero nunca olvida el ritmo interno de la música.
 
-## implicacion_transformadora
+## implicaciones
 
 - El diseño de propósitos vitales y planes de vida debería priorizar la actualización periódica y la autoevaluación de valores centrales.
 - La educación emocional debe enseñar tanto adaptabilidad como la identificación y cultivo del 'centro' personal.

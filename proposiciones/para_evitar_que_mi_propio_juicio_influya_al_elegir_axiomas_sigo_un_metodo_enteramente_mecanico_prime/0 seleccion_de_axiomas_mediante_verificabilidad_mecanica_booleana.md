@@ -112,7 +112,7 @@ La mecanización absoluta de la selección axiomática garantiza objetividad int
 - Como una máquina de ajedrez: juega siempre igual a partir de reglas fijas, pero no decide qué es 'buen ajedrez' o por qué hay un tablero de ocho por ocho.
 - Como un compilador: determina errores basándose en sintaxis preestablecida, pero no decide qué lenguaje compilar.
 
-## implicacion_transformadora
+## implicaciones
 
 - Empujar procedimientos de verificación al máximo de mecanización refina la objetividad interna de la inferencia formal.
 - La definición de los marcos de verificación debe ser tematizada explícitamente: son la última frontera no mecánica del conocimiento.

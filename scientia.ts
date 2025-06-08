@@ -207,6 +207,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     "criterio": "", // Justificación breve del estado elegido (ej. “paradoja no resuelta”, “coherencia formal alcanzada”, etc.)
   }
 
+  // Busca tus patrones en los lugares correctos, allá donde hayan líneas argumentales con conexiones causales inevitables, aunque sus dominios ontológicos parezcan separados pero que en realidad sean paralelismos del mismo fenómemo
   "observaciones_deductivas": [ // El razonamiento deductivo parte de premisas generales para llegar a conclusiones específicas
     {
       "origen": "",       // Qué axioma, afirmación o principio lógico la origina.
@@ -231,6 +232,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     // ... agregar uno por cada afirmación potencialmente falsa o ambigua.
   ],
 
+  // Busca tus patrones en los lugares correctos, allá donde hayan líneas argumentales con conexiones causales inevitables, aunque sus dominios ontológicos parezcan separados pero que en realidad sean paralelismos del mismo fenómemo
   "observaciones_inductivas": [ // El razonamiento inductivo parte de observaciones específicas para llegar a conclusiones generales
     {
       "patron_observado": "", // Repetición empírica, patrón narrativo o experiencia.
@@ -243,6 +245,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
 
   "conclusion_preconceptual": "", // Pre veredicto preconceptual tomando en cuenta el contexto actual.
   
+  // Busca tus patrones en los lugares correctos, allá donde hayan líneas argumentales con conexiones causales inevitables, aunque sus dominios ontológicos parezcan separados pero que en realidad sean paralelismos del mismo fenómemo
   "teoria_o_intuicion_emergente": "", // Insight derivado, afirmación teórica, intuición heurística o principio estructural.
 
   // No incluyas las afirmaciones subjetivas que hacen incolapsable el estado del argumento
@@ -302,8 +305,8 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     "" // Ejemplos estructuralmente análogos al nodo analizado. Se permite uso metafórico o técnico.
   ],
 
-  "implicacion_transformadora": [
-    "" // Consecuencias epistemológicas, éticas, cognitivas o metodológicas. Operacionalización de la teoría.
+  "implicaciones": [
+    "", // Consecuencias de los patrones derivados de las líneas argumentales con conexiones causales inevitables, que aunque cuyos dominios ontológicos parezcan separados en realidad sean paralelismos del mismo fenómemo
   ],
 
   // Si el contexto refleja señales de un bucle autoreferencial (en el caso de contexto conectados que argumentan la misma proposición que la proposición actual), entonces etiqueta el estado de la reevaluacion_global como autoreferencial

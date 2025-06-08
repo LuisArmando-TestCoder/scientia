@@ -101,7 +101,7 @@ A
 - Como um manual que, ao invés de dizer 'sempre pergunte ao supervisor', inclui dentro das instruções todos os padrões de decisão possíveis
 - Como um algoritmo que tem como entrada suas instruções em vez de depender de instruções externas
 
-## implicacion_transformadora
+## implicaciones
 
 - Sistemas podem ser projetados para internalizar inferências que costumavam depender de regras externas, tornando-os mais auto-suficientes e transparentes
 - Desafios e influências sobre a didática: o ensino da lógica pode apresentar regras como axiomas e vice-versa, enfatizando estruturas internas

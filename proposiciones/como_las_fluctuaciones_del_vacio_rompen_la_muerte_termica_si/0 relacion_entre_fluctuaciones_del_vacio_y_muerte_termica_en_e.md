@@ -106,7 +106,7 @@ El concepto de muerte térmica puede no ser aplicable o redefinirse si las fluct
 
 - Es como si un río sigue produciendo olas incluso después de eliminar su cauce: el concepto de 'onda' necesita del lecho del río para tener sentido
 
-## implicacion_transformadora
+## implicaciones
 
 - Los estados finales del universo pueden requerir un nuevo vocabulario para describir la dinámica cuántica sin soporte estructural clásico
 - El análisis de destinos cosmológicos requiere abrazar la irreductibilidad computacional y la incerteza semántica más allá del marco booleando convencional

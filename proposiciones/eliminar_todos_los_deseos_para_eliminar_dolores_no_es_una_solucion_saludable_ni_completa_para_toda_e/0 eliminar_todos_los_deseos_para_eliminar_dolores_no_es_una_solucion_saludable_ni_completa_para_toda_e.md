@@ -114,7 +114,7 @@ El bienestar humano florece en el equilibrio dinámico entre la gestión de dese
 - Un jardín sin deseos es un terreno baldío: sin insectos que dañen, pero tampoco flores ni frutos
 - Un sistema inmunológico que anule toda reacción elimina tanto enfermedad como defensa y resiliencia
 
-## implicacion_transformadora
+## implicaciones
 
 - La solución no está en la supresión total, sino en la autorregulación activa y creativa de los deseos
 - Educar para reconvertir el dolor en aprendizaje y el deseo en motor de sentido

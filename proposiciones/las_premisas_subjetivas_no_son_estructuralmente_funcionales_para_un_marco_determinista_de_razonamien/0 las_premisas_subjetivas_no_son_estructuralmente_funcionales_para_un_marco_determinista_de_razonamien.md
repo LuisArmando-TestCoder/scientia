@@ -122,7 +122,7 @@ Las premisas subjetivas no pueden operar como elementos estructurales dentro de 
 - Un lenguaje de programación fuertemente tipado que rechaza cualquier variable sin declaración de tipo estricta.
 - Un sistema judicial que sólo acepta evidencia física y descarta opiniones no corroboradas.
 
-## implicacion_transformadora
+## implicaciones
 
 - En epistemología aplicada y construcción de IA, el paradigma debe separar explícitamente los planos subjetivo-objetivo, exigiendo protocolos de traducción para making-space entre ambos dominios.
 - Los sistemas de razonamiento profundo deberían incluir procesos formales para detectar y purgar o traducir premisas subjetivas antes de entrar en la cadena de inferencia lógica.

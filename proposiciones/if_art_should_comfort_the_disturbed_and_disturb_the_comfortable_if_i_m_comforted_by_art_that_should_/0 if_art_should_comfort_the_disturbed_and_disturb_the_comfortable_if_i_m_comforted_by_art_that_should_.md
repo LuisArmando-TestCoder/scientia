@@ -108,7 +108,7 @@ El arte funciona como catalizador de autodiagnóstico emocional, pero la correla
 - El arte como termómetro emocional: la misma temperatura se siente fría o caliente según la piel.
 - El arte como test de Rorschach: lo que vemos en la tinta puede decir más de nosotros que de la imagen.
 
-## implicacion_transformadora
+## implicaciones
 
 - Las definiciones dogmáticas sobre lo que el arte 'debería' hacer se disuelven al exponer la subjetividad recursiva del espectador.
 - Volver el análisis de la experiencia estética un ejercicio también de autoconocimiento y no solo de interpretación de la obra.

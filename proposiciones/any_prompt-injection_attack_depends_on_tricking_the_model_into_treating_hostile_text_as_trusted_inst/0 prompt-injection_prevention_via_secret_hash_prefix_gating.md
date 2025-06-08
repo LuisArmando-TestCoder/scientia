@@ -122,7 +122,7 @@ A && C && D && F && !B && !E
 - Como marcas de agua digitales temporales que sólo existen durante una transacción y luego se destruyen.
 - Como un filtro de correo que sólo deja pasar mensajes si tienen una llave cifrada impredecible insertada por el remitente.
 
-## implicacion_transformadora
+## implicaciones
 
 - Desplaza el paradigma defensivo de la detección-reacción a la prevención por aislamiento semántico de raíz.
 - Permite modelos LLM auto-reforzables por su protocolización, minimizando el canal ejecutable sin exposición extra.

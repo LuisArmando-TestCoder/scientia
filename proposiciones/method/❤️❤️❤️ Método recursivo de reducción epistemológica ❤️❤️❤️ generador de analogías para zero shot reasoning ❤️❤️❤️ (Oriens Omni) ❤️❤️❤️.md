@@ -266,7 +266,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     "" // Ejemplos estructuralmente análogos al nodo analizado. Se permite uso metafórico o técnico.
   ],
 
-  "implicacion_transformadora": [
+  "implicaciones": [
     "" // Consecuencias epistemológicas, éticas, cognitivas o metodológicas. Operacionalización de la teoría.
   ],
 

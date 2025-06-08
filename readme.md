@@ -1,5 +1,7 @@
 # Scientia Oriens Omni
 
+Deep Reasoning can be found within a thinking framework, we can make reasoning outputs deterministic by transforming language onto boolean algebraic claims and collapsing the truth tables into a single truth or contradiction
+
 > **Recursive Epistemological Claim Analysis for Deno**
 > **Automate first‑principles thinking, boolean validation, and analogy generation with a single CLI command.**
 

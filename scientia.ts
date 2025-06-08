@@ -159,6 +159,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
 
 [[Axioma 1 El marco es autosuficiente]]
 [[Axioma 2 El marco puede autoanalizarse sin límites]]
+[[Axioma 3 Las premisas subjetivas no son estructuralmente funcionales para un marco determinista de razonamiento profundo]]
 
 [FORMATO DE RESPUESTA] Estructura de salida esperada (obligatoria):
 {
@@ -215,6 +216,10 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     // ...una por cada deducción relevante
   ],
 
+  "subjetividades": [
+    "", // Lista de subjetividades que hacen el argumento incolapsable a un estado específico (si existen)
+  ],
+
   "contraejemplos": [ // Cuestiona tu propio argumento para probar la validez de si el argumento de nodo_semantico_central es válido, y cuestiona meta-cuestionamiento (meta-meta-argumentación auto-argumentativa). 
     // Genera al menos un contraejemplo por cada premisa nuclear.
     {
@@ -240,6 +245,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
   
   "teoria_o_intuicion_emergente": "", // Insight derivado, afirmación teórica, intuición heurística o principio estructural.
 
+  // No incluyas las afirmaciones subjetivas que hacen incolapsable el estado del argumento
   // Las afirmaciones dentro diccionario_de_la_formula (values) y tabla_verdad.filas (index 0) deben ser semántica, sintáctica y gramáticalmente idénticas (strings equivalentes; strings gemelos)
   "tabla_verdad": {
     "columnas": ["afirmacion", "verdadero", "falso", "indefinido"], // Ejes de evaluación lógica modal.

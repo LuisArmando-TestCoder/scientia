@@ -1,0 +1,2 @@
+
+[[0.3 la_emergencia_de_la_metrica_de_einstein_a_partir_del_modelo_discreto_es_universalmente_valida]]

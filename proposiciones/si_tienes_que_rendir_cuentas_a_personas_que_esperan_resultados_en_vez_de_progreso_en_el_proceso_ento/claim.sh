@@ -1,0 +1,1 @@
+deno run -A main.ts "Si tienes que rendir cuentas a personas que esperan resultados, en vez de progreso en el proceso, entonces noeres libre de ejecutar el proceso que obtenga los resultados, si no puedes rendir cuentas con resultados intangibles en el tiempo presente"

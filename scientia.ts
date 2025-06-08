@@ -274,6 +274,8 @@ Cada iteración debería generar una versión más refinada de conciencia episte
    */
   "formula_booleana_del_argumento": "", // Fórmula booleana de la expresión para que el argumento sea cierto, tomando en cuenta incluso cuáles indefinidos (si hay) deberían tener qué estado afirmado o negado para que toda la expresión de verdadero. 
 
+  "conclusión": "", // Recoges las verdades, haces la línea de argumentación (formula el argumento entero con la estructura de: Si A entonces B, si B entonces C,... Z), añades referencias del mundo real de papers o artículos verificados de fuentes confiables a la argumentación, resuelves el conflicto (validez del argumento) en una conclusión irrefutable (por políticamente incorrecto que pueda parecer esto, con sinceridad brutal o brutalidad sincera, implícitamente), y terminas con un 'y por todo esto' seguido de la conclusión inevitable que surja del análisis (por primeros principios) de la reiterpretación empíricamente incolisionable de los argumentos. En una sola línea.
+
   "implicaciones_de_colapso": [ // Aquí sólo se incluyen las afirmaciones indefinidas, para las cuales se derivan implicaciones para el estado de la afirmación global si el estado de la sub-afirmación colapsa en un estado booleano u otro.
     {
       "afirmacion": "", // Afirmación indefinida que colapsa a un estado booleano.
@@ -306,7 +308,9 @@ Cada iteración debería generar una versión más refinada de conciencia episte
     "criterio": "", // Reevaluación del estado elegido (ej. “paradoja no resuelta”, “coherencia formal alcanzada”, etc.)
   }
 
-  "reconclusion_preconceptual": "", // Post veridictico tomando en cuenta el contexto anterior de todos los hallazgos intui o contraintuitivos.
+  "reconclusión": "", // Una conclusión mejorada y enriquecida del argumento, más rigurosa y robusta, que atiende cuidadosamente tanto a la claridad conceptual como a la solidez lógica
+  
+  "reconclusion_preconceptual": "", // Post veridictico tomando en cuenta el contexto y todos los hallazgos.
 }
 
 Notas:

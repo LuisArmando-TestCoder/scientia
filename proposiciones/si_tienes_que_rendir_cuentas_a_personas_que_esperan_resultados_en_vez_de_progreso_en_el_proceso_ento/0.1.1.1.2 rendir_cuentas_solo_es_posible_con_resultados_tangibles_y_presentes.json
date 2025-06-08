@@ -1,0 +1,139 @@
+{
+  "nodo_semantico_de_entrada": "Rendir cuentas sólo es posible con resultados tangibles y presentes.",
+  "nodo_semantico_central": "La rendición de cuentas depende de la tangibilidad y actualidad de los resultados.",
+  "razones_del_argumento": [
+    "La premisa sostiene que sin resultados presentes y palpables, no puede haber una efectiva rendición de cuentas. Se fundamenta en la creencia de que tanto la medición como la evaluación objetivas requieren pruebas materiales accesibles en el ahora.",
+    "Se asume que rendir cuentas es un acto de validación inmediato ante un tercero que exige evidencia concreta, descartando promesas futuras o progresos procesuales como base suficiente."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "Principio operacional",
+    "funcion": "Condicionar la legitimidad de la rendición de cuentas a la existencia de evidencias verificables aquí y ahora.",
+    "dominio": "Ética, gestión, epistemología institucional",
+    "forma": "Regla determinista/absoluta",
+    "tension": "Potencial exclusión de procesos de valor cuyo impacto es diferido, gradual o intangible.",
+    "limite": "Se restringe a sistemas donde los resultados son fácilmente medibles o presentables; excluye procesos de naturaleza compleja, abstracta o a largo plazo."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Rendir cuentas",
+      "definicion": "Acto de mostrar lo que lograste para que otros puedan juzgar si hiciste lo correcto."
+    },
+    {
+      "termino": "Resultados tangibles",
+      "definicion": "Cosas que se pueden ver, tocar o medir exactamente en este momento."
+    },
+    {
+      "termino": "Presentes",
+      "definicion": "Que existen o se pueden mostrar justo ahora, no en el futuro ni como promesa."
+    },
+    {
+      "termino": "Resultados intangibles",
+      "definicion": "Cosas valiosas que no se pueden tocar, como esfuerzos, aprendizajes o avances que no se ven todavía."
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que tus papás quieren ver la tarea terminada, no sólo que digas que la hiciste o que dices que vas bien. Si no tienes el cuaderno ya lleno, no te creen. Pero a veces, lo que aprendiste no se ve en la hoja, sólo dentro de tu cabeza.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El proceso de rendición de cuentas requiere que todo resultado relevante sea medible en el presente.",
+      "subnodo": "Medibilidad absoluta",
+      "contexto": "¿Qué pasa con trabajos creativos o científicos cuyos frutos sólo se verán después?"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "No puedes rendir cuentas si el resultado no es tangible.",
+      "subnodo": "Invisibilidad de valor intangible",
+      "contexto": "¿Y si el progreso o el valor real es invisible o sólo apreciable con el tiempo?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El argumento es válido en contextos de alto control y exigencia de pruebas inmediatas, pero colapsa frente a procesos donde el valor sólo se manifiesta gradualmente o en formas no tangibles."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si sólo los resultados palpables cuentan para rendir cuentas",
+      "conclusion": "Resulta imposible evaluar y legitimar avances intangibles.",
+      "notas": "Excluye innovación, investigación básica, desarrollo humano, procesos educativos a largo plazo."
+    },
+    {
+      "origen": "Rendir cuentas sólo a partir de presentes tangibles",
+      "conclusion": "Se ejerce presión a la superficialidad y a la inmediatez, favoreciendo acciones de impacto rápido en vez de procesos sólidos pero lentos.",
+      "notas": "Posible efecto adverso: desincentivo a la inversión en iniciativas de retorno largo."
+    }
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Rendir cuentas sólo es posible con resultados tangibles y presentes.",
+      "descripcion": "Un científico que aún no publica resultados puede rendir cuentas mostrando su método, hipótesis, colaboraciones o trayectorias de experimentación.",
+      "grado_de_refutacion": "parcial",
+      "notas": "No siempre hay objeto físico o resultado inmediato, pero sí trazabilidad del proceso y proyección de valor."
+    },
+    {
+      "afirmacion_refutada": "Rendir cuentas sólo es posible con resultados tangibles y presentes.",
+      "descripcion": "Un estudiante puede justificar su aprendizaje mediante reflexiones, autoevaluaciones o exámenes diagnósticos, sin tener una producción material inmediata.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La rendición de cuentas puede ser performativa o argumentativa, no siempre física."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En proyectos de largo plazo (edificios, educación, descubrimientos), los responsables rinden cuentas entregando informes, avances, o planes, no sólo productos terminados.",
+      "inferencia": "La rendición de cuentas puede ser válida cuando hay evidencia de progreso, intenciones fundamentadas o mecanismos de verificación futura.",
+      "grado_de_confianza": "alto",
+      "notas": "Los procesos complejos socialmente aceptan avances parciales como suficientes para rendir cuentas, bajo justificación apropiada."
+    }
+  ],
+  "conclusion_preconceptual": "No siempre necesitas mostrar el juguete terminado; a veces sirve enseñar los pedazos y contar qué harás con ellos.",
+  "teoria_o_intuicion_emergente": "La legitimidad de la rendición de cuentas depende de acuerdos contextuales sobre qué cuenta como evidencia de valor y cuándo; priorizar sólo lo tangible y presente distorsiona los incentivos e ignora el valor de lo intangible o futuro.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Rendir cuentas sólo es posible con resultados tangibles y presentes.",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Rendir cuentas sólo es posible con resultados tangibles y presentes."
+  },
+  "formula_booleana_del_argumento": "!A",
+  "conclusión": "Si restringimos la rendición de cuentas sólo a resultados tangibles y presentes, entonces excluimos de legitimación todo proceso cuyo valor sea invisible, gradual o diferido; y por todo esto, la premisa es falsa para contextos complejos o innovadores.",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Rendir cuentas sólo es posible con resultados tangibles y presentes.",
+      "implicacion_por_estado_falso": "Se abre la puerta para validar procesos, aprendizajes, y trayectorias, no sólo productos acabados.",
+      "implicacion_por_estado_verdadero": "Procesos innovadores, científicos o educativos perderían legitimidad si su fruto no es verificable en el corto plazo."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Si sólo se legitima lo visible presente, niegas el valor de todo lo potencial o incipiente.",
+    "ambiguedad": "¿Qué es realmente 'tangible'? ¿Puede una promesa bien fundamentada ser un resultado?",
+    "contradiccion_util": "Las organizaciones que sólo premian resultados rápidos suelen estancarse en la mediocridad operativa."
+  },
+  "reorganizacion_analoga": [
+    "Evaluación escolar basada sólo en exámenes finales, sin considerar el proceso de aprendizaje.",
+    "Empresas que solo reconocen ventas actuales, no desarrollo de producto a largo plazo.",
+    "Política que premia inauguraciones, no planificación o anticorrupción invisible."
+  ],
+  "implicacion_transformadora": [
+    "Redefinir la rendición de cuentas para incluir procesos, aprendizajes y valor potencial permite un manejo más ético y efectivo en organizaciones innovadoras, educativas o de investigación.",
+    "Transformar los sistemas de evaluación para legitimar avances sustantivos aunque aún no se materialicen en resultados finales."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "La mayoría de los sistemas sociales de moderada a alta complejidad consideran rendición de cuentas sobre bases más amplias que sólo el resultado tangible y presente."
+  },
+  "reconclusión": "La rendición de cuentas efectiva requiere de un equilibrio entre la evidencia tangible y los indicadores de progreso o proceso; restringirla sólo a resultados inmediatos es falaz y reduce la calidad de los resultados futuros.",
+  "reconclusion_preconceptual": "No sólo importa lo que puedes mostrar ya: también hay que valorar el camino y lo que se construye despacito.",
+  "contexto": "Rendir cuentas sólo es posible con resultados tangibles y presentes. (contexto: Si tienes que rendir cuentas a personas que esperan resultados, en vez de progreso en el proceso, entonces noeres libre de ejecutar el proceso que obtenga los resultados, si no puedes rendir cuentas con resultados intangibles en el tiempo presente)",
+  "estado_booleano_colapsado_por_calculo_determinista": true
+}

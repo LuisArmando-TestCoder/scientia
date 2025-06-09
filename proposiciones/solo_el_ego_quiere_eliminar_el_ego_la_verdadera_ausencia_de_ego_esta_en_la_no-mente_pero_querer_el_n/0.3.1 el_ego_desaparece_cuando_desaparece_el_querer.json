@@ -1,0 +1,157 @@
+{
+  "nodo_semantico_de_entrada": "El ego desaparece cuando desaparece el querer",
+  "nodo_semantico_central": "Relación entre ego y querer",
+  "razones_del_argumento": [
+    "La proposición asume una causalidad directa: la voluntad (querer) sostiene la identidad egoica.",
+    "La desaparición del querer implica la disolución del sentido de yo separado.",
+    "No incluye explícitamente condiciones contrapuestas (ejemplo: el ego puede persistir sin querer)."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "proceso fenomenológico",
+    "funcion": "explicar la génesis o disolución del ego desde el deseo",
+    "dominio": "psicología, fenomenología, filosofía de la mente",
+    "forma": "cadena causal lineal (si-then)",
+    "tension": "equivalencia fuerte entre querer y ego, omisión de factores contextuales o alternos",
+    "limite": "no contempla formas no-deseantes de autoidentidad; posible ambigüedad semántica en 'querer'"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "ego",
+      "definicion": "La experiencia de un yo individual, la sensación de separación o identificación personal."
+    },
+    {
+      "termino": "desaparecer",
+      "definicion": "Cesación funcional o perceptiva; dejar de ser experimentado conscientemente."
+    },
+    {
+      "termino": "querer",
+      "definicion": "Impulso motivacional hacia algo, deseo consciente de obtener, evitar o modificar una situación."
+    }
+  ],
+  "transduccion_preconceptual": "El ego es como un personaje en un videojuego que sólo aparece cuando tienes ganas de jugar; si ya no quieres jugar, el personaje se queda dormido o se desvanece.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El ego es autosuficiente sin querer",
+      "subnodo": "Autoidentidad sin deseo",
+      "contexto": "Examinar si existen formas de identidad que no dependan del impulso de querer algo. Ej. autoconciencia pasiva, percepción sin deseo."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Desaparece el querer sin desaparecer el ego",
+      "subnodo": "Persistencia del ego en ausencia de deseo",
+      "contexto": "Estados meditativos profundos, anestesia, algunos trastornos neurológicos. ¿Se reporta experiencia de yo sin deseo?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La proposición es dependiente de definiciones estrictas y de evidencia empírica difícilmente universalizable; existen casos reportados ambiguos o contradictorios."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si el querer sostiene el ego",
+      "conclusion": "Eliminar el querer elimina el ego",
+      "notas": "Solo válido si el querer es condición necesaria y suficiente para el ego."
+    },
+    {
+      "origen": "Si existen egos sin querer",
+      "conclusion": "La afirmación original es falsa",
+      "notas": "Basta un caso para refutar el absolutismo del argumento."
+    }
+  ],
+  "subjetividades": [
+    "Experiencia introspectiva del yo y el deseo varía según culturas, entrenamiento meditativo y desarrollo autoperceptivo."
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El ego desaparece cuando desaparece el querer",
+      "descripcion": "En algunos estados meditativos avanzados se reporta ausencia de deseo pero persistencia de testigo o sentido de ser.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La conciencia sin elección ni deseo puede sostener un sentido mínimo de presencia ('awareness')."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "En prácticas de desapego o vigilancia consciente, a menudo disminuye el ego junto con el deseo.",
+      "inferencia": "Existe una tendencia, pero no una equivalencia estricta entre ego y querer.",
+      "grado_de_confianza": "medio",
+      "notas": "Se reportan excepciones y diversidad intersubjetiva."
+    }
+  ],
+  "conclusion_preconceptual": "Cuando dejas de desear cosas, tu 'yo' se hace más silencioso, pero no siempre desaparece por completo.",
+  "teoria_o_intuicion_emergente": "El ego y el querer están correlacionados pero no idénticos; el deseo amplifica la identidad, pero la ausencia de deseo puede dejar una identidad residual mínimamente autoconsciente.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El ego desaparece cuando desaparece el querer",
+        0,
+        0,
+        1
+      ],
+      [
+        "El querer es condición necesaria y suficiente para el ego",
+        0,
+        0,
+        1
+      ],
+      [
+        "Existe ego sin querer",
+        0,
+        1,
+        0
+      ],
+      [
+        "Existe querer sin ego",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "El ego desaparece cuando desaparece el querer",
+    "B": "El querer es condición necesaria y suficiente para el ego",
+    "C": "Existe ego sin querer",
+    "D": "Existe querer sin ego"
+  },
+  "formula_booleana_del_argumento": "A === B && !C && D",
+  "conclusión": "Si el querer define la frontera del ego, entonces eliminar el querer haría desaparecer el ego, pero existen fenómenos en los que la conciencia individual permanece sin deseo activo, por lo que la relación no es absoluta y requiere matices (recogido en estudios de neuropsicología y prácticas contemplativas como mindfulness: ver Metzinger, T. 'The Ego Tunnel'; Austin, J. 'Zen and the Brain'). Y por todo esto, el ego y el querer no son equivalentes, aunque estén profundamente correlacionados.",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "El ego desaparece cuando desaparece el querer",
+      "implicacion_por_estado_falso": "Pueden existir formas de identidad sin deseo.",
+      "implicacion_por_estado_verdadero": "El querer es la condición necesaria para que exista ego."
+    },
+    {
+      "afirmacion": "El querer es condición necesaria y suficiente para el ego",
+      "implicacion_por_estado_falso": "Existen otros factores que pueden sostener el ego fuera del querer.",
+      "implicacion_por_estado_verdadero": "Ego y querer son isomorfos funcionalmente."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Posibilidad de conciencia no egoica, pero aún aparentemente individuada.",
+    "ambiguedad": "'Ego' y 'querer' son términos multívocos en filosofía y psicología.",
+    "contradiccion_util": "Una identidad mínima puede persistir en ausencia de querer, abriendo el espacio para modelos no duales de conciencia."
+  },
+  "reorganizacion_analoga": [
+    "Un fuego que necesita combustible: el querer es la leña, el ego es la llama; pero un rescoldo puede persistir incluso si se deja de alimentar.",
+    "Un software 'dormido' en memoria: no ejecuta tareas (no quiere), pero sigue existiendo latente (ego mínimo)."
+  ],
+  "implicaciones": [
+    "El trabajo terapéutico o espiritual orientado a reducir el deseo puede disminuir la identificación egoica, pero no necesariamente eliminarla.",
+    "Existen potenciales estados de autopercepción sin deseo activo, relevantes para la neurociencia de la conciencia y la fenomenología."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "Existen casos y definiciones divergentes, lo que imposibilita un colapso absoluto del argumento; se mantiene como generalización tendencial no absoluta."
+  },
+  "reconclusión": "La desaparición del querer reduce, pero no necesariamente aniquila el ego: existen contraejemplos fenomenológicos y conceptuales que obligan a matizar la proposición, requiriéndose un modelo más granular de la relación entre deseo y autoidentidad.",
+  "reconclusion_preconceptual": "Aunque dejar de desear puede calmar mucho tu sensación de ser alguien, todavía queda una chispa que te hace sentir que existes, aunque sea en silencio.",
+  "contexto": "El ego desaparece cuando desaparece el querer."
+}

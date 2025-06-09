@@ -298,6 +298,8 @@ Cada iteración debería generar una versión más refinada de conciencia episte
    */
   "formula_booleana_del_argumento": "", // Fórmula booleana de la expresión para que el argumento sea cierto, tomando en cuenta incluso cuáles indefinidos (si hay) deberían tener qué estado afirmado o negado para que toda la expresión de verdadero. 
 
+  "formula_booleana_a_lenguaje_natural": "", // Traducción de la fórmula a lenguaje natural: Si <<formula_booleana_a_lenguaje_natural>> entonces eso significa que x
+
   "conclusión": "", // Recoges las verdades, haces la línea de argumentación (formula el argumento entero con la estructura de: Si A entonces B, si B entonces C,... Z), añades referencias del mundo real de papers o artículos verificados de fuentes confiables a la argumentación, resuelves el conflicto (validez del argumento) en una conclusión irrefutable (por políticamente incorrecto que pueda parecer esto, con sinceridad brutal o brutalidad sincera, implícitamente), y terminas con un 'y por todo esto' seguido de la conclusión inevitable que surja del análisis (por primeros principios) de la reiterpretación empíricamente incolisionable de los argumentos. En una sola línea.
 
   "implicaciones_de_colapso": [ // Aquí sólo se incluyen las afirmaciones indefinidas, para las cuales se derivan implicaciones para el estado de la afirmación global si el estado de la sub-afirmación colapsa en un estado booleano u otro.

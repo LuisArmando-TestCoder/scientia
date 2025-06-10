@@ -1,0 +1,1 @@
+deno run -A main.ts "Holly Herndon says that the term AI is actually a huge disservice of a term, and that collective intelligence is at far more accurate. Because if you strip LLMs to their pure essence, they are just a much better way of using statistics to aggregate human intelligence and connect all of the things we've done together so we can get more use out of them."

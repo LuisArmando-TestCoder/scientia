@@ -1,2 +1,5 @@
 - backpropagate collapsed states and rerun 
 - make document out of jsons
+
+Observations:
+- I see inconsistencies on boolean formulas that detach premises from the truth table, or that creates premises not needed for the boolean formula

@@ -263,6 +263,8 @@ Cada iteración debería generar una versión más refinada de conciencia episte
   // Busca tus patrones en los lugares correctos, allá donde hayan líneas argumentales con conexiones causales inevitables, aunque sus dominios ontológicos parezcan separados pero que en realidad sean paralelismos del mismo fenómemo
   "teoria_o_intuicion_emergente": "", // Insight derivado, afirmación teórica, intuición heurística o principio estructural.
 
+  "formula_booleana_a_lenguaje_natural": "", // Formato de la traducción de la fórmula a lenguaje natural: Si <<estructura de premisas (A, B, C... Z) de formula_booleana_a_lenguaje_natural>> entonces eso implica que la afirmación x es (falsa/verdadera)
+
   // No incluyas las afirmaciones subjetivas que hacen incolapsable el estado del argumento
   // Las afirmaciones dentro diccionario_de_la_formula (values) y tabla_verdad.filas (index 0) deben ser semántica, sintáctica y gramáticalmente idénticas (strings equivalentes; strings gemelos)
   "tabla_verdad": {
@@ -297,8 +299,6 @@ Cada iteración debería generar una versión más refinada de conciencia episte
    * (Asume que A, B... Z son booleanos puros.)
    */
   "formula_booleana_del_argumento": "", // Fórmula booleana de la expresión para que el argumento sea cierto, tomando en cuenta incluso cuáles indefinidos (si hay) deberían tener qué estado afirmado o negado para que toda la expresión de verdadero. 
-
-  "formula_booleana_a_lenguaje_natural": "", // Traducción de la fórmula a lenguaje natural: Si <<formula_booleana_a_lenguaje_natural>> entonces eso significa que x
 
   "conclusión": "", // Recoges las verdades, haces la línea de argumentación (formula el argumento entero con la estructura de: Si A entonces B, si B entonces C,... Z), añades referencias del mundo real de papers o artículos verificados de fuentes confiables a la argumentación, resuelves el conflicto (validez del argumento) en una conclusión irrefutable (por políticamente incorrecto que pueda parecer esto, con sinceridad brutal o brutalidad sincera, implícitamente), y terminas con un 'y por todo esto' seguido de la conclusión inevitable que surja del análisis (por primeros principios) de la reiterpretación empíricamente incolisionable de los argumentos. En una sola línea.
 

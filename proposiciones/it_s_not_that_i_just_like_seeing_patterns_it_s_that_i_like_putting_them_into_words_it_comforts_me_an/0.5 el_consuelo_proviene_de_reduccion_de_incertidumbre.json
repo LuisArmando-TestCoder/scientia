@@ -1,0 +1,181 @@
+{
+  "nodo_semantico_de_entrada": "El consuelo proviene de reducción de incertidumbre",
+  "nodo_semantico_central": "Consuelo como resultado de organizar patrones y reducir incertidumbre",
+  "razones_del_argumento": [
+    "La sensación de confort surge cuando una necesidad es satisfecha. Al poner en palabras los patrones observados, se convierte lo abstracto en concreto, lo incierto en comprensible, reduciendo la ansiedad producida por la ambigüedad.",
+    "La acción de identificar y verbalizar patrones es un mecanismo de control cognitivo sobre el caos, lo cual implica una reducción de la incertidumbre epistemológica.",
+    "El vínculo causal propuesto es: identificar patrones → traducirlos en lenguaje → satisfacción/necesidad cumplida → consuelo."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "Proceso psicológico-cognitivo",
+    "funcion": "Transformar incertidumbre en conocimiento estructurado, generando consuelo emocional",
+    "dominio": "Epistemología personal / Psicología cognitiva / Neurociencia de la emoción",
+    "forma": "Bucle de retroalimentación entre percepción y conceptualización",
+    "tension": "La posible disonancia entre el consuelo percibido y la cantidad real de incertidumbre reducida, así como el riesgo de consuelo ilusorio",
+    "limite": "No todo consuelo depende de reducción de incertidumbre; pueden existir consuelos obtenidos por vías no epistémicas"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Consuelo",
+      "definicion": "Estado emocional de alivio tras una situación adversa o incómoda; sensación de seguridad o tranquilidad"
+    },
+    {
+      "termino": "Reducción de incertidumbre",
+      "definicion": "Proceso de transformar información ambigua o desconocida en conocimiento manejable, disminuyendo la ansiedad asociada"
+    },
+    {
+      "termino": "Patrón",
+      "definicion": "Estructura reconocible o regularidad en datos o experiencias"
+    },
+    {
+      "termino": "Poner en palabras",
+      "definicion": "Acto de conceptualizar y expresar mentalmente algo abstracto de modo comprensible"
+    },
+    {
+      "termino": "Necesidad",
+      "definicion": "Requisito psicológico/emocional cuya satisfacción estabiliza el estado interno"
+    }
+  ],
+  "transduccion_preconceptual": "Como cuando tienes miedo por una sombra en tu cuarto y al encender la luz ves que sólo era tu peluche. Nombras el miedo, ves el peluche, entiendes, y te sientes mejor. Nombrar calma.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El consuelo proviene de reducción de incertidumbre",
+      "subnodo": "Consuelo-por-comprensión",
+      "contexto": "¿Sucede el consuelo siempre tras desambiguar? Ejemplo: se resuelve un acertijo y se siente placer"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "El consuelo proviene de reducción de incertidumbre",
+      "subnodo": "Consuelo-no-epistémico",
+      "contexto": "¿Hay casos de consuelo sin reducción de incertidumbre? Ejemplo: consuelo por contacto físico"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El argumento cubre un subconjunto pero no la totalidad de las causas del consuelo; la reducción de incertidumbre es suficiente pero no estrictamente necesaria para consuelo."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Toda necesidad satisfecha alivia una tensión interna (teoría de la homeostasis)",
+      "conclusion": "Si identificar patrones satisface una necesidad epistémica, la reducción de incertidumbre genera alivio/consuelo",
+      "notas": "Apoyado por investigaciones en psicología (ej. Drive reduction theory; Berlyne, 1960s)"
+    },
+    {
+      "origen": "No todas las fuentes de consuelo implican un proceso cognitivo de reducción de incertidumbre",
+      "conclusion": "El consuelo puede darse por prácticas afectivas, somáticas o religiosas sin cambio en el conocimiento explícito",
+      "notas": "Ver estudios sobre consuelo físico/maternal en neonatos (Harlow, 1958)"
+    }
+  ],
+  "subjetividades": [
+    "El grado de consuelo al reducir incertidumbre puede depender del perfil emocional y experiencias previas del individuo",
+    "El tipo de patrón (simple vs complejo, relevante vs irrelevante) puede modular la magnitud de consuelo experimentado"
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "Todo consuelo proviene de reducción de incertidumbre",
+      "descripcion": "Una persona recibe un abrazo tras una pérdida irreparable; la incertidumbre sobre el evento no cambia, pero se experimenta consuelo",
+      "grado_de_refutacion": "total",
+      "notas": "No hubo reorganización epistémica; el consuelo fue afectivo/sensorial"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Relatos personales y estudios muestran que explicar o entender eventos adversos (buscar sentido) frecuentemente alivia el malestar emocional",
+      "inferencia": "Suele haber consuelo asociado a la reducción de incertidumbre existencial",
+      "grado_de_confianza": "alto",
+      "notas": "Ver Viktor Frankl, 'El hombre en busca de sentido'; estudios contemporáneos en psicología de la incertidumbre"
+    },
+    {
+      "patron_observado": "También hay consuelos obtenidos por compañía, apoyo social o rituales, sin diferencias conceptuales en el conocimiento",
+      "inferencia": "Existen rutas no epistémicas hacia el consuelo",
+      "grado_de_confianza": "alto",
+      "notas": "Ver trabajos en psicología comunitaria y neurobiología de la oxitocina"
+    }
+  ],
+  "conclusion_preconceptual": "Ponerle nombre a lo que te asusta suele hacerte sentir mejor, pero a veces un abrazo basta aunque no entiendas lo que pasa.",
+  "teoria_o_intuicion_emergente": "El consuelo tras organizar patrones es una vía cognitiva de reducción de disonancia; la verbalización transforma el caos interno en orden manejable, pero la vía afectiva o intersubjetiva puede operar independiente de la epistemológica.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "Todo consuelo proviene de reducción de incertidumbre",
+        0,
+        1,
+        0
+      ],
+      [
+        "El consuelo puede provenir de reducción de incertidumbre",
+        1,
+        0,
+        0
+      ],
+      [
+        "Puede haber consuelo sin reducción de incertidumbre",
+        1,
+        0,
+        0
+      ],
+      [
+        "Reducir incertidumbre genera consuelo siempre",
+        0,
+        1,
+        0
+      ],
+      [
+        "Reducir incertidumbre puede generar consuelo",
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "Todo consuelo proviene de reducción de incertidumbre",
+    "B": "El consuelo puede provenir de reducción de incertidumbre",
+    "C": "Puede haber consuelo sin reducción de incertidumbre",
+    "D": "Reducir incertidumbre genera consuelo siempre",
+    "E": "Reducir incertidumbre puede generar consuelo"
+  },
+  "formula_booleana_del_argumento": "!A && B && C && !D && E",
+  "formula_booleana_a_lenguaje_natural": "Si no todo consuelo proviene de reducción de incertidumbre pero sí puede provenir de ahí, y sí puede haber consuelo sin reducción de incertidumbre, además de que reducir incertidumbre no siempre da consuelo pero sí puede, entonces la proposición original es parcialmente cierta pero no universal.",
+  "conclusión": "La reducción de incertidumbre es una fuente frecuente pero no exclusiva de consuelo; existen mecanismos alternativos (ej. afectivos) capaces de generar consuelo sin alterar el estado de conocimiento o incertidumbre, lo que implica que la proposición original es falsa en su forma absoluta pero válida en su forma existencial.",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Puede haber consuelo sin reducción de incertidumbre",
+      "implicacion_por_estado_falso": "Sin esa posibilidad, toda vía afectiva, ritual o emocional de consuelo se reduciría necesariamente al acto de aclarar incertidumbre, lo que contradice la evidencia clínica y experiencial.",
+      "implicacion_por_estado_verdadero": "Se confirma la existencia de rutas no-epistémicas hacia el consuelo, descentrando la reducción de incertidumbre como fuente única."
+    },
+    {
+      "afirmacion": "Reducir incertidumbre puede generar consuelo",
+      "implicacion_por_estado_falso": "Invalidaría el modelo de confort cognitivo por comprensión, lo que es contrario a múltiples hallazgos en psicología.",
+      "implicacion_por_estado_verdadero": "Afirma que, si bien no es la única vía, sigue siendo un mecanismo robusto de consuelo."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "A más conocimiento/certeza se puede abrir nueva incertidumbre; consuelo y ansiedad pueden coexistir durante procesos continuos de aprendizaje.",
+    "ambiguedad": "Diferenciar entre la necesidad de sentido y la reducción de incertidumbre, pues no todos los casos coinciden funcionalmente.",
+    "contradiccion_util": "El consuelo que no viene por comprender puede motivar la búsqueda de sentido, y viceversa; se retroalimentan."
+  },
+  "reorganizacion_analoga": [
+    "Resolver un rompecabezas trae alivio, pero un abrazo trae alivio aunque no se resuelva el problema.",
+    "Ponerle nombre al miedo lo hace menos atemorizante, igual que dibujar un monstruo lo hace menos real."
+  ],
+  "implicaciones": [
+    "Modelos de afrontamiento que priorizan la verbalización y la estructuración cognitiva son efectivos parcialmente; deben complementarse con enfoques afectivo-corporales.",
+    "La búsqueda de patrones y sentido es una motivación evolutiva fundamental para la reducción de ansiedad, pero no su vía exclusiva de resolución."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "El análisis lógico y empírico demuestra que la reducción de incertidumbre es una fuente relevante pero no necesaria ni suficiente en todos los casos para el consuelo; la proposición original falla como generalización universal."
+  },
+  "reconclusión": "El consuelo puede emerger tanto de la organización cognitiva de lo incierto como de la conexión afectiva o ritual; reducir la incertidumbre calma, pero no monopoliza el alivio emocional.",
+  "reconclusion_preconceptual": "Entender ayuda a sentirte mejor, pero abrazar y dejarse abrazar también. No todo lo que calma, aclara.",
+  "contexto": "El consuelo proviene de reducción de incertidumbre (contexto: It’s not that I just like seeing patterns, it’s that I like putting them into words, it comforts me, and if it comforts me, it's because there is a need met when I do that)",
+  "estado_booleano_colapsado_por_calculo_determinista": 1
+}

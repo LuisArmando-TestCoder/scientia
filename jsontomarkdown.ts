@@ -32,7 +32,7 @@ export function jsonToMarkdown(input: any, headingLevel = 2): string {
         vals.every(Array.isArray) &&
         vals.every((v) => (v as any[]).length === (vals[0] as any[]).length)
       );
-    };
+    }; 
   
     /* ---------- helpers para tablas ---------- */
     const tblArrObj = (arr: any[]) => {
@@ -85,11 +85,12 @@ export function jsonToMarkdown(input: any, headingLevel = 2): string {
     /* ---------- listas ---------- */
     const bullets = (o: Record<string, any>, depth = 0): string =>
       Object.entries(o)
-        .map(([k, v]) => {
+        .map(([k, v]: [string, any]) => { // Explicitly type k and v here
           const pad = "  ".repeat(depth);
   
           // PRIORIDAD alta: manejar {columnas, filas}
           if (
+            v !== null && // Add this check
             typeof v === "object" &&
             !Array.isArray(v) &&
             "columnas" in v &&
@@ -111,8 +112,8 @@ export function jsonToMarkdown(input: any, headingLevel = 2): string {
             return (
               `${pad}- **${k}**:\n` +
               v
-                .map((x) =>
-                  isPrimitive(x) ? `${pad}  - ${String(x)}` : bullets(x, depth + 1),
+                .map((x: any) => // Explicitly type x as any here
+                  isPrimitive(x) ? `${pad}  - ${String(x)}` : bullets(x as Record<string, any>, depth + 1),
                 )
                 .join("\n")
             );
@@ -120,15 +121,21 @@ export function jsonToMarkdown(input: any, headingLevel = 2): string {
   
           if (uniformArrayProps(v)) return `${pad}- **${k}**:\n\n${tblObjArr(v)}`;
   
-          return `${pad}- **${k}**:\n${bullets(v, depth + 1)}`;
+          // Final fallback: v should be a generic object here
+          if (typeof v === 'object' && v !== null && !Array.isArray(v)) {
+            return `${pad}- **${k}**:\n${bullets(v as Record<string, any>, depth + 1)}`;
+          }
+          // If v is not an object at this point (e.g. an unexpected array or primitive that slipped through), stringify it.
+          return `${pad}- **${k}**: ${String(v)}`; 
         })
         .join("\n");
   
     /* ---------- raíz ---------- */ 
     return Object.entries(input)
-      .map(([k, v]) => {
+      .map(([k, v]: [string, any]) => { // Explicitly type k and v here
         // PRIORIDAD alta: manejar {columnas, filas}
         if (
+          v !== null && // Add this check
           typeof v === "object" &&
           !Array.isArray(v) &&
           "columnas" in v &&
@@ -150,7 +157,9 @@ export function jsonToMarkdown(input: any, headingLevel = 2): string {
           return (
             `${h(headingLevel)} ${k}\n\n` +
             v
-              .map((x) => (isPrimitive(x) ? `- ${String(x)}` : bullets(x)))
+              .map((x: any) => // Explicitly type x as any here
+                (isPrimitive(x) ? `- ${String(x)}` : bullets(x as Record<string, any>))
+              )
               .join("\n") +
             "\n"
           );
@@ -158,9 +167,13 @@ export function jsonToMarkdown(input: any, headingLevel = 2): string {
   
         if (uniformArrayProps(v)) return `${h(headingLevel)} ${k}\n\n${tblObjArr(v)}`;
   
-        return `${h(headingLevel)} ${k}\n\n${bullets(v)}\n`;
+        // Final fallback: v should be a generic object here
+        if (typeof v === 'object' && v !== null && !Array.isArray(v)) {
+          return `${h(headingLevel)} ${k}\n\n${bullets(v as Record<string, any>)}\n`;
+        }
+        // If v is not an object at this point, stringify it.
+        return `${h(headingLevel)} ${k}\n\n${String(v)}\n`;
       })
       .join("\n")
       .trimEnd();
   }
-  

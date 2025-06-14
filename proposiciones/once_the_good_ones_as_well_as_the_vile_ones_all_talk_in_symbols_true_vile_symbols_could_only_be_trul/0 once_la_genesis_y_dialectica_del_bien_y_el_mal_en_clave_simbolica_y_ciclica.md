@@ -182,6 +182,10 @@ When the vile good man was desintegrting, as one tends towards rushing memories 
 - The good ones and the vile ones are born like that; they are built like that. But it is their actions, not their minds, that make them change. But still, their children, will reset.
 - And the true vile true good ones, products of mixture know this, as they are like snakes, predators, sloths, and righteous warlord angels—all at once—, there is no division, and the closest to being pure instead are not the good ones, but the gentiles.
 
+(This is the doctrine of some citizens of Earth)
+
+(This is the doctrine of some citizens of Earth)
+
 ## estado_booleano_colapsado_por_calculo_determinista
 
 undefined

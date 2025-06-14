@@ -187,8 +187,6 @@ Good and vile are born, are made—but it is the act, not the mind, that changes
 
 The true ones, the mixed ones, know this. They are serpent and sloth, warlord and angel—no division, only flux. And the purest? Not the good. The gentiles. The indifferent.
 
-(This is the doctrine of some citizens of Earth)
-
 ## estado_booleano_colapsado_por_calculo_determinista
 
 undefined

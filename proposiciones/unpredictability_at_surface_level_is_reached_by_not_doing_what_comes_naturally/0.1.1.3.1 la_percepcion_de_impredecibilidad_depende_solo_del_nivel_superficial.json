@@ -1,0 +1,128 @@
+{
+  "nodo_semantico_de_entrada": "La percepción de impredecibilidad depende sólo del nivel superficial",
+  "nodo_semantico_central": "Impredecibilidad percibida como fenómeno de superficie",
+  "razones_del_argumento": [
+    "La afirmación conecta el concepto de impredecibilidad únicamente con los aspectos más observables o inmediatos del fenómeno (lo 'superficial'), descartando capas más profundas o estructurales.",
+    "Se introduce la hipótesis de que salirse del patrón natural (lo esperado) produce impredecibilidad únicamente en el sentido en que se percibe desde fuera."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "Afirmación epistémica relacional",
+    "funcion": "Delimitar el origen de la percepción de impredecibilidad",
+    "dominio": "Cognición, percepción, epistemología de la sorpresa",
+    "forma": "Superficie/profundidad; dualismo contextual",
+    "tension": "Reduce la impredecibilidad a una función del contexto externo; ignora posibles causas internas/no visibles.",
+    "limite": "Solo contempla lo observable; omite causas ontológicas profundas o dinámicas internas invisibles"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "percepción",
+      "definicion": "lo que los sentidos y la mente hacen consciente de algo, basado en señales que llegan del exterior o por ideas internas"
+    },
+    {
+      "termino": "impredecibilidad",
+      "definicion": "situación en la que no se puede saber lo que pasará; ausencia de patrones claros para anticipar futuros eventos"
+    },
+    {
+      "termino": "nivel superficial",
+      "definicion": "lo visible, lo inmediato, lo primero que se nota; lo que está en la capa exterior del fenómeno"
+    }
+  ],
+  "transduccion_preconceptual": "Imagínate que ves el agua del mar y solo notas las olas que saltan arriba. Crees que el agua es loca porque a veces una ola va para donde no esperabas, pero abajo, en lo hondo, hay corrientes gigantes que nunca ves. Si miras solo la espuma, pensarás que el mar es impredecible, pero tal vez, en el fondo, todo tiene una razón que tú no ves.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "La percepción de impredecibilidad depende sólo del nivel superficial",
+      "subnodo": "Percepción como función de la observación inmediata",
+      "contexto": "¿Qué factores no visibles podrían modular la impredecibilidad aunque no sean percibidos en la superficie?"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación es reductiva; aunque la percepción pueda estar influida mayormente por lo superficial, existen ejemplos donde factores profundos o no evidentes alteran la percepción de impredecibilidad incluso aunque no resulten visibles de inmediato."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "definición de percepción y de superficie",
+      "conclusion": "Si la percepción está mediada solo por la superficie, entonces el acceso a capas profundas queda oculto; pero eso no implica que lo profundo no influya sobre los patrones emergentes.",
+      "notas": "El marco deductivo aquí es necesariamente limitado por la información accesible al observador."
+    }
+  ],
+  "subjetividades": [
+    "La distinción entre 'superficial' y 'profundo' puede variar dependiendo del sujeto y sus capacidades cognitivas o instrumentales.",
+    "La impredecibilidad percibida depende del conocimiento previo que el observador posea del sistema."
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La percepción de impredecibilidad depende sólo del nivel superficial",
+      "descripcion": "Ciencias como la meteorología permiten a expertos anticipar patrones en el clima que para el público general parecen impredecibles, accediendo a niveles no superficiales mediante modelos y datos de capas atmosféricas profundas.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La impredecibilidad es relativa al nivel de análisis y la instrumentación utilizada por el observador."
+    },
+    {
+      "afirmacion_refutada": "La percepción de impredecibilidad depende sólo del nivel superficial",
+      "descripcion": "En sistemas caóticos, patrones a pequeña escala pueden surgir de dinámicas profundas y no visibles; observadores con acceso a modelos de sistemas dinámicos logran anticipar comportamientos impredecibles para otros.",
+      "grado_de_refutacion": "parcial",
+      "notas": "La percepción cambia con el acceso/contexto del observador."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Personas con más información y recursos predicen el resultado de sistemas que parecen impredecibles para otros",
+      "inferencia": "La impredecibilidad percibida es relativa al contexto y las herramientas cognitivas del sujeto observador",
+      "grado_de_confianza": "alto",
+      "notas": "La impredeciblidad no es propiedad absoluta del fenómeno ni de la superficie, sino de la cognición y el acceso a niveles de información."
+    }
+  ],
+  "conclusion_preconceptual": "Cuando una persona solo mira la punta del iceberg, todo lo que pase debajo parece aleatorio.",
+  "teoria_o_intuicion_emergente": "La impredecibilidad es una función de la perspectiva cognitiva del observador; lo superficial modula el acceso, pero lo profundo estructura el fenómeno.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La percepción de impredecibilidad depende sólo del nivel superficial",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "La percepción de impredecibilidad depende sólo del nivel superficial"
+  },
+  "formula_booleana_del_argumento": "A",
+  "formula_booleana_a_lenguaje_natural": "Si la percepción de impredecibilidad dependiera sólo del nivel superficial, implicaría que la impredecibilidad no se vería afectada por factores profundos o invisibles.",
+  "conclusión": "Si bien lo superficial media el acceso inmediato a la impredecibilidad, negar la influencia o revelación progresiva de capas profundas sesga la naturaleza compleja de la percepción y el fenómeno impredecible en sistemas no triviales, y por todo esto, la afirmación permanece indefinida al requerir especificación del marco epistémico del observador.",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "La percepción de impredecibilidad depende sólo del nivel superficial",
+      "implicacion_por_estado_falso": "Abriría la puerta a considerar la impredecibilidad como función relacional entre niveles profundos y superficiales, e incluso la posibilidad de reducir la impredecibilidad mediante expansión epistemológica.",
+      "implicacion_por_estado_verdadero": "Reduciría el fenómeno impredecible a mera función de la visibilidad inmediata, empobreciendo el análisis estructural de sistemas complejos."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Lo que parece impredecible desde un nivel superficial puede ser perfectamente predecible desde una capa profunda o con mayor información.",
+    "ambiguedad": "¿Qué se designa exactamente como 'superficial'? ¿Percibir implica ignorar lo profundo, o simplemente carecer de la herramienta para accederlo?",
+    "contradiccion_util": "Restar valor a lo invisible puede resultar útil pedagógicamente para explorar la función de la ignorancia en la construcción de significado."
+  },
+  "reorganizacion_analoga": [
+    "Como en la magia, el truco parece impredecible mientras el espectador sólo ve la superficie, pero quien conoce la técnica, ve la predicción en la trampa.",
+    "Como en las capas de la atmósfera, el tiempo meteorológico en la superficie depende de patrones profundos, invisibles al ojo desnudo.",
+    "Como en la interpretación de un sueño: lo obvio es solo la máscara, lo real está en lo no-dicho."
+  ],
+  "implicaciones": [
+    "El entrenamiento epistémico puede reducir la percepción de impredecibilidad, volviéndola función de acceso y no de esencia del fenómeno.",
+    "Diseñar sistemas para parecer impredecibles puede lograrse mediante manipulación controlada de la superficie, aunque la profundidad permanezca determinista."
+  ],
+  "reevaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "La afirmación colapsa en indefinido por depender de la definición operacional de 'superficie' y del marco epistémico desde el cual se observa el fenómeno impredecible."
+  },
+  "reconclusión": "El vínculo entre impredecibilidad y superficialidad es contingente al contexto cognitivo; reducirlo a una función de la superficie ignora la plasticidad epistémica de la percepción humana y la multiescalaridad del fenómeno impredecible.",
+  "reconclusion_preconceptual": "Saber mirar más allá de la espuma permite descubrir patrones en el mar; decir que la impredecibilidad solo vive en la superficie es como negar los remolinos que mueven el agua desde el fondo.",
+  "contexto": "La percepción de impredecibilidad depende sólo del nivel superficial (contexto: Unpredictability at surface level is reached by not doing what comes naturally)"
+}

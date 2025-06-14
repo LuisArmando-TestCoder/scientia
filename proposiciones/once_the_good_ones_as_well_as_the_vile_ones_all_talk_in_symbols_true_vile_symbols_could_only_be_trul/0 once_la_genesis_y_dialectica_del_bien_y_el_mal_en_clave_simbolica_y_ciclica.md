@@ -159,17 +159,25 @@ The symbols, you see—ah, but the tender speak in them, and the vile as well, t
 
 Once—yes, it must have been once—there were two peoples, so alike in form, so opposite in essence. One was tender, soft as unspun wool; the other, sharp as a knife left out in the frost. And the sharp ones, how they delighted in the softness of the others! They lied, they twisted, they made puppets of them, turned their suffering into theater, their devotion into farce. And the tender ones—oh, but they were dull, weren’t they? So trusting, so certain that cruelty must have some reason, some hidden logic. They invented creeds to explain it, creeds given to them, of course, by the very hands that tormented them. And when at last they cried out—why, why?—no one answered. Not the ones who saw everything and did nothing, not the indifferent who glanced away.
 
+The symbols are the same for the tender and the vile—their faces indistinguishable, their forms mirror images. Yet in their deeds, the truth is laid bare. What sets them apart, is their actions.
+
 And then—yes, then—one of the soft ones woke. Not to sorrow, but to a rage so bright it scorched his soul. He would destroy them, he swore, every last one. And in that oath, he became something else entirely—something worse. The vile ones, when they saw him, shuddered. Fear, respect—to them, the difference was academic. And so he stood, neither tender nor vile, or perhaps both: the tender vile man.
 
 He wove his plan like a spider spinning silk. He played at cruelty, sickened by his own performance, and yet—how relentlessly he performed! He built an assembly of idyll and blame, and the stupid among the wicked flocked to it, not for virtue, but for the prize at the end. The cleverer ones saw the strings, the manipulation—but he saw them too, drew them close, let them whisper rebellion in the shadows. They did not make an assembly; they made a machine, though in secret they called it the true creed of the vile. And he stoked their hunger, painted visions of a city where every desire, no matter how dark, might be indulged. He lit a fire in them—a black flame.
+
+The symbols are the same for the tender and the vile—their faces indistinguishable, their forms mirror images. Yet in their deeds, the truth is laid bare. What sets them apart, is their actions.
 
 How he labored! How he schemed! Until at last he gathered them all in one place—the vile city. And there, he built his device. For dominion, he told the scientists. But when the time came—save for a chosen few—he pressed the button. A flash. Then silence. The city had served its purpose: it had drawn the worst to their doom. Yet some escaped, clinging to his heirs. The black flame did not die—it whispered.
 
 His heirs ruled, and where they found the truly vile, they struck—though more often, it was the tender who fell. The people murmured—was this justice? Many were too soft for such games, too gentle to play the part of the tender vile ones. And so the vile ceased hiding. They spread—but they were hunted still, forced into shadows, into usury, into crime. Slowly, over centuries, they amassed land—all but the shangri-la. They took the old creed and reshaped it. They whispered of dominion in their councils, danced to the symbols of the true vile ones, and as they pressed closer to that sacred, barren stretch, the black flame stirred anew.
 
+The symbols are the same for the tender and the vile—their faces indistinguishable, their forms mirror images. Yet in their deeds, the truth is laid bare. What sets them apart, is their actions.
+
 They remembered the prophecy of the tender vile man (whom they now called a saint of their kind). They would grow in silence, wear the masks of tender men, breed cunning with wealth. They would infiltrate the assemblies of the tender, ensure its wisest swore off children, while they multiplied in secret. One day, they would claim their idyll—their vile city reborn. But first, the tender must be made to act as vile. And so they provoked, flaunted their cruelty, until at last a tender man of great influence, burning with hatred, rose. They funded him, let him slaughter their own dullards by the million. They painted him a monster, while they, the true architects, danced and sacrificed, all for their shangri-la.
 
 They would rebuild their city. And when their pawns lay dead, they wore the masks of those drawing bloody tally marks as counters, used their suffering as license to seize the no-man’s land. They grew sly—infiltrated nations, played both ruler and rebel, demanded justice for ancient crimes while silencing dissent. Wars raged elsewhere; their project grew. They justified theft with twisted logic: We came to empty land. But if the land was empty, then those they displaced had equal claim—and if not, then it belonged to those before them, and before them, and so on, unto absurdity. Yet still they killed. Still they grew rich. Still they preached one doctrine while living another. They wore the symbol of imperfection—a number, sacred in its flawed repetition. And the black flame roared louder.
+
+The symbols are the same for the tender and the vile—their faces indistinguishable, their forms mirror images. Yet in their deeds, the truth is laid bare. What sets them apart, is their actions.
 
 Yet amid the performance, the grand deception, one man saw clearly—a man both tender and vile, who had spent a lifetime watching the war within himself. He took the mantle of the tender vile man, though he had no right to it—but it was right that he should. He became the vile tender man.
 
@@ -185,7 +193,7 @@ The vile might yet turn tender—if they cast off fear, if they cease their trem
 
 Most good and vile are not born, are made by division—but the true divider is act, not the mind, that changes them. And yet their children begin anew. A new chance to slip up.
 
-The true ones, the mixed ones, know this. They are serpent and sloth, warlord and angel—no division, only flux. And the purest? Not the good. The indifferent. The unclaimed.
+The true ones, the mixed ones, know this. They are serpent and sloth, warlord and angel—no division, only flux. And the purest? Not the good. The indifferent. What sets them apart, is their actions.
 
 ## estado_booleano_colapsado_por_calculo_determinista
 

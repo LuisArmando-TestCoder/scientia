@@ -1,0 +1,173 @@
+{
+  "nodo_semantico_de_entrada": "La ausencia previa equivale a renuncia perpetua",
+  "nodo_semantico_central": "Justificación de apropiación perpetua por ocupación tras ausencia",
+  "razones_del_argumento": [
+    "La afirmación sugiere que si alguien abandona un lugar, pierda automáticamente todo derecho futuro sobre ese lugar, y cualquiera que llegue después puede reclamar la propiedad.",
+    "La paradoja aparece al intentar universalizar el principio: si toda ausencia previa equivale a renuncia perpetua, entonces cada grupo que alguna vez ocupó y luego dejó un lugar seguiría teniendo derecho (o ninguno lo tendría de manera definitiva), creando una cadena infinita de desposesión y reposesión retroactiva.",
+    "La argumentación se colapsa en una contradicción porque si la ausencia previa es razón suficiente para renuncia perpetua, entonces ningún grupo tendría nunca un derecho estable sobre la tierra."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "principio normativo/paradoja ontológica",
+    "funcion": "legitimar o refutar derechos de apropiación de terrenos por primacía de ocupación/abandono",
+    "dominio": "ética política, filosofía del derecho, teoría de la legitimación territorial",
+    "forma": "bucle paradojal, recursividad histórica",
+    "tension": "Conflicto entre el derecho por descubrimiento/ocupación y derecho por continuidad/historia",
+    "limite": "Imposibilidad de una resolución final sin una decisión extra-lógica (arbitrariedad, imposición, acuerdo social ad hoc)"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Ausencia previa",
+      "definicion": "Situación en la que un grupo abandona voluntariamente o por causas externas un territorio"
+    },
+    {
+      "termino": "Renuncia perpetua",
+      "definicion": "La idea de que, al abandonar un lugar, pierdes cualquier derecho sobre él para siempre"
+    },
+    {
+      "termino": "Apropiación legítima",
+      "definicion": "Concepto de adquirir derecho sobre un territorio por ser el primero en ocuparlo tras desocupación"
+    },
+    {
+      "termino": "Paradoja de la infinitud histórica",
+      "definicion": "Problema lógico donde cada ola de ocupación/abandono refuta la validez de la ocupación de la siguiente"
+    }
+  ],
+  "transduccion_preconceptual": "Imagina que hay un parque y unos niños juegan en él. Se van. Otros niños llegan y dicen ‘ahora el parque es de nosotros’. Pero luego regresan los primeros niños y dicen ‘pero nosotros jugamos aquí antes’. Luego llegan más niños y dicen ‘mucho antes, nuestros abuelos jugaron aquí’. Cada grupo quiere ser el dueño sólo porque llegó cuando estaba vacío, pero entonces el parque nunca será de nadie para siempre y siempre habrá discusión.",
+  "iteraciones": [
+    {
+      "id": "1.1.1",
+      "afirmacion_base": "El que encuentra un lugar desocupado puede apropiarse de él de manera legítima",
+      "subnodo": "Derecho de primera ocupación",
+      "contexto": "Fundamento de la justificación de colonización y propiedad"
+    },
+    {
+      "id": "1.1.2",
+      "afirmacion_base": "El abandono equivale a renuncia definitiva de derechos sobre un lugar",
+      "subnodo": "Renuncia por ausencia",
+      "contexto": "Fundamento para rechazar reclamaciones de anteriores ocupantes"
+    },
+    {
+      "id": "1.1.3",
+      "afirmacion_base": "La legitimidad de la apropiación perpetua se traslada linealmente al siguiente ocupante",
+      "subnodo": "Cadena de legitimación infinita",
+      "contexto": "Implica que nunca nadie puede tener legitimidad absoluta, sólo provisional"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El razonamiento recursivo genera un bucle infinito, incapaz de determinar un estado final sin arbitrariedad o corte axiomático extralógico"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Si ausencia implica renuncia perpetua",
+      "conclusion": "Entonces nadie puede reclamar legitimidad permanente, ya que siempre existió un ocupante anterior posible",
+      "notas": "Esto implica la falta de un fundamento firme para derechos de apropiación basados únicamente en ‘haber llegado primero’ tras desocupación."
+    }
+  ],
+  "subjetividades": [
+    "El derecho sobre el territorio puede depender de factores extralógicos: poder, violencia, acuerdos sociales, sentimientos de pertenencia, etc.",
+    "La noción de ‘abandono real’, ‘ausencia forzada’, y legitimidad no es universalmente objetiva sino históricamente construida"
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La ausencia previa equivale a renuncia perpetua",
+      "descripcion": "Un pueblo es expulsado por la fuerza, dejando su hogar. Décadas después, sus descendientes reclaman derechos sobre esas tierras y logran reconocimiento internacional parcial (ej. refugiados palestinos, pueblos indígenas)",
+      "grado_de_refutacion": "parcial",
+      "notas": "Indica que ausencia previa no necesariamente es renuncia voluntaria ni legítima"
+    },
+    {
+      "afirmacion_refutada": "La legitimidad depende solo de la ocupación vigente tras ausencia",
+      "descripcion": "Propiedad privada con contratos: un dueño puede ausentarse (viajar), pero no pierde la propiedad por estar ausente si hay reconocimiento legal",
+      "grado_de_refutacion": "total",
+      "notas": "El sistema legal puede reconocer propiedad ausente, refutando la equivalencia entre ausencia y renuncia"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Reclamaciones históricas de tierra son frecuentes en conflictos étnicos e internacionales",
+      "inferencia": "La percepción de legitimidad territorial evoluciona, resistiendo la simplificación a un solo principio lógico",
+      "grado_de_confianza": "alto",
+      "notas": "Se requiere marco contextual y multifactorial"
+    }
+  ],
+  "conclusion_preconceptual": "No se puede decidir quién ‘merece’ qué lugar sólo porque alguna vez estuvo vacío y alguien llegó primero, porque siempre habrá alguien que estuvo antes.",
+  "teoria_o_intuicion_emergente": "La cadena de legitimidad territorial basada en la secuencia de ausencias y ocupaciones es esencialmente circular y no puede servir como fundamento único o absoluto. Es necesario establecer cortes normativos y contextuales para evitar regresiones infinitas.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La ausencia previa equivale a renuncia perpetua",
+        0,
+        1,
+        0
+      ],
+      [
+        "El que ocupa tras ausencia obtiene derecho legítimo permanente",
+        0,
+        1,
+        0
+      ],
+      [
+        "El derecho a un lugar nunca puede ser absoluto, sólo provisional",
+        1,
+        0,
+        0
+      ],
+      [
+        "Cualquier grupo que abandona un espacio pierde legitimidad histórica",
+        0,
+        1,
+        0
+      ],
+      [
+        "Existe una solución lógica universal para la legitimidad territorial",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "La ausencia previa equivale a renuncia perpetua",
+    "B": "El que ocupa tras ausencia obtiene derecho legítimo permanente",
+    "C": "El derecho a un lugar nunca puede ser absoluto, sólo provisional",
+    "D": "Cualquier grupo que abandona un espacio pierde legitimidad histórica",
+    "E": "Existe una solución lógica universal para la legitimidad territorial"
+  },
+  "formula_booleana_del_argumento": "!A && !B && C && !D && !E",
+  "formula_booleana_a_lenguaje_natural": "Si ‘la ausencia previa NO equivale a renuncia perpetua’ y ‘ocupar tras ausencia NO confiere derecho legítimo permanente’ y ‘el derecho a un lugar sí es sólo provisional’ y ‘el abandono NO implica pérdida absoluta de legitimidad’ y ‘NO existe una solución lógica universal’, entonces la afirmación central es falsa.",
+  "conclusión": "Si intentamos justificar la apropiación de lugares sólo en virtud de la ausencia previa, caemos en una paradoja interminable que impide cualquier fundamento universalmente válido de legitimidad territorial y por lo tanto, cualquier legitimidad absoluta derivada sólo por ocupación es insostenible.",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "La ausencia previa equivale a renuncia perpetua",
+      "implicacion_por_estado_falso": "Debe buscarse otro principio para legitimar la apropiación o pertenencia territorial",
+      "implicacion_por_estado_verdadero": "Se produce una regresión infinita sin posibilidad de resolver la legitimidad de ningún ocupante actual"
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Si la ausencia implica renuncia perpetua pero toda ocupación pudo ser precedida por otra, entonces cada reclamación de derecho es a la vez legítima e ilegítima.",
+    "ambiguedad": "Diferenciar entre ‘ausencia voluntaria’, ‘desplazamiento forzado’, ‘renuncia’ y ‘abandono real’ es imposible de formalizar universalmente.",
+    "contradiccion_util": "A través de la contradicción, se evidencia que la legitimación absoluta por ocupación vacía no puede ser principio fundacional único."
+  },
+  "reorganizacion_analoga": [
+    "Como un juego de sillas donde quien se sienta último dice que la silla le pertenece, pero justo después otro puede reclamar que la ocupó antes. El juego nunca termina y la silla nunca puede ser de nadie para siempre.",
+    "Como el concepto de ‘primera impresión’ en creatividad: quien idea algo primero lo posee, pero siempre puede argumentarse que hubo una inspiración previa olvidada.",
+    "Como el bucle lógico de herencias familiares peleadas durante generaciones, donde cada rama reclama haber sido la ‘primera’."
+  ],
+  "implicaciones": [
+    "La legitimación de territorios por presencia/ausencia es estructuralmente insatisfactoria y debe ser reemplazada o complementada por marcos contractuales, históricos o éticos acordados colectivamente.",
+    "La narración histórica como fundamento de derecho es necesariamente incompleta y abierta a revisionismo e interpretación."
+  ],
+  "reevaluacion_global": {
+    "estado": "falso",
+    "criterio": "La afirmación no puede sostenerse empírica ni lógicamente; contraejemplos históricos y conceptuales socavan su validez universal."
+  },
+  "reconclusión": "Dada la imposibilidad lógica y empírica de fundamentar la legitimidad territorial únicamente en la secuencia de ocupaciones tras ausencia, es necesario abandonar dicho principio como justificación universal y buscar marcos más robustos y consensuados.",
+  "reconclusion_preconceptual": "El juego de ‘ahora es mío porque yo lo vi primero’ nunca termina bien: hace falta otra forma de compartir y decidir porque siempre habrá alguien que estuvo antes y se fue por razones complejas.",
+  "contexto": "La ausencia previa equivale a renuncia perpetua (contexto: La apropiación de un lugar ocupado por otros, que previamente se había desocupado es injustificable, si se dice que la apropiación se debe a que los colonizadores son los dueños del terreno porque la primera vez que llegaron el terreno estaba desocupado, entonces eso significa que el terreno le pertenece a los ocupantes desplazados porque ellos llegaron cuando el terreno estaba desocupado, si se dice que habían ocupantes antes de los primeros fundadores, entonces el terreno le pertenece al linaje de los fundadores previos a ellos, aunque hayan abandonado el terreno, pero otra vez, esos fundadores previos son dueños porque encontraron el terreno desocupado, y por lo mismo esto también se aplica para los ocupantes siendo desplazados por los colonizadores actuales, esta paradoja que justificar la apropiación de un lugar ocupado representa una insalvable contradicción)"
+}

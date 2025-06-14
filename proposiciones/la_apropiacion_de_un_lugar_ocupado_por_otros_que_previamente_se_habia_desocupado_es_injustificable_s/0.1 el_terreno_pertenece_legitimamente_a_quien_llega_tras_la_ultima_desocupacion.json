@@ -1,0 +1,163 @@
+{
+  "nodo_semantico_de_entrada": "El terreno pertenece legítimamente a quien llega tras la última desocupación.",
+  "nodo_semantico_central": "Legitimidad de la propiedad por llegada tras desocupación.",
+  "razones_del_argumento": [
+    "La afirmación intenta fundamentar la legitimidad de la propiedad en el hecho de haber ocupado el terreno tras su última desocupación registrada.",
+    "Esta razón es recursiva, pues la validez de la ocupación depende de que no haya previos legítimos reclamantes que puedan aplicar la misma lógica."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "Paradoja normativa",
+    "funcion": "Justificar legitimidad de la propiedad territorial tras ausencia de ocupantes.",
+    "dominio": "Ética, Derecho, Historia, Antropología",
+    "forma": "Bucle recursivo / Paradoja autorreferencial",
+    "tension": "La base legitimadora de la apropiación territorial colapsa al ser aplicada recursivamente contra sí misma.",
+    "limite": "Imposibilidad de establecer una línea absoluta de legitimidad sin recurrir a un axioma externo o corte arbitrario."
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Terreno",
+      "definicion": "Espacio físico delimitado susceptible de ocupación y apropiación."
+    },
+    {
+      "termino": "Legitimidad",
+      "definicion": "Condición de reconocimiento moral, social o jurídico de un derecho o acción."
+    },
+    {
+      "termino": "Desocupación",
+      "definicion": "Estado en que un territorio no tiene ocupantes reconocidos o presentes."
+    },
+    {
+      "termino": "Ocupante",
+      "definicion": "Sujeto o grupo que reside o hace uso efectivo de un espacio."
+    },
+    {
+      "termino": "Colonizador",
+      "definicion": "Ocupante que llega a un espacio previamente ocupado por otros o desocupado, con intención de establecer nuevos derechos."
+    }
+  ],
+  "transduccion_preconceptual": "Imagínate un patio donde varios niños juegan. Uno se va, otro entra y grita que el patio ya es suyo. Pero si alguien más llega después de él, dice lo mismo. Así, cada niño puede decir que es su dueño sólo porque estaba vacío cuando llegó, pero entonces nunca es de nadie por mucho tiempo.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El terreno le pertenece al último que llegó tras desocupación.",
+      "subnodo": "Paradoja del reclamante recursivo",
+      "contexto": "¿Qué pasa si antes hubo otros que reclamaron de la misma forma? Se repite infinitamente la justificación y nunca hay legitimidad absoluta."
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Si había alguien antes, se reclama derecho en función de llegada tras desocupación previa.",
+      "subnodo": "Regresión al infinito de propietarios",
+      "contexto": "No se puede determinar quién es el legítimo, porque siempre puede haber habido un reclamante más antiguo, ya olvidado o desplazado."
+    },
+    {
+      "id": "1.3",
+      "afirmacion_base": "La legitimidad depende de ausencia total de reclamos previos conocidos.",
+      "subnodo": "Limite epistémico y axiomático",
+      "contexto": "A menos que se acepte una ruptura arbitraria (el punto cuando decidimos parar de investigar la historia de la tierra), la legitimidad nunca se estabiliza."
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "autoreferencial",
+    "criterio": "El argumento se sostiene sólo apoyándose en sí mismo de manera circular e indefinida; no hay una salida resolutiva."
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Suposición de legitimidad por llegada tras desocupación.",
+      "conclusion": "Si esta regla es válida, ningún terreno puede tener un dueño legítimo por mucho tiempo: siempre llega otro que puede aplicar la regla.",
+      "notas": "Se deduce una inestabilidad estructural en el concepto de propiedad así fundamentado."
+    }
+  ],
+  "subjetividades": [
+    "La idea de legitimidad puede ser cultural, jurídica o religiosa, no hay un fundamento objetivo universal para todos los sistemas sociales.",
+    "El registro histórico es incompleto: todo reclamo depende de la memoria social y de los sistemas de validación de la época."
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "El terreno pertenece legítimamente a quien llega tras la última desocupación.",
+      "descripcion": "Si alguien deja voluntariamente su casa para vacaciones y otro la ocupa, la legitimidad no se reconoce en la mayoría de los sistemas legales o morales.",
+      "grado_de_refutacion": "total",
+      "notas": "El abandono temporal no justifica la transferencia definitiva de propiedad en la práctica."
+    },
+    {
+      "afirmacion_refutada": "La historia previa de ocupación no cuenta durante la reclamación actual.",
+      "descripcion": "Muchas comunidades indígenas reclaman tierras ancestrales aunque hayan sido desocupadas momentáneamente en el pasado.",
+      "grado_de_refutacion": "parcial",
+      "notas": "El peso de la memoria colectiva y la cultura desafía la lógica basada en ocupación instantánea."
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Las disputas territoriales a nivel global suelen basarse tanto en ocupación efectiva como en argumentos históricos, memoria cultural y poder militar.",
+      "inferencia": "El argumento de última ocupación solo explica un factor y no es suficiente para justificar legitimidades aceptadas en la mayoría de culturas.",
+      "grado_de_confianza": "alto",
+      "notas": "Las reglas sociales para la propiedad son siempre convencionales y contestadas."
+    }
+  ],
+  "conclusion_preconceptual": "No siempre se vale decir que algo es tuyo solo porque estaba solo cuando llegaste. Hay historias de otros antes y después.",
+  "teoria_o_intuicion_emergente": "La legitimidad de la propiedad fundada solamente en ser el último ocupante tras desocupación es estructuralmente insostenible y conduce a bucles autorreferenciales y conflictos irresolubles.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "El terreno pertenece legítimamente a quien llega tras la última desocupación",
+        0,
+        1,
+        0
+      ],
+      [
+        "La historia previa de ocupación no cuenta durante la reclamación actual",
+        0,
+        1,
+        0
+      ],
+      [
+        "Existe un criterio universal para la legitimidad territorial",
+        0,
+        0,
+        1
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "El terreno pertenece legítimamente a quien llega tras la última desocupación",
+    "B": "La historia previa de ocupación no cuenta durante la reclamación actual",
+    "C": "Existe un criterio universal para la legitimidad territorial"
+  },
+  "formula_booleana_del_argumento": "(!A && !B) || !C",
+  "formula_booleana_a_lenguaje_natural": "Si ni la última ocupación ni el olvido de la historia justifican la legitimidad, o si no existe un criterio universal, entonces la afirmación central es falsa o indefinida.",
+  "conclusión": "Si la legitimidad de la ocupación solo depende de que el terreno estuviera libre en el momento de llegar, pero no se considera la historia previa ni las contradicciones emergentes, entonces la afirmación es lógicamente inválida y ética y jurídicamente insostenible.",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "Existe un criterio universal para la legitimidad territorial",
+      "implicacion_por_estado_falso": "La legitimidad siempre será discutida y contextual, nunca absoluta.",
+      "implicacion_por_estado_verdadero": "Debería poder resolverse la propiedad aterrizando el criterio externo universal (que no existe hasta ahora)."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Si la regla de legitimidad se aplica indefinidamente, todo derecho de propiedad puede ser desbancado infinitamente, haciendo imposible la estabilización de cualquier reclamante.",
+    "ambiguedad": "¿Qué constituye una desocupación legítima? ¿Importa la duración, la intención, o el reconocimiento social?",
+    "contradiccion_util": "El intento de simplificar la legitimidad engendra bucles que iluminan la necesidad de acuerdos sociales y criterios externos, no solo razones ahistóricas."
+  },
+  "reorganizacion_analoga": [
+    "Como el problema de 'primero en llegar, primero en reclamar' en sistemas de archivos de computadoras, donde sin bloqueos, los datos pueden ser sobrescritos infinitamente.",
+    "Analogía con la ley de la selva: el derecho del último fuerte es solo sostenible hasta que otro más fuerte lo desaloje.",
+    "Como una silla musical infinita: la propiedad cambia cada vez que alguien se sienta y el juego nunca termina con un dueño definitivo."
+  ],
+  "implicaciones": [
+    "La legitimidad nunca será absoluta ni establecida únicamente por el hecho de ocupar tras desocupación: necesita una convención, memoria o fuerza que la respalde.",
+    "Cada nuevo ocupante puede reclamar la propiedad igual que los anteriores, perpetuando el ciclo de disputas.",
+    "El argumento no puede servir como fundamento estable ni para la ética, ni para el derecho, ni para la historia política de los territorios."
+  ],
+  "reevaluacion_global": {
+    "estado": "autoreferencial",
+    "criterio": "Argumento colapsa en bucle autorreferencial sin posibilidad de resolución objetiva universal; la paradoja es irresoluble por la vía de la simple ocupación tras desocupación."
+  },
+  "reconclusión": "No existe legitimidad universal ni resolución estable para la apropiación territorial únicamente por ocupación ante desocupación previa: toda historia es susceptible de cuestionamiento y los argumentos únicamente de presencia no justifican la propiedad sin un acuerdo externo.",
+  "reconclusion_preconceptual": "Decir que es tuyo solo porque llegaste después no sirve, porque siempre puede venir alguien más con la misma idea; solo compartir y acordar juntos puede parar el juego sin fin.",
+  "contexto": "El terreno pertenece legítimamente a quien llega tras la última desocupación (contexto: La apropiación de un lugar ocupado por otros, que previamente se había desocupado es injustificable, si se dice que la apropiación se debe a que los colonizadores son los dueños del terreno porque la primera vez que llegaron el terreno estaba desocupado, entonces eso significa que el terreno le pertenece a los ocupantes desplazados porque ellos llegaron cuando el terreno estaba desocupado, si se dice que habían ocupantes antes de los primeros fundadores, entonces el terreno le pertenece al linaje de los fundadores previos a ellos, aunque hayan abandonado el terreno, pero otra vez, esos fundadores previos son dueños porque encontraron el terreno desocupado, y por lo mismo esto también se aplica para los ocupantes siendo desplazados por los colonizadores actuales, esta paradoja que justificar la apropiación de un lugar ocupado representa una insalvable contradicción)"
+}

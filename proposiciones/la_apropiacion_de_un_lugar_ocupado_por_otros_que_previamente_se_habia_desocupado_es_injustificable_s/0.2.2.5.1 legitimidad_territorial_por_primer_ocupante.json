@@ -1,0 +1,148 @@
+{
+  "nodo_semantico_de_entrada": "Legitimidad territorial por primer ocupante",
+  "nodo_semantico_central": "Paradoja de la ocupación original",
+  "razones_del_argumento": [
+    "La justificación universalista basada en la ocupación original se autoanula, porque si X puede reclamar propiedad por ser el primer ocupante tras la desocupación, entonces cualquier desplazado anterior podría reclamar con la misma lógica.",
+    "El argumento despliega una cadena recursiva de apropiaciones, donde cada grupo puede reclamar ser el 'verdadero' ocupante original en algún punto de la historia.",
+    "La ausencia de un estado moral o histórico de ocupación permanente genera una serie infinita de reclamos imposibles de resolver bajo el mismo principio."
+  ],
+  "firma_ontologica": {
+    "naturaleza": "Principio normativo autorreferente",
+    "funcion": "Justificar la propiedad territorial a partir de la primera ocupación tras un periodo de desocupación",
+    "dominio": "Derecho, ética, teoría política",
+    "forma": "Bucle recursivo histórico",
+    "tension": "Contradicción inevitable al intentar universalizar el criterio, ya que genera una regresión infinita",
+    "limite": "No puede ofrecer una base coherente ni resolutiva para la legitimidad territorial"
+  },
+  "disgregacion_conceptual": [
+    {
+      "termino": "Ocupación original",
+      "definicion": "Primer acto de asentamiento sobre un territorio que estaba desocupado"
+    },
+    {
+      "termino": "Reivindicación",
+      "definicion": "Acto de declarar como propio un espacio basado en un criterio previo"
+    },
+    {
+      "termino": "Desplazamiento",
+      "definicion": "Expulsión o sustitución de ocupantes anteriores"
+    },
+    {
+      "termino": "Legitimidad territorial",
+      "definicion": "Reconocimiento de derecho sobre un espacio definido bajo un principio o autoridad"
+    }
+  ],
+  "transduccion_preconceptual": "Es como si muchos niños quisieran jugar con el mismo juguete: el primero que lo toma, dice que es suyo. Pero si alguien más lo había dejado antes y regresa, dice que también es suyo porque fue el primero en jugar. Pronto ya nadie puede decidir a quién de verdad le toca, porque siempre habrá alguien que estuvo antes.",
+  "iteraciones": [
+    {
+      "id": "1.1",
+      "afirmacion_base": "El principio de ocupación original puede determinar legitimidad universalmente",
+      "subnodo": "Bucle regresivo de ocupación",
+      "contexto": "Cada ocupante desplazado puede invocar el mismo principio, lo que lleva a infinitas reclamaciones contrapuestas"
+    },
+    {
+      "id": "1.2",
+      "afirmacion_base": "Una desocupación interrumpe el reclamo de los fundadores originales",
+      "subnodo": "Temporalidad y propiedad",
+      "contexto": "Los derechos no pueden ser definidos universalmente si la propiedad depende solo de ocupar tras la desocupación, pues ninguna posesión es permanente ni absoluta"
+    }
+  ],
+  "evaluacion_global": {
+    "estado": "indefinido",
+    "criterio": "El argumento se enreda en una paradoja autorreferente que impide un colapso en verdadero o falso"
+  },
+  "observaciones_deductivas": [
+    {
+      "origen": "Principio de ocupación original",
+      "conclusion": "Si todo reclamo legítimo proviene de la primera ocupación tras desocupación, cualquier reclamo previo o posterior es equiparable.",
+      "notas": "El principio no discrimina entre pretensiones válidas y dudosas"
+    }
+  ],
+  "subjetividades": [
+    "La definición de 'ocupación original' puede variar culturalmente o según intereses políticos",
+    "Considerar moralmente irrelevante la historia previa transforma el argumento en una convención arbitraria"
+  ],
+  "contraejemplos": [
+    {
+      "afirmacion_refutada": "La legitimidad territorial puede determinarse universalmente por ocupación original",
+      "descripcion": "El caso de territorios con ciclos históricos de ocupación, abandono y recolonización sucesiva (por ejemplo, Jerusalén o regiones ancestrales indígenas), donde aplicar el principio produce resultados opuestos dependiendo del recorte histórico elegido.",
+      "grado_de_refutacion": "total",
+      "notas": "Demuestra la imposibilidad de obtener una respuesta universal y no contradictoria"
+    }
+  ],
+  "observaciones_inductivas": [
+    {
+      "patron_observado": "Las reclamaciones territoriales siempre involucran narrativas de 'primero en llegar'",
+      "inferencia": "El principio se usa selectivamente, no como criterio universal sino como justificación ad hoc",
+      "grado_de_confianza": "alto",
+      "notas": "El carácter instrumental del argumento es observable en la historia y la política internacional"
+    }
+  ],
+  "conclusion_preconceptual": "Siempre habrá alguien que reclame que fue el primero en llegar, de modo que nunca se puede decidir de manera justa y universal a quién le pertenece un lugar solo por quién llegó primero.",
+  "teoria_o_intuicion_emergente": "Los principios universalistas de legitimidad territorial basados en ocupación original generan indefinición estructural y contradicciones irresolubles por su carácter recursivo y autorreferente.",
+  "tabla_verdad": {
+    "columnas": [
+      "afirmacion",
+      "verdadero",
+      "falso",
+      "indefinido"
+    ],
+    "filas": [
+      [
+        "La legitimidad territorial puede determinarse de forma universal aplicando el principio de ocupación original",
+        0,
+        0,
+        1
+      ],
+      [
+        "Si todos usan el principio de ocupación original, todos tienen igual derecho a reclamar",
+        0,
+        0,
+        1
+      ],
+      [
+        "La historia de ocupación puede determinar sin contradicción la legitimidad actual",
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  "diccionario_de_la_formula": {
+    "A": "La legitimidad territorial puede determinarse de forma universal aplicando el principio de ocupación original",
+    "B": "Si todos usan el principio de ocupación original, todos tienen igual derecho a reclamar",
+    "C": "La historia de ocupación puede determinar sin contradicción la legitimidad actual"
+  },
+  "formula_booleana_del_argumento": "A && B && C",
+  "formula_booleana_a_lenguaje_natural": "Si la legitimidad puede determinarse universalmente por el principio de ocupación original Y todos tienen igual derecho a reclamar por ser primeros Y la historia puede determinar la legitimidad sin contradicción, entonces podemos establecer legitimidad territorial. Pero si alguna es falsa o indefinida, el argumento global colapsa.",
+  "conclusión": "No es posible establecer la legitimidad territorial de manera universal ni coherente aplicando el principio de ocupación original debido a su constitutiva autorreferencialidad y la generación inherente de contradicciones históricas irresolubles, y por todo esto el principio no puede ser usado como justificación última ni exclusiva del derecho territorial.",
+  "implicaciones_de_colapso": [
+    {
+      "afirmacion": "La legitimidad territorial puede determinarse de forma universal aplicando el principio de ocupación original",
+      "implicacion_por_estado_falso": "Cualquier reclamo territorial que use solo este principio queda invalidado como argumento suficiente.",
+      "implicacion_por_estado_verdadero": "Sería posible fijar legitimidad territorial inequívoca, pero esto nunca se cumple empíricamente en casos reales."
+    }
+  ],
+  "tension_logica": {
+    "paradoja": "Si el criterio se aplica rigurosamente, cada reclamo legítimo es inmediatamente contrarrestado por una cadena infinita de reclamos previos.",
+    "ambiguedad": "El término 'originalidad de la ocupación' puede ser interpretado a diferentes escalas temporales o culturales.",
+    "contradiccion_util": "La contradicción fuerza la reflexión sobre la necesidad de mecanismos adicionales para regular la propiedad territorial más allá de la historicidad simple."
+  },
+  "reorganizacion_analoga": [
+    "Como el problema del huevo y la gallina en los reclamos de precedencia: cada nuevo inicio es el final de otra anterioridad.",
+    "Como la sucesión infinita de espejos enfrentados: ningún reflejo es definitorio ni suficientemente original.",
+    "Como intentar identificar el 'primer dueño' de una herencia disputada que siempre encuentra un escrito anterior."
+  ],
+  "implicaciones": [
+    "La estabilidad y legitimidad territorial requieren criterios adicionales (consenso, continuidad, reconocimiento internacional, derecho positivo) que trasciendan la ocupación originaria.",
+    "El uso político de narrativas de ocupación original seguirá generando enfrentamientos y justificaciones circulares.",
+    "La justicia territorial no puede fundamentarse en la secuencia histórica pura, sino en acuerdos contemporáneos de convivencia y reconocimiento mutuo."
+  ],
+  "reevaluacion_global": {
+    "estado": "autoreferencial",
+    "criterio": "El argumento depende de su propia imposibilidad para sostener una verdad universal, quedando atrapado por su recursividad y paradoja."
+  },
+  "reconclusión": "La universalización del principio de ocupación original es lógicamente inviable y empíricamente incapaz de sostener decisiones territoriales justas, por lo que cualquier intento por aplicarlo generará indefinición, paradojas y conflicto incesante; la legitimidad sólo puede emerger de acuerdos convencionales, reconocimiento institucional, y adaptabilidad histórica constante.",
+  "reconclusion_preconceptual": "No se puede decidir de forma justa quién debe tener un lugar usando solo la idea de quién llegó primero; siempre quedarán dudas y peleas, así que se necesita buscar juntos nuevas maneras de decidir y convivir.",
+  "contexto": "La legitimidad territorial puede determinarse de forma universal aplicando el principio de ocupación original (contexto: La apropiación de un lugar ocupado por otros, que previamente se había desocupado es injustificable, si se dice que la apropiación se debe a que los colonizadores son los dueños del terreno porque la primera vez que llegaron el terreno estaba desocupado, entonces eso significa que el terreno le pertenece a los ocupantes desplazados porque ellos llegaron cuando el terreno estaba desocupado, si se dice que habían ocupantes antes de los primeros fundadores, entonces el terreno le pertenece al linaje de los fundadores previos a ellos, aunque hayan abandonado el terreno, pero otra vez, esos fundadores previos son dueños porque encontraron el terreno desocupado, y por lo mismo esto también se aplica para los ocupantes siendo desplazados por los colonizadores actuales, esta paradoja que justificar la apropiación de un lugar ocupado representa una insalvable contradicción)"
+}

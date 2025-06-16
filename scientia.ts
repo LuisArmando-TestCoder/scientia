@@ -266,9 +266,9 @@ Cada iteración debería generar una versión más refinada de conciencia episte
   // No incluyas las afirmaciones subjetivas que hacen incolapsable el estado del argumento
   // Las afirmaciones dentro diccionario_de_la_formula (values) y tabla_verdad.filas (index 0) deben ser semántica, sintáctica y gramáticalmente idénticas (strings equivalentes; strings gemelos)
   "tabla_verdad": {
-    "columnas": ["afirmacion", "verdadero", "falso", "indefinido"], // Ejes de evaluación lógica modal.
+    "columnas": ["afirmacion", "verdadero", "falso", "indefinido", "justificacion"], // Ejes de evaluación lógica modal.
     "filas": [
-      ["", 0, 0, 1] // Estructura: afirmación + verdad/falsedad/indefinición (1 o 0) (Sólo deben tener un estado, si el estado es parcial o ambiguo, se debe marcar como indefinido). Si una afirmación indefinida es autoreferencial el campo de indefindo debe ser null, en vez de 1.
+      ["", 0, 0, 1, ""] // Estructura: afirmación + verdad/falsedad/indefinición (1 o 0) + justificacion (Sólo deben tener un estado, si el estado es parcial o ambiguo, se debe marcar como indefinido). Si una afirmación indefinida es autoreferencial el campo de indefindo debe ser null, en vez de 1. Además debe tener una justificación para su estado con una línea de razonamiento, articulando una línea causal (causa-efecto) con una lógica pragmática.
       // Si una afirmación es ambigua se puede absolutizar o algunizar y luego refutar por contraejemplo o reafirmar por caso positivo.
       // Cada afirmación debe llevar consigo el contexto de la afirmación general explícitamente.
     ]

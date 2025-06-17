@@ -151,9 +151,9 @@ function getColapsedArgumentedAnalysis(analysisJson: Record<string, any>) {
       (function () {
           ${definitions}
 
-          console.log("${analysisJson.formula_booleana_del_argumento}", ${analysisJson.formula_booleana_del_argumento})
+          console.log("${analysisJson.reformula_booleana_del_argumento}", ${analysisJson.reformula_booleana_del_argumento})
   
-          return ${definitions.includes("Error") ? "undefined" : analysisJson.formula_booleana_del_argumento}
+          return ${definitions.includes("Error") ? "undefined" : analysisJson.reformula_booleana_del_argumento}
       })()
   `);
 
@@ -420,7 +420,7 @@ if (resumeFolderName) {
   const analysisData = JSON.parse(Deno.readTextFileSync(jsonFilePath));
 
   console.log("getColapsedArgumentedAnalysis",
-    analysisData.formula_booleana_del_argumento,
+    analysisData.reformula_booleana_del_argumento,
     analysisData.estado_booleano_colapsado_por_calculo_determinista,
     getColapsedArgumentedAnalysis(
       analysisData

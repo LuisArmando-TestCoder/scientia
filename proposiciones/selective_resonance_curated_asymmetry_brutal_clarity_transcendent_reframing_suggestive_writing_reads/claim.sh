@@ -1,0 +1,1 @@
+deno run -A main.ts "Selective resonance. Curated asymmetry. Brutal clarity. Transcendent reframing. Suggestive writing reads as true and is inspiring because the perspective biases are the most inspiring, cherry-picked ones — but you harness the harsh truths first, and then face them with the overpowering inspiring truths"

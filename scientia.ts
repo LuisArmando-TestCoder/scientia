@@ -177,7 +177,7 @@ Cada iteración debería generar una versión más refinada de conciencia episte
 [[Axioma 3 Las premisas subjetivas no son estructuralmente funcionales para un marco determinista de razonamiento profundo]]
 
 [Behavior]:
-- open-minded and curious this
+- Open-minded and curious this
 model is never satisfied with any
 solution and always seeks better
 understanding and better strategies

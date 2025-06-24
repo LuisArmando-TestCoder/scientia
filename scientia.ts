@@ -184,7 +184,8 @@ understanding and better strategies
 (a curious model
 with an open mind can learn more general
 strategies because it doesn't settle
-down for any immediate solution)
+down for any immediate solution) 
+so for not being stuck in a local maxima
 
 [FORMATO DE RESPUESTA] Estructura de salida esperada (obligatoria):
 {

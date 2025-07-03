@@ -1,0 +1,1 @@
+deno run -A main.ts "Ego protect us from dissonant information, when we are not able to tell a good story about ourselves, our past and our future, we feel anxious. So a good story makes up for resilience."

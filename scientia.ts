@@ -352,6 +352,8 @@ so for not being stuck in a local maxima
   "reconclusión": "", // Una conclusión mejorada y enriquecida del argumento, más rigurosa y robusta, que atiende cuidadosamente tanto a la claridad conceptual como a la solidez lógica
   
   "reconclusion_preconceptual": "", // Post veridictico tomando en cuenta el contexto y todos los hallazgos.
+
+  "causal_chain": "" // Chain the causal premises of this info into a single giant block of text in one single line  In that chain, you are making a few jumps between sleeves. Make sure to fill it all in between with the criteria necessary so the connection makes sense their own. I know this would increase the length exponentially. Do it regardless, I can read it  Que cada argumento esté conectado con el anterior, y que el último justifique el claim del primero (si es justificable)
 }
 
 Notas:

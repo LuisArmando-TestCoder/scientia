@@ -1,0 +1,155 @@
+{
+  "input_semantic_node": "Fetal rights negate maternal bodily autonomy (Fetus as person from conception)",
+  "central_semantic_node": "Prioritization of fetal personhood over maternal reproductive sovereignty",
+  "argument_reasons": [
+    "Ontological Personhood: The claim assumes a fetus possesses the same moral status as an adult human from the moment of conception.",
+    "Mutual Exclusivity: The argument posits that the right to life of the fetus and the right to bodily autonomy of the mother cannot both be fully satisfied simultaneously.",
+    "Moral Equivalence: It uses the premise of 'personhood' to bridge the gap between biological potential and legal protection."
+  ],
+  "ontological_signature": {
+    "nature": "Axiomatic conflict of rights",
+    "function": "To establish a legal and moral hierarchy between two biological entities",
+    "domain": "Bioethics, Legal Philosophy, Ontology",
+    "form": "Zero-sum competitive loop",
+    "tension": "The collision between the negative right to bodily integrity and the positive right to life of a dependent organism",
+    "limit": "Dependent upon the unverifiable metaphysical 'moment' of personhood"
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Fetal rights",
+      "definition": "Legal or moral protections granted to an unborn organism as if it were a distinct social member."
+    },
+    {
+      "term": "Bodily autonomy",
+      "definition": "The absolute power of a person to decide what happens to and inside their own physical body."
+    },
+    {
+      "term": "Personhood",
+      "definition": "A status given to a being that makes them a 'who' with rights, rather than a 'what' without them."
+    },
+    {
+      "term": "Conception",
+      "definition": "The starting point where two cells become a new set of instructions for a human."
+    }
+  ],
+  "preconceptual_transduction": "Imagine a tiny sprout growing inside a house. If we say the sprout is a person with the right to stay, the person who owns the house might lose the right to move the furniture or fix the walls, because the sprout needs everything to stay exactly as it is to live.",
+  "iterations": [
+    {
+      "id": "1.1.1",
+      "base_statement": "A fetus is a person from conception",
+      "subnode": "Metaphysical Personhood Assignment",
+      "context": "Is personhood a biological fact or a social/legal construct?"
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The argument relies on the 'personhood' axiom which is currently outside the bounds of empirical verification and remains a matter of philosophical or religious conviction."
+  },
+  "deductive_observations": [
+    {
+      "origin": "If A fetus is a person (P) and All persons have a right to life (L), then A fetus has a right to life (F).",
+      "conclusion": "The fetus's right to life is logically equivalent to an adult's if the premise of personhood is accepted.",
+      "notes": "Requires acceptance of the personhood premise as a primitive truth."
+    }
+  ],
+  "subjectivities": [
+    "The definition of 'Personhood' varies across cultures, religions, and legal systems.",
+    "The 'value' of potential life versus 'actualized' life is a subjective valuation."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "Fetal rights negate maternal bodily autonomy",
+      "description": "The Violinist Thought Experiment (Judith Jarvis Thomson): A person has a right to life, but that does not grant them a right to use another's body to sustain that life.",
+      "refutation_degree": "partial",
+      "notes": "Distinguishes between the right to life and the right to use another's body."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Jurisdictions shifting between 'personhood' and 'viability' as legal benchmarks.",
+      "inference": "Legal personhood is a modular tool used to balance social interests, not an immutable biological state.",
+      "confidence_degree": "high",
+      "notes": "Reflected in global legislative variance."
+    }
+  ],
+  "preconceptual_conclusion": "The seed and the house are fighting over who gets to pick the rules, but we haven't agreed if the seed is a roommate or just a seed yet.",
+  "emerging_theory_or_intuition": "The 'Right to Life' is often misinterpreted as a 'Right to Life Support'; personhood does not inherently grant a claim to the biological resources of a non-consenting host.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "Fetal rights negate maternal bodily autonomy",
+        0,
+        0,
+        1,
+        "If the fetus is a person and personhood implies a right to use the host, then true; if personhood does not imply a right to use another, then false."
+      ],
+      [
+        "A fetus is a person from conception",
+        0,
+        0,
+        1,
+        "There is no biological or social consensus on when a cluster of cells attains the metaphysical status of a 'person'."
+      ],
+      [
+        "A fetus has the same moral rights as an adult",
+        0,
+        0,
+        1,
+        "Depends entirely on the acceptance of the 'personhood from conception' premise."
+      ],
+      [
+        "Maternal bodily autonomy is absolute",
+        0,
+        0,
+        1,
+        "Legal systems often restrict autonomy based on the interests of other entities, but the extent is contested."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "Fetal rights negate maternal bodily autonomy",
+    "B": "A fetus is a person from conception",
+    "C": "A fetus has the same moral rights as an adult"
+  },
+  "boolean_formula_of_the_argument": "B && C && (B === C) -> A",
+  "why_the_formula_structure_is_incorrect": "The formula assumes that B and C are sufficient to prove A, but it neglects the necessary second premise regarding whether a 'right to life' includes a 'right to use another's body'.",
+  "boolean_argument_reformulation": "(B && C && D) -> A where D is 'Right to life includes right to biological support'",
+  "boolean_formula_to_natural_language": "If a fetus is a person (B) and has equal moral rights (C) and those rights include the use of another's body (D), then that implies fetal rights negate maternal autonomy is true.",
+  "conclusion": "If personhood is defined at conception but the right to life does not include a right to non-consensual bodily use, the conflict is not a negation but a lack of jurisdiction, yet for all this the assertion of fetal rights over autonomy remains a meta-logical stalemate dependent on unproven ontological claims.",
+  "collapse_implications": [
+    {
+      "statement": "A fetus is a person from conception",
+      "implication_by_false_state": "The fetus is a biological subsystem, and maternal autonomy is the primary legal weight.",
+      "implication_by_true_state": "The situation becomes a conflict between two equal persons, requiring a legal framework for 'forced life support'."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "The fetus requires the mother to exist, yet its 'rights' seek to constrain the very entity that enables its existence.",
+    "ambiguity": "Does 'right to life' mean the right to be born or the right not to be killed?",
+    "useful_contradiction": "The fetus is both 'part of' and 'distinct from' the mother, existing in a state of biological superposition."
+  },
+  "analogous_reorganization": [
+    "Organ donation laws: One person cannot be forced to give their kidney to save an adult person, even if that adult is a 'person' with a full 'right to life'.",
+    "Parasitic vs. Symbiotic interaction in biological systems.",
+    "Host-guest legal frameworks."
+  ],
+  "implications": [
+    "If fetal personhood is legalized, the state must logically treat miscarriage as involuntary manslaughter.",
+    "If bodily autonomy is total, then 'personhood' of the fetus becomes irrelevant to the legality of abortion."
+  ],
+  "global_reevaluation": {
+    "state": "undefined",
+    "criteria": "The argument collapses into an infinite loop of defining 'personhood' and 'scope of rights' without an external axiomatic anchor."
+  },
+  "reconclusion": "The proposition that fetal rights negate bodily autonomy is only valid if one accepts the unverified axiom of early personhood AND the supplemental axiom that the right to life mandates the use of a host's body; without both, the argument fails internal logical consistency.",
+  "preconceptual_reconclusion": "We can't say if the sprout's rules are more important than the house's rules until we all agree if the sprout is a person and if people are allowed to live in houses they don't own.",
+  "causal_chain": "Determining if abortion is justifiable requires defining the moral status of the fetus which leads to the claim of personhood from conception which attempts to grant equal moral rights to the fetus which then creates a zero-sum conflict with maternal bodily autonomy which can only be resolved if one right is assigned a higher hierarchical value but since personhood is a subjective construct the priority is arbitrary and therefore the negation of autonomy is a conditional assertion rather than a necessary truth based on the unproven assumption that the right to life includes the right to use another's biological systems without their ongoing consent.",
+  "context": "Fetal rights negate maternal bodily autonomy (context: A fetus is a person from conception (context: A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: Is abortion morally justifiable?))))"
+}

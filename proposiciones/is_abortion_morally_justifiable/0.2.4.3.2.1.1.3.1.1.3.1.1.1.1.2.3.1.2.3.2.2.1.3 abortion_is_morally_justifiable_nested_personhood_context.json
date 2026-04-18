@@ -1,0 +1,147 @@
+{
+  "input_semantic_node": "Abortion is morally justifiable (nested personhood context)",
+  "central_semantic_node": "Moral Justifiability of Termination vs. Fetal Ontological Status",
+  "argument_reasons": [
+    "The input contains a recursive nesting of premises where fetal personhood is treated as both a context and a dependent condition for the justification of abortion.",
+    "The core logic hinges on the equivalence of moral rights between a fetus and an adult, derived from the axiom of personhood at conception.",
+    "The justification of abortion is challenged by the strict categorical assignment of 'person' to the fetus."
+  ],
+  "ontological_signature": {
+    "nature": "Axiomatic Moral System",
+    "function": "Determination of ethical permissibility in life-termination scenarios.",
+    "domain": "Ethics, Ontology, Juridical Philosophy.",
+    "form": "Recursive Loop (Self-referential personhood definition).",
+    "tension": "Conflict between bodily autonomy (implied) and the absolute right to life of a designated 'person'.",
+    "limit": "Dependent on the arbitrary definition of the 'personhood' start-point, which is biologically and philosophically contested."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Morally justifiable",
+      "definition": "An action that aligns with a system of 'good' rules so that it can be defended as right."
+    },
+    {
+      "term": "Personhood",
+      "definition": "The status of being a member of the 'moral club' that has the highest level of protection."
+    },
+    {
+      "term": "Conception",
+      "definition": "The starting moment when the instructions for a life first come together."
+    },
+    {
+      "term": "Moral rights",
+      "definition": "Invisible shields that stop others from hurting someone or taking their choices away."
+    }
+  ],
+  "preconceptual_transduction": "Imagine a tiny seed is already a grown-up king with a crown. If the seed is a king, you can't move the garden without his permission. But the garden is also the mother's home. The problem is deciding if the seed really is a king yet.",
+  "iterations": [
+    {
+      "id": "1.1.1",
+      "base_statement": "A fetus is a person from conception",
+      "subnode": "Ontological Personhood Arbitrariness",
+      "context": "Is the transition from 'potential person' to 'actual person' discrete or continuous?"
+    }
+  ],
+  "global_evaluation": {
+    "state": "self-referential",
+    "criteria": "The argument uses the premise 'A fetus is a person from conception' to define the context for the same premise recursively, creating a circular definition of moral status."
+  },
+  "deductive_observations": [
+    {
+      "origin": "If a fetus has the same moral rights as an adult (P), and adults have a right to life (Q), then a fetus has a right to life.",
+      "conclusion": "Termination is equivalent to the killing of an adult.",
+      "notes": "Calculated under the assumption that rights are absolute and non-hierarchical."
+    }
+  ],
+  "subjectivities": [
+    "The definition of when 'personhood' begins is a subjective metaphysical anchor, not an empirical discovery.",
+    "The weighting of the mother's autonomy against the fetal right to life is value-dependent."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "A fetus has the same moral rights as an adult.",
+      "description": "The Violinist Thought Experiment (Judith Jarvis Thomson): Even if someone has a right to life, it doesn't give them a right to use someone else's body against their will.",
+      "refutation_degree": "partial",
+      "notes": "Separates the 'right to life' from the 'right to use a specific body'."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Legal systems vary on the date of 'personhood' (weeks 12, 24, or birth).",
+      "inference": "Personhood is a social/legal construct rather than a fixed biological property.",
+      "confidence_degree": "high",
+      "notes": "Suggests the central premise is a 'local' truth rather than a 'universal' one."
+    }
+  ],
+  "preconceptual_conclusion": "The rules depend entirely on whether we count the seed as a king; if we say yes, the answer is fixed, but we are only saying yes because we want the answer to be fixed.",
+  "emerging_theory_or_intuition": "Personhood is not an inherent trait but a functional assignment within a power structure to resolve resource/space competition between biological entities.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "Abortion is morally justifiable",
+        0,
+        0,
+        1,
+        "Justification depends on the hierarchical arrangement of conflicting rights (Autonomy vs. Life)."
+      ],
+      [
+        "A fetus is a person from conception",
+        0,
+        0,
+        null,
+        "This is a self-referential axiom in the provided context, rendering it semantically circular."
+      ],
+      [
+        "A fetus has the same moral rights as an adult",
+        0,
+        0,
+        1,
+        "Universal moral systems do not agree on the equivalence of potentiality vs. actuality."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "Abortion is morally justifiable",
+    "P": "A fetus is a person from conception",
+    "R": "A fetus has the same moral rights as an adult"
+  },
+  "boolean_formula_of_the_argument": "P && R -> !A",
+  "why_the_formula_structure_is_incorrect": "The formula assumes that the right to life (R) automatically overrides all other rights (A), failing to account for the agent holding the fetus.",
+  "boolean_argument_reformulation": "((P && R) && !ConflictOfRights) === !A",
+  "boolean_formula_to_natural_language": "If P and R are true, then abortion is only unjustifiable if there is no superior conflicting right held by the mother.",
+  "conclusion": "If personhood is axiomatically granted at conception, and rights are treated as absolute and equal to adults, then termination is logically excluded; however, the recursive nature of the prompt reveals that this conclusion is a closed-loop tautology grounded in unverified metaphysical assumptions rather than empirical necessity; and for all this abortion’s moral status remains an uncollapsable paradox of competing sovereign individualities.",
+  "collapse_implications": [
+    {
+      "statement": "A fetus is a person from conception",
+      "implication_by_false_state": "The moral justification for abortion shifts to a utilitarian or functionalist framework where the mother's welfare is prioritized.",
+      "implication_by_true_state": "The act of abortion enters the category of homicide, requiring a 'self-defense' or 'necessity' legal framework to remain justifiable."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "The body of the mother is both the necessary condition for the fetus's existence and the primary claimant to the space the fetus occupies.",
+    "ambiguity": "The term 'person' is used both as a biological descriptor and a moral honorific.",
+    "useful_contradiction": "A fetus is simultaneously 'part of' the mother's body and 'a separate entity' with its own claims."
+  },
+  "analogous_reorganization": [
+    "A guest who enters a house and is suddenly declared the owner of the house by an outside law.",
+    "A software program that becomes sentient but can only run on a single specific server that wants to host a different program."
+  ],
+  "implications": [
+    "If personhood is recursive, moral status is determined by the definer, not the subject.",
+    "Legal systems must eventually choose an arbitrary point to break the loop of potentiality."
+  ],
+  "global_reevaluation": {
+    "state": "self-referential",
+    "criteria": "The prompt structures the premise as the context for itself, creating a meta-logical loop that prevents external validation without breaking the provided frame."
+  },
+  "reconclusion": "The moral justification of abortion within the provided context is logically impossible to affirm because the premises (P, R) are designed to negate the conclusion (A) through a self-reinforcing linguistic loop; until the 'personhood' axiom is decoupled from the 'rights' axiom or the 'autonomy' of the host is introduced as a variable, the system remains in a deadlock of recursive definitions.",
+  "preconceptual_reconclusion": "The story is stuck in a circle because it says the baby is a person, and a person cannot be hurt, so the baby cannot be hurt; but the story forgets to ask about the mother who is already there.",
+  "causal_chain": "Axiom of conception-based personhood establishes a moral agent with adult-equivalent rights which creates an absolute right to life that necessarily conflicts with and overrides the maternal host's bodily autonomy because the premise recursively reaffirms fetal status to prevent any external moral justification from entering the logical field thereby collapsing the possibility of justified abortion into a contradiction of the initial self-referential status of the fetus as a sovereign person.",
+  "context": "Abortion is morally justifiable (context: A fetus is a person from conception (context: A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: Is abortion morally justifiable?))))"
+}

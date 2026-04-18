@@ -1,0 +1,155 @@
+{
+  "input_semantic_node": "Moral rights restricted to sentient beings within the context of fetal personhood and the morality of abortion.",
+  "central_semantic_node": "Sentience-based moral personhood in prenatal development.",
+  "argument_reasons": [
+    "Implicit claim that fetal personhood is established at conception regardless of sentience level.",
+    "Categorical syllogism attempting to link biological conception to adult-equivalent moral standing.",
+    "Logical tension between biological origin (conception) and the proposed functional limit for rights (sentience)."
+  ],
+  "ontological_signature": {
+    "nature": "Axiological-biological conflict",
+    "function": "To define the boundaries of moral consideration and legal protection.",
+    "domain": "Ethics, Bioethics, Ontology of Personhood",
+    "form": "Nested recursive hierarchy (nested contexts)",
+    "tension": "Conflict between 'being' (biological status) and 'sentience' (qualitative experience).",
+    "limit": "The transition point from biological life to subjective experience is empirically fuzzy (computational irreducibility)."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Moral rights",
+      "definition": "The 'keep-safe' rules that say how others must treat someone because that someone matters."
+    },
+    {
+      "term": "Sentience",
+      "definition": "The lights being on inside; the ability to feel 'ow' or 'yay'."
+    },
+    {
+      "term": "Person",
+      "definition": "A member of the 'important club' who gets full protection from the rules."
+    },
+    {
+      "term": "Conception",
+      "definition": "The starting point where the building instructions for a new body are first put together."
+    }
+  ],
+  "preconceptual_transduction": "Imagine a special club where the rule to join is 'you must be able to feel things.' Some people say you join the club the moment your name is written on a list, even before you can feel anything. Others say the list doesn't matter until the lights inside your head turn on.",
+  "iterations": [
+    {
+      "id": "1.1.1",
+      "base_statement": "The exact threshold of sentience during fetal development.",
+      "subnode": "Neural Emergence Threshold",
+      "context": "At what point does the biological hardware support the software of feeling?"
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The statement contains a contradiction between its premise (rights require sentience) and its context (rights exist at conception), which is a pre-sentient state."
+  },
+  "deductive_observations": [
+    {
+      "origin": "Moral rights are only granted to sentient beings.",
+      "conclusion": "If a fetus is not sentient at conception, it cannot have moral rights at that time.",
+      "notes": "Direct logical consequence of the first premise."
+    }
+  ],
+  "subjectivities": [
+    "The definition of 'person' varies significantly between metaphysical, legal, and biological frameworks.",
+    "The valuation of potentiality vs. actuality in human development."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "A fetus has the same moral rights as an adult.",
+      "description": "A brain-dead adult remains a biological human but loses many moral protections/rights (e.g., organ donation status), suggesting rights are tied to function, not just species membership.",
+      "refutation_degree": "partial",
+      "notes": "Highlights the dependency of rights on functional capacity."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Most legal systems grant 'personhood' and full rights incrementally, peaking at birth.",
+      "inference": "Societal structures largely reject the 'rights at conception' model in practice.",
+      "confidence_degree": "high",
+      "notes": "Reflected in inheritance, citizenship, and census laws."
+    }
+  ],
+  "preconceptual_conclusion": "The rules are confused because they use two different maps for the same forest.",
+  "emerging_theory_or_intuition": "Personhood is not a binary toggle switch at conception, but a gradient of increasing complexity where rights 'emerge' alongside the capacity for suffering.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "Moral rights are only granted to sentient beings",
+        0,
+        0,
+        1,
+        "Depends on the philosophical framework (sentientism vs. vitalism)."
+      ],
+      [
+        "A fetus is a person from conception",
+        0,
+        0,
+        1,
+        "Lacks empirical consensus; relies on non-falsifiable metaphysical axioms."
+      ],
+      [
+        "A fetus has the same moral rights as an adult",
+        0,
+        1,
+        0,
+        "Fails the sentience test established in the primary premise; a fetus at conception cannot suffer or desire."
+      ],
+      [
+        "Is abortion morally justifiable?",
+        0,
+        0,
+        1,
+        "Dependent on the conflict resolution between the right to bodily autonomy and the right to life."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "Moral rights are only granted to sentient beings",
+    "B": "A fetus is sentient from conception",
+    "C": "A fetus has the same moral rights as an adult",
+    "D": "A fetus is a person from conception"
+  },
+  "boolean_formula_of_the_argument": "A && !B && D -> !C",
+  "why_the_formula_structure_is_incorrect": "The original argument assumes (D -> C) and ignores A, creating a structural contradiction.",
+  "boolean_argument_reformulation": "(A && !B) === !C",
+  "boolean_formula_to_natural_language": "If moral rights require sentience (A) and a fetus is not sentient at conception (!B), then that implies the statement that a fetus has adult rights (C) is false.",
+  "conclusion": "If moral status is contingent upon the capacity for sentience as the primary axiom, then the biological event of conception—which lacks neural substrates—cannot logically confer personhood or adult-equivalent rights, and for all this, the assertion of equal moral standing for a pre-sentient fetus is a logical contradiction. and for all this the belief in equivalent rights from conception is functionally incompatible with a sentience-based ethical framework.",
+  "collapse_implications": [
+    {
+      "statement": "A fetus is a person from conception",
+      "implication_by_false_state": "Abortion becomes a matter of healthcare and bodily autonomy without competing personhood claims.",
+      "implication_by_true_state": "Abortion is viewed as the termination of a person, creating a direct conflict with the mother's rights."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "The Potentiality Paradox: A thing not currently being 'X' is treated as 'X' because it will eventually be 'X'.",
+    "ambiguity": "The term 'person' is used both as a biological descriptor and a moral honorific.",
+    "useful_contradiction": "Nature shows a continuous growth process, but law requires discrete, non-continuous boundaries."
+  },
+  "analogous_reorganization": [
+    "A blueprint of a house is not a house where you can keep dry from the rain.",
+    "An acorn is not an oak tree, although it contains the code to become one.",
+    "The 'unlocked' state of a computer vs. its 'powered off' component state."
+  ],
+  "implications": [
+    "Legal and moral systems must choose between 'biological' and 'functional' definitions of value, as they are not currently aligned."
+  ],
+  "global_reevaluation": {
+    "state": "false",
+    "criteria": "The argument collapses because it attempts to hold both 'rights require sentience' and 'rights begin at conception' (pre-sentience) simultaneously, which is a formal logical failure."
+  },
+  "reconclusion": "Moral rights based on sentience exclude individuals lacking a nervous system; therefore, since a zygote lacks a nervous system, the claim that rights at conception are equal to adult rights is logically false within a sentience-based framework.",
+  "preconceptual_reconclusion": "You can't say 'only those who can feel get a cookie' and then give a cookie to someone who can't feel yet.",
+  "causal_chain": "Axiom states rights require sentience -> Conception is a chemical/biological event without neural activity -> Therefore no sentience exists at conception -> If no sentience exists then no rights can be granted under the axiom -> Therefore rights at conception are zero -> Therefore claiming rights at conception equal those of an adult is a contradiction of the first axiom.",
+  "context": "Moral rights are only granted to sentient beings (context: A fetus is a person from conception (context: A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: Is abortion morally justifiable?))))"
+}

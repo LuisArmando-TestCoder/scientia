@@ -1,0 +1,149 @@
+{
+  "input_semantic_node": "A fetus is a person from conception; moral rights are inherent by species membership; abortion moral justification.",
+  "central_semantic_node": "Ontological Personhood and Species-Inherent Moral Rights in the Abortion Debate",
+  "argument_reasons": [
+    "Moral rights are tied to species membership to ensure a universal, non-arbitrary baseline for personhood.",
+    "Conception is the only discrete biological boundary that initiates a unique genetic individual of the species.",
+    "Inherent rights imply that developmental stage (fetus vs. adult) does not change the essence of the right-bearer."
+  ],
+  "ontological_signature": {
+    "nature": "Axiomatic moral system",
+    "function": "Establishing the earliest possible threshold for legal and moral protection.",
+    "domain": "Bioethics, Legal Ontology, Moral Philosophy",
+    "form": "Deductive syllogism within a specific deontological framework.",
+    "tension": "Conflicts between biological potentiality and actualized cognitive capacity.",
+    "limit": "Dependent on the axiomatic acceptance of 'species membership' as a sufficient condition for 'personhood'."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Species membership",
+      "definition": "Belonging to the biological group 'Homo sapiens' by way of unique DNA."
+    },
+    {
+      "term": "Inherent rights",
+      "definition": "Protections that a being has just by existing, which cannot be taken away or earned."
+    },
+    {
+      "term": "Personhood",
+      "definition": "The status of being a 'someone' with a right to life, rather than a 'something'."
+    },
+    {
+      "term": "Conception",
+      "definition": "The moment a new life starts with its own special instructions for growing."
+    }
+  ],
+  "preconceptual_transduction": "Every little sprout of a specific kind of tree is already that tree, even if it hasn't grown leaves yet. Since it is that kind of tree, we must protect it just like we protect the big trees in the forest. You don't have to be big to be 'someone' in the family.",
+  "iterations": [
+    {
+      "id": "1.1",
+      "base_statement": "Moral rights are inherent by species membership",
+      "subnode": "Biological Essentialism",
+      "context": "Does biology alone dictate moral worth, or is it a mix of biology and what you can do/feel?"
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The argument relies on an axiomatic definition of personhood ('species membership') which is a foundational disagreement in ethics; it is logically consistent but empirically unprovable as an objective truth."
+  },
+  "deductive_observations": [
+    {
+      "origin": "If species membership = personhood, and fetus = species member.",
+      "conclusion": "The fetus is a person.",
+      "notes": "Requires the premise that species membership is the sole necessary and sufficient condition."
+    }
+  ],
+  "subjectivities": [
+    "The definition of 'personhood' is a philosophical construct, not a biological discovery.",
+    "The weighing of 'potential life' vs 'actualized autonomy' of the pregnant person."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "Moral rights are inherent by species membership.",
+      "description": "If a human lacks all neural function (brain death) but is still a 'species member', we often remove moral rights like the 'right to life' via life support removal; conversely, a sentient alien or AI might deserve rights without being a species member.",
+      "refutation_degree": "partial",
+      "notes": "Suggests species membership might be a proxy for other traits (consciousness) rather than the root itself."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Societies generally protect beings that show signs of suffering or self-awareness.",
+      "inference": "Rights may actually be tied to the capacity for experience rather than genetic code.",
+      "confidence_degree": "medium",
+      "notes": "This explains why early fetuses and brain-dead individuals are treated differently than conscious adults."
+    }
+  ],
+  "preconceptual_conclusion": "The idea says everyone in our pack is special from the very start, but others say you are special because of the way you can think and feel.",
+  "emerging_theory_or_intuition": "The 'Species-Membership' axiom acts as a protective firewall against 'functional' definitions of personhood that could historically lead to the exclusion of marginalized or disabled humans.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "Moral rights are inherent by species membership (context: Is abortion morally justifiable?)",
+        0,
+        0,
+        1,
+        "The statement is a philosophical axiom that cannot be resolved through physical experimentation alone."
+      ],
+      [
+        "A fetus is a person from conception in the context of inherent species rights",
+        1,
+        0,
+        0,
+        "Consistent with the specific definition of species-based personhood provided in the prompt."
+      ],
+      [
+        "A fetus has the same moral rights as an adult under the species-membership framework",
+        1,
+        0,
+        0,
+        "Direct logical consequence of the 'inherent' and 'species-based' premises."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "Moral rights are inherent by species membership",
+    "B": "A fetus is a member of the species from conception",
+    "C": "A fetus is a person from conception",
+    "D": "Abortion is the termination of a person's life",
+    "E": "Abortion is morally unjustifiable"
+  },
+  "boolean_formula_of_the_argument": "(A && B) -> (C && D) -> E",
+  "why_the_formula_structure_is_incorrect": "The formula assumes that the termination of a 'person's life' (D) automatically leads to 'morally unjustifiable' (E), ignoring the 'Self-Defense' or 'Bodily Autonomy' variables where one person's life may be terminated to protect another's rights.",
+  "boolean_argument_reformulation": "((A && B) === C) && (C && !F -> E)",
+  "boolean_formula_to_natural_language": "If moral rights come from being human and a fetus is human, then the fetus is a person; if that person is terminated without a justifying conflict like bodily autonomy (F), then it is morally unjustifiable.",
+  "conclusion": "If personhood is defined solely by the biological continuity of the human genome starting at zygote formation (Axiomatic Essentialism), then the fetus is a person with rights equal to an adult, and for all this, abortion is logically classified as the termination of a person, rendering it unjustifiable within this specific rigid framework. and for all this abortion is the termination of a person who possesses inherent rights by nature of their DNA.",
+  "collapse_implications": [
+    {
+      "statement": "Moral rights are inherent by species membership",
+      "implication_by_false_state": "Personhood becomes 'earned' through traits like consciousness, making abortion more easily justifiable.",
+      "implication_by_true_state": "Abortion becomes the killing of a person, requiring the same justification as any other homicide."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "The 'Potentiality Paradox': A single cell is 'none' of the things we value in people (thoughts, memories) but is 'all' of them in code.",
+    "ambiguity": "The term 'person' shifts between legal, biological, and moral definitions.",
+    "useful_contradiction": "The fetus is biologically a human but sociologically not yet a participant, creating a conflict between nature and culture."
+  },
+  "analogous_reorganization": [
+    "Operating systems: The code (DNA) exists and is identified as the OS even before it is 'installed' and 'running' (birth/consciousness).",
+    "Corporate personhood: A legal entity that has rights without being a biological body, showing 'personhood' is a flexible legal/moral assignment."
+  ],
+  "implications": [
+    "If species membership is the only rule, then we can never exclude any human, no matter how damaged, from the moral circle.",
+    "If we reject this rule, we must find a new 'threshold' (pain, thought, heartbeats) which may itself be arbitrary."
+  ],
+  "global_reevaluation": {
+    "state": "undefined",
+    "criteria": "The node is logically closed if the premises are accepted, but the premises themselves are 'undefined' in a universal empirical sense, existing as a self-referential moral preference."
+  },
+  "reconclusion": "The proposition that abortion is unjustifiable derived from species membership is a valid logical deduction if and only if one accepts the axiom that biological humanity is synonymous with moral personhood; however, because 'personhood' is a non-empirical social/moral construct, the global state remains uncollapsable without an external axiomatic choice.",
+  "preconceptual_reconclusion": "If we decide being in the human family is the only thing that matters, then the tiny seed is a person. If we don't agree on that, the answer stays hidden.",
+  "causal_chain": "Axiomatic belief in species-based rights provides the definition of personhood → DNA at conception establishes species membership → Therefore the zygote is a person → Personhood implies a right to life equal to an adult → Termination of a right-of-life holder is homicide → Unless a higher right (autonomy) supercedes it, the act is unjustifiable → The internal logic holds but is tethered to the initial unprovable definition of what makes a 'someone' versus a 'something'.",
+  "context": "Moral rights are inherent by species membership (context: A fetus is a person from conception (context: A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: Is abortion morally justifiable?))))"
+}

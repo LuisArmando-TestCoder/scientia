@@ -1,0 +1,153 @@
+{
+  "input_semantic_node": "Abortion moral justifiability / Personhood from conception / Equal moral rights",
+  "central_semantic_node": "The Ontological Status of the Fetus and Moral Right Reciprocity",
+  "argument_reasons": [
+    "The input presents a nested syllogism: if personhood starts at conception, and persons have equal rights, then the fetus has a right to life equal to an adult, potentially overriding the justification for abortion. This is an argument from moral consistency and ontological continuity."
+  ],
+  "ontological_signature": {
+    "nature": "Axiological-ontological conflict",
+    "function": "To determine the boundary of moral consideration and the hierarchy of rights.",
+    "domain": "Ethics, Metaphysics, Jurisprudence.",
+    "form": "Recursive nested dependency (circular ontological anchoring).",
+    "tension": "Conflict between the bodily autonomy of the mother and the right to life of the fetus-person.",
+    "limit": "Depends on the non-empirical definition of 'personhood', which is an axiomatic choice."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Fetus",
+      "definition": "An unborn human being in the later stages of development."
+    },
+    {
+      "term": "Person",
+      "definition": "A being who counts fully in our moral calculations and has a shield of rights."
+    },
+    {
+      "term": "Moral Right",
+      "definition": "A rule that says what you can or cannot do to someone else because they are valuable."
+    },
+    {
+      "term": "Justifiable",
+      "definition": "Having a reason that is strong enough to make an action okay to do."
+    }
+  ],
+  "preconceptual_transduction": "If a tiny seed is already a full-grown tree in its heart, then we cannot treat the seed differently than the tree. But if the seed is growing inside someone else's garden, whose rules matter more: the seed's or the gardener's?",
+  "iterations": [
+    {
+      "id": "1.1",
+      "base_statement": "A fetus is a person from conception",
+      "subnode": "Ontological Personhood Inception",
+      "context": "Is personhood a biological fact or a social/cognitive threshold?"
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The argument relies on the 'personhood' axiom which is currently uncollapsable through empirical data alone, leading to a logical stalemate between competing rights."
+  },
+  "deductive_observations": [
+    {
+      "origin": "If a fetus is a person (P) and all persons have equal rights (R), then the fetus has equal rights (Q).",
+      "conclusion": "Abortion (killing the fetus) is a violation of a person's equal right to life.",
+      "notes": "Direct proof holds only if P is granted as an absolute."
+    }
+  ],
+  "subjectivities": [
+    "The definition of 'personhood' remains a subjective philosophical or religious anchor.",
+    "The weighting of 'bodily autonomy' versus 'potential/actual life' depends on internal value hierarchies."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "A fetus has the same moral rights as an adult.",
+      "description": "The Violinist Argument (Judith Jarvis Thomson): You wake up connected to a famous violinist; even if he has a right to life, he doesn't have a right to use your body to survive.",
+      "refutation_degree": "partial",
+      "notes": "Separates the 'right to life' from the 'right to use another's life-support system'."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Societies grant more rights as development increases (viability, birth, adulthood).",
+      "inference": "The 'personhood at conception' claim is often inconsistent with practical social/legal behavior.",
+      "confidence_degree": "medium",
+      "notes": "Suggests rights are often emergent rather than instantaneous at conception."
+    }
+  ],
+  "preconceptual_conclusion": "We can't agree because we don't know when a 'potential' person becomes an 'actual' person with the same rights as the one carrying them.",
+  "emerging_theory_or_intuition": "Principle of Competing Jurisdictions: The moral justifiability of abortion is not a question of life vs. death, but a conflict between the jurisdiction of the individual over their body and the jurisdiction of the moral community over a person.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "Abortion is morally justifiable",
+        0,
+        0,
+        1,
+        "Depends on the weighting of autonomy vs. fetal personhood."
+      ],
+      [
+        "A fetus is a person from conception",
+        0,
+        0,
+        1,
+        "Metaphysical assertion without empirical consensus/refutation."
+      ],
+      [
+        "A fetus has the same moral rights as an adult",
+        0,
+        0,
+        1,
+        "If personhood is undefined, the equivalence of rights is also undefined."
+      ],
+      [
+        "A fetus is a person from conception (self-referential loop)",
+        null,
+        null,
+        null,
+        "Identified as an infinite loop in the prompt structure."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "Abortion is morally justifiable",
+    "P": "A fetus is a person from conception",
+    "R": "A fetus has the same moral rights as an adult"
+  },
+  "boolean_formula_of_the_argument": "!P || !R || !A",
+  "why_the_formula_structure_is_incorrect": "The internal logic of the prompt suggests (P && R) -> !A. To test the justifiability (A), the formula should reflect the condition under which A is true.",
+  "boolean_argument_reformulation": "A === !(P && R) || (A && (P && R))",
+  "boolean_formula_to_natural_language": "If it is false that a fetus is a person with full rights, then abortion is justifiable; however, if it is a person with rights, justifiability becomes a logical contradiction unless the mother's right to autonomy also equals her own right to life.",
+  "conclusion": "If personhood is anchored at conception and rights are absolute, then the fetus possesses an equal right to life, but if personhood is a developmental emergence or if bodily autonomy is an inalienable prerequisite for any rights to exist, the justification shift occurs, and for all this, the justifiability of abortion is logically dependent on the exogenous selection of an ontological start-point for property rights over one's own organism. Abortion justifiability is an undecidable proposition within a system that assumes two equal but mutually exclusive absolute rights.",
+  "collapse_implications": [
+    {
+      "statement": "A fetus is a person from conception",
+      "implication_by_false_state": "Abortion becomes a matter of medical/personal autonomy without homicide implications.",
+      "implication_by_true_state": "Abortion requires the justification of self-defense or an overriding necessity to kill the fetus-person."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "The Bodily Inclusion Paradox: One person exists entirely within the life-support system of another.",
+    "ambiguity": "The term 'person' shifts between biological species-membership and moral agency.",
+    "useful_contradiction": "The fetus is 'both' a part of the mother and a distinct entity, creating a dual-status that current logic cannot fully collapse."
+  },
+  "analogous_reorganization": [
+    "A stowaway on a ship where the ship is itself a person.",
+    "A guest who arrives through a locked door and requires the host's blood to breathe.",
+    "A software update that becomes an independent OS while running on the original hardware."
+  ],
+  "implications": [
+    "Legal systems will remain bifurcated as long as the 'start of personhood' is a binary toggle (0 or 1) rather than a continuous function.",
+    "The debate cannot be resolved by 'facts', only by the social decision to grant or withhold the status of personhood."
+  ],
+  "global_reevaluation": {
+    "state": "self-referential",
+    "criteria": "The prompt structure includes a self-referential cycle ('A fetus is a person from conception (context: ...)') which creates an infinite loop of contextual grounding, making the logic circular and uncollapsable."
+  },
+  "reconclusion": "The moral justification of abortion is a function of the chosen definition of personhood; because personhood is a social/metaphysical construct and not a purely biological one, the argument results in a self-referential loop where the right to live and the right to bodily integrity are functionally equivalent but physically incompatible. Consequently, the justification remains ‘true’ in systems prioritizing autonomy and ‘false’ in systems prioritizing ontological personhood from inception.",
+  "preconceptual_reconclusion": "The argument is a circle; it starts with an idea that it uses to prove the same idea. To find the answer, you have to decide what is more important: the person who is already here, or the promise of the person who is arriving.",
+  "causal_chain": "A_fetus_being_defined_as_a_person_is_a_metaphysical_axiom_that_triggers_the_application_of_universal_moral_rights_which_by_definition_include_an_inalienable_right_to_exist_which_then_confronts_the_mother's_primary_and_already_established_right_to_bodily_integrity_creating_a_zero-sum_logical_conflict_where_one_right_must_be_negated_for_the_other_to_be_affirmed_leading_to_an_undecidable_state_unless_an_external_hierarchy_of_rights_is_arbitrarily_imposed_thus_resolving_the_conflict_not_through_logic_but_through_axiological_power.",
+  "context": "Abortion is morally justifiable (context: A fetus is a person from conception (context: A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: Is abortion morally justifiable?))))"
+}

@@ -1,0 +1,154 @@
+{
+  "input_semantic_node": "Abortion is morally justifiable given fetal personhood from conception.",
+  "central_semantic_node": "Pro-choice justification under Pro-life ontological premises",
+  "argument_reasons": [
+    "The input presents a nested contextual loop: it asserts abortion as justifiable while simultaneously framing it within a context where a fetus is a person with adult moral rights.",
+    "The primary argument hidden in this tension is often the 'The Famous Violinist' analogy (Thomson's defense), which separates the right to life from the right to use another's body."
+  ],
+  "ontological_signature": {
+    "nature": "Ethical-Deontological Conflict",
+    "function": "To resolve the clash between two sovereign rights (bodily autonomy vs. right to life).",
+    "domain": "Bioethics / Applied Philosophy",
+    "form": "Recursive nodal loop (nested context)",
+    "tension": "If rights are equal, one person's right to live may require the non-consensual use of another's biological life-support.",
+    "limit": "Dependent on the axiomatic hierarchy of rights (which right 'trumps' the other)."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Abortion",
+      "definition": "Stopping a body-support process to end a pregnancy."
+    },
+    {
+      "term": "Morally Justifiable",
+      "definition": "An action that is okay to do because it doesn't break a rule that matters most."
+    },
+    {
+      "term": "Personhood/Adult Rights",
+      "definition": "Having a 'keep out' sign on your body and a 'do not hurt' sign on your life."
+    },
+    {
+      "term": "Conception",
+      "definition": "The starting point where the blueprints of a person are at the site."
+    }
+  ],
+  "preconceptual_transduction": "Imagine you wake up and find someone is plugged into your body to stay alive. Even if they are a special, important person, do you have to let them stay plugged in if you didn't say they could? Some say no, because your body is your own house and you decide who stays there.",
+  "iterations": [
+    {
+      "id": "1.1.1",
+      "base_statement": "The hierarchy of rights between two equal persons is undefined.",
+      "subnode": "Right-to-Life vs. Bodily-Sovereignty",
+      "context": "Is the 'right to life' an 'active right to be sustained' or a 'passive right not to be killed'?"
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The statement is logically stable only if an external hierarchy (e.g., bodily autonomy > life-sustenance) is applied; otherwise, it is a direct collision of equal axioms."
+  },
+  "deductive_observations": [
+    {
+      "origin": "P: Fetus has adult rights. Q: Adult rights include bodily autonomy. R: One adult cannot force another to donate organs/blood.",
+      "conclusion": "If P, then Q and R imply that the fetus cannot force the mother to provide biological support.",
+      "notes": "Direct Proof: Thomson's Analogy application."
+    }
+  ],
+  "subjectivities": [
+    "The definition of 'negative' vs 'positive' rights.",
+    "The 'responsibility' objection (voluntary vs involuntary conception)."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "Abortion is morally justifiable.",
+      "description": "The 'Duty of Care' argument: Parents have a special legal and moral obligation to provide basic support to their children that they do not owe to strangers.",
+      "refutation_degree": "partial",
+      "notes": "Questions if the 'Violinist' (stranger) analogy applies to biological offspring."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Most legal systems do not force bone marrow or blood donations even to save a life.",
+      "inference": "Societal ethics prioritize bodily integrity over the life-preservation of others.",
+      "confidence_degree": "high",
+      "notes": "Constitutes the legal basis for the 'Self-Defense' or 'Autonomy' models."
+    }
+  ],
+  "preconceptual_conclusion": "The person inside is real, but the person on the outside still owns the house.",
+  "emerging_theory_or_intuition": "Bodily integrity is the 'meta-right'—without it, no other rights (including life) can be exercised independently, making it functionally superior in conflict.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "Abortion is morally justifiable if bodily autonomy is the primary right.",
+        1,
+        0,
+        0,
+        "The right to control one's own body permits removing others from it."
+      ],
+      [
+        "A fetus is a person from conception.",
+        0,
+        0,
+        1,
+        "This is an axiomatic ontological claim, not empirically falsifiable or provable within this logic."
+      ],
+      [
+        "The right to life includes the right to use another's body of necessity.",
+        0,
+        1,
+        0,
+        "Counter-evidenced by the lack of forced organ/blood donation laws for adults."
+      ],
+      [
+        "The nested context 'A fetus is a person from conception' creates a self-referential loop.",
+        0,
+        0,
+        null,
+        "The context defines itself within itself, preventing external verification."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "Abortion is morally justifiable",
+    "B": "A fetus is a person from conception",
+    "C": "Bodily autonomy trumps the right to life-sustenance"
+  },
+  "boolean_formula_of_the_argument": "A === (B && C)",
+  "why_the_formula_structure_is_incorrect": "The prompt implies A is true despite B, which requires the hidden premise C to resolve the tension.",
+  "boolean_argument_reformulation": "A === (B && C) || !B",
+  "boolean_formula_to_natural_language": "If the fetus is a person (B) and autonomy is the higher rule (C), then abortion is justifiable (A).",
+  "conclusion": "If we assume the fetus is an adult person, then by the standard of universal bodily integrity—where no person may be conscripted as a biological life-support system for another against their will—abortion becomes a justified withdrawal of support rather than a violation of a right to life, and for all this the justification of abortion survives even the assumption of fetal personhood through the principle of bodily sovereignty.",
+  "collapse_implications": [
+    {
+      "statement": "A fetus is a person from conception",
+      "implication_by_false_state": "Abortion is justifiable as a simple medical procedure with no competing moral subject.",
+      "implication_by_true_state": "Abortion must be justified through the 'eviction' model or bodily autonomy, as killing an equal person requires a higher-order defense."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "The right to life is meaningless if the body required to sustain it cannot be accessed; yet the right to the body is meaningless if life is not sustained.",
+    "ambiguity": "Does 'justifiable' mean 'not a crime' or 'a good act'?",
+    "useful_contradiction": "The 'personhood' of the fetus actually strengthens the 'bodily autonomy' argument by making the mother's body a 'donated' territory rather than just a biological container."
+  },
+  "analogous_reorganization": [
+    "The Famous Violinist (Thomson)",
+    "Forced Bone Marrow Donation (McFall v. Shimp)",
+    "The Castle Doctrine (Self-defense in one's property)"
+  ],
+  "implications": [
+    "If bodily autonomy is absolute, parental obligation laws for basic needs (food/shelter) might be logically vulnerable under the same reduction.",
+    "The debate shifts from 'What is the fetus?' to 'What are the limits of the pregnant person's obligations?'"
+  ],
+  "global_reevaluation": {
+    "state": "self-referential",
+    "criteria": "The argument's validity depends on an axiomatic hierarchy that is itself nested in the definition of 'person' used in the loop."
+  },
+  "reconclusion": "The proposition 'Abortion is morally justifiable' is logically compatible with 'The fetus is a person' if and only if Morality is built on the foundation of Negative Rights (the right to be left alone) rather than Positive Rights (the right to be taken care of).",
+  "preconceptual_reconclusion": "You don't have to share your heart or your blood with anyone else if you don't want to, even if they need it to live.",
+  "causal_chain": "A_fetus_as_a_person_grants_it_adult_status_implying_standard_human_rights_which_includes_the_negative_right_to_life_but_human_rights_also_include_absolute_bodily_integrity_which_prevents_the_state_or_individuals_from_forcing_one_person_to_physically_sustain_another_as_seen_in_compulsory_organ_donation_bans_therefore_removing_a_fetus_is_the_act_of_ending_non-consensual_body_usage_rather_than_a_rights-violation_making_the_act_justifiable_within_the_hierarchy_of_self-ownership_and_rights-sovereignty.",
+  "context": "Abortion is morally justifiable (context: A fetus is a person from conception (context: A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: Is abortion morally justifiable?))))"
+}

@@ -1,0 +1,156 @@
+{
+  "input_semantic_node": "Fetal personhood from conception in abortion ethics",
+  "central_semantic_node": "Ontological and moral status of the fetus as a person",
+  "argument_reasons": [
+    "Identity over time: The biological continuity from zygote to adult suggests a single subject.",
+    "Potentiality: The fetus possesses the internal blueprint to become a self-conscious moral agent.",
+    "Species membership: Being genetically human is sufficient for personhood regardless of developmental stage.",
+    "Moral parity: If B is a person and A is biologically B in an earlier stage, A is a person."
+  ],
+  "ontological_signature": {
+    "nature": "Axiomatic moral claim",
+    "function": "To establish a legal and ethical boundary for the right to life.",
+    "domain": "Ethics, Bioethics, Ontology",
+    "form": "Linear developmental continuity",
+    "tension": "Conflict between biological humanity and functional personhood.",
+    "limit": "Depends on the definition of 'person' which is not empirically falsifiable."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Fetus",
+      "definition": "An unborn offspring in the post-embryonic stage."
+    },
+    {
+      "term": "Person",
+      "definition": "An entity that has special moral protections and rights."
+    },
+    {
+      "term": "Conception",
+      "definition": "The start of a new life when a sperm meets an egg."
+    },
+    {
+      "term": "Moral Right",
+      "definition": "A rule that says how others must respect someone."
+    }
+  ],
+  "preconceptual_transduction": "Imagine a tiny seed that is already the tree it will grow into. Even though it doesn't have leaves yet, it is treated like the big tree because it has the same 'name' and 'spirit' from the very start.",
+  "iterations": [
+    {
+      "id": "1.1",
+      "base_statement": "A fetus is a person from conception",
+      "subnode": "Arbitrary threshold of personhood",
+      "context": "Is there a specific moment where 'personhood' appears, or is it a gradual emergence?"
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The move from biological fact (conception) to moral status (personhood) is an 'is-ought' gap that remains a fundamental philosophical disagreement."
+  },
+  "deductive_observations": [
+    {
+      "origin": "Scientific continuity",
+      "conclusion": "There is no non-arbitrary biological point between conception and birth to assign personhood.",
+      "notes": "Assumes personhood must be tied to biological milestones."
+    }
+  ],
+  "subjectivities": [
+    "The definition of personhood based on 'soul' or 'consciousness' varies by culture and religion.",
+    "The weight given to potentiality vs. actuality."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "A fetus is a person from conception",
+      "description": "A person is typically defined by self-awareness or the ability to feel pain, which a zygote lacks.",
+      "refutation_degree": "partial",
+      "notes": "Refutability depends on using a functionalist definition of personhood."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Societies grant more protection as a fetus develops.",
+      "inference": "Personhood is often treated as a gradient rather than a binary switch.",
+      "confidence_degree": "medium",
+      "notes": "Legal systems often reflect this via trimester frameworks."
+    }
+  ],
+  "preconceptual_conclusion": "Since the seed is not yet a tree, but will be, people disagree if we should treat it as a seed or a tree right now.",
+  "emerging_theory_or_intuition": "Personhood is a social/moral status 'granted' rather than a biological property 'found'.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "A fetus is a person from conception",
+        0,
+        0,
+        1,
+        "Depends on non-consensus definitions of personhood."
+      ],
+      [
+        "A fetus has the same moral rights as an adult",
+        0,
+        0,
+        1,
+        "Links to the unresolved status of personhood."
+      ],
+      [
+        "Biological human life begins at conception",
+        1,
+        0,
+        0,
+        "Consistent with biological data regarding unique DNA."
+      ],
+      [
+        "Personhood requires conscious awareness",
+        0,
+        0,
+        null,
+        "Self-referential definition dependent on starting axioms."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "A fetus is a person from conception",
+    "B": "A fetus has the same moral rights as an adult",
+    "C": "Abortion is morally justifiable"
+  },
+  "boolean_formula_of_the_argument": "(A && B) -> !C",
+  "why_the_formula_structure_is_incorrect": "The formula assumes that the right to life always overrides bodily autonomy, which is a separate premise.",
+  "boolean_argument_reformulation": "(A && B && !D) -> !C",
+  "boolean_formula_to_natural_language": "If a fetus is a person (A) and has adult rights (B), and there is no overriding right like bodily autonomy (D), then abortion is not justifiable (!C).",
+  "conclusion": "If biological continuity implies ontological identity, then a fetus is a person, yet since personhood is a functionalist social construct, the claim remains logically uncollapsable; and for all this, the status of the fetus is an axiomatic choice rather than a discovered fact.",
+  "collapse_implications": [
+    {
+      "statement": "A fetus is a person from conception",
+      "implication_by_false_state": "Abortion becomes a matter of weighing interests or bodily autonomy without a competing 'right to life' of equal stature.",
+      "implication_by_true_state": "Abortion is seen as the termination of a human person, requiring extreme justification (e.g., life of the mother) to be moral."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "A zygote is a person (static identity) yet is the start of a process (dynamic change).",
+    "ambiguity": "Does 'human' mean the species or the moral category?",
+    "useful_contradiction": "A fetus is both 'part of the mother' and 'a distinct entity' simultaneously."
+  },
+  "analogous_reorganization": [
+    "A blueprints for a house vs. the standing house.",
+    "An uninstalled operating system vs. a running computer.",
+    "A prince who is not yet a king but holds royal blood."
+  ],
+  "implications": [
+    "Legal personhood from conception would necessitate a total overhaul of civil and criminal law regarding pregnancy.",
+    "If potentiality equals personhood, then any biological material with potential (stem cells) gains moral weight."
+  ],
+  "global_reevaluation": {
+    "state": "undefined",
+    "criteria": "The argument relies on the 'Personhood Axiom' which cannot be validated or invalidated by first principles without assuming a specific definition of 'person' beforehand."
+  },
+  "reconclusion": "The proposition 'A fetus is a person from conception' is a foundational moral axiom that provides a consistent framework for a 'Right to Life' ethic, but it lacks empirical collapse because 'personhood' is a normative label rather than a biological state, making the justifiability of abortion dependent on the hierarchical nesting of rights between two distinct but physically connected entities.",
+  "preconceptual_reconclusion": "Because we can't agree when a 'someone' starts being a 'someone', this question stays open like a book with a missing first chapter.",
+  "causal_chain": "Conception initiates a unique biological trajectory that is genetically human and continuous with adult human life, which leads to the claim of ontological identity across time, implying that the moral status of the adult must be present in the zygote, thereby granting the fetus a right to life equivalent to that of an adult, which creates a direct conflict with the bodily autonomy of the pregnant person, resulting in the conclusion that abortion is only unjustifiable if the fetus's right to life is prioritized as an absolute, which itself depends on the unprovable premise that personhood begins at the moment of biological origin rather than at the onset of consciousness or birth.",
+  "context": "A fetus is a person from conception (context: A fetus is a person from conception (context: A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: Is abortion morally justifiable?))))"
+}

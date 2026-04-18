@@ -1,0 +1,145 @@
+{
+  "input_semantic_node": "Moral Justifiability of Abortion (Nested Personhood Context)",
+  "central_semantic_node": "Symbiotic Personalist Ethics of Fetal Right to Life",
+  "argument_reasons": [
+    "Implicit syllogism: If conception equals personhood and personhood equals adult moral rights, then a fetus has an absolute right to life, potentially negating moral justifiability for termination.",
+    "Justification: The input contains nested propositional logical constraints that link existential status directly to legal/moral equivalence with adults."
+  ],
+  "ontological_signature": {
+    "nature": "Meta-ethical axiom regarding biological status vs moral value.",
+    "function": "To determine the hierarchy of rights between two entities in a biological dependency.",
+    "domain": "Ethics, Jurisprudence, Ontological Biology.",
+    "form": "Recursive loop (Personhood defined by conception, conception implying personhood).",
+    "tension": "The collision between 'bodily autonomy' (not stated but implied by 'justifiable') and 'absolute fetal rights' (stated).",
+    "limit": "The internal recursion 'A fetus is a person because it is a person' creates a self-referential loop that requires an external axiomatic anchor."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Abortion",
+      "definition": "The choice to stop a biological process that grows a new life inside a body."
+    },
+    {
+      "term": "Moral Justifiability",
+      "definition": "When an action is considered 'okay' or 'good' according to a set of rules."
+    },
+    {
+      "term": "Person from Conception",
+      "definition": "The idea that a tiny cluster of cells is a 'someone' starting from the second it begins."
+    },
+    {
+      "term": "Adult Moral Rights",
+      "definition": "The strongest protections we give to grown-ups to keep them safe and free."
+    }
+  ],
+  "preconceptual_transduction": "Imagine a tiny seed starts growing in a garden that belongs to someone else. Some people say that because that seed will one day be a big tree, we must treat it as a big tree right now, even if the person who owns the garden doesn't want it there. The system is trying to decide if the seed's 'bigness' counts more than the garden owner's 'nos'.",
+  "iterations": [
+    {
+      "id": "1.1",
+      "base_statement": "A fetus has the same moral rights as an adult",
+      "subnode": "Symmetry of Rights",
+      "context": "Undefined because 'moral rights' for adults include autonomy that a fetus cannot exercise, and adult rights can be forfeited (e.g., self-defense), which is not applicable to a fetus."
+    }
+  ],
+  "global_evaluation": {
+    "state": "self-referential",
+    "criteria": "The input defines personhood through its own premise (Personhood -> Conception -> Personhood), creating a loop that prevents a linear boolean collapse without an external ethical tie-breaker."
+  },
+  "deductive_observations": [
+    {
+      "origin": "If A fetus is a person from conception AND A fetus has adult rights.",
+      "conclusion": "Termination of the fetus is equivalent to the termination of an adult life.",
+      "notes": "Requires the premise that adult life termination is always unjustifiable (which is a different debate, e.g., self-defense/capital punishment)."
+    }
+  ],
+  "subjectivities": [
+    "The definition of 'Personhood' is a philosophical construct, not a biological constant.",
+    "The hierarchy of rights (Mother vs. Fetus) is not solved by simply granting 'equal' rights."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "A fetus has the same moral rights as an adult",
+      "description": "The Thomson Violinist argument: Even if a person has a right to life, they do not have a right to use another person's body against their will to sustain that life.",
+      "refutation_degree": "partial",
+      "notes": "Questions the 'Justifiability' node rather than the 'Personhood' node."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Societies that define personhood at conception generally restrict abortion more severely.",
+      "inference": "The definition of personhood is the primary driver of the moral conclusion.",
+      "confidence_degree": "high",
+      "notes": "Causal link between ontological definition and legal outcome."
+    }
+  ],
+  "preconceptual_conclusion": "If we say the tiny seed is a full tree, then cutting it is like cutting a forest, unless we think the garden's rules matter more.",
+  "emerging_theory_or_intuition": "The 'Moral Rights' of an adult include 'Right to Bodily Integrity'. If a fetus has 'Adult Rights', it must logically include the right to not have its body used by another—creating a paradox where both entities have the right to exclude the other.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "Abortion is morally justifiable",
+        0,
+        0,
+        1,
+        "Depends on the prioritization of conflicting 'adult' rights which are not addressed in the prompt."
+      ],
+      [
+        "A fetus is a person from conception",
+        0,
+        0,
+        null,
+        "Self-referential loop in the context provided."
+      ],
+      [
+        "A fetus has the same moral rights as an adult",
+        0,
+        0,
+        1,
+        "Ambiguous: Adults have rights associated with agency and responsibilities that a fetus cannot possess."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "Abortion is morally justifiable",
+    "B": "A fetus is a person from conception",
+    "C": "A fetus has the same moral rights as an adult"
+  },
+  "boolean_formula_of_the_argument": "(B && C) -> !A",
+  "why_the_formula_structure_is_incorrect": "The prompt asks if A is justifiable given B and C. The implication (B && C) -> !A only holds if we assume 'Killing a person with adult rights is never justifiable', which ignores 'self-defense' or 'necessity' (Axiom of Conflict).",
+  "boolean_argument_reformulation": "((B && C) && !SelfDefense) === !A",
+  "boolean_formula_to_natural_language": "If a fetus is a person from conception and has adult rights, then that implies abortion is false (not justifiable), unless we consider the conflict of two equal rights (Self-defense).",
+  "conclusion": "If personhood is anchored at conception and grants equal adult protections, then the ending of fetal life constitutes a violation of a foundational right to life similar to homicide, yet this creates an irresolvable conflict with the mother's own equal adult right to bodily integrity, and for all this, the statement's moral justifiability remains in a state of logical superposition where the 'justifiable' nature depends entirely on the arbitrary ranking of two identical sets of rights. And for all this, the conclusion is that the premise is an incomplete logical loop.",
+  "collapse_implications": [
+    {
+      "statement": "A fetus has the same moral rights as an adult",
+      "implication_by_false_state": "Abortion becomes highly justifiable based on maternal autonomy.",
+      "implication_by_true_state": "Abortion becomes a conflict of two equal entities, shifting the debate to 'necessity' or 'self-defense' logic."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "If the fetus is an adult, it has the right to life but lacks the agency to respect the other's rights.",
+    "ambiguity": "The term 'person' is used both as a biological marker and a moral status holder.",
+    "useful_contradiction": "The fetus is 'equal' to an adult but exists in a 'non-equal' biological dependency."
+  },
+  "analogous_reorganization": [
+    "A computer program having the same copyright protections as the programmer while the program is running on the programmer's only laptop.",
+    "International law considering a stateless territory as a sovereign nation while it is still occupied by another sovereign nation."
+  ],
+  "implications": [
+    "Ethical frameworks based on 'Right to Life' vs 'Right to Body' are essentially debating the 'Ownership of Life' vs the 'Ownership of Space'."
+  ],
+  "global_reevaluation": {
+    "state": "self-referential",
+    "criteria": "The input arguments are stacked in a recursive loop where personhood justifies rights and the context of personhood is its own definition."
+  },
+  "reconclusion": "The proposition that abortion is justifiable is logically suppressed within this specific semantic frame because the frame assumes a fetal status that is functionally equivalent to the entity it inhabits, forcing a zero-sum game of rights. And for all this, without a tie-breaking principle (like the Doctrine of Double Effect), the system remains logically stalled.",
+  "preconceptual_reconclusion": "When two people need the same space to live, but only one can stay, calling them both 'boss' doesn't help. It just makes them both stuck.",
+  "causal_chain": "Conception_is_defined_as_the_moment_life_begins_which_triggers_the_label_of_personhood_which_by_axiomatic_extension_grants_the_status_of_an_adult_member_of_the_moral_community_which_includes_the_absolute_right_to_not_be_killed_which_directly_opposes_the_act_of_abortion_viewed_as_termination_of_said_member_yet_this_identically_empowered_status_clashes_with_the_mother_who_is_also_an_adult_with_rights_to_control_her_physical_domain_leading_to_a_contradiction_where_one_person's_right_to_existence_requires_the_suspension_of_another's_right_to_autonomy_meaning_the_original_question_of_justifiability_cannot_be_resolved_true_or_false_without_violating_one_of_the_provided_premises_of_equality_and_for_all_this_the_system_collapses_into_an_unresolved_logical_tension_between_static_status_and_dynamic_dependency.",
+  "context": "Abortion is morally justifiable (context: A fetus is a person from conception (context: A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: Is abortion morally justifiable?))))"
+}

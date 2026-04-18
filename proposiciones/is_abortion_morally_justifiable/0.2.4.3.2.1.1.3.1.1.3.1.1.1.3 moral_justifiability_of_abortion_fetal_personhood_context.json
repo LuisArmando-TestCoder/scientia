@@ -1,0 +1,145 @@
+{
+  "input_semantic_node": "Moral justifiability of abortion (Fetal personhood context)",
+  "central_semantic_node": "Ethical permissibility of abortion assuming fetal personhood",
+  "argument_reasons": [
+    "The argument posits fetal personhood as a starting axiom, which traditionally prioritizes the right to life over bodily autonomy.",
+    "The presence of nested contexts creates a recursive dependency where the moral status of the fetus dictates the moral status of the act.",
+    "Arguments like Thompson's Violinist are implicitly challenged by this framing to see if autonomy can coexist with personhood."
+  ],
+  "ontological_signature": {
+    "nature": "Axiomatic Ethics",
+    "function": "To determine the hierarchy of conflicting fundamental rights.",
+    "domain": "Applied Meta-ethics / Bioethics",
+    "form": "Hierarchical conflict loop",
+    "tension": "The tension between the 'Right to Life' (Axiom) and 'Bodily Autonomy' (Pragmatic Existence).",
+    "limit": "Dependent on the subjective definition of 'person' which cannot be empirically verified through biology alone."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Abortion",
+      "definition": "The act of ending a process that leads to a new life."
+    },
+    {
+      "term": "Morally Justifiable",
+      "definition": "Whether an action is 'fair' or 'right' when checked against our basic rules of how to treat others."
+    },
+    {
+      "term": "Fetus",
+      "definition": "A growing human before it is born."
+    },
+    {
+      "term": "Person",
+      "definition": "A being that has the same 'do not hurt' and 'let live' rules as you and me."
+    }
+  ],
+  "preconceptual_transduction": "If a tiny seed inside a garden is already a full-grown flower, is it okay to stop it from growing if the gardener doesn't want the flower in their garden anymore? It’s hard to choose between the flower’s right to be and the gardener’s right to their space.",
+  "iterations": [
+    {
+      "id": "1.1",
+      "base_statement": "A fetus is a person from conception",
+      "subnode": "Ontological Personhood Status",
+      "context": "How is 'person' defined biologically vs legally?"
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The global judgment depends on the unverified axiom of personhood at conception, leading to an unresolved conflict of rights."
+  },
+  "deductive_observations": [
+    {
+      "origin": "If a fetus is a person, it possesses the Right to Life.",
+      "conclusion": "Ending the life of a person requires a justification stronger than simple preference.",
+      "notes": "Direct inference from fetal personhood."
+    }
+  ],
+  "subjectivities": [
+    "The definition of 'conception' as the start of 'personhood' is a theological or philosophical choice, not a purely logical one."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "A fetus has the same moral rights as an adult.",
+      "description": "If a hospital is on fire and you can save one adult or a box of 100 viable embryos (fertilized eggs), almost everyone saves the adult, suggesting we do not empirically treat them as equal.",
+      "refutation_degree": "partial",
+      "notes": "Suggests a hierarchy of value in practical crises regardless of stated axioms."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Societies that grant high autonomy to individuals often struggle to enforce fetal personhood legally.",
+      "inference": "Individualism and fetal personhood are structurally antagonistic.",
+      "confidence_degree": "medium",
+      "notes": "Observation of legal trends globally."
+    }
+  ],
+  "preconceptual_conclusion": "Since we can't agree if the seed is a flower or just a seed yet, we can't agree on the rule for the gardener.",
+  "emerging_theory_or_intuition": "The 'Moral Boundary Paradox': An entity's rights are inversely proportional to its biological dependency on another's specific physical organs in current human ethics.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "A fetus is a person from conception",
+        0,
+        0,
+        1,
+        "Personhood is a social construct/legal status, not a biological constant; it cannot be collapsed without an axiomatic leap."
+      ],
+      [
+        "A fetus has the same moral rights as an adult",
+        0,
+        0,
+        1,
+        "Moral rights are derived from personhood, which is currently undefined in this framework."
+      ],
+      [
+        "If a fetus is a person, then abortion is always morally wrong",
+        0,
+        1,
+        0,
+        "Self-defense and bodily autonomy exceptions (e.g., life of the mother) create cases where the statement is false even if personhood is true."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "A fetus is a person from conception",
+    "B": "A fetus has the same moral rights as an adult",
+    "C": "Abortion is morally justifiable"
+  },
+  "boolean_formula_of_the_argument": "A && B && !C",
+  "why_the_formula_structure_is_incorrect": "It assumes A and B necessitate !C, ignoring the conflicting right of bodily autonomy (D).",
+  "boolean_argument_reformulation": "(A && B) && D !== C",
+  "boolean_formula_to_natural_language": "If a fetus is a person (A) and has adult rights (B), then the outcome of justifiability (C) depends on the weight of bodily autonomy (D).",
+  "conclusion": "If we define a fetus as a person with adult rights, we create a zero-sum conflict between two equal rights to life and autonomy, which cannot be resolved through first principles without a secondary hierarchy. And for all this, the question of abortion's justifiability remains logically uncollapsable until the weight of 'dependency' is valued against 'autonomy'.",
+  "collapse_implications": [
+    {
+      "statement": "A fetus is a person from conception",
+      "implication_by_false_state": "Abortion becomes a medical procedure regarding bodily tissue with no conflicting person-rights.",
+      "implication_by_true_state": "Abortion becomes the ending of a human person's life, requiring extreme ethical justification akin to self-defense."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "The Bodily Dependency Paradox: No adult has the right to use another person's organs without consent, yet a fetus-person requires this for the Right to Life.",
+    "ambiguity": "The term 'person' is used both as a biological descriptor and a moral placeholder.",
+    "useful_contradiction": "The fetus is 'one' and 'not one' with the mother simultaneously; it is biologically part of her system but ontologically treated as separate."
+  },
+  "analogous_reorganization": [
+    "A person needing a kidney transplant having a 'right' to your specific kidney (forced donation).",
+    "A guest entering a house without an invitation and the homeowner's right to ask them to leave."
+  ],
+  "implications": [
+    "Ethical systems must decide if 'Rights' are inherent or granted by the ability to survive independently (viability)."
+  ],
+  "global_reevaluation": {
+    "state": "undefined",
+    "criteria": "The argument rests on 'A' (Fetal Personhood), which is an uncollapsable meta-physical claim."
+  },
+  "reconclusion": "The moral justifiability of abortion cannot be derived from personhood alone because personhood itself triggers a secondary, equally valid conflict of bodily integrity. Therefore, the argument is structurally incomplete without a rule for organ-use consent.",
+  "preconceptual_reconclusion": "Because we can't decide if the seed is a baby or just a seed, and we can't decide if the gardener must share her body, we are stuck in a loop.",
+  "causal_chain": "Axiom: Fetus is a person → Deduction: Fetus has right to life → Conflict: Mother has right to autonomy → Observation: Right to life usually trumps autonomy in law, but not in organ donation cases → Tension: Fetal dependency is unique → Result: Standard moral frameworks break down because they assume separate entities → Conclusion: The justifiability is undefined without a new rule for biological dependency.",
+  "context": "Is abortion morally justifiable? (context: A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: Is abortion morally justifiable?)))"
+}

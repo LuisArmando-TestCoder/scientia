@@ -1,0 +1,143 @@
+{
+  "input_semantic_node": "Moral justifiability of abortion via personhood requirements",
+  "central_semantic_node": "Personhood-Self-Awareness Dependency in Abortion Ethics",
+  "argument_reasons": [
+    "Personhood is the primary ethical status that grants a right to life, justifying its centrality in the abortion debate.",
+    "Self-awareness is proposed as a necessary criterion for personhood, functioning as the threshold for moral consideration.",
+    "The justification for abortion hinges on whether the fetus lacks the self-awareness required to be classified as a 'person'."
+  ],
+  "ontological_signature": {
+    "nature": "Axiological-Cognitive dependency system",
+    "function": "To define the moral limits of biological life based on mental states.",
+    "domain": "Ethics, Meta-ethics, Cognitive Science",
+    "form": "Hierarchical syllogism",
+    "tension": "Potentiality vs. Actuality: The tension between a being that acts with self-awareness and a being that has the potential to develop it.",
+    "limit": "Restricted by the definition of 'person' and the biological timing of cognitive emergence."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Personhood",
+      "definition": "The status of being a member of the moral community with high-level rights."
+    },
+    {
+      "term": "Self-awareness",
+      "definition": "The ability to recognize oneself as a distinct individual existing through time."
+    },
+    {
+      "term": "Moral justifiability",
+      "definition": "The quality of an action being permissible within a consistent ethical framework."
+    }
+  ],
+  "preconceptual_transduction": "Before we say a bird is special because it can fly, it has to actually know it is a bird and understand it has wings. If it isn't 'awake' inside yet, it isn't a person-pilot yet, making it okay to change the nest.",
+  "iterations": [
+    {
+      "id": "1.1.1",
+      "base_statement": "The exact moment self-awareness emerges in the womb",
+      "subnode": "Pre-reflective Consciousness Threshold",
+      "context": "Neuro-biological development versus subjective experience."
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The argument relies on a specific philosophical definition of 'person' (Lockean) which is contested by other ontological frameworks (substantial change), leading to an unresolved semantic bottleneck."
+  },
+  "deductive_observations": [
+    {
+      "origin": "If Personhood (P) → Self-awareness (S)",
+      "conclusion": "Lack of Self-awareness (¬S) → Lack of Personhood (¬P)",
+      "notes": "Direct contrapositive proof assuming the initial premise is exhaustive."
+    }
+  ],
+  "subjectivities": [
+    "The definition of 'Person' is not a biological fact but a social/philosophical construct.",
+    "Levels of 'awareness' are subjective and difficult to measure empirically in non-verbal subjects."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "Personhood requires self-awareness.",
+      "description": "Individuals in deep, temporary sleep or under anesthesia lack active self-awareness but retain personhood and the right to life.",
+      "refutation_degree": "partial",
+      "notes": "Suggests personhood might reside in the capacity for consciousness rather than its immediate exercise."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Legal systems often treat entities with higher cognitive functions with greater complexity than those without.",
+      "inference": "Societies tend to align moral value with cognitive complexity.",
+      "confidence_degree": "high",
+      "notes": "Supports the link between awareness and rights but doesn't solve the timing issue."
+    }
+  ],
+  "preconceptual_conclusion": "Because we can't find the 'light switch' for the mind exactly, the rule about being 'awake' is still a bit fuzzy.",
+  "emerging_theory_or_intuition": "Personhood is not a static property but a dynamic state achieved through neural integration, implying a gradualist rather than binary moral status.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "Personhood requires self-awareness in the context of abortion ethics.",
+        0,
+        0,
+        1,
+        "It is undefined because it depends on whether personhood is viewed as an intrinsic property of the soul/organism (true) or a social/cognitive performance (false)."
+      ],
+      [
+        "Termination is permissible if personhood is absent.",
+        1,
+        0,
+        0,
+        "By definition, if an entity has no moral standing as a person, it lacks the specific right-to-life claim that creates the moral conflict."
+      ],
+      [
+        "Fetal self-awareness is present at the moment of conception.",
+        0,
+        1,
+        0,
+        "Neurological structures required for any form of awareness (thalamocortical loops) do not exist at conception; this is empirically false."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "Personhood requires self-awareness in the context of abortion ethics.",
+    "B": "The fetus lacks self-awareness.",
+    "C": "Abortion is morally justifiable."
+  },
+  "boolean_formula_of_the_argument": "(A && B) -> C",
+  "why_the_formula_structure_is_incorrect": "The formula assumes that the lack of personhood (A && B) automatically grants moral justifiability (C), ignoring other ethical constraints like potentiality or the moral status of non-persons.",
+  "boolean_argument_reformulation": "((A && B) && !ExistentialOverride) -> C",
+  "boolean_formula_to_natural_language": "If Personhood requires self-awareness and the fetus lacks it, then that implies abortion is morally justifiable provided no other moral duties override the lack of personhood.",
+  "conclusion": "If personhood is defined by the manifestation of self-awareness (Locke, Tooley), and biological development confirms the absence of this state in early gestation (Royal College of Obstetricians and Gynaecologists), then the entity does not possess the moral right to life associated with personhood, and for all this, the conclusion is that abortion is morally permissible when the criteria for personhood remain unmet and no alternative moral axioms (e.g., potentiality) are accepted as superior.",
+  "collapse_implications": [
+    {
+      "statement": "Personhood requires self-awareness in the context of abortion ethics.",
+      "implication_by_false_state": "If personhood does not require self-awareness, then the fetus may be a person from conception, making abortion equivalent to the termination of any other human life.",
+      "implication_by_true_state": "If personhood does require self-awareness, then abortion is clearly justifiable in all stages where such awareness is absent."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "The Potentiality Paradox: A fetus is potentially a person, but to treat it as a person now is to grant rights based on a future state that may only exist because the rights were granted.",
+    "ambiguity": "The term 'self-awareness' ranges from simple sentience to complex self-reflection.",
+    "useful_contradiction": "The 'Sleep' contradiction: We protect sleeping persons who aren't self-aware, forcing us to redefine personhood as a 'persistent capacity' rather than a 'continuous act'."
+  },
+  "analogous_reorganization": [
+    "A computer that hasn't been programmed with an OS vs. a computer running AI; both are hardware, but only one is an 'agent'.",
+    "A seed vs. a tree; property laws for a forest do not necessarily apply to a bag of seeds."
+  ],
+  "implications": [
+    "Ethical rights are not inherent in DNA but in the 'software' of consciousness.",
+    "The protection of 'persons' is a protection of 'interests', and without awareness, no interests can be subjectively held."
+  ],
+  "global_reevaluation": {
+    "state": "undefined",
+    "criteria": "The argument is logically sound but empirically and ontologically dependent on the unverified axiom that self-awareness is the *only* gateway to personhood."
+  },
+  "reconclusion": "The moral justifiability of abortion is logically secured under a cognitive-functionalist definition of personhood; however, because the shift from 'biological human' to 'moral person' relies on an axiomatic choice rather than a discovered fact, the conclusion remains stable only within specific secular-rationalist frameworks.",
+  "preconceptual_reconclusion": "Since we haven't all agreed on when the 'person' inside starts, the answer depends on whether you value the 'body-house' or the 'ghost-owner' more.",
+  "causal_chain": "Abortion moral justifiability depends on the presence of a right-to-life which is exclusive to persons and personhood is defined by the unique capacity for self-awareness which requires specific neuro-thalamocortical architecture that is absent in early fetal development therefore a fetus lacks the necessary conditions for personhood in early stages which implies it does not possess a right-to-life equivalent to an adult human thus making the termination of the pregnancy not a violation of personal rights and for all this the act is morally justifiable within a consistent cognitive-rights framework.",
+  "context": "Personhood requires self-awareness. (context: The moral justifiability of abortion is dependent on personhood (context: Is abortion morally justifiable?))"
+}

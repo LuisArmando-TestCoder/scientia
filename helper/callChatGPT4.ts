@@ -1,12 +1,6 @@
 import log from "./log.ts";
 
-/**
- * Default OpenAI API endpoint.
- * NOTE: The actual endpoint used may be overridden by Azure environment variables at runtime.
- * See the logic in callGPT4 for details.
- */
-const API_ENDPOINT = "https://api.openai.com/v1/chat/completions";
-const MODEL_NAME = "gpt-4.1";
+const MODEL_NAME = "google/gemini-3-flash-preview";
 
 const MAX_RATE_LIMIT_WAIT_MS = 60000;
 const DEFAULT_RETRY_DELAY_MS = 500;
@@ -83,7 +77,7 @@ function buildChatMessages(
 
   return [
     // Use 'system' role for instructions if 'developer' isn't reliably handled
-    { role: "developer", content: developerPrompt },
+    { role: "system", content: developerPrompt },
     { role: "user", content: userBody },
   ];
 }
@@ -305,11 +299,7 @@ function stripDefensePrefix(content: string, prefix: string): string {
 // --- Main Exported Function ---
 
 /**
- * Creates a configured function to securely call the OpenAI or Azure OpenAI API.
- * If Azure environment variables are set, uses Azure OpenAI; otherwise, uses OpenAI.
- */
-/**
- * Returns an async tagged template function that calls OpenAI/Azure OpenAI using the API key from getFallBackAuth.
+ * Returns an async tagged template function that calls OpenRouter using the API key.
  * Usage: const gptCall = await callGPT4(); await gptCall`your prompt`;
  */
 export async function callGPT4(maxAttempts: number = 5) {
@@ -317,11 +307,8 @@ export async function callGPT4(maxAttempts: number = 5) {
     throw new Error("maxAttempts must be greater than 0.");
   }
 
-  // Get the OpenAI API key from environment variable
-  let openAiApiKey: string | undefined;
-  let azureEndpoint: string | undefined;
-  let azureDeployment: string | undefined;
-  let azureApiVersion: string | undefined;
+  // Get the OpenRouter API key from environment variable
+  let openRouterApiKey: string | undefined;
   try {
     const env =
       typeof globalThis !== "undefined" &&
@@ -329,20 +316,14 @@ export async function callGPT4(maxAttempts: number = 5) {
       typeof (globalThis as any).Deno.env !== "undefined"
         ? (globalThis as any).Deno.env
         : undefined;
-    openAiApiKey = env?.get?.("OPENAI_API_KEY");
-    azureEndpoint = env?.get?.("AZURE_OPENAI_ENDPOINT");
-    azureDeployment = env?.get?.("AZURE_OPENAI_DEPLOYMENT");
-    azureApiVersion = env?.get?.("AZURE_OPENAI_API_VERSION");
+    openRouterApiKey = env?.get?.("OPENROUTER_API_KEY");
   } catch {
     // Ignore if not running in Deno or no env access
   }
 
-  if (!openAiApiKey) {
-    throw new Error("OPENAI_API_KEY environment variable is required.");
+  if (!openRouterApiKey) {
+    throw new Error("OPENROUTER_API_KEY environment variable is required.");
   }
-
-  const useAzure =
-    azureEndpoint && azureDeployment && azureApiVersion;
 
   /**
    * The asynchronous template literal tag function that executes the secure API call.
@@ -357,36 +338,19 @@ export async function callGPT4(maxAttempts: number = 5) {
     let lastError: Error | undefined;
     let finalContent: string | undefined;
 
-    // Determine endpoint, headers, and body based on Azure/OpenAI
-    let endpoint: string;
-    let headers: Record<string, string>;
-    let body: any;
-
-    if (useAzure) {
-      // Azure OpenAI endpoint
-      endpoint = `${azureEndpoint}/openai/deployments/${azureDeployment}/chat/completions?api-version=${azureApiVersion}`;
-      headers = {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-        "api-key": openAiApiKey,
-      };
-      body = { messages: messages };
-      // Do NOT include "model" in body for Azure; deployment is in URL
-    } else {
-      // OpenAI endpoint
-      endpoint = API_ENDPOINT;
-      headers = {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-        Authorization: `Bearer ${openAiApiKey}`,
-      };
-      body = { model: MODEL_NAME, messages: messages };
-    }
+    const endpoint = "https://openrouter.ai/api/v1/chat/completions";
+    const headers = {
+      "Authorization": `Bearer ${openRouterApiKey}`,
+      "HTTP-Referer": "https://github.com/LuisArmando-TestCoder/scientia",
+      "X-OpenRouter-Title": "Oriens Omni",
+      "Content-Type": "application/json"
+    };
+    const body = {
+      model: MODEL_NAME,
+      messages: messages
+    };
 
     for (let attempt = 1; attempt <= maxAttempts; attempt++) {
-      // log(
-      //   `Attempt ${attempt}/${maxAttempts}: Calling ${useAzure ? "Azure OpenAI" : "OpenAI"} API using defense prefix: ${defensePrefix}`
-      // );
       try {
         const response = await fetch(endpoint, {
           method: "POST",
@@ -394,46 +358,30 @@ export async function callGPT4(maxAttempts: number = 5) {
           body: JSON.stringify(body),
         });
 
-        // Log the raw response text for debugging
         const rawText = await response.clone().text();
-        // log(`[callChatGPT4] Raw response text (attempt ${attempt}): ${rawText}`);
 
         let result: ApiResponseResult;
         try {
-          // Try to parse as JSON and handle as usual
           result = await handleApiResponse(response, attempt, maxAttempts);
         } catch (parseError) {
-          // log(`[callChatGPT4] Error parsing response JSON (attempt ${attempt}): ${parseError instanceof Error ? parseError.message : String(parseError)}`);
-          // log(`[callChatGPT4] Raw response for failed parse: ${rawText}`);
           throw parseError;
         }
 
-        // Log the parsed result as JSON
-        // log(`[callChatGPT4] Parsed API result (attempt ${attempt}): ${JSON.stringify(result)}`);
-
         if (result.content !== undefined) {
           finalContent = stripDefensePrefix(result.content, defensePrefix);
-          // log(`[callChatGPT4] Final content (prefix stripped): ${JSON.stringify(finalContent)}`);
           break; // Success
         } else if (result.waitMs !== undefined) {
-          lastError =
-            result.retryableError || new Error("Rate limit encountered");
+          lastError = result.retryableError || new Error("Rate limit encountered");
           await sleep(result.waitMs);
           continue; // Retry
         } else if (result.error) {
-          // log(`[callChatGPT4] API error: ${result.error.message}`);
           throw result.error; // Non-retryable API/parsing error
         } else {
-          // log(`[callChatGPT4] Invalid state from handleApiResponse`);
           throw new Error("Invalid state from handleApiResponse");
         }
-      } catch (error) {
-        // log(
-        //   `[callChatGPT4] Error during API call attempt ${attempt}/${maxAttempts}: ${error instanceof Error ? error.message : String(error)}`
-        // );
+      } catch (error: any) {
         lastError = error instanceof Error ? error : new Error(String(error));
         if (attempt === maxAttempts) {
-          // log(`[callChatGPT4] Exhausted all ${maxAttempts} attempts. Last error: ${lastError.message}`);
           throw new Error(
             `Exhausted all ${maxAttempts} attempts. Last error: ${lastError.message}`,
             { cause: lastError }
@@ -444,7 +392,6 @@ export async function callGPT4(maxAttempts: number = 5) {
     } // End retry loop
 
     if (finalContent === undefined) {
-      // log(`[callChatGPT4] API call failed after ${maxAttempts} attempts. Last error: ${lastError?.message ?? "Unknown error"}`);
       throw new Error(
         `API call failed after ${maxAttempts} attempts. Last error: ${
           lastError?.message ?? "Unknown error"
@@ -453,7 +400,6 @@ export async function callGPT4(maxAttempts: number = 5) {
       );
     }
 
-    // log("Returning final API response content (prefix stripped if detected).");
     return finalContent;
   };
 }

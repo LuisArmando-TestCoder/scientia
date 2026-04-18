@@ -1,0 +1,145 @@
+{
+  "input_semantic_node": "Rights are only for persons",
+  "central_semantic_node": "The Personal Limit of Rights",
+  "argument_reasons": [
+    "The statement establishes a restrictive boundary for the application of legal and moral protections, identifying the quality of 'personhood' as the necessary and sufficient condition for possessing rights."
+  ],
+  "ontological_signature": {
+    "nature": "Axiomatic legal principle",
+    "function": "To define the eligible subjects of juridical protection.",
+    "domain": "Jurisprudence, Ethics, Ontology",
+    "form": "Exclusionary boundary",
+    "tension": "The definition of 'person' is historically fluid and scientifically porous (e.g., corporations vs. great apes).",
+    "limit": "Depends entirely on the socio-legal definition of 'person'."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Rights",
+      "definition": "Shields or permissions given by a group to keep an individual safe or free."
+    },
+    {
+      "term": "Only",
+      "definition": "A lock that keeps everyone else out; a strict limit."
+    },
+    {
+      "term": "Persons",
+      "definition": "The name we give to beings that the rules agree to care about."
+    }
+  ],
+  "preconceptual_transduction": "Imagine a special club where only those with a 'person' sticker get to have magic shields. If you don't have the sticker, the shields don't work for you.",
+  "iterations": [
+    {
+      "id": "1.1",
+      "base_statement": "The definition of 'person' is stable and universal.",
+      "subnode": "Semantic Instability of Personhood",
+      "context": "If rights are tied to personhood, and personhood is undefined or shifting, the distribution of rights becomes chaotic."
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The argument is a tautology that relies on a variable (person) which lacks a fixed ontological anchor across different legal and biological systems."
+  },
+  "deductive_observations": [
+    {
+      "origin": "If P (Person), then R (Rights).",
+      "conclusion": "Non-persons (!P) possess no rights (!R).",
+      "notes": "Direct implication of the restrictive 'only'."
+    }
+  ],
+  "subjectivities": [
+    "The definition of 'person' varies by culture, religion, and legal jurisdiction (e.g., fetuses, corporations, AI, animals)."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "Rights are only for persons",
+      "description": "Animal welfare laws in some jurisdictions grant 'rights' to non-human animals without labeling them 'persons'.",
+      "refutation_degree": "partial",
+      "notes": "Often categorized as 'protections' rather than 'rights', but creates an overlap."
+    },
+    {
+      "refuted_statement": "Rights are only for persons",
+      "description": "Environmental laws granting legal 'rights' to rivers (e.g., Whanganui River) or ecosystems.",
+      "refutation_degree": "partial",
+      "notes": "Legal fiction creates a 'personhood' status for non-biological entities."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Historical expansion of the 'person' category (slaves, women, minorities).",
+      "inference": "Personhood is a moving target used to gatekeep resources/protections.",
+      "confidence_degree": "high",
+      "notes": "Indicates that the statement is a tool for power dynamics."
+    }
+  ],
+  "preconceptual_conclusion": "The shield club keeps changing who gets a sticker, so the rule about stickers is just a way to decide who to leave out.",
+  "emerging_theory_or_intuition": "Rights are not inherent to personhood; rather, 'personhood' is a legal tag applied to entities we decide deserve rights.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "Rights are only for persons",
+        0,
+        0,
+        1,
+        "The statement is a circular definition; if 'rights' defines 'person' and 'person' defines 'rights', the origin point is undefined."
+      ],
+      [
+        "The category of 'person' is strictly biological",
+        0,
+        1,
+        0,
+        "Legal systems recognize corporations as 'persons', proving personhood is a legal fiction independent of biology."
+      ],
+      [
+        "Non-persons can be protected by law",
+        1,
+        0,
+        0,
+        "Evidence exists in animal abuse or environmental protection statutes."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "Rights are only for persons",
+    "B": "Personhood is an inclusive category for all entities with rights",
+    "C": "Non-persons possess legal protections"
+  },
+  "boolean_formula_of_the_argument": "A === (B && !C)",
+  "why_the_formula_structure_is_incorrect": "The original statement A is used to exclude C, but if C is true, A must be false unless B is expanded to include C, which makes the 'only' in A redundant.",
+  "boolean_argument_reformulation": "A === (B && !C)",
+  "boolean_formula_to_natural_language": "If personhood includes all right-holders and no non-persons have protections, then the statement 'Rights are only for persons' is true.",
+  "conclusion": "If personhood is a prerequisite for rights, but personhood itself is a social construct rather than a biological certainty, then the statement is a circular gatekeeping mechanism rather than a natural law, as evidenced by the legal personhood of corporations (Citizens United v. FEC) and the emerging rights of nature, and for all this rights are not found within the person, but the person is found within the rights. and for all this the statement is a tautological boundary used for administrative exclusion rather than a reflection of ontological reality.",
+  "collapse_implications": [
+    {
+      "statement": "Rights are only for persons",
+      "implication_by_false_state": "Rights become universal properties of 'existence' or 'consciousness' regardless of the 'person' label.",
+      "implication_by_true_state": "The definition of 'person' becomes the primary battlefield for all moral and legal disputes."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "To define a person, you must first define what rights they have; but to grant rights, you must first have a person.",
+    "ambiguity": "Is 'person' a biological fact or a legal status?",
+    "useful_contradiction": "A corporation is a person but cannot go to jail; a human is a person but can lose rights (felons, etc.)."
+  },
+  "analogous_reorganization": [
+    "A digital key (right) that only works for authorized users (persons), where 'authorized' is a list created by the system admin."
+  ],
+  "implications": [
+    "If AI is granted rights, it must be labeled a person, regardless of lack of biology.",
+    "If rights are removed from a human, they are effectively 'un-personed' in the eyes of the law."
+  ],
+  "global_reevaluation": {
+    "state": "self-referential",
+    "criteria": "The statement relies on a mutually recursive definition of 'rights' and 'personhood' that lacks an external grounding."
+  },
+  "reconclusion": "The proposition 'Rights are only for persons' is a functional tautology: it defines the boundaries of its own application by assigning labels to the entities it chooses to protect, rendering the 'person' a vessel for rights rather than rights a consequence of being a person.",
+  "preconceptual_reconclusion": "The rule is just a fancy way of saying: 'We will only help the things we say we will help.' It doesn't tell us why we choose them.",
+  "causal_chain": "Rights_require_a_subject_to_hold_them_leading_to_the_creation_of_the_label_person_as_a_container_for_entitlements_which_requires_a_selection_process_based_on_current_values_thus_personhood_becomes_a_legal_fiction_rather_than_a_biological_one_as_seen_in_corporate_personhood_meaning_that_if_nature_or_AI_is_protected_it_is_absorbed_into_personhood_making_the_statement_always_true_but_trivial_because_the_label_follows_the_right_and_for_all_this_personhood_is_merely_the_name_of_the_circle_we_draw_around_things_we_want_to_protect.",
+  "context": "Rights are only for persons"
+}

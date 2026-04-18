@@ -1,0 +1,148 @@
+{
+  "input_semantic_node": "Moral status requires cognitive capacity (Abortion context)",
+  "central_semantic_node": "Cognitive-Moral Dependency",
+  "argument_reasons": [
+    "Moral status is generally defined by the possession of certain interests or rights, which are often cited as being dependent on the ability to experience or process reality (Cognitivism).",
+    "The counter-argument suggests potentiality or biological humanity as alternate foundations for moral status, independent of current cognitive function (Vitalism/Potentialism)."
+  ],
+  "ontological_signature": {
+    "nature": "Axiological dependency principle",
+    "function": "To define the entry criteria for the moral community.",
+    "domain": "Ethics, Bioethics, Philosophy of Mind",
+    "form": "Conditional gatekeeping structure",
+    "tension": "The gap between 'potential to know' and 'actualized knowing'.",
+    "limit": "Vulnerability to the 'argument from marginal cases' (infants, comatose patients)."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Moral status",
+      "definition": "Being a member of the 'everyone matters' club where your feelings and life are protected by rules."
+    },
+    {
+      "term": "Cognitive capacity",
+      "definition": "The brain power to think, feel pain, or know that you are you."
+    },
+    {
+      "term": "Justifiable",
+      "definition": "Having a good enough reason that makes an action okay to do."
+    }
+  ],
+  "preconceptual_transduction": "If a house is empty and has no one living inside to feel happy or sad, is it still a 'home' that we must protect, or is it just a pile of bricks until someone moves in?",
+  "iterations": [
+    {
+      "id": "1.1.1",
+      "base_statement": "Moral status requires cognitive capacity",
+      "subnode": "Functional Ontological Threshold",
+      "context": "Is there a specific 'turning point' where a brain becomes a person, or is it a slow fade-in?"
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The argument rests on a 'personhood' definition that is not universally settled in biology or law, leading to an unresolved paradox between functionalism and potentialism."
+  },
+  "deductive_observations": [
+    {
+      "origin": "If moral status requires cognitive capacity (P), and a fetus at stage X lacks cognitive capacity (Q), then the fetus lacks moral status (!P).",
+      "conclusion": "Abortion is justifiable if the fetus has not reached the cognitive threshold.",
+      "notes": "Depends entirely on where the threshold is set (sentience vs. self-awareness)."
+    }
+  ],
+  "subjectivities": [
+    "The definition of 'cognitive' ranges from simple pain reflex to complex self-reflection.",
+    "The value assigned to 'potentiality' is a moral choice, not a logical-mathematical certainty."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "Moral status requires cognitive capacity.",
+      "description": "A person in a temporary deep sleep or reversible coma lacks active cognitive capacity but retains moral status.",
+      "refutation_degree": "partial",
+      "notes": "Forces a distinction between 'active capacity' and 'dispositional property'."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Societies generally grant more legal protection as fetal neurodevelopment increases (e.g., 24-week limits).",
+      "inference": "The world acts as if cognitive development increases the 'weight' of moral status.",
+      "confidence_degree": "high",
+      "notes": "Reflects a consensus on sentience as a pragmatic moral anchor."
+    }
+  ],
+  "preconceptual_conclusion": "We care about things that can feel; if it can't feel or think yet, the rules might be different, but we are scared of being wrong because it will be able to feel later.",
+  "emerging_theory_or_intuition": "Gradualism: Moral status is not a light switch (On/Off) but a dimmer switch that brightens as the nervous system connects.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "Moral status requires cognitive capacity in the context of abortion",
+        0,
+        0,
+        1,
+        "The requirement is a philosophical stance, not a biological law; diverse systems use different anchors."
+      ],
+      [
+        "A fetus at 8 weeks lacks 'cognitive capacity' as self-awareness",
+        1,
+        0,
+        0,
+        "Neurological structures for self-awareness are not yet formed at this duration."
+      ],
+      [
+        "Abortion is justifiable if the fetus has no moral status",
+        1,
+        0,
+        0,
+        "Logically, if an entity has no status, its termination requires no moral defense beyond the mother's autonomy."
+      ],
+      [
+        "Potential for cognition is equivalent to actual cognition",
+        0,
+        1,
+        0,
+        "A potential thing is not yet the thing it will become; a seed is not yet a tree."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "Moral status requires cognitive capacity in the context of abortion",
+    "B": "A fetus at 8 weeks lacks 'cognitive capacity' as self-awareness",
+    "C": "Abortion is justifiable if the fetus has no moral status"
+  },
+  "boolean_formula_of_the_argument": "A && B && C",
+  "why_the_formula_structure_is_incorrect": "The formula assumes 'A' is a settled truth, but 'A' is the point of contention.",
+  "boolean_argument_reformulation": "(A && B) -> C",
+  "boolean_formula_to_natural_language": "If Moral status requires cognitive capacity and a fetus lacks it, then that implies the statement abortion is justifiable is true.",
+  "conclusion": "If we define personhood by the presence of a functional mind capable of experience, then a pre-sentient fetus lacks the essential attributes of a moral subject, making abortion justifiable by the absence of a victim, and for all this, moral status is an emergent property of neural complexity rather than a static quality of biological life.",
+  "collapse_implications": [
+    {
+      "statement": "Moral status requires cognitive capacity in the context of abortion",
+      "implication_by_false_state": "Abortion becomes harder to justify based on the 'sacredness' of biological life alone.",
+      "implication_by_true_state": "Abortion is clearly justifiable until the moment of sentience or brain activity."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "The Potentiality Paradox: Does a future person have rights in the present?",
+    "ambiguity": "The exact 'line' in gestation where cognition starts.",
+    "useful_contradiction": "The fetus is 'human' (species) but not yet a 'person' (social/moral agent)."
+  },
+  "analogous_reorganization": [
+    "The 'Brain Death' criterion: when a mind leaves, the body loses moral personhood; similarly, before a mind arrives, is personhood present?"
+  ],
+  "implications": [
+    "Legal frameworks will likely shift toward neuro-centric definitions of life.",
+    "Artificial Intelligence with cognitive capacity might eventually claim 'moral status' under this same logic."
+  ],
+  "global_reevaluation": {
+    "state": "undefined",
+    "criteria": "The conclusion depends on the axiomatic choice between 'Life as Biology' and 'Life as Mind'."
+  },
+  "reconclusion": "The justification of abortion rests on the 'Functionalist' axiom that moral status is earned through the manifestation of consciousness; while biologically human, the early fetus lacks the cognitive architecture to anchor 'interests', therefore rendering the act of abortion a non-moral event regarding the fetus itself until the point of sentience.",
+  "preconceptual_reconclusion": "It's like waiting for a computer to turn on. Before the screen is bright and the programs start, it's just a box. It's only a computer you can play with once the power is on.",
+  "causal_chain": "Biological life begins at conception but moral personhood is a subset of life defined by internal experience. Internal experience is a product of brain complexity. Brain complexity develops over time. Therefore, early-stage fetuses lack the hardware for experience. If there is no experience, there is no 'someone' to be harmed. If there is no 'someone' to be harmed, the moral weight shifts entirely to the existing person carrying it. Thus, abortion is justifiable before the 'light' of the mind turns on because you cannot hurt a mind that does not yet exist.",
+  "context": "Moral status requires cognitive capacity (context: Is abortion morally justifiable?)"
+}

@@ -1,0 +1,144 @@
+{
+  "input_semantic_node": "Moral status and personhood in abortion",
+  "central_semantic_node": "Personhood-dependent moral ontology",
+  "argument_reasons": [
+    "Premise 1: Moral rights are exclusively derived from the status of and definition of personhood.",
+    "Premise 2: A fetus lacks the necessary criteria (consciousness, self-awareness, etc.) to be defined as a person.",
+    "Logical Bridge: If rights require personhood and the subject lacks personhood, rights are non-existent.",
+    "Conclusion: Under these constraints, the act is justifiable due to the absence of a rights-bearing entity."
+  ],
+  "ontological_signature": {
+    "nature": "Axiomatic ethical framework",
+    "function": "To establish a hierarchy of moral consideration based on cognitive/ontological status.",
+    "domain": "Meta-ethics, Bioethics, Ontological Jurisprudence.",
+    "form": "Conditional logical syllogism.",
+    "tension": "The gap between biological humanity (species membership) and functional personhood (cognitive performance).",
+    "limit": "Dependent on the specific, often arbitrary, criteria used to define 'person'."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Personhood",
+      "definition": "The 'special club' of thinkers who have feelings and know they exist."
+    },
+    {
+      "term": "Moral Rights",
+      "definition": "Invisible shields that stop others from hurting you because you matter."
+    },
+    {
+      "term": "Justifiable",
+      "definition": "When an action is okay to do because there is a good reason that fits the rules."
+    }
+  ],
+  "preconceptual_transduction": "If only members of the 'Thinkers Club' have special shields, and someone isn't in the club yet, the shields don't work for them, so we can make choices about them without breaking the club rules.",
+  "iterations": [
+    {
+      "id": "1.1",
+      "base_statement": "The definition of personhood is absolute",
+      "subnode": "Criteria Indeterminacy",
+      "context": "Whose list of 'thinker traits' do we use to decide who gets a shield?"
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The argument is structurally valid but rests on a non-universalized premise of what constitutes a 'person', leading to computational irreducibility in pluralistic moral systems."
+  },
+  "deductive_observations": [
+    {
+      "origin": "Personhood is the sole source of moral rights.",
+      "conclusion": "Non-persons (animals, brain-dead humans, fetuses) have zero inherent moral rights.",
+      "notes": "Direct implication of exclusivity ('sole source')."
+    }
+  ],
+  "subjectivities": [
+    "Selection of cognitive vs. biological markers for personhood.",
+    "Valuation of potentiality versus actuality."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "Personhood is the sole source of moral rights.",
+      "description": "Cruelty to animals or infants who may temporarily lacks 8th-grade level 'personhood' markers is still widely considered a rights violation.",
+      "refutation_degree": "partial",
+      "notes": "Suggests moral status might be broader than 'personhood'."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Societies shift rights boundaries based on expanding empathy.",
+      "inference": "Personhood is a moving target, not a fixed ontological anchor.",
+      "confidence_degree": "high",
+      "notes": "Historical expansion of rights to previously excluded groups."
+    }
+  ],
+  "preconceptual_conclusion": "The idea works only if we all agree on who gets into the special club; if we don't agree on the list, the shield rules don't help much.",
+  "emerging_theory_or_intuition": "Functionalist Reductionism: Rights are not inherent but are social contracts awarded to entities displaying specific cognitive recursive outputs.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "Personhood is the sole source of moral rights",
+        0,
+        0,
+        1,
+        "The link between 'person' and 'rights' is a social construct, not a physical law, making it subjective."
+      ],
+      [
+        "Abortion is justifiable if personhood is absent",
+        1,
+        0,
+        0,
+        "Logically follows from the first premise's exclusivity."
+      ],
+      [
+        "The moral justifiability of abortion is dependent on personhood",
+        0,
+        0,
+        1,
+        "Depends on whether other factors like 'sanctity of life' are axiomatically introduced."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "Personhood is the sole source of moral rights",
+    "B": "A fetus possesses personhood",
+    "C": "Abortion is justifiable"
+  },
+  "boolean_formula_of_the_argument": "A && !B === C",
+  "why_the_formula_structure_is_incorrect": "The formula assumes 'A' is an absolute truth rather than a conditional premise.",
+  "boolean_argument_reformulation": "(A && !B) -> C",
+  "boolean_formula_to_natural_language": "If personhood is the only source of rights and a fetus is not a person, then it follows that ending the pregnancy does not violate rights and is justifiable.",
+  "conclusion": "If rights are contingent on cognitive performance (A) and the biological subject lacks that performance (B), then no rights-violation can occur (C), and for all this the justifiability of the act is a logical necessity within a functionalist framework, yet remains a floating variable in any system where 'life' is an independent axiom. In a single line.",
+  "collapse_implications": [
+    {
+      "statement": "Personhood is the sole source of moral rights",
+      "implication_by_false_state": "Abortion may be unjustifiable even if the fetus is not a person.",
+      "implication_by_true_state": "The entire argument for abortion hinges solely on the biological/cognitive definition of the fetus."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "To define a person, a 'person' must first exist to create the definition, making the source of rights self-referential.",
+    "ambiguity": "The threshold of 'presence' (at what second does a set of neurons become a person?).",
+    "useful_contradiction": "A fetus is 'human' (biological) but not a 'person' (legal/moral), creating a split between nature and law."
+  },
+  "analogous_reorganization": [
+    "A computer being upgraded: we don't care about the old hardware unless it has 'data' (personhood) worth saving.",
+    "A corporate entity: it has legal rights only because we define it as a 'person' for specific functional reasons."
+  ],
+  "implications": [
+    "Rights are precarious and can be removed if a subject loses their cognitive 'personhood' (e.g., dementia).",
+    "Moral status is earned/attained rather than inherent."
+  ],
+  "global_reevaluation": {
+    "state": "undefined",
+    "criteria": "The argument is a perfect closed loop that fails when the external axiom of 'Personhood' is challenged by biological or potentialist counter-arguments."
+  },
+  "reconclusion": "The moral justifiability of abortion within this framework is a rigorous deduction from a functionalist axiom; however, because the axiom 'Personhood = Rights' is a choice and not a discovery, the conclusion remains an instrumental truth rather than an absolute moral fact.",
+  "preconceptual_reconclusion": "If we say only big kids get toys, then it's okay to take a toy from someone who isn't a big kid yet, but we have to be very sure we know exactly when a kid becomes 'big'.",
+  "causal_chain": "Axiom: Moral rights require an entity to possess self-awareness (Personhood) -> Observation: A fetus lacks the neurological architecture for self-awareness -> Deduction: A fetus does not meet the criteria for personhood -> Application: Therefore, a fetus does not possess moral rights -> Conclusion: Consequently, the termination of a fetus does not constitute a violation of rights -> Final Justification: Abortion is therefore morally justifiable from a personhood-based rights perspective because no权利-bearing subject is harmed.",
+  "context": "Personhood is the sole source of moral rights (context: Abortion is justifiable if personhood is absent. (context: The moral justifiability of abortion is dependent on personhood (context: Is abortion morally justifiable?)))"
+}

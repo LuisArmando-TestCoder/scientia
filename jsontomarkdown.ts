@@ -15,9 +15,9 @@ export function jsonToMarkdown(input: any, headingLevel = 2): string {
     const h = (lvl: number) => "#".repeat(lvl);
   
     const isPrimitive = (v: any) => v === null || typeof v !== "object";
-    const allArrays = (arr: any[]) => arr.every(Array.isArray);
+    const allArrays = (arr: any[]) => arr.length > 0 && arr.every(Array.isArray);
     const sameKeys = (arr: any[]) =>
-      arr.length &&
+      arr.length > 0 &&
       arr.every(
         (o) =>
           typeof o === "object" &&
@@ -46,7 +46,8 @@ export function jsonToMarkdown(input: any, headingLevel = 2): string {
     };
   
     const tblMatrix = (arr: any[]) => {
-      const cols = Math.max(...arr.map((r: any[]) => r.length));
+      const cols = Math.max(0, ...arr.map((r: any[]) => r.length));
+      if (cols === 0) return "";
       const head = `| ${Array.from({ length: cols }, (_, i) => `col${i + 1}`).join(
         " | ",
       )} |`;
@@ -88,21 +89,22 @@ export function jsonToMarkdown(input: any, headingLevel = 2): string {
         .map(([k, v]: [string, any]) => { // Explicitly type k and v here
           const pad = "  ".repeat(depth);
   
-          // PRIORIDAD alta: manejar {columnas, filas}
-          if (
-            v !== null && // Add this check
-            typeof v === "object" &&
-            !Array.isArray(v) &&
-            "columnas" in v &&
-            "filas" in v &&
-            Array.isArray((v as any).columnas) &&
-            Array.isArray((v as any).filas)
-          ) {
+        // PRIORIDAD alta: manejar {columnas, filas} o {columns, rows}
+        if (
+          v !== null && // Add this check
+          typeof v === "object" &&
+          !Array.isArray(v) &&
+          (("columnas" in v && "filas" in v) || ("columns" in v && "rows" in v))
+        ) {
+          const cols = (v as any).columnas || (v as any).columns;
+          const rws = (v as any).filas || (v as any).rows;
+          if (Array.isArray(cols) && Array.isArray(rws)) {
             return `${pad}- **${k}**:\n\n${tblGeneric(
-              (v as any).columnas,
-              (v as any).filas,
+              cols,
+              rws,
             )}`;
           }
+        }
   
           if (isPrimitive(v)) return `${pad}- **${k}**: ${String(v)}`;
   
@@ -133,20 +135,21 @@ export function jsonToMarkdown(input: any, headingLevel = 2): string {
     /* ---------- raíz ---------- */ 
     return Object.entries(input)
       .map(([k, v]: [string, any]) => { // Explicitly type k and v here
-        // PRIORIDAD alta: manejar {columnas, filas}
+        // PRIORIDAD alta: manejar {columnas, filas} o {columns, rows}
         if (
           v !== null && // Add this check
           typeof v === "object" &&
           !Array.isArray(v) &&
-          "columnas" in v &&
-          "filas" in v &&
-          Array.isArray((v as any).columnas) &&
-          Array.isArray((v as any).filas)
+          (("columnas" in v && "filas" in v) || ("columns" in v && "rows" in v))
         ) {
-          return `${h(headingLevel)} ${k}\n\n${tblGeneric(
-            (v as any).columnas,
-            (v as any).filas,
-          )}`;
+          const cols = (v as any).columnas || (v as any).columns;
+          const rws = (v as any).filas || (v as any).rows;
+          if (Array.isArray(cols) && Array.isArray(rws)) {
+            return `${h(headingLevel)} ${k}\n\n${tblGeneric(
+              cols,
+              rws,
+            )}`;
+          }
         }
   
         if (isPrimitive(v)) return `${h(headingLevel)} ${k}\n\n${String(v)}\n`;

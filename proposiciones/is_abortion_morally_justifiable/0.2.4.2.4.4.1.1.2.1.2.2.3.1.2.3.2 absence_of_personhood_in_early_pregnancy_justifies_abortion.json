@@ -1,0 +1,143 @@
+{
+  "input_semantic_node": "Absence of personhood in early pregnancy justifies abortion.",
+  "central_semantic_node": "Ontological Personhood and Moral Justifiability in Early Gestation",
+  "argument_reasons": [
+    "The premise assumes a dependency between moral status and the attainment of 'personhood'.",
+    "It requires a binary or scalar definition of when a biological entity becomes a legal/moral person.",
+    "The argument follows a syllogistic structure: justification relies on the absence of a specific attribute (personhood)."
+  ],
+  "ontological_signature": {
+    "nature": "Axiomatic moral proposition",
+    "function": "To establish a criterion for ethical permissibility.",
+    "domain": "Bioethics, Metaphysics, Social Jurisprudence.",
+    "form": "Conditional syllogism.",
+    "tension": "The 'personhood' boundary is semantically plastic while the 'justification' is binary.",
+    "limit": "Computational irreducibility of the subjective experience of 'being' vs. 'becoming'."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Personhood",
+      "definition": "The 'magic badge' of rights that says someone counts as much as you and me."
+    },
+    {
+      "term": "Early stages of pregnancy",
+      "definition": "The beginning time where a life-seed has started to grow but doesn't have a working brain or feelings yet."
+    },
+    {
+      "term": "Justifiable",
+      "definition": "When doing something is okay because it doesn't break a truly important rule."
+    }
+  ],
+  "preconceptual_transduction": "Imagine a house being built. At the very start, it's just a pile of wood and some drawings. It's not a 'home' yet where people sleep and eat. Because it's not a home yet, it's okay to change the plans or stop building, because no one is living inside to get hurt.",
+  "iterations": [
+    {
+      "id": "1.1",
+      "base_statement": "The moral justifiability of abortion is dependent on personhood",
+      "subnode": "Personhood-Centric Ethics",
+      "context": "Are there other sources of moral value (e.g., potentiality, sentience) that exist independent of personhood?"
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The definition of 'personhood' is an unresolved metaphysical axiom, making the truth value of the dependent statement contingent on a subjective variable."
+  },
+  "deductive_observations": [
+    {
+      "origin": "If Personhood is 0, and Justification depends on !Personhood",
+      "conclusion": "Abortion is justifiable in early pregnancy.",
+      "notes": "Requires the premise that personhood is the *exclusive* source of moral status."
+    }
+  ],
+  "subjectivities": [
+    "The definition of the precise moment personhood is acquired.",
+    "The weight of 'potential personhood' versus 'actual personhood'."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "Personhood is absent in the early stages of pregnancy.",
+      "description": "The 'Genetic Blueprint' argument: At fertilization, a unique identity is formed, constituting a 'person' in a latent/essentialist state.",
+      "refutation_degree": "partial",
+      "notes": "Depends on an essentialist rather than functionalist view of personhood."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Legal systems often grant rights progressively as a fetus develops (e.g., viability).",
+      "inference": "Societies subconsciously treat personhood as an emergent property rather than a sudden switch.",
+      "confidence_degree": "medium",
+      "notes": "Varies significantly by cultural and religious jurisdiction."
+    }
+  ],
+  "preconceptual_conclusion": "Since we can't all agree on when the 'home' becomes lived-in, we have to decide which rules matter most to us right now.",
+  "emerging_theory_or_intuition": "The 'Persistence of Identity' vs 'Emergence of Function' paradox: We treat things based on what they are *doing* (functionalism) vs what they *are* (ontology).",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "Personhood is absent in the early stages of pregnancy",
+        0,
+        0,
+        1,
+        "The biological-metaphysical bridge lacks a consensus definition of 'person'."
+      ],
+      [
+        "The moral justifiability of abortion is dependent on personhood",
+        0,
+        0,
+        1,
+        "Other ethical frameworks focus on the mother's autonomy or the fetus's potential, regardless of personhood."
+      ],
+      [
+        "Abortion is justifiable if personhood is absent",
+        1,
+        0,
+        0,
+        "Logically follows from the provided if-then conditional structure."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "Personhood is absent in the early stages of pregnancy",
+    "B": "The moral justifiability of abortion is dependent on personhood",
+    "C": "Abortion is morally justifiable"
+  },
+  "boolean_formula_of_the_argument": "A && B",
+  "why_the_formula_structure_is_incorrect": "The original argument is a conditional (B -> (A -> C)), but A and B are currently undefined placeholders.",
+  "boolean_argument_reformulation": "B && A === C",
+  "boolean_formula_to_natural_language": "If it is true that personhood decides morality (B) and it is true that personhood is missing (A), then it implies abortion is justifiable (C).",
+  "conclusion": "If morality is gated by personhood, and personhood is a functional capacity not present in early cells as seen in developmental biology studies like those on neurogenesis (e.g., Lagercrantz, 2014), the internal logic holds; and for all this, the statement is a valid logical derivation from a functionally-defined metaphysical premise.",
+  "collapse_implications": [
+    {
+      "statement": "Personhood is absent in early pregnancy",
+      "implication_by_false_state": "If personhood begins at conception, the justification for abortion based on this argument fails.",
+      "implication_by_true_state": "If personhood is a later emergence, early abortion is established as morally neutral in this framework."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "The Potentiality Paradox: A thing that is not yet a person is only valuable because it will become one, yet it must be a person already to be protected.",
+    "ambiguity": "'Early stages' lacks a discrete temporal boundary in the statement.",
+    "useful_contradiction": "The entity is biologically human (True) but not yet a social person (True for some), creating a 'human non-person' state."
+  },
+  "analogous_reorganization": [
+    "A seed is not a tree; if a tree is needed for shade, the seed is not yet the provider of shade.",
+    "A blueprint is not a building; you can burn the paper without destroying the rooms."
+  ],
+  "implications": [
+    "Ethical status is increasingly tied to cognitive function rather than species membership.",
+    "Jurisprudence must rely on arbitrary 'bright-line' milestones (like weeks) to resolve metaphysical uncertainty."
+  ],
+  "global_reevaluation": {
+    "state": "undefined",
+    "criteria": "The entire causal chain rests on the definition of A (Personhood absence), which is a non-collapsed metaphysical variable."
+  },
+  "reconclusion": "The proposition is a structurally sound conditional that remains epistemologically 'undefined' because its primary anchor—the onset of personhood—is a subjective ontological choice rather than an empirical constant.",
+  "preconceptual_reconclusion": "We can follow the logic like a map, but the map doesn't work until we decide where the 'border' is drawn.",
+  "causal_chain": "Abortion_Justifiability necessitates a moral_criterion. The chosen criterion is Personhood. Personhood is defined as a functional_state. Functional_states require biological_complexes (brain/nerves). Early_pregnancy lacks these biological_complexes. Therefore Early_pregnancy lacks Personhood. If Personhood is the sole source of Moral_Value, the absence of Personhood negates Moral_Cost. Therefore the absence of Personhood in early_pregnancy makes the act Justifiable.",
+  "context": "Personhood is absent in the early stages of pregnancy (context: Abortion is justifiable if personhood is absent. (context: The moral justifiability of abortion is dependent on personhood (context: Is abortion morally justifiable?)))"
+}

@@ -1,0 +1,149 @@
+{
+  "input_semantic_node": "Moral justifiability vs Personhood",
+  "central_semantic_node": "Personhood-Dependent Moral Justifiability",
+  "argument_reasons": [
+    "Ontological primacy argument: Justification requires a subject capable of giving and receiving reasons, an attribute traditionally linked to personhood.",
+    "Categorical exclusion argument: Entities lacking personhood status (e.g., inanimate objects) cannot be the primary subjects of moral rights or duties.",
+    "The justification is present because the proposition establishes a conditional relationship between a moral status and a biological/ontological category."
+  ],
+  "ontological_signature": {
+    "nature": "Axiological principle",
+    "function": "To define the boundaries of moral agency and patiency.",
+    "domain": "Ethics / Meta-ethics / Ontology",
+    "form": "Conditional relational node",
+    "tension": "Potential for circularity (defining personhood via morality and vice-versa).",
+    "limit": "Dependent on the definition of 'personhood', which varies across legal, biological, and philosophical domains."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Moral justifiability",
+      "definition": "The ability for an act to be seen as 'right' or 'allowed' within a shared set of rules."
+    },
+    {
+      "term": "Personhood",
+      "definition": "The quality of being a 'someone' with a mind, feelings, or a place in the group, rather than just a 'something'."
+    },
+    {
+      "term": "Dependent",
+      "definition": "When one thing needs another thing to exist or to matter."
+    }
+  ],
+  "preconceptual_transduction": "To say something is 'fair' or 'good', you first need to be a 'someone' who can understand it. You can't be mean to a rock, because a rock isn't a person.",
+  "iterations": [
+    {
+      "id": "1.1.1",
+      "base_statement": "The exact threshold of personhood is definitive.",
+      "subnode": "Personhood Threshold Variance",
+      "context": "Is a fetus, an AI, or a dolphin a 'person'?"
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The statement relies on the term 'personhood', which is a 'fuzzy' category with no universally accepted first-principle definition."
+  },
+  "deductive_observations": [
+    {
+      "origin": "If morality requires the capacity for suffering or reasoning (P), and only persons possess P.",
+      "conclusion": "Morality is restricted to persons.",
+      "notes": "Valid only if the definition of P is exclusive to 'person'."
+    }
+  ],
+  "subjectivities": [
+    "Cultural definitions of what constitutes a 'person'.",
+    "Intuitive weights given to non-person entities (animals, ecosystems)."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "Moral justifiability is dependent on personhood",
+      "description": "Animal welfare laws: We find it morally unjustifiable to torture a dog, yet we do not grant the dog legal 'personhood'.",
+      "refutation_degree": "partial",
+      "notes": "Suggests moral patiency exists without personhood."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Historical expansion of the 'personhood' circle (slaves, women, corporations).",
+      "inference": "The node is a social construct rather than a biological absolute.",
+      "confidence_degree": "high",
+      "notes": "Moral justifiability often precedes the legal status of personhood."
+    }
+  ],
+  "preconceptual_conclusion": "We care about things that feel, even if they aren't 'people' yet, so the rule might be slightly broken.",
+  "emerging_theory_or_intuition": "Sentience-centric morality: The collapse of 'personhood' into 'sentience' as the true anchor of moral justifiability.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "Moral justifiability is dependent on personhood",
+        0,
+        0,
+        1,
+        "Ambiguity of 'personhood' allows for both inclusive and exclusive interpretations."
+      ],
+      [
+        "Only persons can be moral agents",
+        1,
+        0,
+        0,
+        "By definition, to justify an action requires agency, which is a person-attribute."
+      ],
+      [
+        "Non-persons have no moral standing",
+        0,
+        1,
+        0,
+        "Countered by the empirical existence of animal cruelty laws."
+      ],
+      [
+        "The definition of personhood is a self-referential loop",
+        null,
+        null,
+        1,
+        "We define persons as those with moral rights, and moral rights as things persons have."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "Moral justifiability is dependent on personhood",
+    "B": "Capacity for agency is a requirement for justification",
+    "C": "Sentience is sufficient for moral standing"
+  },
+  "boolean_formula_of_the_argument": "A === (B && !C)",
+  "why_the_formula_structure_is_incorrect": "The formula assumes that B and C are mutually exclusive in their relation to A, but an entity can be a patient (C) without being an agent (B).",
+  "boolean_argument_reformulation": "A === (B || C)",
+  "boolean_formula_to_natural_language": "If the requirement of agency (B) or the presence of sentience (C) is met, then moral justifiability (A) is established.",
+  "conclusion": "If justification requires a rational exchange of reasons (Kant), then personhood is the anchor, yet if justification is rooted in the prevention of suffering (Bentham), then sentience bypasses personhood, and for all this the statement is a partial truth that fails to account for moral patiency in non-person entities. In a single line.",
+  "collapse_implications": [
+    {
+      "statement": "Moral justifiability is dependent on personhood",
+      "implication_by_false_state": "Morality becomes an objective field based on suffering/utility regardless of the ontic status of the subject.",
+      "implication_by_true_state": "Morality becomes a closed contract between rational peers, excluding all 'others'."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "The Moral Patient Paradox: We owe moral duties to those who cannot understand what a duty is.",
+    "ambiguity": "Does 'personhood' imply a biological human, a legal entity, or a self-aware consciousness?",
+    "useful_contradiction": "Individuals often act as if personhood is required for morality while emotionally reacting to the suffering of non-persons."
+  },
+  "analogous_reorganization": [
+    "A VIP club where only members (persons) can complain about the service, but the staff (beings) still feel the heat."
+  ],
+  "implications": [
+    "If AI achieves personhood, our current moral justifications for its use must be entirely reorganized.",
+    "Legal systems will shift from 'rights of persons' to 'protections of sentience'."
+  ],
+  "global_reevaluation": {
+    "state": "false",
+    "criteria": "Formal coherence fails when 'moral justifiability' extends to the treatment of the environment or animals which lack personhood."
+  },
+  "reconclusion": "The proposition holds only if morality is defined strictly as a reciprocal contract between agents; however, as a descriptive account of ethical value, it is falsified by the inherent value we accord to sentient non-persons, necessitating a shift from 'personhood' to 'experiential capacity' as the primary metric. and for all this, the anchor of morality is the capacity to experience rather than the label of the self.",
+  "preconceptual_reconclusion": "It's not just about who you are, but about whether you can hurt or be happy.",
+  "causal_chain": "Justification requires logic + Logic requires a mind + A mind defines a person + Therefore morality is for persons + However suffering exists without logic + Suffering creates a moral claim + Claims exist without persons + Therefore personhood is a sufficient but not necessary condition for moral justifiability + This breaks the original dependency + Resulting in a broader circle of care.",
+  "context": "Moral justifiability is dependent on personhood"
+}

@@ -1,0 +1,143 @@
+{
+  "input_semantic_node": "Abortion morality and personhood",
+  "central_semantic_node": "The Moral-Ontological Personhood Dependency in Abortion Justification",
+  "argument_reasons": [
+    "Ontological dependency: The claim assumes moral rights are a subset of personhood attributes, requiring personhood as a necessary condition for the right to life.",
+    "Categorical necessity: If personhood is the threshold for moral standing, its presence or absence dictates the permissibility of the act under deontology.",
+    "Exclusionary logic: It ignores potential justifications based on bodily autonomy or biological life without personhood."
+  ],
+  "ontological_signature": {
+    "nature": "Axiomatic philosophical dependency",
+    "function": "To establish a threshold for the distribution of moral rights.",
+    "domain": "Applied ethics and ontology",
+    "form": "Conditional gatekeeping system",
+    "tension": "Conflict between biological life and social/legal personhood.",
+    "limit": "Depends on an universally accepted definition of 'person', which is currently missing."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Abortion",
+      "definition": "The ending of a potential life cycle before birth."
+    },
+    {
+      "term": "Moral Justifiability",
+      "definition": "Whether an action is 'okay' or 'good' according to the rules of being fair and kind."
+    },
+    {
+      "term": "Personhood",
+      "definition": "A special status that says 'this being is a person with feelings and rights like you'."
+    }
+  ],
+  "preconceptual_transduction": "If a tiny growing seed is not yet a 'friend', some people think it is okay to stop it from growing, but if the seed is already a 'friend', then we must protect it like any other person.",
+  "iterations": [
+    {
+      "id": "1.1.1",
+      "base_statement": "The definition of personhood is universally agreed upon.",
+      "subnode": "Semantic Subjectivity Loop",
+      "context": "If personhood is undefined, the dependency remains stuck."
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The statement is logically valid as a conditional (If P then J), but the value of P (personhood) is semantically unstable."
+  },
+  "deductive_observations": [
+    {
+      "origin": "If moral rights require personhood.",
+      "conclusion": "Non-persons within the species have no inherent right to life.",
+      "notes": "Direct proof strategy assumes the exclusion of non-persons from moral protection."
+    }
+  ],
+  "subjectivities": [
+    "The threshold of personhood (conception, heartbeat, brain waves, or birth).",
+    "The value assigned to potentiality versus actuality."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "The moral justifiability of abortion is dependent on personhood.",
+      "description": "The Bodily Autonomy Argument (Judith Jarvis Thomson): Even if the fetus is a person, the mother's right to her own body may justify the termination.",
+      "refutation_degree": "partial",
+      "notes": "Shows personhood might be necessary but not sufficient for a specific moral outcome."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Societies that define personhood at birth usually allow legal abortion.",
+      "inference": "Legal personhood and moral personhood are often mapped onto biological milestones to simplify policy.",
+      "confidence_degree": "high",
+      "notes": "Correlation between legal definitions and moral consensus."
+    }
+  ],
+  "preconceptual_conclusion": "We can't decide if it's okay until we agree on when a 'something' becomes a 'someone'.",
+  "emerging_theory_or_intuition": "Personhood is a social construct applied to biological substrates to regulate rights; the 'justifiability' is a byproduct of the boundary-drawing exercise rather than an inherent property of the organism.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "The moral justifiability of abortion is dependent on personhood",
+        0,
+        0,
+        1,
+        "There are competing frameworks like bodily autonomy that bypass personhood."
+      ],
+      [
+        "Personhood is a biological fact",
+        0,
+        1,
+        0,
+        "Personhood is a metaphysical/legal category, not a cellular one."
+      ],
+      [
+        "Moral rights are only for persons",
+        0,
+        0,
+        1,
+        "Animal rights and environmental ethics suggest a broader scope."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "The moral justifiability of abortion is dependent on personhood",
+    "B": "Personhood is a biological fact",
+    "C": "Moral rights are only for persons"
+  },
+  "boolean_formula_of_the_argument": "A && (C === true)",
+  "why_the_formula_structure_is_incorrect": "It assumes A is a standalone truth when it is a conditional dependency contingent on the validity of C.",
+  "boolean_argument_reformulation": "C => A",
+  "boolean_formula_to_natural_language": "If moral rights are only for persons (C) then the moral justifiability of abortion is dependent on personhood (A).",
+  "conclusion": "If we define moral value as exclusive to persons, then the status of the fetus determines the act's morality, but since personhood lacks an empirical essence and competes with bodily autonomy, the dependency is an incomplete anchor and for all this the debate is a clash of uncollapsible semantic axioms. ",
+  "collapse_implications": [
+    {
+      "statement": "Moral rights are only for persons",
+      "implication_by_false_state": "Abortion morality shifts to the value of life/suffering regardless of status.",
+      "implication_by_true_state": "The entire debate collapses into a purely linguistic/biological search for the 'person' moment."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "The system used to define a 'person' is created by 'persons', creating a circular validation loop.",
+    "ambiguity": "Whether 'personhood' is a binary switch or a gradient of development.",
+    "useful_contradiction": "The fetus is 'human' (biological) but may not be a 'person' (moral), creating a gap where intuition and logic lose contact."
+  },
+  "analogous_reorganization": [
+    "Corporate personhood: assigning human rights to non-biological entities to simplify legal interactions.",
+    "The Turing Test: deciding if a machine 'thinks' based on an external threshold of behavior."
+  ],
+  "implications": [
+    "If personhood is the only metric, any cognitive decline in adults could theoretically threaten their moral status.",
+    "If autonomy is the metric, personhood becomes irrelevant to the justification of abortion."
+  ],
+  "global_reevaluation": {
+    "state": "self-referential",
+    "criteria": "The argument depends on the definition of personhood, which is themselves defined by the moral outcomes the user wishes to justify."
+  },
+  "reconclusion": "The statement 'abortion is dependent on personhood' acts as a necessary logical gate only within a specific deontological framework; however, because personhood is a self-referential social label, the proposition cannot be verified without first choosing a teleological goal, rendering the argument a functional tautology in moral discourse.",
+  "preconceptual_reconclusion": "People use the word 'person' as a magic key to lock or unlock doors, but no one can agree on what the key is made of.",
+  "causal_chain": "Determining if an action is right requires a target of duty which is defined by personhood attributes such as consciousness or self-awareness but since these attributes are emergent and continuous rather than discrete their threshold selection is an arbitrary decision shaped by culture rather than nature which means that the dependency of abortion on personhood is a choice of logical framework rather than a discovered law of the universe and therefore the conclusion remains undefined until an axiomatic anchor is forced into the system.",
+  "context": "The moral justifiability of abortion is dependent on personhood (context: The moral justifiability of abortion is dependent on personhood (context: Is abortion morally justifiable?))"
+}

@@ -1,0 +1,156 @@
+{
+  "input_semantic_node": "Abortion is always morally unjustifiable if the fetus is a person.",
+  "central_semantic_node": "Ontological Status-Dependent Absolute Moral Prohibition of Abortion",
+  "argument_reasons": [
+    "The premise 'if the fetus is a person' establishes an ontological condition that, if met, invokes the Right to Life as a supreme moral axiom.",
+    "The use of 'always' suggests a deontological framework where moral rules against killing persons are absolute and exceptionless.",
+    "The argument assumes that the moral status of 'personhood' automatically overrides the bodily autonomy of the pregnant individual."
+  ],
+  "ontological_signature": {
+    "nature": "Conditional Normative Principle",
+    "function": "To establish a moral boundary based on ontological categorization.",
+    "domain": "Ethics, Meta-ethics, Bioethics",
+    "form": "Logical Implication (P → Q)",
+    "tension": "Potential conflict between the Right to Life of the fetus and the Bodily Autonomy of the mother.",
+    "limit": "Dependent entirely on the contested definition of 'personhood'."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Abortion",
+      "definition": "The ending of a pregnancy so that it does not result in the birth of a baby."
+    },
+    {
+      "term": "Morally Unjustifiable",
+      "definition": "Something that is wrong to do according to the rules of being a good person."
+    },
+    {
+      "term": "Fetus",
+      "definition": "A developing life inside a parent's body before it is born."
+    },
+    {
+      "term": "Person",
+      "definition": "A being that has special rights, feelings, and a place in the human family, usually protected from harm by everyone."
+    }
+  ],
+  "preconceptual_transduction": "If a tiny seed growing inside a mother is actually a real person just like you and me, then we are never allowed to stop it from growing, because we aren't allowed to hurt people.",
+  "iterations": [
+    {
+      "id": "1.1.1",
+      "base_statement": "The definition of 'personhood' is universally agreed upon.",
+      "subnode": "Personhood Ontological Variable",
+      "context": "The condition of the central argument (if the fetus is a person) remains undefined because there is no consensus on when life becomes a 'person' in legal or metaphysical terms."
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The argument is a valid logical conditional, but its truth value is suspended because the antecedent (the fetus is a person) is an 'undefined' metaphysical and social construct."
+  },
+  "deductive_observations": [
+    {
+      "origin": "Deontological Axiom: It is always wrong to kill an innocent person.",
+      "conclusion": "If a fetus is an innocent person, killing it via abortion is wrong.",
+      "notes": "Requires the premise that no other right (like autonomy) can override the right to life."
+    }
+  ],
+  "subjectivities": [
+    "The threshold of personhood (conception, heartbeat, viability, or birth) is a subjective or cultural determination.",
+    "The hierarchy of rights (Life vs. Autonomy) is subject to different ethical schools (utilitarianism vs. deontology)."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "Abortion is always morally unjustifiable if the fetus is a person.",
+      "description": "Judith Jarvis Thomson's 'Violinist' argument: Even if a person has a right to life, it doesn't give them a right to use another person's body against their will.",
+      "refutation_degree": "partial",
+      "notes": "Refutes the 'always' by suggesting cases like rape or self-defense (mother's life)."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Societies that define personhood at birth generally permit abortion.",
+      "inference": "Legal personhood is a social tool used to regulate reproductive rights.",
+      "confidence_degree": "high",
+      "notes": "Correlation between legal definitions and moral permissibility."
+    }
+  ],
+  "preconceptual_conclusion": "We can't say for sure if the rule is right because we haven't all agreed on when the little seed becomes a 'someone'.",
+  "emerging_theory_or_intuition": "Personhood is not a biological fact but a 'moral status' assigned by a community; therefore, the argument's truth is not discovered in nature but decided by social contract.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "If a fetus is a person, it has a right to life.",
+        1,
+        0,
+        0,
+        "Consistent with the definition of personhood in human rights frameworks."
+      ],
+      [
+        "The right to life always overrides the right to bodily autonomy.",
+        0,
+        0,
+        1,
+        "Ethical frameworks differ; some prioritize autonomy in cases of non-consensual use of the body."
+      ],
+      [
+        "A fetus is a person from the moment of conception.",
+        0,
+        0,
+        null,
+        "Self-referential metaphysical claim; depends on the speaker's internal belief system."
+      ],
+      [
+        "Abortion is always morally unjustifiable if the fetus is a person.",
+        0,
+        0,
+        1,
+        "The word 'always' fails to account for the 'self-defense' paradox where two lives are in conflict."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "The fetus is a person.",
+    "B": "It is wrong to kill a person.",
+    "C": "Abortion is the killing of a fetus.",
+    "D": "Abortion is morally unjustifiable."
+  },
+  "boolean_formula_of_the_argument": "(A && B && C) -> D",
+  "why_the_formula_structure_is_incorrect": "The 'always' in the prompt implies a lack of competing variables. The formula needs to account for the mother's personhood (E) and her rights (F).",
+  "boolean_argument_reformulation": "((A && B && C) && !(E && F)) -> D",
+  "boolean_formula_to_natural_language": "If the fetus is a person (A), and killing persons is wrong (B), and abortion is killing (C), then abortion is wrong (D) unless the mother's personhood and rights (E, F) present a competing moral claim.",
+  "conclusion": "If we accept the premise of fetal personhood, then the right to life creates a strong moral barrier, yet this barrier is often breached by the competing right of bodily integrity as seen in legal precedents like the 'necessity' defense, and for all this, the statement remains a conditional truth that is empirically uncollapsable due to the lack of an objective, biological test for the transition of 'organism' to 'person'.",
+  "collapse_implications": [
+    {
+      "statement": "The right to life always overrides bodily autonomy.",
+      "implication_by_false_state": "Abortion could be justifiable even if the fetus is a person (e.g., to save the mother).",
+      "implication_by_true_state": "Abortion would be strictly prohibited in all circumstances if personhood is established."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "The personhood of the fetus requires the suspension of the personhood rights (autonomy) of the mother, creating a conflict where one person's existence necessitates the other's servitude.",
+    "ambiguity": "The term 'person' is used both as a biological descriptor and a moral/legal rank.",
+    "useful_contradiction": "A fetus can be biologically 'human' but not yet socially a 'person', allowing for a distinction between life and moral status."
+  },
+  "analogous_reorganization": [
+    "The 'Violinist' thought experiment by Judith Jarvis Thomson.",
+    "Castle Doctrine (Self-defense in one's own space).",
+    "The forced organ donation paradox (Can the state force a person to give blood to save another person?)."
+  ],
+  "implications": [
+    "Moral certainty on abortion requires a prior consensus on the metaphysics of the soul or the social definition of 'the human family'.",
+    "If personhood is a spectrum rather than a binary, moral justifiability must also be a spectrum based on gestational age."
+  ],
+  "global_reevaluation": {
+    "state": "undefined",
+    "criteria": "The argument is structurally tied to a variable (personhood) that currently lacks a boolean output in the shared human cognitive field."
+  },
+  "reconclusion": "The proposition 'Abortion is always morally unjustifiable if the fetus is a person' functions as a robust internal logic for specific ethical systems (Deontology), but fails as a universal truth because it ignores the 'Clash of Absolutes'—the mother's existing personhood—and relies on a self-referential definition of personhood that cannot be verified through first principles of nature alone.",
+  "preconceptual_reconclusion": "Even if we say the growing seed is a person, we still have to decide whose rights are more important: the person living inside or the person who is carrying them.",
+  "causal_chain": "The statement assumes fetal personhood as a trigger for a right to life which is then treated as an absolute duty that cancels all other rights including the bodily autonomy of the mother who is also a person with a right to life and self-determination thus creating a logical deadlock where one person's right to exist as a biological entity conflicts with another's right to exist as a free agent and because there is no natural law that ranks one above the other in a state of nature the conclusion remains locked in a subjective value-judgement rather than an objective fact.",
+  "context": "Abortion is always morally unjustifiable if the fetus is a person. (context: Is abortion morally justifiable?)"
+}

@@ -119,11 +119,15 @@ function createQueuedExecutor<Args extends unknown[], Result>(
 }
 
 function getColapsedArgumentedAnalysis(analysisJson: Record<string, any>) {
+  const dictionary = analysisJson.formula_dictionary || analysisJson.diccionario_de_la_formula || {};
+  const truthTable = analysisJson.truth_table?.rows || analysisJson.tabla_verdad?.filas || [];
+  const reformulation = analysisJson.boolean_argument_reformulation || analysisJson.reformula_booleana_del_argumento || "";
+
   const definitions = eval(`
-    Object.entries(${JSON.stringify(analysisJson.diccionario_de_la_formula)}).map(([
+    Object.entries(${JSON.stringify(dictionary)}).map(([
       name, value
     ]) => {
-      let statementState = ${JSON.stringify(analysisJson.tabla_verdad.filas)}.find(([
+      let statementState = ${JSON.stringify(truthTable)}.find(([
         afirmation,
         truthment,
         falsement,
@@ -139,7 +143,7 @@ function getColapsedArgumentedAnalysis(analysisJson: Record<string, any>) {
           // The AI might not have generated the same statements
         )
       });
-      const variableDefinition = statementState ? \`let \${name} = \${statementState[1]} || \${statementState[1] === 0 && statementState[2] === 1 ? 0 : statementState[1] || "Error"}\` : ""
+      const variableDefinition = statementState ? \`let \${name} = \${statementState[1]} || \${statementState[1] === 0 && statementState[2] === 1 ? 0 : statementState[1] || "Error"}\` : \`let \${name} = undefined;\`
     
       return variableDefinition;
     }).join("\\n")
@@ -147,15 +151,19 @@ function getColapsedArgumentedAnalysis(analysisJson: Record<string, any>) {
 
   console.log("definitions", definitions)
 
-  const result = eval(`
-      (function () {
-          ${definitions}
+  let result;
+  try {
+    result = eval(`
+        (function () {
+            ${definitions}
 
-          console.log("${analysisJson.reformula_booleana_del_argumento}", ${analysisJson.reformula_booleana_del_argumento})
-  
-          return ${definitions.includes("Error") ? "undefined" : analysisJson.reformula_booleana_del_argumento}
-      })()
-  `);
+            return ${definitions.includes("Error") || definitions.includes("undefined") ? "undefined" : reformulation}
+        })()
+    `);
+  } catch (e) {
+    console.error("Failed to evaluate reformulation:", reformulation, e);
+    result = "undefined";
+  }
 
   return result;
 }
@@ -183,8 +191,8 @@ async function persistClaimArtifacts(
   const jsonPath = join(targetDirectoryPath, `${baseFileNameSafe}.json`);
   const mdPath = join(targetDirectoryPath, `${baseFileNameSafe}.md`);
   const finalObject = {
-    ...analysisJson, contexto: analysisContext,
-    estado_booleano_colapsado_por_calculo_determinista:
+    ...analysisJson, context: analysisContext,
+    collapsed_boolean_state_by_deterministic_calculation:
       getColapsedArgumentedAnalysis(analysisJson)
   };
 
@@ -222,6 +230,25 @@ const queuedGetClaimAnalysis = createQueuedExecutor(getClaimAnalysis, apiCallQue
  * Performs a depth‑first traversal of truth‑table rows labelled as *uncertain* (== 1) and
  * recursively analyses them. Maintains *prefix* numbering semantics identical to the legacy code.
  */
+// ────────────────────────────────────────────────────────────────────────────────
+// Resolution Logger Helper
+// ────────────────────────────────────────────────────────────────────────────────
+
+async function appendResolutionLog(outputDirectoryPath: string, text: string): Promise<void> {
+  const resolutionPath = join(outputDirectoryPath, "resolution.md");
+  const timestamp = new Date().toISOString();
+  const logEntry = `\n---\n**[${timestamp}]**\n${text}\n`;
+  try {
+    await Deno.writeTextFile(resolutionPath, logEntry, { append: true });
+  } catch (fsError) {
+    if (fsError instanceof Deno.errors.NotFound) {
+      await Deno.writeTextFile(resolutionPath, `# Resolution Backpropagation Log\n${logEntry}`);
+    } else {
+      throw fsError;
+    }
+  }
+}
+
 async function analyseClaimRecursively({
   claimText,
   numericPrefix,
@@ -234,7 +261,7 @@ async function analyseClaimRecursively({
   outputDirectoryPath: string;
   analysisContext?: string;
   parentMarkdownBaseName?: string;
-}): Promise<void> {
+}): Promise<boolean | undefined> {
   console.log(`[${numericPrefix}] claim:`, claimText);
 
   // Queue‑controlled external API call
@@ -242,6 +269,8 @@ async function analyseClaimRecursively({
 
   // Fallback order preserved from legacy code
   const semanticNode: string =
+    (analysis as Record<string, string>).input_semantic_node ??
+    (analysis as Record<string, string>).central_semantic_node ??
     (analysis as Record<string, string>).nodo_semantico_de_entrada ??
     (analysis as Record<string, string>).nodo_semantico ??
     claimText;
@@ -273,11 +302,23 @@ async function analyseClaimRecursively({
   );
 
   // Drill down into *uncertain* sub‑claims
-  const { filas } = (analysis as any).tabla_verdad;
+  const filas = analysis.truth_table?.rows || analysis.tabla_verdad?.filas;
   let childCounter = 1;
-  const childTasks: Array<Promise<void>> = [];
+  const childTasks: Array<{
+    rowIndex: number;
+    subClaim: string;
+    promise: Promise<boolean | undefined>;
+  }> = [];
 
-  for (const [subClaim, truth, contradiction, uncertainty] of filas) {
+  const initialParentState = getColapsedArgumentedAnalysis(analysis);
+
+  for (let i = 0; i < filas.length; i++) {
+    const row = filas[i];
+    const subClaim = row[0];
+    const truth = row[1];
+    const contradiction = row[2];
+    const uncertainty = row[3];
+
     const truthLabel = truth
       ? "true"
       : contradiction
@@ -291,21 +332,65 @@ async function analyseClaimRecursively({
     const nextPrefix = `${numericPrefix}.${childCounter}`;
     childCounter++;
 
-    if (uncertainty === 1 && !isIdentifierOnly(subClaim) && getColapsedArgumentedAnalysis(analysis) === undefined) {
-      childTasks.push(
-        analyseClaimRecursively({
-          claimText: `${subClaim} (contexto: ${analysisContext || claimText})`,
+    if (uncertainty === 1 && !isIdentifierOnly(subClaim) && initialParentState === undefined) {
+      childTasks.push({
+        rowIndex: i,
+        subClaim,
+        promise: analyseClaimRecursively({
+          claimText: `${subClaim} (context: ${analysisContext || claimText})`,
           numericPrefix: nextPrefix,
           outputDirectoryPath,
           analysisContext: analysisContext || claimText,
           parentMarkdownBaseName: currentMarkdownBaseName,
-        }),
-      );
+        })
+      });
     }
   }
 
-  // Ensure deterministic order
-  for (const task of childTasks) await task;
+  // If no child tasks or already collapsed deterministically, return the state directly
+  if (childTasks.length === 0) {
+    return initialParentState;
+  }
+
+  // Ensure deterministic order and collect resolved states
+  const resolvedStates: Record<number, boolean | undefined> = {};
+  for (const task of childTasks) {
+    resolvedStates[task.rowIndex] = await task.promise;
+  }
+
+  // Construct in-memory updated truth table
+  const updatedAnalysis = JSON.parse(JSON.stringify(analysis)); // Deep clone
+  const updatedFilas = updatedAnalysis.truth_table?.rows || updatedAnalysis.tabla_verdad?.filas;
+
+  let childResolutionLog = `### Backpropagation for [${numericPrefix}] ${semanticNode}\n\n`;
+  childResolutionLog += `**Parent Claim:** ${claimText}\n\n`;
+  childResolutionLog += `**Child Resolutions:**\n`;
+
+  for (const task of childTasks) {
+    const resolvedState = resolvedStates[task.rowIndex];
+    childResolutionLog += `- Sub-claim: "${task.subClaim}" resolved to **${resolvedState}**\n`;
+
+    if (resolvedState === true) {
+      updatedFilas[task.rowIndex][1] = 1; // verdad
+      updatedFilas[task.rowIndex][2] = 0; // falso
+      updatedFilas[task.rowIndex][3] = 0; // indefinido
+    } else if (resolvedState === false) {
+      updatedFilas[task.rowIndex][1] = 0; // verdad
+      updatedFilas[task.rowIndex][2] = 1; // falso
+      updatedFilas[task.rowIndex][3] = 0; // indefinido
+    }
+    // If it's still undefined, we leave it as is
+  }
+
+  // Recalculate parent state with the updated in-memory table
+  const finalParentState = getColapsedArgumentedAnalysis(updatedAnalysis);
+  
+  childResolutionLog += `\n**Final Evaluated State for [${numericPrefix}]:** **${finalParentState}**\n`;
+
+  // Log the bubbling resolution
+  await appendResolutionLog(outputDirectoryPath, childResolutionLog);
+
+  return finalParentState;
 }
 
 // ────────────────────────────────────────────────────────────────────────────────
@@ -372,99 +457,136 @@ function parseCommandLine(): {
 // Main Execution Pipeline
 // ────────────────────────────────────────────────────────────────────────────────
 
-console.log("Starting claim analysis…");
-await ensurePropositionsRoot(); // Ensures 'proposiciones' exists for default cases
+async function runPipeline() {
+  console.log("Starting claim analysis…");
+  await ensurePropositionsRoot(); // Ensures 'proposiciones' exists for default cases
 
-const { resumeFolderName, rootClaimText, testClaim, outputDir } = parseCommandLine();
+  const { resumeFolderName, rootClaimText, testClaim, outputDir } = parseCommandLine();
 
-if (resumeFolderName) {
-  // ──────────────────────────────────────────────────────────────────
-  // RESUME MODE
-  // ──────────────────────────────────────────────────────────────────
-  const resumeDirPath = `proposiciones/${resumeFolderName}`;
-  const existingFiles = await listFilesRecursively(resumeDirPath);
+  if (testClaim) {
+    const jsonFilePath = testClaim;
+    const analysisData = JSON.parse(Deno.readTextFileSync(jsonFilePath));
 
-  for (const filePath of existingFiles) {
-    if (!filePath.endsWith(".json")) continue;
+    console.log("getColapsedArgumentedAnalysis",
+      analysisData.boolean_argument_reformulation || analysisData.reformula_booleana_del_argumento,
+      analysisData.collapsed_boolean_state_by_deterministic_calculation || analysisData.estado_booleano_colapsado_por_calculo_determinista,
+      getColapsedArgumentedAnalysis(
+        analysisData
+      )
+    );
+    return;
+  }
 
-    const analysisData = JSON.parse(Deno.readTextFileSync(filePath));
-    const parentPrefix = filePath.split("/").at(-1)!.split(" ")[0];
-    const { filas } = analysisData.tabla_verdad;
+  let isNewClaim = !resumeFolderName;
+  let currentResumeFolder = resumeFolderName;
 
-    const partialRows = filas
-      .map((row: unknown[], idx: number) => [...row, idx + 1])
-      .filter(([, , , uncertainty]) => uncertainty === 1);
+  if (isNewClaim) {
+    // ──────────────────────────────────────────────────────────────────
+    // NEW CLAIM MODE
+    // ──────────────────────────────────────────────────────────────────
+    let rootDirectoryPath: string;
+    const claimSlug = slugify(rootClaimText) || "claim_analysis"; // Default slug if rootClaimText is empty
 
-    console.log("Partial statements to resume:", partialRows);
+    if (outputDir && outputDir.trim() !== "" && outputDir.trim() !== "./proposiciones" && outputDir.trim() !== "proposiciones") {
+      const absoluteOutputDir = pathResolve(outputDir);
+      await ensureDir(absoluteOutputDir); 
 
-    for (const [statement, , , , rowIndex] of partialRows) {
-      const childPrefix = `${parentPrefix}.${rowIndex}`;
-      const parentMarkdownPath = existingFiles.find((fp) => fp.includes(`${parentPrefix} `));
-      const parentMarkdownBaseName = parentMarkdownPath?.split("/").pop()?.replace(/\.md$/, "");
+      const numericIndex = await getNextNumericIndex(absoluteOutputDir);
+      const prefix = await generateFolderPrefix(numericIndex, absoluteOutputDir, true); 
+      
+      const finalFolderName = `${prefix}${claimSlug}`;
+      rootDirectoryPath = join(absoluteOutputDir, finalFolderName);
+      console.log(`Outputting to custom prefixed directory: ${rootDirectoryPath}`);
+    } else {
+      rootDirectoryPath = join("proposiciones", claimSlug);
+      console.log(`Outputting to default directory: ${rootDirectoryPath}`);
+    }
+    
+    await ensureDir(rootDirectoryPath); 
 
-      const alreadyExists = existingFiles.some((fp) => fp.includes(`${childPrefix} `));
-      if (alreadyExists) continue;
+    const rerunShellPath = join(rootDirectoryPath, "claim.sh");
+    const rerunShellContent =
+      `deno run -A main.ts \"${rootClaimText.replace(/"/g, '\\"')}\"` + 
+      (outputDir ? ` -o "${outputDir.replace(/"/g, '\\"')}"` : "") + 
+      "\n";
+    await Deno.writeTextFile(rerunShellPath, rerunShellContent);
 
-      console.log("resuming", childPrefix);
-      await analyseClaimRecursively({
-        claimText: statement,
-        numericPrefix: childPrefix,
-        outputDirectoryPath: resumeDirPath,
-        analysisContext: analysisData.contexto,
-        parentMarkdownBaseName,
-      });
+    currentResumeFolder = rootDirectoryPath.split('/').pop()!;
+    
+    // Kick off the root claim once
+    const rootJsonPrefixSearchString = `0 `;
+    const existingInitialFiles = await listFilesRecursively(rootDirectoryPath).catch(() => []);
+    const alreadyStarted = existingInitialFiles.some(f => pathBasename(f).startsWith(rootJsonPrefixSearchString) && f.endsWith(".json"));
+
+    if (!alreadyStarted) {
+      try {
+        await analyseClaimRecursively({
+          claimText: rootClaimText,
+          numericPrefix: "0", 
+          outputDirectoryPath: rootDirectoryPath,
+        });
+      } catch (e) {
+        console.error("Crash during initial root analysis:", e);
+      }
     }
   }
-} else if (testClaim) {
-  const jsonFilePath = testClaim;
-  const analysisData = JSON.parse(Deno.readTextFileSync(jsonFilePath));
 
-  console.log("getColapsedArgumentedAnalysis",
-    analysisData.reformula_booleana_del_argumento,
-    analysisData.estado_booleano_colapsado_por_calculo_determinista,
-    getColapsedArgumentedAnalysis(
-      analysisData
-    )
-  );
-} else {
   // ──────────────────────────────────────────────────────────────────
-  // NEW CLAIM MODE
+  // AUTO-RESUME LOOP
   // ──────────────────────────────────────────────────────────────────
-  let rootDirectoryPath: string;
-  const claimSlug = slugify(rootClaimText) || "claim_analysis"; // Default slug if rootClaimText is empty
+  while (true) {
+    try {
+      const resumeDirPath = `proposiciones/${currentResumeFolder}`;
+      const existingFiles = await listFilesRecursively(resumeDirPath);
+      
+      let workDone = false;
 
-  if (outputDir && outputDir.trim() !== "" && outputDir.trim() !== "./proposiciones" && outputDir.trim() !== "proposiciones") {
-    // Custom output directory specified, and it's not 'proposiciones'
-    const absoluteOutputDir = pathResolve(outputDir);
-    await ensureDir(absoluteOutputDir); 
+      for (const filePath of existingFiles) {
+        if (!filePath.endsWith(".json")) continue;
 
-    const numericIndex = await getNextNumericIndex(absoluteOutputDir);
-    const prefix = await generateFolderPrefix(numericIndex, absoluteOutputDir, true); 
-    
-    const finalFolderName = `${prefix}${claimSlug}`;
-    rootDirectoryPath = join(absoluteOutputDir, finalFolderName);
-    console.log(`Outputting to custom prefixed directory: ${rootDirectoryPath}`);
+        const analysisData = JSON.parse(Deno.readTextFileSync(filePath));
+        const parentPrefix = filePath.split("/").at(-1)!.split(" ")[0];
+        const filas = analysisData.truth_table?.rows || analysisData.tabla_verdad?.filas;
 
-  } else {
-    // Default behavior: create inside 'proposiciones' without prefix
-    rootDirectoryPath = join("proposiciones", claimSlug);
-    console.log(`Outputting to default directory: ${rootDirectoryPath}`);
+        if (!filas) continue;
+
+        const partialRows = filas
+          .map((row: unknown[], idx: number) => [...row, idx + 1])
+          .filter((row: any) => row[3] === 1); // uncertainty === 1
+
+        for (const row of partialRows) {
+          const statement = row[0];
+          const rowIndex = row[5];
+          const childPrefix = `${parentPrefix}.${rowIndex}`;
+          
+          const alreadyExists = existingFiles.some((fp) => pathBasename(fp).startsWith(`${childPrefix} `) && fp.endsWith(".json"));
+          if (alreadyExists) continue;
+
+          const parentMarkdownPath = existingFiles.find((fp) => pathBasename(fp).startsWith(`${parentPrefix} `) && fp.endsWith(".md"));
+          const parentMarkdownBaseName = parentMarkdownPath ? pathBasename(parentMarkdownPath).replace(/\.md$/, "") : undefined;
+
+          workDone = true;
+          console.log("Auto-resuming partial statement:", childPrefix);
+          await analyseClaimRecursively({
+            claimText: statement,
+            numericPrefix: childPrefix,
+            outputDirectoryPath: resumeDirPath,
+            analysisContext: analysisData.context || analysisData.contexto,
+            parentMarkdownBaseName,
+          });
+        }
+      }
+
+      if (!workDone) {
+        console.log("Claim analysis completed fully.");
+        break;
+      }
+    } catch (e) {
+      console.error("Crash encountered during execution:", e);
+      console.log("Auto-resuming in 10 seconds...");
+      await new Promise(r => setTimeout(r, 10000));
+    }
   }
-  
-  await ensureDir(rootDirectoryPath); 
-
-  const rerunShellPath = join(rootDirectoryPath, "claim.sh");
-  const rerunShellContent =
-    `deno run -A main.ts \"${rootClaimText.replace(/"/g, '\\"')}\"` + 
-    (outputDir ? ` -o "${outputDir.replace(/"/g, '\\"')}"` : "") + 
-    "\n";
-  await Deno.writeTextFile(rerunShellPath, rerunShellContent);
-
-  await analyseClaimRecursively({
-    claimText: rootClaimText,
-    numericPrefix: "0", 
-    outputDirectoryPath: rootDirectoryPath,
-  });
 }
 
-console.log("Claim analysis completed.");
+await runPipeline();

@@ -1,0 +1,155 @@
+{
+  "input_semantic_node": "Moral rights of a fetus vs adult from conception context",
+  "central_semantic_node": "Ontological Personhood and Moral Equivalence of Fetuses",
+  "argument_reasons": [
+    "The proposition assumes a continuity of personhood starting from the moment of conception to justify moral status.",
+    "The argument relies on the 'Potentiality Principle'—that a potential human has the rights of an actual human.",
+    "The nested context indicates a circular dependency where personhood is both the premise and the conclusion for right-claims."
+  ],
+  "ontological_signature": {
+    "nature": "Axiomatic Moral System",
+    "function": "To establish a normative hierarchy of life and rights.",
+    "domain": "Ethics, Meta-Ontology, Bioethics",
+    "form": "Recursive Loop",
+    "tension": "Potentiality vs. Actuality; Biological life vs. Personhood.",
+    "limit": "Depends on the non-empirical definition of 'soul' or 'metaphysical essence' which is not scientifically verifiable."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Fetus",
+      "definition": "A developing life form inside a parent that has not yet reached birth."
+    },
+    {
+      "term": "Moral Rights",
+      "definition": "The rules that say how much we should care about someone's safety and choices."
+    },
+    {
+      "term": "Adult",
+      "definition": "A fully grown person who can think, feel, and act independently."
+    },
+    {
+      "term": "Conception",
+      "definition": "The very first moment life starts to grow from two cells meeting."
+    }
+  ],
+  "preconceptual_transduction": "If a tiny seed is the same as a big tree, then picking the seed is the same as cutting down the tree. People are arguing if the seed already has all the 'tree rules' even before it grows leaves.",
+  "iterations": [
+    {
+      "id": "1.1.1",
+      "base_statement": "The transition from potentiality to actuality is a discrete moral jump.",
+      "subnode": "Threshold of Sentience",
+      "context": "At what specific physical milestone does a right emerge?"
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The state remains undefined because the definition of 'personhood' is a subjective metaphysical construct rather than a boolean biological fact."
+  },
+  "deductive_observations": [
+    {
+      "origin": "If A (Personhood starts at conception) then B (Fetus has adult rights).",
+      "conclusion": "Termination of a fetus is equivalent to the termination of an adult.",
+      "notes": "Valid only if the premise A is accepted as a categorical imperative."
+    }
+  ],
+  "subjectivities": [
+    "The definition of 'Personhood' varies by religious, philosophical, and legal frameworks.",
+    "The weight given to 'Potential' versus 'Present Capability'."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "A fetus has the same moral rights as an adult.",
+      "description": "In a fire in a fertility clinic, a person would choose to save one 5-year-old child over a jar containing 1,000 viable embryos.",
+      "refutation_degree": "partial",
+      "notes": "Suggests that human intuition does not truly treat embryos and born humans as morally equivalent."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Legal systems globally grant more rights to born individuals (inheritance, citizenship) than to embryos.",
+      "inference": "The societal 'Ontological Signature' of personhood is tied to birth or viability.",
+      "confidence_degree": "high",
+      "notes": "Law reflects condensed social ethics."
+    }
+  ],
+  "preconceptual_conclusion": "We don't know for sure if the seed is a tree, so people can't agree on the rules for the seed.",
+  "emerging_theory_or_intuition": "Moral rights are not inherent biological properties but are social 'software' installed upon reaching certain complexity milestones (Shared Subjectivity Theory).",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "A fetus has the same moral rights as an adult",
+        0,
+        0,
+        1,
+        "Moral rights depend on the definition of personhood, which is not universally fixed."
+      ],
+      [
+        "Human DNA defines a person",
+        0,
+        1,
+        0,
+        "A tumor or a skin cell has human DNA but is not a person; DNA is a blueprint, not the finished structure."
+      ],
+      [
+        "Potential for consciousness equals current consciousness",
+        0,
+        1,
+        0,
+        "An acorn is potentially an oak, but it cannot provide the shade of an oak."
+      ],
+      [
+        "A fetus is a person from conception",
+        0,
+        0,
+        null,
+        "Self-referential loop: personhood is defined by conception, which is defined as the start of personhood."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "A fetus has the same moral rights as an adult",
+    "B": "A fetus is a person from conception",
+    "C": "Moral rights are derived exclusively from biological existence"
+  },
+  "boolean_formula_of_the_argument": "B && C -> A",
+  "why_the_formula_structure_is_incorrect": "The formula assumes C is true, but C is contested by the existence of 'sentience' or 'agency' as requirements for rights.",
+  "boolean_argument_reformulation": "B && C && !D -> A // Where D represents the necessity of sentience for rights.",
+  "boolean_formula_to_natural_language": "If a fetus is a person from conception (B) and moral rights only require biological life (C), then a fetus has adult rights (A), provided sentience is not required (!D).",
+  "conclusion": "If personhood is defined by biological inception and biological inception is the sole source of rights, then equivalence follows, yet because we differentiate between potential and action in all other logical domains, claiming full equivalence before the emergence of sentience remains a structural contradiction, and for all this the assertion of identical moral rights is a metaphysical claim rather than a logical necessity. In a single line.",
+  "collapse_implications": [
+    {
+      "statement": "A fetus has the same moral rights as an adult",
+      "implication_by_false_state": "Abortion becomes a conflict between the rights of a person and the protection of a potential life.",
+      "implication_by_true_state": "Abortion is equivalent to homicide in every instance."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "The Potentiality Paradox: How can a thing be the same as what it might become?",
+    "ambiguity": "The term 'Rights' is used both in a legal sense (voted) and a moral sense (imagined as absolute).",
+    "useful_contradiction": "A fetus is both 'part of the parent's body' and 'a distinct genetic individual' simultaneously."
+  },
+  "analogous_reorganization": [
+    "A blueprint versus a finished skyscraper.",
+    "A computer with no operating system installed.",
+    "The transition of water from liquid to gas at exactly 100 degrees Celsius."
+  ],
+  "implications": [
+    "If conception grants full rights, stem cell research and IVF disposal become mass-casualty events.",
+    "The separation of 'human life' (biological) from 'person' (moral/legal) is the only way to resolve the conflict without totalitarian bans."
+  ],
+  "global_reevaluation": {
+    "state": "self-referential",
+    "criteria": "The argument relies on the circular logic that life is a person because it is human life, and personhood is what gives the human life rights."
+  },
+  "reconclusion": "The claim of moral equivalence between a fetus and an adult fails the test of 'Computational Irreducibility' because it ignores the developmental complexity required to manifest the traits (consciousness, suffering, social relationships) that 'rights' were designed to protect. Therefore, rights are likely a progressive spectrum rather than a binary switch fixed at conception.",
+  "preconceptual_reconclusion": "Just because a drawing could become a house doesn't mean you can live in it yet.",
+  "causal_chain": "Conception initiates a biological program of human development which creates a unique genetic signature that functions as a potential person but lacks the neurological architecture to support subjective experience and since moral rights are historically and pragmatically constructed to arbitrate conflicts between sentient agents the application of these rights to non-sentient stages of development represents an ontological category error where potentiality is falsely equated with actuality to serve a pre-existing moral axiom that ignores the necessity of consciousness for moral agency.",
+  "context": "A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: Is abortion morally justifiable?))))"
+}

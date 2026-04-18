@@ -1,0 +1,156 @@
+{
+  "input_semantic_node": "Moral rights of a fetus vs adult (Personhood from conception / Abortion ethics)",
+  "central_semantic_node": "Fetal-Adult Morphic Moral Equivalence",
+  "argument_reasons": [
+    "The assertion of equivalent moral rights is predicated on the axiom of personhood beginning at conception.",
+    "The justification for preventing abortion rests on the transition from biological potential to ontological status.",
+    "Contradictions arise regarding the conflict between the fetus's right to life and the mother's right to bodily autonomy."
+  ],
+  "ontological_signature": {
+    "nature": "Axiomatic moral proposition",
+    "function": "To establish a legal and ethical prohibition of abortion by equalizing status.",
+    "domain": "Bioethics, Metaphysics, Jurisprudence",
+    "form": "Hierarchical attribution of rights based on ontological status.",
+    "tension": "Potentiality vs. Actuality of personhood.",
+    "limit": "Dependent on non-empirical metaphysical definitions of 'person'."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Fetus",
+      "definition": "A developing human life-form before birth."
+    },
+    {
+      "term": "Moral Rights",
+      "definition": "Rules about what you are allowed to do or have because you are a person."
+    },
+    {
+      "term": "Adult",
+      "definition": "A person who is fully grown and independent."
+    },
+    {
+      "term": "Personhood",
+      "definition": "The special 'sticker' or 'badge' that says a living thing counts as a member of the group we must protect."
+    }
+  ],
+  "preconceptual_transduction": "If a tiny seed is exactly the same as a big tree, then you must treat the seed with the same rules you use for the tree, even if the seed hasn't grown its branches yet.",
+  "iterations": [
+    {
+      "id": "1.1.1",
+      "base_statement": "A fetus has the same moral rights as an adult",
+      "subnode": "Symmetric Rights Collapse",
+      "context": "Does equivalent right imply equivalent obligation or protection in a shared physical space?"
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The definition of 'person' is not a physical fact but a social/metaphysical agreement, creating an unresolved circularity in the argument."
+  },
+  "deductive_observations": [
+    {
+      "origin": "If a fetus is a person (A), then it has the right to life (B).",
+      "conclusion": "If A is true, terminating the fetus is a violation of the right to life of a person.",
+      "notes": "Depends entirely on the validity of A."
+    }
+  ],
+  "subjectivities": [
+    "Religious interpretation of the soul",
+    "The threshold of 'sentience' or 'viability'",
+    "The prioritization of the host's autonomy vs the guest's right"
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "A fetus has the same moral rights as an adult",
+      "description": "The Famous Violinist (Judith Jarvis Thomson) experiment: Being a person with a right to life does not grant the right to use another person's body against their will.",
+      "refutation_degree": "partial",
+      "notes": "Challenges the 'application' of rights, not the 'existence' of the rights."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Societies grant rights progressively as a child grows (voting, consent).",
+      "inference": "Rights are often linked to development or social standing rather than just DNA.",
+      "confidence_degree": "high",
+      "notes": "Suggests that 'total equivalence' is not reflected in practical human law."
+    }
+  ],
+  "preconceptual_conclusion": "We aren't sure if the seed and the tree are the same, because one is already a house for birds and the other is still hiding in the dirt.",
+  "emerging_theory_or_intuition": "The 'Moral Gradualism' principle suggests rights emerge alongside biological and cognitive complexity, making 'instantaneous equality' a categorical leap.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "A fetus is a person from conception",
+        0,
+        0,
+        1,
+        "Personhood is a metaphysical status not falsifiable by empirical science."
+      ],
+      [
+        "A fetus has the same moral rights as an adult",
+        0,
+        0,
+        1,
+        "Dependent on the undefined status of personhood."
+      ],
+      [
+        "Abortion is elective termination of a life-form",
+        1,
+        0,
+        0,
+        "Biologically factual regardless of moral status."
+      ],
+      [
+        "A right to life includes the right to use another's body",
+        0,
+        1,
+        0,
+        "General moral law does not require individuals to provide biological life support to others."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "A fetus is a person from conception",
+    "B": "A fetus has the same moral rights as an adult",
+    "C": "Abortion is morally justifiable"
+  },
+  "boolean_formula_of_the_argument": "A && B => !C",
+  "why_the_formula_structure_is_incorrect": "It assumes B is a direct consequence of A without accounting for the conflict of the mother's rights (D).",
+  "boolean_argument_reformulation": "(A && B && !D) => !C",
+  "boolean_formula_to_natural_language": "If a fetus is a person and has adult rights, and if those rights override the host's rights, then abortion is not justifiable.",
+  "conclusion": "If personhood is granted at conception, then a fetus holds a right to life; however, if moral rights do not include the non-consensual use of another's body, then the equivalence to an adult does not necessitate the prohibition of abortion, and for all this, the question of abortion's justifiability remains a conflict of competing rights rather than a simple status of the fetus. The argument is incomplete.",
+  "collapse_implications": [
+    {
+      "statement": "A fetus is a person from conception",
+      "implication_by_false_state": "Abortion is viewed as a medical procedure on a non-personal organism.",
+      "implication_by_true_state": "Abortion involves the killing of a human person, requiring high-level moral justification like self-defense."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "The Potentiality Paradox: Treating a potential x as a current x.",
+    "ambiguity": "The term 'Rights' can mean 'protected interest' or 'absolute claim'.",
+    "useful_contradiction": "A fetus is biologically a human life but legally/socially an 'other' depending on the stage of gestation."
+  },
+  "analogous_reorganization": [
+    "The relationship between a blueprint and a completed skyscraper.",
+    "The copyright status of an unwritten book versus a published one.",
+    "The rights of a guest in a house versus the owner of the property."
+  ],
+  "implications": [
+    "Legal systems must decide between a 'binary' (all or nothing) or 'gradual' (incremental) model of rights.",
+    "Moral responsibility changes from 'stewardship of potential' to 'protection of equal'."
+  ],
+  "global_reevaluation": {
+    "state": "undefined",
+    "criteria": "The node cannot be collapsed because the foundational axiom (A) is a subjective metaphysical commitment."
+  },
+  "reconclusion": "The proposition is structurally valid only if one accepts the non-empirical axiom of immediate personhood; however, in a multi-variable field containing bodily autonomy, the conclusion of 'unjustifiable abortion' does not automatically follow from 'fetal rights', and for all this, the moral equivalence of a fetus to an adult is a functional stalemate in ethical logic.",
+  "preconceptual_reconclusion": "Just because a seed might become a flower doesn't mean it can take over the whole garden right now, especially if the garden belongs to someone else.",
+  "causal_chain": "Biological human life begins at fertilization which initiates a continuous developmental process that leads to personhood status which implies the possession of a right to life equivalent to that of an adult which creates a moral claim against being killed which conflicts with the bodily autonomy of the pregnant person which is also a moral right which implies a right to end a pregnancy which leads back to the question of which right takes precedence in a shared biological space based on the definition of personhood as an absolute vs relative value.",
+  "context": "A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: Is abortion morally justifiable?))))"
+}

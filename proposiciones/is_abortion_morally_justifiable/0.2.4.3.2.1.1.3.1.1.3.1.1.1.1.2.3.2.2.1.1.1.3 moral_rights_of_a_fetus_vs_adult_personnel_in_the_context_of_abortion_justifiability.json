@@ -1,0 +1,156 @@
+{
+  "input_semantic_node": "Moral rights of a fetus vs adult personnel in the context of abortion justifiability",
+  "central_semantic_node": "Fetal-Adult Moral Equivalence and Personhood Axiomatics",
+  "argument_reasons": [
+    "Identity politics regarding biological development stages as a proxy for moral worth.",
+    "The 'Potentiality Argument' which posits that a future person is equivalent to a present person.",
+    "The 'Ontological Discontinuity' argument which suggests rights emerge only at specific biological milestones (birth, viability, consciousness).",
+    "The 'Somatic Rights' counter-argument prioritizing the bodily autonomy of the gestational carrier over the potential rights of the fetus."
+  ],
+  "ontological_signature": {
+    "nature": "Axiomatic moral proposition",
+    "function": "To establish a hierarchy or equality of rights to determine the legality and morality of abortion.",
+    "domain": "Ethics, Bioethics, Legal Philosophy",
+    "form": "Recursive self-referential loop (Personhood defined by rights, rights defined by personhood).",
+    "tension": "Conflict between the 'Right to Life' of the fetus and the 'Right to Autonomy' of the adult gestator.",
+    "limit": "The definition of 'Person' is not a biological fact but a social/philosophical construct."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Fetus",
+      "definition": "An unborn offspring in the post-embryonic stage of development."
+    },
+    {
+      "term": "Personhood",
+      "definition": "The status of being a member of the moral community with inherent rights."
+    },
+    {
+      "term": "Moral Rights",
+      "definition": "Entitlements that require others to act or refrain from acting in certain ways."
+    },
+    {
+      "term": "Conception",
+      "definition": "The initialization of a unique genetic individual via fertilization."
+    }
+  ],
+  "preconceptual_transduction": "Imagine a tiny seed that could grow into a giant tree. Some people say the seed is already the tree and we must treat it like one. Others say it's just a seed until it grows leaves and can breathe on its own, and until then, the garden it grows in is more important.",
+  "iterations": [
+    {
+      "id": "1.1.1",
+      "base_statement": "A fetus is a person from conception",
+      "subnode": "Biological-Ontological Bridge",
+      "context": "Does genetic uniqueness satisfy the requirements for moral personhood?"
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The argument rests on 'personhood', which is an uncollapsed variable depending on subjective axiomatic choices (biological vs. cognitive definitions)."
+  },
+  "deductive_observations": [
+    {
+      "origin": "If a fetus has identical rights to an adult (A), and adults cannot be killed for the convenience of another (B).",
+      "conclusion": "Abortion is strictly immoral if A and B are assumed.",
+      "notes": "Requires the gestator to be viewed as a secondary container rather than a primary rights-holder."
+    }
+  ],
+  "subjectivities": [
+    "Religious vs. Secular definitions of the soul or 'spark of life'.",
+    "Varying thresholds for 'personhood' (heartbeat, brain waves, viability, birth).",
+    "The weight assigned to bodily autonomy versus the right to life."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "A fetus is a person from conception.",
+      "description": "The case of monozygotic twinning occurs after conception; if personhood starts at conception, one 'person' becomes two, creating a numerical identity paradox.",
+      "refutation_degree": "partial",
+      "notes": "Questions the 'unique genetic individual' as the sole basis for personhood."
+    },
+    {
+      "refuted_statement": "Fetal rights always equal adult rights.",
+      "description": "In triage or emergency medical situations where only one can be saved, medical/legal precedent often prioritizes the life/health of the adult mother.",
+      "refutation_degree": "partial",
+      "notes": "Indicates a hierarchical reality in practice."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Modern legal systems shift rights toward the fetus as it approaches viability.",
+      "inference": "Moral value is perceived as a gradient rather than a binary switch at conception.",
+      "confidence_degree": "high",
+      "notes": "Reflected in 'Heartbeat Bills' or late-term abortion bans."
+    }
+  ],
+  "preconceptual_conclusion": "The seed is very special, but it isn't a tree yet, and the person holding the seed has to decide if they are ready to be a forest.",
+  "emerging_theory_or_intuition": "Personhood is a 'Functional Emergence'. Moral rights are not bestowed by DNA alone but by the capacity for relational existence and self-awareness.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "A fetus has the same moral rights as an adult",
+        0,
+        0,
+        1,
+        "Depends on the axiomatic definition of personhood which is not universally settled."
+      ],
+      [
+        "A fetus is a person from conception",
+        0,
+        0,
+        1,
+        "Biological uniqueness is true, but 'personhood' is a philosophical status, not a biological one."
+      ],
+      [
+        "Abortion is morally justifiable",
+        0,
+        0,
+        1,
+        "Depends on the weighting of competing rights (autonomy vs. life)."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "A fetus has the same moral rights as an adult",
+    "B": "A fetus is a person from conception",
+    "C": "Abortion is morally justifiable"
+  },
+  "boolean_formula_of_the_argument": "((B && A) -> !C)",
+  "why_the_formula_structure_is_incorrect": "The formula assumes a linear implication and ignores the gestator's rights (D), which can be !C even if A is false, or C even if A is true.",
+  "boolean_argument_reformulation": "(B && A && !D) === !C",
+  "boolean_formula_to_natural_language": "If a fetus is a person from conception and has adult rights, and the gestator has no overriding rights, then that implies abortion is false.",
+  "conclusion": "The proposition requires assuming that biological continuity is equivalent to ontological identity, a premise refuted by the gradual emergence of consciousness and the legal precedence of somatic autonomy; and for all this, the statement that a fetus has identical moral rights to an adult is an unverified axiom that fails to account for the dependency and development of the entity. In a single line.",
+  "collapse_implications": [
+    {
+      "statement": "A fetus is a person from conception",
+      "implication_by_false_state": "Abortion becomes a matter of healthcare and autonomy without a competing moral subject.",
+      "implication_by_true_state": "Abortion becomes a conflict of interest between two equal moral subjects requiring a 'self-defense' or 'necessity' framework."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "The Potentiality Paradox: Treating a potential x as a current x creates contradictions in resource allocation.",
+    "ambiguity": "The term 'rights' is used interchangeably for 'legal protection' and 'moral worth'.",
+    "useful_contradiction": "The fetus is both 'part of the mother' (biologically) and 'distinct' (genetically), making it a dual-entity."
+  },
+  "analogous_reorganization": [
+    "A blueprints for a house vs. the finished house.",
+    "An acorns vs. an oak tree.",
+    "A guest in someone's home (the 'Violinist' analogy by Judith Jarvis Thomson)."
+  ],
+  "implications": [
+    "If personhood is genetic, every miscarriage is a legal death investigation.",
+    "If personhood is birth, late-term viable fetuses have zero rights, which contradicts moral intuition."
+  ],
+  "global_reevaluation": {
+    "state": "self-referential",
+    "criteria": "The argument is circular: a fetus has rights because it is a person, and it's a person because it should have rights."
+  },
+  "reconclusion": "Moral status is not a static property acquired at fertilization but a dynamic emergence tied to neurological complexity and social recognition; therefore, equating a blastocyst with a self-aware adult is a category error that collapses under the weight of pluralistic autonomy rights.",
+  "preconceptual_reconclusion": "You can't treat a drawing of a house like a place where you can sleep and stay dry, even if it eventually becomes one.",
+  "causal_chain": "Conception creates a unique genetic code which establishes a biological individual but not a social person because personhood requires an internal experience of being which the fetus only develops over time as the brain grows meaning that moral rights are a sliding scale where the mother's established rights to her own body are the strongest at the start and the fetus's rights grow as it becomes a baby capable of living outside the mother and for all this the claim that rights are equal from the very first day is a belief that doesn't match how we value life or how bodies actually work.",
+  "context": "A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: Is abortion morally justifiable?))))"
+}

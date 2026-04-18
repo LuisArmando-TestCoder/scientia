@@ -1,0 +1,153 @@
+{
+  "input_semantic_node": "Moral justifyability of abortion based on fetal personhood/rights from conception.",
+  "central_semantic_node": "Fetal Ontological Personhood and Moral Right Reciprocity",
+  "argument_reasons": [
+    "The premise 'A fetus is a person from conception' is used as a foundation for moral rights parity.",
+    "The argument assumes that if personhood is constant from conception, then the right to life is equivalent to that of an adult.",
+    "A recursive loop is identified: justifying abortion depends on rights, rights depend on personhood, and personhood is defined at conception to preclude abortion justification."
+  ],
+  "ontological_signature": {
+    "nature": "Axiomatic ethical framework",
+    "function": "To establish a definitive moral prohibition or justification through status assignment.",
+    "domain": "Applied ethics, ontology, legal philosophy.",
+    "form": "Recursive hierarchical loop.",
+    "tension": "Conflict between fetal right to life and bodily autonomy of the gestating person.",
+    "limit": "Depends on the non-empirical definition of 'person' vs 'biological human'."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Person",
+      "definition": "A member of a group that has special rules to keep them safe and respected."
+    },
+    {
+      "term": "Conception",
+      "definition": "The exact moment the building blocks of a new life come together."
+    },
+    {
+      "term": "Moral Rights",
+      "definition": "The 'invisible shields' everyone has that others are not allowed to break."
+    },
+    {
+      "term": "Justifiable",
+      "definition": "Having a good enough reason to do something even if it feels difficult."
+    }
+  ],
+  "preconceptual_transduction": "Imagine a tiny seed that someone says is already a tall tree with guards. If the seed is a tree, you can't move it. But the seed lives inside another tree's garden. Does the seed own the garden, or does the garden owner decide where seeds grow?",
+  "iterations": [
+    {
+      "id": "1.1.1",
+      "base_statement": "A fetus is a person from conception",
+      "subnode": "Ontological Personhood Start-point",
+      "context": "Is the transition from 'potential person' to 'actual person' binary at fertilization or a gradient?"
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The argument relies on the 'personhood' axiom which is ontologically uncollapsable through empirical data alone, leading to a meta-ethical standstill."
+  },
+  "deductive_observations": [
+    {
+      "origin": "If a fetus is a person (P) and all persons have a right to life (R), then a fetus has a right to life (Q).",
+      "conclusion": "Abortion is the termination of a being with a right to life.",
+      "notes": "Direct proof follows if P is granted."
+    }
+  ],
+  "subjectivities": [
+    "The definition of 'person' varies between religious, biological, and functionalist views.",
+    "The weight given to bodily autonomy vs. the right to life."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "A fetus has the same moral rights as an adult.",
+      "description": "The Violinist Paradox (Thomson): Being a person with a right to life does not grant the right to use another person's body against their will.",
+      "refutation_degree": "partial",
+      "notes": "Refutes the jump from 'right to life' to 'right to use the womb'."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Societies vary legal personhood based on developmental milestones (viability, birth).",
+      "inference": "Personhood is often treated as a social/legal construct rather than a biological absolute.",
+      "confidence_degree": "high",
+      "notes": "Observation of legal history and cultural anthropology."
+    }
+  ],
+  "preconceptual_conclusion": "We aren't sure if the seed is a person yet, but we know the garden belongs to someone else.",
+  "emerging_theory_or_intuition": "The 'Rights Conflict' theory: Even if personhood is granted at conception, moral justifiability shifts from the status of the fetus to the scope of 'positive' vs 'negative' rights regarding bodily use.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "A fetus is a person from conception",
+        0,
+        0,
+        1,
+        "The definition of personhood is an extra-logical axiom not determined by biological fact alone."
+      ],
+      [
+        "A fetus has the same moral rights as an adult",
+        0,
+        0,
+        1,
+        "Dependent on the undefined status of fetal personhood."
+      ],
+      [
+        "If a fetus has a right to life, abortion is never justifiable",
+        0,
+        1,
+        0,
+        "Self-defense and bodily autonomy arguments (Judith Jarvis Thomson) prove that right to life doesn't always override all other rights."
+      ],
+      [
+        "The prompt's context is a self-referential loop",
+        1,
+        0,
+        0,
+        "The context nesting returns to the start without adding new empirical data."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "A fetus is a person from conception",
+    "B": "A fetus has the same moral rights as an adult",
+    "C": "Abortion is morally justifiable"
+  },
+  "boolean_formula_of_the_argument": "A && B && !C",
+  "why_the_formula_structure_is_incorrect": "The formula assumes that A and B automatically necessitate !C, ignoring the 'Right to Bodily Autonomy' variable (D) which can coexist with A and B.",
+  "boolean_argument_reformulation": "(A && B && D) === C",
+  "boolean_formula_to_natural_language": "If a fetus is a person (A) and has rights (B), but the gestating person has bodily autonomy (D), then abortion can be justifiable (C).",
+  "conclusion": "If personhood is defined by biological markers then a fetus is a person, if personhood is defined by sentience it is not, but regardless of personhood, the moral right to life does not inherently include a right to non-consensual use of another's biological systems, as supported by the principle of bodily integrity found in common law and medical ethics (e.g., McFall v. Shimp), and for all this the statement is morally justifiable under the framework of bodily autonomy even if the premise of personhood is granted. In a single line.",
+  "collapse_implications": [
+    {
+      "statement": "A fetus is a person from conception",
+      "implication_by_false_state": "Abortion is morally equivalent to removing a non-sentient tissue, making it easily justifiable.",
+      "implication_by_true_state": "The debate shifts to whether 'Right to Life' includes 'Right to Life Support' via another's body."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "The Potentiality Paradox: A fetus is granted the rights of what it *will* become to prevent it from becoming it.",
+    "ambiguity": "The term 'person' oscillates between 'biological human' and 'moral agent'.",
+    "useful_contradiction": "A fetus can be a 'person' yet not have the right to occupy a 'person'."
+  },
+  "analogous_reorganization": [
+    "Forced organ donation: Even if person X will die without person Y's kidney, person Y cannot be forced to give it.",
+    "The Sovereign Territory: An entity entering a state's borders without a permit."
+  ],
+  "implications": [
+    "Moral frameworks that rely solely on ‘status’ (what a thing is) fail to resolve conflicts of ‘agency’ (what a thing does to another)."
+  ],
+  "global_reevaluation": {
+    "state": "self-referential",
+    "criteria": "The input context repeats the premise 'A fetus is a person from conception' as its own justification, creating a closed semantic circle."
+  },
+  "reconclusion": "The moral justifiability of abortion cannot be solved by iterating on fetal personhood alone; it requires a higher-order reconciliation of competing sovereign rights between two entities occupying the same biological space.",
+  "preconceptual_reconclusion": "The answer isn't just about what the tiny seed is; it's about who owns the garden and if they want to share it.",
+  "causal_chain": "Axiom of fertilization defines biological human life as the start of the entity. Social-legal frameworks translate biological human into 'person' to grant protections. If 'person' status is granted, 'Right to Life' (RTL) is activated. Traditional logic assumes RTL is an absolute positive right to exist. Jurisprudence and bodily autonomy ethics redefine RTL as a 'negative right' (not to be killed unjustly) rather than a 'positive right' to use another's organs. The conflict between RTL and Bodily Autonomy (BA) creates a hierarchy where BA is often recognized as the boundary of consent. Therefore, termination is the withdrawal of consent for use of the body, which is a justifiable act of autonomy even if the entity terminated has the standing of a person. Causal necessity dictates that no person can be a 'slave' to the survival of another, which justifies the act of abortion through the lens of self-sovereignty. This links the first principle of self-ownership to the specific conclusion that moral justification is independent of the fetal personhood axiom.",
+  "context": "Abortion is morally justifiable (context: A fetus is a person from conception (context: A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: Is abortion morally justifiable?))))"
+}

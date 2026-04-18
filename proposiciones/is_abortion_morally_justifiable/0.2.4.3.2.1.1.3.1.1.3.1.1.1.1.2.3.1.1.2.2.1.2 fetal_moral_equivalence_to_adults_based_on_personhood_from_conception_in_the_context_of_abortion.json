@@ -1,0 +1,148 @@
+{
+  "input_semantic_node": "Fetal moral equivalence to adults based on personhood from conception in the context of abortion.",
+  "central_semantic_node": "The Moral Status of Fetal Personhood",
+  "argument_reasons": [
+    "Identity Argument: A fetus is biologically a human being and therefore a person.",
+    "Continuity Argument: There is no non-arbitrary point of development where a non-person becomes a person other than conception.",
+    "Potentiality Argument: A fetus has the potential to become a rational adult and thus deserves the rights of one.",
+    "Justification for Absence: Specific utilitarian arguments regarding the mother's bodily autonomy are excluded here to focus strictly on the ontological status of the fetus as requested by the nested context."
+  ],
+  "ontological_signature": {
+    "nature": "Axiomatic Moral Principle",
+    "function": "To establish a legal and ethical barrier against the termination of pregnancy.",
+    "domain": "Bioethics and Ontological Legalism",
+    "form": "Recursive circularity within nested definitions of personhood.",
+    "tension": "Conflict between biological life and the philosophical criteria of 'personhood' (consciousness, agency).",
+    "limit": "Dependent on the subjective or religious definition of 'the soul' or 'essence' vs. empirical sentience."
+  },
+  "conceptual_disintegration": [
+    {
+      "term": "Fetus",
+      "definition": "A developing human life inside a mother."
+    },
+    {
+      "term": "Person",
+      "definition": "Someone who counts as a member of our group with rules and rights."
+    },
+    {
+      "term": "Moral Rights",
+      "definition": "The promise that others must treat you with respect and not hurt you."
+    },
+    {
+      "term": "Conception",
+      "definition": "The exact moment when a new life starts."
+    }
+  ],
+  "preconceptual_transduction": "If a tiny seed is already the same as a big tree, then we must treat the seed with the same care as the tree and never let it be thrown away.",
+  "iterations": [
+    {
+      "id": "1.1.1",
+      "base_statement": "A fetus has the same moral rights as an adult",
+      "subnode": "Equivalence of Potentiality vs Actuality",
+      "context": "Does the potential to possess a trait (reasoning) equal the current possession of that trait for the distribution of rights?"
+    }
+  ],
+  "global_evaluation": {
+    "state": "undefined",
+    "criteria": "The argument relies on a self-referential definition of personhood that is not empirically falsifiable, leading to an unresolved ontological gap between biological species and moral status."
+  },
+  "deductive_observations": [
+    {
+      "origin": "If a fetus is a person from conception (P)",
+      "conclusion": "It possesses the right to life (Q) by definition of 'Person'.",
+      "notes": "Valid only if the premise P is accepted as an absolute axiom."
+    }
+  ],
+  "subjectivities": [
+    "The definition of 'personhood' varies across cultures, legal systems, and neuroscientific metrics.",
+    "The weight of bodily autonomy of the pregnant person relative to the fetal right."
+  ],
+  "counterexamples": [
+    {
+      "refuted_statement": "A fetus has the same moral rights as an adult",
+      "description": "In a fire at a fertility clinic, a person would choose to save one 5-year-old child over 1,000 frozen embryos (fetuses in early stage).",
+      "refutation_degree": "partial",
+      "notes": "Highlights the intuitive hierarchy of value based on development vs. genetic identity."
+    }
+  ],
+  "inductive_observations": [
+    {
+      "observed_pattern": "Societies generally grant more legal protections as a fetus approaches viability.",
+      "inference": "Moral status is perceived as a spectrum rather than a binary switch at conception.",
+      "confidence_degree": "medium",
+      "notes": "Indicates common social pragmatism over strict metaphysical logic."
+    }
+  ],
+  "preconceptual_conclusion": "People don't agree on when the 'person' starts, so they can't agree on the rules for the 'seed'.",
+  "emerging_theory_or_intuition": "Personhood is not a biological property but a social-relational contract attributed based on perceived internal agency.",
+  "truth_table": {
+    "columns": [
+      "statement",
+      "true",
+      "false",
+      "undefined",
+      "justification"
+    ],
+    "rows": [
+      [
+        "A fetus has the same moral rights as an adult",
+        0,
+        0,
+        1,
+        "The equivalence depends on the variable 'personhood' which lacks a universal empirical metric."
+      ],
+      [
+        "A fetus is a person from conception",
+        0,
+        0,
+        1,
+        "Personhood is a philosophical construct, while conception is a biological event; their synchronization is an axiomatic choice, not a fact."
+      ],
+      [
+        "Is abortion morally justifiable?",
+        0,
+        0,
+        1,
+        "This is the dependent variable that cannot collapse without the stabilization of the personhood sub-nodes."
+      ]
+    ]
+  },
+  "formula_dictionary": {
+    "A": "A fetus has the same moral rights as an adult",
+    "B": "A fetus is a person from conception"
+  },
+  "boolean_formula_of_the_argument": "B === A",
+  "why_the_formula_structure_is_incorrect": "The formula assumes a bi-conditional that is circular in the prompt's context; B is used to prove A while A defines the significance of B.",
+  "boolean_argument_reformulation": "B && (B === A) === A",
+  "boolean_formula_to_natural_language": "If the state of a fetus being a person from conception is true, then that implies the statement that a fetus has the same moral rights as an adult is true.",
+  "conclusion": "If personhood is defined by genetic identity then the fetus is a person, if personhood is defined by cognitive capacity then it is not, and for all this personhood is a subjective label applied to biological data to satisfy pre-existing moral frameworks, rendering the equivalence to an adult a matter of belief rather than a derivable biological fact. and for all this the moral status of a fetus remains an uncollapsible node in the absence of a consensus definition of personhood.",
+  "collapse_implications": [
+    {
+      "statement": "A fetus is a person from conception",
+      "implication_by_false_state": "Abortion is viewed as a medical procedure rather than a moral violation of a person's rights.",
+      "implication_by_true_state": "Abortion is logically equivalent to homicide in any framework that protects personhood."
+    }
+  ],
+  "logical_tension": {
+    "paradox": "A fetus is a 'human' (species) but not yet a 'human' (social actor).",
+    "ambiguity": "The term 'rights' assumes an entity that can be wronged, which usually implies sentience.",
+    "useful_contradiction": "The fetus is simultaneously 'part of' the mother and 'a separate' genetic entity."
+  },
+  "analogous_reorganization": [
+    "A blueprint of a house vs. the built house.",
+    "The potential energy in a battery vs. the active flow of electricity.",
+    "The source code of a program vs. the running software."
+  ],
+  "implications": [
+    "Legal systems will remain inconsistent until 'personhood' is decoupled from 'human biology'.",
+    "Moral certainty on either side of the debate requires ignoring the structural ambiguity of the developmental process."
+  ],
+  "global_reevaluation": {
+    "state": "self-referential",
+    "criteria": "The prompt nests the justification of rights within the definition of personhood, creating a closed loop where the conclusion is required to validate the premise."
+  },
+  "reconclusion": "The assertion that a fetus has the same moral rights as an adult is an axiomatic derivative of the premise of personhood at conception; since personhood is a non-empirical social attribute, the argument cannot be proven 'true' or 'false' within a formal logic system without first choosing a subjective ontological starting point. and for all this the debate is a conflict of fundamental axioms regarding the start of moral agency.",
+  "preconceptual_reconclusion": "The seed and the tree are the same if you only look at what they are made of, but different if you look at what they can do right now.",
+  "causal_chain": "Abortion_justifiability_depends_on_fetal_rights -> Fetal_rights_depend_on_personhood -> Personhood_is_defined_at_conception -> Conception_creates_a_unique_genetic_code -> Unique_genetic_code_is_the_biological_definition_of_a_human_person -> Therefore_rights_apply_from_start_of_code -> However_rights_normally_require_sentience -> Fetus_lacks_sentience_at_conception -> This_contradicts_the_standard_application_of_rights_to_adults -> Therefore_the_equivalence_is_only_logical_if_biology_overrides_sentience_as_the_source_of_rights.",
+  "context": "A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: A fetus has the same moral rights as an adult (context: A fetus is a person from conception (context: Is abortion morally justifiable?))))"
+}
